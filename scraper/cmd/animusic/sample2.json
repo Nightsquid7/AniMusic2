@@ -1,0 +1,1250 @@
+{
+	"13037": {
+		"Id": "13037",
+		"Name": "Hatena Illusion",
+		"Ref": "http://anidb.net/anime/13037",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"13299": {
+		"Id": "13299",
+		"Name": "22/7",
+		"Ref": "http://anidb.net/anime/13299",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"13612": {
+		"Id": "13612",
+		"Name": "Gekijouban Made in Abyss: Fukaki Tamashii no Reimei",
+		"Ref": "http://anidb.net/anime/13612",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"13826": {
+		"Id": "13826",
+		"Name": "Plunderer",
+		"Ref": "http://anidb.net/anime/13826",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103194",
+				"AnimeId": "13826",
+				"Name": "Plunderer",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Itou Miku"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "103194",
+				"AnimeId": "13826",
+				"Name": "Plunderer",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Itou Miku"
+				],
+				"Relation": "ending"
+			},
+			{
+				"Id": "103195",
+				"AnimeId": "13826",
+				"Name": "Countless Days",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Hon`izumi Rina"
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"13947": {
+		"Id": "13947",
+		"Name": "Pet",
+		"Ref": "http://anidb.net/anime/13947",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103502",
+				"AnimeId": "13947",
+				"Name": "Chou no Tobu Suisou",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"TK"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "103503",
+				"AnimeId": "13947",
+				"Name": "Image _____",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Memai Siren"
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"13964": {
+		"Id": "13964",
+		"Name": "Majutsushi Orphen Hagure Tabi",
+		"Ref": "http://anidb.net/anime/13964",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14017": {
+		"Id": "14017",
+		"Name": "Gekijouban High School Fleet",
+		"Ref": "http://anidb.net/anime/14017",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14061": {
+		"Id": "14061",
+		"Name": "Gekijouban Shirobako",
+		"Ref": "http://anidb.net/anime/14061",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14071": {
+		"Id": "14071",
+		"Name": "Bokura no Nanokakan Sensou",
+		"Ref": "http://anidb.net/anime/14071",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103190",
+				"AnimeId": "14071",
+				"Name": "Kessen Zen`ya",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Sano Ibuki"
+				],
+				"Relation": "theme song"
+			},
+			{
+				"Id": "103191",
+				"AnimeId": "14071",
+				"Name": "Omajinai",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Sano Ibuki"
+				],
+				"Relation": "theme song"
+			},
+			{
+				"Id": "103192",
+				"AnimeId": "14071",
+				"Name": "Spirit",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Sano Ibuki"
+				],
+				"Relation": "theme song"
+			}
+		]
+	},
+	"14076": {
+		"Id": "14076",
+		"Name": "Bang Dream! 3rd Season",
+		"Ref": "http://anidb.net/anime/14076",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14087": {
+		"Id": "14087",
+		"Name": "Oshi ga Budoukan Itte Kuretara Shinu",
+		"Ref": "http://anidb.net/anime/14087",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14233": {
+		"Id": "14233",
+		"Name": "Kono Sekai no (Sara ni Ikutsumo no) Katasumi ni",
+		"Ref": "http://anidb.net/anime/14233",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14240": {
+		"Id": "14240",
+		"Name": "Digimon Adventure: Last Evolution Kizuna",
+		"Ref": "http://anidb.net/anime/14240",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14259": {
+		"Id": "14259",
+		"Name": "Iya na Kao Sarenagara Opantsu Misete Moraitai 2",
+		"Ref": "http://anidb.net/anime/14259",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14292": {
+		"Id": "14292",
+		"Name": "ARP Backstage Pass",
+		"Ref": "http://anidb.net/anime/14292",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14360": {
+		"Id": "14360",
+		"Name": "Magia Record: Mahou Shoujo Madoka Magica Gaiden",
+		"Ref": "http://anidb.net/anime/14360",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103193",
+				"AnimeId": "14360",
+				"Name": "Gomakashi",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"TrySail"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "103193",
+				"AnimeId": "14360",
+				"Name": "Gomakashi",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"TrySail"
+				],
+				"Relation": "ending"
+			},
+			{
+				"Id": "103400",
+				"AnimeId": "14360",
+				"Name": "Alicia",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"ClariS"
+				],
+				"Relation": "ending"
+			},
+			{
+				"Id": "103637",
+				"AnimeId": "14360",
+				"Name": "Uwasa Kazoe Uta",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Katou Emiri"
+				],
+				"Relation": "insert song"
+			}
+		]
+	},
+	"14393": {
+		"Id": "14393",
+		"Name": "Boku no Tonari ni Ankoku Hakaishin ga Imasu.",
+		"Ref": "http://anidb.net/anime/14393",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14439": {
+		"Id": "14439",
+		"Name": "Heya Camp",
+		"Ref": "http://anidb.net/anime/14439",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103306",
+				"AnimeId": "14439",
+				"Name": "The Sunshower",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Asaka"
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"14441": {
+		"Id": "14441",
+		"Name": "Toaru Kagaku no Railgun T",
+		"Ref": "http://anidb.net/anime/14441",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14476": {
+		"Id": "14476",
+		"Name": "Darwin`s Game",
+		"Ref": "http://anidb.net/anime/14476",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103356",
+				"AnimeId": "14476",
+				"Name": "Chain",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Asca"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "103356",
+				"AnimeId": "14476",
+				"Name": "Chain",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Asca"
+				],
+				"Relation": "ending"
+			},
+			{
+				"Id": "103326",
+				"AnimeId": "14476",
+				"Name": "Alive",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Ayano Mashiro"
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"14479": {
+		"Id": "14479",
+		"Name": "Mushikago no Cagaster",
+		"Ref": "http://anidb.net/anime/14479",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14483": {
+		"Id": "14483",
+		"Name": "Dorohedoro",
+		"Ref": "http://anidb.net/anime/14483",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14523": {
+		"Id": "14523",
+		"Name": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
+		"Ref": "http://anidb.net/anime/14523",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14552": {
+		"Id": "14552",
+		"Name": "Haikyuu!! To the Top",
+		"Ref": "http://anidb.net/anime/14552",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14564": {
+		"Id": "14564",
+		"Name": "Infinite Dendrogram",
+		"Ref": "http://anidb.net/anime/14564",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14570": {
+		"Id": "14570",
+		"Name": "Nekopara (2020)",
+		"Ref": "http://anidb.net/anime/14570",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14590": {
+		"Id": "14590",
+		"Name": "Rikei ga Koi ni Ochita no de Shoumei Shite Mita.",
+		"Ref": "http://anidb.net/anime/14590",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14602": {
+		"Id": "14602",
+		"Name": "Kyokou Suiri",
+		"Ref": "http://anidb.net/anime/14602",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14655": {
+		"Id": "14655",
+		"Name": "A3! Season Spring \u0026 Summer",
+		"Ref": "http://anidb.net/anime/14655",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14707": {
+		"Id": "14707",
+		"Name": "Koi Suru Asteroid",
+		"Ref": "http://anidb.net/anime/14707",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103378",
+				"AnimeId": "14707",
+				"Name": "Aruite Ikou!",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Touyama Nao"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "103379",
+				"AnimeId": "14707",
+				"Name": "Yozora",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Suzuki Minori"
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"14722": {
+		"Id": "14722",
+		"Name": "Breakers",
+		"Ref": "http://anidb.net/anime/14722",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103543",
+				"AnimeId": "14722",
+				"Name": "Super Hero",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"BugLug"
+				],
+				"Relation": "theme song"
+			}
+		]
+	},
+	"14729": {
+		"Id": "14729",
+		"Name": "Tsugumomo (2020)",
+		"Ref": "http://anidb.net/anime/14729",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14754": {
+		"Id": "14754",
+		"Name": "Eiga Youkai Watch Jam: Youkai Gakuen Y - Neko wa Hero ni Nareru ka",
+		"Ref": "http://anidb.net/anime/14754",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103318",
+				"AnimeId": "14754",
+				"Name": "Y Gakuen e Ikou: Gakuen Dotabata Hen",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Riinu"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "103317",
+				"AnimeId": "14754",
+				"Name": "Meteo",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Pink Lady"
+				],
+				"Relation": "theme song"
+			}
+		]
+	},
+	"14755": {
+		"Id": "14755",
+		"Name": "Kuutei Dragons",
+		"Ref": "http://anidb.net/anime/14755",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14757": {
+		"Id": "14757",
+		"Name": "Jibaku Shounen Hanako-kun",
+		"Ref": "http://anidb.net/anime/14757",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14776": {
+		"Id": "14776",
+		"Name": "Boku no Hero Academia the Movie: Heroes:Rising",
+		"Ref": "http://anidb.net/anime/14776",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14782": {
+		"Id": "14782",
+		"Name": "Goblin Slayer: Goblin`s Crown",
+		"Ref": "http://anidb.net/anime/14782",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14785": {
+		"Id": "14785",
+		"Name": "Somali to Mori no Kamisama",
+		"Ref": "http://anidb.net/anime/14785",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "102589",
+				"AnimeId": "14785",
+				"Name": "Arigatou wa Kocchi no Kotoba",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Moriyama Naotarou"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "102588",
+				"AnimeId": "14785",
+				"Name": "Kokoro Somali",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Minase Inori"
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"14788": {
+		"Id": "14788",
+		"Name": "Number 24",
+		"Ref": "http://anidb.net/anime/14788",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14797": {
+		"Id": "14797",
+		"Name": "Saiki Kusuo no Sainan: Saishidou Hen",
+		"Ref": "http://anidb.net/anime/14797",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14799": {
+		"Id": "14799",
+		"Name": "ACCA 13-ku Kansatsu-ka: Regards",
+		"Ref": "http://anidb.net/anime/14799",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14839": {
+		"Id": "14839",
+		"Name": "Baja no Studio: Baja no Mita Umi",
+		"Ref": "http://anidb.net/anime/14839",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14889": {
+		"Id": "14889",
+		"Name": "Saezuru Tori wa Habatakanai: The Clouds Gather",
+		"Ref": "http://anidb.net/anime/14889",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14907": {
+		"Id": "14907",
+		"Name": "Eizouken ni wa Te o Dasuna!",
+		"Ref": "http://anidb.net/anime/14907",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103358",
+				"AnimeId": "14907",
+				"Name": "Easy Breezy",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"Chelmico"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "103359",
+				"AnimeId": "14907",
+				"Name": "Namae no Nai Ao",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Kamisama, Boku wa Kizuite Shimatta"
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"14928": {
+		"Id": "14928",
+		"Name": "Haishin Yuusha",
+		"Ref": "http://anidb.net/anime/14928",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14952": {
+		"Id": "14952",
+		"Name": "Uchi Tama?! Uchi no Tama Shirimasenka?",
+		"Ref": "http://anidb.net/anime/14952",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14957": {
+		"Id": "14957",
+		"Name": "Yatogame-chan Kansatsu Nikki Nisatsume",
+		"Ref": "http://anidb.net/anime/14957",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103640",
+				"AnimeId": "14957",
+				"Name": "Imaginary Love",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"+ Alpha / Alfakyun."
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"14961": {
+		"Id": "14961",
+		"Name": "Shinkansen Henkei Robo Shinkalion: Mirai kara Kita Shinsoku no ALFA-X",
+		"Ref": "http://anidb.net/anime/14961",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14964": {
+		"Id": "14964",
+		"Name": "Isekai Quartet 2",
+		"Ref": "http://anidb.net/anime/14964",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14969": {
+		"Id": "14969",
+		"Name": "Ishuzoku Reviewers",
+		"Ref": "http://anidb.net/anime/14969",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103597",
+				"AnimeId": "14969",
+				"Name": "Ikouze Paradise",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"Kobayashi Yuusuke",
+					"Majima Junji",
+					"Tomita Miyu"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "103598",
+				"AnimeId": "14969",
+				"Name": "Hanabira Ondo",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 2
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Kobayashi Yuusuke",
+					"Majima Junji",
+					"Tomita Miyu"
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"14984": {
+		"Id": "14984",
+		"Name": "Eiga Doraemon: Nobita no Shin Kyouryuu",
+		"Ref": "http://anidb.net/anime/14984",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"14987": {
+		"Id": "14987",
+		"Name": "ID:Invaded",
+		"Ref": "http://anidb.net/anime/14987",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103504",
+				"AnimeId": "14987",
+				"Name": "Mister Fixer",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Sou"
+				],
+				"Relation": "opening"
+			},
+			{
+				"Id": "103504",
+				"AnimeId": "14987",
+				"Name": "Mister Fixer",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Sou"
+				],
+				"Relation": "ending"
+			},
+			{
+				"Id": "103505",
+				"AnimeId": "14987",
+				"Name": "Other Side",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Miyavi"
+				],
+				"Relation": "ending"
+			},
+			{
+				"Id": "103655",
+				"AnimeId": "14987",
+				"Name": "Up",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Miyavi"
+				],
+				"Relation": "insert song"
+			},
+			{
+				"Id": "103672",
+				"AnimeId": "14987",
+				"Name": "Samurai 45",
+				"Range": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Miyavi"
+				],
+				"Relation": "insert song"
+			}
+		]
+	},
+	"15007": {
+		"Id": "15007",
+		"Name": "Tenchi Muyou! Ryououki Dai Go-ki",
+		"Ref": "http://anidb.net/anime/15007",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15012": {
+		"Id": "15012",
+		"Name": "Kotodama Shoujo the Animation: Microphone Soul Spinners",
+		"Ref": "http://anidb.net/anime/15012",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15014": {
+		"Id": "15014",
+		"Name": "Rebirth",
+		"Ref": "http://anidb.net/anime/15014",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103466",
+				"AnimeId": "15014",
+				"Name": "Rebirth Go!",
+				"Range": null,
+				"Classification": "",
+				"Artists": [
+					"Hazuki Himari",
+					"Iwata Haruki",
+					"Koyama Momoyo",
+					"Mimura Haruka",
+					"Narumi Runa",
+					"Nishimoto Rimi",
+					"Nishio Yuuka",
+					"Ootsuka Sae",
+					"Ozaki Yuka",
+					"Saeki Iori",
+					"Shindou Amane",
+					"Toono Hikaru"
+				],
+				"Relation": "theme song"
+			}
+		]
+	},
+	"15016": {
+		"Id": "15016",
+		"Name": "Oda Shinamon Nobunaga",
+		"Ref": "http://anidb.net/anime/15016",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15038": {
+		"Id": "15038",
+		"Name": "Housekishou Richard-shi no Nazo Kantei",
+		"Ref": "http://anidb.net/anime/15038",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15045": {
+		"Id": "15045",
+		"Name": "Haikyuu!! (2019)",
+		"Ref": "http://anidb.net/anime/15045",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15055": {
+		"Id": "15055",
+		"Name": "Sekaiichi Hatsukoi: Proposal Hen",
+		"Ref": "http://anidb.net/anime/15055",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15064": {
+		"Id": "15064",
+		"Name": "Gekijouban Kyochuu Rettou",
+		"Ref": "http://anidb.net/anime/15064",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15096": {
+		"Id": "15096",
+		"Name": "Runway de Waratte",
+		"Ref": "http://anidb.net/anime/15096",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15104": {
+		"Id": "15104",
+		"Name": "Eiga Neko Neko Nipponshi: Ryouma no Hachamecha Time Travel ze yo!",
+		"Ref": "http://anidb.net/anime/15104",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15121": {
+		"Id": "15121",
+		"Name": "Murenase! Seton Gakuen",
+		"Ref": "http://anidb.net/anime/15121",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15130": {
+		"Id": "15130",
+		"Name": "Strike the Blood: Kieta Seisou Hen",
+		"Ref": "http://anidb.net/anime/15130",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15155": {
+		"Id": "15155",
+		"Name": "King of Prism All Stars: Prism Show Best Ten",
+		"Ref": "http://anidb.net/anime/15155",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15204": {
+		"Id": "15204",
+		"Name": "Eiga Precure Miracle Leap: Minna to no Fushigi na Ichinichi",
+		"Ref": "http://anidb.net/anime/15204",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15217": {
+		"Id": "15217",
+		"Name": "Naka no Hito Genome [Jikkyouchuu] Knots of Memories",
+		"Ref": "http://anidb.net/anime/15217",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15231": {
+		"Id": "15231",
+		"Name": "Healin` Good Precure",
+		"Ref": "http://anidb.net/anime/15231",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15239": {
+		"Id": "15239",
+		"Name": "Shimajirou to Sora Tobu Fune",
+		"Ref": "http://anidb.net/anime/15239",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15244": {
+		"Id": "15244",
+		"Name": "Marco to Ginga Ryuu",
+		"Ref": "http://anidb.net/anime/15244",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15268": {
+		"Id": "15268",
+		"Name": "Youkai Watch Jam: Youkai Gakuen Y - N to no Souguu",
+		"Ref": "http://anidb.net/anime/15268",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15272": {
+		"Id": "15272",
+		"Name": "Natsunagu!",
+		"Ref": "http://anidb.net/anime/15272",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15280": {
+		"Id": "15280",
+		"Name": "Hulaing Babies Petit",
+		"Ref": "http://anidb.net/anime/15280",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15281": {
+		"Id": "15281",
+		"Name": "Show by Rock!! Mashumairesh!!",
+		"Ref": "http://anidb.net/anime/15281",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15282": {
+		"Id": "15282",
+		"Name": "Gainatamager",
+		"Ref": "http://anidb.net/anime/15282",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15300": {
+		"Id": "15300",
+		"Name": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen OVA",
+		"Ref": "http://anidb.net/anime/15300",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15309": {
+		"Id": "15309",
+		"Name": "Hakumei no Tsubasa",
+		"Ref": "http://anidb.net/anime/15309",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15317": {
+		"Id": "15317",
+		"Name": "Marumaru Manul",
+		"Ref": "http://anidb.net/anime/15317",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15334": {
+		"Id": "15334",
+		"Name": "Lalalacoco",
+		"Ref": "http://anidb.net/anime/15334",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15346": {
+		"Id": "15346",
+		"Name": "Kidou Senshi Gundam G40",
+		"Ref": "http://anidb.net/anime/15346",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": [
+			{
+				"Id": "103674",
+				"AnimeId": "15346",
+				"Name": "Show You the Way",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"The Rampage"
+				],
+				"Relation": "ending"
+			},
+			{
+				"Id": "103673",
+				"AnimeId": "15346",
+				"Name": "To the Sky",
+				"Range": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"FANTASTICS from EXILE TRIBE"
+				],
+				"Relation": "ending"
+			}
+		]
+	},
+	"15348": {
+		"Id": "15348",
+		"Name": "Hentatsu (2020)",
+		"Ref": "http://anidb.net/anime/15348",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15367": {
+		"Id": "15367",
+		"Name": "Dream",
+		"Ref": "http://anidb.net/anime/15367",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"15372": {
+		"Id": "15372",
+		"Name": "Kandagawa Jet Girls: Kokokara Hajimaru Tokyo Girls Promotion",
+		"Ref": "http://anidb.net/anime/15372",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	},
+	"9399": {
+		"Id": "9399",
+		"Name": "Ongaku",
+		"Ref": "http://anidb.net/anime/9399",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": null
+	}
+}
