@@ -6,7 +6,32 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103581",
+				"AnimeId": "13037",
+				"Name": "Magic Words",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Liyuu"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103582",
+				"AnimeId": "13037",
+				"Name": "Hikari-iro no Uta",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Suzuki Aina"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"13299": {
 		"Id": "13299",
@@ -15,7 +40,110 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103401",
+				"AnimeId": "13299",
+				"Name": "Muzui",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 4
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"22/7"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103402",
+				"AnimeId": "13299",
+				"Name": "Sora no Emerald",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 2
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"22/7"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103735",
+				"AnimeId": "13299",
+				"Name": "One of Them",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					"Saijou Nagomi"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103743",
+				"AnimeId": "13299",
+				"Name": "Ikiru Koto ni Raku ni Naritai",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "ED3",
+				"Artists": [
+					"Amaki Sally"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103184",
+				"AnimeId": "13299",
+				"Name": "Boku wa Sonzai Shiteinakatta",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"22/7"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103179",
+				"AnimeId": "13299",
+				"Name": "Shampoo no Nioi ga Shita",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"22/7"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			}
+		]
 	},
 	"13612": {
 		"Id": "13612",
@@ -24,7 +152,42 @@
 		"Format": "Movie",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103705",
+				"AnimeId": "13612",
+				"Name": "Forever Lost",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Myth \u0026 Roid"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103731",
+				"AnimeId": "13612",
+				"Name": "Tozo Hanoline",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Úyanga Bold"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			}
+		]
 	},
 	"13826": {
 		"Id": "13826",
@@ -38,18 +201,19 @@
 				"Id": "103194",
 				"AnimeId": "13826",
 				"Name": "Plunderer",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Itou Miku"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
 			},
 			{
 				"Id": "103194",
 				"AnimeId": "13826",
 				"Name": "Plunderer",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -59,18 +223,20 @@
 				"Artists": [
 					"Itou Miku"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			},
 			{
 				"Id": "103195",
 				"AnimeId": "13826",
 				"Name": "Countless Days",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Hon`izumi Rina"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
@@ -86,23 +252,25 @@
 				"Id": "103502",
 				"AnimeId": "13947",
 				"Name": "Chou no Tobu Suisou",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"TK"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
 			},
 			{
 				"Id": "103503",
 				"AnimeId": "13947",
 				"Name": "Image _____",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Memai Siren"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
@@ -113,7 +281,32 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103576",
+				"AnimeId": "13964",
+				"Name": "Calling U",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Buzz Vibes"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103577",
+				"AnimeId": "13964",
+				"Name": "Yosokufunou Days",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Fuchigami Mai"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14017": {
 		"Id": "14017",
@@ -131,7 +324,20 @@
 		"Format": "Movie",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103676",
+				"AnimeId": "14061",
+				"Name": "Hoshi o Mitsumete",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Fhana"
+				],
+				"Relation": "theme song",
+				"Year": "2020"
+			}
+		]
 	},
 	"14071": {
 		"Id": "14071",
@@ -145,34 +351,37 @@
 				"Id": "103190",
 				"AnimeId": "14071",
 				"Name": "Kessen Zen`ya",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Sano Ibuki"
 				],
-				"Relation": "theme song"
+				"Relation": "theme song",
+				"Year": "2020"
 			},
 			{
 				"Id": "103191",
 				"AnimeId": "14071",
 				"Name": "Omajinai",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Sano Ibuki"
 				],
-				"Relation": "theme song"
+				"Relation": "theme song",
+				"Year": "2020"
 			},
 			{
 				"Id": "103192",
 				"AnimeId": "14071",
 				"Name": "Spirit",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Sano Ibuki"
 				],
-				"Relation": "theme song"
+				"Relation": "theme song",
+				"Year": "2020"
 			}
 		]
 	},
@@ -192,7 +401,49 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103394",
+				"AnimeId": "14087",
+				"Name": "Clover Wish",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"ChamJam"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103395",
+				"AnimeId": "14087",
+				"Name": "Momoiro Kataomoi",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Fairouz Ai"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103647",
+				"AnimeId": "14087",
+				"Name": "Zutto ChamJam",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"ChamJam"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			}
+		]
 	},
 	"14233": {
 		"Id": "14233",
@@ -228,7 +479,117 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103658",
+				"AnimeId": "14292",
+				"Name": "Burn It Up",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"ARP"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103659",
+				"AnimeId": "14292",
+				"Name": "Celebrate Good Time",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"ARP"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103664",
+				"AnimeId": "14292",
+				"Name": "Black Sapphire",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"CROSS BONE"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103663",
+				"AnimeId": "14292",
+				"Name": "Logical Dreamer",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Leon"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103662",
+				"AnimeId": "14292",
+				"Name": "The Kiss",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"REBEL CROSS"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103660",
+				"AnimeId": "14292",
+				"Name": "The Show Must Go On",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"ARP"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103661",
+				"AnimeId": "14292",
+				"Name": "The World Is Mine",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Shinji"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			}
+		]
 	},
 	"14360": {
 		"Id": "14360",
@@ -242,18 +603,19 @@
 				"Id": "103193",
 				"AnimeId": "14360",
 				"Name": "Gomakashi",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"TrySail"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
 			},
 			{
 				"Id": "103193",
 				"AnimeId": "14360",
 				"Name": "Gomakashi",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -263,24 +625,26 @@
 				"Artists": [
 					"TrySail"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			},
 			{
 				"Id": "103400",
 				"AnimeId": "14360",
 				"Name": "Alicia",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"ClariS"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			},
 			{
 				"Id": "103637",
 				"AnimeId": "14360",
 				"Name": "Uwasa Kazoe Uta",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -290,7 +654,25 @@
 				"Artists": [
 					"Katou Emiri"
 				],
-				"Relation": "insert song"
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103738",
+				"AnimeId": "14360",
+				"Name": "Kokuhou High End",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Machico"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
 			}
 		]
 	},
@@ -301,7 +683,32 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103648",
+				"AnimeId": "14393",
+				"Name": "Take Mo` Chance",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"All at Once"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103305",
+				"AnimeId": "14393",
+				"Name": "Freedom de Muda ni Muteki!!",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"AOP"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14439": {
 		"Id": "14439",
@@ -315,12 +722,13 @@
 				"Id": "103306",
 				"AnimeId": "14439",
 				"Name": "The Sunshower",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Asaka"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
@@ -331,7 +739,49 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103593",
+				"AnimeId": "14441",
+				"Name": "Final Phase",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"FripSide"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103593",
+				"AnimeId": "14441",
+				"Name": "Final Phase",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"FripSide"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103281",
+				"AnimeId": "14441",
+				"Name": "Nameless Story",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kishida Kyoudan & The Akeboshi Rockets"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14476": {
 		"Id": "14476",
@@ -345,18 +795,19 @@
 				"Id": "103356",
 				"AnimeId": "14476",
 				"Name": "Chain",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Asca"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
 			},
 			{
 				"Id": "103356",
 				"AnimeId": "14476",
 				"Name": "Chain",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -366,18 +817,20 @@
 				"Artists": [
 					"Asca"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			},
 			{
 				"Id": "103326",
 				"AnimeId": "14476",
 				"Name": "Alive",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Ayano Mashiro"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
@@ -388,7 +841,32 @@
 		"Format": "Web",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103665",
+				"AnimeId": "14479",
+				"Name": "Be Zero",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Hilcrhyme"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103666",
+				"AnimeId": "14479",
+				"Name": "Okubyou na Ookami 2019",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Hilcrhyme"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14483": {
 		"Id": "14483",
@@ -397,7 +875,33 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103649",
+				"AnimeId": "14483",
+				"Name": "Welcome to Chaos",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Tachibana Ayaka"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103650",
+				"AnimeId": "14483",
+				"Name": "Who Am I?",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Nikiie",
+					"Tachibana Ayaka"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14523": {
 		"Id": "14523",
@@ -406,7 +910,49 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103614",
+				"AnimeId": "14523",
+				"Name": "Kyuukyoku Imbalance!",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Junjou no Afilia"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103615",
+				"AnimeId": "14523",
+				"Name": "Play the World",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Sasaki Riko"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103737",
+				"AnimeId": "14523",
+				"Name": "Good Night",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Sasaki Riko"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			}
+		]
 	},
 	"14552": {
 		"Id": "14552",
@@ -415,7 +961,32 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103324",
+				"AnimeId": "14552",
+				"Name": "Phoenix",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Burnout Syndromes"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103325",
+				"AnimeId": "14552",
+				"Name": "Kessen Spirit",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Chico"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14564": {
 		"Id": "14564",
@@ -424,7 +995,32 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103585",
+				"AnimeId": "14564",
+				"Name": "Unbreakable",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Yuuki Aoi"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103586",
+				"AnimeId": "14564",
+				"Name": "Reverb",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Uchida Aya"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14570": {
 		"Id": "14570",
@@ -433,7 +1029,48 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103397",
+				"AnimeId": "14570",
+				"Name": "Shiny Happy Days",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 3
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"Itou Miku",
+					"Izawa Shiori",
+					"Mizutani Marin",
+					"Noguchi Yuri",
+					"Saeki Iori",
+					"Yagi Yuki"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103398",
+				"AnimeId": "14570",
+				"Name": "Hidamari no Kaori",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 3
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Saeki Iori",
+					"Yagi Yuki"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14590": {
 		"Id": "14590",
@@ -442,7 +1079,32 @@
 		"Format": "Web",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103347",
+				"AnimeId": "14590",
+				"Name": "Paradox",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Amamiya Sora"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103618",
+				"AnimeId": "14590",
+				"Name": "Turing Love",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Nanao Akari"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14602": {
 		"Id": "14602",
@@ -451,7 +1113,32 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103196",
+				"AnimeId": "14602",
+				"Name": "Mononoke in the Fiction",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Uso to Chameleon"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103357",
+				"AnimeId": "14602",
+				"Name": "Last Dance",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Miyano Mamoru"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14655": {
 		"Id": "14655",
@@ -460,7 +1147,20 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103289",
+				"AnimeId": "14655",
+				"Name": "Act! Addict! Actors!",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"A3ders!"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			}
+		]
 	},
 	"14707": {
 		"Id": "14707",
@@ -474,23 +1174,42 @@
 				"Id": "103378",
 				"AnimeId": "14707",
 				"Name": "Aruite Ikou!",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Touyama Nao"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103739",
+				"AnimeId": "14707",
+				"Name": "Ano Hoshi no Mukou ni",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Takayanagi Tomoyo"
+				],
+				"Relation": "ending",
+				"Year": "2020"
 			},
 			{
 				"Id": "103379",
 				"AnimeId": "14707",
 				"Name": "Yozora",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Suzuki Minori"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
@@ -506,12 +1225,13 @@
 				"Id": "103543",
 				"AnimeId": "14722",
 				"Name": "Super Hero",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"BugLug"
 				],
-				"Relation": "theme song"
+				"Relation": "theme song",
+				"Year": "2020"
 			}
 		]
 	},
@@ -536,23 +1256,25 @@
 				"Id": "103318",
 				"AnimeId": "14754",
 				"Name": "Y Gakuen e Ikou: Gakuen Dotabata Hen",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Riinu"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
 			},
 			{
 				"Id": "103317",
 				"AnimeId": "14754",
 				"Name": "Meteo",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Pink Lady"
 				],
-				"Relation": "theme song"
+				"Relation": "theme song",
+				"Year": "2020"
 			}
 		]
 	},
@@ -563,7 +1285,32 @@
 		"Format": "Web",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103651",
+				"AnimeId": "14755",
+				"Name": "Gunjou",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kamiyama You"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103121",
+				"AnimeId": "14755",
+				"Name": "Zettaireido",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Akai Kouen"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14757": {
 		"Id": "14757",
@@ -572,7 +1319,32 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103610",
+				"AnimeId": "14757",
+				"Name": "No.7",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Jibaku Shounen Band"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103611",
+				"AnimeId": "14757",
+				"Name": "Tiny Light",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kitou Akari"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14776": {
 		"Id": "14776",
@@ -604,23 +1376,25 @@
 				"Id": "102589",
 				"AnimeId": "14785",
 				"Name": "Arigatou wa Kocchi no Kotoba",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Moriyama Naotarou"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
 			},
 			{
 				"Id": "102588",
 				"AnimeId": "14785",
 				"Name": "Kokoro Somali",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Minase Inori"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
@@ -631,7 +1405,64 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103291",
+				"AnimeId": "14788",
+				"Name": "Set!",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kobayashi Masanori"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103292",
+				"AnimeId": "14788",
+				"Name": "Kimi to Iru Nara",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kawanishi Kengo",
+					"Suzuki Ryouta"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103293",
+				"AnimeId": "14788",
+				"Name": "Comical Try!!",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kawanishi Kengo",
+					"Yanagita Jun`ichi"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103294",
+				"AnimeId": "14788",
+				"Name": "Every Fight",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kawanishi Kengo",
+					"Komatsu Shouhei"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14797": {
 		"Id": "14797",
@@ -681,7 +1512,7 @@
 				"Id": "103358",
 				"AnimeId": "14907",
 				"Name": "Easy Breezy",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -691,13 +1522,14 @@
 				"Artists": [
 					"Chelmico"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
 			},
 			{
 				"Id": "103359",
 				"AnimeId": "14907",
 				"Name": "Namae no Nai Ao",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -707,7 +1539,8 @@
 				"Artists": [
 					"Kamisama, Boku wa Kizuite Shimatta"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
@@ -727,7 +1560,32 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103288",
+				"AnimeId": "14952",
+				"Name": "Friends",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Wacci"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103616",
+				"AnimeId": "14952",
+				"Name": "Hidamari o Sagashite",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Saitou Souma"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14957": {
 		"Id": "14957",
@@ -741,12 +1599,13 @@
 				"Id": "103640",
 				"AnimeId": "14957",
 				"Name": "Imaginary Love",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"+ Alpha / Alfakyun."
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
@@ -766,7 +1625,68 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103667",
+				"AnimeId": "14964",
+				"Name": "Isekai Showtime",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"Fukushima Jun",
+					"Hino Satoshi",
+					"Kobayashi Yuusuke",
+					"Yuuki Aoi"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103667",
+				"AnimeId": "14964",
+				"Name": "Isekai Showtime",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Fukushima Jun",
+					"Hino Satoshi",
+					"Kobayashi Yuusuke",
+					"Yuuki Aoi"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103668",
+				"AnimeId": "14964",
+				"Name": "Ponkotsu! Isekai Theater",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					"Hayami Saori",
+					"Minase Inori",
+					"Takahashi Rie",
+					"Uesaka Sumire"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"14969": {
 		"Id": "14969",
@@ -780,7 +1700,7 @@
 				"Id": "103597",
 				"AnimeId": "14969",
 				"Name": "Ikouze Paradise",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 2
@@ -792,13 +1712,14 @@
 					"Majima Junji",
 					"Tomita Miyu"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
 			},
 			{
 				"Id": "103598",
 				"AnimeId": "14969",
 				"Name": "Hanabira Ondo",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 2
@@ -810,7 +1731,8 @@
 					"Majima Junji",
 					"Tomita Miyu"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
@@ -835,18 +1757,19 @@
 				"Id": "103504",
 				"AnimeId": "14987",
 				"Name": "Mister Fixer",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Sou"
 				],
-				"Relation": "opening"
+				"Relation": "opening",
+				"Year": "2020"
 			},
 			{
 				"Id": "103504",
 				"AnimeId": "14987",
 				"Name": "Mister Fixer",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -856,24 +1779,26 @@
 				"Artists": [
 					"Sou"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			},
 			{
 				"Id": "103505",
 				"AnimeId": "14987",
 				"Name": "Other Side",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Miyavi"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			},
 			{
 				"Id": "103655",
 				"AnimeId": "14987",
 				"Name": "Up",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -883,13 +1808,14 @@
 				"Artists": [
 					"Miyavi"
 				],
-				"Relation": "insert song"
+				"Relation": "insert song",
+				"Year": "2020"
 			},
 			{
 				"Id": "103672",
 				"AnimeId": "14987",
 				"Name": "Samurai 45",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 4,
 						"End": 4
@@ -899,7 +1825,8 @@
 				"Artists": [
 					"Miyavi"
 				],
-				"Relation": "insert song"
+				"Relation": "insert song",
+				"Year": "2020"
 			}
 		]
 	},
@@ -933,7 +1860,7 @@
 				"Id": "103466",
 				"AnimeId": "15014",
 				"Name": "Rebirth Go!",
-				"Range": null,
+				"Ranges": null,
 				"Classification": "",
 				"Artists": [
 					"Hazuki Himari",
@@ -949,7 +1876,8 @@
 					"Shindou Amane",
 					"Toono Hikaru"
 				],
-				"Relation": "theme song"
+				"Relation": "theme song",
+				"Year": "2020"
 			}
 		]
 	},
@@ -960,7 +1888,34 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103451",
+				"AnimeId": "15016",
+				"Name": "Sunny Sunny Girl",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kumada Akane"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103617",
+				"AnimeId": "15016",
+				"Name": "Inu-sei wa Ichido Kiri",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Furukawa Toshio",
+					"Genda Tesshou",
+					"Horiuchi Ken`yuu"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"15038": {
 		"Id": "15038",
@@ -987,7 +1942,20 @@
 		"Format": "Movie",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103596",
+				"AnimeId": "15055",
+				"Name": "Mirai mo Kimi no Te no Naka de",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kita Shuuhei"
+				],
+				"Relation": "theme song",
+				"Year": "2020"
+			}
+		]
 	},
 	"15064": {
 		"Id": "15064",
@@ -996,7 +1964,25 @@
 		"Format": "Movie",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103188",
+				"AnimeId": "15064",
+				"Name": "Stellar",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Toujou Haruka"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"15096": {
 		"Id": "15096",
@@ -1005,7 +1991,49 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103183",
+				"AnimeId": "15096",
+				"Name": "Lion",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Sakaguchi Ami"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103183",
+				"AnimeId": "15096",
+				"Name": "Lion",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Sakaguchi Ami"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103327",
+				"AnimeId": "15096",
+				"Name": "Ray of Light",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Jaejoong"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"15104": {
 		"Id": "15104",
@@ -1023,7 +2051,37 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103638",
+				"AnimeId": "15121",
+				"Name": "Gakuen Soukan Zoo",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Ishiya Haruki",
+					"Kino Hina",
+					"Kohara Konomi",
+					"Kuno Misaki",
+					"Miyamoto Yume",
+					"Tokui Sora"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103639",
+				"AnimeId": "15121",
+				"Name": "Ookami Blues",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kino Hina"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"15130": {
 		"Id": "15130",
@@ -1032,7 +2090,32 @@
 		"Format": "OVA",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103085",
+				"AnimeId": "15130",
+				"Name": "Akatsuki no Kaleido Blood",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kishida Kyoudan & The Akeboshi Rockets"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103086",
+				"AnimeId": "15130",
+				"Name": "Dear My Hero",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Taneda Risa"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			}
+		]
 	},
 	"15155": {
 		"Id": "15155",
@@ -1122,7 +2205,92 @@
 		"Format": "TV Series",
 		"Season": "Winter",
 		"Year": "2020",
-		"Songs": null
+		"Songs": [
+			{
+				"Id": "103600",
+				"AnimeId": "15281",
+				"Name": "Hiromenes",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Mashumairesh!!"
+				],
+				"Relation": "opening",
+				"Year": "2020"
+			},
+			{
+				"Id": "103601",
+				"AnimeId": "15281",
+				"Name": "Kimi no Rhapsody",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Mashumairesh!!"
+				],
+				"Relation": "ending",
+				"Year": "2020"
+			},
+			{
+				"Id": "103603",
+				"AnimeId": "15281",
+				"Name": "Idou Shudan wa Bike Desu",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Dokonjofinger"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103604",
+				"AnimeId": "15281",
+				"Name": "Kaban ni wa Teppan Desu",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Dokonjofinger"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103606",
+				"AnimeId": "15281",
+				"Name": "Neon Tetra no Sora",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Reijingsignal"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103605",
+				"AnimeId": "15281",
+				"Name": "Parallelism Crown",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Reijingsignal"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			},
+			{
+				"Id": "103602",
+				"AnimeId": "15281",
+				"Name": "Yell and Response",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Mashumairesh!!"
+				],
+				"Relation": "insert song",
+				"Year": "2020"
+			}
+		]
 	},
 	"15282": {
 		"Id": "15282",
@@ -1181,7 +2349,7 @@
 				"Id": "103674",
 				"AnimeId": "15346",
 				"Name": "Show You the Way",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -1191,13 +2359,14 @@
 				"Artists": [
 					"The Rampage"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			},
 			{
 				"Id": "103673",
 				"AnimeId": "15346",
 				"Name": "To the Sky",
-				"Range": [
+				"Ranges": [
 					{
 						"Start": 1,
 						"End": 1
@@ -1207,7 +2376,8 @@
 				"Artists": [
 					"FANTASTICS from EXILE TRIBE"
 				],
-				"Relation": "ending"
+				"Relation": "ending",
+				"Year": "2020"
 			}
 		]
 	},
