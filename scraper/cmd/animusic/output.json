@@ -1,0 +1,3619 @@
+[
+	{
+		"Id": "13441",
+		"Name": "Z/X: Code Reunion",
+		"AniDbUri": "http://anidb.net/anime/13441",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Destiny": {
+				"Id": "103113",
+				"Name": "Destiny",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Ogura Yui"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Girl Meets Girl": {
+				"Id": "103114",
+				"Name": "Girl Meets Girl",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Ogura Yui",
+					"Uchida Aya"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14401",
+		"Name": "Gochuumon wa Usagi Desuka?? Sing for You",
+		"AniDbUri": "http://anidb.net/anime/14401",
+		"Format": "OVA",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14750",
+		"Name": "Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku You Desu!",
+		"AniDbUri": "http://anidb.net/anime/14750",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Dear My Distance": {
+				"Id": "102796",
+				"Name": "Dear My Distance",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 11
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kitou Akari"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Hajimete no Kakumei!": {
+				"Id": "102795",
+				"Name": "Hajimete no Kakumei!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "12",
+				"Artists": [
+					"Dialogue+"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14965",
+		"Name": "Strike Witches: Gekijouban 501 Butai Hasshin Shimasu!",
+		"AniDbUri": "http://anidb.net/anime/14965",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Sora ga Yobu Hou e": {
+				"Id": "102151",
+				"Name": "Sora ga Yobu Hou e",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Ishida Youko"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Treasure of Life": {
+				"Id": "103155",
+				"Name": "Treasure of Life",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Fukuen Misato",
+					"Kadowaki Mai",
+					"Koshimizu Ami",
+					"Nazuka Kaori",
+					"Nogawa Sakura",
+					"Oohashi Ayuru",
+					"Saitou Chiwa",
+					"Sawashiro Miyuki",
+					"Seto Saori",
+					"Sonozaki Mie",
+					"Tanaka Rie",
+					"Uchida Aya"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14453",
+		"Name": "Assassins Pride",
+		"AniDbUri": "http://anidb.net/anime/14453",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Ijin-tachi no Jikan": {
+				"Id": "103126",
+				"Name": "Ijin-tachi no Jikan",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kusunoki Tomori"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Share the Light": {
+				"Id": "103127",
+				"Name": "Share the Light",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 11
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Run Girls, Run!"
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:1Rcu3RBBSWWYSMCSfULM63",
+						"Name": "Share the light",
+						"ExternalUrl": "https://open.spotify.com/track/1Rcu3RBBSWWYSMCSfULM63",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Id": "14780",
+		"Name": "High Score Girl II",
+		"AniDbUri": "http://anidb.net/anime/14780",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14802",
+		"Name": "Bang Dream! Film Live",
+		"AniDbUri": "http://anidb.net/anime/14802",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Black Shout": {
+				"Id": "101739",
+				"Name": "Black Shout",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Roselia"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Brave Jewel": {
+				"Id": "101497",
+				"Name": "Brave Jewel",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Roselia"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Double Rainbow": {
+				"Id": "103180",
+				"Name": "Double Rainbow",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Poppin` Party"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Dreamers Go!": {
+				"Id": "102080",
+				"Name": "Dreamers Go!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Poppin` Party"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Egao Sing a Song": {
+				"Id": "102081",
+				"Name": "Egao Sing a Song",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Hello, Happy World!"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Egao no Orchestra!": {
+				"Id": "101697",
+				"Name": "Egao no Orchestra!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Hello, Happy World!"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Fire Bird": {
+				"Id": "102084",
+				"Name": "Fire Bird",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Roselia"
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:5YT7dwVt5HIm8PuXvXOS4s",
+						"Name": "FIRE BIRD",
+						"ExternalUrl": "https://open.spotify.com/track/5YT7dwVt5HIm8PuXvXOS4s",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Happy Happy Party!": {
+				"Id": "101696",
+				"Name": "Happy Happy Party!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Poppin` Party"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Jumpin`": {
+				"Id": "101698",
+				"Name": "Jumpin`",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Poppin` Party"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Kizuna Music": {
+				"Id": "101496",
+				"Name": "Kizuna Music",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Poppin` Party"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Kyu Mai Flower": {
+				"Id": "102082",
+				"Name": "Kyu Mai Flower",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Pastel*Palettes"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Louder": {
+				"Id": "101695",
+				"Name": "Louder",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Roselia"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"On Your Mark": {
+				"Id": "102083",
+				"Name": "On Your Mark",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Afterglow"
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:0AJMNmF8wA33dHu5DQ5oUO",
+						"Name": "ON YOUR MARK",
+						"ExternalUrl": "https://open.spotify.com/track/0AJMNmF8wA33dHu5DQ5oUO",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Returns": {
+				"Id": "102078",
+				"Name": "Returns",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Poppin` Party"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Scarlet Sky": {
+				"Id": "101694",
+				"Name": "Scarlet Sky",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Afterglow"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Sekai Nobbinobi Treasure!": {
+				"Id": "101901",
+				"Name": "Sekai Nobbinobi Treasure!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Hello, Happy World!"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Shuwarin Dreaming": {
+				"Id": "99706",
+				"Name": "Shuwarin Dreaming",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Pastel*Palettes"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Y.O.L.O!!!!!": {
+				"Id": "101924",
+				"Name": "Y.O.L.O!!!!!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Afterglow"
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:5obvjW5vUBiCP7br5CniXh",
+						"Name": "Y.O.L.O!!!!!",
+						"ExternalUrl": "https://open.spotify.com/track/5obvjW5vUBiCP7br5CniXh",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Yura Yura Ring-Dong-Dance": {
+				"Id": "101922",
+				"Name": "Yura Yura Ring-Dong-Dance",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Pastel*Palettes"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "13524",
+		"Name": "Granblue Fantasy The Animation Season 2",
+		"AniDbUri": "http://anidb.net/anime/13524",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Ao": {
+				"Id": "103036",
+				"Name": "Ao",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Adieu"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Stay with Me": {
+				"Id": "102728",
+				"Name": "Stay with Me",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "OP1a-OP1b",
+				"Artists": [
+					"Seven Billion Dots"
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:40bWOGeQYljPPVRQoM8fNk",
+						"Name": "Stay With Me",
+						"ExternalUrl": "https://open.spotify.com/track/40bWOGeQYljPPVRQoM8fNk",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Id": "14386",
+		"Name": "Houkago Saikoro Club",
+		"AniDbUri": "http://anidb.net/anime/14386",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"On the Board": {
+				"Id": "102802",
+				"Name": "On the Board",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kouno Marika",
+					"Miyashita Saki",
+					"Tomita Miyu"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Present Moment": {
+				"Id": "102801",
+				"Name": "Present Moment",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Tomita Miyu"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15119",
+		"Name": "Road to You: Kioku ni Mau Konayuki",
+		"AniDbUri": "http://anidb.net/anime/15119",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14727",
+		"Name": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen",
+		"AniDbUri": "http://anidb.net/anime/14727",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Kamikazari no Tenshi": {
+				"Id": "102798",
+				"Name": "Kamikazari no Tenshi",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 14
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Nakajima Megumi"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Masshiro": {
+				"Id": "102797",
+				"Name": "Masshiro",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 14
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"Morohoshi Sumire"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15076",
+		"Name": "Egg Car",
+		"AniDbUri": "http://anidb.net/anime/15076",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14858",
+		"Name": "Tenka Hyakken: Meiji-kan e Youkoso!",
+		"AniDbUri": "http://anidb.net/anime/14858",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14971",
+		"Name": "Mini Yuri",
+		"AniDbUri": "http://anidb.net/anime/14971",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "15075",
+		"Name": "Go! Go! Atom",
+		"AniDbUri": "http://anidb.net/anime/15075",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Astro Boy: Go! Go! Atom": {
+				"Id": "103152",
+				"Name": "Astro Boy: Go! Go! Atom",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Doberman Infinity"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Owaranai Sekai": {
+				"Id": "103153",
+				"Name": "Owaranai Sekai",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Tenkou Shoujo*"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15139",
+		"Name": "Ano Hi no Kokoro o Toraete",
+		"AniDbUri": "http://anidb.net/anime/15139",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "13626",
+		"Name": "Saenai Heroine no Sodatekata Fine",
+		"AniDbUri": "http://anidb.net/anime/13626",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "13844",
+		"Name": "Watashi, Nouryoku wa Heikinchi de tte Itta yo ne!",
+		"AniDbUri": "http://anidb.net/anime/13844",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Genzai Banzai": {
+				"Id": "102991",
+				"Name": "Genzai Banzai",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 5
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Waki Azumi"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Smile Skill = Suki Skill!": {
+				"Id": "102990",
+				"Name": "Smile Skill = Suki Skill!",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 5
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"赤き誓い"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14486",
+		"Name": "Actors: Songs Connection",
+		"AniDbUri": "http://anidb.net/anime/14486",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Cloudy Day": {
+				"Id": "103097",
+				"Name": "Cloudy Day",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kajiwara Gakuto"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Guuzou Paradigm": {
+				"Id": "103314",
+				"Name": "Guuzou Paradigm",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Hozumi Yuuya",
+					"Urata Wataru"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Hikoukai Nisshi": {
+				"Id": "103171",
+				"Name": "Hikoukai Nisshi",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Hoshi Souichirou"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Inazuma Shock": {
+				"Id": "103170",
+				"Name": "Inazuma Shock",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "11",
+				"Artists": [
+					"Hoshi Souichirou",
+					"Kashou Bu",
+					"Nojima Kenji",
+					"Okiayu Ryoutarou",
+					"Tsuboi Tomohiro"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Kazemachi Hello World": {
+				"Id": "103169",
+				"Name": "Kazemachi Hello World",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Eguchi Takuya"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Remocon": {
+				"Id": "103315",
+				"Name": "Remocon",
+				"Ranges": [
+					{
+						"Start": 5,
+						"End": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kimura Subaru",
+					"Takahashi Naozumi"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Start!": {
+				"Id": "103316",
+				"Name": "Start!",
+				"Ranges": [
+					{
+						"Start": 6,
+						"End": 6
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Hozumi Yuuya",
+					"Kajiwara Gakuto",
+					"Sakutasuke",
+					"Urata Wataru"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Titania": {
+				"Id": "103095",
+				"Name": "Titania",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Hozumi Yuuya",
+					"Kajiwara Gakuto",
+					"Sakutasuke",
+					"Urata Wataru"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Triangle": {
+				"Id": "103453",
+				"Name": "Triangle",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kajiwara Gakuto"
+				],
+				"Relation": "image song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14701",
+		"Name": "Radiant (2019)",
+		"AniDbUri": "http://anidb.net/anime/14701",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Chitto mo Shiranakatta": {
+				"Id": "102722",
+				"Name": "Chitto mo Shiranakatta",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Nakamura Emi"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Naraku": {
+				"Id": "102721",
+				"Name": "Naraku",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Halo at Yojouhan"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15243",
+		"Name": "Ninja Box (2019)",
+		"AniDbUri": "http://anidb.net/anime/15243",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14442",
+		"Name": "Ore o Suki na no wa Omae Dake ka yo",
+		"AniDbUri": "http://anidb.net/anime/14442",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Hana Kotoba": {
+				"Id": "102819",
+				"Name": "Hana Kotoba",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 11
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					"Misawa Sachika",
+					"Shiraishi Haruka",
+					"Tomatsu Haruka"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Papapa": {
+				"Id": "102818",
+				"Name": "Papapa",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "12",
+				"Artists": [
+					"Saitou Shuka"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14796",
+		"Name": "Sword Art Online: Alicization - War of Underworld",
+		"AniDbUri": "http://anidb.net/anime/14796",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "15023",
+		"Name": "Null Peta",
+		"AniDbUri": "http://anidb.net/anime/15023",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"#Null! *Peta": {
+				"Id": "103074",
+				"Name": "#Null! *Peta",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "12",
+				"Artists": [
+					"Ueda Reina",
+					"Waki Azumi"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "13924",
+		"Name": "Black Fox",
+		"AniDbUri": "http://anidb.net/anime/13924",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Black Fox": {
+				"Id": "103117",
+				"Name": "Black Fox",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"FripSide"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14200",
+		"Name": "Hoshiai no Sora",
+		"AniDbUri": "http://anidb.net/anime/14200",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Kago no Naka no Bokura wa": {
+				"Id": "103015",
+				"Name": "Kago no Naka no Bokura wa",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 12
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					"Aiki"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Suisou": {
+				"Id": "103014",
+				"Name": "Suisou",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 3
+					}
+				],
+				"Classification": "11",
+				"Artists": [
+					"Nakajima Megumi"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14257",
+		"Name": "Kabukichou Sherlock",
+		"AniDbUri": "http://anidb.net/anime/14257",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Capture": {
+				"Id": "103133",
+				"Name": "Capture",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Ego-Wrappin`"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:48kIhMowDayLszTMtqdapj",
+						"Name": "CAPTURE",
+						"ExternalUrl": "https://open.spotify.com/track/48kIhMowDayLszTMtqdapj",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Hyakuoku Kounen": {
+				"Id": "103134",
+				"Name": "Hyakuoku Kounen",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Lozareena"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14659",
+		"Name": "Beastars",
+		"AniDbUri": "http://anidb.net/anime/14659",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"A Tale of Moon": {
+				"Id": "103203",
+				"Name": "A Tale of Moon",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "10",
+				"Artists": [
+					"Chica"
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:6kPD2kV1rvSin87qEh4Rii",
+						"Name": "A Tale of Moon",
+						"ExternalUrl": "https://open.spotify.com/track/6kPD2kV1rvSin87qEh4Rii",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Le Zoo": {
+				"Id": "102979",
+				"Name": "Le Zoo",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					},
+					{
+						"Start": 8,
+						"End": 9
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					"Yurika"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Many Stories": {
+				"Id": "103128",
+				"Name": "Many Stories",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Chica"
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:6HoAoNkxpkqRd0uClplvZz",
+						"Name": "Many Stories",
+						"ExternalUrl": "https://open.spotify.com/track/6HoAoNkxpkqRd0uClplvZz",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Marble": {
+				"Id": "103626",
+				"Name": "Marble",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "ED4",
+				"Artists": [
+					"Yurika"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Nemureru Honnou": {
+				"Id": "103202",
+				"Name": "Nemureru Honnou",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "ED3",
+				"Artists": [
+					"Yurika"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"The Sleeping Beauty: Panorama": {
+				"Id": "103628",
+				"Name": "The Sleeping Beauty: Panorama",
+				"Ranges": [
+					{
+						"Start": 12,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Pyotr Ilyich Tchaikovsky"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Tsuki ni Ukabu Monogatari": {
+				"Id": "103627",
+				"Name": "Tsuki ni Ukabu Monogatari",
+				"Ranges": [
+					{
+						"Start": 12,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Yurika"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Wild Side": {
+				"Id": "102978",
+				"Name": "Wild Side",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Ali"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:0QRpmS7Rq9GNEG2StXu63W",
+						"Name": "Wild Side",
+						"ExternalUrl": "https://open.spotify.com/track/0QRpmS7Rq9GNEG2StXu63W",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Id": "14660",
+		"Name": "Mairimashita! Iruma-kun",
+		"AniDbUri": "http://anidb.net/anime/14660",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Debikyuu": {
+				"Id": "103062",
+				"Name": "Debikyuu",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Serizawa Yuu"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Magical Babyrinth": {
+				"Id": "103061",
+				"Name": "Magical Babyrinth",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Da Pump"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14735",
+		"Name": "Psycho-Pass 3",
+		"AniDbUri": "http://anidb.net/anime/14735",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "15026",
+		"Name": "Zoids Wild Zero",
+		"AniDbUri": "http://anidb.net/anime/15026",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Blue Blue Blue": {
+				"Id": "103111",
+				"Name": "Blue Blue Blue",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Ivy to Fraudulent Game"
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:5e8aweGMbVGQ1862vpWW9X",
+						"Name": "blue blue blue",
+						"ExternalUrl": "https://open.spotify.com/track/5e8aweGMbVGQ1862vpWW9X",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Hikari": {
+				"Id": "103112",
+				"Name": "Hikari",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Senda Hazuki"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15264",
+		"Name": "Shiohi Girls: Vongole Bianco",
+		"AniDbUri": "http://anidb.net/anime/15264",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Kimi wa Shiohi Girl": {
+				"Id": "103301",
+				"Name": "Kimi wa Shiohi Girl",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Onigawara"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Romantic Jigen Bakudan": {
+				"Id": "103302",
+				"Name": "Romantic Jigen Bakudan",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Onigawara"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14410",
+		"Name": "Chuubyou Gekihatsu Boy",
+		"AniDbUri": "http://anidb.net/anime/14410",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Chuubyou Gekihatsu Boy": {
+				"Id": "102821",
+				"Name": "Chuubyou Gekihatsu Boy",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 11
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Enoki Jun`ya",
+					"Kabumoto Hideaki",
+					"Minakami Koukou Hero Bu",
+					"Nakamura Shuugo",
+					"Yamashita Daiki",
+					"Yasuda Rikuya"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Here Comes the Sun": {
+				"Id": "102822",
+				"Name": "Here Comes the Sun",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 11
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Nakamura Shuugo"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Kiss for Love": {
+				"Id": "103612",
+				"Name": "Kiss for Love",
+				"Ranges": [
+					{
+						"Start": 8,
+						"End": 9
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Yasuda Rikuya"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Precious Memory: Kagayaku Kisetsu, Kimi to no Kiseki": {
+				"Id": "103613",
+				"Name": "Precious Memory: Kagayaku Kisetsu, Kimi to no Kiseki",
+				"Ranges": [
+					{
+						"Start": 10,
+						"End": 10
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Katahira Mina"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14416",
+		"Name": "Boku no Hero Academia (2019)",
+		"AniDbUri": "http://anidb.net/anime/14416",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Koukai no Uta": {
+				"Id": "103136",
+				"Name": "Koukai no Uta",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Sayuri"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Polaris": {
+				"Id": "103135",
+				"Name": "Polaris",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Blue Encount"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14553",
+		"Name": "Kono Oto Tomare! (2019)",
+		"AniDbUri": "http://anidb.net/anime/14553",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Harmony": {
+				"Id": "103082",
+				"Name": "Harmony",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Aoi Shouta"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Rainbow": {
+				"Id": "103083",
+				"Name": "Rainbow",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Uchida Yuuma"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Tone": {
+				"Id": "101666",
+				"Name": "Tone",
+				"Ranges": [
+					{
+						"Start": 13,
+						"End": 13
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Aoi Shouta"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14618",
+		"Name": "Hataage! Kemono Michi",
+		"AniDbUri": "http://anidb.net/anime/14618",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Anecdote": {
+				"Id": "102762",
+				"Name": "Anecdote",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Momosu Momosu"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Fight! Kemona Mask": {
+				"Id": "102761",
+				"Name": "Fight! Kemona Mask",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"NoB"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14744",
+		"Name": "Phantasy Star Online 2: Episode Oracle",
+		"AniDbUri": "http://anidb.net/anime/14744",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Destiny": {
+				"Id": "103101",
+				"Name": "Destiny",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Aimee Blackschleger"
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:4aVMWIssq6Pk8Aj4y7rRrr",
+						"Name": "Destiny",
+						"ExternalUrl": "https://open.spotify.com/track/4aVMWIssq6Pk8Aj4y7rRrr",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Timeless Fortune": {
+				"Id": "103102",
+				"Name": "Timeless Fortune",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Arisaka Mika"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:3SrWkK2H7t6RDrrm9XD8ni",
+						"Name": "Timeless Fortune",
+						"ExternalUrl": "https://open.spotify.com/track/3SrWkK2H7t6RDrrm9XD8ni",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Id": "14912",
+		"Name": "Mugen no Juunin: Immortal",
+		"AniDbUri": "http://anidb.net/anime/14912",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Survive of Vision": {
+				"Id": "102967",
+				"Name": "Survive of Vision",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kiyoharu"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "13841",
+		"Name": "Chihayafuru 3",
+		"AniDbUri": "http://anidb.net/anime/13841",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14445",
+		"Name": "Rifle Is Beautiful",
+		"AniDbUri": "http://anidb.net/anime/14445",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Biriri x Sensation": {
+				"Id": "103303",
+				"Name": "Biriri x Sensation",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kumada Akane",
+					"Machico",
+					"Minami Saki",
+					"Rifling 4",
+					"Yamaki Anna"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Get Started.": {
+				"Id": "103304",
+				"Name": "Get Started.",
+				"Ranges": [
+					{
+						"Start": 5,
+						"End": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kumada Akane",
+					"Machico",
+					"Minami Saki",
+					"Rifling 4",
+					"Yamaki Anna"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Go! Go! Rifling 4!!!!": {
+				"Id": "103143",
+				"Name": "Go! Go! Rifling 4!!!!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kumada Akane",
+					"Machico",
+					"Minami Saki",
+					"Rifling 4",
+					"Yamaki Anna"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Let`s Go! Rifling 4!!!!": {
+				"Id": "103141",
+				"Name": "Let`s Go! Rifling 4!!!!",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kumada Akane",
+					"Machico",
+					"Minami Saki",
+					"Rifling 4",
+					"Yamaki Anna"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Yuuyake Friends": {
+				"Id": "103142",
+				"Name": "Yuuyake Friends",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kumada Akane",
+					"Machico",
+					"Minami Saki",
+					"Rifling 4",
+					"Yamaki Anna"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14532",
+		"Name": "Hello World",
+		"AniDbUri": "http://anidb.net/anime/14532",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Lost Game": {
+				"Id": "103139",
+				"Name": "Lost Game",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Nulbarich"
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:2blM0SIqgptXPpCan2lGXh",
+						"Name": "Lost Game",
+						"ExternalUrl": "https://open.spotify.com/track/2blM0SIqgptXPpCan2lGXh",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Shinsekai": {
+				"Id": "103137",
+				"Name": "Shinsekai",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Okamoto`s"
+				],
+				"Relation": "theme song",
+				"Sources": {}
+			},
+			"Yesterday": {
+				"Id": "103138",
+				"Name": "Yesterday",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Official Hige Dandism"
+				],
+				"Relation": "theme song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14544",
+		"Name": "Eiga Star Twinkle Precure: Hoshi no Uta ni Omoi o Komete",
+		"AniDbUri": "http://anidb.net/anime/14544",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14777",
+		"Name": "Keishichou Tokumu Bu Tokushu Kyouakuhan Taisaku Shitsu Dai Nana Ka: Tokunana",
+		"AniDbUri": "http://anidb.net/anime/14777",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"One Wish": {
+				"Id": "103023",
+				"Name": "One Wish",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Screen Mode"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:0SJB36WrOGqqpq9LstNpgZ",
+						"Name": "One Wish",
+						"ExternalUrl": "https://open.spotify.com/track/0SJB36WrOGqqpq9LstNpgZ",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Take on Fever": {
+				"Id": "103022",
+				"Name": "Take on Fever",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Oldcodex"
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:1UfNAiO8tcbqgv4lDGMIXT",
+						"Name": "Take On Fever",
+						"ExternalUrl": "https://open.spotify.com/track/1UfNAiO8tcbqgv4lDGMIXT",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Id": "14786",
+		"Name": "Thunderbolt Fantasy: Seiyuu Genka",
+		"AniDbUri": "http://anidb.net/anime/14786",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "15036",
+		"Name": "Bananya: Fushigi na Nakama-tachi",
+		"AniDbUri": "http://anidb.net/anime/15036",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "15047",
+		"Name": "Aikatsu on Parade!",
+		"AniDbUri": "http://anidb.net/anime/15047",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Calendar Girl": {
+				"Id": "54594",
+				"Name": "Calendar Girl",
+				"Ranges": [
+					{
+						"Start": 7,
+						"End": 7
+					}
+				],
+				"Classification": "ED5",
+				"Artists": [
+					"Fuuri",
+					"Sunao",
+					"Waka"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Girls Be Ambitious!": {
+				"Id": "103311",
+				"Name": "Girls Be Ambitious!",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Miyama Karen"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Good Morning My Dream": {
+				"Id": "74571",
+				"Name": "Good Morning My Dream",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "ED3",
+				"Artists": [
+					"Miki",
+					"Mona",
+					"Ruka"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Hachigatsu no Marina": {
+				"Id": "89403",
+				"Name": "Hachigatsu no Marina",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Miki"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Ibara no Joou": {
+				"Id": "90654",
+				"Name": "Ibara no Joou",
+				"Ranges": [
+					{
+						"Start": 5,
+						"End": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Mona"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Identity": {
+				"Id": "103313",
+				"Name": "Identity",
+				"Ranges": [
+					{
+						"Start": 5,
+						"End": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Oohashi Ayaka",
+					"Ruka"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Idol Katsudou! (On Parade! Ver.)": {
+				"Id": "102824",
+				"Name": "Idol Katsudou! (On Parade! Ver.)",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Aira Rin",
+					"Kido Ibuki",
+					"Matsunaga Akane",
+					"Ruka",
+					"Sena",
+					"Waka"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Kimi no Entrance": {
+				"Id": "103156",
+				"Name": "Kimi no Entrance",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "6",
+				"Artists": [
+					"Aira Rin"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Kokoro Hirakou": {
+				"Id": "103308",
+				"Name": "Kokoro Hirakou",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Matsunaga Akane"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Lovely Party Collection": {
+				"Id": "81248",
+				"Name": "Lovely Party Collection",
+				"Ranges": [
+					{
+						"Start": 5,
+						"End": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Miki",
+					"Mona",
+					"Ruka"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Makeover Makeup": {
+				"Id": "103307",
+				"Name": "Makeover Makeup",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kana"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Message of a Rainbow": {
+				"Id": "103310",
+				"Name": "Message of a Rainbow",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Nanase",
+					"Sena"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Minna Minna!": {
+				"Id": "103157",
+				"Name": "Minna Minna!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kido Ibuki",
+					"Matsunaga Akane"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Okemaru": {
+				"Id": "103312",
+				"Name": "Okemaru",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Ninomiya Yui"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Original Star": {
+				"Id": "62982",
+				"Name": "Original Star",
+				"Ranges": [
+					{
+						"Start": 8,
+						"End": 8
+					}
+				],
+				"Classification": "ED6",
+				"Artists": [
+					"Eri",
+					"Fuuri",
+					"Moe",
+					"Remi",
+					"Risuko",
+					"Star Anis",
+					"Sunao",
+					"Waka",
+					"Yuna"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Poppin` Bubbles": {
+				"Id": "80492",
+				"Name": "Poppin` Bubbles",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Miho",
+					"Miki"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Precious": {
+				"Id": "69416",
+				"Name": "Precious",
+				"Ranges": [
+					{
+						"Start": 9,
+						"End": 9
+					}
+				],
+				"Classification": "ED7",
+				"Artists": [
+					"Fuuri",
+					"Mona",
+					"Risuko",
+					"Waka"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"So Beautiful Story": {
+				"Id": "89400",
+				"Name": "So Beautiful Story",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					"Ruka",
+					"Sena"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Stardom!": {
+				"Id": "103309",
+				"Name": "Stardom!",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Kido Ibuki",
+					"Sena"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Tutu Ballerina": {
+				"Id": "81249",
+				"Name": "Tutu Ballerina",
+				"Ranges": [
+					{
+						"Start": 5,
+						"End": 5
+					}
+				],
+				"Classification": "ED4",
+				"Artists": [
+					"Miki",
+					"Mona",
+					"Ruka"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14779",
+		"Name": "Sora no Aosa o Shiru Hito yo",
+		"AniDbUri": "http://anidb.net/anime/14779",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Aoi": {
+				"Id": "103148",
+				"Name": "Aoi",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Aimyon"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Sora no Aosa o Shiru Hito yo": {
+				"Id": "103147",
+				"Name": "Sora no Aosa o Shiru Hito yo",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Aimyon"
+				],
+				"Relation": "theme song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14908",
+		"Name": "Val x Love",
+		"AniDbUri": "http://anidb.net/anime/14908",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"For...": {
+				"Id": "103077",
+				"Name": "For...",
+				"Ranges": [
+					{
+						"Start": 6,
+						"End": 6
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Aida Rikako"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Up-date x Please!!! (Ver 1.7.8)": {
+				"Id": "103078",
+				"Name": "Up-date x Please!!! (Ver 1.7.8)",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "12",
+				"Artists": [
+					"Hondo Kaede",
+					"Kawase Maki",
+					"Uchiyama Yumi"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Up-date x Please!!! (Ver 2.6.9)": {
+				"Id": "103079",
+				"Name": "Up-date x Please!!! (Ver 2.6.9)",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "11",
+				"Artists": [
+					"Hara Yumi",
+					"Hidaka Rina",
+					"Koiwai Kotori"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Up-date x Please!!! (Ver 3.4.5)": {
+				"Id": "103080",
+				"Name": "Up-date x Please!!! (Ver 3.4.5)",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "7",
+				"Artists": [
+					"Aida Rikako",
+					"Kakuma Ai",
+					"Shimizu Ayaka"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15010",
+		"Name": "Sound \u0026 Fury",
+		"AniDbUri": "http://anidb.net/anime/15010",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "15203",
+		"Name": "ColoColo Animal ABC@Kintere",
+		"AniDbUri": "http://anidb.net/anime/15203",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14648",
+		"Name": "Super Shiro",
+		"AniDbUri": "http://anidb.net/anime/14648",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14759",
+		"Name": "No Guns Life",
+		"AniDbUri": "http://anidb.net/anime/14759",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Game Over": {
+				"Id": "103130",
+				"Name": "Game Over",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"DATS"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:1c5imInD5zSzfSSCa6tKEU",
+						"Name": "Game Over",
+						"ExternalUrl": "https://open.spotify.com/track/1c5imInD5zSzfSSCa6tKEU",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Motor City": {
+				"Id": "103129",
+				"Name": "Motor City",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Asai Ken`ichi"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14916",
+		"Name": "Fairy Gone (2019)",
+		"AniDbUri": "http://anidb.net/anime/14916",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Flicker": {
+				"Id": "103185",
+				"Name": "Flicker",
+				"Ranges": [
+					{
+						"Start": 2,
+						"End": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Tachibana Ayaka"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Game": {
+				"Id": "103187",
+				"Name": "Game",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Tachibana Ayaka"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Halo": {
+				"Id": "103186",
+				"Name": "Halo",
+				"Ranges": [
+					{
+						"Start": 3,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Aij"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Stay Gold": {
+				"Id": "103100",
+				"Name": "Stay Gold",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Tachibana Ayaka"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Still Standing": {
+				"Id": "103099",
+				"Name": "Still Standing",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Aij",
+					"Nikiie",
+					"Tachibana Ayaka"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15101",
+		"Name": "Taeko no Nichijou",
+		"AniDbUri": "http://anidb.net/anime/15101",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14477",
+		"Name": "Shinchou Yuusha: Kono Yuusha ga Ore Tsueee Kuse ni Shinchou Sugiru",
+		"AniDbUri": "http://anidb.net/anime/14477",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Be Perfect, Plz!": {
+				"Id": "102727",
+				"Name": "Be Perfect, Plz!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 4
+					},
+					{
+						"Start": 6,
+						"End": 7
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Azuna Riko"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Tit for Tat": {
+				"Id": "102726",
+				"Name": "Tit for Tat",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 3
+					},
+					{
+						"Start": 8,
+						"End": 10
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"Myth \u0026 Roid"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14968",
+		"Name": "Bokutachi wa Benkyou ga Dekinai!",
+		"AniDbUri": "http://anidb.net/anime/14968",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Can Now, Can Now": {
+				"Id": "103024",
+				"Name": "Can Now, Can Now",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 13
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"Asahina Madoka",
+					"Lynn",
+					"Shiraishi Haruka",
+					"Study",
+					"Suzushiro Sayumi",
+					"Tomita Miyu"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Hoshizora no Prelude": {
+				"Id": "103632",
+				"Name": "Hoshizora no Prelude",
+				"Ranges": [
+					{
+						"Start": 12,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Suzushiro Sayumi"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Houkago no Liberty": {
+				"Id": "103025",
+				"Name": "Houkago no Liberty",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Halca"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Kankei Houteishiki": {
+				"Id": "103630",
+				"Name": "Kankei Houteishiki",
+				"Ranges": [
+					{
+						"Start": 13,
+						"End": 13
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Asahina Madoka",
+					"Lynn",
+					"Shiraishi Haruka",
+					"Study",
+					"Suzushiro Sayumi",
+					"Tomita Miyu"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Wonder Pure Magic!": {
+				"Id": "103631",
+				"Name": "Wonder Pure Magic!",
+				"Ranges": [
+					{
+						"Start": 12,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Asumi Kana",
+					"Taichi You"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15112",
+		"Name": "Sylvanian Families: Mini Story - Clover",
+		"AniDbUri": "http://anidb.net/anime/15112",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "15127",
+		"Name": "Eily wa Ou-sama!",
+		"AniDbUri": "http://anidb.net/anime/15127",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14495",
+		"Name": "Gundam Build Divers Re:Rise",
+		"AniDbUri": "http://anidb.net/anime/14495",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Magic Time": {
+				"Id": "103125",
+				"Name": "Magic Time",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"SudannaYuzuYully"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:6Unwf4vD3ygUvr39kEmIRV",
+						"Name": "MAGIC TIME",
+						"ExternalUrl": "https://open.spotify.com/track/6Unwf4vD3ygUvr39kEmIRV",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Rise": {
+				"Id": "103124",
+				"Name": "Rise",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Spira Spica"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14658",
+		"Name": "Shin Chuuka Ichiban!",
+		"AniDbUri": "http://anidb.net/anime/14658",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Koufukuron": {
+				"Id": "103122",
+				"Name": "Koufukuron",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Qaijff"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Paradigm Shift": {
+				"Id": "103123",
+				"Name": "Paradigm Shift",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Brian the Sun"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14819",
+		"Name": "Nanatsu no Taizai: Kamigami no Gekirin",
+		"AniDbUri": "http://anidb.net/anime/14819",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Regeneration": {
+				"Id": "103120",
+				"Name": "Regeneration",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Amamiya Sora"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:7eef4Evt1EwecXlpN1h8Zu",
+						"Name": "Regeneration",
+						"ExternalUrl": "https://open.spotify.com/track/7eef4Evt1EwecXlpN1h8Zu",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Rob the Frontier": {
+				"Id": "103119",
+				"Name": "Rob the Frontier",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Uverworld"
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:7ou5Oj4lZUKhtGxoJZg9pE",
+						"Name": "ROB THE FRONTIER",
+						"ExternalUrl": "https://open.spotify.com/track/7ou5Oj4lZUKhtGxoJZg9pE",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Id": "15118",
+		"Name": "Oosu no Buu-chan",
+		"AniDbUri": "http://anidb.net/anime/15118",
+		"Format": "Other",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Barigachi Touchdown!!": {
+				"Id": "103297",
+				"Name": "Barigachi Touchdown!!",
+				"Ranges": null,
+				"Classification": "ED1",
+				"Artists": [
+					"Boys and Men Kenkyuusei"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Kibou ni Afureta Amagumo de Ippai": {
+				"Id": "103296",
+				"Name": "Kibou ni Afureta Amagumo de Ippai",
+				"Ranges": null,
+				"Classification": "OP1",
+				"Artists": [
+					"Hiraga Sachie"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14396",
+		"Name": "Azur Lane the Animation",
+		"AniDbUri": "http://anidb.net/anime/14396",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Graphite/Diamond": {
+				"Id": "102729",
+				"Name": "Graphite/Diamond",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"May`n"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Hikari no Michishirube": {
+				"Id": "102730",
+				"Name": "Hikari no Michishirube",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kano"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Just Very Quickly!": {
+				"Id": "103556",
+				"Name": "Just Very Quickly!",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Yamane Nozomi"
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"Pledge of Liberation": {
+				"Id": "103434",
+				"Name": "Pledge of Liberation",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Ishikawa Yui"
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"Watashi wa No 1!": {
+				"Id": "103073",
+				"Name": "Watashi wa No 1!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Itou Asuka"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Wissen ist Macht!!": {
+				"Id": "103552",
+				"Name": "Wissen ist Macht!!",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Abe Rika"
+				],
+				"Relation": "image song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14555",
+		"Name": "Sora no Method: Mou Hitotsu no Negai",
+		"AniDbUri": "http://anidb.net/anime/14555",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14795",
+		"Name": "Africa no Salaryman (2019)",
+		"AniDbUri": "http://anidb.net/anime/14795",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Iza, Habatake (Gasshou)": {
+				"Id": "103629",
+				"Name": "Iza, Habatake (Gasshou)",
+				"Ranges": [
+					{
+						"Start": 5,
+						"End": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Andou Sasa"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Soul Flag": {
+				"Id": "103090",
+				"Name": "Soul Flag",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Shimono Hiro"
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:4ukysjKalN9He4sdqYomwp",
+						"Name": "Soul Flag",
+						"ExternalUrl": "https://open.spotify.com/track/4ukysjKalN9He4sdqYomwp",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"White Collar Elegy": {
+				"Id": "103092",
+				"Name": "White Collar Elegy",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Ootsuka Akio"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14951",
+		"Name": "Shokugeki no Souma: Shin no Sara",
+		"AniDbUri": "http://anidb.net/anime/14951",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Chronos": {
+				"Id": "103131",
+				"Name": "Chronos",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Stereo Dive Foundation"
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:7i74dlNW5CogOhN13j2AzN",
+						"Name": "Chronos",
+						"ExternalUrl": "https://open.spotify.com/track/7i74dlNW5CogOhN13j2AzN",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Emblem": {
+				"Id": "103132",
+				"Name": "Emblem",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Nano.Ripe"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Kibou no Uta": {
+				"Id": "80763",
+				"Name": "Kibou no Uta",
+				"Ranges": [
+					{
+						"Start": 11,
+						"End": 11
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Ultra Tower"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "13473",
+		"Name": "Ginga Eiyuu Densetsu: Die Neue These (2019)",
+		"AniDbUri": "http://anidb.net/anime/13473",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Binary Star": {
+				"Id": "96085",
+				"Name": "Binary Star",
+				"Ranges": null,
+				"Classification": "O1-O12",
+				"Artists": [
+					"Uru"
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:1KuSFI0ARV38j5spcq7Wbo",
+						"Name": "Binary Star",
+						"ExternalUrl": "https://open.spotify.com/track/1KuSFI0ARV38j5spcq7Wbo",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Tranquility": {
+				"Id": "103017",
+				"Name": "Tranquility",
+				"Ranges": null,
+				"Classification": "O1-O12",
+				"Artists": [
+					"Anly"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:6ZLvUEU1yWYETPrEGTj11E",
+						"Name": "Tranquility",
+						"ExternalUrl": "https://open.spotify.com/track/6ZLvUEU1yWYETPrEGTj11E",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Id": "13848",
+		"Name": "Ahiru no Sora",
+		"AniDbUri": "http://anidb.net/anime/13848",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Happy Go Ducky!": {
+				"Id": "102217",
+				"Name": "Happy Go Ducky!",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 13
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"The Pillows"
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:5p7QDNLSLGm41ZbH7DCsph",
+						"Name": "Happy Go Ducky!",
+						"ExternalUrl": "https://open.spotify.com/track/5p7QDNLSLGm41ZbH7DCsph",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Never Mind": {
+				"Id": "103641",
+				"Name": "Never Mind",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Flumpool"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Over": {
+				"Id": "103642",
+				"Name": "Over",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Uchida Yuuma"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Tsubasa": {
+				"Id": "102778",
+				"Name": "Tsubasa",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 13
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Saji"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "13948",
+		"Name": "Babylon",
+		"AniDbUri": "http://anidb.net/anime/13948",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Inochi Hamu Soul": {
+				"Id": "103201",
+				"Name": "Inochi Hamu Soul",
+				"Ranges": [
+					{
+						"Start": 4,
+						"End": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Q-MHz"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Live and Let Die": {
+				"Id": "103098",
+				"Name": "Live and Let Die",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Q-MHz"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:78523txGiYxj3Uh7n4Qi1x",
+						"Name": "Live and let die",
+						"ExternalUrl": "https://open.spotify.com/track/78523txGiYxj3Uh7n4Qi1x",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Id": "14041",
+		"Name": "Kimi dake ni Motetainda.",
+		"AniDbUri": "http://anidb.net/anime/14041",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "15033",
+		"Name": "Urashimasakatasen no Nichijou",
+		"AniDbUri": "http://anidb.net/anime/15033",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Calendar Reminder": {
+				"Id": "102723",
+				"Name": "Calendar Reminder",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Urashimasakatasen"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14806",
+		"Name": "Kaijuu Step Wandabada",
+		"AniDbUri": "http://anidb.net/anime/14806",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14941",
+		"Name": "Mob Psycho 100: Daiikkai Rei toka Soudansho Ian Ryokou - Kokoro Mitasu Iyashi no Tabi",
+		"AniDbUri": "http://anidb.net/anime/14941",
+		"Format": "OVA",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Ikiru Hitobito": {
+				"Id": "102111",
+				"Name": "Ikiru Hitobito",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Sajou no Hana"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15024",
+		"Name": "Kandagawa Jet Girls",
+		"AniDbUri": "http://anidb.net/anime/15024",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Bullet Mermaid": {
+				"Id": "103115",
+				"Name": "Bullet Mermaid",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Kohara Riko",
+					"Sasahara Yuu"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"Rivals": {
+				"Id": "103116",
+				"Name": "Rivals",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Tadokoro Azusa"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "15109",
+		"Name": "Mono no Kamisama Cocotama",
+		"AniDbUri": "http://anidb.net/anime/15109",
+		"Format": "Web",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	},
+	{
+		"Id": "14047",
+		"Name": "Yuru Yuri Ten",
+		"AniDbUri": "http://anidb.net/anime/14047",
+		"Format": "OVA",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Minna Daisuki no Uta": {
+				"Id": "54659",
+				"Name": "Minna Daisuki no Uta",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Mikami Shiori"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"Ripitte Chime": {
+				"Id": "103089",
+				"Name": "Ripitte Chime",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					"Mikami Shiori",
+					"Nanamorichuu Gorakubu",
+					"Ookubo Rumi",
+					"Ootsubo Yuka",
+					"Tsuda Minami"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Yuru Yuri Ten`yawan`ya": {
+				"Id": "103088",
+				"Name": "Yuru Yuri Ten`yawan`ya",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					"Mikami Shiori",
+					"Nanamorichuu Gorakubu",
+					"Ookubo Rumi",
+					"Ootsubo Yuka",
+					"Tsuda Minami"
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14238",
+		"Name": "Fate/Grand Order: Zettai Majuu Sensen Babylonia",
+		"AniDbUri": "http://anidb.net/anime/14238",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Hoshi ga Furu Yume": {
+				"Id": "103084",
+				"Name": "Hoshi ga Furu Yume",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Aoi Eir"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Phantom Joke": {
+				"Id": "102702",
+				"Name": "Phantom Joke",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"Unison Square Garden"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:4kFY1RxOo6Wd8hgVL3t6Rb",
+						"Name": "Phantom Joke",
+						"ExternalUrl": "https://open.spotify.com/track/4kFY1RxOo6Wd8hgVL3t6Rb",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Prover": {
+				"Id": "103636",
+				"Name": "Prover",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Milet"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"Shikisai": {
+				"Id": "89918",
+				"Name": "Shikisai",
+				"Ranges": null,
+				"Classification": "S1",
+				"Artists": [
+					"Sakamoto Maaya"
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14398",
+		"Name": "Stand My Heroes: Piece of Truth",
+		"AniDbUri": "http://anidb.net/anime/14398",
+		"Format": "TV Series",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {
+			"Precious My Heroes": {
+				"Id": "103110",
+				"Name": "Precious My Heroes",
+				"Ranges": null,
+				"Classification": "",
+				"Artists": [
+					"Fox Capture Plan"
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"URI": "spotify:track:7ushnMUNnxdnCYenITjTAB",
+						"Name": "Precious My Heroes",
+						"ExternalUrl": "https://open.spotify.com/track/7ushnMUNnxdnCYenITjTAB",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"Thought I Knew feat. Ra`z, Hayes": {
+				"Id": "103109",
+				"Name": "Thought I Knew feat. Ra`z, Hayes",
+				"Ranges": [
+					{
+						"Start": 1,
+						"End": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					"YVY"
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	{
+		"Id": "14787",
+		"Name": "Human Lost",
+		"AniDbUri": "http://anidb.net/anime/14787",
+		"Format": "Movie",
+		"Season": "Autumn",
+		"Year": "2019",
+		"Songs": {}
+	}
+]

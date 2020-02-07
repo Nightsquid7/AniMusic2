@@ -1,10 +1,10 @@
 package anidb
 
 import (
+	"animusic/internal/pkg/cache"
 	. "animusic/internal/pkg/types"
-	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"net/url"
 	"strconv"
 	"strings"
 	"time"
@@ -13,38 +13,62 @@ import (
 	"github.com/gocolly/colly"
 )
 
-var result = make(map[string]AnimeSeries)
-var songBuffer = make([]Song, 0)
-
 //AniDbScraper is a scraper implementation that will harvest anime title and song data from AniDB
 type AniDbScraper struct {
-	c   *colly.Collector
-	Url string
+	c      *colly.Collector
+	URL    string
+	Output chan ScrapedAnimeSeries
+	Done   chan bool
 }
 
 func (a *AniDbScraper) Start() {
-	a.c.Visit(a.Url)
-	json, _ := json.MarshalIndent(result, "", "\t")
-	_ = ioutil.WriteFile("./sample2.json", json, 0777)
+	if cache.CacheEnabled == true {
+		for _, series := range cache.ReadSeasonFromCache() {
+			a.Output <- series
+		}
+
+		a.Done <- true
+		close(a.Output)
+		close(a.Done)
+		return
+	}
+
+	a.c.Visit(a.URL)
+}
+
+func (a *AniDbScraper) GetOutputChannel() <-chan ScrapedAnimeSeries {
+	return a.Output
+}
+
+func (a *AniDbScraper) GetDoneChannel() <-chan bool {
+	return a.Done
 }
 
 func NewAniDbScraper(s Season) *AniDbScraper {
+	collector, output, done := createCollector(s)
 	a := AniDbScraper{
-		c:   createCollector(s),
-		Url: constructAniDbSourceURL(s),
+		c:      collector,
+		URL:    constructAniDbSourceURL(s),
+		Output: output,
+		Done:   done,
 	}
 
 	return &a
 }
 
-func createCollector(s Season) *colly.Collector {
+func createCollector(s Season) (*colly.Collector, chan ScrapedAnimeSeries, chan bool) {
+	var result = make(map[string]ScrapedAnimeSeries)
+	var songBuffer = make([]ScrapedSongData, 0)
 	c := colly.NewCollector(colly.MaxDepth(1))
+	output := make(chan ScrapedAnimeSeries)
+	done := make(chan bool)
+
 	c.Limit(&colly.LimitRule{
 		// Filter domains affected by this rule
 		DomainGlob:  "anidb.net",
 		Parallelism: 1,
 		// Set a delay between requests to these domains
-		Delay: 2 * time.Second,
+		Delay: 5 * time.Second,
 		// Add an additional random delay
 		RandomDelay: 2 * time.Second,
 	})
@@ -54,14 +78,14 @@ func createCollector(s Season) *colly.Collector {
 		DomainGlob:  "anidb.net",
 		Parallelism: 1,
 		// Set a delay between requests to these domains
-		Delay: 2 * time.Second,
+		Delay: 5 * time.Second,
 		// Add an additional random delay
 		RandomDelay: 2 * time.Second,
 	})
 
 	// Find and visit all links
 	c.OnHTML("div .data", func(e *colly.HTMLElement) {
-		buf := AnimeSeries{}
+		buf := ScrapedAnimeSeries{}
 		buf.Year = s.Year
 		buf.Season = s.Name
 		e.DOM.Find(".name").Each(func(i int, s *goquery.Selection) {
@@ -93,16 +117,25 @@ func createCollector(s Season) *colly.Collector {
 
 	c.OnScraped(func(r *colly.Response) {
 		fmt.Println("Finished", r.Request.URL)
+		done <- true
+		close(output)
+		close(done)
 	})
 
 	songDetails.OnScraped(func(r *colly.Response) {
-		fmt.Println("Grabbed music for one anime")
+		id := getAnimeIDFromURL(*r.Request.URL)
+		fmt.Printf("Grabbed %d songs for anime id: %s\n", len(songBuffer), id)
+
+		buf := result[id]
 		for _, song := range songBuffer {
-			buf := result[song.AnimeId]
-			buf.Songs = append(result[song.AnimeId].Songs, song)
-			result[song.AnimeId] = buf
+			song.Year = buf.Year
+			buf.Songs = append(buf.Songs, song)
 		}
+		result[id] = buf
+
 		songBuffer = nil
+		cache.SaveToCache(&buf)
+		output <- result[id]
 	})
 
 	songDetails.OnRequest(func(r *colly.Request) {
@@ -118,12 +151,11 @@ func createCollector(s Season) *colly.Collector {
 			}
 
 			s.Find("td.name.song").Each(func(i int, ss *goquery.Selection) {
-				song := Song{}
-				idx := strings.LastIndex(e.Request.URL.String(), "/")
-				song.AnimeId = e.Request.URL.String()[idx+1:]
+				song := ScrapedSongData{}
+				song.AnimeId = getAnimeIDFromURL(*e.Request.URL)
 				song.Name = strings.TrimSpace(ss.Text())
 				href, _ := ss.Find("a").Attr("href")
-				idx = strings.LastIndex(strings.TrimSpace(href), "/")
+				idx := strings.LastIndex(strings.TrimSpace(href), "/")
 				song.Id = href[idx+1:]
 				song.Relation = currentRelation
 
@@ -147,7 +179,7 @@ func createCollector(s Season) *colly.Collector {
 								epRange := EpisodeRange{}
 								epRange.Start = start
 								epRange.End, _ = strconv.Atoi(eps[1])
-								song.Range = append(song.Range, epRange)
+								song.Ranges = append(song.Ranges, epRange)
 							}
 						} else {
 							num, err := strconv.Atoi(rangeString)
@@ -159,7 +191,7 @@ func createCollector(s Season) *colly.Collector {
 								epRange := EpisodeRange{}
 								epRange.Start = num
 								epRange.End = num
-								song.Range = append(song.Range, epRange)
+								song.Ranges = append(song.Ranges, epRange)
 							}
 						}
 					}
@@ -170,9 +202,13 @@ func createCollector(s Season) *colly.Collector {
 
 		})
 	})
-	return c
+	return c, output, done
 }
 
+func getAnimeIDFromURL(url url.URL) string {
+	idx := strings.LastIndex(url.String(), "/")
+	return url.String()[idx+1:]
+}
 func constructAniDbSourceURL(s Season) string {
 	return fmt.Sprintf("http://anidb.net/anime/season/?do=calendar&do.last.anime=Show&h=1&last.anime.month=%d&last.anime.year=%s", s.GetAniDbSeasonNumber(), s.Year)
 }
