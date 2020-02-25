@@ -17,25 +17,31 @@ func init() {
 	os.MkdirAll(".cache", 0644)
 }
 
-func InitCache(season *types.Season) {
+//InitCache attempts to initialize the cache for the specified season by reading from disk when cacheEnabled is set to true
+//Otherwise it will initialize an empty map, which will be used to overwrite any existing cache file
+func InitCache(season *types.Season, cacheEnabled bool) {
 	cacheSeason = season
 	path := filepath.Join(".cache/", fmt.Sprintf("%s.json", season.String()))
+
 	if _, err := os.Stat(path); os.IsNotExist(err) {
 		memcache = make(map[string]types.ScrapedAnimeSeries)
-		CacheEnabled = false
 	} else {
-		dat, err := ioutil.ReadFile(path)
-		if err != nil {
-			//Cache corruption
-			os.Exit(1)
-		}
-		err = json.Unmarshal(dat, &memcache)
+		if cacheEnabled == true {
+			dat, err := ioutil.ReadFile(path)
+			if err != nil {
+				//Cache corruption
+				os.Exit(1)
+			}
+			err = json.Unmarshal(dat, &memcache)
 
-		if err != nil {
-			//Cache corruption
-			os.Exit(1)
+			if err != nil {
+				//Cache corruption
+				os.Exit(1)
+			}
+			CacheEnabled = cacheEnabled
+		} else {
+			memcache = make(map[string]types.ScrapedAnimeSeries)
 		}
-		CacheEnabled = true
 	}
 }
 

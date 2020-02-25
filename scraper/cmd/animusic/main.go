@@ -10,7 +10,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"strings"
 	"sync"
 	"time"
 )
@@ -36,7 +35,7 @@ func init() {
 	flag.StringVar(&spotifyClientID, "sid", "", "Client Id for Spotify OAuth2 client")
 	flag.StringVar(&spotifyClientSecret, "ss", "", "Client Secret for Spotify OAuth2 client")
 	flag.StringVar(&seasonString, "s", "", "Season string e.g. Winter 2020. Infers season from current date if not specified")
-	flag.BoolVar(&useCache, "c", true, "Attempt to load anime data from local cache")
+	flag.BoolVar(&useCache, "cache", true, "Attempt to load anime data from local cache")
 }
 
 func main() {
@@ -67,7 +66,7 @@ func main() {
 	}
 	fmt.Println("Season set to: ", season.String())
 
-	cache.InitCache(season)
+	cache.InitCache(season, useCache)
 
 	// //Initialize all anime data sources
 	a := anidb.NewAniDbScraper(*season)
@@ -77,6 +76,7 @@ func main() {
 
 	//Build output
 	fmt.Println("Done!")
+	reportResults()
 	json, _ := json.MarshalIndent(result, "", "\t")
 	ioutil.WriteFile("output.json", json, 0644)
 }
@@ -135,15 +135,21 @@ func searchSongs(songs []types.ScrapedSongData) map[string]map[string]types.Song
 		case searchResult := <-agg:
 			fmt.Println("Found: ", searchResult)
 
-			if _, ok := output[searchResult.Name]; !ok {
-				output[strings.ToUpper(searchResult.Name)] = make(map[string]types.SongSearchResult)
+			if _, ok := output[searchResult.SongId+"-"+searchResult.Relation]; !ok {
+				output[searchResult.SongId+"-"+searchResult.Relation] = make(map[string]types.SongSearchResult)
 			}
 
-			output[strings.ToUpper(searchResult.Name)][searchResult.Source] = searchResult
+			output[searchResult.SongId+"-"+searchResult.Relation][searchResult.Source] = searchResult
 		case searchErr := <-err:
 			fmt.Println("Error occurred: ", searchErr)
 		}
 	}
 
 	return output
+}
+
+func reportResults() {
+	for _, musicSource := range musicSources {
+		fmt.Println(musicSource.ReportStats())
+	}
 }

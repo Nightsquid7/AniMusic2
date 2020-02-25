@@ -24,10 +24,24 @@ func NewClient(clientID string, clientSecret string) *SpotifyMusicSource {
 	return &client
 }
 
-func BuildSpotifyQueryString(song types.ScrapedSongData) string {
+//Returns an array of Spotify query strings to try to search.
+//Includes a permutation for every artists and their romaji and kanji names because Spotify artist filter does not allow the OR operator
+func BuildSpotifyQueryStrings(song types.ScrapedSongData) []string {
 	yearInt, _ := strconv.Atoi(song.Year)
 	yearString := fmt.Sprintf("%d-%d", yearInt, yearInt+1)
-	return fmt.Sprintf("%s artist:%s year:%s", song.Name, song.Artists[0], yearString)
+	result := make([]string, 0)
+
+	for i := 0; i < len(song.Artists); i++ {
+		result = append(result, fmt.Sprintf("%s artist:%s year:%s", song.Name, song.Artists[i].Name, yearString))
+		result = append(result, fmt.Sprintf("%s artist:%s year:%s", song.Name, song.Artists[i].NameEn, yearString))
+		result = append(result, fmt.Sprintf("%s artist:%s year:%s", song.NameEn, song.Artists[i].Name, yearString))
+		result = append(result, fmt.Sprintf("%s artist:%s year:%s", song.NameEn, song.Artists[i].NameEn, yearString))
+	}
+
+	//If we fail to retrieve anything using the artist strings, last ditch attempt to search using only the name and year
+	result = append(result, fmt.Sprintf("%s year:%s", song.Name, yearString))
+	result = append(result, fmt.Sprintf("%s year:%s", song.NameEn, yearString))
+	return result
 }
 
 func createSpotifyClient(clientID string, clientSecret string) *spotify.Client {
@@ -60,23 +74,18 @@ func startCallbackOAuthServer() <-chan *oauth2.Token {
 
 func startHttpServer(done chan<- *oauth2.Token, state string) {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Println("Received callback on localhost:8080")
+		fmt.Println("Received callback on localhost:3939")
 		token, err := auth.Token(state, r)
 		if err != nil {
 			fmt.Println(err)
-			http.Error(w, "Couldn't get token", http.StatusNotFound)
+			http.Error(w, "Couldn't get token", http.StatusInternalServerError)
 			return
 		}
 		// create a client using the specified token
 		done <- token
-
+		close(done)
 	})
 	http.ListenAndServe(":3939", nil)
-	// if err != nil {
-	// 	fmt.Println("Error trying to start http server for OAuth2 callback. Please stop any other process listening on port 3939")
-	// 	//We are not in a recoverable state, so exit
-	// 	os.Exit(1)
-	// }
 }
 
 func openBrowser(url string) {
