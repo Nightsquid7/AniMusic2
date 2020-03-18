@@ -3,13 +3,14 @@ package main
 import (
 	"animusic/internal/pkg/anidb"
 	"animusic/internal/pkg/cache"
+	"animusic/internal/pkg/firestore"
+	"animusic/internal/pkg/json"
 	"animusic/internal/pkg/spotify"
 	"animusic/internal/pkg/types"
-	"encoding/json"
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"os"
+	"strings"
 	"sync"
 	"time"
 )
@@ -25,17 +26,22 @@ _____         .__               .__           _________
 
 var animeSources []types.AnimeScraper
 var musicSources []types.MusicSource
+var outputWriters []types.OutputWriter
 var spotifyClientID string
 var spotifyClientSecret string
 var seasonString string
 var season *types.Season
 var useCache bool
+var firebaseCredPath string
+var jsonWritePath string
 
 func init() {
 	flag.StringVar(&spotifyClientID, "sid", "", "Client Id for Spotify OAuth2 client")
 	flag.StringVar(&spotifyClientSecret, "ss", "", "Client Secret for Spotify OAuth2 client")
 	flag.StringVar(&seasonString, "s", "", "Season string e.g. Winter 2020. Infers season from current date if not specified")
 	flag.BoolVar(&useCache, "cache", true, "Attempt to load anime data from local cache")
+	flag.StringVar(&firebaseCredPath, "firebaseCredPath", "", "Location of the services.json for Firebase")
+	flag.StringVar(&jsonWritePath, "writePath", "", "Output path for the json file")
 }
 
 func main() {
@@ -43,15 +49,8 @@ func main() {
 	fmt.Println("Welcome to the Animusic Scraper")
 	flag.Parse()
 
-	//Decide what music sources to use based on the tokens/credentials provided
-	if len(spotifyClientID) == 0 || len(spotifyClientSecret) == 0 {
-		fmt.Println("Spotify credentials were not provided. Will not use Spotify for music search")
-	} else {
-		spotifyClient := spotify.NewClient(spotifyClientID, spotifyClientSecret)
-		musicSources = append(musicSources, spotifyClient)
-	}
-
-	//TODO: Initialize Apple Music here
+	initializeMusicSources()
+	initializeOutputWriters()
 
 	//Figure out what season we need to be scraping
 	if len(seasonString) != 0 {
@@ -75,10 +74,12 @@ func main() {
 	result := scrape()
 
 	//Build output
-	fmt.Println("Done!")
 	reportResults()
-	json, _ := json.MarshalIndent(result, "", "\t")
-	ioutil.WriteFile("output.json", json, 0644)
+
+	for _, outputWriter := range outputWriters {
+		outputWriter.Output(result, *season)
+	}
+	fmt.Println("Done!")
 }
 
 func scrape() []types.AnimeSeries {
@@ -133,7 +134,7 @@ func searchSongs(songs []types.ScrapedSongData) map[string]map[string]types.Song
 	for i := 0; i < len(musicSources)*len(songs); i++ {
 		select {
 		case searchResult := <-agg:
-			fmt.Println("Found: ", searchResult)
+			fmt.Printf("Found %s: %s on %s \n", searchResult.Relation, searchResult.Name, searchResult.Source)
 
 			if _, ok := output[searchResult.SongId+"-"+searchResult.Relation]; !ok {
 				output[searchResult.SongId+"-"+searchResult.Relation] = make(map[string]types.SongSearchResult)
@@ -152,4 +153,34 @@ func reportResults() {
 	for _, musicSource := range musicSources {
 		fmt.Println(musicSource.ReportStats())
 	}
+}
+
+func initializeMusicSources() {
+	var sb strings.Builder
+	sb.WriteString("Music sources initialized:")
+	//Decide what music sources to use based on the tokens/credentials provided
+	if len(spotifyClientID) != 0 || len(spotifyClientSecret) != 0 {
+		spotifyClient := spotify.NewClient(spotifyClientID, spotifyClientSecret)
+		musicSources = append(musicSources, spotifyClient)
+		sb.WriteString(" Spotify")
+	}
+
+	//TODO: Initialize Apple Music here
+	fmt.Println(sb.String())
+}
+
+func initializeOutputWriters() {
+	var sb strings.Builder
+	sb.WriteString("Output writers initialized:")
+	//Decide what output writers to use based on the provided args
+	if len(firebaseCredPath) != 0 {
+		outputWriters = append(outputWriters, firestore.CreateFirestoreOutputWriter(firebaseCredPath))
+		sb.WriteString(" Firestore")
+	}
+
+	if len(jsonWritePath) != 0 {
+		outputWriters = append(outputWriters, json.CreateNewJsonWriter(jsonWritePath))
+		sb.WriteString(" Json")
+	}
+	fmt.Println(sb.String())
 }

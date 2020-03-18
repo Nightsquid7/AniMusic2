@@ -2,3 +2,5 @@
 scraper/.vscode/launch.json
 
 .vscode/
+
+scraper/cmd/animusic/animusic2-*.json

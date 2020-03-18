@@ -45,7 +45,7 @@ func BuildSpotifyQueryStrings(song types.ScrapedSongData) []string {
 }
 
 func createSpotifyClient(clientID string, clientSecret string) *spotify.Client {
-	fmt.Println("Initializing Spotify Client...")
+	// fmt.Println("Initializing Spotify Client...")
 	done := startCallbackOAuthServer()
 	auth.SetAuthInfo(clientID, clientSecret)
 	url := auth.AuthURL(state)
@@ -56,7 +56,7 @@ func createSpotifyClient(clientID string, clientSecret string) *spotify.Client {
 	case token := <-done:
 		client := auth.NewClient(token)
 		client.AutoRetry = true
-		fmt.Println("Successfully initialized Spotify Client")
+		// fmt.Println("Successfully initialized Spotify Client")
 		return &client
 	case <-time.After(15 * time.Second):
 		fmt.Println("Timed out trying to get Spotify OAuth token. Try checking your Spotify Developer account settings")
@@ -74,7 +74,7 @@ func startCallbackOAuthServer() <-chan *oauth2.Token {
 
 func startHttpServer(done chan<- *oauth2.Token, state string) {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Println("Received callback on localhost:3939")
+		// fmt.Println("Received callback on localhost:3939")
 		token, err := auth.Token(state, r)
 		if err != nil {
 			fmt.Println(err)

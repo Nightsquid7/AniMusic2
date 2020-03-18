@@ -3,7 +3,6 @@ package anidb
 import (
 	"animusic/internal/pkg/cache"
 	. "animusic/internal/pkg/types"
-	"encoding/json"
 	"fmt"
 	"net/url"
 	"strconv"
@@ -124,7 +123,6 @@ func createCollector(s Season) (*colly.Collector, chan ScrapedAnimeSeries, chan 
 
 	seriesDetails.OnScraped(func(r *colly.Response) {
 		id := getIDFromURL(*r.Request.URL)
-		fmt.Printf("Grabbed %d songs for anime id: %s\n", len(songBuffer), id)
 
 		buf := result[id]
 		for _, song := range songBuffer {
@@ -146,8 +144,7 @@ func createCollector(s Season) (*colly.Collector, chan ScrapedAnimeSeries, chan 
 		songDetailsBuffer = make(map[string]string)
 		artistDetailsBuffer = make(map[string]string)
 		cache.SaveToCache(&buf)
-		json, _ := json.MarshalIndent(result[id], "", "\t")
-		fmt.Println(string(json))
+		fmt.Printf("Grabbed %d songs for anime: %s - %s\n", len(songBuffer), id, result[id].Name)
 		output <- result[id]
 	})
 
