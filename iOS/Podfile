@@ -5,12 +5,27 @@ target 'iOS' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for iOS
+  # Firebase
   pod 'Firebase/Firestore'
+
+  # Reactive
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+
+  # Networking
+  pod 'Alamofire', '~> 5.0'
+
+  # Realm
+  pod 'RealmSwift'
+  
+  # Tools
+  pod 'SwiftLint'
 
   target 'iOSTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxBlocking', '~> 5'
+    pod 'RxTest', '~> 5'
   end
 
   target 'iOSUITests' do
