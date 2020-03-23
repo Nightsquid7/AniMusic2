@@ -9,15 +9,17 @@
 import Foundation
 import FirebaseFirestore
 import RxSwift
+import RealmSwift
 
 struct FirebaseStore {
+    let realm = try! Realm()
 
     static let sharedInstance = FirebaseStore()
 
     let db = Firestore.firestore()
 
-    func getAnime() -> Single<AnimeSeries> {
-        return Single<AnimeSeries>.create { single in
+    func getAnime() -> Single<[AnimeSeries]> {
+        return Single<[AnimeSeries]>.create { single in
 
             let animeRef = self.db.collection("Anime")
             animeRef.getDocuments() { (querySnapshot, error) in
@@ -33,6 +35,7 @@ struct FirebaseStore {
 
                 var animeCount = 0
                 var errorCount = 0
+//                var animes = [AnimeSeries]()
                 for document in documents {
 
                     do {
@@ -42,6 +45,10 @@ struct FirebaseStore {
                         let realmAnime = RealmAnimeSeries(from: anime)
 
                         print("realmAnime -> \(realmAnime)")
+
+                        try self.realm.write {
+                            self.realm.add(realmAnime)
+                        }
                         animeCount += 1
 
                     } catch {
