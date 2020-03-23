@@ -37,7 +37,7 @@ struct AnimeSong: Codable {
     let nameEnglish: String
     let ranges: [EpisodeRange]?
     let classification: String
-    let artists: [AnimeArtist]
+    let artists: [Artist]
     let relation: String
     let sources: [String: SongSearchResult]?
 
@@ -59,10 +59,10 @@ struct EpisodeRange: Codable {
     let end: Int?
 }
 
-enum SourceType: String, Codable {
-    case Spotify
-    case AppleMusic
-}
+//enum SourceType: String, Codable {
+//    case Spotify
+//    case AppleMusic
+//}
 
 struct SongSearchResult: Codable {
     let relation: String
@@ -70,7 +70,7 @@ struct SongSearchResult: Codable {
     let URI: String // link to spotify/apple music
     let name: String
     let externalUrl: String
-    let source: SourceType
+    let source: String
 
     enum CodingKeys: String, CodingKey {
         case relation = "Relation"
@@ -82,7 +82,7 @@ struct SongSearchResult: Codable {
     }
 }
 
-struct AnimeArtist: Codable {
+struct Artist: Codable {
     let id: String
     let name: String
     let nameEnglish: String

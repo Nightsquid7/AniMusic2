@@ -38,14 +38,11 @@ struct FirebaseStore {
                     do {
                         let animeData = try JSONSerialization.data(withJSONObject: document.data(), options: [])
                         let anime = try JSONDecoder().decode(AnimeSeries.self, from: animeData)
-                        if let songs = anime.songs, songs.count > 0 {
-                            _ = songs.map { song in
-                                if song.value.sources!.count > 0 {
-                                    print("fetched anime: \(anime)")
-                                    animeCount += 1
-                                }
-                            }
-                        }
+
+                        let realmAnime = RealmAnimeSeries(from: anime)
+
+                        print("realmAnime -> \(realmAnime)")
+                        animeCount += 1
 
                     } catch {
                         print("couldn't get anime from \(document.data())")
