@@ -10,7 +10,10 @@
 		49CEDD3A4AFE64FFAE874E85 /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA192436CD9D54ACD21B486 /* Pods_iOS.framework */; };
 		4BD17C824CAEB14C667B73AF /* Pods_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315808D2830C559B226519E6 /* Pods_iOSUITests.framework */; };
 		533345202426F2260074C258 /* FirebaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333451F2426F2260074C258 /* FirebaseStore.swift */; };
+		53389B022429924200B578DA /* NavigatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53389B012429924200B578DA /* NavigatorViewController.swift */; };
 		534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B7B3A2429869A002A3EAC /* Navigator.swift */; };
+		534B7B46242990D3002A3EAC /* AnimeSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B7B45242990D3002A3EAC /* AnimeSeriesViewModel.swift */; };
+		534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B7B47242990FC002A3EAC /* AnimeSeriesViewController.swift */; };
 		534C4F3D242881B00029F4BF /* AnimeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C4F3C242881B00029F4BF /* AnimeListViewModel.swift */; };
 		53564353242456E700C96075 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53564352242456E700C96075 /* GoogleService-Info.plist */; };
 		535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* RealmAnimeSeries.swift */; };
@@ -48,7 +51,10 @@
 		315808D2830C559B226519E6 /* Pods_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA192436CD9D54ACD21B486 /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5333451F2426F2260074C258 /* FirebaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStore.swift; sourceTree = "<group>"; };
+		53389B012429924200B578DA /* NavigatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorViewController.swift; sourceTree = "<group>"; };
 		534B7B3A2429869A002A3EAC /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		534B7B45242990D3002A3EAC /* AnimeSeriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimeSeriesViewModel.swift; path = "/Users/stevenberkowitz/Development/Nightsquid Personal Projects/AniMusic/AniMusic2/iOS/iOS/Anime List/AnimeSeriesViewModel.swift"; sourceTree = "<absolute>"; };
+		534B7B47242990FC002A3EAC /* AnimeSeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeriesViewController.swift; sourceTree = "<group>"; };
 		534C4F3C242881B00029F4BF /* AnimeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListViewModel.swift; sourceTree = "<group>"; };
 		53564352242456E700C96075 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		535643542424583600C96075 /* RealmAnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAnimeSeries.swift; sourceTree = "<group>"; };
@@ -135,6 +141,24 @@
 			path = "Anime List";
 			sourceTree = "<group>";
 		};
+		534B7B3D24298ECB002A3EAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				535643542424583600C96075 /* RealmAnimeSeries.swift */,
+				53A02E0C24285A38004E19EC /* AnimeSeries.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		534B7B42242990A0002A3EAC /* Anime Series */ = {
+			isa = PBXGroup;
+			children = (
+				534B7B45242990D3002A3EAC /* AnimeSeriesViewModel.swift */,
+				534B7B47242990FC002A3EAC /* AnimeSeriesViewController.swift */,
+			);
+			path = "Anime Series";
+			sourceTree = "<group>";
+		};
 		53FFA5C1242450B000194B85 = {
 			isa = PBXGroup;
 			children = (
@@ -162,16 +186,17 @@
 			children = (
 				53FFA5CD242450B000194B85 /* AppDelegate.swift */,
 				53FFA5CF242450B000194B85 /* SceneDelegate.swift */,
-				5333451F2426F2260074C258 /* FirebaseStore.swift */,
-				535643542424583600C96075 /* RealmAnimeSeries.swift */,
-				53A02E0C24285A38004E19EC /* AnimeSeries.swift */,
 				534B7B3A2429869A002A3EAC /* Navigator.swift */,
+				5333451F2426F2260074C258 /* FirebaseStore.swift */,
+				534B7B3D24298ECB002A3EAC /* Models */,
+				534B7B42242990A0002A3EAC /* Anime Series */,
 				534B7B3C24298AD7002A3EAC /* Anime List */,
 				53FFA5D3242450B000194B85 /* Main.storyboard */,
 				53FFA5D6242450B100194B85 /* Assets.xcassets */,
 				53FFA5D8242450B100194B85 /* LaunchScreen.storyboard */,
 				53FFA5DB242450B100194B85 /* Info.plist */,
 				53564352242456E700C96075 /* GoogleService-Info.plist */,
+				53389B012429924200B578DA /* NavigatorViewController.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -438,9 +463,12 @@
 				533345202426F2260074C258 /* FirebaseStore.swift in Sources */,
 				53A02E0D24285A38004E19EC /* AnimeSeries.swift in Sources */,
 				534C4F3D242881B00029F4BF /* AnimeListViewModel.swift in Sources */,
+				53389B022429924200B578DA /* NavigatorViewController.swift in Sources */,
+				534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */,
 				535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */,
 				534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */,
 				53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */,
+				534B7B46242990D3002A3EAC /* AnimeSeriesViewModel.swift in Sources */,
 				53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

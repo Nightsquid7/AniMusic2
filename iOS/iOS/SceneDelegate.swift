@@ -26,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         guard let rootViewController = window?.rootViewController else { return }
         
-        navigator.show(segue: .AnimeListViewController, sender: rootViewController)
+        navigator.show(segue: .animeListViewController, sender: rootViewController)
 
     }
 

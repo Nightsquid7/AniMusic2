@@ -13,7 +13,6 @@ target 'iOS' do
   pod 'RxCocoa', '~> 5'
   pod 'RxRealm'
 
-
   # Networking
   pod 'Alamofire', '~> 5.0'
 
@@ -22,6 +21,7 @@ target 'iOS' do
   
   # Tools
   pod 'SwiftLint'
+  pod 'Then'
 
   target 'iOSTests' do
     inherit! :search_paths

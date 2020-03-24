@@ -31,6 +31,8 @@ class AnimeListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        navigationItem.title = "AniMusic"
+
         searchBar.rx.textDidBeginEditing
             .subscribe(onNext: {
                 self.searchBar.showsCancelButton = true
@@ -63,6 +65,12 @@ class AnimeListViewController: UIViewController {
             .bind(to: tableView.rx.items(cellIdentifier: "AnimeCell", cellType: UITableViewCell.self)) { _, element, cell in
                     cell.textLabel?.text = element.name
             }
+            .disposed(by: disposeBag)
+
+        tableView.rx.modelSelected(RealmAnimeSeries.self)
+            .subscribe(onNext: { anime in
+                self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
+            })
             .disposed(by: disposeBag)
 
     }
