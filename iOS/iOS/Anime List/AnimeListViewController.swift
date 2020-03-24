@@ -32,6 +32,7 @@ class AnimeListViewController: UIViewController {
         super.viewDidLoad()
 
         navigationItem.title = "AniMusic"
+        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: searchBar)
 
         searchBar.rx.textDidBeginEditing
             .subscribe(onNext: {
@@ -55,6 +56,7 @@ class AnimeListViewController: UIViewController {
 
         searchBar.rx.cancelButtonClicked
             .subscribe(onNext:  {
+                self.searchBar.text = ""
                 self.searchBar.showsCancelButton = false
                 self.searchBar.showsScopeBar = true
                 self.searchBar.resignFirstResponder()
