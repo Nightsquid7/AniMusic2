@@ -19,9 +19,14 @@ class AnimeListViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
     let viewModel = AnimeListViewModel()
+    let navigator = Navigator.sharedInstance
 
     let firebaseStore = FirebaseStore.sharedInstance
     let disposeBag = DisposeBag()
+
+    static func createWith(storyboard: UIStoryboard) -> AnimeListViewController {
+        return storyboard.instantiateViewController(withIdentifier: "AnimeListViewController") as! AnimeListViewController
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

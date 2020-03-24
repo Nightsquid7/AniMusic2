@@ -10,13 +10,14 @@
 		49CEDD3A4AFE64FFAE874E85 /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA192436CD9D54ACD21B486 /* Pods_iOS.framework */; };
 		4BD17C824CAEB14C667B73AF /* Pods_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315808D2830C559B226519E6 /* Pods_iOSUITests.framework */; };
 		533345202426F2260074C258 /* FirebaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333451F2426F2260074C258 /* FirebaseStore.swift */; };
+		534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B7B3A2429869A002A3EAC /* Navigator.swift */; };
 		534C4F3D242881B00029F4BF /* AnimeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C4F3C242881B00029F4BF /* AnimeListViewModel.swift */; };
 		53564353242456E700C96075 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53564352242456E700C96075 /* GoogleService-Info.plist */; };
 		535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* RealmAnimeSeries.swift */; };
 		53A02E0D24285A38004E19EC /* AnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A02E0C24285A38004E19EC /* AnimeSeries.swift */; };
 		53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5CD242450B000194B85 /* AppDelegate.swift */; };
 		53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5CF242450B000194B85 /* SceneDelegate.swift */; };
-		53FFA5D2242450B000194B85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5D1242450B000194B85 /* ViewController.swift */; };
+		53FFA5D2242450B000194B85 /* AnimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5D1242450B000194B85 /* AnimeListViewController.swift */; };
 		53FFA5D5242450B000194B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FFA5D3242450B000194B85 /* Main.storyboard */; };
 		53FFA5D7242450B100194B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FFA5D6242450B100194B85 /* Assets.xcassets */; };
 		53FFA5DA242450B100194B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FFA5D8242450B100194B85 /* LaunchScreen.storyboard */; };
@@ -47,6 +48,7 @@
 		315808D2830C559B226519E6 /* Pods_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA192436CD9D54ACD21B486 /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5333451F2426F2260074C258 /* FirebaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStore.swift; sourceTree = "<group>"; };
+		534B7B3A2429869A002A3EAC /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		534C4F3C242881B00029F4BF /* AnimeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListViewModel.swift; sourceTree = "<group>"; };
 		53564352242456E700C96075 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		535643542424583600C96075 /* RealmAnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAnimeSeries.swift; sourceTree = "<group>"; };
@@ -54,7 +56,7 @@
 		53FFA5CA242450B000194B85 /* AniMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FFA5CD242450B000194B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53FFA5CF242450B000194B85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53FFA5D1242450B000194B85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53FFA5D1242450B000194B85 /* AnimeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListViewController.swift; sourceTree = "<group>"; };
 		53FFA5D4242450B000194B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53FFA5D6242450B100194B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53FFA5D9242450B100194B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -124,6 +126,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		534B7B3C24298AD7002A3EAC /* Anime List */ = {
+			isa = PBXGroup;
+			children = (
+				53FFA5D1242450B000194B85 /* AnimeListViewController.swift */,
+				534C4F3C242881B00029F4BF /* AnimeListViewModel.swift */,
+			);
+			path = "Anime List";
+			sourceTree = "<group>";
+		};
 		53FFA5C1242450B000194B85 = {
 			isa = PBXGroup;
 			children = (
@@ -151,11 +162,11 @@
 			children = (
 				53FFA5CD242450B000194B85 /* AppDelegate.swift */,
 				53FFA5CF242450B000194B85 /* SceneDelegate.swift */,
-				53FFA5D1242450B000194B85 /* ViewController.swift */,
 				5333451F2426F2260074C258 /* FirebaseStore.swift */,
 				535643542424583600C96075 /* RealmAnimeSeries.swift */,
 				53A02E0C24285A38004E19EC /* AnimeSeries.swift */,
-				534C4F3C242881B00029F4BF /* AnimeListViewModel.swift */,
+				534B7B3A2429869A002A3EAC /* Navigator.swift */,
+				534B7B3C24298AD7002A3EAC /* Anime List */,
 				53FFA5D3242450B000194B85 /* Main.storyboard */,
 				53FFA5D6242450B100194B85 /* Assets.xcassets */,
 				53FFA5D8242450B100194B85 /* LaunchScreen.storyboard */,
@@ -423,11 +434,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FFA5D2242450B000194B85 /* ViewController.swift in Sources */,
+				53FFA5D2242450B000194B85 /* AnimeListViewController.swift in Sources */,
 				533345202426F2260074C258 /* FirebaseStore.swift in Sources */,
 				53A02E0D24285A38004E19EC /* AnimeSeries.swift in Sources */,
 				534C4F3D242881B00029F4BF /* AnimeListViewModel.swift in Sources */,
 				535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */,
+				534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */,
 				53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */,
 				53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */,
 			);
