@@ -18,8 +18,10 @@ struct FirebaseStore {
 
     let db = Firestore.firestore()
 
-    func getAnime() -> Single<[AnimeSeries]> {
-        return Single<[AnimeSeries]>.create { single in
+    // currently only getting anime is from "Anime" collection
+    // MARK: todo -> add season
+    func getAnime() -> Single<[RealmAnimeSeries]> {
+        return Single<[RealmAnimeSeries]>.create { single in
 
             let animeRef = self.db.collection("Anime")
             animeRef.getDocuments() { (querySnapshot, error) in
@@ -29,36 +31,34 @@ struct FirebaseStore {
                 }
 
                 guard let documents = querySnapshot?.documents else {
-                    // MARK: to do -> make error for no documents
+                    // MARK: todo -> make error for no documents
                     return
                 }
-
+                // temporary
+                // testing how many anime are parsed correctly...
                 var animeCount = 0
                 var errorCount = 0
-//                var animes = [AnimeSeries]()
+                var resultAnimes = [RealmAnimeSeries]()
                 for document in documents {
 
                     do {
                         let animeData = try JSONSerialization.data(withJSONObject: document.data(), options: [])
                         let anime = try JSONDecoder().decode(AnimeSeries.self, from: animeData)
-
                         let realmAnime = RealmAnimeSeries(from: anime)
-
-                        print("realmAnime -> \(realmAnime)")
-
-                        try self.realm.write {
-                            self.realm.add(realmAnime)
-                        }
+                        resultAnimes.append(realmAnime)
+                        // temporary
                         animeCount += 1
 
                     } catch {
                         print("couldn't get anime from \(document.data())")
                         print(error)
+                        
                         errorCount += 1
                     }
                 }
-                print("anime.count -> \(animeCount)\nerrorCount -> \(errorCount)")
 
+                single(.success(resultAnimes))
+                return
             }
 
             return Disposables.create {}

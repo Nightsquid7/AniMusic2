@@ -6,6 +6,7 @@
 //  Copyright © Reiwa 2 nightsquid. All rights reserved.
 //
 
+//import Foundation
 import UIKit
 import FirebaseFirestore
 import RxSwift
@@ -31,6 +32,8 @@ class AnimeListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+
+        
         navigationItem.title = "AniMusic"
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: searchBar)
 

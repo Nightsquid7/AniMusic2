@@ -56,10 +56,13 @@ class RealmAnimeSong: Object {
         self.relation = song.relation
         // add ranges if they exist
         if let ranges = song.ranges {
+//            print("ranges is non optional")
             for range in ranges {
                 self.ranges.append(RealmEpisodeRange(from: range))
             }
+//            print("RealmAnime ranges -> ", ranges)
         }
+//        print("after if let  RealmAnime ranges -> ", ranges)
         // add artists
         for artist in song.artists {
             self.artists.append(RealmArtist(from: artist))
@@ -75,17 +78,15 @@ class RealmAnimeSong: Object {
 }
 
 class RealmEpisodeRange: Object {
-    let start = RealmOptional<Int>()
-    let end = RealmOptional<Int>()
+    @objc dynamic var start: Int = 0
+    @objc dynamic var end: Int = 0
 
     convenience init(from range: EpisodeRange) {
         self.init()
-        if let start = range.start {
-            self.start.value = start
-        }
-        if let end = range.end {
-            self.end.value = end
-        }
+        if let start = range.start, let end = range.end {
+            self.start = start
+            self.end = end
+        } else { print("start range is optional ->  start != range.start, end != range.end") }
     }
 }
 

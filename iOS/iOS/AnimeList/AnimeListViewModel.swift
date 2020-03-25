@@ -14,7 +14,9 @@ import RxRealm
 class AnimeListViewModel {
 
     let displayedAnimes = BehaviorSubject<[RealmAnimeSeries]>(value: [])
-    let results: Results<RealmAnimeSeries>
+    var results: Results<RealmAnimeSeries>
+
+    let firebaseStore = FirebaseStore.sharedInstance
 
     let disposeBag = DisposeBag()
 
@@ -22,8 +24,31 @@ class AnimeListViewModel {
     init() {
         let realm = try! Realm()
         results = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
-        displayedAnimes.onNext(results.map { RealmAnimeSeries(value: $0) })
-        // if results.count  <= 0 // call firebase
+
+        let observableResults = Observable.collection(from: results)
+
+        // load results to displayedAnimes
+        _ = observableResults
+            .subscribe(onNext: { results in
+                self.displayedAnimes.onNext(results.map { RealmAnimeSeries(value: $0) })
+            })
+            .disposed(by: disposeBag)
+
+        // get results from firebase if there are no results
+        _ = observableResults
+            .filter {
+                return $0.count == 0
+            }
+            .flatMap { _ in
+                self.firebaseStore.getAnime()
+            }
+            .map { result in
+                try realm.write {
+                    realm.add(result)
+                }
+            }
+            .subscribe()
+            .disposed(by: disposeBag)
     }
 
     func filterResults(with searchString: String)  {
