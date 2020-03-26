@@ -11,13 +11,24 @@ import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    // MARK: - 
+    var window: UIWindow?
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let navigator = Navigator()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-
         FirebaseApp.configure()
+
+        if #available(iOS 9, *) {
+            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
+
+            guard let rootViewController = window?.rootViewController else { return false }
+
+            navigator.show(segue: .animeListViewController, sender: rootViewController)
+        }
+
+
         return true
     }
 

@@ -45,6 +45,8 @@ class Navigator {
             nav.pushViewController(target, animated: true)
         } else {
             // present modally
+            sender.modalPresentationStyle = .custom
+
             sender.present(target, animated: true, completion: nil)
         }
     }
