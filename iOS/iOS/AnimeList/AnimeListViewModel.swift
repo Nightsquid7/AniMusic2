@@ -14,7 +14,7 @@ import RxRealm
 class AnimeListViewModel {
 
     let displayedAnimes = BehaviorSubject<[RealmAnimeSeries]>(value: [])
-    var results: Results<RealmAnimeSeries>
+    var savedAnime: Results<RealmAnimeSeries>
 
     let firebaseStore = FirebaseStore.sharedInstance
 
@@ -23,9 +23,13 @@ class AnimeListViewModel {
     // initialize with saved RealmAnimeSeries
     init() {
         let realm = try! Realm()
-        results = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
 
-        let observableResults = Observable.collection(from: results)
+        // ()r()1rrtry? realm.write { realm.deleteAll() }
+        // store all RealmAnime Objects in savedAnime
+        savedAnime = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
+
+
+        let observableResults = Observable.collection(from: savedAnime)
 
         // load results to displayedAnimes
         _ = observableResults
@@ -55,9 +59,9 @@ class AnimeListViewModel {
         let filteredResults: Results<RealmAnimeSeries>
         if searchString.isEmpty {
             // display unfiltered results
-            filteredResults = results
+            filteredResults = savedAnime
         } else {
-            filteredResults = results.filter(NSPredicate(format: "name CONTAINS %@", searchString))
+            filteredResults = savedAnime.filter(NSPredicate(format: "name CONTAINS %@", searchString))
         }
         displayedAnimes.onNext(filteredResults.map { RealmAnimeSeries(value: $0) })
     }

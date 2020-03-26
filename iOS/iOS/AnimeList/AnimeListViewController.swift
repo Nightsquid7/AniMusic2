@@ -32,10 +32,11 @@ class AnimeListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
+        tableView.delegate = self
         
         navigationItem.title = "AniMusic"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: searchBar)
+//       nShow warnings navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.titleView = searchBar
 
         searchBar.rx.textDidBeginEditing
             .subscribe(onNext: {
@@ -67,12 +68,18 @@ class AnimeListViewController: UIViewController {
             .disposed(by: disposeBag)
 
         viewModel.displayedAnimes
-            .bind(to: tableView.rx.items(cellIdentifier: "AnimeCell", cellType: UITableViewCell.self)) { _, element, cell in
-                    cell.textLabel?.text = element.name
+            .bind(to: tableView.rx.items(cellIdentifier: "AnimeListTableViewCell", cellType: AnimeListTableViewCell.self)) { _, element, cell in
+                cell.NameLabel.text = element.name
+                cell.formatLabel.text = element.format
+                cell.seasonLabel.text = element.season
+                cell.yearLabel.text = element.year
             }
             .disposed(by: disposeBag)
 
         tableView.rx.modelSelected(RealmAnimeSeries.self)
+            .filter {
+                return $0.songs.count > 0
+            }
             .subscribe(onNext: { anime in
                 self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
             })
@@ -80,6 +87,12 @@ class AnimeListViewController: UIViewController {
 
     }
 
+}
 
+extension AnimeListViewController: UITableViewDelegate {
+
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 160
+    }
 }
 

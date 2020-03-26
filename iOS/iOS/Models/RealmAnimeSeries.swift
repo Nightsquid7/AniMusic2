@@ -34,7 +34,6 @@ class RealmAnimeSeries: Object {
             }
         }
     }
-
 }
 
 class RealmAnimeSong: Object {
@@ -56,13 +55,10 @@ class RealmAnimeSong: Object {
         self.relation = song.relation
         // add ranges if they exist
         if let ranges = song.ranges {
-//            print("ranges is non optional")
             for range in ranges {
                 self.ranges.append(RealmEpisodeRange(from: range))
             }
-//            print("RealmAnime ranges -> ", ranges)
         }
-//        print("after if let  RealmAnime ranges -> ", ranges)
         // add artists
         for artist in song.artists {
             self.artists.append(RealmArtist(from: artist))
@@ -74,7 +70,6 @@ class RealmAnimeSong: Object {
             }
         }
     }
-
 }
 
 class RealmEpisodeRange: Object {
@@ -86,7 +81,7 @@ class RealmEpisodeRange: Object {
         if let start = range.start, let end = range.end {
             self.start = start
             self.end = end
-        } else { print("start range is optional ->  start != range.start, end != range.end") }
+        }
     }
 }
 
@@ -120,8 +115,6 @@ class RealmArtist: Object {
         self.name = artist.name
         self.nameEnglish = artist.nameEnglish
     }
-
-
 }
 
 

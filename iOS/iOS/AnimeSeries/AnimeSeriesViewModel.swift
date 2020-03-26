@@ -16,7 +16,5 @@ class AnimeSeriesViewModel {
     init(with anime: RealmAnimeSeries) {
         self.anime = anime
         displayedSongs.onNext(anime.songs.map { $0 })
-
-        print("ranges -> \(anime.songs.map { $0.ranges })")
     }
 }
