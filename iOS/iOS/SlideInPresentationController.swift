@@ -13,9 +13,15 @@ class SlideInPresentationController: UIPresentationController {
     override var frameOfPresentedViewInContainerView: CGRect {
         var frame: CGRect = .zero
         frame.size = size(forChildContentContainer: presentedViewController, withParentContainerSize: containerView!.bounds.size)
-        frame.origin = .zero
+
+        guard let parentViewLayoutGuide = containerView?.safeAreaLayoutGuide else { return frame }
+        
+        frame.size.height = parentViewLayoutGuide.layoutFrame.height
+        frame.origin.y = (containerView!.bounds.height - parentViewLayoutGuide.layoutFrame.height + 10e6)
+
         return frame
     }
+    override var shouldRemovePresentersView: Bool { return false }
 
     // MARK: - Initializers
     override init(presentedViewController: UIViewController,
