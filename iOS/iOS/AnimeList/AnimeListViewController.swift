@@ -15,12 +15,15 @@ import RealmSwift
 
 
 class AnimeListViewController: UIViewController {
-
+    // MARK: - IBOutlets
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
 
+    // MARK: - Properties
     let viewModel = AnimeListViewModel()
     let navigator = Navigator.sharedInstance
+
+    private var slideInTransitioningDelegate = SlideInPresentationManager()
 
     let firebaseStore = FirebaseStore.sharedInstance
     let disposeBag = DisposeBag()
@@ -35,8 +38,6 @@ class AnimeListViewController: UIViewController {
         tableView.delegate = self
         
         navigationItem.title = "AniMusic"
-//       nShow warnings navigationController?.navigationBar.prefersLargeTitles = true
-        navigationItem.titleView = searchBar
 
         searchBar.rx.textDidBeginEditing
             .subscribe(onNext: {
@@ -84,11 +85,25 @@ class AnimeListViewController: UIViewController {
                 self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
             })
             .disposed(by: disposeBag)
+    }
 
+    // MARK: Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let controller = segue.destination as? FilterAnimeViewController {
+            controller.delegate = self
+            controller.transitioningDelegate = slideInTransitioningDelegate
+            controller.modalPresentationStyle = .custom
+        }
     }
 
 }
 
+// MARK: - FilterAnimeViewControllerDelegate
+extension AnimeListViewController: FilterAnimeViewControllerDelegate {
+
+}
+
+// MARK: - UITableViewDelegate
 extension AnimeListViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
