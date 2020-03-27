@@ -87,7 +87,7 @@
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fU-9C-cnZ">
                                 <rect key="frame" x="116" y="629" width="142" height="30"/>
-                                <state key="normal" title="Transition"/>
+                                <state key="normal" title="Filter"/>
                                 <connections>
                                     <segue destination="rPw-GA-vde" kind="presentation" id="9ji-Xx-Jxa"/>
                                 </connections>
@@ -129,36 +129,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dKV-ob-rPs">
-                                <rect key="frame" x="36" y="29" width="300" height="32"/>
+                                <rect key="frame" x="0.0" y="30" width="375" height="32"/>
                                 <segments>
                                     <segment title="Season"/>
                                     <segment title="Year"/>
                                 </segments>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wHU-Kj-0Sc">
-                                <rect key="frame" x="29" y="81" width="316" height="643"/>
+                                <rect key="frame" x="0.0" y="81" width="375" height="537"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="FOD-Qh-bn4">
-                                        <rect key="frame" x="0.0" y="28" width="316" height="43.666667938232422"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FilterAnimeTableViewCell" id="FOD-Qh-bn4">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FOD-Qh-bn4" id="0n9-i4-MVB">
-                                            <rect key="frame" x="0.0" y="0.0" width="316" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvA-Jg-Miu">
+                                <rect key="frame" x="16" y="649" width="343" height="30"/>
+                                <state key="normal" title="Filter Selection"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dKV-ob-rPs" firstAttribute="top" secondItem="Z7n-0q-GSj" secondAttribute="top" constant="29" id="7C9-iN-0UE"/>
-                            <constraint firstItem="wHU-Kj-0Sc" firstAttribute="top" secondItem="dKV-ob-rPs" secondAttribute="bottom" constant="21" id="9EU-AI-ndF"/>
-                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="trailing" secondItem="dKV-ob-rPs" secondAttribute="trailing" constant="39" id="9vM-SU-57E"/>
-                            <constraint firstItem="dKV-ob-rPs" firstAttribute="leading" secondItem="Z7n-0q-GSj" secondAttribute="leading" constant="36" id="CVV-ub-I3E"/>
-                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="bottom" secondItem="wHU-Kj-0Sc" secondAttribute="bottom" id="M0U-vw-Hko"/>
-                            <constraint firstItem="wHU-Kj-0Sc" firstAttribute="leading" secondItem="Z7n-0q-GSj" secondAttribute="leading" constant="29" id="b8Z-J2-YJN"/>
-                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="trailing" secondItem="wHU-Kj-0Sc" secondAttribute="trailing" constant="30" id="dVb-Lx-yQb"/>
+                            <constraint firstItem="dKV-ob-rPs" firstAttribute="top" secondItem="Z7n-0q-GSj" secondAttribute="top" constant="30" id="7C9-iN-0UE"/>
+                            <constraint firstItem="wHU-Kj-0Sc" firstAttribute="top" secondItem="dKV-ob-rPs" secondAttribute="bottom" constant="20" id="9EU-AI-ndF"/>
+                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="trailing" secondItem="dKV-ob-rPs" secondAttribute="trailing" id="9vM-SU-57E"/>
+                            <constraint firstItem="dKV-ob-rPs" firstAttribute="leading" secondItem="Z7n-0q-GSj" secondAttribute="leading" id="CVV-ub-I3E"/>
+                            <constraint firstItem="wHU-Kj-0Sc" firstAttribute="leading" secondItem="Z7n-0q-GSj" secondAttribute="leading" id="b8Z-J2-YJN"/>
+                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="trailing" secondItem="wHU-Kj-0Sc" secondAttribute="trailing" id="dVb-Lx-yQb"/>
+                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="bottom" secondItem="fvA-Jg-Miu" secondAttribute="bottom" constant="45" id="fdW-P7-QyY"/>
+                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="trailing" secondItem="fvA-Jg-Miu" secondAttribute="trailing" constant="16" id="hCQ-PG-v1c"/>
+                            <constraint firstItem="fvA-Jg-Miu" firstAttribute="leading" secondItem="Z7n-0q-GSj" secondAttribute="leading" constant="16" id="kMU-OW-HnS"/>
+                            <constraint firstItem="fvA-Jg-Miu" firstAttribute="top" secondItem="wHU-Kj-0Sc" secondAttribute="bottom" constant="31" id="ss7-bE-BT3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Z7n-0q-GSj"/>
                     </view>

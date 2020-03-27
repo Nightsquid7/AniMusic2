@@ -14,6 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
     let navigator = Navigator.sharedInstance
+    let store = FirebaseStore.sharedInstance
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -25,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
 
         guard let rootViewController = window?.rootViewController else { return }
-        
+        // go to first view -> AnimeListViewController
         navigator.show(segue: .animeListViewController, sender: rootViewController)
 
     }

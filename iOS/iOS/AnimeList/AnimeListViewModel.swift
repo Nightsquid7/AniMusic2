@@ -13,18 +13,18 @@ import RxRealm
 
 class AnimeListViewModel {
 
+    // MARK: - Properties
     let displayedAnimes = BehaviorSubject<[RealmAnimeSeries]>(value: [])
     var savedAnime: Results<RealmAnimeSeries>
-
     let firebaseStore = FirebaseStore.sharedInstance
-
+    // RxSwift
     let disposeBag = DisposeBag()
 
     // initialize with saved RealmAnimeSeries
     init() {
         let realm = try! Realm()
 
-         try? realm.write { realm.deleteAll() } // delete all animes for testing...
+        // try? realm.write { realm.deleteAll() } // delete all animes for testing...
         // store all RealmAnime Objects in savedAnime
         savedAnime = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
 
@@ -55,7 +55,6 @@ class AnimeListViewModel {
                     try realm.write {
                         realm.add(result)
                     }
-                    print(result)
                 }
             }
             .subscribe()

@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
 
             guard let rootViewController = window?.rootViewController else { return false }
-
+            // go to first view -> AnimeListViewController
             navigator.show(segue: .animeListViewController, sender: rootViewController)
         }
 

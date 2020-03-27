@@ -56,9 +56,6 @@ class SlideInPresentationController: UIPresentationController {
     }
 
     override func containerViewWillLayoutSubviews() {
-//        dismissView.frame = presentingViewController.view.frame
-        print("dismissView.frame: \(dismissView.frame)")
-        print("presentingViewController.view.frame: \(presentingViewController.view.frame)")
         presentedView?.frame = frameOfPresentedViewInContainerView
     }
 
