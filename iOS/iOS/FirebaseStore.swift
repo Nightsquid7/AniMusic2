@@ -20,10 +20,10 @@ struct FirebaseStore {
 
     // currently only getting anime is from "Anime" collection
     // MARK: todo -> add season
-    func getAnime() -> Single<[RealmAnimeSeries]> {
+    func getAnime(for season: String) -> Single<[RealmAnimeSeries]> {
         return Single<[RealmAnimeSeries]>.create { single in
 
-            let animeRef = self.db.collection("Anime")
+            let animeRef = self.db.collection(season)
             animeRef.getDocuments() { (querySnapshot, error) in
                 if let error = error {
                     single(.error(error))

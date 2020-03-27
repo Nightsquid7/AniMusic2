@@ -24,10 +24,9 @@ class AnimeListViewModel {
     init() {
         let realm = try! Realm()
 
-        // ()r()1rrtry? realm.write { realm.deleteAll() }
+         try? realm.write { realm.deleteAll() } // delete all animes for testing...
         // store all RealmAnime Objects in savedAnime
         savedAnime = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
-
 
         let observableResults = Observable.collection(from: savedAnime)
 
@@ -38,17 +37,25 @@ class AnimeListViewModel {
             })
             .disposed(by: disposeBag)
 
+
+
         // get results from firebase if there are no results
         _ = observableResults
             .filter {
                 return $0.count == 0
             }
             .flatMap { _ in
-                self.firebaseStore.getAnime()
+                // MARK: - todo save collection names in database
+                Observable.combineLatest(["Summer-2019", "Autumn-2019", "Winter-2020"].map {
+                    self.firebaseStore.getAnime(for: $0).asObservable()
+                })
             }
-            .map { result in
-                try realm.write {
-                    realm.add(result)
+            .map { resultArray in
+                try? resultArray.forEach { result in
+                    try realm.write {
+                        realm.add(result)
+                    }
+                    print(result)
                 }
             }
             .subscribe()

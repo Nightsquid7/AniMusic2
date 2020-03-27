@@ -12,6 +12,10 @@ protocol FilterAnimeViewControllerDelegate: AnyObject {
 
 }
 class FilterAnimeViewController: UIViewController {
+    // MARK: - IBOutlets
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    
+    @IBOutlet weak var tableView: UITableView!
     // MARK: - Properties
     weak var delegate: FilterAnimeViewControllerDelegate?
 

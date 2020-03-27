@@ -23,7 +23,6 @@ class SlideInPresentationController: UIPresentationController {
 
         return frame
     }
-//    override var shouldRemovePresentersView: Bool { return false }
 
     // MARK: - Initializers
     override init(presentedViewController: UIViewController,
@@ -84,9 +83,6 @@ private extension SlideInPresentationController {
     }
 
     @objc func handleTap(recognizer: UITapGestureRecognizer) {
-        print("tap")
-        print(presentingViewController)
-        print(presentedViewController)
         presentedViewController.dismiss(animated: true)
     }
 }
