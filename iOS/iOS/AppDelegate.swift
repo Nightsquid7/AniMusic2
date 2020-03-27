@@ -11,7 +11,7 @@ import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    // MARK: - 
+    // MARK: - Properties
     var window: UIWindow?
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
     let navigator = Navigator()
