@@ -23,8 +23,8 @@ struct FirebaseStore {
     }
 
     // MARK:  - Initialization
+    // MARK: todo -> move this to FilterAnimeViewModel?
     init() {
-        //  -> move this to FilterAnimeViewModel?
         if realm.objects(RealmSeason.self).count == 0 {
             let realm = try! Realm()
             _ = getSeasonsList()
@@ -39,7 +39,6 @@ struct FirebaseStore {
         } else {
             print("realm have seasons: \(realm.objects(RealmSeason.self))")
         }
-
     }
     // get the list of seasons of animes stored in firebase
     private func getSeasonsList() -> Single<[RealmSeason]> {

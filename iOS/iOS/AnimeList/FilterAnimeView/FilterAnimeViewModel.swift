@@ -9,22 +9,16 @@
 import Foundation
 import RxSwift
 import RealmSwift
-//import RxRealm
 
 class FilterAnimeViewModel {
     // MARK: - Properties
+    let realm = try! Realm()
     let seasons: Observable<Results<RealmSeason>>
-//    let years = Observable<[String]>()
+
+    let disposeBag = DisposeBag()
 
     init() {
-        seasons = Observable.collection(from: try! Realm().objects(RealmSeason.self))
-//        years = seasons.flatMap { season in
-//            season.year
-////            print(season)
-//        }
-        print("in FilterAnimeViewModel -> ")
-        print("seasons -> \(seasons)")
-//        print("years -> \(years)")
+        seasons = Observable.collection(from: realm.objects(RealmSeason.self))
     }
 
 }
