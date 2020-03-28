@@ -16,5 +16,4 @@ class AnimeListTableViewCell: UITableViewCell {
     @IBOutlet weak var seasonLabel: UILabel!
     @IBOutlet weak var yearLabel: UILabel!
 
-
 }

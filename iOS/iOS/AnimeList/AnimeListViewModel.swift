@@ -15,31 +15,35 @@ class AnimeListViewModel {
 
     // MARK: - Properties
     let displayedAnimes = BehaviorSubject<[RealmAnimeSeries]>(value: [])
-    var savedAnime: Results<RealmAnimeSeries>
+    let savedAnimes: Results<RealmAnimeSeries>
+//    var predicates: NSCompoundPredicate
     let firebaseStore = FirebaseStore.sharedInstance
-    // RxSwift
+
     let disposeBag = DisposeBag()
 
+    // MARK:  - Initialization
     // initialize with saved RealmAnimeSeries
     init() {
         let realm = try! Realm()
 
-        // try? realm.write { realm.deleteAll() } // delete all animes for testing...
-        // store all RealmAnime Objects in savedAnime
-        savedAnime = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
+        // testing -> delete all realm objects from database
+        // try? realm.write { realm.deleteAll() }
+        // testing
 
-        let observableResults = Observable.collection(from: savedAnime)
+        // store all RealmAnime Objects in "savedAnime"
+        savedAnimes = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
 
-        // load results to displayedAnimes
+        // make observable from "savedAnime"
+        let observableResults = Observable.collection(from: savedAnimes)
+
+        // send observableResults to "displayedAnimes"
         _ = observableResults
             .subscribe(onNext: { results in
                 self.displayedAnimes.onNext(results.map { RealmAnimeSeries(value: $0) })
             })
             .disposed(by: disposeBag)
 
-
-
-        // get results from firebase if there are no results
+        // get results from firebase *if there are no results saved*
         _ = observableResults
             .filter {
                 return $0.count == 0
@@ -62,14 +66,15 @@ class AnimeListViewModel {
     }
 
     func filterResults(with searchString: String)  {
-        let filteredResults: Results<RealmAnimeSeries>
-        if searchString.isEmpty {
-            // display unfiltered results
-            filteredResults = savedAnime
-        } else {
-            filteredResults = savedAnime.filter(NSPredicate(format: "name CONTAINS %@", searchString))
+        var filteredAnimes = savedAnimes
+        if !searchString.isEmpty {
+            filteredAnimes = savedAnimes.filter(NSPredicate(format: "name CONTAINS %@", searchString))
         }
-        displayedAnimes.onNext(filteredResults.map { RealmAnimeSeries(value: $0) })
+        displayedAnimes.onNext(filteredAnimes.map { RealmAnimeSeries(value: $0) })
     }
 
+    func filterResults(with predicate: NSCompoundPredicate) {
+        let filteredAnime = savedAnimes
+        displayedAnimes.onNext(filteredAnime.filter(predicate).map { RealmAnimeSeries(value: $0) })
+    }
 }

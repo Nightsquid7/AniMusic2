@@ -36,10 +36,9 @@ struct FirebaseStore {
                 .subscribe({ next in
                     print("next", next)
                 })
-        } else {
-            print("realm have seasons: \(realm.objects(RealmSeason.self))")
         }
     }
+    
     // get the list of seasons of animes stored in firebase
     private func getSeasonsList() -> Single<[RealmSeason]> {
         return Single<[RealmSeason]>.create { single in

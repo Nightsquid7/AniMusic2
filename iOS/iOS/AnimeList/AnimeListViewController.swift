@@ -107,7 +107,8 @@ extension AnimeListViewController: FilterAnimeViewControllerDelegate {
 extension AnimeListViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        // MARK: todo -> get proper tableView height
         return 160
-    }
+   }
 }
 

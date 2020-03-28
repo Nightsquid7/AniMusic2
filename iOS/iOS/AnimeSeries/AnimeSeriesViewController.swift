@@ -13,17 +13,14 @@ import RxSwift
 import RxCocoa
 
 class AnimeSeriesViewController: UIViewController, NavigatorViewController {
+    // MARK: - IBOutlets
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
 
+    // MARK: - Properties
     var viewModel: AnimeSeriesViewModel!
     let navigator = Navigator.sharedInstance
 
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var seasonLabel: UILabel!
-    @IBOutlet weak var yearLabel: UILabel!
-    @IBOutlet weak var aniDbUriButton: UIButton!
-    @IBOutlet weak var segmentedControl: UISegmentedControl!
-
-    @IBOutlet weak var tableView: UITableView!
     let disposeBag = DisposeBag()
 
 
@@ -38,18 +35,18 @@ class AnimeSeriesViewController: UIViewController, NavigatorViewController {
 
         navigationItem.title = viewModel.anime.name
 
-        nameLabel.text = viewModel.anime.name
-        seasonLabel.text = viewModel.anime.season
-        yearLabel.text = viewModel.anime.year
+//        nameLabel.text = viewModel.anime.name
+//        seasonLabel.text = viewModel.anime.season
+//        yearLabel.text = viewModel.anime.year
 
-        aniDbUriButton.titleLabel?.text = viewModel.anime.aniDbUri
-        aniDbUriButton.rx.tap
-            .subscribe(onNext: { _ in
-                if let uriString = self.viewModel.anime.aniDbUri, let url = URL(string: uriString) {
-                    UIApplication.shared.open(url)
-                }
-            })
-            .disposed(by: disposeBag)
+//        aniDbUriButton.titleLabel?.text = viewModel.anime.aniDbUri
+//        aniDbUriButton.rx.tap
+//            .subscribe(onNext: { _ in
+//                if let uriString = self.viewModel.anime.aniDbUri, let url = URL(string: uriString) {
+//                    UIApplication.shared.open(url)
+//                }
+//            })
+//            .disposed(by: disposeBag)
 
 
         viewModel.displayedSongs
