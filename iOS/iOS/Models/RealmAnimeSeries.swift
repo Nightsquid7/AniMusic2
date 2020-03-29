@@ -59,7 +59,7 @@ class RealmAnimeSong: Object {
                 self.ranges.append(RealmEpisodeRange(value: ["start": range["Start"], "end": range["End"]]))
             }
         }
-        
+
         // add artists
         for artist in song.artists {
             self.artists.append(RealmArtist(from: artist))

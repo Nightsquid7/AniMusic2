@@ -7,17 +7,17 @@
 
 import Foundation
 import RxSwift
+import RealmSwift
 
 class AnimeSeriesViewModel {
 
+    let realm = try! Realm()
     let anime: RealmAnimeSeries
     let displayedSongs = BehaviorSubject<[RealmAnimeSong]>(value: [])
 
     init(with anime: RealmAnimeSeries) {
         self.anime = anime
-        displayedSongs.onNext(anime.songs.map { $0 }.sorted(by: { song1, song2 in
-//            return song1.ranges.first!.start > song2.ranges.first!.start
-            return true
-        }))
+        let songs = anime.songs
+        displayedSongs.onNext(songs.map { $0 })
     }
 }

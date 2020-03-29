@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-//import RealmSwift
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
