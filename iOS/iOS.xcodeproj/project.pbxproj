@@ -12,6 +12,7 @@
 		53123C4C242A02DA002897E8 /* AnimeSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */; };
 		531C9644242DAB9700214FF1 /* RealmSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C9643242DAB9700214FF1 /* RealmSeason.swift */; };
 		531C9647242DBE9600214FF1 /* FilterAnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C9646242DBE9600214FF1 /* FilterAnimeViewModel.swift */; };
+		532B863C243059CB00924B40 /* AnimeSongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532B863B243059CB00924B40 /* AnimeSongTableViewCell.swift */; };
 		533345202426F2260074C258 /* FirebaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333451F2426F2260074C258 /* FirebaseStore.swift */; };
 		53389B022429924200B578DA /* NavigatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53389B012429924200B578DA /* NavigatorViewController.swift */; };
 		534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B7B3A2429869A002A3EAC /* Navigator.swift */; };
@@ -60,6 +61,7 @@
 		53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeSeriesViewModel.swift; sourceTree = "<group>"; };
 		531C9643242DAB9700214FF1 /* RealmSeason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSeason.swift; sourceTree = "<group>"; };
 		531C9646242DBE9600214FF1 /* FilterAnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterAnimeViewModel.swift; sourceTree = "<group>"; };
+		532B863B243059CB00924B40 /* AnimeSongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSongTableViewCell.swift; sourceTree = "<group>"; };
 		5333451F2426F2260074C258 /* FirebaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStore.swift; sourceTree = "<group>"; };
 		53389B012429924200B578DA /* NavigatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorViewController.swift; sourceTree = "<group>"; };
 		534B7B3A2429869A002A3EAC /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */,
 				534B7B47242990FC002A3EAC /* AnimeSeriesViewController.swift */,
+				532B863B243059CB00924B40 /* AnimeSongTableViewCell.swift */,
 			);
 			path = AnimeSeries;
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				53123C4C242A02DA002897E8 /* AnimeSeriesViewModel.swift in Sources */,
 				53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */,
 				531C9647242DBE9600214FF1 /* FilterAnimeViewModel.swift in Sources */,
+				532B863C243059CB00924B40 /* AnimeSongTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

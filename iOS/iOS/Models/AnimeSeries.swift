@@ -35,7 +35,7 @@ struct AnimeSong: Codable {
     let id: String
     let name: String
     let nameEnglish: String
-    let ranges: [EpisodeRange]?
+    let ranges: [[String: Int]]?
     let classification: String
     let artists: [Artist]
     let relation: String

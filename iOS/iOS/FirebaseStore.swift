@@ -34,7 +34,7 @@ struct FirebaseStore {
                     }
                 }
                 .subscribe({ next in
-                    print("next", next)
+//                    print("next", next)
                 })
         }
     }
@@ -85,15 +85,34 @@ struct FirebaseStore {
                 // testing how many anime are parsed correctly...
                 var animeCount = 0
                 var errorCount = 0
+                var rangeCount = 0
                 var resultAnimes = [RealmAnimeSeries]()
                 for document in documents {
 
                     do {
+
                         let animeData = try JSONSerialization.data(withJSONObject: document.data(), options: [])
                         let anime = try JSONDecoder().decode(AnimeSeries.self, from: animeData)
+//                        if let songs = anime.songs, let fbSongs = document.data()["Songs"] as? [String: Any] {
+//                            songs.forEach { songDict in
+//                                if let ranges = songDict.value.ranges {
+//                                    print(ranges)
+//                                    rangeCount += 1
+////                                    print(fbSongs)
+//
+//                                    if let ranges = fbSongs["Ranges"] as? [Any] {
+//                                        print(ranges)
+//                                        for fbRanges in ranges {
+//                                            print("fbRanges -> \(fbRanges)")
+//                                        }
+//                                    }
+//                                }
+//                            }
+//                        }
                         let realmAnime = RealmAnimeSeries(from: anime)
                         resultAnimes.append(realmAnime)
                         // temporary
+
                         animeCount += 1
 
                     } catch {
@@ -102,6 +121,8 @@ struct FirebaseStore {
                         errorCount += 1
                     }
                 }
+
+                print("animeCount:  -> \(animeCount)")
 
                 single(.success(resultAnimes))
                 return

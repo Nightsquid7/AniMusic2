@@ -26,12 +26,14 @@ class AnimeListViewModel {
     init() {
         let realm = try! Realm()
 
-        // testing -> delete all realm objects from database
-        // try? realm.write { realm.deleteAll() }
-        // testing
+
 
         // store all RealmAnime Objects in "savedAnime"
         savedAnimes = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
+
+        // testing -> delete all realm objects from database
+        try? realm.write { realm.delete(savedAnimes) }
+        // testing
 
         // make observable from "savedAnime"
         let observableResults = Observable.collection(from: savedAnimes)
@@ -56,6 +58,7 @@ class AnimeListViewModel {
             }
             .map { resultArray in
                 try? resultArray.forEach { result in
+//                    print("result -> \(result)")
                     try realm.write {
                         realm.add(result)
                     }

@@ -50,8 +50,18 @@ class AnimeSeriesViewController: UIViewController, NavigatorViewController {
 
 
         viewModel.displayedSongs
-            .bind(to: tableView.rx.items(cellIdentifier: "AnimeSongCell", cellType: UITableViewCell.self)) { _, element, cell in
-               cell.textLabel?.text = element.name
+            .bind(to: tableView.rx.items(cellIdentifier: "AnimeSongTableViewCell", cellType: AnimeSongTableViewCell.self)) { _, element, cell in
+                cell.nameLabel.text = element.name
+                cell.nameEnglishLabel.text = element.nameEnglish
+                cell.relationLabel.text = element.relation
+                let ranges = element.ranges
+                if let start = ranges.first?.start.value {
+
+                    cell.startLabel.text = String(start)
+                } else { print("no start range")}
+                if let end = element.ranges.first?.end.value {
+                    cell.startLabel.text = String(end)
+                } else { print("no end range")}
            }
            .disposed(by: disposeBag)
 

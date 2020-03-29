@@ -31,7 +31,7 @@ class AnimeListViewController: UIViewController {
     static func createWith(storyboard: UIStoryboard) -> AnimeListViewController {
         return storyboard.instantiateViewController(withIdentifier: "AnimeListViewController") as! AnimeListViewController
     }
-
+    // MARK:  - viewDidLoad()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -87,6 +87,14 @@ class AnimeListViewController: UIViewController {
             .disposed(by: disposeBag)
     }
 
+    // MARK: - ViewWillAppear
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: selectedIndexPath, animated: true)
+        }
+
+    }
     // MARK: Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let controller = segue.destination as? FilterAnimeViewController {

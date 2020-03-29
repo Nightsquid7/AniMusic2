@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import RealmSwift
 
 @available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -25,6 +25,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
+
+
 
         guard let rootViewController = window?.rootViewController else { return }
         // go to first view -> AnimeListViewController

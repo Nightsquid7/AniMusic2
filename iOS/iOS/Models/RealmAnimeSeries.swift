@@ -56,9 +56,10 @@ class RealmAnimeSong: Object {
         // add ranges if they exist
         if let ranges = song.ranges {
             for range in ranges {
-                self.ranges.append(RealmEpisodeRange(from: range))
+                self.ranges.append(RealmEpisodeRange(value: ["start": range["Start"], "end": range["End"]]))
             }
         }
+        
         // add artists
         for artist in song.artists {
             self.artists.append(RealmArtist(from: artist))
@@ -73,16 +74,10 @@ class RealmAnimeSong: Object {
 }
 
 class RealmEpisodeRange: Object {
-    @objc dynamic var start: Int = 0
-    @objc dynamic var end: Int = 0
 
-    convenience init(from range: EpisodeRange) {
-        self.init()
-        if let start = range.start, let end = range.end {
-            self.start = start
-            self.end = end
-        }
-    }
+    let start = RealmOptional<Int>()
+    let end = RealmOptional<Int>()
+
 }
 
 class RealmSongSearchResult: Object {

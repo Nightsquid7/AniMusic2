@@ -14,7 +14,7 @@ import RxRealm
 
 protocol FilterAnimeViewControllerDelegate: AnyObject {
     // MARK: todo -> send filter predicate back to AnimeListViewController
-//    func getPredicateFromSelection() -> NSPredicate
+//    func getPredicateFromSelection() -> NSPredicate.
 }
 
 class FilterAnimeViewController: UIViewController {
