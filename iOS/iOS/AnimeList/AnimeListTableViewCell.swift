@@ -11,7 +11,7 @@ import UIKit
 class AnimeListTableViewCell: UITableViewCell {
 
     @IBOutlet weak var stackView: UIStackView!
-    @IBOutlet weak var NameLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var formatLabel: UILabel!
     @IBOutlet weak var seasonLabel: UILabel!
     @IBOutlet weak var yearLabel: UILabel!

@@ -72,8 +72,8 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="NameLabel" destination="KM4-md-Owd" id="QCV-wk-u5U"/>
                                             <outlet property="formatLabel" destination="pTf-Q0-3Ao" id="Yef-We-SRg"/>
+                                            <outlet property="nameLabel" destination="KM4-md-Owd" id="dra-UV-zlx"/>
                                             <outlet property="seasonLabel" destination="SVO-Wk-n2d" id="ZLn-St-kUr"/>
                                             <outlet property="stackView" destination="DW8-Jp-Otm" id="H20-GF-EzK"/>
                                             <outlet property="yearLabel" destination="J5m-ql-oP3" id="R5G-zN-cpm"/>

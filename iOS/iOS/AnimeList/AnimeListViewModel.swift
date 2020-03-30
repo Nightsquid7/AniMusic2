@@ -16,12 +16,11 @@ class AnimeListViewModel {
     // MARK: - Properties
     let displayedAnimes = BehaviorSubject<[RealmAnimeSeries]>(value: [])
     let savedAnimes: Results<RealmAnimeSeries>
-//    var predicates: NSCompoundPredicate
     let firebaseStore = FirebaseStore.sharedInstance
 
     let disposeBag = DisposeBag()
 
-    // MARK:  - Initialization
+    // MARK: - Initialization
     // initialize with saved RealmAnimeSeries
     init() {
         let realm = try! Realm()
@@ -66,7 +65,7 @@ class AnimeListViewModel {
             .disposed(by: disposeBag)
     }
 
-    func filterResults(with searchString: String)  {
+    func filterResults(with searchString: String) {
         var filteredAnimes = savedAnimes
         if !searchString.isEmpty {
             filteredAnimes = savedAnimes.filter(NSPredicate(format: "name CONTAINS %@", searchString))

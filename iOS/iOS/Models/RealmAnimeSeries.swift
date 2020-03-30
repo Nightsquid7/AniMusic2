@@ -73,11 +73,40 @@ class RealmAnimeSong: Object {
     }
 }
 
-class RealmEpisodeRange: Object {
+enum Relation: String {
+    case opening
+    case insertSong = "insert song"
+    case imageSong = "image song"
+    case ending
 
+    var value: Int {
+        switch self {
+        case .opening: return 0
+        case .insertSong, .imageSong: return 1
+        case .ending: return 2
+        }
+    }
+}
+
+extension RealmAnimeSong: Comparable {
+    static func < (lhs: RealmAnimeSong, rhs: RealmAnimeSong) -> Bool {
+        guard let start1 = lhs.ranges.first?.start.value,
+            let start2 = rhs.ranges.first?.start.value,
+            start1 != start2 else {
+            // There are no ranges to compare, or start ranges are equal
+            // compare Relations
+            return Relation(rawValue: lhs.relation!)!.value < Relation(rawValue: rhs.relation!)!.value
+        }
+        return start1 < start2
+    }
+
+    // should you override static func  == () -> Bool?
+
+}
+
+class RealmEpisodeRange: Object {
     let start = RealmOptional<Int>()
     let end = RealmOptional<Int>()
-
 }
 
 class RealmSongSearchResult: Object {
@@ -111,5 +140,3 @@ class RealmArtist: Object {
         self.nameEnglish = artist.nameEnglish
     }
 }
-
-

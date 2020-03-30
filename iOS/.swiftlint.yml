@@ -1,0 +1,9 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  - iOSTests
+  - iOSUITests
+disabled_rules: 
+  - line_length
+  - identifier_name
+  - force_try # try! Realm()
+  - force_cast # static func createWith()  -> as? ViewController

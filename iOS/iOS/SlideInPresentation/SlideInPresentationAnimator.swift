@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 //initially copied from
 // https://www.raywenderlich.com/3636807-uipresentationcontroller-tutorial-getting-started
 final class SlideInPresentationAnimator: NSObject {

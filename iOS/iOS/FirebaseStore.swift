@@ -22,7 +22,7 @@ struct FirebaseStore {
         case couldNotGetSeason(_ error: Error)
     }
 
-    // MARK:  - Initialization
+    // MARK: - Initialization
     // MARK: todo -> move this to FilterAnimeViewModel?
     init() {
         if realm.objects(RealmSeason.self).count == 0 {
@@ -33,18 +33,18 @@ struct FirebaseStore {
                         realm.add(seasonsArray)
                     }
                 }
-                .subscribe({ next in
+                .subscribe({ _ in
 //                    print("next", next)
                 })
         }
     }
-    
+
     // get the list of seasons of animes stored in firebase
     private func getSeasonsList() -> Single<[RealmSeason]> {
         return Single<[RealmSeason]>.create { single in
 
             let seasonRef = self.db.collection("Seasons-List")
-            seasonRef.getDocuments() { (querySnapshot, error) in
+            seasonRef.getDocuments { (querySnapshot, error) in
                 if let error = error {
                     single(.error(FirebaseError.couldNotGetSeason(error)))
                     return
@@ -66,12 +66,11 @@ struct FirebaseStore {
         }
     }
 
-
     func getAnime(for season: String) -> Single<[RealmAnimeSeries]> {
         return Single<[RealmAnimeSeries]>.create { single in
 
             let animeRef = self.db.collection(season)
-            animeRef.getDocuments() { (querySnapshot, error) in
+            animeRef.getDocuments { (querySnapshot, error) in
                 if let error = error {
                     single(.error(FirebaseError.couldNotGetAnime(error)))
                     return
@@ -93,22 +92,6 @@ struct FirebaseStore {
 
                         let animeData = try JSONSerialization.data(withJSONObject: document.data(), options: [])
                         let anime = try JSONDecoder().decode(AnimeSeries.self, from: animeData)
-//                        if let songs = anime.songs, let fbSongs = document.data()["Songs"] as? [String: Any] {
-//                            songs.forEach { songDict in
-//                                if let ranges = songDict.value.ranges {
-//                                    print(ranges)
-//                                    rangeCount += 1
-////                                    print(fbSongs)
-//
-//                                    if let ranges = fbSongs["Ranges"] as? [Any] {
-//                                        print(ranges)
-//                                        for fbRanges in ranges {
-//                                            print("fbRanges -> \(fbRanges)")
-//                                        }
-//                                    }
-//                                }
-//                            }
-//                        }
                         let realmAnime = RealmAnimeSeries(from: anime)
                         resultAnimes.append(realmAnime)
                         // temporary

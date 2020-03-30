@@ -10,13 +10,9 @@ import UIKit
 
 class AnimeSongTableViewCell: UITableViewCell {
 
-
     @IBOutlet weak var nameLabel: UILabel!
-
     @IBOutlet weak var nameEnglishLabel: UILabel!
-
     @IBOutlet weak var relationLabel: UILabel!
-
     @IBOutlet weak var startLabel: UILabel!
     @IBOutlet weak var endLabel: UILabel!
 

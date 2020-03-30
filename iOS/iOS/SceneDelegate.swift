@@ -26,8 +26,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
 
-
-
         guard let rootViewController = window?.rootViewController else { return }
         // go to first view -> AnimeListViewController
         navigator.show(segue: .animeListViewController, sender: rootViewController)
@@ -62,6 +60,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
-
 }
-

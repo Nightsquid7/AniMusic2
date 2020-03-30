@@ -271,6 +271,7 @@
 				53FFA5C7242450B000194B85 /* Frameworks */,
 				53FFA5C8242450B000194B85 /* Resources */,
 				CC7A4D38922E0087001EF1CC /* [CP] Embed Pods Frameworks */,
+				53CF7E9224318A410053A904 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -408,6 +409,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSTests/Pods-iOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		53CF7E9224318A410053A904 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
 		};
 		78B67CBC5D189A7895039FB9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

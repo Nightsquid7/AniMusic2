@@ -10,5 +10,5 @@ import Foundation
 
 protocol NavigatorViewController {
     var navigator: Navigator { get }
-    
+
 }

@@ -23,7 +23,6 @@ class AnimeSeriesViewController: UIViewController, NavigatorViewController {
 
     let disposeBag = DisposeBag()
 
-
     static func createWith(storyboard: UIStoryboard, viewModel: AnimeSeriesViewModel) -> AnimeSeriesViewController {
         return (storyboard.instantiateViewController(withIdentifier: "AnimeSeriesViewController") as! AnimeSeriesViewController).then { vc in
             vc.viewModel = viewModel
@@ -38,17 +37,17 @@ class AnimeSeriesViewController: UIViewController, NavigatorViewController {
         // configure table view cells
         viewModel.displayedSongs
             .bind(to: tableView.rx.items(cellIdentifier: "AnimeSongTableViewCell", cellType: AnimeSongTableViewCell.self)) { _, element, cell in
+
                 cell.nameLabel.text = element.name
                 cell.nameEnglishLabel.text = element.nameEnglish
                 cell.relationLabel.text = element.relation
                 let ranges = element.ranges
                 if let start = ranges.first?.start.value {
-
                     cell.startLabel.text = "Start: \(start)"
-                } else { print("no start range")}
+                } else { cell.startLabel.text = "" }
                 if let end = element.ranges.first?.end.value {
                     cell.endLabel.text = "End: \(end)"
-                } else { print("no end range")}
+                } else { cell.endLabel.text = "" }
            }
            .disposed(by: disposeBag)
 

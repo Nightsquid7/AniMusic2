@@ -13,7 +13,6 @@ import RxSwift
 import RxCocoa
 import RealmSwift
 
-
 class AnimeListViewController: UIViewController {
     // MARK: - IBOutlets
     @IBOutlet weak var searchBar: UISearchBar!
@@ -23,7 +22,7 @@ class AnimeListViewController: UIViewController {
     let viewModel = AnimeListViewModel()
     let navigator = Navigator.sharedInstance
 
-    private var slideInTransitioningDelegate = SlideInPresentationManager()
+    private weak var slideInTransitioningDelegate = SlideInPresentationManager()
 
     let firebaseStore = FirebaseStore.sharedInstance
     let disposeBag = DisposeBag()
@@ -31,12 +30,12 @@ class AnimeListViewController: UIViewController {
     static func createWith(storyboard: UIStoryboard) -> AnimeListViewController {
         return storyboard.instantiateViewController(withIdentifier: "AnimeListViewController") as! AnimeListViewController
     }
-    // MARK:  - viewDidLoad()
+    // MARK: - viewDidLoad()
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.delegate = self
-        
+
         navigationItem.title = "AniMusic"
 
         searchBar.rx.textDidBeginEditing
@@ -60,7 +59,7 @@ class AnimeListViewController: UIViewController {
             .disposed(by: disposeBag)
 
         searchBar.rx.cancelButtonClicked
-            .subscribe(onNext:  {
+            .subscribe(onNext: {
                 self.searchBar.text = ""
                 self.searchBar.showsCancelButton = false
                 self.searchBar.showsScopeBar = true
@@ -70,7 +69,7 @@ class AnimeListViewController: UIViewController {
 
         viewModel.displayedAnimes
             .bind(to: tableView.rx.items(cellIdentifier: "AnimeListTableViewCell", cellType: AnimeListTableViewCell.self)) { _, element, cell in
-                cell.NameLabel.text = element.name
+                cell.nameLabel.text = element.name
                 cell.formatLabel.text = element.format
                 cell.seasonLabel.text = element.season
                 cell.yearLabel.text = element.year
@@ -119,4 +118,3 @@ extension AnimeListViewController: UITableViewDelegate {
         return 160
    }
 }
-

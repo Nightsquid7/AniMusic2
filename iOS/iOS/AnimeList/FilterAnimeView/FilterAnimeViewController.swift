@@ -29,7 +29,7 @@ class FilterAnimeViewController: UIViewController {
     let viewModel = FilterAnimeViewModel()
     let disposeBag = DisposeBag()
 
-    // MARK:  - Initialization
+    // MARK: - Initialization
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -41,7 +41,6 @@ class FilterAnimeViewController: UIViewController {
                 element.selected ? (cell.accessoryType = .checkmark) : (cell.accessoryType = .none)
             }
             .disposed(by: disposeBag)
-
 
         // when the user taps a cell (with season info) -> toggle that cell
         // and save to Realm
@@ -73,6 +72,5 @@ extension FilterAnimeViewController: FilterAnimeViewControllerDelegate {
 //    func getPredicateFromSelection() -> NSPredicate {
 //        let
 //    }
-
 
 }

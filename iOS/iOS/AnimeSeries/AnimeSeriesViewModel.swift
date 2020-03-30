@@ -16,8 +16,7 @@ class AnimeSeriesViewModel {
     let displayedSongs = BehaviorSubject<[RealmAnimeSong]>(value: [])
 
     init(with anime: RealmAnimeSeries) {
-        self.anime = anime
-        let songs = anime.songs
-        displayedSongs.onNext(songs.map { $0 })
+        self.anime = anime 
+        displayedSongs.onNext(anime.songs.map { $0 }.sorted(by: { $0 < $1 }))
     }
 }

@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 struct AnimeSeries: Codable {
 
     let id: String
@@ -51,7 +50,6 @@ struct AnimeSong: Codable {
         case relation = "Relation"
         case sources = "Sources"
     }
-
 }
 
 struct EpisodeRange: Codable {
@@ -93,5 +91,3 @@ struct Artist: Codable {
         case nameEnglish = "NameEn"
     }
 }
-
-
