@@ -26,13 +26,13 @@ extension AnimeListViewSection: SectionModelType {
 }
 
 class AnimeListViewModel {
-
     // MARK: - Properties
-    let displayedAnimes = BehaviorSubject<[RealmAnimeSeries]>(value: [])
     let savedAnimes: Results<RealmAnimeSeries>
-    let firebaseStore = FirebaseStore.sharedInstance
-    var sections = [AnimeListViewSection]()
+
+    var sections = BehaviorSubject<[AnimeListViewSection]>(value: [])
     let seasons: Results<RealmSeason>
+
+    let firebaseStore = FirebaseStore.sharedInstance
     let disposeBag = DisposeBag()
 
     // MARK: - Initialization
@@ -43,25 +43,31 @@ class AnimeListViewModel {
         // load all RealmAnime Objects
         savedAnimes = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
 
+        // MARK: - todo convert sections to Observable
+        //  -> Sections is currently not reflecting changes to changes to RealmSeason selected
         // load all RealmSeason objects
-        seasons = realm.objects(RealmSeason.self).sorted(byKeyPath: "year", ascending: false)
+        seasons = realm.objects(RealmSeason.self).filter(NSPredicate(format: "selected = %@", NSNumber(value: true))).sorted(byKeyPath: "year", ascending: false)
 
-        sections = seasons.map { season in
+        // add animes to sections -> sections filtered by season/dear
+        sections.onNext( seasons.map { season in
             return AnimeListViewSection(header: "\(season.season) \(season.year)", items: Array(savedAnimes.filter(NSPredicate(format: "season  = %@ AND year = %@", season.season, season.year))))
-        }
-
+        })
     }
 
     func filterResults(with searchString: String) {
-        var filteredAnimes = savedAnimes
         if !searchString.isEmpty {
-            filteredAnimes = savedAnimes.filter(NSPredicate(format: "name CONTAINS %@", searchString))
+            sections.onNext(
+                [AnimeListViewSection(header: "", items: Array(savedAnimes.filter(NSPredicate(format: "name CONTAINS %@", searchString))))]
+            )
+        } else {
+            sections.onNext( seasons.map { season in
+                return AnimeListViewSection(header: "\(season.season) \(season.year)", items: Array(savedAnimes.filter(NSPredicate(format: "season  = %@ AND year = %@", season.season, season.year))))
+            })
         }
-        displayedAnimes.onNext(filteredAnimes.map { RealmAnimeSeries(value: $0) })
+
     }
 
     func filterResults(with predicate: NSCompoundPredicate) {
-        let filteredAnime = savedAnimes
-        displayedAnimes.onNext(filteredAnime.filter(predicate).map { RealmAnimeSeries(value: $0) })
+
     }
 }
