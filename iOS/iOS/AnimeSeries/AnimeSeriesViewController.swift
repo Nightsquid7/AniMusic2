@@ -11,6 +11,7 @@ import UIKit
 import Then
 import RxSwift
 import RxCocoa
+import RxDataSources
 
 class AnimeSeriesViewController: UIViewController, NavigatorViewController {
     // MARK: - IBOutlets
@@ -34,23 +35,23 @@ class AnimeSeriesViewController: UIViewController, NavigatorViewController {
 
         navigationItem.title = viewModel.anime.name
 
-        // configure table view cells
-        viewModel.displayedSongs
-            .bind(to: tableView.rx.items(cellIdentifier: "AnimeSongTableViewCell", cellType: AnimeSongTableViewCell.self)) { _, element, cell in
+        let dataSource = RxTableViewSectionedReloadDataSource<AnimeSeriesViewSection>(configureCell: { _, tableView, indexPath, item in
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeSongTableViewCell", for: indexPath) as? AnimeSongTableViewCell else { return UITableViewCell()}
+                cell.nameLabel.text =   item.name
+                cell.nameEnglishLabel.text = item.nameEnglish
+                cell.relationLabel.text = item.relation
 
-                cell.nameLabel.text = element.name
-                cell.nameEnglishLabel.text = element.nameEnglish
-                cell.relationLabel.text = element.relation
-                let ranges = element.ranges
-                if let start = ranges.first?.start.value {
-                    cell.startLabel.text = "Start: \(start)"
-                } else { cell.startLabel.text = "" }
-                if let end = element.ranges.first?.end.value {
-                    cell.endLabel.text = "End: \(end)"
-                } else { cell.endLabel.text = "" }
-           }
-           .disposed(by: disposeBag)
+
+            return cell
+        })
+
+        dataSource.titleForHeaderInSection = { dataSource, index in
+            return dataSource.sectionModels[index].header
+        }
+
+        viewModel.sections
+            .bind(to: tableView.rx.items(dataSource: dataSource))
+            .disposed(by: disposeBag)
 
     }
-
 }
