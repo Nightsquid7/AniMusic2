@@ -11,7 +11,7 @@ import Firebase
 import RealmSwift
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Properties
     var window: UIWindow?
     let storyboard = UIStoryboard(name: "Main", bundle: nil)

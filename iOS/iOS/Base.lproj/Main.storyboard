@@ -30,18 +30,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="u0c-MP-bMT">
-                                <rect key="frame" x="16" y="44" width="343" height="551"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="551"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnimeListTableViewCell" rowHeight="167" id="4ii-Co-wVR" customClass="AnimeListTableViewCell" customModule="AniMusic" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="343" height="167"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="167"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4ii-Co-wVR" id="0hC-7F-hav">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="167"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="DW8-Jp-Otm">
-                                                    <rect key="frame" x="14.999999999999996" y="11" width="41.666666666666664" height="144.33333333333334"/>
+                                                    <rect key="frame" x="159" y="11" width="41.666666666666664" height="144.33333333333334"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KM4-md-Owd">
                                                             <rect key="frame" x="0.0" y="0.0" width="41.666666666666664" height="20.333333333333332"/>
@@ -99,13 +99,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3fU-9C-cnZ" secondAttribute="bottom" constant="31" id="Lls-cf-hmu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="u0c-MP-bMT" secondAttribute="bottom" constant="95" id="LvZ-pt-kOD"/>
                             <constraint firstItem="3fU-9C-cnZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="Wst-q6-TLg"/>
-                            <constraint firstItem="XBW-sw-buW" firstAttribute="leading" secondItem="u0c-MP-bMT" secondAttribute="leading" constant="-16" id="cqy-FV-STl"/>
-                            <constraint firstItem="XBW-sw-buW" firstAttribute="trailing" secondItem="u0c-MP-bMT" secondAttribute="trailing" constant="16" id="e2Y-na-R0c"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="leading" secondItem="u0c-MP-bMT" secondAttribute="leading" id="cqy-FV-STl"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="trailing" secondItem="u0c-MP-bMT" secondAttribute="trailing" id="e2Y-na-R0c"/>
                             <constraint firstItem="u0c-MP-bMT" firstAttribute="top" secondItem="XBW-sw-buW" secondAttribute="bottom" id="g45-Rg-hgR"/>
-                            <constraint firstItem="u0c-MP-bMT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="heJ-GO-Oa1"/>
+                            <constraint firstItem="u0c-MP-bMT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="heJ-GO-Oa1"/>
                             <constraint firstItem="3fU-9C-cnZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="629" id="qSk-li-uis"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3fU-9C-cnZ" secondAttribute="trailing" constant="117" id="vyk-Lo-EVs"/>
-                            <constraint firstItem="u0c-MP-bMT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-16" id="wPW-hR-v6M"/>
+                            <constraint firstItem="u0c-MP-bMT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wPW-hR-v6M"/>
                             <constraint firstItem="u0c-MP-bMT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="yFY-Qr-WLQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

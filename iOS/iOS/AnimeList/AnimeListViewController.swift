@@ -12,6 +12,7 @@ import FirebaseFirestore
 import RxSwift
 import RxCocoa
 import RealmSwift
+import RxDataSources
 
 class AnimeListViewController: UIViewController {
     // MARK: - IBOutlets
@@ -34,10 +35,55 @@ class AnimeListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.delegate = self
-
         navigationItem.title = "AniMusic"
+        bindSearchBar()
 
+        tableView.delegate = self
+        let dataSource = RxTableViewSectionedReloadDataSource<AnimeListViewSection>(configureCell: { _, tableView, indexPath, item in
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeListTableViewCell", for: indexPath) as? AnimeListTableViewCell else { return UITableViewCell()}
+            cell.nameLabel.text = item.name
+            cell.formatLabel.text = item.format
+            cell.seasonLabel.text = item.season
+            cell.yearLabel.text = item.year
+            return cell
+        })
+
+        dataSource.titleForHeaderInSection = { dataSource, index in
+            return dataSource.sectionModels[index].header
+        }
+
+        Observable.just(viewModel.sections)
+            .bind(to: tableView.rx.items(dataSource: dataSource))
+            .disposed(by: disposeBag)
+
+        tableView.rx.modelSelected(RealmAnimeSeries.self)
+            .filter {
+                return $0.songs.count > 0
+            }
+            .subscribe(onNext: { anime in
+                self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
+            })
+            .disposed(by: disposeBag)
+    }
+
+    // MARK: - ViewWillAppear
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: selectedIndexPath, animated: false)
+        }
+
+    }
+    // MARK: Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let controller = segue.destination as? FilterAnimeViewController {
+            controller.delegate = self
+            controller.transitioningDelegate = slideInTransitioningDelegate
+            controller.modalPresentationStyle = .custom
+        }
+    }
+
+    func bindSearchBar() {
         searchBar.rx.textDidBeginEditing
             .subscribe(onNext: {
                 self.searchBar.showsCancelButton = true
@@ -67,42 +113,7 @@ class AnimeListViewController: UIViewController {
             })
             .disposed(by: disposeBag)
 
-        viewModel.displayedAnimes
-            .bind(to: tableView.rx.items(cellIdentifier: "AnimeListTableViewCell", cellType: AnimeListTableViewCell.self)) { _, element, cell in
-                cell.nameLabel.text = element.name
-                cell.formatLabel.text = element.format
-                cell.seasonLabel.text = element.season
-                cell.yearLabel.text = element.year
-            }
-            .disposed(by: disposeBag)
-
-        tableView.rx.modelSelected(RealmAnimeSeries.self)
-            .filter {
-                return $0.songs.count > 0
-            }
-            .subscribe(onNext: { anime in
-                self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
-            })
-            .disposed(by: disposeBag)
     }
-
-    // MARK: - ViewWillAppear
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        if let selectedIndexPath = tableView.indexPathForSelectedRow {
-            tableView.deselectRow(at: selectedIndexPath, animated: true)
-        }
-
-    }
-    // MARK: Navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let controller = segue.destination as? FilterAnimeViewController {
-            controller.delegate = self
-            controller.transitioningDelegate = slideInTransitioningDelegate
-            controller.modalPresentationStyle = .custom
-        }
-    }
-
 }
 
 // MARK: - FilterAnimeViewControllerDelegate
@@ -116,5 +127,5 @@ extension AnimeListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         // MARK: todo -> get proper tableView height
         return 160
-   }
+    }
 }

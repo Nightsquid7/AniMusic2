@@ -12,7 +12,8 @@ target 'iOS' do
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
   pod 'RxRealm'
-
+  pod 'RxDataSources', '~> 4.0'
+  
   # Networking
   pod 'Alamofire', '~> 5.0'
 

@@ -10,6 +10,20 @@ import Foundation
 import RxSwift
 import RealmSwift
 import RxRealm
+import RxDataSources
+
+struct AnimeListViewSection {
+    var header: String
+    var items: [RealmAnimeSeries]
+}
+
+extension AnimeListViewSection: SectionModelType {
+    init(original: AnimeListViewSection, items: [RealmAnimeSeries]) {
+        self = original
+        self.items = items
+    }
+
+}
 
 class AnimeListViewModel {
 
@@ -17,7 +31,8 @@ class AnimeListViewModel {
     let displayedAnimes = BehaviorSubject<[RealmAnimeSeries]>(value: [])
     let savedAnimes: Results<RealmAnimeSeries>
     let firebaseStore = FirebaseStore.sharedInstance
-
+    var sections = [AnimeListViewSection]()
+    let seasons: Results<RealmSeason>
     let disposeBag = DisposeBag()
 
     // MARK: - Initialization
@@ -25,44 +40,16 @@ class AnimeListViewModel {
     init() {
         let realm = try! Realm()
 
-        // store all RealmAnime Objects in "savedAnime"
+        // load all RealmAnime Objects
         savedAnimes = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
 
-        // testing -> delete all realm objects from database
-        // try? realm.write { realm.delete(savedAnimes) }
-        // testing
+        // load all RealmSeason objects
+        seasons = realm.objects(RealmSeason.self).sorted(byKeyPath: "year", ascending: false)
 
-        // make observable from "savedAnime"
-        let observableResults = Observable.collection(from: savedAnimes)
+        sections = seasons.map { season in
+            return AnimeListViewSection(header: "\(season.season) \(season.year)", items: Array(savedAnimes.filter(NSPredicate(format: "season  = %@ AND year = %@", season.season, season.year))))
+        }
 
-        // send observableResults to "displayedAnimes"
-        _ = observableResults
-            .subscribe(onNext: { results in
-                self.displayedAnimes.onNext(results.map { RealmAnimeSeries(value: $0) })
-            })
-            .disposed(by: disposeBag)
-
-        // get results from firebase *if there are no results saved*
-        _ = observableResults
-            .filter {
-                return $0.count == 0
-            }
-            .flatMap { _ in
-                // MARK: - todo save collection names in database
-                Observable.combineLatest(["Summer-2019", "Autumn-2019", "Winter-2020"].map {
-                    self.firebaseStore.getAnime(for: $0).asObservable()
-                })
-            }
-            .map { resultArray in
-                try? resultArray.forEach { result in
-//                    print("result -> \(result)")
-                    try realm.write {
-                        realm.add(result)
-                    }
-                }
-            }
-            .subscribe()
-            .disposed(by: disposeBag)
     }
 
     func filterResults(with searchString: String) {
