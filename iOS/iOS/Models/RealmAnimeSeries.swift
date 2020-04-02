@@ -95,12 +95,13 @@ extension RealmAnimeSong: Comparable {
             start1 != start2 else {
             // There are no ranges to compare, or start ranges are equal
             // compare Relations
-            return Relation(rawValue: lhs.relation!)!.value < Relation(rawValue: rhs.relation!)!.value
+                if let relation1 = Relation(rawValue: lhs.relation!)?.value, let relation2 = Relation(rawValue: rhs.relation!)?.value {
+                    return relation1 < relation2
+                }
+            return false
         }
         return start1 < start2
     }
-
-    // should you override static func  == () -> Bool?
 
 }
 

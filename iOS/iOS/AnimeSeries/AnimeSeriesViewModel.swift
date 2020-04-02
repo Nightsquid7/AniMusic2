@@ -12,11 +12,19 @@ import RxDataSources
 
 struct AnimeSeriesViewSection {
     var header: String
-    var items: [RealmAnimeSong]
+    var items: [SectionItem]
+
+    enum SectionItem {
+        case DefaultSongItem(song: RealmAnimeSong)
+        case SpotifySongItem(song: RealmAnimeSong)
+        case AppleMusicSongItem(song: RealmAnimeSong)
+    }
 }
 
 extension AnimeSeriesViewSection: SectionModelType {
-    init(original: Self, items: [RealmAnimeSong]) {
+    typealias Item = SectionItem
+
+    init(original: Self, items: [Item]) {
         self = original
         self.items = items
     }
@@ -32,13 +40,20 @@ class AnimeSeriesViewModel {
 
     init(with anime: RealmAnimeSeries) {
         self.anime = anime
-        displayedSongs.onNext(anime.songs.map { $0 }.sorted(by: { $0 < $1 }))
+        displayedSongs.onNext(anime.songs.map { $0 })// .sorted(by: { $0 < $1 }))
 
+        // create sections
         sections.onNext( anime.songs.map { song in
             if let start = song.ranges.first?.start.value, let end = song.ranges.first?.end.value, let relation = song.relation {
-                return AnimeSeriesViewSection(header: "\(relation) start: \(start) end: \(end)", items: [song])
+                for source in song.sources {
+                    if source.source == "Spotify" {
+                        return AnimeSeriesViewSection(header: "\(relation) start: \(start)  end: \(end)", items: [.SpotifySongItem(song: song)])
+                    } else {
+                        return AnimeSeriesViewSection(header: "\(relation) start: \(start)  end: \(end)", items: [.AppleMusicSongItem(song: song)])
+                    }
+                }
             }
-            return AnimeSeriesViewSection(header: song.relation ?? "no relation...", items: [song])
+            return AnimeSeriesViewSection(header: song.relation ?? "no relation...", items: [.DefaultSongItem(song: song)])
         })
     }
 }

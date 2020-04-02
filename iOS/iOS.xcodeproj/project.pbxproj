@@ -20,6 +20,8 @@
 		534C4F3D242881B00029F4BF /* AnimeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C4F3C242881B00029F4BF /* AnimeListViewModel.swift */; };
 		53564353242456E700C96075 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53564352242456E700C96075 /* GoogleService-Info.plist */; };
 		535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* RealmAnimeSeries.swift */; };
+		5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75D2435778B00D19B53 /* UIKitExtensions.swift */; };
+		5371F76024358AB000D19B53 /* SpotifySongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75F24358AB000D19B53 /* SpotifySongTableViewCell.swift */; };
 		53A02E0D24285A38004E19EC /* AnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A02E0C24285A38004E19EC /* AnimeSeries.swift */; };
 		53A2E017242A019300A5BAF8 /* AnimeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A2E016242A019300A5BAF8 /* AnimeListTableViewCell.swift */; };
 		53C1C641242C579D008F5153 /* SlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1C640242C579D008F5153 /* SlideInPresentationController.swift */; };
@@ -69,6 +71,8 @@
 		534C4F3C242881B00029F4BF /* AnimeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListViewModel.swift; sourceTree = "<group>"; };
 		53564352242456E700C96075 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		535643542424583600C96075 /* RealmAnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAnimeSeries.swift; sourceTree = "<group>"; };
+		5371F75D2435778B00D19B53 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		5371F75F24358AB000D19B53 /* SpotifySongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifySongTableViewCell.swift; sourceTree = "<group>"; };
 		53A02E0C24285A38004E19EC /* AnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeries.swift; sourceTree = "<group>"; };
 		53A2E016242A019300A5BAF8 /* AnimeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListTableViewCell.swift; sourceTree = "<group>"; };
 		53C1C640242C579D008F5153 /* SlideInPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationController.swift; sourceTree = "<group>"; };
@@ -193,6 +197,7 @@
 			children = (
 				53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */,
 				534B7B47242990FC002A3EAC /* AnimeSeriesViewController.swift */,
+				5371F75F24358AB000D19B53 /* SpotifySongTableViewCell.swift */,
 				532B863B243059CB00924B40 /* AnimeSongTableViewCell.swift */,
 			);
 			path = AnimeSeries;
@@ -228,6 +233,7 @@
 				534B7B3A2429869A002A3EAC /* Navigator.swift */,
 				5333451F2426F2260074C258 /* FirebaseStore.swift */,
 				53389B012429924200B578DA /* NavigatorViewController.swift */,
+				5371F75D2435778B00D19B53 /* UIKitExtensions.swift */,
 				531C9645242DBE6C00214FF1 /* SlideInPresentation */,
 				534B7B3D24298ECB002A3EAC /* Models */,
 				534B7B42242990A0002A3EAC /* AnimeSeries */,
@@ -524,6 +530,7 @@
 				53389B022429924200B578DA /* NavigatorViewController.swift in Sources */,
 				534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */,
 				531C9644242DAB9700214FF1 /* RealmSeason.swift in Sources */,
+				5371F76024358AB000D19B53 /* SpotifySongTableViewCell.swift in Sources */,
 				535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */,
 				53C1C643242C5BB8008F5153 /* SlideInPresentationAnimator.swift in Sources */,
 				534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */,
@@ -531,6 +538,7 @@
 				53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */,
 				53C1C645242C60D6008F5153 /* SlideInPresentationManager.swift in Sources */,
 				53C1C641242C579D008F5153 /* SlideInPresentationController.swift in Sources */,
+				5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */,
 				53A2E017242A019300A5BAF8 /* AnimeListTableViewCell.swift in Sources */,
 				53123C4C242A02DA002897E8 /* AnimeSeriesViewModel.swift in Sources */,
 				53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */,

@@ -39,7 +39,7 @@ class AnimeListViewController: UIViewController {
         bindSearchBar()
 
         tableView.delegate = self
-        // configure TableViewCell
+        // configure TableViewCell data source
         let dataSource = RxTableViewSectionedReloadDataSource<AnimeListViewSection>(configureCell: { _, tableView, indexPath, item in
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeListTableViewCell", for: indexPath) as? AnimeListTableViewCell else { return UITableViewCell()}
             cell.nameLabel.text = item.name
@@ -52,7 +52,8 @@ class AnimeListViewController: UIViewController {
         dataSource.titleForHeaderInSection = { dataSource, index in
             return dataSource.sectionModels[index].header
         }
-
+        
+        // bind viewModel sections to data source
         viewModel.sections
             .bind(to: tableView.rx.items(dataSource: dataSource))
             .disposed(by: disposeBag)
