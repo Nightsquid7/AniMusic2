@@ -22,12 +22,14 @@
 		535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* RealmAnimeSeries.swift */; };
 		5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75D2435778B00D19B53 /* UIKitExtensions.swift */; };
 		5371F76024358AB000D19B53 /* SpotifySongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75F24358AB000D19B53 /* SpotifySongTableViewCell.swift */; };
+		539D04432436C961007791D2 /* SongPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539D04422436C961007791D2 /* SongPlayerViewController.swift */; };
 		53A02E0D24285A38004E19EC /* AnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A02E0C24285A38004E19EC /* AnimeSeries.swift */; };
 		53A2E017242A019300A5BAF8 /* AnimeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A2E016242A019300A5BAF8 /* AnimeListTableViewCell.swift */; };
 		53C1C641242C579D008F5153 /* SlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1C640242C579D008F5153 /* SlideInPresentationController.swift */; };
 		53C1C643242C5BB8008F5153 /* SlideInPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1C642242C5BB8008F5153 /* SlideInPresentationAnimator.swift */; };
 		53C1C645242C60D6008F5153 /* SlideInPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1C644242C60D6008F5153 /* SlideInPresentationManager.swift */; };
 		53C1C647242C6A04008F5153 /* FilterAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1C646242C6A04008F5153 /* FilterAnimeViewController.swift */; };
+		53F2E79D2436C5E800B15347 /* SongPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F2E79C2436C5E800B15347 /* SongPlayerViewModel.swift */; };
 		53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5CD242450B000194B85 /* AppDelegate.swift */; };
 		53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5CF242450B000194B85 /* SceneDelegate.swift */; };
 		53FFA5D2242450B000194B85 /* AnimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5D1242450B000194B85 /* AnimeListViewController.swift */; };
@@ -73,12 +75,14 @@
 		535643542424583600C96075 /* RealmAnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAnimeSeries.swift; sourceTree = "<group>"; };
 		5371F75D2435778B00D19B53 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		5371F75F24358AB000D19B53 /* SpotifySongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifySongTableViewCell.swift; sourceTree = "<group>"; };
+		539D04422436C961007791D2 /* SongPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPlayerViewController.swift; sourceTree = "<group>"; };
 		53A02E0C24285A38004E19EC /* AnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeries.swift; sourceTree = "<group>"; };
 		53A2E016242A019300A5BAF8 /* AnimeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListTableViewCell.swift; sourceTree = "<group>"; };
 		53C1C640242C579D008F5153 /* SlideInPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationController.swift; sourceTree = "<group>"; };
 		53C1C642242C5BB8008F5153 /* SlideInPresentationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationAnimator.swift; sourceTree = "<group>"; };
 		53C1C644242C60D6008F5153 /* SlideInPresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationManager.swift; sourceTree = "<group>"; };
 		53C1C646242C6A04008F5153 /* FilterAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterAnimeViewController.swift; sourceTree = "<group>"; };
+		53F2E79C2436C5E800B15347 /* SongPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SongPlayerViewModel.swift; path = iOS/SongPlayerViewModel.swift; sourceTree = SOURCE_ROOT; };
 		53FFA5CA242450B000194B85 /* AniMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FFA5CD242450B000194B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53FFA5CF242450B000194B85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -234,6 +238,8 @@
 				5333451F2426F2260074C258 /* FirebaseStore.swift */,
 				53389B012429924200B578DA /* NavigatorViewController.swift */,
 				5371F75D2435778B00D19B53 /* UIKitExtensions.swift */,
+				53F2E79C2436C5E800B15347 /* SongPlayerViewModel.swift */,
+				539D04422436C961007791D2 /* SongPlayerViewController.swift */,
 				531C9645242DBE6C00214FF1 /* SlideInPresentation */,
 				534B7B3D24298ECB002A3EAC /* Models */,
 				534B7B42242990A0002A3EAC /* AnimeSeries */,
@@ -527,6 +533,8 @@
 				533345202426F2260074C258 /* FirebaseStore.swift in Sources */,
 				53A02E0D24285A38004E19EC /* AnimeSeries.swift in Sources */,
 				534C4F3D242881B00029F4BF /* AnimeListViewModel.swift in Sources */,
+				53F2E79D2436C5E800B15347 /* SongPlayerViewModel.swift in Sources */,
+				539D04432436C961007791D2 /* SongPlayerViewController.swift in Sources */,
 				53389B022429924200B578DA /* NavigatorViewController.swift in Sources */,
 				534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */,
 				531C9644242DAB9700214FF1 /* RealmSeason.swift in Sources */,

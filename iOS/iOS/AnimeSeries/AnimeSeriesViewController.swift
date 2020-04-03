@@ -24,6 +24,7 @@ class AnimeSeriesViewController: UIViewController {
 
     let disposeBag = DisposeBag()
 
+    // MARK: - initialization
     static func createWith(storyboard: UIStoryboard, viewModel: AnimeSeriesViewModel) -> AnimeSeriesViewController {
         return (storyboard.instantiateViewController(withIdentifier: "AnimeSeriesViewController") as! AnimeSeriesViewController).then { vc in
             vc.viewModel = viewModel
@@ -40,12 +41,12 @@ class AnimeSeriesViewController: UIViewController {
         let dataSource = RxTableViewSectionedReloadDataSource<AnimeSeriesViewSection>(configureCell: { _, tableView, indexPath, item in
             // configure different cells based on item type
             switch item {
-            case .DefaultSongItem(let song):
+            case .DefaultSongItem:
                 print("configure cell as default cell")
                 let cell: AnimeSongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
                 // configure cell
                 return cell
-            case .SpotifySongItem(let song):
+            case .SpotifySongItem(let song, _):
                 print("configure as Spotify cell")
                 let cell: SpotifySongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
                 cell.configure(name: song.name!, nameEnglish: song.nameEnglish!)
@@ -65,12 +66,17 @@ class AnimeSeriesViewController: UIViewController {
             .bind(to: tableView.rx.items(dataSource: dataSource))
             .disposed(by: disposeBag)
 
+        // navigate to song player view
         tableView.rx.modelSelected(AnimeSeriesViewSection.SectionItem.self)
             .subscribe(onNext: { item in
                 switch item {
-                case .DefaultSongItem(let song):
+                case .DefaultSongItem:
                     print("song Default Song Item -> ")
                     // go to song info view
+
+                case .SpotifySongItem(let song, let source):
+                    print("SpotifySongItem")
+                    self.navigator.show(segue: .songPlayerViewController(song: song, source: source), sender: self)
                 default:
                     print("switch default")
                 }

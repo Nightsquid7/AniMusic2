@@ -52,12 +52,12 @@ class AnimeListViewController: UIViewController {
         dataSource.titleForHeaderInSection = { dataSource, index in
             return dataSource.sectionModels[index].header
         }
-        
+
         // bind viewModel sections to data source
         viewModel.sections
             .bind(to: tableView.rx.items(dataSource: dataSource))
             .disposed(by: disposeBag)
-
+        // 
         tableView.rx.modelSelected(RealmAnimeSeries.self)
             .filter {
                 return $0.songs.count > 0

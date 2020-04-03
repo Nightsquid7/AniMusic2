@@ -16,7 +16,6 @@ class AnimeSongTableViewCell: UITableViewCell {
     @IBOutlet weak var startLabel: UILabel!
     @IBOutlet weak var endLabel: UILabel!
 
-
     func configureCell() {
 //        cell.nameLabel.text =   item.name
 //        cell.nameEnglishLabel.text = item.nameEnglish

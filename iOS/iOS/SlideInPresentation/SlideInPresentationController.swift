@@ -26,7 +26,7 @@ class SlideInPresentationController: UIPresentationController {
 
     // MARK: - Initializers
     override init(presentedViewController: UIViewController,
-         presenting presentingViewController: UIViewController?) {
+                  presenting presentingViewController: UIViewController?) {
         super.init(presentedViewController: presentedViewController, presenting: presentingViewController)
         setUpDismissView()
     }

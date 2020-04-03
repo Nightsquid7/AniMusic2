@@ -328,5 +328,30 @@
             </objects>
             <point key="canvasLocation" x="772" y="87.192118226600982"/>
         </scene>
+        <!--SongPlayerViewController-->
+        <scene sceneID="nL6-Bb-a88">
+            <objects>
+                <viewController storyboardIdentifier="SongPlayerViewController" title="SongPlayerViewController" id="X5M-Uz-EI7" customClass="SongPlayerViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ntB-q0-4JR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ub-AQ-BER">
+                                <rect key="frame" x="153" y="405" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Song"/>
+                                <connections>
+                                    <action selector="playButton:" destination="X5M-Uz-EI7" eventType="touchUpInside" id="DqM-9M-41W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="czD-Fi-kle"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ZS-pu-geO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1511" y="87"/>
+        </scene>
     </scenes>
 </document>
