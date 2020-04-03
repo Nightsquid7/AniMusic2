@@ -41,10 +41,14 @@ class AnimeSeriesViewController: UIViewController {
         let dataSource = RxTableViewSectionedReloadDataSource<AnimeSeriesViewSection>(configureCell: { _, tableView, indexPath, item in
             // configure different cells based on item type
             switch item {
-            case .DefaultSongItem:
+            case .DefaultSongItem(let song):
                 print("configure cell as default cell")
                 let cell: AnimeSongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
                 // configure cell
+                cell.configureCell(name: song.name ?? "",
+                                   nameEnglish: song.nameEnglish ?? "",
+                                   relation: song.relation ?? "", song: song)
+
                 return cell
             case .SpotifySongItem(let song, _):
                 print("configure as Spotify cell")
@@ -88,6 +92,6 @@ class AnimeSeriesViewController: UIViewController {
 
 extension AnimeSeriesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 160
+        return 116
     }
 }

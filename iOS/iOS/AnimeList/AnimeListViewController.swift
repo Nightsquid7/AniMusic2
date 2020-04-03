@@ -39,13 +39,19 @@ class AnimeListViewController: UIViewController {
         bindSearchBar()
 
         tableView.delegate = self
+        // MARK: - todo at this to AnimeListViewModel
         // configure TableViewCell data source
         let dataSource = RxTableViewSectionedReloadDataSource<AnimeListViewSection>(configureCell: { _, tableView, indexPath, item in
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeListTableViewCell", for: indexPath) as? AnimeListTableViewCell else { return UITableViewCell()}
-            cell.nameLabel.text = item.name
-            cell.formatLabel.text = item.format
-            cell.seasonLabel.text = item.season
-            cell.yearLabel.text = item.year
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeListTableViewCell", for: indexPath) as? AnimeListTableViewCell else { return UITableViewCell() }
+            let containsSpotifySource: Bool = item.songs.map { song in
+                print("song.sources \(song.sources)")
+                return song.sources.count > 0
+                }.filter { $0 == true }.count > 1
+            
+            cell.configureCell(name: item.name ?? "no ::name",
+                               format: item.format ?? "no format",
+                               appleMusic: false,
+                               spotify: containsSpotifySource)
             return cell
         })
 

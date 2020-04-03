@@ -16,16 +16,24 @@ class AnimeSongTableViewCell: UITableViewCell {
     @IBOutlet weak var startLabel: UILabel!
     @IBOutlet weak var endLabel: UILabel!
 
-    func configureCell() {
-//        cell.nameLabel.text =   item.name
-//        cell.nameEnglishLabel.text = item.nameEnglish
-//        cell.relationLabel.text = item.relation
-//        if let source = item.sources.first?.source {
-//            cell.startLabel.text = source
-//            cell.endLabel.text = item.sources[0].externalUrl
-//        } else {
-//            cell.startLabel.text = ""
-//            cell.endLabel.text = ""
-//        }
+    func configureCell(name: String,
+                       nameEnglish: String,
+                       relation: String, song: RealmAnimeSong) {
+        nameLabel.text =  name
+        nameEnglishLabel.text = nameEnglish
+        relationLabel.text = relation
+        if let ranges = song.ranges.first {
+            startLabel.text = String(ranges.start.value!)
+            endLabel.text = String(ranges.end.value!)
+        }
+
+    }
+
+    override func prepareForReuse() {
+        nameLabel.text = ""
+        nameEnglishLabel.text = ""
+        relationLabel.text = ""
+        startLabel.text = ""
+        endLabel.text = ""
     }
 }
