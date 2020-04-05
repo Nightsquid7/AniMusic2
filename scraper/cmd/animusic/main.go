@@ -4,6 +4,7 @@ import (
 	"animusic/internal/pkg/anidb"
 	"animusic/internal/pkg/cache"
 	"animusic/internal/pkg/firestore"
+	"animusic/internal/pkg/imagesync"
 	"animusic/internal/pkg/json"
 	"animusic/internal/pkg/spotify"
 	"animusic/internal/pkg/types"
@@ -34,14 +35,18 @@ var season *types.Season
 var useCache bool
 var firebaseCredPath string
 var jsonWritePath string
+var firebaseStorageBucket string
+var firebaseSiteName string
 
 func init() {
 	flag.StringVar(&spotifyClientID, "sid", "", "Client Id for Spotify OAuth2 client")
 	flag.StringVar(&spotifyClientSecret, "ss", "", "Client Secret for Spotify OAuth2 client")
 	flag.StringVar(&seasonString, "s", "", "Season string e.g. Winter 2020. Infers season from current date if not specified")
 	flag.BoolVar(&useCache, "cache", true, "Attempt to load anime data from local cache")
-	flag.StringVar(&firebaseCredPath, "firebaseCredPath", "", "Location of the services.json for Firebase")
+	flag.StringVar(&firebaseCredPath, "firebaseCredPath", "", "Location of the services.json for Firebase (Enables the scraper to update Firestore database with the parsed data)")
 	flag.StringVar(&jsonWritePath, "writePath", "", "Output path for the json file")
+	flag.StringVar(&firebaseStorageBucket, "sb", "", "Storage bucket for Firebase storage (If provided together with firebase credentials and site name, the scraper will sync scraped images to fire base)")
+	flag.StringVar(&firebaseSiteName, "sn", "", "Site name for firebase hosting (If provided together with firebase credentials and storage bucket, the scraper will sync scraped images to fire base)")
 }
 
 func main() {
@@ -67,7 +72,7 @@ func main() {
 
 	cache.InitCache(season, useCache)
 
-	// //Initialize all anime data sources
+	//Initialize all anime data sources
 	a := anidb.NewAniDbScraper(*season)
 	animeSources = append(animeSources, a)
 
@@ -176,6 +181,11 @@ func initializeOutputWriters() {
 	if len(firebaseCredPath) != 0 {
 		outputWriters = append(outputWriters, firestore.CreateFirestoreOutputWriter(firebaseCredPath))
 		sb.WriteString(" Firestore")
+
+		if len(firebaseStorageBucket) != 0 && len(firebaseSiteName) != 0 {
+			outputWriters = append(outputWriters, imagesync.CreateImageSyncWriter(firebaseCredPath, firebaseStorageBucket, firebaseSiteName))
+			sb.WriteString(" ImageSync")
+		}
 	}
 
 	if len(jsonWritePath) != 0 {

@@ -19,15 +19,12 @@ type Writer struct {
 
 //Output starts the write action to Firestore
 func (f *Writer) Output(animeSeries []types.AnimeSeries, season types.Season) {
+	fmt.Println("Writing to Firestore...")
 	firestore, _ := f.client.Firestore(context.Background())
 	batches := make([]*fs.WriteBatch, 0)
 	var currentBatch *fs.WriteBatch
 
 	for idx, anime := range animeSeries {
-		if len(anime.Songs) == 0 {
-			continue
-		}
-
 		//Only a maximum of 500 writes are allowed per batch, so we have to create a new batch
 		if idx%500 == 0 {
 			batch := firestore.Batch()
@@ -35,13 +32,12 @@ func (f *Writer) Output(animeSeries []types.AnimeSeries, season types.Season) {
 			currentBatch = batch
 		}
 
-		//Add batch write if document doesn't exist
-		snapshot, err := firestore.Collection(season.String()).Doc(anime.Id).Get(context.Background())
-
-		if !snapshot.Exists() || err != nil {
-			ref := firestore.Collection(season.String()).Doc(anime.Id)
-			currentBatch.Create(ref, anime)
+		if len(anime.Songs) == 0 {
+			continue
 		}
+
+		ref := firestore.Collection(season.String()).Doc(anime.Id)
+		currentBatch.Create(ref, anime)
 	}
 
 	for _, batch := range batches {

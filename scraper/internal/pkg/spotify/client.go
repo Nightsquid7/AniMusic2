@@ -78,7 +78,11 @@ func (s *SpotifyMusicSource) SearchSong(song types.ScrapedSongData) (types.SongS
 		}
 	}
 
-	return types.SongSearchResult{}, fmt.Errorf("Could not find name: %s artist: %s year: %s", song.Name, song.Artists[0].Name, song.Year)
+	if len(song.Artists) > 0 {
+		return types.SongSearchResult{}, fmt.Errorf("Could not find name: %s artist: %s year: %s", song.Name, song.Artists[0].Name, song.Year)
+	} else {
+		return types.SongSearchResult{}, fmt.Errorf("Could not find name: %s year: %s", song.Name, song.Year)
+	}
 }
 
 //ReportStats prints the final hit rate referring to the number of songs searched and the number of songs that ended up with a Spotify result

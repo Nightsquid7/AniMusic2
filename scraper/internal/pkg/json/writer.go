@@ -13,10 +13,14 @@ type Writer struct {
 }
 
 func (w *Writer) Output(animeSeries []types.AnimeSeries, season types.Season) {
-	buf := make(map[string][]types.AnimeSeries)
+	buf := make(map[string]types.AnimeSeries)
+	for _, anime := range animeSeries {
+		buf[anime.Id] = anime
+	}
+
 	fmt.Fprintln(os.Stdout, "Writing output to: ", w.writePath)
 	json, _ := json.MarshalIndent(buf, "", "\t")
-	ioutil.WriteFile(w.writePath, json, 0644)
+	ioutil.WriteFile(w.writePath, json, 0700)
 }
 
 func CreateNewJsonWriter(writePath string) *Writer {
