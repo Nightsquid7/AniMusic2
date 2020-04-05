@@ -5,6 +5,7 @@ import (
 	. "animusic/internal/pkg/types"
 	"fmt"
 	"net/url"
+	"os"
 	"strconv"
 	"strings"
 	"time"
@@ -63,6 +64,7 @@ func createCollector(s Season) (*colly.Collector, chan ScrapedAnimeSeries, chan 
 	var artistBuffer = make([]ScrapedArtist, 0)
 	var songDetailsBuffer = make(map[string]string)
 	var artistDetailsBuffer = make(map[string]string)
+	var imageBuffer = make(map[string]string)
 
 	c := colly.NewCollector(colly.MaxDepth(1))
 	extensions.RandomUserAgent(c)
@@ -122,9 +124,13 @@ func createCollector(s Season) (*colly.Collector, chan ScrapedAnimeSeries, chan 
 	})
 
 	seriesDetails.OnScraped(func(r *colly.Response) {
-		id := getIDFromURL(*r.Request.URL)
+		if strings.Index(r.Headers.Get("Content-Type"), "image") > -1 {
+			return
+		}
 
+		id := getIDOrFileNameFromURL(*r.Request.URL)
 		buf := result[id]
+		buf.TitleImageName = imageBuffer[id]
 		for _, song := range songBuffer {
 			song.Year = buf.Year
 			song.Name = songDetailsBuffer[song.Id]
@@ -139,12 +145,12 @@ func createCollector(s Season) (*colly.Collector, chan ScrapedAnimeSeries, chan 
 
 		result[id] = buf
 
+		fmt.Printf("Grabbed %d songs for anime: %s - %s\n", len(songBuffer), id, result[id].Name)
 		songBuffer = nil
 		artistBuffer = nil
 		songDetailsBuffer = make(map[string]string)
 		artistDetailsBuffer = make(map[string]string)
 		cache.SaveToCache(&buf)
-		fmt.Printf("Grabbed %d songs for anime: %s - %s\n", len(songBuffer), id, result[id].Name)
 		output <- result[id]
 	})
 
@@ -152,17 +158,29 @@ func createCollector(s Season) (*colly.Collector, chan ScrapedAnimeSeries, chan 
 		fmt.Println("Visiting", r.URL)
 	})
 
+	seriesDetails.OnHTML("meta[property=\"og:image\"]", func(e *colly.HTMLElement) {
+		fmt.Println("Found picture in: ", e.Request.URL)
+		animeId := getIDOrFileNameFromURL(*e.Request.URL)
+		imageURL, _ := e.DOM.Attr("content")
+		titleImageName := getIDOrFileNameFromString(imageURL)
+		imageBuffer[animeId] = titleImageName
+		if _, err := os.Stat(".cache/images/" + titleImageName); err != nil {
+			seriesDetails.Visit(imageURL)
+		}
+	})
+
 	seriesDetails.OnHTML("table#songlist", func(e *colly.HTMLElement) {
-		fmt.Println("Looking for songs in: ", e.Request.URL)
+		animeId := getIDOrFileNameFromURL(*e.Request.URL)
+
 		currentRelation := ""
-		e.DOM.Find("tr").Each(func(i int, s *goquery.Selection) {
+		e.DOM.Find(" tr").Each(func(i int, s *goquery.Selection) {
 			if len(strings.TrimSpace(s.Find("td.reltype").First().Text())) > 0 {
 				currentRelation = strings.TrimSpace(s.Find("td.reltype").First().Text())
 			}
 
 			s.Find("td.name.song").Each(func(i int, ss *goquery.Selection) {
 				song := ScrapedSongData{}
-				song.AnimeId = getIDFromURL(*e.Request.URL)
+				song.AnimeId = animeId
 				song.NameEn = strings.TrimSpace(ss.Text())
 				href, _ := ss.Find("a").Attr("href")
 				idx := strings.LastIndex(strings.TrimSpace(href), "/")
@@ -222,26 +240,38 @@ func createCollector(s Season) (*colly.Collector, chan ScrapedAnimeSeries, chan 
 
 				songBuffer = append(songBuffer, song)
 			})
-
 		})
 	})
 
 	songDetails.OnHTML("label[itemprop=\"alternateName\"]", func(e *colly.HTMLElement) {
 		songNameJp := e.DOM.First().Text()
-		songDetailsBuffer[getIDFromURL(*e.Request.URL)] = songNameJp
+		songDetailsBuffer[getIDOrFileNameFromURL(*e.Request.URL)] = songNameJp
 	})
 
 	artistDetails.OnHTML("label[itemprop=\"alternateName\"]", func(e *colly.HTMLElement) {
 		artistNameJp := e.DOM.First().Text()
-		artistDetailsBuffer[getIDFromURL(*e.Request.URL)] = artistNameJp
+		artistDetailsBuffer[getIDOrFileNameFromURL(*e.Request.URL)] = artistNameJp
+	})
+
+	seriesDetails.OnResponse(func(r *colly.Response) {
+		if strings.Index(r.Headers.Get("Content-Type"), "image") > -1 {
+			fileName := getIDOrFileNameFromURL(*r.Request.URL)
+			os.MkdirAll(".cache/images/", 0777)
+			r.Save(".cache/images/" + fileName)
+		}
 	})
 
 	return c, output, done
 }
 
-func getIDFromURL(url url.URL) string {
+func getIDOrFileNameFromURL(url url.URL) string {
 	idx := strings.LastIndex(url.String(), "/")
 	return url.String()[idx+1:]
+}
+
+func getIDOrFileNameFromString(url string) string {
+	idx := strings.LastIndex(url, "/")
+	return url[idx+1:]
 }
 
 func constructAniDbSourceURL(s Season) string {

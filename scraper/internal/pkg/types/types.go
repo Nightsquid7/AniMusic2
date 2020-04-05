@@ -1,13 +1,14 @@
 package types
 
 type ScrapedAnimeSeries struct {
-	Id     string            `json:"id"`
-	Name   string            `json:"name"`
-	Ref    string            `json:"ref"`
-	Format string            `json:"format"`
-	Season string            `json:"season"`
-	Year   string            `json:"year"`
-	Songs  []ScrapedSongData `json:"songs"`
+	Id             string            `json:"id"`
+	Name           string            `json:"name"`
+	TitleImageName string            `json:"titleImageName"`
+	Ref            string            `json:"ref"`
+	Format         string            `json:"format"`
+	Season         string            `json:"season"`
+	Year           string            `json:"year"`
+	Songs          []ScrapedSongData `json:"songs"`
 }
 
 type ScrapedSongData struct {
@@ -52,13 +53,14 @@ type SongSearchResult struct {
 //Final result!
 //TODO: Flesh out what to include in the final result as well
 type AnimeSeries struct {
-	Id       string
-	Name     string
-	AniDbUri string
-	Format   string
-	Season   string
-	Year     string
-	Songs    map[string]AnimeSong
+	Id             string
+	Name           string
+	TitleImageName string
+	AniDbUri       string
+	Format         string
+	Season         string
+	Year           string
+	Songs          map[string]AnimeSong
 }
 
 //Final Song result
@@ -82,13 +84,14 @@ type AnimeArtist struct {
 
 func NewAnimeSeriesFromScrapedData(series *ScrapedAnimeSeries, songSearchResults map[string]map[string]SongSearchResult) AnimeSeries {
 	animeSeries := AnimeSeries{
-		Id:       series.Id,
-		Name:     series.Name,
-		AniDbUri: series.Ref,
-		Format:   series.Format,
-		Season:   series.Season,
-		Year:     series.Year,
-		Songs:    make(map[string]AnimeSong),
+		Id:             series.Id,
+		Name:           series.Name,
+		TitleImageName: series.TitleImageName,
+		AniDbUri:       series.Ref,
+		Format:         series.Format,
+		Season:         series.Season,
+		Year:           series.Year,
+		Songs:          make(map[string]AnimeSong),
 	}
 
 	for _, song := range series.Songs {

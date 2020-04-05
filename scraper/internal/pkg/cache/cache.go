@@ -14,7 +14,7 @@ var cacheSeason *types.Season
 var CacheEnabled bool = false
 
 func init() {
-	os.MkdirAll(".cache", 0644)
+	os.MkdirAll(".cache", 0700)
 }
 
 //InitCache attempts to initialize the cache for the specified season by reading from disk when cacheEnabled is set to true

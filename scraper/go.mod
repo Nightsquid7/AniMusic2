@@ -24,5 +24,5 @@ require (
 	google.golang.org/api v0.20.0
 	google.golang.org/appengine v1.6.5 // indirect
 	google.golang.org/genproto v0.0.0-20200313141609-30c55424f95d // indirect
-	google.golang.org/grpc v1.28.0
+	google.golang.org/grpc v1.28.0 // indirect
 )
