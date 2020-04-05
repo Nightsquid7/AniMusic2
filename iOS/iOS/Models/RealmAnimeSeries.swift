@@ -45,6 +45,7 @@ class RealmAnimeSong: Object {
     let ranges = List<RealmEpisodeRange>()
     let artists = List<RealmArtist>()
     let sources = List<RealmSongSearchResult>()
+    // want to add boolean -> hasSources
 
     convenience init(from song: AnimeSong) {
         self.init()

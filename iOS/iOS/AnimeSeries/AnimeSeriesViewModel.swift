@@ -42,21 +42,40 @@ class AnimeSeriesViewModel {
         self.anime = anime
         displayedSongs.onNext(anime.songs.map { $0 })// .sorted(by: { $0 < $1 }))
 
+        var openingCount: Int = 1, endingCount: Int = 1
+        var headerString: String = ""
         // create sections
         sections.onNext( anime.songs.map { song in
-            if let start = song.ranges.first?.start.value, let end = song.ranges.first?.end.value, let relation = song.relation {
+            guard let relation = song.relation else {
+               // else add song as default
+               return AnimeSeriesViewSection(header: song.relation ?? "no relation...", items: [.DefaultSongItem(song: song)])}
+            // create string for header
+            // format should be "opening n" / "ending n"
+            // insertSong/image song don't need
+            switch relation {
+            case "opening":
+                headerString = "\(relation) \(openingCount)"
+                openingCount += 1
+            case "ending":
+                headerString = "\(relation) \(endingCount)"
+                endingCount += 1
+
+            default:
+                headerString = relation
+            }
+            if let start = song.ranges.first?.start.value, let end = song.ranges.first?.end.value {
                 for source in song.sources {
                     // add item as spotify or apple music song item
                     if source.source == "Spotify" {
-                        return AnimeSeriesViewSection(header: "\(relation) start: \(start)  end: \(end)",
+                        return AnimeSeriesViewSection(header: "\(headerString) s: \(start) e: \(end)",
                                                       items: [.SpotifySongItem(song: song, source: source)])
                     } else {
-                        return AnimeSeriesViewSection(header: "\(relation) start: \(start)  end: \(end)", items: [.AppleMusicSongItem(song: song)])
+                        return AnimeSeriesViewSection(header: headerString, items: [.AppleMusicSongItem(song: song)])
                     }
                 }
             }
-            // else add song as default
-            return AnimeSeriesViewSection(header: song.relation ?? "no relation...", items: [.DefaultSongItem(song: song)])
+            return AnimeSeriesViewSection(header: headerString,
+                items: [.DefaultSongItem(song: song)])
         })
     }
 }
