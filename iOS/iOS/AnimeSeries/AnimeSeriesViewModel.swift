@@ -40,18 +40,19 @@ class AnimeSeriesViewModel {
 
     init(with anime: RealmAnimeSeries) {
         self.anime = anime
-        displayedSongs.onNext(anime.songs.map { $0 })// .sorted(by: { $0 < $1 }))
+
+        displayedSongs.onNext(anime.songs.map { $0 })
 
         var openingCount: Int = 1, endingCount: Int = 1
         var headerString: String = ""
+        print("\(anime.songs.count) songs in \(anime.name)")
+
         // create sections
         sections.onNext( anime.songs.map { song in
             guard let relation = song.relation else {
                // else add song as default
                return AnimeSeriesViewSection(header: song.relation ?? "no relation...", items: [.DefaultSongItem(song: song)])}
             // create string for header
-            // format should be "opening n" / "ending n"
-            // insertSong/image song don't need
             switch relation {
             case "opening":
                 headerString = "\(relation) \(openingCount)"
@@ -67,8 +68,9 @@ class AnimeSeriesViewModel {
                 for source in song.sources {
                     // add item as spotify or apple music song item
                     if source.source == "Spotify" {
-                        return AnimeSeriesViewSection(header: "\(headerString) s: \(start) e: \(end)",
-                                                      items: [.SpotifySongItem(song: song, source: source)])
+                        return AnimeSeriesViewSection(header: "\(headerString)",
+                            items: [.DefaultSongItem(song: song),
+                                    .SpotifySongItem(song: song, source: source)])
                     } else {
                         return AnimeSeriesViewSection(header: headerString, items: [.AppleMusicSongItem(song: song)])
                     }

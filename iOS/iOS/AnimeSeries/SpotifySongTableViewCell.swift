@@ -10,13 +10,26 @@ import UIKit
 
 class SpotifySongTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var nameEnglishLabel: UILabel!
-    @IBOutlet weak var spotifyImageView: UIImageView!
+    lazy var spotifyImageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.image = UIImage(named: "Spotify_Icon_RGB_Green")
+        return imageView
+    }()
 
-    func configure(name: String, nameEnglish: String) {
-        nameLabel.text = name
-        nameEnglishLabel.text = nameEnglish
-        spotifyImageView.image = UIImage(named: "Spotify_Icon_RGB_Green")
+    func configureCell() {
+
+        contentView.addSubview(spotifyImageView)
+        spotifyImageView.translatesAutoresizingMaskIntoConstraints = false
+
+        let constraints = [
+            spotifyImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20),
+            spotifyImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
+            spotifyImageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -20),
+            spotifyImageView.heightAnchor.constraint(equalToConstant: 35),
+            spotifyImageView.widthAnchor.constraint(equalToConstant: 35)
+
+        ]
+        NSLayoutConstraint.activate(constraints)
     }
+
 }

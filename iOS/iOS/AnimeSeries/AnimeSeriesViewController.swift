@@ -42,18 +42,16 @@ class AnimeSeriesViewController: UIViewController {
             // configure different cells based on item type
             switch item {
             case .DefaultSongItem(let song):
-                print("configure cell as default cell")
                 let cell: AnimeSongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
                 // configure cell
-                cell.configureCell(name: song.name ?? "",
-                                   nameEnglish: song.nameEnglish ?? "",
-                                   relation: song.relation ?? "", song: song)
+                cell.configureCell(name: song.name ?? "whoat",
+                                   nameEnglish: song.nameEnglish ?? "name english",
+                                   relation: song.relation ?? "relation?", song: song)
 
                 return cell
-            case .SpotifySongItem(let song, _):
-                print("configure as Spotify cell")
+            case .SpotifySongItem:
                 let cell: SpotifySongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
-                cell.configure(name: song.name!, nameEnglish: song.nameEnglish!)
+                cell.configureCell()
                 return cell
             default:
                 print("default")
@@ -92,6 +90,7 @@ class AnimeSeriesViewController: UIViewController {
 
 extension AnimeSeriesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 116
+        return UITableView.automaticDimension
     }
+
 }
