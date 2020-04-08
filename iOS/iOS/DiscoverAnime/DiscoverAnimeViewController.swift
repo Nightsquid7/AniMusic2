@@ -16,6 +16,7 @@ class DiscoverAnimeViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
 
     // MARK: - Properties
+    let navigator = Navigator.sharedInstance
     let viewModel = DiscoverAnimeViewModel()
     let disposeBag = DisposeBag()
 
@@ -29,12 +30,12 @@ class DiscoverAnimeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        layout.headerReferenceSize = CGSize(width: view.frame.width, height: 40)
+        // create spacing at the leftmost part of collection view
+        layout.headerReferenceSize = CGSize(width: 10, height: 10)
         layout.scrollDirection = .horizontal
 
         collectionView.delegate = self
         collectionView.setCollectionViewLayout(layout, animated: true)
-        collectionView.register(DiscoverAnimeCollectionViewCell.self, forCellWithReuseIdentifier: "DiscoverAnimeCollectionViewCell")
 
         viewModel.sections
             .bind(to: collectionView.rx.items(dataSource: viewModel.dataSource))
@@ -43,6 +44,7 @@ class DiscoverAnimeViewController: UIViewController {
         collectionView.rx.modelSelected(RealmAnimeSeries.self)
             .subscribe(onNext: { anime in
                 print(anime.name ?? "no name...")
+                self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
             })
             .disposed(by: disposeBag)
     }
