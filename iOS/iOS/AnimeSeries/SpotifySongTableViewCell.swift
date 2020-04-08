@@ -27,7 +27,6 @@ class SpotifySongTableViewCell: UITableViewCell {
             spotifyImageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -20),
             spotifyImageView.heightAnchor.constraint(equalToConstant: 35),
             spotifyImageView.widthAnchor.constraint(equalToConstant: 35)
-
         ]
         NSLayoutConstraint.activate(constraints)
     }

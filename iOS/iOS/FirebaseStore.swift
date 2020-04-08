@@ -84,7 +84,7 @@ struct FirebaseStore {
                 // testing how many anime are parsed correctly...
                 var animeCount = 0
                 var errorCount = 0
-                var rangeCount = 0
+                
                 var resultAnimes = [RealmAnimeSeries]()
                 for document in documents {
 

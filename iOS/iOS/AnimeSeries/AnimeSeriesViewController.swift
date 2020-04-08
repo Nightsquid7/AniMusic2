@@ -43,11 +43,8 @@ class AnimeSeriesViewController: UIViewController {
             switch item {
             case .DefaultSongItem(let song):
                 let cell: AnimeSongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
-                // configure cell
                 cell.configureCell(name: song.name ?? "whoat",
-                                   nameEnglish: song.nameEnglish ?? "name english",
-                                   relation: song.relation ?? "relation?", song: song)
-
+                                   nameEnglish: song.nameEnglish ?? "name english")
                 return cell
             case .SpotifySongItem:
                 let cell: SpotifySongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
