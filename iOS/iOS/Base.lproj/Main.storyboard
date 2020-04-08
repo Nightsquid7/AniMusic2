@@ -97,7 +97,7 @@
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="XBW-sw-buW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="9zi-LS-EYJ"/>
+                                    <constraint firstAttribute="height" constant="44" id="eRo-79-E2w"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -125,16 +125,16 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="u0c-MP-bMT" firstAttribute="top" secondItem="XBW-sw-buW" secondAttribute="bottom" id="1ka-Hs-LmB"/>
-                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2De-Jj-YJV"/>
-                            <constraint firstItem="XBW-sw-buW" firstAttribute="trailing" secondItem="u0c-MP-bMT" secondAttribute="trailing" id="Nwt-R9-5hQ"/>
-                            <constraint firstItem="XBW-sw-buW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="S1x-Mz-zex"/>
-                            <constraint firstItem="XBW-sw-buW" firstAttribute="leading" secondItem="u0c-MP-bMT" secondAttribute="leading" id="Wvd-ml-9y7"/>
-                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="top" secondItem="u0c-MP-bMT" secondAttribute="bottom" constant="34" id="ZFv-Vm-zBr"/>
-                            <constraint firstItem="XBW-sw-buW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="b2S-3x-CDq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3fU-9C-cnZ" secondAttribute="bottom" constant="31" id="ffq-bc-bSt"/>
-                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="ixm-G7-PSd"/>
-                            <constraint firstItem="u0c-MP-bMT" firstAttribute="centerX" secondItem="3fU-9C-cnZ" secondAttribute="centerX" id="zdx-BD-gTq"/>
+                            <constraint firstItem="u0c-MP-bMT" firstAttribute="top" secondItem="XBW-sw-buW" secondAttribute="bottom" id="3QI-Ek-dnP"/>
+                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="7ei-JO-rcA"/>
+                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="centerX" secondItem="u0c-MP-bMT" secondAttribute="centerX" id="8CR-Vi-vwh"/>
+                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="top" secondItem="u0c-MP-bMT" secondAttribute="bottom" constant="34" id="N8W-Zp-a2q"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OEF-bC-Rnv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3fU-9C-cnZ" secondAttribute="bottom" constant="31" id="Vk7-he-tzi"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W8x-A7-jBf"/>
+                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Za1-f1-w68"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="trailing" secondItem="u0c-MP-bMT" secondAttribute="trailing" id="eQt-ac-nSV"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="leading" secondItem="u0c-MP-bMT" secondAttribute="leading" id="qBf-h5-pNj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -263,9 +263,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ub-AQ-BER">
-                                <rect key="frame" x="153" y="405" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ub-AQ-BER">
+                                <rect key="frame" x="93" y="391" width="189" height="30"/>
                                 <state key="normal" title="Play Song"/>
                                 <connections>
                                     <action selector="playButton:" destination="X5M-Uz-EI7" eventType="touchUpInside" id="DqM-9M-41W"/>
@@ -273,12 +272,17 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5ub-AQ-BER" firstAttribute="centerY" secondItem="ntB-q0-4JR" secondAttribute="centerY" id="F4i-PM-pac"/>
+                            <constraint firstItem="5ub-AQ-BER" firstAttribute="centerX" secondItem="ntB-q0-4JR" secondAttribute="centerX" id="hAx-Kn-xeg"/>
+                            <constraint firstItem="5ub-AQ-BER" firstAttribute="leading" secondItem="czD-Fi-kle" secondAttribute="leading" constant="93" id="vW8-RB-rKy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="czD-Fi-kle"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ZS-pu-geO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1511" y="87"/>
+            <point key="canvasLocation" x="1509.5999999999999" y="86.453201970443359"/>
         </scene>
     </scenes>
 </document>

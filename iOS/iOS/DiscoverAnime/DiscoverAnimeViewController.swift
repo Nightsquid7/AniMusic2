@@ -42,7 +42,7 @@ class DiscoverAnimeViewController: UIViewController {
 
         collectionView.rx.modelSelected(RealmAnimeSeries.self)
             .subscribe(onNext: { anime in
-                print(anime.name)
+                print(anime.name ?? "no name...")
             })
             .disposed(by: disposeBag)
     }
@@ -52,10 +52,7 @@ class DiscoverAnimeViewController: UIViewController {
 extension DiscoverAnimeViewController: UICollectionViewDelegateFlowLayout {
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 140, height: 300)
+        return CGSize(width: 112, height: 200)
     }
 
-
 }
-
-

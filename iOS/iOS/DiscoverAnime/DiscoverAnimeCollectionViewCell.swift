@@ -32,19 +32,17 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
 
         let nameLabelConstraints = [
             nameLabel.topAnchor.constraint(equalTo: image.bottomAnchor),
-            nameLabel.bottomAnchor.constraint(equalTo: contentView.topAnchor, constant: -20),
             nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            nameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
-//            nameLabel.heightAnchor.constraint(equalToConstant: 116),
-//            nameLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width)
+            nameLabel.heightAnchor.constraint(equalToConstant: 50),
+            nameLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width)
         ]
 
         let imageConstraints = [
             image.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5),
-            image.bottomAnchor.constraint(equalTo: nameLabel.topAnchor),    
+            image.bottomAnchor.constraint(equalTo: nameLabel.topAnchor),
             image.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            image.widthAnchor.constraint(equalToConstant: 140),
-            image.heightAnchor.constraint(equalToConstant: 200)
+            image.widthAnchor.constraint(equalToConstant: 112),
+            image.heightAnchor.constraint(equalToConstant: 149)
         ]
 
         NSLayoutConstraint.activate(nameLabelConstraints)

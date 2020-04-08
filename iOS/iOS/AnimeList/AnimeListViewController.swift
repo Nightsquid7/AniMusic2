@@ -47,7 +47,7 @@ class AnimeListViewController: UIViewController {
                 print("song.sources \(song.sources)")
                 return song.sources.count > 0
                 }.filter { $0 == true }.count > 1
-            
+
             cell.configureCell(name: item.name ?? "no ::name",
                                format: item.format ?? "no format",
                                appleMusic: false,
