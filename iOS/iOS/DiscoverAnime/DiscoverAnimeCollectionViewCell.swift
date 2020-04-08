@@ -16,21 +16,38 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
         return label
     }()
 
+    lazy var image: UIImageView = {
+        let image = UIImageView()
+        image.image = UIImage(named: "No Guns Life")
+        return image
+    }()
+
     func configureCell(anime: RealmAnimeSeries) {
         self.nameLabel.text = anime.name ?? "no name"
 
         contentView.addSubview(nameLabel)
+        contentView.addSubview(image)
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
+        image.translatesAutoresizingMaskIntoConstraints = false
 
         let nameLabelConstraints = [
-          nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
-          nameLabel.bottomAnchor.constraint(equalTo: contentView.topAnchor, constant: -20),
-          nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-          nameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
-          nameLabel.heightAnchor.constraint(equalToConstant: 116),
-          nameLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width)
+            nameLabel.topAnchor.constraint(equalTo: image.bottomAnchor),
+            nameLabel.bottomAnchor.constraint(equalTo: contentView.topAnchor, constant: -20),
+            nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            nameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+//            nameLabel.heightAnchor.constraint(equalToConstant: 116),
+//            nameLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width)
+        ]
+
+        let imageConstraints = [
+            image.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5),
+            image.bottomAnchor.constraint(equalTo: nameLabel.topAnchor),    
+            image.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            image.widthAnchor.constraint(equalToConstant: 140),
+            image.heightAnchor.constraint(equalToConstant: 200)
         ]
 
         NSLayoutConstraint.activate(nameLabelConstraints)
+        NSLayoutConstraint.activate(imageConstraints)
     }
 }

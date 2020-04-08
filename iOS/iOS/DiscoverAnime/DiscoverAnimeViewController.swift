@@ -33,7 +33,6 @@ class DiscoverAnimeViewController: UIViewController {
         layout.scrollDirection = .horizontal
 
         collectionView.delegate = self
-        
         collectionView.setCollectionViewLayout(layout, animated: true)
         collectionView.register(DiscoverAnimeCollectionViewCell.self, forCellWithReuseIdentifier: "DiscoverAnimeCollectionViewCell")
 
@@ -41,6 +40,11 @@ class DiscoverAnimeViewController: UIViewController {
             .bind(to: collectionView.rx.items(dataSource: viewModel.dataSource))
             .disposed(by: disposeBag)
 
+        collectionView.rx.modelSelected(RealmAnimeSeries.self)
+            .subscribe(onNext: { anime in
+                print(anime.name)
+            })
+            .disposed(by: disposeBag)
     }
 
 }
@@ -48,9 +52,10 @@ class DiscoverAnimeViewController: UIViewController {
 extension DiscoverAnimeViewController: UICollectionViewDelegateFlowLayout {
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        print("calculated size")
-        return CGSize(width: view.frame.width/3, height: 40)
+        return CGSize(width: 140, height: 300)
     }
 
 
 }
+
+

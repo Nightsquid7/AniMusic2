@@ -41,6 +41,7 @@ struct DiscoverAnimeViewModel {
             return cell
         })
 
+
     }
 }
 
