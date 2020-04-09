@@ -22,6 +22,7 @@ class DiscoverAnimeViewController: UIViewController {
     let navigator = Navigator.sharedInstance
     let viewModel = AnimeSeasonViewModel(season: RealmSeason(season: "Autumn", year: "2019"))
     let disposeBag = DisposeBag()
+    let seasonViewHeight: CGFloat = 200
 
     let layout = UICollectionViewFlowLayout()
 
@@ -53,7 +54,7 @@ class DiscoverAnimeViewController: UIViewController {
             })
             .disposed(by: disposeBag)
 
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+        let view = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: seasonViewHeight))
         let animeSeasonView = AnimeSeasonViewManager(parentView: view, season: RealmSeason(season: "Summer", year: "2019"), parentViewController: self)
         scrollView.addSubview(view)
     }
