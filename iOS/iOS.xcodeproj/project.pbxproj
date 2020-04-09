@@ -33,7 +33,7 @@
 		53C1C645242C60D6008F5153 /* SlideInPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1C644242C60D6008F5153 /* SlideInPresentationManager.swift */; };
 		53C1C647242C6A04008F5153 /* FilterAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1C646242C6A04008F5153 /* FilterAnimeViewController.swift */; };
 		53E3DCAE243BF465009796A4 /* DiscoverAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCAD243BF465009796A4 /* DiscoverAnimeViewController.swift */; };
-		53E3DCB0243BF47F009796A4 /* DiscoverAnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCAF243BF47F009796A4 /* DiscoverAnimeViewModel.swift */; };
+		53E3DCB0243BF47F009796A4 /* AnimeSeasonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCAF243BF47F009796A4 /* AnimeSeasonViewModel.swift */; };
 		53E3DCB2243C0139009796A4 /* DiscoverAnimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCB1243C0139009796A4 /* DiscoverAnimeCollectionViewCell.swift */; };
 		53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5CD242450B000194B85 /* AppDelegate.swift */; };
 		53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5CF242450B000194B85 /* SceneDelegate.swift */; };
@@ -91,7 +91,7 @@
 		53C1C644242C60D6008F5153 /* SlideInPresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInPresentationManager.swift; sourceTree = "<group>"; };
 		53C1C646242C6A04008F5153 /* FilterAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterAnimeViewController.swift; sourceTree = "<group>"; };
 		53E3DCAD243BF465009796A4 /* DiscoverAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverAnimeViewController.swift; sourceTree = "<group>"; };
-		53E3DCAF243BF47F009796A4 /* DiscoverAnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverAnimeViewModel.swift; sourceTree = "<group>"; };
+		53E3DCAF243BF47F009796A4 /* AnimeSeasonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonViewModel.swift; sourceTree = "<group>"; };
 		53E3DCB1243C0139009796A4 /* DiscoverAnimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverAnimeCollectionViewCell.swift; sourceTree = "<group>"; };
 		53FFA5CA242450B000194B85 /* AniMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FFA5CD242450B000194B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -232,7 +232,7 @@
 				53E3DCAD243BF465009796A4 /* DiscoverAnimeViewController.swift */,
 				53B11114243D5A48008980E5 /* DiscoverAnimeHeaderView.swift */,
 				53B11112243D4A50008980E5 /* DiscoverAnimeFlowLayout.swift */,
-				53E3DCAF243BF47F009796A4 /* DiscoverAnimeViewModel.swift */,
+				53E3DCAF243BF47F009796A4 /* AnimeSeasonViewModel.swift */,
 				53E3DCB1243C0139009796A4 /* DiscoverAnimeCollectionViewCell.swift */,
 			);
 			path = DiscoverAnime;
@@ -584,7 +584,7 @@
 				53B11113243D4A50008980E5 /* DiscoverAnimeFlowLayout.swift in Sources */,
 				539D04462436F584007791D2 /* SongPlayerViewModel.swift in Sources */,
 				53E3DCAE243BF465009796A4 /* DiscoverAnimeViewController.swift in Sources */,
-				53E3DCB0243BF47F009796A4 /* DiscoverAnimeViewModel.swift in Sources */,
+				53E3DCB0243BF47F009796A4 /* AnimeSeasonViewModel.swift in Sources */,
 				53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */,
 				531C9647242DBE9600214FF1 /* FilterAnimeViewModel.swift in Sources */,
 				532B863C243059CB00924B40 /* AnimeSongTableViewCell.swift in Sources */,

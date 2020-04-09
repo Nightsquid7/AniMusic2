@@ -9,16 +9,22 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import RealmSwift
 
 class DiscoverAnimeViewController: UIViewController {
     // MARK: - IBOutlets
+
+    @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var searchBar: UISearchBar!
 
     // MARK: - Properties
     let navigator = Navigator.sharedInstance
-    let viewModel = DiscoverAnimeViewModel()
+    let viewModel = AnimeSeasonViewModel(season: RealmSeason(season: "Autumn", year: "2019"))
     let disposeBag = DisposeBag()
+    // temporary
+    let realm = try! Realm()
+    // temporary
 
     let layout = UICollectionViewFlowLayout()
 
@@ -44,6 +50,8 @@ class DiscoverAnimeViewController: UIViewController {
         collectionView.rx.modelSelected(RealmAnimeSeries.self)
             .subscribe(onNext: { anime in
                 print(anime.name ?? "no name...")
+                // MARK: - todo handle search bar methods...
+                self.searchBar.resignFirstResponder()
                 self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
             })
             .disposed(by: disposeBag)
