@@ -12,19 +12,30 @@ import RxCocoa
 import RealmSwift
 
 class DiscoverAnimeViewController: UIViewController {
-    // MARK: - IBOutlets
+    // MARK: - Views
+    lazy var titleLabel: UILabel = {
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 150))
+        label.text = "Discover"
+        label.font = label.font.withSize(42)
 
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet weak var searchBar: UISearchBar!
+        return label
+    }()
+
+    lazy var searchBar: UISearchBar = {
+        let searchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 40))
+        return searchBar
+    }()
+
+    lazy var scrollView: UIScrollView = {
+        let scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
+        return scrollView
+    }()
 
     // MARK: - Properties
     let navigator = Navigator.sharedInstance
-    let viewModel = AnimeSeasonViewModel(season: RealmSeason(season: "Autumn", year: "2019"))
-    let disposeBag = DisposeBag()
     let seasonViewHeight: CGFloat = 200
-
-    let layout = UICollectionViewFlowLayout()
+    let realm = try! Realm()
+    let disposeBag = DisposeBag()
 
     static func createWith(storyboard: UIStoryboard) -> DiscoverAnimeViewController {
         return storyboard.instantiateViewController(withIdentifier: "DiscoverAnimeViewController") as! DiscoverAnimeViewController
@@ -34,31 +45,52 @@ class DiscoverAnimeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // create spacing at the leftmost part of collection view
-        layout.headerReferenceSize = CGSize(width: 10, height: 10)
-        layout.scrollDirection = .horizontal
+        navigationController?.navigationBar.isHidden = true
 
-        collectionView.delegate = self
-        collectionView.setCollectionViewLayout(layout, animated: true)
+        view.addSubview(titleLabel)
+        view.addSubview(searchBar)
+        view.addSubview(scrollView)
 
-        viewModel.sections
-            .bind(to: collectionView.rx.items(dataSource: viewModel.dataSource))
-            .disposed(by: disposeBag)
+        setConstraints()
 
-        collectionView.rx.modelSelected(RealmAnimeSeries.self)
-            .subscribe(onNext: { anime in
-                print(anime.name ?? "no name...")
-                // MARK: - todo handle search bar methods...
-                self.searchBar.resignFirstResponder()
-                self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
-            })
-            .disposed(by: disposeBag)
+        let seasons = realm.objects(RealmSeason.self).sorted(byKeyPath: "season")
 
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: seasonViewHeight))
-        let animeSeasonView = AnimeSeasonViewManager(parentView: view, season: RealmSeason(season: "Summer", year: "2019"), parentViewController: self)
-        scrollView.addSubview(view)
+        seasons.forEach { season in
+            let view = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: seasonViewHeight))
+            _ = AnimeSeasonViewManager(parentView: view, season: RealmSeason(season: season.season, year: season.year), parentViewController: self)
+              scrollView.addSubview(view)
+        }
+
     }
 
+    func setConstraints() {
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        let titleLabelConstraints = [
+            titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
+            titleLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20)
+        ]
+
+        searchBar.translatesAutoresizingMaskIntoConstraints = false
+        let searchBarConstraints = [
+            searchBar.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
+            searchBar.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
+            searchBar.widthAnchor.constraint(equalToConstant: view.frame.width - 40),
+            searchBar.heightAnchor.constraint(equalToConstant: 50)
+        ]
+
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        let scrollViewConstraints = [
+            scrollView.topAnchor.constraint(equalTo: searchBar.bottomAnchor),
+//            scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
+            scrollView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
+            scrollView.widthAnchor.constraint(equalToConstant: view.frame.width),
+            scrollView.heightAnchor.constraint(equalToConstant: view.frame.height)
+        ]
+
+        NSLayoutConstraint.activate(titleLabelConstraints)
+        NSLayoutConstraint.activate(searchBarConstraints)
+        NSLayoutConstraint.activate(scrollViewConstraints)
+    }
 }
 
 extension DiscoverAnimeViewController: UICollectionViewDelegateFlowLayout {

@@ -40,9 +40,7 @@ class AnimeSeasonViewManager: NSObject {
 
         collectionView.rx.modelSelected(RealmAnimeSeries.self)
             .subscribe(onNext: { anime in
-                print(anime.name ?? "no name...")
                 // MARK: - todo handle search bar methods...
-                print("ANIME SEASON VIEW MANAGER \(season.season) \(season.year)")
                 self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: parentViewController)
             })
             .disposed(by: disposeBag)

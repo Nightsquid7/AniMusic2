@@ -34,6 +34,7 @@ class AnimeSeriesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        navigationController?.navigationBar.isHidden = false
         navigationItem.title = viewModel.anime.name
         tableView.delegate = self
 
