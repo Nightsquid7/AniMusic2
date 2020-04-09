@@ -22,6 +22,7 @@
 		535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* RealmAnimeSeries.swift */; };
 		5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75D2435778B00D19B53 /* UIKitExtensions.swift */; };
 		5371F76024358AB000D19B53 /* SpotifySongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75F24358AB000D19B53 /* SpotifySongTableViewCell.swift */; };
+		53963B02243EA0FA00544242 /* AnimeSeasonViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53963B01243EA0FA00544242 /* AnimeSeasonViewManager.swift */; };
 		539D04432436C961007791D2 /* SongPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539D04422436C961007791D2 /* SongPlayerViewController.swift */; };
 		539D04462436F584007791D2 /* SongPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539D04452436F584007791D2 /* SongPlayerViewModel.swift */; };
 		53A02E0D24285A38004E19EC /* AnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A02E0C24285A38004E19EC /* AnimeSeries.swift */; };
@@ -80,6 +81,7 @@
 		535643542424583600C96075 /* RealmAnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAnimeSeries.swift; sourceTree = "<group>"; };
 		5371F75D2435778B00D19B53 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		5371F75F24358AB000D19B53 /* SpotifySongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifySongTableViewCell.swift; sourceTree = "<group>"; };
+		53963B01243EA0FA00544242 /* AnimeSeasonViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonViewManager.swift; sourceTree = "<group>"; };
 		539D04422436C961007791D2 /* SongPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPlayerViewController.swift; sourceTree = "<group>"; };
 		539D04452436F584007791D2 /* SongPlayerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongPlayerViewModel.swift; sourceTree = "<group>"; };
 		53A02E0C24285A38004E19EC /* AnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeries.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				53B11114243D5A48008980E5 /* DiscoverAnimeHeaderView.swift */,
 				53B11112243D4A50008980E5 /* DiscoverAnimeFlowLayout.swift */,
 				53E3DCAF243BF47F009796A4 /* AnimeSeasonViewModel.swift */,
+				53963B01243EA0FA00544242 /* AnimeSeasonViewManager.swift */,
 				53E3DCB1243C0139009796A4 /* DiscoverAnimeCollectionViewCell.swift */,
 			);
 			path = DiscoverAnime;
@@ -566,6 +569,7 @@
 				534C4F3D242881B00029F4BF /* AnimeListViewModel.swift in Sources */,
 				539D04432436C961007791D2 /* SongPlayerViewController.swift in Sources */,
 				53389B022429924200B578DA /* NavigatorViewController.swift in Sources */,
+				53963B02243EA0FA00544242 /* AnimeSeasonViewManager.swift in Sources */,
 				534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */,
 				531C9644242DAB9700214FF1 /* RealmSeason.swift in Sources */,
 				5371F76024358AB000D19B53 /* SpotifySongTableViewCell.swift in Sources */,

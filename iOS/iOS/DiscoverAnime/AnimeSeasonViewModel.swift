@@ -20,6 +20,7 @@ struct AnimeSeasonViewModel {
 
     // MARK: - Initialization
     init(season: RealmSeason) {
+
         self.season = season
         let animes = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
 

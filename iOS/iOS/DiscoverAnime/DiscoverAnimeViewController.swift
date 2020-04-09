@@ -22,9 +22,6 @@ class DiscoverAnimeViewController: UIViewController {
     let navigator = Navigator.sharedInstance
     let viewModel = AnimeSeasonViewModel(season: RealmSeason(season: "Autumn", year: "2019"))
     let disposeBag = DisposeBag()
-    // temporary
-    let realm = try! Realm()
-    // temporary
 
     let layout = UICollectionViewFlowLayout()
 
@@ -55,6 +52,10 @@ class DiscoverAnimeViewController: UIViewController {
                 self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
             })
             .disposed(by: disposeBag)
+
+        let view = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+        let animeSeasonView = AnimeSeasonViewManager(parentView: view, season: RealmSeason(season: "Summer", year: "2019"), parentViewController: self)
+        scrollView.addSubview(view)
     }
 
 }
