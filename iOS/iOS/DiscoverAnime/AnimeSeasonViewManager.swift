@@ -16,13 +16,16 @@ class AnimeSeasonViewManager: NSObject {
     var collectionView: UICollectionView
     let layout = UICollectionViewFlowLayout()
 
+    var view: UIView
+
     let navigator = Navigator.sharedInstance
     var viewModel: AnimeSeasonViewModel
     let disposeBag = DisposeBag()
 
-    init(parentView: UIView, season: RealmSeason, parentViewController: UIViewController) {
+    init(frame: CGRect, season: RealmSeason, parentViewController: UIViewController) {
+        self.view = UIView(frame: frame)
         viewModel = AnimeSeasonViewModel(season: season)
-        collectionView = UICollectionView(frame: parentView.frame, collectionViewLayout: layout)
+        collectionView = UICollectionView(frame: view.frame, collectionViewLayout: layout)
         super.init()
 
         // create spacing at the leftmost part of collection view
@@ -32,7 +35,10 @@ class AnimeSeasonViewManager: NSObject {
         collectionView.register(DiscoverAnimeCollectionViewCell.self, forCellWithReuseIdentifier: "DiscoverAnimeCollectionViewCell")
         collectionView.delegate = self
         collectionView.setCollectionViewLayout(layout, animated: true)
-        parentView.addSubview(collectionView)
+        collectionView.backgroundColor = .white
+
+//        view.addSubview(collectionView)
+//        view.translatesAutoresizingMaskIntoConstraints = false
 
         viewModel.sections
             .bind(to: collectionView.rx.items(dataSource: viewModel.dataSource))
@@ -41,6 +47,7 @@ class AnimeSeasonViewManager: NSObject {
         collectionView.rx.modelSelected(RealmAnimeSeries.self)
             .subscribe(onNext: { anime in
                 // MARK: - todo handle search bar methods...
+                print("\(anime.name!) -> \(season.season) \(season.year)")
                 self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: parentViewController)
             })
             .disposed(by: disposeBag)
