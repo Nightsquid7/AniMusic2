@@ -16,29 +16,25 @@ class AnimeSeasonViewManager: NSObject {
     var collectionView: UICollectionView
     let layout = UICollectionViewFlowLayout()
 
-    var view: UIView
-
     let navigator = Navigator.sharedInstance
     var viewModel: AnimeSeasonViewModel
     let disposeBag = DisposeBag()
 
     init(frame: CGRect, season: RealmSeason, parentViewController: UIViewController) {
-        self.view = UIView(frame: frame)
+        let view = UIView(frame: frame)
         viewModel = AnimeSeasonViewModel(season: season)
         collectionView = UICollectionView(frame: view.frame, collectionViewLayout: layout)
         super.init()
 
         // create spacing at the leftmost part of collection view
         layout.headerReferenceSize = CGSize(width: 10, height: 10)
+        layout.footerReferenceSize = CGSize(width: 10, height: 10)
         layout.scrollDirection = .horizontal
 
         collectionView.register(DiscoverAnimeCollectionViewCell.self, forCellWithReuseIdentifier: "DiscoverAnimeCollectionViewCell")
         collectionView.delegate = self
         collectionView.setCollectionViewLayout(layout, animated: true)
         collectionView.backgroundColor = .white
-
-//        view.addSubview(collectionView)
-//        view.translatesAutoresizingMaskIntoConstraints = false
 
         viewModel.sections
             .bind(to: collectionView.rx.items(dataSource: viewModel.dataSource))
@@ -63,4 +59,3 @@ extension AnimeSeasonViewManager: UICollectionViewDelegateFlowLayout {
     }
 
 }
-

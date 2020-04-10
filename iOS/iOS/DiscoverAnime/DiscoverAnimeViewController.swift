@@ -65,10 +65,9 @@ class DiscoverAnimeViewController: UIViewController {
 
         setConstraints()
 
+        // MARK: - todo  -> at this to DiscoverAnimeViewModel
         let seasons = realm.objects(RealmSeason.self).sorted(byKeyPath: "season")
-
         let seasonsViewArray = [animeSeasonView, animeSeasonView2, animeSeasonView3]
-
         for index in seasonsViewArray.indices {
             // set up
             let frame = CGRect(x: 0, y: seasonViewHeight * CGFloat(index),
@@ -81,7 +80,6 @@ class DiscoverAnimeViewController: UIViewController {
             }
 
         }
-
     }
 
     func setConstraints() {
@@ -110,7 +108,6 @@ class DiscoverAnimeViewController: UIViewController {
         NSLayoutConstraint.activate(titleLabelConstraints)
         NSLayoutConstraint.activate(searchBarConstraints)
         NSLayoutConstraint.activate(scrollViewConstraints)
-//        NSLayoutConstraint.activate(animeSeasonViewConstraints)
     }
 }
 

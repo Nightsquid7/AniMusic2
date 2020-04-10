@@ -22,11 +22,13 @@ struct AnimeSeasonViewModel {
     init(season: RealmSeason) {
 
         self.season = season
-        let animes = realm.objects(RealmAnimeSeries.self).sorted(byKeyPath: "name")
+        let animes = realm.objects(RealmAnimeSeries.self)
+            .sorted(byKeyPath: "name")
+            .filter(NSPredicate(format: "season  = %@ AND year = %@", season.season, season.year))
 
         sections.onNext(
             [AnimeSeasonViewSection(header: "\(season.season) \(season.year)",
-                items: Array(animes.filter(NSPredicate(format: "season  = %@ AND year = %@", season.season, season.year))))]
+                items: Array(animes))]
         )
 
         // add this as extension of AnimeSeasonViewSection
