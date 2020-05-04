@@ -49,6 +49,7 @@ class DiscoverAnimeViewController: UIViewController {
     let realm = try! Realm()
     let disposeBag = DisposeBag()
 
+    // MARK: -  createWith(storyboard: UIStoryboard)
     static func createWith(storyboard: UIStoryboard) -> DiscoverAnimeViewController {
         return storyboard.instantiateViewController(withIdentifier: "DiscoverAnimeViewController") as! DiscoverAnimeViewController
     }
@@ -109,12 +110,4 @@ class DiscoverAnimeViewController: UIViewController {
         NSLayoutConstraint.activate(searchBarConstraints)
         NSLayoutConstraint.activate(scrollViewConstraints)
     }
-}
-
-extension DiscoverAnimeViewController: UICollectionViewDelegateFlowLayout {
-
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 112, height: 200)
-    }
-
 }

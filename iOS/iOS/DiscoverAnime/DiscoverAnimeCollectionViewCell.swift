@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
 
@@ -18,13 +19,23 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
 
     lazy var image: UIImageView = {
         let image = UIImageView()
+        // set placeholder image here
         image.image = UIImage(named: "No Guns Life")
         return image
     }()
 
+    // host url
+    // https://animusic2-70683.firebaseapp.com/
+    
     func configureCell(anime: RealmAnimeSeries) {
         self.nameLabel.text = anime.name ?? "no name"
-
+        if let id = anime.id {
+            let url = URL(string: "https://animusic2-70683.firebaseapp.com/\(id).jpg")
+            image.kf.setImage(with: url) { result in
+                print(result)
+                print(id)
+            }
+        }
         contentView.addSubview(nameLabel)
         contentView.addSubview(image)
         nameLabel.translatesAutoresizingMaskIntoConstraints = false

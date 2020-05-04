@@ -15,7 +15,7 @@ target 'iOS' do
   pod 'RxDataSources', '~> 4.0'
   
   # Networking
-  pod 'Alamofire', '~> 5.0'
+  pod 'Kingfisher'
 
   # Realm
   pod 'RealmSwift'
