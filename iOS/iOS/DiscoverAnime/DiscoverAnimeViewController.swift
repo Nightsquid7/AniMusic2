@@ -70,6 +70,7 @@ class DiscoverAnimeViewController: UIViewController {
         let seasons = realm.objects(RealmSeason.self).sorted(byKeyPath: "season")
         let seasonsViewArray = [animeSeasonView, animeSeasonView2, animeSeasonView3]
         for index in seasonsViewArray.indices {
+            print(seasons[index])
             // set up
             let frame = CGRect(x: 0, y: seasonViewHeight * CGFloat(index),
                                width: view.frame.width,
