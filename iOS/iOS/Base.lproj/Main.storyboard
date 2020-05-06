@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BY3-b1-mtv">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="tON-Si-gkv">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationController" id="BY3-b1-mtv" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hUe-Zm-JLn">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ENI-ax-Rm3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1714" y="87"/>
+        </scene>
+        <!--Discover Anime View Controller-->
+        <scene sceneID="0ao-DY-EMz">
+            <objects>
+                <viewController storyboardIdentifier="DiscoverAnimeViewController" id="B2i-aH-3Io" customClass="DiscoverAnimeViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PTk-91-6vF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="LTb-n3-5fF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aeh-sU-Qtb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-868" y="86.453201970443359"/>
+        </scene>
+        <!--Anime List View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="AnimeListViewController" id="BYZ-38-t0r" customClass="AnimeListViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="XBW-sw-buW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="eRo-79-E2w"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fU-9C-cnZ">
+                                <rect key="frame" x="116" y="629" width="142" height="30"/>
+                                <state key="normal" title="Filter"/>
+                                <connections>
+                                    <segue destination="rPw-GA-vde" kind="presentation" id="9ji-Xx-Jxa"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="u0c-MP-bMT">
+                                <rect key="frame" x="0.0" y="44" width="375" height="551"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnimeListTableViewCell" rowHeight="116" id="4ii-Co-wVR" customClass="AnimeListTableViewCell" customModule="AniMusic" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="116"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4ii-Co-wVR" id="0hC-7F-hav">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="116"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="u0c-MP-bMT" firstAttribute="top" secondItem="XBW-sw-buW" secondAttribute="bottom" id="3QI-Ek-dnP"/>
+                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="7ei-JO-rcA"/>
+                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="centerX" secondItem="u0c-MP-bMT" secondAttribute="centerX" id="8CR-Vi-vwh"/>
+                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="top" secondItem="u0c-MP-bMT" secondAttribute="bottom" constant="34" id="N8W-Zp-a2q"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OEF-bC-Rnv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3fU-9C-cnZ" secondAttribute="bottom" constant="31" id="Vk7-he-tzi"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W8x-A7-jBf"/>
+                            <constraint firstItem="3fU-9C-cnZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Za1-f1-w68"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="trailing" secondItem="u0c-MP-bMT" secondAttribute="trailing" id="eQt-ac-nSV"/>
+                            <constraint firstItem="XBW-sw-buW" firstAttribute="leading" secondItem="u0c-MP-bMT" secondAttribute="leading" id="qBf-h5-pNj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="searchBar" destination="XBW-sw-buW" id="1vL-GZ-tp8"/>
+                        <outlet property="tableView" destination="u0c-MP-bMT" id="JNY-AG-Zcd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="83.497536945812811"/>
+        </scene>
+        <!--Filter Anime View Controller-->
+        <scene sceneID="rQJ-Hp-uek">
+            <objects>
+                <viewController id="rPw-GA-vde" customClass="FilterAnimeViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1hf-o2-gyx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dKV-ob-rPs">
+                                <rect key="frame" x="0.0" y="30" width="375" height="32"/>
+                                <segments>
+                                    <segment title="Season"/>
+                                    <segment title="Year"/>
+                                </segments>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wHU-Kj-0Sc">
+                                <rect key="frame" x="0.0" y="81" width="375" height="537"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FilterAnimeTableViewCell" id="FOD-Qh-bn4">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FOD-Qh-bn4" id="0n9-i4-MVB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvA-Jg-Miu">
+                                <rect key="frame" x="16" y="649" width="343" height="30"/>
+                                <state key="normal" title="Filter Selection"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dKV-ob-rPs" firstAttribute="top" secondItem="Z7n-0q-GSj" secondAttribute="top" constant="30" id="7C9-iN-0UE"/>
+                            <constraint firstItem="wHU-Kj-0Sc" firstAttribute="top" secondItem="dKV-ob-rPs" secondAttribute="bottom" constant="20" id="9EU-AI-ndF"/>
+                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="trailing" secondItem="dKV-ob-rPs" secondAttribute="trailing" id="9vM-SU-57E"/>
+                            <constraint firstItem="dKV-ob-rPs" firstAttribute="leading" secondItem="Z7n-0q-GSj" secondAttribute="leading" id="CVV-ub-I3E"/>
+                            <constraint firstItem="wHU-Kj-0Sc" firstAttribute="leading" secondItem="Z7n-0q-GSj" secondAttribute="leading" id="b8Z-J2-YJN"/>
+                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="trailing" secondItem="wHU-Kj-0Sc" secondAttribute="trailing" id="dVb-Lx-yQb"/>
+                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="bottom" secondItem="fvA-Jg-Miu" secondAttribute="bottom" constant="45" id="fdW-P7-QyY"/>
+                            <constraint firstItem="Z7n-0q-GSj" firstAttribute="trailing" secondItem="fvA-Jg-Miu" secondAttribute="trailing" constant="16" id="hCQ-PG-v1c"/>
+                            <constraint firstItem="fvA-Jg-Miu" firstAttribute="leading" secondItem="Z7n-0q-GSj" secondAttribute="leading" constant="16" id="kMU-OW-HnS"/>
+                            <constraint firstItem="fvA-Jg-Miu" firstAttribute="top" secondItem="wHU-Kj-0Sc" secondAttribute="bottom" constant="31" id="ss7-bE-BT3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Z7n-0q-GSj"/>
+                    </view>
+                    <connections>
+                        <outlet property="filterButton" destination="fvA-Jg-Miu" id="KX2-hF-R4i"/>
+                        <outlet property="segmentedControl" destination="dKV-ob-rPs" id="HuS-MR-4Et"/>
+                        <outlet property="tableView" destination="wHU-Kj-0Sc" id="9Z1-VB-BSf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Clk-fV-t0Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="868.9655172413793"/>
+        </scene>
+        <!--Anime Series View Controller-->
+        <scene sceneID="S1q-oD-XUn">
+            <objects>
+                <viewController storyboardIdentifier="AnimeSeriesViewController" id="C5S-Ht-Z1x" customClass="AnimeSeriesViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SHZ-aH-jfp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xgZ-4Z-Qed">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnimeSongTableViewCell" rowHeight="78" id="sqU-Bc-1nW" customClass="AnimeSongTableViewCell" customModule="AniMusic" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="78"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sqU-Bc-1nW" id="YfA-FS-k4Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="78"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SpotifySongTableViewCell" rowHeight="80" id="ubz-pz-hKd" customClass="SpotifySongTableViewCell" customModule="AniMusic" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="106" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ubz-pz-hKd" id="cTs-Mn-jK6">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xgZ-4Z-Qed" firstAttribute="leading" secondItem="veg-14-J6f" secondAttribute="leading" id="6nS-Zy-eh0"/>
+                            <constraint firstItem="xgZ-4Z-Qed" firstAttribute="bottom" secondItem="veg-14-J6f" secondAttribute="bottom" id="L2g-2M-Q4v"/>
+                            <constraint firstItem="xgZ-4Z-Qed" firstAttribute="centerX" secondItem="SHZ-aH-jfp" secondAttribute="centerX" id="rxd-3V-TQU"/>
+                            <constraint firstItem="xgZ-4Z-Qed" firstAttribute="top" secondItem="veg-14-J6f" secondAttribute="top" id="sGZ-Ah-eIU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="veg-14-J6f"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="xgZ-4Z-Qed" id="ufY-UD-Bnt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X2B-rQ-WNH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772" y="87.192118226600982"/>
+        </scene>
+        <!--SongPlayerViewController-->
+        <scene sceneID="nL6-Bb-a88">
+            <objects>
+                <viewController storyboardIdentifier="SongPlayerViewController" title="SongPlayerViewController" id="X5M-Uz-EI7" customClass="SongPlayerViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ntB-q0-4JR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ub-AQ-BER">
+                                <rect key="frame" x="93" y="391" width="189" height="30"/>
+                                <state key="normal" title="Play Song"/>
+                                <connections>
+                                    <action selector="playButton:" destination="X5M-Uz-EI7" eventType="touchUpInside" id="DqM-9M-41W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5ub-AQ-BER" firstAttribute="centerY" secondItem="ntB-q0-4JR" secondAttribute="centerY" id="F4i-PM-pac"/>
+                            <constraint firstItem="5ub-AQ-BER" firstAttribute="centerX" secondItem="ntB-q0-4JR" secondAttribute="centerX" id="hAx-Kn-xeg"/>
+                            <constraint firstItem="5ub-AQ-BER" firstAttribute="leading" secondItem="czD-Fi-kle" secondAttribute="leading" constant="93" id="vW8-RB-rKy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="czD-Fi-kle"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ZS-pu-geO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1509.5999999999999" y="86.453201970443359"/>
+        </scene>
+    </scenes>
+</document>
