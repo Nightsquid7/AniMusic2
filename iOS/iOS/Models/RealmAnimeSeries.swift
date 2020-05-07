@@ -17,6 +17,7 @@ class RealmAnimeSeries: Object {
     @objc dynamic var format: String?
     @objc dynamic var season: String?
     @objc dynamic var year: String?
+    @objc dynamic var titleImageName: String?
     let songs = List<RealmAnimeSong>()
 
     convenience init(from anime: AnimeSeries) {
@@ -27,6 +28,7 @@ class RealmAnimeSeries: Object {
         self.format = anime.format
         self.season = anime.season
         self.year = anime.year
+        self.titleImageName = anime.titleImageName
         // add songs if they exist
         if let songs = anime.songs {
             for song in songs {

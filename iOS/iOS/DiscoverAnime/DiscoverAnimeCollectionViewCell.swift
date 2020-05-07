@@ -29,8 +29,8 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
     
     func configureCell(anime: RealmAnimeSeries) {
         self.nameLabel.text = anime.name ?? "no name"
-        if let id = anime.id {
-            let url = URL(string: "https://animusic2-70683.firebaseapp.com/\(id).jpg")
+        if let imageName = anime.titleImageName {
+            let url = URL(string: "https://animusic2-70683.firebaseapp.com/\(imageName)")
             image.kf.setImage(with: url) { result in
                 switch (result) {
                 case .success(let value):
@@ -39,7 +39,7 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
                     print(err)
                 }
 
-                print(id)
+                print(imageName)
             }
         }
         contentView.addSubview(nameLabel)

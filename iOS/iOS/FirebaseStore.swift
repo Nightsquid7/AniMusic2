@@ -111,7 +111,7 @@ class FirebaseStore {
                         let realmAnime = RealmAnimeSeries(from: anime)
                         resultAnimes.append(realmAnime)
                         // temporary
-
+                        print("anime.image -> \(realmAnime.titleImageName)")
                         animeCount += 1
 
                     } catch {
