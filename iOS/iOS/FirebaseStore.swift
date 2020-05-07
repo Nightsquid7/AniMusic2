@@ -34,13 +34,15 @@ class FirebaseStore {
             .flatMap { _ in
                 self.getSeasonsList()
             }
-//            .share()
+            .share()
 
-        // write seasons to realm
+        // save seasons to realm
         _ = seasonsObservable
             .subscribe(realm.rx.add())
             .disposed(by: disposeBag)
 
+        // search firebase for all Animes in each season colllection,
+        // then save to realm
         _ = seasonsObservable
             .flatMap { seasons  in
                 Observable.from(seasons)
@@ -50,7 +52,6 @@ class FirebaseStore {
            }
             .subscribe(realm.rx.add())
             .disposed(by: disposeBag)
-
 
     }
 
@@ -111,11 +112,11 @@ class FirebaseStore {
                         let realmAnime = RealmAnimeSeries(from: anime)
                         resultAnimes.append(realmAnime)
                         // temporary
-                        print("anime.image -> \(realmAnime.titleImageName)")
+//                        print("anime.image -> \(realmAnime.titleImageName)")
                         animeCount += 1
 
                     } catch {
-                        print("couldn't get anime from \(document.data())")
+
                         print(error)
                         errorCount += 1
                     }

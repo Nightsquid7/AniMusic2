@@ -66,30 +66,25 @@ class DiscoverAnimeViewController: UIViewController {
 
         setConstraints()
 
-        // convert this to observable
-        // on count == 0 -> query the database
-        // on count >  0 -> display seasons
-        let seasons = realm.objects(RealmSeason.self).sorted(byKeyPath: "season")
-        
-        let seasonsObservable = Observable.collection(from: seasons)
-            .map { results in
-                "number of stored seasons:  \(results.count)"
+        _ = Observable.collection(from: realm.objects(RealmSeason.self))
+            .flatMap { seasons in
+                Observable.from(Array(seasons))
             }
-        .subscribe(onNext: { text in
-            print(text)
-        })
+            .enumerated()
+            .map { index, season in
+                print("index, season -> \(index), \(season)")
+                // set up an AnimeSeasonView
+                let frame = CGRect(x: 0, y: self.seasonViewHeight * CGFloat(index),
+                                   width: self.view.frame.width,
+                                   height: self.seasonViewHeight)
+                let animeSeasonView = AnimeSeasonViewManager(frame: frame, season: season, parentViewController: self)
+                let seasonsView = animeSeasonView.collectionView
+                self.scrollView.addSubview(seasonsView)
+                self.scrollView.contentSize.height += seasonsView.frame.height + 10
+            }
+            .subscribe()
+            .disposed(by: disposeBag)
 
-        for index in seasons.indices {
-            print("seasons.count \(seasons.count)")
-            // set up an AnimeSeasonView
-            let frame = CGRect(x: 0, y: seasonViewHeight * CGFloat(index),
-                               width: view.frame.width,
-                               height: seasonViewHeight)
-            let animeSeasonView = AnimeSeasonViewManager(frame: frame, season: seasons[index], parentViewController: self)
-            let seasonsView = animeSeasonView.collectionView
-            scrollView.addSubview(seasonsView)
-            scrollView.contentSize.height += seasonsView.frame.height + 10
-        }
     }
 
     func setConstraints() {
