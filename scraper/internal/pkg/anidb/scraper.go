@@ -161,12 +161,10 @@ func createCollector(s Season) (*colly.Collector, chan ScrapedAnimeSeries, chan 
 	seriesDetails.OnHTML("meta[property=\"og:image\"]", func(e *colly.HTMLElement) {
 		fmt.Println("Found picture in: ", e.Request.URL)
 		animeId := getIDOrFileNameFromURL(*e.Request.URL)
-		fmt.Println("anime id         -> %s", animeId)
 		imageURL, _ := e.DOM.Attr("content")
 		titleImageName := getIDOrFileNameFromString(imageURL)
-		fmt.Println(" animeId + .jpg -> %s", (animeId + ".jpg"))
 		imageBuffer[animeId] = titleImageName
-		if _, err := os.Stat(".cache/images/" + animeId + ".jpg"); err != nil {
+		if _, err := os.Stat(".cache/images/" + titleImageName); err != nil {
 			seriesDetails.Visit(imageURL)
 		}
 	})
