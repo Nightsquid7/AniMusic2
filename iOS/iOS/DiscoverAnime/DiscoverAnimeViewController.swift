@@ -39,9 +39,9 @@ class DiscoverAnimeViewController: UIViewController {
         return stackView
     }()
 
-    var animeSeasonView: AnimeSeasonViewManager?
-    var animeSeasonView2: AnimeSeasonViewManager?
-    var animeSeasonView3: AnimeSeasonViewManager?
+//    var animeSeasonView: AnimeSeasonViewManager?
+//    var animeSeasonView2: AnimeSeasonViewManager?
+//    var animeSeasonView3: AnimeSeasonViewManager?
 
     // MARK: - Properties
     let navigator = Navigator.sharedInstance
@@ -49,7 +49,7 @@ class DiscoverAnimeViewController: UIViewController {
     let realm = try! Realm()
     let disposeBag = DisposeBag()
 
-    // MARK: -  createWith(storyboard: UIStoryboard)
+    // MARK: - createWith(storyboard: UIStoryboard)
     static func createWith(storyboard: UIStoryboard) -> DiscoverAnimeViewController {
         return storyboard.instantiateViewController(withIdentifier: "DiscoverAnimeViewController") as! DiscoverAnimeViewController
     }
@@ -66,21 +66,29 @@ class DiscoverAnimeViewController: UIViewController {
 
         setConstraints()
 
-        // MARK: - todo  -> at this to DiscoverAnimeViewModel
+        // convert this to observable
+        // on count == 0 -> query the database
+        // on count >  0 -> display seasons
         let seasons = realm.objects(RealmSeason.self).sorted(byKeyPath: "season")
-        let seasonsViewArray = [animeSeasonView, animeSeasonView2, animeSeasonView3]
-        for index in seasonsViewArray.indices {
-            print(seasons[index])
-            // set up
+        
+        let seasonsObservable = Observable.collection(from: seasons)
+            .map { results in
+                "number of stored seasons:  \(results.count)"
+            }
+        .subscribe(onNext: { text in
+            print(text)
+        })
+
+        for index in seasons.indices {
+            print("seasons.count \(seasons.count)")
+            // set up an AnimeSeasonView
             let frame = CGRect(x: 0, y: seasonViewHeight * CGFloat(index),
                                width: view.frame.width,
                                height: seasonViewHeight)
-            animeSeasonView = AnimeSeasonViewManager(frame: frame, season: seasons[index], parentViewController: self)
-            if let seasonsView = animeSeasonView?.collectionView {
-                scrollView.addSubview(seasonsView)
-                scrollView.contentSize.height += seasonsView.frame.height + 10
-            }
-
+            let animeSeasonView = AnimeSeasonViewManager(frame: frame, season: seasons[index], parentViewController: self)
+            let seasonsView = animeSeasonView.collectionView
+            scrollView.addSubview(seasonsView)
+            scrollView.contentSize.height += seasonsView.frame.height + 10
         }
     }
 

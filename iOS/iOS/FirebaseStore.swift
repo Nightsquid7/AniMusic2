@@ -10,12 +10,14 @@ import Foundation
 import FirebaseFirestore
 import RxSwift
 import RealmSwift
+import RxRealm
 
-struct FirebaseStore {
+class FirebaseStore {
     // MARK: - Properties
     let realm = try! Realm()
     static let sharedInstance = FirebaseStore()
     let db = Firestore.firestore()
+    let disposeBag = DisposeBag()
 
     enum FirebaseError: Error {
         case couldNotGetAnime(_ error: Error)
@@ -24,19 +26,32 @@ struct FirebaseStore {
 
     // MARK: - Initialization
     // MARK: todo -> move this to FilterAnimeViewModel?
+    // get the list of seasons currently stored in the database
     init() {
-        if realm.objects(RealmSeason.self).count == 0 {
-            let realm = try! Realm()
-            _ = getSeasonsList()
-                .map { seasonsArray in
-                    try? realm.write {
-                        realm.add(seasonsArray)
-                    }
-                }
-                .subscribe({ _ in
-//                    print("next", next)
-                })
-        }
+
+        let seasonsObservable = Observable.collection(from: realm.objects(RealmSeason.self))
+            .filter { $0.count < 1 }
+            .flatMap { _ in
+                self.getSeasonsList()
+            }
+//            .share()
+
+        // write seasons to realm
+        _ = seasonsObservable
+            .subscribe(realm.rx.add())
+            .disposed(by: disposeBag)
+
+        _ = seasonsObservable
+            .flatMap { seasons  in
+                Observable.from(seasons)
+            }
+            .flatMap { season in
+                self.getAllAnime(from: season)
+           }
+            .subscribe(realm.rx.add())
+            .disposed(by: disposeBag)
+
+
     }
 
     // get the list of seasons of animes stored in firebase
@@ -56,7 +71,6 @@ struct FirebaseStore {
                 for document in documents {
                     let seasonData = try? JSONSerialization.data(withJSONObject: document.data(), options: [])
                     if let season = try? JSONDecoder().decode(RealmSeason.self, from: seasonData!) {
-                        print(season)
                         seasons.append(season)
                     }
                 }
@@ -66,10 +80,12 @@ struct FirebaseStore {
         }
     }
 
-    func getAnime(for season: String) -> Single<[RealmAnimeSeries]> {
+    // get all anime from the given season
+    func getAllAnime(from season: RealmSeason) -> Single<[RealmAnimeSeries]> {
         return Single<[RealmAnimeSeries]>.create { single in
 
-            let animeRef = self.db.collection(season)
+            let seasonString = season.season + "-" + season.year
+            let animeRef = self.db.collection(seasonString)
             animeRef.getDocuments { (querySnapshot, error) in
                 if let error = error {
                     single(.error(FirebaseError.couldNotGetAnime(error)))
