@@ -12,9 +12,13 @@ import Then
 import RxSwift
 import RxCocoa
 import RxDataSources
+import Kingfisher
 
 class AnimeSeriesViewController: UIViewController {
     // MARK: - IBOutlets
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var seasonLabel: UILabel!
+    @IBOutlet weak var formatLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
 
@@ -36,8 +40,21 @@ class AnimeSeriesViewController: UIViewController {
 
         navigationController?.navigationBar.isHidden = false
         navigationItem.title = viewModel.anime.name
-        tableView.delegate = self
 
+        if let titleImageName = viewModel.anime.titleImageName {
+            let url = URL(string: "https://animusic2-70683.firebaseapp.com/\(titleImageName)")
+            imageView.kf.setImage(with: url) { result in
+                switch result {
+                case .success(let value):
+                    print(value.originalSource)
+                case .failure(let err):
+                    print(err)
+                }
+            }
+        }
+        seasonLabel.text = viewModel.anime.season
+        formatLabel.text = viewModel.anime.format
+        tableView.delegate = self
         // MARK: - todo  -> add this as a static function to AnimeSeriesViewModel
         let dataSource = RxTableViewSectionedReloadDataSource<AnimeSeriesViewSection>(configureCell: { _, tableView, indexPath, item in
             // configure different cells based on item type
@@ -55,9 +72,7 @@ class AnimeSeriesViewController: UIViewController {
                 print("default")
                 return UITableViewCell()
             }
-
         })
-
         dataSource.titleForHeaderInSection = { dataSource, index in
             return dataSource.sectionModels[index].header
         }
@@ -73,7 +88,6 @@ class AnimeSeriesViewController: UIViewController {
                 case .DefaultSongItem:
                     print("song Default Song Item -> ")
                     // go to song info view
-
                 case .SpotifySongItem(let song, let source):
                     print("SpotifySongItem")
                     self.navigator.show(segue: .songPlayerViewController(song: song, source: source), sender: self)

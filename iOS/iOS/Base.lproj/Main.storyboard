@@ -166,7 +166,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xgZ-4Z-Qed">
-                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <rect key="frame" x="0.0" y="271" width="375" height="507"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnimeSongTableViewCell" rowHeight="78" id="sqU-Bc-1nW" customClass="AnimeSongTableViewCell" customModule="AniMusic" customModuleProvider="target">
@@ -187,17 +187,45 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="odo-jC-CpM">
+                                <rect key="frame" x="16" y="57" width="140" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="1lg-g5-Chl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="seasonLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epi-OF-0aJ">
+                                <rect key="frame" x="180" y="78" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbv-AF-ZcZ">
+                                <rect key="frame" x="180" y="131" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="xgZ-4Z-Qed" firstAttribute="leading" secondItem="veg-14-J6f" secondAttribute="leading" id="6nS-Zy-eh0"/>
+                            <constraint firstItem="epi-OF-0aJ" firstAttribute="leading" secondItem="odo-jC-CpM" secondAttribute="trailing" constant="24" id="7dX-h2-lcl"/>
+                            <constraint firstItem="xgZ-4Z-Qed" firstAttribute="top" secondItem="odo-jC-CpM" secondAttribute="bottom" constant="14" id="8NV-7x-ii4"/>
+                            <constraint firstItem="epi-OF-0aJ" firstAttribute="top" secondItem="veg-14-J6f" secondAttribute="top" constant="34" id="9q3-4r-jGL"/>
+                            <constraint firstItem="dbv-AF-ZcZ" firstAttribute="top" secondItem="epi-OF-0aJ" secondAttribute="bottom" constant="32" id="ATM-p4-4qB"/>
                             <constraint firstItem="xgZ-4Z-Qed" firstAttribute="bottom" secondItem="veg-14-J6f" secondAttribute="bottom" id="L2g-2M-Q4v"/>
+                            <constraint firstItem="odo-jC-CpM" firstAttribute="top" secondItem="veg-14-J6f" secondAttribute="top" constant="13" id="ddd-Ll-OEs"/>
+                            <constraint firstItem="veg-14-J6f" firstAttribute="trailing" secondItem="epi-OF-0aJ" secondAttribute="trailing" constant="98" id="egO-Ro-hRt"/>
+                            <constraint firstItem="dbv-AF-ZcZ" firstAttribute="leading" secondItem="epi-OF-0aJ" secondAttribute="leading" id="htI-Q2-dAx"/>
                             <constraint firstItem="xgZ-4Z-Qed" firstAttribute="centerX" secondItem="SHZ-aH-jfp" secondAttribute="centerX" id="rxd-3V-TQU"/>
-                            <constraint firstItem="xgZ-4Z-Qed" firstAttribute="top" secondItem="veg-14-J6f" secondAttribute="top" id="sGZ-Ah-eIU"/>
+                            <constraint firstItem="odo-jC-CpM" firstAttribute="leading" secondItem="veg-14-J6f" secondAttribute="leading" constant="16" id="uFe-GB-R4C"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="veg-14-J6f"/>
                     </view>
                     <connections>
+                        <outlet property="formatLabel" destination="dbv-AF-ZcZ" id="T9L-3h-UEo"/>
+                        <outlet property="imageView" destination="odo-jC-CpM" id="Wgv-7E-fd1"/>
+                        <outlet property="seasonLabel" destination="epi-OF-0aJ" id="K5b-as-56h"/>
                         <outlet property="tableView" destination="xgZ-4Z-Qed" id="ufY-UD-Bnt"/>
                     </connections>
                 </viewController>

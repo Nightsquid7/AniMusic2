@@ -84,7 +84,6 @@ class DiscoverAnimeViewController: UIViewController {
             }
             .subscribe()
             .disposed(by: disposeBag)
-
     }
 
     func setConstraints() {
