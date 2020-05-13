@@ -17,14 +17,18 @@ class DiscoverAnimeViewController: UIViewController {
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 150))
         label.text = "Discover"
         label.font = label.font.withSize(42)
+        print("\n \(label.font.fontName)\n")
 
         return label
     }()
 
-    lazy var searchBar: UISearchBar = {
-        let searchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 40))
-        return searchBar
-    }()
+//    lazy var searchBar: UISearchBar = {
+//        let searchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 40))
+//        return searchBar
+//    }()
+
+    var searchController: UISearchController!
+    private var resultsTableController: ResultsTableController!
 
     lazy var scrollView: UIScrollView = {
         let scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
@@ -54,14 +58,32 @@ class DiscoverAnimeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationController?.navigationBar.isHidden = true
+        self.navigationController!.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.font: UIFont(name: ".SFUI-Regular", size: 42)]
+//        self.navigationController!.navigationBar.
+
+        resultsTableController =
+            self.storyboard?.instantiateViewController(withIdentifier: "ResultsTableController") as? ResultsTableController
+
+        // This view controller is interested in table view row selections.
+        resultsTableController.tableView.delegate = self
+
+        searchController = UISearchController(searchResultsController: resultsTableController)
+        searchController.delegate = self
+        searchController.searchResultsUpdater = self
+        searchController.searchBar.autocapitalizationType = .none
+        searchController.dimsBackgroundDuringPresentation = false
+        searchController.searchBar.delegate = self // Monitor when the search button is tapped.
+
+        // Place the search bar in the navigation bar.
+        navigationItem.searchController = searchController
 
         view.addSubview(titleLabel)
-        view.addSubview(searchBar)
+
         view.addSubview(scrollView)
 
         setConstraints()
 
+        // Load seasons
         _ = Observable.collection(from: realm.objects(RealmSeason.self))
             .flatMap { seasons in
                 Observable.from(Array(seasons))
@@ -89,24 +111,83 @@ class DiscoverAnimeViewController: UIViewController {
             titleLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20)
         ]
 
-        searchBar.translatesAutoresizingMaskIntoConstraints = false
-        let searchBarConstraints = [
-            searchBar.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
-            searchBar.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
-            searchBar.widthAnchor.constraint(equalToConstant: view.frame.width - 40),
-            searchBar.heightAnchor.constraint(equalToConstant: 50)
-        ]
+//        searchController.searchBar.translatesAutoresizingMaskIntoConstraints = false
+//        let searchControllerConstraints = [
+//            searchController.searchBar.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
+//            searchController.searchBar.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
+//            searchController.searchBar.widthAnchor.constraint(equalToConstant: view.frame.width - 40),
+//            searchController.searchBar.heightAnchor.constraint(equalToConstant: 50)
+//        ]
 
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         let scrollViewConstraints = [
-            scrollView.topAnchor.constraint(equalTo: searchBar.bottomAnchor, constant: 20),
+            scrollView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 60),
             scrollView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
             scrollView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20),
             scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 10)
         ]
 
         NSLayoutConstraint.activate(titleLabelConstraints)
-        NSLayoutConstraint.activate(searchBarConstraints)
+//        NSLayoutConstraint.activate(searchControllerConstraints)
         NSLayoutConstraint.activate(scrollViewConstraints)
     }
 }
+
+// MARK: - UITableViewDelegate
+extension DiscoverAnimeViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+    }
+}
+
+// MARK: - UISearchBarDelegate
+
+extension DiscoverAnimeViewController: UISearchBarDelegate {
+
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+    }
+
+    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+//        updateSearchResults(for: searchController)
+    }
+
+}
+
+// MARK: - UISearchControllerDelegate
+
+// Use these delegate functions for additional control over the search controller.
+
+extension DiscoverAnimeViewController: UISearchControllerDelegate {
+
+    func presentSearchController(_ searchController: UISearchController) {
+        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
+    }
+
+    func willPresentSearchController(_ searchController: UISearchController) {
+        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
+    }
+
+    func didPresentSearchController(_ searchController: UISearchController) {
+        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
+    }
+
+    func willDismissSearchController(_ searchController: UISearchController) {
+        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
+    }
+
+    func didDismissSearchController(_ searchController: UISearchController) {
+        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
+    }
+
+}
+
+// MARK: - UISearchResultsUpdating
+extension DiscoverAnimeViewController: UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+
+    }
+
+
+}
+
