@@ -16,8 +16,8 @@ struct AnimeSeriesViewSection {
 
     enum SectionItem {
         case DefaultSongItem(song: RealmAnimeSong)
-        case SpotifySongItem(song: RealmAnimeSong, source: RealmSongSearchResult)
-        case AppleMusicSongItem(song: RealmAnimeSong)
+//        case SpotifySongItem(song: RealmAnimeSong, source: RealmSongSearchResult)
+//        case AppleMusicSongItem(song: RealmAnimeSong)
     }
 }
 
@@ -67,13 +67,8 @@ class AnimeSeriesViewModel {
             if let _ = song.ranges.first?.start.value, let _ = song.ranges.first?.end.value {
                 for source in song.sources {
                     // add item as spotify or apple music song item
-                    if source.source == "Spotify" {
-                        return AnimeSeriesViewSection(header: "\(headerString)",
-                            items: [.DefaultSongItem(song: song),
-                                    .SpotifySongItem(song: song, source: source)])
-                    } else {
-                        return AnimeSeriesViewSection(header: headerString, items: [.AppleMusicSongItem(song: song)])
-                    }
+                    return AnimeSeriesViewSection(header: "\(headerString)",
+                        items: [.DefaultSongItem(song: song)])
                 }
             }
             return AnimeSeriesViewSection(header: headerString,

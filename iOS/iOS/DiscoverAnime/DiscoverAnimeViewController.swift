@@ -39,10 +39,6 @@ class DiscoverAnimeViewController: UIViewController {
         return stackView
     }()
 
-//    var animeSeasonView: AnimeSeasonViewManager?
-//    var animeSeasonView2: AnimeSeasonViewManager?
-//    var animeSeasonView3: AnimeSeasonViewManager?
-
     // MARK: - Properties
     let navigator = Navigator.sharedInstance
     let seasonViewHeight: CGFloat = 200

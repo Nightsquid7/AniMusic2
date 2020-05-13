@@ -20,7 +20,6 @@ class AnimeSeriesViewController: UIViewController {
     @IBOutlet weak var seasonLabel: UILabel!
     @IBOutlet weak var formatLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var segmentedControl: UISegmentedControl!
 
     // MARK: - Properties
     var viewModel: AnimeSeriesViewModel!
@@ -61,16 +60,9 @@ class AnimeSeriesViewController: UIViewController {
             switch item {
             case .DefaultSongItem(let song):
                 let cell: AnimeSongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
-                cell.configureCell(name: song.name ?? "whoat",
-                                   nameEnglish: song.nameEnglish ?? "name english")
+                cell.configureCell(from: song)
                 return cell
-            case .SpotifySongItem:
-                let cell: SpotifySongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
-                cell.configureCell()
-                return cell
-            default:
-                print("default")
-                return UITableViewCell()
+
             }
         })
         dataSource.titleForHeaderInSection = { dataSource, index in
@@ -85,17 +77,33 @@ class AnimeSeriesViewController: UIViewController {
         tableView.rx.modelSelected(AnimeSeriesViewSection.SectionItem.self)
             .subscribe(onNext: { item in
                 switch item {
-                case .DefaultSongItem:
-                    print("song Default Song Item -> ")
-                    // go to song info view
-                case .SpotifySongItem(let song, let source):
-                    print("SpotifySongItem")
-                    self.navigator.show(segue: .songPlayerViewController(song: song, source: source), sender: self)
-                default:
-                    print("switch default")
+                case .DefaultSongItem(let song):
+                    print("song Default Song Item -> \(song)")
+                    // MARK: - todo
+
+                    self.presentActions(for: song)
                 }
             })
             .disposed(by: disposeBag)
+    }
+
+    func presentActions(for song: RealmAnimeSong) {
+        let ac = UIAlertController(title: "Open song", message: "\(song.name!) in", preferredStyle: .actionSheet)
+        guard let _ = song.sources.first else {
+            ac.addAction(UIAlertAction(title: "No external sources", style: .cancel))
+            present(ac, animated: true)
+            return
+        }
+        if let url = URL(string: (song.sources.first?.externalUrl!)!) {
+            ac.addAction(UIAlertAction(title: "Spotify", style: .default, handler: { _ in
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }))
+        }
+        ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        present(ac, animated: true)
+    }
+
+ func openSpotify(url: String) {
 
     }
 }
