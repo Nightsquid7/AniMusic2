@@ -64,11 +64,11 @@ class DiscoverAnimeViewController: UIViewController {
         resultsTableController =
             self.storyboard?.instantiateViewController(withIdentifier: "ResultsTableController") as? ResultsTableController
 
-        // This view controller is interested in table view row selections.
-        resultsTableController.tableView.delegate = self
+//        // This view controller is interested in table view row selections.
+//        resultsTableController.tableView.delegate = self
 
         searchController = UISearchController(searchResultsController: resultsTableController)
-        searchController.delegate = self
+//        searchController.delegate = self
         searchController.searchResultsUpdater = self
         searchController.searchBar.autocapitalizationType = .none
         searchController.dimsBackgroundDuringPresentation = false
@@ -82,6 +82,7 @@ class DiscoverAnimeViewController: UIViewController {
         view.addSubview(scrollView)
 
         setConstraints()
+
 
         // Load seasons
         _ = Observable.collection(from: realm.objects(RealmSeason.self))
@@ -111,13 +112,7 @@ class DiscoverAnimeViewController: UIViewController {
             titleLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20)
         ]
 
-//        searchController.searchBar.translatesAutoresizingMaskIntoConstraints = false
-//        let searchControllerConstraints = [
-//            searchController.searchBar.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
-//            searchController.searchBar.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
-//            searchController.searchBar.widthAnchor.constraint(equalToConstant: view.frame.width - 40),
-//            searchController.searchBar.heightAnchor.constraint(equalToConstant: 50)
-//        ]
+
 
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         let scrollViewConstraints = [
@@ -128,13 +123,13 @@ class DiscoverAnimeViewController: UIViewController {
         ]
 
         NSLayoutConstraint.activate(titleLabelConstraints)
-//        NSLayoutConstraint.activate(searchControllerConstraints)
         NSLayoutConstraint.activate(scrollViewConstraints)
     }
 }
 
 // MARK: - UITableViewDelegate
 extension DiscoverAnimeViewController: UITableViewDelegate {
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
     }
@@ -149,7 +144,7 @@ extension DiscoverAnimeViewController: UISearchBarDelegate {
     }
 
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
-//        updateSearchResults(for: searchController)
+        updateSearchResults(for: searchController)
     }
 
 }
@@ -186,8 +181,17 @@ extension DiscoverAnimeViewController: UISearchControllerDelegate {
 extension DiscoverAnimeViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
 
+        let searchString = searchController.searchBar.text!
+        print("searchString -> \(searchString)")
+        let namePredicate = NSPredicate(format: "name CONTAINS %@", searchString)
+        let filteredAnimes = realm.objects(RealmAnimeSeries.self).filter(namePredicate)
+        print("filteredAnimes.count \(filteredAnimes.count)")
+
+        if let resultsController = searchController.searchResultsController as? ResultsTableController {
+            resultsController.filteredAnimes = filteredAnimes
+            resultsController.tableView.reloadData()
+        }
+
     }
 
-
 }
-
