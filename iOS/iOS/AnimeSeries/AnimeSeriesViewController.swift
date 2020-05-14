@@ -40,17 +40,8 @@ class AnimeSeriesViewController: UIViewController {
         navigationController?.navigationBar.isHidden = false
         navigationItem.title = viewModel.anime.name
 
-        if let titleImageName = viewModel.anime.titleImageName {
-            let url = URL(string: "https://animusic2-70683.firebaseapp.com/\(titleImageName)")
-            imageView.kf.setImage(with: url) { result in
-                switch result {
-                case .success(let value):
-                    print(value.originalSource)
-                case .failure(let err):
-                    print(err)
-                }
-            }
-        }
+        imageView.setImage(for: viewModel.anime)
+
         seasonLabel.text = viewModel.anime.season
         formatLabel.text = viewModel.anime.format
         tableView.delegate = self

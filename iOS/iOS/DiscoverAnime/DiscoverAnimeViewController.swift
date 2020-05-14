@@ -17,18 +17,9 @@ class DiscoverAnimeViewController: UIViewController {
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 150))
         label.text = "Discover"
         label.font = label.font.withSize(42)
-        print("\n \(label.font.fontName)\n")
 
         return label
     }()
-
-//    lazy var searchBar: UISearchBar = {
-//        let searchBar = UISearchBar(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 40))
-//        return searchBar
-//    }()
-
-    var searchController: UISearchController!
-    private var resultsTableController: ResultsTableController!
 
     lazy var scrollView: UIScrollView = {
         let scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
@@ -44,6 +35,9 @@ class DiscoverAnimeViewController: UIViewController {
     }()
 
     // MARK: - Properties
+    var searchController: UISearchController!
+    private var resultsTableController: ResultsTableController!
+    var filteredAnimes: Results<RealmAnimeSeries>!
     let navigator = Navigator.sharedInstance
     let seasonViewHeight: CGFloat = 200
     let realm = try! Realm()
@@ -64,11 +58,10 @@ class DiscoverAnimeViewController: UIViewController {
         resultsTableController =
             self.storyboard?.instantiateViewController(withIdentifier: "ResultsTableController") as? ResultsTableController
 
-//        // This view controller is interested in table view row selections.
-//        resultsTableController.tableView.delegate = self
+        resultsTableController.tableView.delegate = self
 
         searchController = UISearchController(searchResultsController: resultsTableController)
-//        searchController.delegate = self
+        searchController.delegate = self
         searchController.searchResultsUpdater = self
         searchController.searchBar.autocapitalizationType = .none
         searchController.dimsBackgroundDuringPresentation = false
@@ -83,6 +76,8 @@ class DiscoverAnimeViewController: UIViewController {
 
         setConstraints()
 
+        // load animes
+        filteredAnimes = realm.objects(RealmAnimeSeries.self)
 
         // Load seasons
         _ = Observable.collection(from: realm.objects(RealmSeason.self))
@@ -131,7 +126,14 @@ class DiscoverAnimeViewController: UIViewController {
 extension DiscoverAnimeViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("tapped a row")
+        let selectedAnime = filteredAnimes[indexPath.row]
+        self.navigator.show(segue: .animeSeriesViewController(anime: selectedAnime), sender: self)
+    }
 
+     func  tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        print(tableView.estimatedRowHeight)
+        return 250
     }
 }
 
@@ -182,14 +184,14 @@ extension DiscoverAnimeViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
 
         let searchString = searchController.searchBar.text!
-        print("searchString -> \(searchString)")
-        let namePredicate = NSPredicate(format: "name CONTAINS %@", searchString)
-        let filteredAnimes = realm.objects(RealmAnimeSeries.self).filter(namePredicate)
-        print("filteredAnimes.count \(filteredAnimes.count)")
+
+        let namePredicate = NSPredicate(format: "name CONTAINS[c] %@", searchString)
+        let filteredAnimes = realm.objects(RealmAnimeSeries.self).filter(namePredicate) 
 
         if let resultsController = searchController.searchResultsController as? ResultsTableController {
             resultsController.filteredAnimes = filteredAnimes
             resultsController.tableView.reloadData()
+            self.filteredAnimes = filteredAnimes
         }
 
     }

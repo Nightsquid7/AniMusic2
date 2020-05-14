@@ -45,7 +45,6 @@ class AnimeSeriesViewModel {
 
         var openingCount: Int = 1, endingCount: Int = 1
         var headerString: String = ""
-        print("\(anime.songs.count) songs in \(String(describing: anime.name))")
 
         // create sections
         sections.onNext( anime.songs.map { song in
@@ -65,7 +64,7 @@ class AnimeSeriesViewModel {
                 headerString = relation
             }
             if let _ = song.ranges.first?.start.value, let _ = song.ranges.first?.end.value {
-                for source in song.sources {
+                for _ in song.sources {
                     // add item as spotify or apple music song item
                     return AnimeSeriesViewSection(header: "\(headerString)",
                         items: [.DefaultSongItem(song: song)])

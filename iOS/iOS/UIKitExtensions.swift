@@ -9,6 +9,7 @@
 import class UIKit.UITableViewCell
 import class UIKit.UITableView
 import struct Foundation.IndexPath
+import Kingfisher
 
 protocol ReusableView: class {
     static var reuseIdentifier: String { get }
@@ -30,5 +31,24 @@ extension UITableView {
         }
 
         return cell
+    }
+}
+
+// MARK: UIImage
+extension UIImageView {
+    func setImage(for anime: RealmAnimeSeries) {
+        guard let imageName = anime.titleImageName else { return }
+
+        let url = URL(string: "https://animusic2-70683.firebaseapp.com/\(imageName)")
+        self.kf.setImage(with: url) { result in
+            switch (result) {
+            case .success(let value):
+                print(value.originalSource)
+            case .failure(let err):
+                print(err)
+            }
+
+        }
+
     }
 }

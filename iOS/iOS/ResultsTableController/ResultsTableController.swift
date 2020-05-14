@@ -11,7 +11,6 @@ import RealmSwift
 
 class ResultsTableController: UITableViewController {
 
-
     let realm = try! Realm()
     var filteredAnimes: Results<RealmAnimeSeries>!
 
@@ -19,14 +18,10 @@ class ResultsTableController: UITableViewController {
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+         self.clearsSelectionOnViewWillAppear = true
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-
-        print("viewDidLoad -> ResultsTableController")
         filteredAnimes = realm.objects(RealmAnimeSeries.self)
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "ResultTableViewCell")
+        tableView.register(ResultTableViewCell.self, forCellReuseIdentifier: "ResultTableViewCell")
     }
 
     // MARK: - Table view data source
@@ -42,15 +37,14 @@ class ResultsTableController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ResultTableViewCell", for: indexPath)
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "ResultTableViewCell", for: indexPath) as? ResultTableViewCell {
 
-        cell.textLabel?.text = filteredAnimes[indexPath.row].name
+            cell.configureCell(from: filteredAnimes[indexPath.row])
 
-        return cell
-    }
+            return cell
+        }
 
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("filteredAnimes[indexPath.row].name -> \(filteredAnimes[indexPath.row].name!)")
+        return UITableViewCell()
     }
 
 }
