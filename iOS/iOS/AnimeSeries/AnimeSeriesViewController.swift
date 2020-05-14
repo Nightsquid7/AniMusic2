@@ -79,23 +79,55 @@ class AnimeSeriesViewController: UIViewController {
     }
 
     func presentActions(for song: RealmAnimeSong) {
-        let ac = UIAlertController(title: "Open song", message: "\(song.name!) in", preferredStyle: .actionSheet)
-        guard let _ = song.sources.first else {
-            ac.addAction(UIAlertAction(title: "No external sources", style: .cancel))
-            present(ac, animated: true)
-            return
+        let anime = viewModel.anime
+        let titleString = "\(anime.name ?? ""): \(song.name ?? "")"
+        let ac = UIAlertController(title: titleString, message: "", preferredStyle: .actionSheet)
+        var supportedSources = ["Spotify"]
+
+        for source in song.sources {
+            if let url = URL(string: String(source.externalUrl ?? "")), let sourceName = source.source {
+                ac.addAction(UIAlertAction(title: "Open in \(sourceName)", style: .default, handler: { _ in
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                }))
+
+                supportedSources.removeAll(where: { $0 == sourceName })
+            } else {
+                print("\ncould not add source: \(source)")
+            }
         }
-        if let url = URL(string: (song.sources.first?.externalUrl!)!) {
-            ac.addAction(UIAlertAction(title: "Spotify", style: .default, handler: { _ in
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            }))
-        }
+        addGooglePlayAction(to: ac, songName: song.name, animeName: anime.name)
+        addYoutubeAction(to: ac, songName: song.name, animeName: anime.name)
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         present(ac, animated: true)
     }
 
- func openSpotify(url: String) {
-
+    // // MARK: - todo Add Source -> so that this function can run for every source
+    // add an action that opens link to Google Play
+    func addGooglePlayAction(to ac: UIAlertController, songName: String!, animeName: String!) {
+        guard let songName = songName, let animeName = animeName else { return }
+        let formattedSongName = songName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let formattedAnimeName = animeName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let queryString = formattedSongName + "%20" + formattedAnimeName
+        // // MARK: - todo
+        // Get country code
+        if let url = URL(string: "https://play.google.com/store/search?q=\(queryString)&c=music&hl=en") {
+            ac.addAction(UIAlertAction(title: "Open in google play", style: .default, handler: { _ in
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }))
+        } else { print("could not get url for google play store\n\(queryString))")}
+    }
+    func addYoutubeAction(to ac: UIAlertController, songName: String!, animeName: String!) {
+        guard let songName = songName, let animeName = animeName else { return }
+        let formattedSongName = songName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let formattedAnimeName = animeName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let queryString = formattedSongName + "%20" + formattedAnimeName
+        // // MARK: - todo
+        // Get country code
+        if let url = URL(string: "https://www.youtube.com/results?search_query=\(queryString)") {
+            ac.addAction(UIAlertAction(title: "Open in Youtube", style: .default, handler: { _ in
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }))
+        } else { print("could not get url for Youtube\n\(queryString))")}
     }
 }
 
