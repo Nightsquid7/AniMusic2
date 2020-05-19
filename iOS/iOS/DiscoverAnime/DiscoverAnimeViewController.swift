@@ -13,20 +13,12 @@ import RealmSwift
 
 class DiscoverAnimeViewController: UIViewController {
     // MARK: - Views
-    lazy var titleLabel: UILabel = {
-        let label = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 150))
-        label.text = "Discover"
-        label.font = label.font.withSize(42)
-
-        return label
-    }()
-
     lazy var scrollView: UIScrollView = {
         let scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
         return scrollView
     }()
 
-    // want to dynamically add AnimeSeason views to the stack you
+    // want to dynamically add AnimeSeason views to the stack view
     lazy var stackView: UIStackView = {
         let stackView = UIStackView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: seasonViewHeight * 3))
         stackView.axis = .vertical
@@ -54,6 +46,10 @@ class DiscoverAnimeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationController?.navigationBar.topItem?.title = "Discover"
+        self.navigationController?.navigationBar
+            .prefersLargeTitles = true
+
         resultsTableController =
             self.storyboard?.instantiateViewController(withIdentifier: "ResultsTableController") as? ResultsTableController
 
@@ -68,8 +64,6 @@ class DiscoverAnimeViewController: UIViewController {
 
         // Place the search bar in the navigation bar.
         navigationItem.searchController = searchController
-
-        view.addSubview(titleLabel)
 
         view.addSubview(scrollView)
 
@@ -108,21 +102,14 @@ class DiscoverAnimeViewController: UIViewController {
     }
 
     func setConstraints() {
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        let titleLabelConstraints = [
-            titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
-            titleLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20)
-        ]
-
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         let scrollViewConstraints = [
-            scrollView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 60),
-            scrollView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
-            scrollView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20),
+            scrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
+            scrollView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 7),
+            scrollView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -7),
             scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 10)
         ]
 
-        NSLayoutConstraint.activate(titleLabelConstraints)
         NSLayoutConstraint.activate(scrollViewConstraints)
     }
 }
