@@ -94,7 +94,6 @@ class DiscoverAnimeViewController: UIViewController {
             }
             .enumerated()
             .map { index, season in
-                print("index, season -> \(index), \(season)")
                 // set up an AnimeSeasonView
                 let frame = CGRect(x: 0, y: self.seasonViewHeight * CGFloat(index),
                                    width: self.view.frame.width,

@@ -30,7 +30,6 @@ class FirebaseStore {
     // Once you get the seasons, Get all the animes for each season
     // Then save to realm
     init() {
-        print("firebase store init()")
         let seasonsObservable = Observable.collection(from: realm.objects(RealmSeason.self))
             .filter { $0.count < 1 }
             .flatMap { _ in
@@ -60,7 +59,6 @@ class FirebaseStore {
     // get the list of seasons of animes stored in firebase
     private func getSeasonsList() -> Single<[RealmSeason]> {
         return Single<[RealmSeason]>.create { single in
-            print("getSeasonsList() -> ")
             let seasonRef = self.db.collection("Seasons-List")
             seasonRef.getDocuments { (querySnapshot, error) in
                 if let error = error {
@@ -86,7 +84,6 @@ class FirebaseStore {
     // get all anime from the given season
     func getAllAnime(from season: RealmSeason) -> Single<[RealmAnimeSeries]> {
         return Single<[RealmAnimeSeries]>.create { single in
-            print("getAllAnime() -> \(season.season)- \(season.year)")
             let seasonString = season.season + "-" + season.year
             let animeRef = self.db.collection(seasonString)
             animeRef.getDocuments { (querySnapshot, error) in
@@ -116,13 +113,10 @@ class FirebaseStore {
                         // temporary
                         animeCount += 1
                     } catch {
-
                         print(error)
                         errorCount += 1
                     }
                 }
-
-                print("animeCount for \(season):  -> \(animeCount)")
 
                 single(.success(resultAnimes))
                 return
