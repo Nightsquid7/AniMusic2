@@ -27,8 +27,10 @@ class FirebaseStore {
     // MARK: - Initialization
     // MARK: todo -> move this to FilterAnimeViewModel?
     // get the list of seasons currently stored in the database
+    // Once you get the seasons, Get all the animes for each season
+    // Then save to realm
     init() {
-
+        print("firebase store init()")
         let seasonsObservable = Observable.collection(from: realm.objects(RealmSeason.self))
             .filter { $0.count < 1 }
             .flatMap { _ in
@@ -49,7 +51,7 @@ class FirebaseStore {
             }
             .flatMap { season in
                 self.getAllAnime(from: season)
-           }
+            }
             .subscribe(realm.rx.add())
             .disposed(by: disposeBag)
 
@@ -58,7 +60,7 @@ class FirebaseStore {
     // get the list of seasons of animes stored in firebase
     private func getSeasonsList() -> Single<[RealmSeason]> {
         return Single<[RealmSeason]>.create { single in
-
+            print("getSeasonsList() -> ")
             let seasonRef = self.db.collection("Seasons-List")
             seasonRef.getDocuments { (querySnapshot, error) in
                 if let error = error {
@@ -84,7 +86,7 @@ class FirebaseStore {
     // get all anime from the given season
     func getAllAnime(from season: RealmSeason) -> Single<[RealmAnimeSeries]> {
         return Single<[RealmAnimeSeries]>.create { single in
-
+            print("getAllAnime() -> \(season.season)- \(season.year)")
             let seasonString = season.season + "-" + season.year
             let animeRef = self.db.collection(seasonString)
             animeRef.getDocuments { (querySnapshot, error) in
@@ -106,15 +108,13 @@ class FirebaseStore {
                 for document in documents {
 
                     do {
-
                         let animeData = try JSONSerialization.data(withJSONObject: document.data(), options: [])
                         let anime = try JSONDecoder().decode(AnimeSeries.self, from: animeData)
                         let realmAnime = RealmAnimeSeries(from: anime)
                         resultAnimes.append(realmAnime)
-                        // temporary
-//                        print("anime.image -> \(realmAnime.titleImageName)")
-                        animeCount += 1
 
+                        // temporary
+                        animeCount += 1
                     } catch {
 
                         print(error)
@@ -122,7 +122,7 @@ class FirebaseStore {
                     }
                 }
 
-                print("animeCount:  -> \(animeCount)")
+                print("animeCount for \(season):  -> \(animeCount)")
 
                 single(.success(resultAnimes))
                 return

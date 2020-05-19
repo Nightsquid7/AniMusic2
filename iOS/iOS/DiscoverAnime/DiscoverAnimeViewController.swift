@@ -37,9 +37,11 @@ class DiscoverAnimeViewController: UIViewController {
     // MARK: - Properties
     var searchController: UISearchController!
     private var resultsTableController: ResultsTableController!
+
     var filteredAnimes: Results<RealmAnimeSeries>!
     let navigator = Navigator.sharedInstance
     let seasonViewHeight: CGFloat = 200
+
     let realm = try! Realm()
     let disposeBag = DisposeBag()
 
@@ -51,9 +53,6 @@ class DiscoverAnimeViewController: UIViewController {
     // MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.navigationController!.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.font: UIFont(name: ".SFUI-Regular", size: 42)]
-//        self.navigationController!.navigationBar.
 
         resultsTableController =
             self.storyboard?.instantiateViewController(withIdentifier: "ResultsTableController") as? ResultsTableController
@@ -76,12 +75,21 @@ class DiscoverAnimeViewController: UIViewController {
 
         setConstraints()
 
-        // load animes
+        // used as searchController result
         filteredAnimes = realm.objects(RealmAnimeSeries.self)
 
-        // Load seasons
-        _ = Observable.collection(from: realm.objects(RealmSeason.self))
-            .flatMap { seasons in
+        // MARK: - todo wait until animes are completed loading...
+        // wait until stored anime count  > 190 (approximate account of displayed seasons...)
+        let filteredAnimesObservable = Observable.collection(from: filteredAnimes)
+            .filter { $0.count > 190 }
+            .take(1)
+
+        let seasons = Observable.collection(from: realm.objects(RealmSeason.self))
+
+        // create AnimeSeasonViewManager/collection view
+        // for each season.
+        _ = Observable.combineLatest(filteredAnimesObservable, seasons)
+            .flatMap { _, seasons in
                 Observable.from(Array(seasons))
             }
             .enumerated()
@@ -107,8 +115,6 @@ class DiscoverAnimeViewController: UIViewController {
             titleLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20)
         ]
 
-
-
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         let scrollViewConstraints = [
             scrollView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 60),
@@ -126,7 +132,6 @@ class DiscoverAnimeViewController: UIViewController {
 extension DiscoverAnimeViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("tapped a row")
         let selectedAnime = filteredAnimes[indexPath.row]
         self.navigator.show(segue: .animeSeriesViewController(anime: selectedAnime), sender: self)
     }
@@ -186,7 +191,7 @@ extension DiscoverAnimeViewController: UISearchResultsUpdating {
         let searchString = searchController.searchBar.text!
 
         let namePredicate = NSPredicate(format: "name CONTAINS[c] %@", searchString)
-        let filteredAnimes = realm.objects(RealmAnimeSeries.self).filter(namePredicate) 
+        let filteredAnimes = realm.objects(RealmAnimeSeries.self).filter(namePredicate)
 
         if let resultsController = searchController.searchResultsController as? ResultsTableController {
             resultsController.filteredAnimes = filteredAnimes
