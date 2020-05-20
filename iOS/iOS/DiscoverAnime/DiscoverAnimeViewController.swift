@@ -18,21 +18,13 @@ class DiscoverAnimeViewController: UIViewController {
         return scrollView
     }()
 
-    // want to dynamically add AnimeSeason views to the stack view
-    lazy var stackView: UIStackView = {
-        let stackView = UIStackView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: seasonViewHeight * 3))
-        stackView.axis = .vertical
-
-        return stackView
-    }()
-
     // MARK: - Properties
     var searchController: UISearchController!
     private var resultsTableController: ResultsTableController!
+    let animeSeasonViewHeight: CGFloat = 250
 
     var filteredAnimes: Results<RealmAnimeSeries>!
     let navigator = Navigator.sharedInstance
-    let seasonViewHeight: CGFloat = 200
 
     let realm = try! Realm()
     let disposeBag = DisposeBag()
@@ -67,6 +59,7 @@ class DiscoverAnimeViewController: UIViewController {
 
         view.addSubview(scrollView)
 
+
         setConstraints()
 
         // used as searchController result
@@ -89,12 +82,16 @@ class DiscoverAnimeViewController: UIViewController {
             .enumerated()
             .map { index, season in
                 // set up an AnimeSeasonView
-                let frame = CGRect(x: 0, y: self.seasonViewHeight * CGFloat(index),
-                                   width: self.view.frame.width,
-                                   height: self.seasonViewHeight)
-                let animeSeasonView = AnimeSeasonViewManager(frame: frame, season: season, parentViewController: self)
-                let seasonsView = animeSeasonView.collectionView
+                let frame = CGRect(x: 0,
+                                   y: CGFloat(index) * self.animeSeasonViewHeight,
+                                   width: self.view.frame.height,
+                                   height: self.animeSeasonViewHeight)
+                let animeSeasonView = AnimeSeasonViewManager(frame: frame,
+                                                             season: season,
+                                                             parentViewController: self)
+                let seasonsView = animeSeasonView.view
                 self.scrollView.addSubview(seasonsView)
+
                 self.scrollView.contentSize.height += seasonsView.frame.height + 10
             }
             .subscribe()

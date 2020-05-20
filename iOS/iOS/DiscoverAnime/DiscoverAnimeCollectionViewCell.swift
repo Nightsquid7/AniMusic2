@@ -26,11 +26,11 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
 
     // host url
     // https://animusic2-70683.firebaseapp.com/
-    
+
     func configureCell(anime: RealmAnimeSeries) {
         self.nameLabel.text = anime.name ?? "no name"
         image.setImage(for: anime)
-        
+
         contentView.addSubview(nameLabel)
         contentView.addSubview(image)
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -48,7 +48,7 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
             image.bottomAnchor.constraint(equalTo: nameLabel.topAnchor),
             image.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             image.widthAnchor.constraint(equalToConstant: 112),
-            image.heightAnchor.constraint(equalToConstant: 149)
+            image.heightAnchor.constraint(equalToConstant: 150)
         ]
 
         NSLayoutConstraint.activate(nameLabelConstraints)
