@@ -21,7 +21,7 @@ class DiscoverAnimeViewController: UIViewController {
     // MARK: - Properties
     var searchController: UISearchController!
     private var resultsTableController: ResultsTableController!
-    let animeSeasonViewHeight: CGFloat = 250
+    let animeSeasonViewHeight: CGFloat = 270
 
     var filteredAnimes: Results<RealmAnimeSeries>!
     let navigator = Navigator.sharedInstance
@@ -59,7 +59,6 @@ class DiscoverAnimeViewController: UIViewController {
 
         view.addSubview(scrollView)
 
-
         setConstraints()
 
         // used as searchController result
@@ -92,7 +91,7 @@ class DiscoverAnimeViewController: UIViewController {
                 let seasonsView = animeSeasonView.view
                 self.scrollView.addSubview(seasonsView)
 
-                self.scrollView.contentSize.height += seasonsView.frame.height + 10
+                self.scrollView.contentSize.height += self.animeSeasonViewHeight
             }
             .subscribe()
             .disposed(by: disposeBag)
@@ -121,7 +120,7 @@ extension DiscoverAnimeViewController: UITableViewDelegate {
 
      func  tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         print(tableView.estimatedRowHeight)
-        return 250
+        return 190
     }
 }
 
