@@ -15,11 +15,25 @@ import RxDataSources
 import Kingfisher
 
 class AnimeSeriesViewController: UIViewController {
-    // MARK: - IBOutlets
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var seasonLabel: UILabel!
-    @IBOutlet weak var formatLabel: UILabel!
-    @IBOutlet weak var tableView: UITableView!
+    // MARK: - Views
+    lazy var imageView: UIImageView = {
+        var imageView = UIImageView()
+        return imageView
+    }()
+
+    lazy var seasonLabel: UILabel = {
+        var label = UILabel()
+        return label
+    }()
+    lazy var formatLabel: UILabel = {
+        var label = UILabel()
+        return label
+    }()
+
+    lazy var tableView: UITableView = {
+        let tableView = UITableView()
+        return tableView
+    }()
 
     // MARK: - Properties
     var viewModel: AnimeSeriesViewModel!
@@ -37,14 +51,18 @@ class AnimeSeriesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationController?.navigationBar.isHidden = false
         navigationItem.title = viewModel.anime.name
 
         imageView.setImage(for: viewModel.anime)
 
         seasonLabel.text = viewModel.anime.season
         formatLabel.text = viewModel.anime.format
+
         tableView.delegate = self
+        tableView.register(AnimeSongTableViewCell.self, forCellReuseIdentifier: "AnimeSongTableViewCell")
+
+        setConstraints()
+
         // MARK: - todo  -> add this as a static function to AnimeSeriesViewModel
         let dataSource = RxTableViewSectionedReloadDataSource<AnimeSeriesViewSection>(configureCell: { _, tableView, indexPath, item in
             // configure different cells based on item type
@@ -78,6 +96,49 @@ class AnimeSeriesViewController: UIViewController {
             .disposed(by: disposeBag)
     }
 
+    func setConstraints() {
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        seasonLabel.translatesAutoresizingMaskIntoConstraints = false
+        formatLabel.translatesAutoresizingMaskIntoConstraints = false
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+
+        view.addSubview(imageView)
+        view.addSubview(seasonLabel)
+        view.addSubview(formatLabel)
+        view.addSubview(tableView)
+
+        let imageViewConstraints = [
+            imageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+            imageView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 14),
+            imageView.heightAnchor.constraint(equalToConstant: 200),
+            imageView.widthAnchor.constraint(equalToConstant: 140)
+        ]
+
+        let seasonLabelConstraints = [
+            seasonLabel.bottomAnchor.constraint(equalTo: formatLabel.topAnchor, constant: -20),
+            seasonLabel.leadingAnchor.constraint(equalTo: imageView.trailingAnchor, constant: 10),
+            seasonLabel.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -5)
+        ]
+
+        let formatLabelConstraints = [
+            formatLabel.bottomAnchor.constraint(equalTo: imageView.bottomAnchor),
+            formatLabel.leadingAnchor.constraint(equalTo: imageView.trailingAnchor, constant: 10)
+        ]
+
+        let tableViewConstraints = [
+            tableView.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 20),
+            tableView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 0),
+            tableView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+            tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+        ]
+
+        NSLayoutConstraint.activate(imageViewConstraints)
+        NSLayoutConstraint.activate(seasonLabelConstraints)
+        NSLayoutConstraint.activate(formatLabelConstraints)
+        NSLayoutConstraint.activate(tableViewConstraints)
+        print(tableView.frame)
+    }
+
     func presentActions(for song: RealmAnimeSong) {
         let anime = viewModel.anime
         let titleString = "\(anime.name ?? ""): \(song.name ?? "")"
@@ -101,7 +162,8 @@ class AnimeSeriesViewController: UIViewController {
         present(ac, animated: true)
     }
 
-    // // MARK: - todo Add Source -> so that this function can run for every source
+    // MARK: - todo At this to AnimeSeriesViewModel
+    // MARK: - todo Add Source -> so that this function can run for every source
     // add an action that opens link to Google Play
     func addGooglePlayAction(to ac: UIAlertController, songName: String!, animeName: String!) {
         guard let songName = songName, let animeName = animeName else { return }
