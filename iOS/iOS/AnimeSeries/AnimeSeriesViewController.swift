@@ -173,7 +173,7 @@ class AnimeSeriesViewController: UIViewController {
         // // MARK: - todo
         // Get country code
         if let url = URL(string: "https://play.google.com/store/search?q=\(queryString)&c=music&hl=en") {
-            ac.addAction(UIAlertAction(title: "Open in google play", style: .default, handler: { _ in
+            ac.addAction(UIAlertAction(title: "Search google play", style: .default, handler: { _ in
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }))
         } else { print("could not get url for google play store\n\(queryString))")}
@@ -186,7 +186,7 @@ class AnimeSeriesViewController: UIViewController {
         // // MARK: - todo
         // Get country code
         if let url = URL(string: "https://www.youtube.com/results?search_query=\(queryString)") {
-            ac.addAction(UIAlertAction(title: "Open in Youtube", style: .default, handler: { _ in
+            ac.addAction(UIAlertAction(title: "Search Youtube", style: .default, handler: { _ in
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }))
         } else { print("could not get url for Youtube\n\(queryString))")}

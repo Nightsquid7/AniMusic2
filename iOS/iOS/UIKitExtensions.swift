@@ -41,7 +41,7 @@ extension UIImageView {
 
         let url = URL(string: "https://animusic2-70683.firebaseapp.com/\(imageName)")
         self.kf.setImage(with: url, options: []) { result in
-            switch (result) {
+            switch result {
             case .success(let value):
                 print(value.originalSource)
             case .failure(let err):
