@@ -95,6 +95,8 @@ class DiscoverAnimeViewController: UIViewController {
             }
             .subscribe()
             .disposed(by: disposeBag)
+
+        searchController.searchBar.text = "doro"
     }
 
     func setConstraints() {
@@ -119,7 +121,6 @@ extension DiscoverAnimeViewController: UITableViewDelegate {
     }
 
      func  tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        print(tableView.estimatedRowHeight)
         return 190
     }
 }

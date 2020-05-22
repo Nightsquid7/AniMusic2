@@ -27,15 +27,21 @@ class ResultTableViewCell: UITableViewCell {
         return label
     }()
 
+    var musicSourcesBadgeView = UIStackView()
+
     func configureCell(from anime: RealmAnimeSeries) {
         animeImage.setImage(for: anime)
         animeImage.translatesAutoresizingMaskIntoConstraints = false
         animeNameLabel.translatesAutoresizingMaskIntoConstraints = false
         animeSeasonLabel.translatesAutoresizingMaskIntoConstraints = false
+        // set up music source badges
+        musicSourcesBadgeView.makeAnimeSeriesBadgeView(from: anime)
+        musicSourcesBadgeView.translatesAutoresizingMaskIntoConstraints = false
 
         contentView.addSubview(animeImage)
         contentView.addSubview(animeNameLabel)
         contentView.addSubview(animeSeasonLabel)
+        contentView.addSubview(musicSourcesBadgeView)
 
         animeNameLabel.text = anime.name
         animeSeasonLabel.text = (anime.season ?? "") + " " + (anime.year ?? "")
@@ -56,17 +62,28 @@ class ResultTableViewCell: UITableViewCell {
         ]
 
         let animeSeasonLabelConstraints = [
-            animeSeasonLabel.bottomAnchor.constraint(equalTo: animeImage.bottomAnchor),
+            animeSeasonLabel.bottomAnchor.constraint(equalTo: musicSourcesBadgeView.topAnchor, constant: -20),
             animeSeasonLabel.leadingAnchor.constraint(equalTo: animeImage.trailingAnchor, constant: 10)
+        ]
+
+        let musicSourcesBadgeViewConstraints = [
+            musicSourcesBadgeView.bottomAnchor.constraint(equalTo: animeImage.bottomAnchor),
+            musicSourcesBadgeView.leadingAnchor.constraint(equalTo: animeImage.trailingAnchor, constant: 10),
+            musicSourcesBadgeView.heightAnchor.constraint(equalToConstant: 30),
+            musicSourcesBadgeView.widthAnchor.constraint(equalToConstant: 30)
         ]
 
         NSLayoutConstraint.activate(animeImageConstraints)
         NSLayoutConstraint.activate(animeNameLabelConstraints)
         NSLayoutConstraint.activate(animeSeasonLabelConstraints)
+        NSLayoutConstraint.activate(musicSourcesBadgeViewConstraints)
     }
 
     override func prepareForReuse() {
-
+        animeImage = UIImageView()
+        animeNameLabel.text = ""
+        animeSeasonLabel.text = ""
+        musicSourcesBadgeView = UIStackView()
     }
 
 }

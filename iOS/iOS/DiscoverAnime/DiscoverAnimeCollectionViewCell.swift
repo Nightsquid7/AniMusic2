@@ -11,18 +11,19 @@ import Kingfisher
 
 class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
 
-    lazy var nameLabel: UILabel = {
-        let label = UILabel()
-        label.numberOfLines = 4
-        return label
-    }()
-
     lazy var image: UIImageView = {
         let image = UIImageView()
         // set placeholder image here
         image.image = UIImage(named: "No Guns Life")
         return image
     }()
+
+    lazy var nameLabel: UILabel = {
+        let label = UILabel()
+        label.numberOfLines = 4
+        return label
+    }()
+
 
     // host url
     // https://animusic2-70683.firebaseapp.com/
@@ -31,17 +32,10 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
         self.nameLabel.text = anime.name ?? "no name"
         image.setImage(for: anime)
 
-        contentView.addSubview(nameLabel)
         contentView.addSubview(image)
-        nameLabel.translatesAutoresizingMaskIntoConstraints = false
+        contentView.addSubview(nameLabel)
         image.translatesAutoresizingMaskIntoConstraints = false
-
-        let nameLabelConstraints = [
-            nameLabel.topAnchor.constraint(equalTo: image.bottomAnchor),
-            nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            nameLabel.heightAnchor.constraint(equalToConstant: 50),
-            nameLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width)
-        ]
+        nameLabel.translatesAutoresizingMaskIntoConstraints = false
 
         let imageConstraints = [
             image.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5),
@@ -49,6 +43,13 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
             image.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
             image.widthAnchor.constraint(equalToConstant: 112),
             image.heightAnchor.constraint(equalToConstant: 150)
+        ]
+
+        let nameLabelConstraints = [
+            nameLabel.topAnchor.constraint(equalTo: image.bottomAnchor),
+            nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            nameLabel.heightAnchor.constraint(equalToConstant: 50),
+            nameLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width)
         ]
 
         NSLayoutConstraint.activate(nameLabelConstraints)
