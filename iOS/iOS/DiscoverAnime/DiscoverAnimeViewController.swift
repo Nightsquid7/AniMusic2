@@ -56,8 +56,10 @@ class DiscoverAnimeViewController: UIViewController {
         searchController.searchBar.delegate = self // Monitor when the search button is tapped.
 
         // Place the search bar in the navigation bar.
-        navigationItem.searchController = searchController
+        self.navigationItem.searchController = searchController
+        self.navigationItem.hidesSearchBarWhenScrolling = false
 
+        self.scrollView.delegate = self
         view.addSubview(scrollView)
 
         setConstraints()
@@ -97,7 +99,7 @@ class DiscoverAnimeViewController: UIViewController {
             .subscribe()
             .disposed(by: disposeBag)
 
-        searchController.searchBar.text = "doro"
+
     }
 
     func setConstraints() {
@@ -185,4 +187,17 @@ extension DiscoverAnimeViewController: UISearchResultsUpdating {
 
     }
 
+}
+
+// MARK: - UIScrollViewDelegate
+extension DiscoverAnimeViewController: UIScrollViewDelegate {
+    func scrollViewShouldScrollToTop(_ scrollView: UIScrollView) -> Bool {
+        print("scroll view should scroll to top")
+        return false
+    }
+
+    func scrollViewDidChangeAdjustedContentInset(_ scrollView: UIScrollView) {
+        print("scrollView did change adjusted contentInset")
+        print(scrollView.contentInset)
+    }
 }

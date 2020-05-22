@@ -70,7 +70,6 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
     }
 
     override func prepareForReuse() {
-        print("\nprepare for reuse -> \(nameLabel.text)")
         self.nameLabel.text = ""
         musicSourcesBadgeView.removeAllArrangedSubviews()
     }

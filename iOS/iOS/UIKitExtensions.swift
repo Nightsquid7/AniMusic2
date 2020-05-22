@@ -40,16 +40,14 @@ extension UIImageView {
         guard let imageName = anime.titleImageName else { return }
 
         let url = URL(string: "https://animusic2-70683.firebaseapp.com/\(imageName)")
-        self.kf.setImage(with: url) { result in
+        self.kf.setImage(with: url, options: []) { result in
             switch (result) {
             case .success(let value):
                 print(value.originalSource)
             case .failure(let err):
                 print(err)
             }
-
         }
-
     }
 }
 
