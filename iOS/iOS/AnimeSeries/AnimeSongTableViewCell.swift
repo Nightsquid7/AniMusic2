@@ -27,13 +27,20 @@ class AnimeSongTableViewCell: UITableViewCell {
         return label
     }()
 
+    var musicSourcesBadgeView = UIStackView()
+
     func configureCell(from song: RealmAnimeSong) {
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         nameEnglishLabel.translatesAutoresizingMaskIntoConstraints = false
         artistLabel.translatesAutoresizingMaskIntoConstraints = false
+
+        musicSourcesBadgeView.configureBadgeView(from: song)
+        musicSourcesBadgeView.translatesAutoresizingMaskIntoConstraints = false
+
         contentView.addSubview(nameLabel)
         contentView.addSubview(nameEnglishLabel)
         contentView.addSubview(artistLabel)
+        contentView.addSubview(musicSourcesBadgeView)
 
         nameLabel.text =  song.name ?? "Oh-No name?"
         nameEnglishLabel.text = song.nameEnglish ?? ""
@@ -44,7 +51,14 @@ class AnimeSongTableViewCell: UITableViewCell {
             nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
             nameLabel.bottomAnchor.constraint(equalTo: nameEnglishLabel.topAnchor, constant: -10),
             nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-            nameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20)
+            nameLabel.trailingAnchor.constraint(equalTo: musicSourcesBadgeView.leadingAnchor, constant: -5)
+        ]
+
+        let musicSourcesBadgeViewConstraints = [
+            musicSourcesBadgeView.topAnchor.constraint(equalTo: nameLabel.topAnchor),
+            musicSourcesBadgeView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -7),
+            musicSourcesBadgeView.heightAnchor.constraint(equalToConstant: 30),
+            musicSourcesBadgeView.widthAnchor.constraint(equalToConstant: 30)
         ]
 
         let nameEnglishLabelConstraints = [
@@ -62,6 +76,7 @@ class AnimeSongTableViewCell: UITableViewCell {
         ]
 
         NSLayoutConstraint.activate(nameLabelConstraints)
+        NSLayoutConstraint.activate(musicSourcesBadgeViewConstraints)
         NSLayoutConstraint.activate(nameEnglishLabelConstraints)
         NSLayoutConstraint.activate(artistLabelConstraints)
     }

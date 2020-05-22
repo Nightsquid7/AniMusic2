@@ -35,7 +35,7 @@ class ResultTableViewCell: UITableViewCell {
         animeNameLabel.translatesAutoresizingMaskIntoConstraints = false
         animeSeasonLabel.translatesAutoresizingMaskIntoConstraints = false
         // set up music source badges
-        musicSourcesBadgeView.makeAnimeSeriesBadgeView(from: anime)
+        musicSourcesBadgeView.configureBadgeView(from: anime)
         musicSourcesBadgeView.translatesAutoresizingMaskIntoConstraints = false
 
         contentView.addSubview(animeImage)

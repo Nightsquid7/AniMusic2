@@ -24,6 +24,7 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
         return label
     }()
 
+    let musicSourcesBadgeView = UIStackView()
 
     // host url
     // https://animusic2-70683.firebaseapp.com/
@@ -31,11 +32,15 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
     func configureCell(anime: RealmAnimeSeries) {
         self.nameLabel.text = anime.name ?? "no name"
         image.setImage(for: anime)
+        musicSourcesBadgeView.configureBadgeView(from: anime)
 
         contentView.addSubview(image)
         contentView.addSubview(nameLabel)
+        contentView.addSubview(musicSourcesBadgeView)
+
         image.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
+        musicSourcesBadgeView.translatesAutoresizingMaskIntoConstraints = false
 
         let imageConstraints = [
             image.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5),
@@ -52,7 +57,21 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
             nameLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width)
         ]
 
+        let musicSourcesBadgeViewConstraints = [
+            musicSourcesBadgeView.topAnchor.constraint(equalTo: nameLabel.bottomAnchor),
+            musicSourcesBadgeView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            musicSourcesBadgeView.heightAnchor.constraint(equalToConstant: 30),
+            musicSourcesBadgeView.widthAnchor.constraint(equalToConstant: 30)
+        ]
+
         NSLayoutConstraint.activate(nameLabelConstraints)
         NSLayoutConstraint.activate(imageConstraints)
+        NSLayoutConstraint.activate(musicSourcesBadgeViewConstraints)
+    }
+
+    override func prepareForReuse() {
+        print("\nprepare for reuse -> \(nameLabel.text)")
+        self.nameLabel.text = ""
+        musicSourcesBadgeView.removeAllArrangedSubviews()
     }
 }

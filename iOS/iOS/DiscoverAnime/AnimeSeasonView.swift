@@ -11,11 +11,11 @@ import RxSwift
 import RxCocoa
 
 // holds collection view, and manages AnimeSeasonViewModel
-class AnimeSeasonViewManager: NSObject {
+class AnimeSeasonView: NSObject {
     // MARK: - Properties
     var view = UIView()
-    let seasonViewHeight: CGFloat = 250
-    let collectionViewHeight: CGFloat = 200
+
+    let collectionViewHeight: CGFloat = 235
 
     lazy var seasonLabel: UILabel = {
         let label = UILabel()
@@ -82,7 +82,7 @@ class AnimeSeasonViewManager: NSObject {
 
         let  collectionViewConstraints = [
             collectionView.topAnchor.constraint(equalTo: seasonLabel.bottomAnchor, constant: 10),
-            collectionView.heightAnchor.constraint(equalToConstant: 200),
+            collectionView.heightAnchor.constraint(equalToConstant: collectionViewHeight),
             collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ]
@@ -93,7 +93,7 @@ class AnimeSeasonViewManager: NSObject {
 
 }
 
-extension AnimeSeasonViewManager: UICollectionViewDelegateFlowLayout {
+extension AnimeSeasonView: UICollectionViewDelegateFlowLayout {
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 

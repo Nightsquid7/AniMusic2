@@ -21,7 +21,8 @@ class DiscoverAnimeViewController: UIViewController {
     // MARK: - Properties
     var searchController: UISearchController!
     private var resultsTableController: ResultsTableController!
-    let animeSeasonViewHeight: CGFloat = 270
+    // This is the total height for every animeSeasonView
+    let animeSeasonViewHeight: CGFloat = 313
 
     var filteredAnimes: Results<RealmAnimeSeries>!
     let navigator = Navigator.sharedInstance
@@ -85,7 +86,7 @@ class DiscoverAnimeViewController: UIViewController {
                                    y: CGFloat(index) * self.animeSeasonViewHeight,
                                    width: self.view.frame.height,
                                    height: self.animeSeasonViewHeight)
-                let animeSeasonView = AnimeSeasonViewManager(frame: frame,
+                let animeSeasonView = AnimeSeasonView(frame: frame,
                                                              season: season,
                                                              parentViewController: self)
                 let seasonsView = animeSeasonView.view
