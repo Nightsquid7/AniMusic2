@@ -13,15 +13,9 @@ import RealmSwift
 import RxDataSources
 
 class DiscoverAnimeViewController: UIViewController {
-    // MARK: - Views
-    lazy var scrollView: UIScrollView = {
-        let scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height))
-        return scrollView
-    }()
-
-    var animeSeasonsTableView = UITableView()
 
     // MARK: - Properties
+    var animeSeasonsTableView = UITableView()
     var viewModel = DiscoverAnimeViewModel()
     var searchController: UISearchController!
     private var resultsTableController: ResultsTableController!
@@ -62,10 +56,6 @@ class DiscoverAnimeViewController: UIViewController {
         // Place the search bar in the navigation bar.
         self.navigationItem.searchController = searchController
         self.navigationItem.hidesSearchBarWhenScrolling = false
-
-        self.scrollView.delegate = self
-        view.addSubview(scrollView)
-
         self.animeSeasonsTableView.delegate = self
         view.addSubview(animeSeasonsTableView)
         setConstraints()
@@ -77,7 +67,6 @@ class DiscoverAnimeViewController: UIViewController {
 
         let  dataSource = RxTableViewSectionedReloadDataSource<DiscoverAnimeSeasonViewSection>(configureCell: { dataSource, tableView, indexPath, item in
             let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeSeasonTableCell", for: indexPath) as! AnimeSeasonTableCell
-            print("configuring cell for item: \(item)")
             cell.configureCell(season: item, parentViewController: self)
             return cell
         })
@@ -109,10 +98,6 @@ extension DiscoverAnimeViewController: UITableViewDelegate {
             let selectedAnime = filteredAnimes[indexPath.row]
             self.navigator.show(segue: .animeSeriesViewController(anime: selectedAnime), sender: self)
         }
-        if tableView === self.animeSeasonsTableView {
-            // //
-            print("Tap a row in animeSeasonsTableView")
-        }
     }
 
      func  tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -120,7 +105,6 @@ extension DiscoverAnimeViewController: UITableViewDelegate {
             return 190
         }
         if tableView === self.animeSeasonsTableView {
-            print("tableView height for animeSeasonTableView")
             return self.animeSeasonViewHeight
         }
 
@@ -189,15 +173,3 @@ extension DiscoverAnimeViewController: UISearchResultsUpdating {
 
 }
 
-// MARK: - UIScrollViewDelegate
-extension DiscoverAnimeViewController: UIScrollViewDelegate {
-    func scrollViewShouldScrollToTop(_ scrollView: UIScrollView) -> Bool {
-        print("scroll view should scroll to top")
-        return false
-    }
-
-    func scrollViewDidChangeAdjustedContentInset(_ scrollView: UIScrollView) {
-        print("scrollView did change adjusted contentInset")
-        print(scrollView.contentInset)
-    }
-}

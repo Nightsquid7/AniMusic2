@@ -18,11 +18,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     let store = FirebaseStore.sharedInstance
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-//         do {
-//              try FileManager.default.removeItem(at: Realm.Configuration.defaultConfiguration.fileURL!)
-//          } catch {
-//              print(error)
-//          }
+        let realm = try! Realm()
+        let anime  = realm.objects(RealmAnimeSeries.self)
+        print("number of animes - -> \(anime.count)")
+         do {
+              try FileManager.default.removeItem(at: Realm.Configuration.defaultConfiguration.fileURL!)
+          } catch {
+              print(error)
+          }
 
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)

@@ -26,8 +26,6 @@ class Navigator {
         switch segue {
         case .discoverAnimeViewController:
             show(target: DiscoverAnimeViewController.createWith(storyboard: defaultStoryboard), sender: sender)
-        case .animeListViewController:
-            show(target: AnimeListViewController.createWith(storyboard: defaultStoryboard), sender: sender)
         case .animeSeriesViewController(let anime):
             let viewModel = AnimeSeriesViewModel(with: anime)
             show(target: AnimeSeriesViewController.createWith(storyboard: defaultStoryboard, viewModel: viewModel), sender: sender)

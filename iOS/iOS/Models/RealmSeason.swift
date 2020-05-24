@@ -12,20 +12,14 @@ class RealmSeason: Object, Codable {
     // MARK: - Properties
     @objc dynamic var season: String = ""
     @objc dynamic var year: String = ""
-    @objc dynamic var selected: Bool = true
+    @objc dynamic var count: Int = 0
 
     enum CodingKeys: String, CodingKey {
         case season = "Season"
         case year = "Year"
+        case count = "Count"
     }
 
-    // MARK: - temporary?
-    // Will this convenience initializer interfere with Codable protocol?
-    convenience init(season: String, year: String) {
-        self.init()
-        self.season = season
-        self.year = year
-    }
 }
 
 extension RealmSeason {

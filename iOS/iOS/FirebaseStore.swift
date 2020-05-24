@@ -43,14 +43,17 @@ class FirebaseStore {
             .disposed(by: disposeBag)
 
         // search firebase for all Animes in each season colllection,
-        // then save to realm
-        _ = seasonsObservable
+        let fetchedAnimesObservable = seasonsObservable
             .flatMap { seasons  in
                 Observable.from(seasons)
             }
             .flatMap { season in
                 self.getAllAnime(from: season)
             }
+            .share()
+
+        // save animes to Realm
+        fetchedAnimesObservable
             .subscribe(realm.rx.add())
             .disposed(by: disposeBag)
 
@@ -59,6 +62,7 @@ class FirebaseStore {
     // get the list of seasons of animes stored in firebase
     private func getSeasonsList() -> Single<[RealmSeason]> {
         return Single<[RealmSeason]>.create { single in
+            print("getSeasonsList()")
             let seasonRef = self.db.collection("Seasons-List")
             seasonRef.getDocuments { (querySnapshot, error) in
                 if let error = error {
@@ -73,6 +77,7 @@ class FirebaseStore {
                     let seasonData = try? JSONSerialization.data(withJSONObject: document.data(), options: [])
                     if let season = try? JSONDecoder().decode(RealmSeason.self, from: seasonData!) {
                         seasons.append(season)
+                        print("parsing season \(season.getTitleString()) season.count: ", season.count)
                     }
                 }
                 single(.success(seasons))
@@ -85,6 +90,7 @@ class FirebaseStore {
     func getAllAnime(from season: RealmSeason) -> Single<[RealmAnimeSeries]> {
         return Single<[RealmAnimeSeries]>.create { single in
             let seasonString = season.season + "-" + season.year
+            print("Getting all anime from: \(seasonString)")
             let animeRef = self.db.collection(seasonString)
             animeRef.getDocuments { (querySnapshot, error) in
                 if let error = error {
@@ -99,11 +105,9 @@ class FirebaseStore {
                 // temporary
                 // testing how many anime are parsed correctly...
                 var animeCount = 0
-                var errorCount = 0
 
                 var resultAnimes = [RealmAnimeSeries]()
                 for document in documents {
-
                     do {
                         let animeData = try JSONSerialization.data(withJSONObject: document.data(), options: [])
                         let anime = try JSONDecoder().decode(AnimeSeries.self, from: animeData)
@@ -114,10 +118,10 @@ class FirebaseStore {
                         animeCount += 1
                     } catch {
                         print(error)
-                        errorCount += 1
                     }
                 }
-
+                print("\(seasonString) has approximately: \(animeCount)")
+                print("documents.count           ->  \(documents.count)")
                 single(.success(resultAnimes))
                 return
             }
