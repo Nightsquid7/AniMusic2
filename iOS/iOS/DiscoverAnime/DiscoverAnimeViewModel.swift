@@ -51,8 +51,12 @@ class DiscoverAnimeViewModel {
         // Then send each season to a DiscoverAnimeSeasonToSection
         _ = Observable.combineLatest(filteredAnimesObservable, allSeasons)
             .map { _, seasons in
-                self.sections.onNext( seasons.map { season in
-                    DiscoverAnimeSeasonViewSection(items: [season])
+                self.sections.onNext( seasons
+                                        .sorted(byKeyPath: "season", ascending: false)
+                                        .sorted(byKeyPath: "year", ascending: false)
+                                        .map { season in
+print("season: \(season)")
+                    return DiscoverAnimeSeasonViewSection(items: [season])
                 })
             }
             .subscribe()

@@ -68,6 +68,7 @@ class DiscoverAnimeViewController: UIViewController {
         let  dataSource = RxTableViewSectionedReloadDataSource<DiscoverAnimeSeasonViewSection>(configureCell: { dataSource, tableView, indexPath, item in
             let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeSeasonTableCell", for: indexPath) as! AnimeSeasonTableCell
             cell.configureCell(season: item, parentViewController: self)
+            cell.selectionStyle = .none
             return cell
         })
 
@@ -110,6 +111,7 @@ extension DiscoverAnimeViewController: UITableViewDelegate {
 
         return 0
     }
+
 }
 
 // MARK: - UISearchBarDelegate

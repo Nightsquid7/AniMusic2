@@ -78,6 +78,8 @@ class FirebaseStore {
                     if let season = try? JSONDecoder().decode(RealmSeason.self, from: seasonData!) {
                         seasons.append(season)
                         print("parsing season \(season.getTitleString()) season.count: ", season.count)
+                    } else {
+                        print("\nCouldn't get season from: \(document.data())\n")
                     }
                 }
                 single(.success(seasons))
