@@ -11,6 +11,7 @@ import RxSwift
 import RealmSwift
 import RxDataSources
 
+// fills AnimeSeasonView collection view with the anime for a particular year
 struct AnimeSeasonViewModel {
     // MARK: - Properties
     let realm = try! Realm()

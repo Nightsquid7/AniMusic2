@@ -10,6 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 import RealmSwift
+import RxDataSources
 
 class DiscoverAnimeViewController: UIViewController {
     // MARK: - Views
@@ -18,7 +19,10 @@ class DiscoverAnimeViewController: UIViewController {
         return scrollView
     }()
 
+    var animeSeasonsTableView = UITableView()
+
     // MARK: - Properties
+    var viewModel = DiscoverAnimeViewModel()
     var searchController: UISearchController!
     private var resultsTableController: ResultsTableController!
     // This is the total height for every animeSeasonView
@@ -62,56 +66,38 @@ class DiscoverAnimeViewController: UIViewController {
         self.scrollView.delegate = self
         view.addSubview(scrollView)
 
+        self.animeSeasonsTableView.delegate = self
+        view.addSubview(animeSeasonsTableView)
         setConstraints()
 
         // used as searchController result
         filteredAnimes = realm.objects(RealmAnimeSeries.self)
 
-        // MARK: - todo wait until animes are completed loading...
-        // wait until stored anime count  > 190 (approximate account of displayed seasons...)
-        let filteredAnimesObservable = Observable.collection(from: filteredAnimes)
-            .filter { $0.count > 190 }
-            .take(1)
+        animeSeasonsTableView.register(AnimeSeasonTableCell.self, forCellReuseIdentifier: "AnimeSeasonTableCell")
 
-        let seasons = Observable.collection(from: realm.objects(RealmSeason.self))
+        let  dataSource = RxTableViewSectionedReloadDataSource<DiscoverAnimeSeasonViewSection>(configureCell: { dataSource, tableView, indexPath, item in
+            let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeSeasonTableCell", for: indexPath) as! AnimeSeasonTableCell
+            print("configuring cell for item: \(item)")
+            cell.configureCell(season: item, parentViewController: self)
+            return cell
+        })
 
-        // create AnimeSeasonViewManager/collection view
-        // for each season.
-        _ = Observable.combineLatest(filteredAnimesObservable, seasons)
-            .flatMap { _, seasons in
-                Observable.from(Array(seasons))
-            }
-            .enumerated()
-            .map { index, season in
-                // set up an AnimeSeasonView
-                let frame = CGRect(x: 0,
-                                   y: CGFloat(index) * self.animeSeasonViewHeight,
-                                   width: self.view.frame.height,
-                                   height: self.animeSeasonViewHeight)
-                let animeSeasonView = AnimeSeasonView(frame: frame,
-                                                             season: season,
-                                                             parentViewController: self)
-                let seasonsView = animeSeasonView.view
-                self.scrollView.addSubview(seasonsView)
-
-                self.scrollView.contentSize.height += self.animeSeasonViewHeight
-            }
-            .subscribe()
+        viewModel.sections
+            .bind(to: animeSeasonsTableView.rx.items(dataSource: dataSource))
             .disposed(by: disposeBag)
-
 
     }
 
     func setConstraints() {
-        scrollView.translatesAutoresizingMaskIntoConstraints = false
-        let scrollViewConstraints = [
-            scrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
-            scrollView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 7),
-            scrollView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -7),
-            scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 10)
+        animeSeasonsTableView.translatesAutoresizingMaskIntoConstraints = false
+        let tableViewConstraints = [
+            animeSeasonsTableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
+            animeSeasonsTableView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 7),
+            animeSeasonsTableView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -7),
+            animeSeasonsTableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 10)
         ]
 
-        NSLayoutConstraint.activate(scrollViewConstraints)
+        NSLayoutConstraint.activate(tableViewConstraints)
     }
 }
 
@@ -119,12 +105,26 @@ class DiscoverAnimeViewController: UIViewController {
 extension DiscoverAnimeViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let selectedAnime = filteredAnimes[indexPath.row]
-        self.navigator.show(segue: .animeSeriesViewController(anime: selectedAnime), sender: self)
+        if tableView === resultsTableController.tableView {
+            let selectedAnime = filteredAnimes[indexPath.row]
+            self.navigator.show(segue: .animeSeriesViewController(anime: selectedAnime), sender: self)
+        }
+        if tableView === self.animeSeasonsTableView {
+            // //
+            print("Tap a row in animeSeasonsTableView")
+        }
     }
 
      func  tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 190
+        if tableView === resultsTableController.tableView {
+            return 190
+        }
+        if tableView === self.animeSeasonsTableView {
+            print("tableView height for animeSeasonTableView")
+            return self.animeSeasonViewHeight
+        }
+
+        return 0
     }
 }
 

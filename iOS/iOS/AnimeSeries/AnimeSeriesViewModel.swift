@@ -16,8 +16,6 @@ struct AnimeSeriesViewSection {
 
     enum SectionItem {
         case DefaultSongItem(song: RealmAnimeSong)
-//        case SpotifySongItem(song: RealmAnimeSong, source: RealmSongSearchResult)
-//        case AppleMusicSongItem(song: RealmAnimeSong)
     }
 }
 
@@ -34,14 +32,11 @@ class AnimeSeriesViewModel {
 
     let realm = try! Realm()
     let anime: RealmAnimeSeries
-    let displayedSongs = BehaviorSubject<[RealmAnimeSong]>(value: [])
 
     let sections = BehaviorSubject<[AnimeSeriesViewSection]>(value: [])
 
     init(with anime: RealmAnimeSeries) {
         self.anime = anime
-
-        displayedSongs.onNext(anime.songs.map { $0 })
 
         var openingCount: Int = 1, endingCount: Int = 1
         var headerString: String = ""
