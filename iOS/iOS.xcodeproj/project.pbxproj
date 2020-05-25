@@ -18,9 +18,9 @@
 		534C844E246BB03900CCE8DF /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C844D246BB03900CCE8DF /* ResultTableViewCell.swift */; };
 		535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* RealmAnimeSeries.swift */; };
 		5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75D2435778B00D19B53 /* UIKitExtensions.swift */; };
+		538DB3AE247B9BCB00271438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */; };
 		53963B02243EA0FA00544242 /* AnimeSeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53963B01243EA0FA00544242 /* AnimeSeasonView.swift */; };
 		53A02E0D24285A38004E19EC /* AnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A02E0C24285A38004E19EC /* AnimeSeries.swift */; };
-		53A9F2B4246264CF0094D7DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53A9F2B3246264CF0094D7DD /* GoogleService-Info.plist */; };
 		53AEC762246B868800988000 /* ResultsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEC761246B868800988000 /* ResultsTableController.swift */; };
 		53E3DCAE243BF465009796A4 /* DiscoverAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCAD243BF465009796A4 /* DiscoverAnimeViewController.swift */; };
 		53E3DCB0243BF47F009796A4 /* AnimeSeasonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCAF243BF47F009796A4 /* AnimeSeasonViewModel.swift */; };
@@ -67,9 +67,9 @@
 		534C844D246BB03900CCE8DF /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
 		535643542424583600C96075 /* RealmAnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAnimeSeries.swift; sourceTree = "<group>"; };
 		5371F75D2435778B00D19B53 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		53963B01243EA0FA00544242 /* AnimeSeasonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonView.swift; sourceTree = "<group>"; };
 		53A02E0C24285A38004E19EC /* AnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeries.swift; sourceTree = "<group>"; };
-		53A9F2B3246264CF0094D7DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		53AEC761246B868800988000 /* ResultsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultsTableController.swift; path = iOS/ResultsTableController/ResultsTableController.swift; sourceTree = SOURCE_ROOT; };
 		53E3DCAD243BF465009796A4 /* DiscoverAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverAnimeViewController.swift; sourceTree = "<group>"; };
 		53E3DCAF243BF47F009796A4 /* AnimeSeasonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonViewModel.swift; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 				53FFA5D6242450B100194B85 /* Assets.xcassets */,
 				53FFA5D8242450B100194B85 /* LaunchScreen.storyboard */,
 				53FFA5DB242450B100194B85 /* Info.plist */,
-				53A9F2B3246264CF0094D7DD /* GoogleService-Info.plist */,
+				538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -361,10 +361,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				538DB3AE247B9BCB00271438 /* GoogleService-Info.plist in Resources */,
 				53FFA5DA242450B100194B85 /* LaunchScreen.storyboard in Resources */,
 				53FFA5D7242450B100194B85 /* Assets.xcassets in Resources */,
 				53FFA5D5242450B000194B85 /* Main.storyboard in Resources */,
-				53A9F2B4246264CF0094D7DD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,7 +709,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AniMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = animusic;
 				PRODUCT_NAME = AniMusic;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -729,7 +729,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AniMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = animusic;
 				PRODUCT_NAME = AniMusic;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
