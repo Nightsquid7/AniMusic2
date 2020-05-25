@@ -29,10 +29,6 @@ class Navigator {
         case .animeSeriesViewController(let anime):
             let viewModel = AnimeSeriesViewModel(with: anime)
             show(target: AnimeSeriesViewController.createWith(storyboard: defaultStoryboard, viewModel: viewModel), sender: sender)
-        case .songPlayerViewController(let song, let source):
-            print()
-            let viewModel = SongPlayerViewModel(song: song, source: source)
-            show(target: SongPlayerViewController.createWith(storyboard: defaultStoryboard, viewModel: viewModel), sender: sender)
         default:
             print()
         }
