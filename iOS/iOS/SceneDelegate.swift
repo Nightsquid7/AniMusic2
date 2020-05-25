@@ -17,12 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     let navigator = Navigator.sharedInstance
     let store = FirebaseStore.sharedInstance
 
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) { 
-         do {
-              try FileManager.default.removeItem(at: Realm.Configuration.defaultConfiguration.fileURL!)
-          } catch {
-              print(error)
-          }
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)

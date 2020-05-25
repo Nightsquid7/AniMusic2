@@ -25,13 +25,21 @@ class FirebaseStore {
     }
 
     // MARK: - Initialization
-    // MARK: todo -> move this to FilterAnimeViewModel?
     // get the list of seasons currently stored in the database
     // Once you get the seasons, Get all the animes for each season
     // Then save to realm
     init() {
+//        removeDefaultRealm()
+        loadAllData()
+    }
+
+    // Load all seasons/anime data from Firebase
+    // save to realm
+    public func loadAllData() {
         let seasonsObservable = Observable.collection(from: realm.objects(RealmSeason.self))
-            .filter { $0.count < 1 }
+            .filter {
+                print("\nFirebaseStore init() seasonsObservable $0.count: \($0.count)\n")
+                return $0.count < 1 }
             .flatMap { _ in
                 self.getSeasonsList()
             }
@@ -48,7 +56,7 @@ class FirebaseStore {
                 Observable.from(seasons)
             }
             .flatMap { season in
-                self.getAllAnime(from: season)
+                self.getAnime(from: season)
             }
             .share()
 
@@ -56,7 +64,15 @@ class FirebaseStore {
         fetchedAnimesObservable
             .subscribe(realm.rx.add())
             .disposed(by: disposeBag)
+    }
 
+    // Delete everything in realm
+    public func removeDefaultRealm() {
+        do {
+            try FileManager.default.removeItem(at: Realm.Configuration.defaultConfiguration.fileURL!)
+        } catch {
+            print(error)
+        }
     }
 
     // get the list of seasons of animes stored in firebase
@@ -89,7 +105,7 @@ class FirebaseStore {
     }
 
     // get all anime from the given season
-    func getAllAnime(from season: RealmSeason) -> Single<[RealmAnimeSeries]> {
+    private func getAnime(from season: RealmSeason) -> Single<[RealmAnimeSeries]> {
         return Single<[RealmAnimeSeries]>.create { single in
             let seasonString = season.season + "-" + season.year
             print("Getting all anime from: \(seasonString)")
