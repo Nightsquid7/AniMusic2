@@ -103,6 +103,13 @@ class DiscoverAnimeViewController: UIViewController {
             self.searchController.searchBar.resignFirstResponder()
             self.animeSeasonsTableView.reloadData()
             }))
+
+        self.alertController.addAction(UIAlertAction(title: "Send Email", style: .default, handler: { _ in
+            let email = "animemusicapp7@gmail.com"
+            guard let url = URL(string: "mailto:\(email)") else { return }
+            UIApplication.shared.open(url)
+        }))
+
         self.alertController.addAction(UIAlertAction(title: "Back to Search", style: .cancel))
     }
 
