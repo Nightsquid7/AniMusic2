@@ -9,8 +9,8 @@ target 'iOS' do
   pod 'Firebase/Firestore'
 
   # Reactive
-  pod 'RxSwift', '~> 5'
-  pod 'RxCocoa', '~> 5'
+  pod 'RxSwift', '~> 5.1.0'
+  pod 'RxCocoa', '~> 5.1.0'
   pod 'RxRealm'
   pod 'RxDataSources', '~> 4.0'
   

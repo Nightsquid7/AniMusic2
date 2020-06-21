@@ -235,7 +235,7 @@ PODS:
     - Realm (= 4.3.2)
   - RxBlocking (5.0.1):
     - RxSwift (~> 5)
-  - RxCocoa (5.0.1):
+  - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
   - RxDataSources (4.0.1):
@@ -245,9 +245,9 @@ PODS:
   - RxRealm (2.0.0):
     - RealmSwift (~> 4.0)
     - RxSwift (~> 5.0)
-  - RxRelay (5.0.1):
+  - RxRelay (5.1.1):
     - RxSwift (~> 5)
-  - RxSwift (5.0.1)
+  - RxSwift (5.1.1)
   - RxTest (5.0.1):
     - RxSwift (~> 5)
   - SwiftLint (0.39.1)
@@ -258,10 +258,10 @@ DEPENDENCIES:
   - Kingfisher
   - RealmSwift
   - RxBlocking (~> 5)
-  - RxCocoa (~> 5)
+  - RxCocoa (~> 5.1.0)
   - RxDataSources (~> 4.0)
   - RxRealm
-  - RxSwift (~> 5)
+  - RxSwift (~> 5.1.0)
   - RxTest (~> 5)
   - SwiftLint
   - Then
@@ -318,15 +318,15 @@ SPEC CHECKSUMS:
   Realm: 5e92902e2875dff4bb0fd02f67bb737c3d5db2bc
   RealmSwift: 9a360fc7bae04fc2e308a34fbd899d5faa2d6b22
   RxBlocking: c5e090f42d046df8b0e7752742510f349963710f
-  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRealm: 900f5c7e6f0a2d6527b56eaf7283f3035ec1e8ba
-  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
-  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   RxTest: 0132f952a61da82d5233abedaa559df91e5330e5
   SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
   Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
 
-PODFILE CHECKSUM: 90c7f0269ec0d76deda57fcff5d61d9a51ecc142
+PODFILE CHECKSUM: 0b5bdba0edf678c6f538c4deea4dd656833f8e07
 
 COCOAPODS: 1.7.3
