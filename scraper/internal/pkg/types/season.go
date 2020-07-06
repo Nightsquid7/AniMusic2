@@ -24,13 +24,15 @@ type SeasonEntry struct {
 	Year   string
 }
 
-func NewSeasonEntryFromSeasonWithCount(season Season, count int) *SeasonEntry {
+func NewSeasonEntryFromSeasonWithCount(season Season, count int) SeasonEntry {
+
 	seasonEntry := SeasonEntry{
-		Count:  string(count),
+		Count:  strconv.Itoa(count),
 		Season: season.Name,
 		Year:   season.Year,
 	}
-	return &seasonEntry
+	
+	return seasonEntry
 }
 
 //GetAniDbSeasonNumber returns an integer that should go into the last.anime.month parameter on the aniDB anime season page
