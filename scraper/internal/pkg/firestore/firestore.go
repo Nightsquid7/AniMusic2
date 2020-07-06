@@ -20,6 +20,7 @@ type Writer struct {
 //Output starts the write action to Firestore
 func (f *Writer) Output(animeSeries []types.AnimeSeries, season types.Season) {
 	fmt.Println("Writing to Firestore...")
+	fmt.Println("anime series count: ", len(animeSeries))
 	firestore, _ := f.client.Firestore(context.Background())
 	batches := make([]*fs.WriteBatch, 0)
 	var currentBatch *fs.WriteBatch
@@ -39,6 +40,10 @@ func (f *Writer) Output(animeSeries []types.AnimeSeries, season types.Season) {
 		ref := firestore.Collection(season.String()).Doc(anime.Id)
 		currentBatch.Create(ref, anime)
 	}
+
+	seasonRef := firestore.Collection("Seasons-List").Doc(season.String())
+	seasonEntry := types.NewSeasonEntryFromSeasonWithCount(season, len(animeSeries))
+	currentBatch.Create(seasonRef, seasonEntry)
 
 	for _, batch := range batches {
 		batch.Commit(context.Background())

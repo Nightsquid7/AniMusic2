@@ -16,6 +16,23 @@ type Season struct {
 	Year  string
 }
 
+// SeasonEntry represents an entry of a season in the Seasons-List collection
+// todo: update seasons list to use Season struct
+type SeasonEntry struct {
+	Count  string
+	Season string
+	Year   string
+}
+
+func NewSeasonEntryFromSeasonWithCount(season Season, count int) *SeasonEntry {
+	seasonEntry := SeasonEntry{
+		Count:  string(count),
+		Season: season.Name,
+		Year:   season.Year,
+	}
+	return &seasonEntry
+}
+
 //GetAniDbSeasonNumber returns an integer that should go into the last.anime.month parameter on the aniDB anime season page
 func (s *Season) GetAniDbSeasonNumber() int {
 	return int(s.end.Month()) + 10
