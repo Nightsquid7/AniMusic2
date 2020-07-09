@@ -21,6 +21,7 @@ import RealmSwift
         // Override point for customization after application launch.
         FirebaseApp.configure()
 
+
         if #available(iOS 9, *) {
             window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
 

@@ -28,13 +28,12 @@ class DiscoverAnimeViewModel {
         // MARK: - todo Combine this with filterAnimeIsObservable
         let totalAnimeCount = allSeasons
             .map {
-                let seasonCounts = Array($0).map { $0.count }
+                let seasonCounts = Array($0).map { Int($0.count)! }
 
-                let sum = seasonCounts.reduce(0, { x, y in
+                return seasonCounts.reduce(0, { x, y in
                     x + y
                 })
-                print("sum \(sum)")
-                return sum
+
             }
             .subscribe(onNext: {
                 print($0)

@@ -63,7 +63,7 @@ class DiscoverAnimeViewController: UIViewController {
 
         animeSeasonsTableView.register(AnimeSeasonTableCell.self, forCellReuseIdentifier: "AnimeSeasonTableCell")
 
-        let dataSource = RxTableViewSectionedReloadDataSource<DiscoverAnimeSeasonViewSection>(configureCell: { _ , tableView, indexPath, item in
+        let dataSource = RxTableViewSectionedReloadDataSource<DiscoverAnimeSeasonViewSection>(configureCell: { _, tableView, indexPath, item in
             let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeSeasonTableCell", for: indexPath) as! AnimeSeasonTableCell
             cell.configureCell(season: item, parentViewController: self)
             cell.selectionStyle = .none
@@ -81,6 +81,7 @@ class DiscoverAnimeViewController: UIViewController {
            .filter { !$0.isEmpty }
            .map {NSPredicate(format: "name CONTAINS[c] %@", $0) }
 
+        // // This is a terrible implementation...
         // Show the user a message if the anime isn't present
         // Give them a chance to reload the database
         _ = Observable.combineLatest(filteredAnimesObservable, predicateObservable)
@@ -102,7 +103,7 @@ class DiscoverAnimeViewController: UIViewController {
             self.searchController.searchBar.text = ""
             self.searchController.searchBar.resignFirstResponder()
             self.animeSeasonsTableView.reloadData()
-            }))
+        }))
 
         self.alertController.addAction(UIAlertAction(title: "Send Email", style: .default, handler: { _ in
             let email = "animemusicapp7@gmail.com"

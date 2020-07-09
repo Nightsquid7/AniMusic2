@@ -29,7 +29,7 @@ class FirebaseStore {
     // Once you get the seasons, Get all the animes for each season
     // Then save to realm
     init() {
-//        removeDefaultRealm()
+        removeDefaultRealm()
         loadAllData()
     }
 
@@ -38,7 +38,8 @@ class FirebaseStore {
     public func loadAllData() {
         let seasonsObservable = Observable.collection(from: realm.objects(RealmSeason.self))
             .filter {
-                print("\nFirebaseStore init() seasonsObservable $0.count: \($0.count)\n")
+                print("\nFirebaseStore init() number of seasons: \($0.count)\n")
+                print($0)
                 return $0.count < 1 }
             .flatMap { _ in
                 self.getSeasonsList()
@@ -69,6 +70,7 @@ class FirebaseStore {
     // Delete everything in realm
     public func removeDefaultRealm() {
         do {
+            print("deleting default Realm configuration")
             try FileManager.default.removeItem(at: Realm.Configuration.defaultConfiguration.fileURL!)
         } catch {
             print(error)

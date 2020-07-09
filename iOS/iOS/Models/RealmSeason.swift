@@ -12,7 +12,7 @@ class RealmSeason: Object, Codable {
     // MARK: - Properties
     @objc dynamic var season: String = ""
     @objc dynamic var year: String = ""
-    @objc dynamic var count: Int = 0
+    @objc dynamic var count: String = ""
 
     enum CodingKeys: String, CodingKey {
         case season = "Season"
