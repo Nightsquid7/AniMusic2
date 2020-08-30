@@ -63,10 +63,13 @@ class RealmAnimeSong: Object {
             }
         }
 
+        if let artists = song.artists {
         // add artists
-        for artist in song.artists {
-            self.artists.append(RealmArtist(from: artist))
+            for artist in artists {
+                self.artists.append(RealmArtist(from: artist))
+            }
         }
+        
         // add sources if they exist
         if let sources = song.sources {
             for source in sources {
