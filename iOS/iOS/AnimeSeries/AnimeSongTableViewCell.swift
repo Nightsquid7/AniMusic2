@@ -42,10 +42,12 @@ class AnimeSongTableViewCell: UITableViewCell {
         contentView.addSubview(artistLabel)
         contentView.addSubview(musicSourcesBadgeView)
 
-        nameLabel.text =  song.name ?? "Oh-No name?"
-        nameEnglishLabel.text = song.nameEnglish ?? ""
+        nameLabel.text =  song.name ?? "No Song name found"
+        nameEnglishLabel.text = song.nameEnglish ?? "No English song name found"
         // MARK: - todo Display multiple names
-        artistLabel.text = song.artists[0].name
+        if song.artists.count > 0 {
+            artistLabel.text = song.artists[0].name ?? "No artist name found"
+        }
 
         let nameLabelConstraints = [
             nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),

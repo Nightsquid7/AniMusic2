@@ -64,7 +64,7 @@ class AnimeSeriesViewController: UIViewController {
         setConstraints()
 
         // MARK: - todo  -> add this as a static function to AnimeSeriesViewModel
-        let dataSource = RxTableViewSectionedReloadDataSource<AnimeSeriesViewSection>(configureCell: { _, tableView, indexPath, item in
+        let dataSource = RxTableViewSectionedReloadDataSource<AnimeSongViewSection>(configureCell: { _, tableView, indexPath, item in
             // configure different cells based on item type
             switch item {
             case .DefaultSongItem(let song):
@@ -83,13 +83,11 @@ class AnimeSeriesViewController: UIViewController {
             .disposed(by: disposeBag)
 
         // navigate to song player view
-        tableView.rx.modelSelected(AnimeSeriesViewSection.SectionItem.self)
+        tableView.rx.modelSelected(AnimeSongViewSection.SectionItem.self)
             .subscribe(onNext: { item in
                 switch item {
                 case .DefaultSongItem(let song):
-                    print("song Default Song Item -> \(song)")
                     // MARK: - todo
-
                     self.presentActions(for: song)
                 }
             })

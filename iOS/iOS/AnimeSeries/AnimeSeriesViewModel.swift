@@ -10,7 +10,7 @@ import RxSwift
 import RealmSwift
 import RxDataSources
 
-struct AnimeSeriesViewSection {
+struct AnimeSongViewSection {
     var header: String
     var items: [SectionItem]
 
@@ -19,7 +19,7 @@ struct AnimeSeriesViewSection {
     }
 }
 
-extension AnimeSeriesViewSection: SectionModelType {
+extension AnimeSongViewSection: SectionModelType {
     typealias Item = SectionItem
 
     init(original: Self, items: [Item]) {
@@ -33,39 +33,26 @@ class AnimeSeriesViewModel {
     let realm = try! Realm()
     let anime: RealmAnimeSeries
 
-    let sections = BehaviorSubject<[AnimeSeriesViewSection]>(value: [])
+    let sections = BehaviorSubject<[AnimeSongViewSection]>(value: [])
 
     init(with anime: RealmAnimeSeries) {
         self.anime = anime
-
-        var openingCount: Int = 1, endingCount: Int = 1
-        var headerString: String = ""
 
         // create sections
         sections.onNext( anime.songs.map { song in
             guard let relation = song.relation else {
                // else add song as default
-               return AnimeSeriesViewSection(header: song.relation ?? "no relation...", items: [.DefaultSongItem(song: song)])}
-            // create string for header
-            switch relation {
-            case "opening":
-                headerString = "\(relation) \(openingCount)"
-                openingCount += 1
-            case "ending":
-                headerString = "\(relation) \(endingCount)"
-                endingCount += 1
-
-            default:
-                headerString = relation
+               return AnimeSongViewSection(header: "Mystery Song", items: [.DefaultSongItem(song: song)])
             }
-            if let _ = song.ranges.first?.start.value, let _ = song.ranges.first?.end.value {
+
+            if song.ranges.first?.start.value != nil, song.ranges.first?.end.value != nil {
                 for _ in song.sources {
                     // add item as spotify or apple music song item
-                    return AnimeSeriesViewSection(header: "\(headerString)",
+                    return AnimeSongViewSection(header: relation,
                         items: [.DefaultSongItem(song: song)])
                 }
             }
-            return AnimeSeriesViewSection(header: headerString,
+            return AnimeSongViewSection(header: relation,
                 items: [.DefaultSongItem(song: song)])
         })
     }
