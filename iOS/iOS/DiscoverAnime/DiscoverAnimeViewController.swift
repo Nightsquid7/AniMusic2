@@ -38,19 +38,16 @@ class DiscoverAnimeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationController?.navigationBar.topItem?.title = "Discover"
-        self.navigationController?.navigationBar
-            .prefersLargeTitles = true
+        self.navigationController?.navigationBar.topItem?.title = "AniMusic"
 
-        resultsTableController =
-            self.storyboard?.instantiateViewController(withIdentifier: "ResultsTableController") as? ResultsTableController
-
+        resultsTableController = self.storyboard?.instantiateViewController(withIdentifier: "ResultsTableController") as? ResultsTableController
         resultsTableController.tableView.delegate = self
 
         searchController = UISearchController(searchResultsController: resultsTableController)
         searchController.delegate = self
         searchController.searchResultsUpdater = self
         searchController.searchBar.autocapitalizationType = .none
+        searchController.searchBar.placeholder = "Search Animes"
         searchController.dimsBackgroundDuringPresentation = false
         searchController.searchBar.delegate = self // Monitor when the search button is tapped.
 
@@ -75,43 +72,6 @@ class DiscoverAnimeViewController: UIViewController {
             .disposed(by: disposeBag)
 
         filteredAnimesObservable = Observable.collection(from: realm.objects(RealmAnimeSeries.self))
-
-       let predicateObservable = searchController.searchBar.rx.text
-           .compactMap { $0 }
-           .filter { !$0.isEmpty }
-           .map {NSPredicate(format: "name CONTAINS[c] %@", $0) }
-
-        // // This is a terrible implementation...
-        // Show the user a message if the anime isn't present
-        // Give them a chance to reload the database
-        _ = Observable.combineLatest(filteredAnimesObservable, predicateObservable)
-            .map { animes, predicate in
-                animes.filter(predicate)
-            }
-            .debounce(.seconds(2), scheduler: MainScheduler.instance)
-            .filter { $0.count < 1 }
-            .subscribe(onNext: { _ in
-                self.present(self.alertController, animated: true)
-            })
-            .disposed(by: disposeBag)
-
-        // set up alertController
-        self.alertController.addAction(UIAlertAction(title: "Reload the database", style: .default, handler: { _ in
-            let store = FirebaseStore()
-            store.removeDefaultRealm()
-            store.loadAllData()
-            self.searchController.searchBar.text = ""
-            self.searchController.searchBar.resignFirstResponder()
-            self.animeSeasonsTableView.reloadData()
-        }))
-
-        self.alertController.addAction(UIAlertAction(title: "Send Email", style: .default, handler: { _ in
-            let email = "animemusicapp7@gmail.com"
-            guard let url = URL(string: "mailto:\(email)") else { return }
-            UIApplication.shared.open(url)
-        }))
-
-        self.alertController.addAction(UIAlertAction(title: "Back to Search", style: .cancel))
     }
 
     func setConstraints() {
@@ -125,11 +85,6 @@ class DiscoverAnimeViewController: UIViewController {
 
         NSLayoutConstraint.activate(tableViewConstraints)
     }
-
-    // MARK: - alertController -> present anime is not found alert
-    let alertController = UIAlertController(title: "Didn't find what you're looking for?",
-                                            message: "We have just started adding animes to the database..\nTry reloading the database, or request a season",
-                                            preferredStyle: .actionSheet)
 
 }
 
@@ -173,21 +128,15 @@ extension DiscoverAnimeViewController: UISearchBarDelegate {
 // MARK: - UISearchResultsUpdating
 extension DiscoverAnimeViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
-
         let searchString = searchController.searchBar.text!
-
         let namePredicate = NSPredicate(format: "name CONTAINS[c] %@", searchString)
         let filteredAnimes = realm.objects(RealmAnimeSeries.self).filter(namePredicate)
 
         if let resultsController = searchController.searchResultsController as? ResultsTableController {
             resultsController.filteredAnimes = filteredAnimes
             resultsController.tableView.reloadData()
-
-//            filteredAnimesObservable.filter(namePredicate)
         }
-
     }
-
 }
 
 // MARK: - UISearchControllerDelegate

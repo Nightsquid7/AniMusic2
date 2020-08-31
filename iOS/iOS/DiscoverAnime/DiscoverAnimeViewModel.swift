@@ -25,25 +25,10 @@ class DiscoverAnimeViewModel {
 
         let allSeasons = Observable.collection(from: realm.objects(RealmSeason.self))
 
-        // MARK: - todo Combine this with filterAnimeIsObservable
-        let totalAnimeCount = allSeasons
-            .map {
-                let seasonCounts = Array($0).map { Int($0.count)! }
-
-                return seasonCounts.reduce(0, { x, y in
-                    x + y
-                })
-
-            }
-            .subscribe(onNext: {
-                print($0)
-            })
-            .disposed(by: disposeBag)
-
         // wait until all animes are loaded
         // MARK: - todo Add season count to RealmSeason, wait till the count is greater than that
         let filteredAnimesObservable = Observable.collection(from: allAnimes)
-            .filter { $0.count > 300 }
+//            .filter { $0.count > 300 }
             .take(1)
 
         // wait until all the animes have been loaded,
