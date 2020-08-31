@@ -16,7 +16,7 @@ struct AnimeSeries: Codable {
     let format: String
     let season: String
     let year: String
-    let songs: [String: AnimeSong]?
+    let songs: [String: AnimeSong]
     let titleImageName: String
 
     enum CodingKeys: String, CodingKey {
@@ -53,6 +53,8 @@ struct AnimeSong: Codable {
         case sources = "Sources"
     }
 }
+
+
 
 struct EpisodeRange: Codable {
     let start: Int?

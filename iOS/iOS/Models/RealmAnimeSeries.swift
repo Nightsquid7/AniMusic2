@@ -30,11 +30,14 @@ class RealmAnimeSeries: Object {
         self.year = anime.year
         self.titleImageName = anime.titleImageName
         // add songs if they exist
-        if let songs = anime.songs {
-            for song in songs {
-                self.songs.append(RealmAnimeSong(from: song.value))
-            }
+
+        for song in anime.songs {
+            self.songs.append(RealmAnimeSong(from: song.value))
         }
+    }
+
+    func sortedSongs() -> List<RealmAnimeSong> {
+        return List<RealmAnimeSong>()
     }
 }
 
@@ -69,7 +72,6 @@ class RealmAnimeSong: Object {
                 self.artists.append(RealmArtist(from: artist))
             }
         }
-        
         // add sources if they exist
         if let sources = song.sources {
             for source in sources {
