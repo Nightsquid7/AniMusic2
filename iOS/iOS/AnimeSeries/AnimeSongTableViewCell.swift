@@ -86,6 +86,6 @@ class AnimeSongTableViewCell: UITableViewCell {
     override func prepareForReuse() {
         nameLabel.text = ""
         nameEnglishLabel.text = ""
-
+        musicSourcesBadgeView.removeAllArrangedSubviews()
     }
 }
