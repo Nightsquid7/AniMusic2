@@ -18,7 +18,7 @@ class RealmAnimeSeries: Object {
     @objc dynamic var season: String?
     @objc dynamic var year: String?
     @objc dynamic var titleImageName: String?
-    let songs = List<RealmAnimeSong>()
+    var songs = List<RealmAnimeSong>()
 
     convenience init(from anime: AnimeSeries) {
         self.init()
@@ -30,15 +30,13 @@ class RealmAnimeSeries: Object {
         self.year = anime.year
         self.titleImageName = anime.titleImageName
         // add songs if they exist
-
         for song in anime.songs {
             self.songs.append(RealmAnimeSong(from: song.value))
         }
+        self.songs.sort()
+
     }
 
-    func sortedSongs() -> List<RealmAnimeSong> {
-        return List<RealmAnimeSong>()
-    }
 }
 
 class RealmAnimeSong: Object {
@@ -50,7 +48,6 @@ class RealmAnimeSong: Object {
     let ranges = List<RealmEpisodeRange>()
     let artists = List<RealmArtist>()
     let sources = List<RealmSongSearchResult>()
-    // want to add boolean -> hasSources
 
     convenience init(from song: AnimeSong) {
         self.init()
@@ -79,6 +76,25 @@ class RealmAnimeSong: Object {
             }
         }
     }
+
+    // calculate the value for sorting based on relation and first ranges
+    func value() -> Int {
+
+        guard let firstRangeValue = ranges.first?.start.value, let relationValue = Relation(rawValue: relation!)?.value else {
+            // only have start range
+            if let firstRangeValue = ranges.first?.start.value {
+                return firstRangeValue
+            }
+            // only have relation, opening, ending etc
+            if let relationValue = Relation(rawValue: relation!)?.value {
+                return relationValue
+            }
+            // have nothing, return arbitrary value
+            return 7
+        }
+
+        return firstRangeValue + relationValue
+    }
 }
 
 enum Relation: String {
@@ -98,17 +114,7 @@ enum Relation: String {
 
 extension RealmAnimeSong: Comparable {
     static func < (lhs: RealmAnimeSong, rhs: RealmAnimeSong) -> Bool {
-        guard let start1 = lhs.ranges.first?.start.value,
-            let start2 = rhs.ranges.first?.start.value,
-            start1 != start2 else {
-            // There are no ranges to compare, or start ranges are equal
-            // compare Relations
-                if let relation1 = Relation(rawValue: lhs.relation!)?.value, let relation2 = Relation(rawValue: rhs.relation!)?.value {
-                    return relation1 < relation2
-                }
-            return false
-        }
-        return start1 < start2
+        return lhs.value() < rhs.value()
     }
 
 }
