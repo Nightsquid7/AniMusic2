@@ -48,7 +48,6 @@ class AnimeSeriesViewModel {
             if let startRange = song.ranges.first?.start.value, let endRange =  song.ranges.first?.end.value {
                 for _ in song.sources {
                     // add item as spotify or apple music song item
-                   
                     return AnimeSongViewSection(header: "\(relation) ep \(startRange) - ep \(endRange)",
                         items: [.DefaultSongItem(song: song)])
                 }

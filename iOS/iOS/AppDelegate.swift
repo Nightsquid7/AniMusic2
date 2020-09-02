@@ -20,15 +20,13 @@ import RealmSwift
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        let store = FirebaseStore.sharedInstance
 
-
-        if #available(iOS 9, *) {
-            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
-
-            guard let rootViewController = window?.rootViewController else { return false }
-            // go to first view -> AnimeListViewController
-            navigator.show(segue: .animeListViewController, sender: rootViewController)
-        }
+        window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
+        guard let rootViewController = window?.rootViewController else { return false }
+        
+        // go to first view -> AnimeListViewController
+        navigator.show(segue: .discoverAnimeViewController, sender: rootViewController)
 
         return true
     }
