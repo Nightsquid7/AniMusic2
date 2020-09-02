@@ -54,8 +54,6 @@ struct AnimeSong: Codable {
     }
 }
 
-
-
 struct EpisodeRange: Codable {
     let start: Int?
     let end: Int?
