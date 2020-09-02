@@ -24,7 +24,6 @@ class FirebaseStore {
         case couldNotGetSeason(_ error: Error)
     }
 
-
     // Downloads/save seasons from the database that have not been saved locally
     public func updateLocalRealm() {
         let locallyStoredSeasons = Observable.collection(from: realm.objects(RealmSeason.self)).take(1)
@@ -36,8 +35,6 @@ class FirebaseStore {
         // search firebase for all Animes in each season colllection,
         let seasonsToDownload = Observable.combineLatest(locallyStoredSeasons, seasonsInFirebase)
             .map { locallyStoredSeasons, seasonsInFirebase  -> [RealmSeason] in
-                print("locallyStoredSeasons.count", locallyStoredSeasons.count)
-                print("seasonsInFirebase.count   ", seasonsInFirebase.count)
                 let localSeasonNames = locallyStoredSeasons.map { $0.getTitleString() }
                 return seasonsInFirebase.compactMap { seasonInFirebase in
                     if localSeasonNames.contains(seasonInFirebase.getTitleString()) {
