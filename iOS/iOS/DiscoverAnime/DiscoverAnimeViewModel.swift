@@ -20,15 +20,15 @@ class DiscoverAnimeViewModel {
     let realm = try! Realm()
     let disposeBag = DisposeBag()
 
+    let store = FirebaseStore.sharedInstance
+
     init() {
         allAnimes = realm.objects(RealmAnimeSeries.self)
 
         let allSeasons = Observable.collection(from: realm.objects(RealmSeason.self))
 
         // wait until all animes are loaded
-        // MARK: - todo Add season count to RealmSeason, wait till the count is greater than that
         let filteredAnimesObservable = Observable.collection(from: allAnimes)
-//            .filter { $0.count > 300 }
             .take(1)
 
         // wait until all the animes have been loaded,
