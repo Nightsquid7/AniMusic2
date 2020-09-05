@@ -21,10 +21,11 @@ import RealmSwift
         // Override point for customization after application launch.
         FirebaseApp.configure()
         let store = FirebaseStore.sharedInstance
+        store.updateLocalRealm()
 
         window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
         guard let rootViewController = window?.rootViewController else { return false }
-        
+
         // go to first view -> AnimeListViewController
         navigator.show(segue: .discoverAnimeViewController, sender: rootViewController)
 
