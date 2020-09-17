@@ -1,5 +1,5 @@
 //
-//  AnimeSeasonViewController.swift
+//  AnimeSeasonTableCell.swift
 //  iOS
 //
 //  Created by Steven Berkowitz on R 2/04/09.
@@ -10,38 +10,37 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-// Arranges an season of anime inside a collection view
-// MARK: - todo This should subclass UIView
-class AnimeSeasonView: NSObject {
+/**
+ Arranges all animes of season inside a collection view
+ */
+class AnimeSeasonTableCell: UITableViewCell {
     // MARK: - Properties
-    var view = UIView()
-
     let collectionViewHeight: CGFloat = 235
 
+    // TODO: Add dynamic text support
     lazy var seasonLabel: UILabel = {
         let label = UILabel()
         return label
     }()
 
-    var collectionView: UICollectionView
+    var collectionView: UICollectionView!
     let layout = UICollectionViewFlowLayout()
 
     let navigator = Navigator.sharedInstance
-    var viewModel: AnimeSeasonViewModel
+    var viewModel: AnimeSeasonViewModel!
     let disposeBag = DisposeBag()
 
-    init(frame: CGRect, season: RealmSeason, parentViewController: UIViewController) {
-        view = UIView(frame: frame)
+    func  configureCell(season: RealmSeason, parentViewController: UIViewController) {
+
         viewModel = AnimeSeasonViewModel(season: season)
         let collectionViewFrame = CGRect(x: frame.maxX,
                                          y: frame.maxY,
                                          width: frame.width,
                                          height: collectionViewHeight)
         collectionView = UICollectionView(frame: collectionViewFrame, collectionViewLayout: layout)
-        super.init()
 
-        view.addSubview(seasonLabel)
-        view.addSubview(collectionView)
+        contentView.addSubview(seasonLabel)
+        contentView.addSubview(collectionView)
 
         seasonLabel.translatesAutoresizingMaskIntoConstraints = false
         collectionView.translatesAutoresizingMaskIntoConstraints = false
@@ -53,7 +52,7 @@ class AnimeSeasonView: NSObject {
         layout.footerReferenceSize = CGSize(width: 10, height: 10)
         layout.scrollDirection = .horizontal
 
-        collectionView.register(DiscoverAnimeCollectionViewCell.self, forCellWithReuseIdentifier: "DiscoverAnimeCollectionViewCell")
+        collectionView.register(AnimeSeasonCollectionViewCell.self, forCellWithReuseIdentifier: "AnimeSeasonCollectionViewCell")
         collectionView.delegate = self
         collectionView.setCollectionViewLayout(layout, animated: true)
         collectionView.backgroundColor = .white
@@ -75,16 +74,16 @@ class AnimeSeasonView: NSObject {
 
     func setConstraints() {
         let seasonLabelConstraints = [
-            seasonLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 10),
+            seasonLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),
             seasonLabel.heightAnchor.constraint(equalToConstant: 20),
-            seasonLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 7)
+            seasonLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 7)
         ]
 
         let  collectionViewConstraints = [
             collectionView.topAnchor.constraint(equalTo: seasonLabel.bottomAnchor, constant: 10),
             collectionView.heightAnchor.constraint(equalToConstant: collectionViewHeight),
-            collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            collectionView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            collectionView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor)
         ]
 
         NSLayoutConstraint.activate(seasonLabelConstraints)
@@ -93,7 +92,7 @@ class AnimeSeasonView: NSObject {
 
 }
 
-extension AnimeSeasonView: UICollectionViewDelegateFlowLayout {
+extension AnimeSeasonTableCell: UICollectionViewDelegateFlowLayout {
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 

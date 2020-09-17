@@ -7,3 +7,4 @@ disabled_rules:
   - identifier_name
   - force_try # try! Realm()
   - force_cast # static func createWith()  -> as? ViewController
+  - todo

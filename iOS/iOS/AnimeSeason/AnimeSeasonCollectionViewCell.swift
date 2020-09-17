@@ -1,5 +1,5 @@
 //
-//  DiscoverAnimeCollectionViewCell.swift
+//  AnimeSeasonCollectionViewCell.swift
 //  iOS
 //
 //  Created by Steven Berkowitz on R 2/04/07.
@@ -9,8 +9,11 @@
 import UIKit
 import Kingfisher
 
-class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
-
+/**
+ Show and anime with a picture, title, and badge showing the music sources available
+ */
+class AnimeSeasonCollectionViewCell: UICollectionViewCell {
+    // MARK: - Properties
     lazy var image: UIImageView = {
         let image = UIImageView()
         // set placeholder image here
@@ -25,9 +28,6 @@ class DiscoverAnimeCollectionViewCell: UICollectionViewCell {
     }()
 
     let musicSourcesBadgeView = UIStackView()
-
-    // host url
-    // https://animusic2-70683.firebaseapp.com/
 
     func configureCell(anime: RealmAnimeSeries) {
         self.nameLabel.text = anime.name ?? "no name"

@@ -12,11 +12,17 @@ import RxCocoa
 import RealmSwift
 import RxDataSources
 
+/**
+ Displays all seasons of anime using a table view.
+ The cells of the table view each contain a collection view,
+ The cells of the collection view each contain an anime
+*/
 class DiscoverAnimeViewController: UIViewController {
 
     // MARK: - Properties
     var animeSeasonsTableView = UITableView()
-    var viewModel = DiscoverAnimeViewModel()
+    var viewModel = DisplayAnimeViewModel()
+
     var searchController: UISearchController!
     private var resultsTableController: ResultsTableController!
     // This is the total height for every animeSeasonView
@@ -25,7 +31,6 @@ class DiscoverAnimeViewController: UIViewController {
     var filteredAnimesObservable: Observable<Results<RealmAnimeSeries>>!
 
     let navigator = Navigator.sharedInstance
-
     let realm = try! Realm()
     let disposeBag = DisposeBag()
 
@@ -37,7 +42,6 @@ class DiscoverAnimeViewController: UIViewController {
     // MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        
 
         self.navigationController?.navigationBar.topItem?.title = "AniMusic"
 
@@ -61,7 +65,9 @@ class DiscoverAnimeViewController: UIViewController {
 
         animeSeasonsTableView.register(AnimeSeasonTableCell.self, forCellReuseIdentifier: "AnimeSeasonTableCell")
 
-        let dataSource = RxTableViewSectionedReloadDataSource<DiscoverAnimeSeasonViewSection>(configureCell: { _, tableView, indexPath, item in
+        // Setting up dataSource here to get reference
+        // to parentViewController for navigation
+        let dataSource = RxTableViewSectionedReloadDataSource<DisplayAnimeSeasonViewSection>(configureCell: { _, tableView, indexPath, item in
             let cell = tableView.dequeueReusableCell(withIdentifier: "AnimeSeasonTableCell", for: indexPath) as! AnimeSeasonTableCell
             cell.configureCell(season: item, parentViewController: self)
             cell.selectionStyle = .none

@@ -11,19 +11,21 @@ import RxSwift
 import RealmSwift
 import RxDataSources
 
-// fills AnimeSeasonView collection view with the anime for a particular year
+/**
+ fills AnimeSeasonTableViewCell collection view with the anime for a particular year
+ */
 struct AnimeSeasonViewModel {
     // MARK: - Properties
     let realm = try! Realm()
     let dataSource: RxCollectionViewSectionedReloadDataSource<AnimeSeasonViewSection>
+    let animes: Results<RealmAnimeSeries>
     let sections = BehaviorSubject<[AnimeSeasonViewSection]>(value: [])
-    let season: RealmSeason
+
 
     // MARK: - Initialization
     init(season: RealmSeason) {
 
-        self.season = season
-        let animes = realm.objects(RealmAnimeSeries.self)
+        animes = realm.objects(RealmAnimeSeries.self)
             .sorted(byKeyPath: "name")
             .filter(NSPredicate(format: "season  = %@ AND year = %@", season.season, season.year))
 
@@ -34,7 +36,7 @@ struct AnimeSeasonViewModel {
 
         // add this as extension of AnimeSeasonViewSection
         dataSource = RxCollectionViewSectionedReloadDataSource<AnimeSeasonViewSection>(configureCell: { _, collectionView, indexPath, item in
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "DiscoverAnimeCollectionViewCell", for: indexPath) as! DiscoverAnimeCollectionViewCell
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AnimeSeasonCollectionViewCell", for: indexPath) as! AnimeSeasonCollectionViewCell
             cell.isHidden = false
             cell.configureCell(anime: item)
             return cell
