@@ -15,7 +15,7 @@ import RxDataSources
 import Kingfisher
 
 class AnimeSeriesViewController: UIViewController {
-    // MARK: - Views
+    // MARK: - Properties
     lazy var imageView: UIImageView = {
         var imageView = UIImageView()
         return imageView
@@ -35,13 +35,11 @@ class AnimeSeriesViewController: UIViewController {
         return tableView
     }()
 
-    // MARK: - Properties
     var viewModel: AnimeSeriesViewModel!
     let navigator = Navigator.sharedInstance
-
     let disposeBag = DisposeBag()
 
-    // MARK: - initialization
+    // MARK: - Functions
     static func createWith(storyboard: UIStoryboard, viewModel: AnimeSeriesViewModel) -> AnimeSeriesViewController {
         return (storyboard.instantiateViewController(withIdentifier: "AnimeSeriesViewController") as! AnimeSeriesViewController).then { vc in
             vc.viewModel = viewModel
@@ -50,20 +48,22 @@ class AnimeSeriesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         navigationItem.title = viewModel.anime.name
-
         imageView.setImage(for: viewModel.anime)
-
         seasonLabel.text = viewModel.anime.season
         formatLabel.text = viewModel.anime.format
+        setUpTableView()
+        setUpViewModelDataSource()
+        setUpTableViewCellSelectedActions()
+        setUpConstraints()
+    }
 
+    func setUpTableView() {
         tableView.delegate = self
         tableView.register(AnimeSongTableViewCell.self, forCellReuseIdentifier: "AnimeSongTableViewCell")
+    }
 
-        setConstraints()
-
-        // MARK: - todo  -> add this as a static function to AnimeSeriesViewModel
+    func setUpViewModelDataSource() {
         let dataSource = RxTableViewSectionedReloadDataSource<AnimeSongViewSection>(configureCell: { _, tableView, indexPath, item in
             // configure different cells based on item type
             switch item {
@@ -71,9 +71,9 @@ class AnimeSeriesViewController: UIViewController {
                 let cell: AnimeSongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
                 cell.configureCell(from: song)
                 return cell
-
             }
         })
+
         dataSource.titleForHeaderInSection = { dataSource, index in
             return dataSource.sectionModels[index].header
         }
@@ -81,20 +81,21 @@ class AnimeSeriesViewController: UIViewController {
         viewModel.sections
             .bind(to: tableView.rx.items(dataSource: dataSource))
             .disposed(by: disposeBag)
+    }
 
+    func setUpTableViewCellSelectedActions() {
         // navigate to song player view
         tableView.rx.modelSelected(AnimeSongViewSection.SectionItem.self)
             .subscribe(onNext: { item in
                 switch item {
                 case .DefaultSongItem(let song):
-                    // MARK: - todo
                     self.presentActions(for: song)
                 }
             })
             .disposed(by: disposeBag)
     }
 
-    func setConstraints() {
+    func setUpConstraints() {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         seasonLabel.translatesAutoresizingMaskIntoConstraints = false
         formatLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -134,9 +135,9 @@ class AnimeSeriesViewController: UIViewController {
         NSLayoutConstraint.activate(seasonLabelConstraints)
         NSLayoutConstraint.activate(formatLabelConstraints)
         NSLayoutConstraint.activate(tableViewConstraints)
-        print(tableView.frame)
     }
 
+    // TODO: Update accessibility for UIAlertController
     func presentActions(for song: RealmAnimeSong) {
         let anime = viewModel.anime
         let titleString = "\(anime.name ?? ""): \(song.name ?? "")"
@@ -164,22 +165,20 @@ class AnimeSeriesViewController: UIViewController {
         present(ac, animated: true)
     }
 
-    // MARK: - todo At this to AnimeSeriesViewModel
-    // MARK: - todo Add Source -> so that this function can run for every source
     // add an action that opens link to Google Play
     func addGooglePlayAction(to ac: UIAlertController, songName: String!, animeName: String!) {
         guard let songName = songName, let animeName = animeName else { return }
         let formattedSongName = songName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
         let formattedAnimeName = animeName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
         let queryString = formattedSongName + "%20" + formattedAnimeName
-        // // MARK: - todo
-        // Get country code
+
         if let url = URL(string: "https://play.google.com/store/search?q=\(queryString)&c=music&hl=en") {
             ac.addAction(UIAlertAction(title: "Search google play", style: .default, handler: { _ in
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }))
         } else { print("could not get url for google play store\n\(queryString))")}
     }
+
     func addYoutubeAction(to ac: UIAlertController, songName: String!, animeName: String!) {
         guard let songName = songName, let animeName = animeName else { return }
         let formattedSongName = songName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""

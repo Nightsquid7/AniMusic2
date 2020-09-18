@@ -28,43 +28,57 @@ class DiscoverAnimeViewController: UIViewController {
     // This is the total height for every animeSeasonView
     let animeSeasonViewHeight: CGFloat = 313
 
-    var filteredAnimesObservable: Observable<Results<RealmAnimeSeries>>!
-
     let navigator = Navigator.sharedInstance
     let realm = try! Realm()
     let disposeBag = DisposeBag()
 
-    // MARK: - createWith(storyboard: UIStoryboard)
+    // MARK: - Functions
     static func createWith(storyboard: UIStoryboard) -> DiscoverAnimeViewController {
         return storyboard.instantiateViewController(withIdentifier: "DiscoverAnimeViewController") as! DiscoverAnimeViewController
     }
 
-    // MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpResultsController()
+        setUpSearchController()
+        setUpNavigationController()
+        setUpNavigationItem()
+        setUpAnimeSeasonsTableView()
+        setUpConstraints()
+        setUpViewModelDataSource()
+    }
 
-        self.navigationController?.navigationBar.topItem?.title = "AniMusic"
-
+    func setUpResultsController() {
         resultsTableController = self.storyboard?.instantiateViewController(withIdentifier: "ResultsTableController") as? ResultsTableController
         resultsTableController.tableView.delegate = self
+    }
 
+    func setUpSearchController() {
         searchController = UISearchController(searchResultsController: resultsTableController)
-        searchController.delegate = self
         searchController.searchResultsUpdater = self
         searchController.searchBar.autocapitalizationType = .none
         searchController.searchBar.placeholder = "Search Animes"
         searchController.dimsBackgroundDuringPresentation = false
-        searchController.searchBar.delegate = self // Monitor when the search button is tapped.
+        searchController.searchBar.delegate = self
+    }
 
+    func setUpNavigationController() {
+        self.navigationController?.navigationBar.topItem?.title = "AniMusic"
+    }
+
+    func setUpNavigationItem() {
         // Place the search bar in the navigation bar.
         self.navigationItem.searchController = searchController
         self.navigationItem.hidesSearchBarWhenScrolling = false
+    }
+
+    func setUpAnimeSeasonsTableView() {
         self.animeSeasonsTableView.delegate = self
         view.addSubview(animeSeasonsTableView)
-        setConstraints()
-
         animeSeasonsTableView.register(AnimeSeasonTableCell.self, forCellReuseIdentifier: "AnimeSeasonTableCell")
+    }
 
+    func setUpViewModelDataSource() {
         // Setting up dataSource here to get reference
         // to parentViewController for navigation
         let dataSource = RxTableViewSectionedReloadDataSource<DisplayAnimeSeasonViewSection>(configureCell: { _, tableView, indexPath, item in
@@ -77,11 +91,9 @@ class DiscoverAnimeViewController: UIViewController {
         viewModel.sections
             .bind(to: animeSeasonsTableView.rx.items(dataSource: dataSource))
             .disposed(by: disposeBag)
-
-        filteredAnimesObservable = Observable.collection(from: realm.objects(RealmAnimeSeries.self))
     }
 
-    func setConstraints() {
+    func setUpConstraints() {
         animeSeasonsTableView.translatesAutoresizingMaskIntoConstraints = false
         let tableViewConstraints = [
             animeSeasonsTableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
@@ -89,7 +101,6 @@ class DiscoverAnimeViewController: UIViewController {
             animeSeasonsTableView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -7),
             animeSeasonsTableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 10)
         ]
-
         NSLayoutConstraint.activate(tableViewConstraints)
     }
 
@@ -106,13 +117,8 @@ extension DiscoverAnimeViewController: UITableViewDelegate {
     }
 
      func  tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if tableView === resultsTableController.tableView {
-            return 190
-        }
-        if tableView === self.animeSeasonsTableView {
-            return self.animeSeasonViewHeight
-        }
-
+        if tableView === resultsTableController.tableView { return 190 }
+        if tableView === self.animeSeasonsTableView { return self.animeSeasonViewHeight }
         return 0
     }
 
@@ -144,32 +150,4 @@ extension DiscoverAnimeViewController: UISearchResultsUpdating {
             resultsController.tableView.reloadData()
         }
     }
-}
-
-// MARK: - UISearchControllerDelegate
-
-// Use these delegate functions for additional control over the search controller.
-
-extension DiscoverAnimeViewController: UISearchControllerDelegate {
-
-    func presentSearchController(_ searchController: UISearchController) {
-        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
-    }
-
-    func willPresentSearchController(_ searchController: UISearchController) {
-        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
-    }
-
-    func didPresentSearchController(_ searchController: UISearchController) {
-        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
-    }
-
-    func willDismissSearchController(_ searchController: UISearchController) {
-        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
-    }
-
-    func didDismissSearchController(_ searchController: UISearchController) {
-        Swift.debugPrint("UISearchControllerDelegate invoked method: \(#function).")
-    }
-
 }

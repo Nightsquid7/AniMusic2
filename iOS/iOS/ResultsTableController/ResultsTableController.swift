@@ -27,7 +27,6 @@ class ResultsTableController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-
         return 1
     }
 
@@ -37,9 +36,7 @@ class ResultsTableController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "ResultTableViewCell", for: indexPath) as? ResultTableViewCell {
-
             cell.configureCell(from: filteredAnimes[indexPath.row])
-
             return cell
         }
 

@@ -179,8 +179,8 @@
 		534C844F246BB1C300CCE8DF /* ResultsTableController */ = {
 			isa = PBXGroup;
 			children = (
-				534C844D246BB03900CCE8DF /* ResultTableViewCell.swift */,
 				53AEC761246B868800988000 /* ResultsTableController.swift */,
+				534C844D246BB03900CCE8DF /* ResultTableViewCell.swift */,
 			);
 			path = ResultsTableController;
 			sourceTree = "<group>";
@@ -224,10 +224,10 @@
 				534B7B3A2429869A002A3EAC /* Navigator.swift */,
 				5333451F2426F2260074C258 /* FirebaseStore.swift */,
 				5371F75D2435778B00D19B53 /* UIKitExtensions.swift */,
-				534C844F246BB1C300CCE8DF /* ResultsTableController */,
 				53B11116243D5A57008980E5 /* DisplayAnime */,
 				5346916C2513092D00A94FE5 /* AnimeSeason */,
 				534B7B42242990A0002A3EAC /* AnimeSeries */,
+				534C844F246BB1C300CCE8DF /* ResultsTableController */,
 				534B7B3D24298ECB002A3EAC /* Models */,
 				53FFA5D3242450B000194B85 /* Main.storyboard */,
 				53FFA5D6242450B100194B85 /* Assets.xcassets */,
