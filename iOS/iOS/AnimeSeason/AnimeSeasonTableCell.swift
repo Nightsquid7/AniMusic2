@@ -64,7 +64,7 @@ class AnimeSeasonTableCell: UITableViewCell {
     }
     func setUpSeasonLabel(season: RealmSeason) {
         seasonLabel.translatesAutoresizingMaskIntoConstraints = false
-        seasonLabel.text = season.getTitleString()
+        seasonLabel.text = season.titleString()
     }
 
     func setUpContentView() {

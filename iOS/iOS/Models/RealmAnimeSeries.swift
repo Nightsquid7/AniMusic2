@@ -9,91 +9,101 @@
 import Foundation
 import RealmSwift
 
-class RealmAnimeSeries: Object {
+class RealmAnimeSeries: Object, Decodable {
 
-    @objc dynamic var id: String?
-    @objc dynamic var name: String?
-    @objc dynamic var aniDbUri: String?
-    @objc dynamic var format: String?
-    @objc dynamic var season: String?
-    @objc dynamic var year: String?
-    @objc dynamic var titleImageName: String?
+    @objc dynamic var id: String = ""
+    @objc dynamic var name: String = ""
+    @objc dynamic var aniDbUri: String = ""
+    @objc dynamic var format: String = ""
+    @objc dynamic var season: String = ""
+    @objc dynamic var year: String = ""
+    @objc dynamic var titleImageName: String = ""
     var songs = List<RealmAnimeSong>()
 
-    convenience init(from anime: AnimeSeries) {
-        self.init()
-        self.id = anime.id
-        self.name = anime.name
-        self.aniDbUri = anime.aniDbUri
-        self.format = anime.format
-        self.season = anime.season
-        self.year = anime.year
-        self.titleImageName = anime.titleImageName
-        // add songs if they exist
-        for song in anime.songs {
-            self.songs.append(RealmAnimeSong(from: song.value))
-        }
-        self.songs.sort()
-
+    enum CodingKeys: String, CodingKey {
+        case id = "Id"
+        case name = "Name"
+        case aniDbUri = "AniDbUri"
+        case format = "Format"
+        case season = "Season"
+        case year = "Year"
+        case titleImageName = "TitleImageName"
     }
 
+    enum AdditionalCodingKeys: String, CodingKey {
+        case songsDict = "Songs"
+    }
+
+    required init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        id = try values.decode(String.self, forKey: .id)
+        name = try values.decode(String.self, forKey: .name)
+        aniDbUri = try values.decode(String.self, forKey: .aniDbUri)
+        format = try values.decode(String.self, forKey: .format)
+        season = try values.decode(String.self, forKey: .season)
+        year = try values.decode(String.self, forKey: .year)
+        titleImageName = try values.decode(String.self, forKey: .titleImageName)
+
+        let nestedValues = try decoder.container(keyedBy: AdditionalCodingKeys.self)
+        if let nestedSongs = try? nestedValues.decode([String: RealmAnimeSong].self, forKey: .songsDict) {
+            songs = List(array: nestedSongs.map { $0.value })
+        }
+    }
+
+    required init() {}
 }
 
-class RealmAnimeSong: Object {
-    @objc dynamic var id: String?
-    @objc dynamic var name: String?
-    @objc dynamic var nameEnglish: String?
-    @objc dynamic var classification: String?
-    @objc dynamic var relation: String?
-    let ranges = List<RealmEpisodeRange>()
-    let artists = List<RealmArtist>()
-    let sources = List<RealmSongSearchResult>()
+class RealmAnimeSong: Object, Decodable {
+    @objc dynamic var id: String = ""
+    @objc dynamic var name: String = ""
+    @objc dynamic var nameEnglish: String = ""
+    @objc dynamic var classification: String = ""
+    @objc dynamic var relation: String = ""
+    var artists = List<RealmArtist>()
+    var ranges = List<RealmEpisodeRange>()
+    var sources = List<RealmSongSearchResult>()
 
-    convenience init(from song: AnimeSong) {
-        self.init()
-        self.id = song.id
-        self.name = song.name
-        self.nameEnglish = song.nameEnglish
-        self.classification = song.classification
-        self.relation = song.relation
-        // add ranges if they exist
-        if let ranges = song.ranges {
-            for range in ranges {
-                self.ranges.append(RealmEpisodeRange(value: ["start": range["Start"], "end": range["End"]]))
-            }
+    enum CodingKeys: String, CodingKey {
+        case id = "Id"
+        case name = "Name"
+        case nameEnglish = "NameEn"
+        case classification = "Classification"
+        case relation = "Relation"
+        case artists = "Artists"
+    }
+
+    enum NestedCodingKeys: String, CodingKey {
+        case sources = "Sources"
+        case ranges = "Ranges"
+    }
+
+    required init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        id = try values.decode(String.self, forKey: .id)
+        name = try values.decode(String.self, forKey: .name)
+        nameEnglish = try values.decode(String.self, forKey: .nameEnglish)
+        classification = try values.decode(String.self, forKey: .classification)
+        relation = try values.decode(String.self, forKey: .relation)
+
+        artists = try values.decode(List<RealmArtist>.self, forKey: .artists)
+        let nestedValues = try decoder.container(keyedBy: NestedCodingKeys.self)
+        if let nestedRanges = try? nestedValues.decode([RealmEpisodeRange].self, forKey: .ranges) {
+            ranges = List(array: nestedRanges.map { $0 })
         }
 
-        if let artists = song.artists {
-        // add artists
-            for artist in artists {
-                self.artists.append(RealmArtist(from: artist))
-            }
-        }
-        // add sources if they exist
-        if let sources = song.sources {
-            for source in sources {
-                self.sources.append(RealmSongSearchResult(from: source.value))
-            }
+        if let nestedSources = try? nestedValues.decode([String: RealmSongSearchResult].self, forKey: .sources) {
+            sources = List(array: nestedSources.map { $0.value })
         }
     }
 
+    required init() {}
+
+
+
     // calculate the value for sorting based on relation and first ranges
+    // TODO: Implement RealmAnimes.value() with non-optional values
     func value() -> Int {
-
-        guard let firstRangeValue = ranges.first?.start.value, let relationValue = Relation(rawValue: relation!)?.value else {
-            // only have start range
-            if let firstRangeValue = ranges.first?.start.value {
-                return firstRangeValue
-            }
-            // only have relation, opening, ending etc
-            if let relationValue = Relation(rawValue: relation!)?.value {
-                return relationValue
-            }
-            // have nothing, return arbitrary value
-            return 7
-        }
-
-        return firstRangeValue + relationValue
+        return 7
     }
 }
 
@@ -119,39 +129,52 @@ extension RealmAnimeSong: Comparable {
 
 }
 
-class RealmEpisodeRange: Object {
-    let start = RealmOptional<Int>()
-    let end = RealmOptional<Int>()
-}
+class RealmEpisodeRange: Object, Decodable {
+    var start: Int = 0
+    var end: Int = 0
 
-class RealmSongSearchResult: Object {
-    @objc dynamic var relation: String?
-    @objc dynamic var songId: String?
-    @objc dynamic var URI: String? // link to spotify/apple music
-    @objc dynamic var name: String?
-    @objc dynamic var externalUrl: String?
-    @objc dynamic var source: String?
-
-    convenience init(from searchResult: SongSearchResult) {
-        self.init()
-        self.relation = searchResult.relation
-        self.songId = searchResult.songId
-        self.URI = searchResult.URI
-        self.name = searchResult.name
-        self.externalUrl = searchResult.externalUrl
-        self.source = searchResult.source
+    enum CodingKeys: String, CodingKey {
+        case start = "Start"
+        case end = "End"
     }
+
+    required init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        start = try values.decode(Int.self, forKey: .start)
+        end = try values.decode(Int.self, forKey: .end)
+    }
+
+    required init() {}
+
 }
 
-class RealmArtist: Object {
-    @objc dynamic var id: String?
-    @objc dynamic var name: String?
-    @objc dynamic var nameEnglish: String?
+class RealmSongSearchResult: Object, Decodable {
+    @objc dynamic var relation: String = ""
+    @objc dynamic var songId: String = ""
+    @objc dynamic var URI: String = "" // link to spotify/apple music
+    @objc dynamic var name: String = ""
+    @objc dynamic var externalUrl: String = ""
+    @objc dynamic var source: String = ""
 
-    convenience init(from artist: Artist) {
-        self.init()
-        self.id = artist.id
-        self.name = artist.name
-        self.nameEnglish = artist.nameEnglish
+    enum CodingKeys: String, CodingKey {
+        case relation = "Relation"
+        case songId = "SongId"
+        case URI
+        case name = "Name"
+        case externalUrl = "ExternalUrl"
+        case source = "Source"
+    }
+
+}
+
+class RealmArtist: Object, Decodable {
+    @objc dynamic var id: String = ""
+    @objc dynamic var name: String = ""
+    @objc dynamic var nameEnglish: String = ""
+
+    enum CodingKeys: String, CodingKey {
+        case id = "Id"
+        case name = "Name"
+        case nameEnglish = "NameEn"
     }
 }

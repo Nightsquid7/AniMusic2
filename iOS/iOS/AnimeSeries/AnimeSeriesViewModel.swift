@@ -38,21 +38,17 @@ class AnimeSeriesViewModel {
     init(with anime: RealmAnimeSeries) {
         self.anime = anime
 
-        // create sections
         sections.onNext( anime.songs.map { song in
-            guard let relation = song.relation else {
-               // else add song as default
-               return AnimeSongViewSection(header: "Mystery Song", items: [.DefaultSongItem(song: song)])
+            // TODO: Add ranges to AnimeSeriesViewModel
+            if song.ranges.count > 0 {
+                let earliest = song.ranges.map {$0.start}.min() ?? 0
+                let latest = song.ranges.map { $0.end }.max() ?? 0
+
+                return AnimeSongViewSection(header: "\(song.relation) ep \(earliest) - ep \(latest)",
+                    items: [.DefaultSongItem(song: song)])
             }
 
-            if let startRange = song.ranges.first?.start.value, let endRange =  song.ranges.first?.end.value {
-                for _ in song.sources {
-                    // add item as spotify or apple music song item
-                    return AnimeSongViewSection(header: "\(relation) ep \(startRange) - ep \(endRange)",
-                        items: [.DefaultSongItem(song: song)])
-                }
-            }
-            return AnimeSongViewSection(header: relation,
+            return AnimeSongViewSection(header: song.relation,
                 items: [.DefaultSongItem(song: song)])
         })
     }

@@ -23,7 +23,11 @@ class RealmSeason: Object, Codable {
 }
 
 extension RealmSeason {
-    func getTitleString() -> String {
-        return self.season + " " + self.year
+    func titleString() -> String {
+        return season + " " + year
+    }
+    
+    func databaseId() -> String {
+        return season + "-" + year
     }
 }

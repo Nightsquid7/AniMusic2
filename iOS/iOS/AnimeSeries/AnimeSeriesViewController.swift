@@ -149,15 +149,13 @@ class AnimeSeriesViewController: UIViewController {
         var supportedSources = ["Spotify"]
 
         for source in song.sources {
-            if let url = URL(string: String(source.externalUrl ?? "")), let sourceName = source.source {
-                ac.addAction(UIAlertAction(title: "Open in \(sourceName)", style: .default, handler: { _ in
+            if let url = URL(string: String(source.externalUrl)) {
+                ac.addAction(UIAlertAction(title: "Open in \(source.source)", style: .default, handler: { _ in
                     UIApplication.shared.open(url, options: [:], completionHandler: nil)
                 }))
 
-                supportedSources.removeAll(where: { $0 == sourceName })
-            } else {
-                print("\ncould not add source: \(source)")
-            }
+                supportedSources.removeAll(where: { $0 == source.source })
+            } 
         }
         addGooglePlayAction(to: ac, songName: song.name, animeName: anime.name)
         addYoutubeAction(to: ac, songName: song.name, animeName: anime.name)
