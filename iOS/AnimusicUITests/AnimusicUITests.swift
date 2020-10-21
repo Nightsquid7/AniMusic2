@@ -1,4 +1,4 @@
-o//
+//
 //  iOSUITests.swift
 //  iOSUITests
 //
@@ -8,7 +8,7 @@ o//
 
 import XCTest
 
-class iOSUITests: XCTestCase {
+class AnimusicUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

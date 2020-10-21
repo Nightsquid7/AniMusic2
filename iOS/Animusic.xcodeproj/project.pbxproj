@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		49CEDD3A4AFE64FFAE874E85 /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA192436CD9D54ACD21B486 /* Pods_iOS.framework */; };
 		4BD17C824CAEB14C667B73AF /* Pods_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315808D2830C559B226519E6 /* Pods_iOSUITests.framework */; };
+		530C979B25403C9A003C3336 /* ResultsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C979A25403C99003C3336 /* ResultsTableController.swift */; };
 		53123C4C242A02DA002897E8 /* AnimeSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */; };
 		531C9644242DAB9700214FF1 /* RealmSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C9643242DAB9700214FF1 /* RealmSeason.swift */; };
 		532B863C243059CB00924B40 /* AnimeSongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532B863B243059CB00924B40 /* AnimeSongTableViewCell.swift */; };
@@ -20,7 +21,6 @@
 		535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* RealmAnimeSeries.swift */; };
 		5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75D2435778B00D19B53 /* UIKitExtensions.swift */; };
 		538DB3AE247B9BCB00271438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */; };
-		53AEC762246B868800988000 /* ResultsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AEC761246B868800988000 /* ResultsTableController.swift */; };
 		53E3DCAE243BF465009796A4 /* DisplayAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCAD243BF465009796A4 /* DisplayAnimeViewController.swift */; };
 		53E3DCB0243BF47F009796A4 /* AnimeSeasonTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCAF243BF47F009796A4 /* AnimeSeasonTableCellViewModel.swift */; };
 		53E3DCB2243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCB1243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift */; };
@@ -31,8 +31,8 @@
 		53FFA5D5242450B000194B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FFA5D3242450B000194B85 /* Main.storyboard */; };
 		53FFA5D7242450B100194B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FFA5D6242450B100194B85 /* Assets.xcassets */; };
 		53FFA5DA242450B100194B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FFA5D8242450B100194B85 /* LaunchScreen.storyboard */; };
-		53FFA5E5242450B100194B85 /* iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5E4242450B100194B85 /* iOSTests.swift */; };
-		53FFA5F0242450B100194B85 /* iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5EF242450B100194B85 /* iOSUITests.swift */; };
+		53FFA5E5242450B100194B85 /* AnimusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5E4242450B100194B85 /* AnimusicTests.swift */; };
+		53FFA5F0242450B100194B85 /* AnimusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5EF242450B100194B85 /* AnimusicUITests.swift */; };
 		D595484B4DF0D26E9573ADB2 /* Pods_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46FF3A72D27EEB9AD574789 /* Pods_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +57,7 @@
 		215F0CABE8E1BEEC61226ED8 /* Pods-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-iOSTests/Pods-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		315808D2830C559B226519E6 /* Pods_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA192436CD9D54ACD21B486 /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		530C979A25403C99003C3336 /* ResultsTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableController.swift; sourceTree = "<group>"; };
 		53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeSeriesViewModel.swift; sourceTree = "<group>"; };
 		531C9643242DAB9700214FF1 /* RealmSeason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSeason.swift; sourceTree = "<group>"; };
 		532B863B243059CB00924B40 /* AnimeSongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSongTableViewCell.swift; sourceTree = "<group>"; };
@@ -68,10 +69,10 @@
 		535643542424583600C96075 /* RealmAnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAnimeSeries.swift; sourceTree = "<group>"; };
 		5371F75D2435778B00D19B53 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		53AEC761246B868800988000 /* ResultsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultsTableController.swift; path = iOS/ResultsTableController/ResultsTableController.swift; sourceTree = SOURCE_ROOT; };
 		53E3DCAD243BF465009796A4 /* DisplayAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAnimeViewController.swift; sourceTree = "<group>"; };
 		53E3DCAF243BF47F009796A4 /* AnimeSeasonTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonTableCellViewModel.swift; sourceTree = "<group>"; };
 		53E3DCB1243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonCollectionViewCell.swift; sourceTree = "<group>"; };
+		53E92D6325411E17008083B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Info.plist; sourceTree = "<group>"; };
 		53F046D62479F0DB00BAB661 /* DisplayAnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAnimeViewModel.swift; sourceTree = "<group>"; };
 		53F046D8247A020500BAB661 /* AnimeSeasonTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonTableCell.swift; sourceTree = "<group>"; };
 		53FFA5CA242450B000194B85 /* AniMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,12 +81,11 @@
 		53FFA5D4242450B000194B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53FFA5D6242450B100194B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53FFA5D9242450B100194B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		53FFA5DB242450B100194B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53FFA5E0242450B100194B85 /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53FFA5E4242450B100194B85 /* iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTests.swift; sourceTree = "<group>"; };
+		53FFA5E0242450B100194B85 /* AnimusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FFA5E4242450B100194B85 /* AnimusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimusicTests.swift; sourceTree = "<group>"; };
 		53FFA5E6242450B100194B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53FFA5EB242450B100194B85 /* iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53FFA5EF242450B100194B85 /* iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSUITests.swift; sourceTree = "<group>"; };
+		53FFA5EB242450B100194B85 /* AnimusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FFA5EF242450B100194B85 /* AnimusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimusicUITests.swift; sourceTree = "<group>"; };
 		53FFA5F1242450B100194B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75DF001CB6A29C17EA5E6B86 /* Pods-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSUITests/Pods-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A62C4EA7F4378766D71939B /* Pods-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSUITests/Pods-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 		534C844F246BB1C300CCE8DF /* ResultsTableController */ = {
 			isa = PBXGroup;
 			children = (
-				53AEC761246B868800988000 /* ResultsTableController.swift */,
+				530C979A25403C99003C3336 /* ResultsTableController.swift */,
 				534C844D246BB03900CCE8DF /* ResultTableViewCell.swift */,
 			);
 			path = ResultsTableController;
@@ -205,9 +205,9 @@
 		53FFA5C1242450B000194B85 = {
 			isa = PBXGroup;
 			children = (
-				53FFA5CC242450B000194B85 /* iOS */,
-				53FFA5E3242450B100194B85 /* iOSTests */,
-				53FFA5EE242450B100194B85 /* iOSUITests */,
+				53FFA5CC242450B000194B85 /* Animusic */,
+				53FFA5E3242450B100194B85 /* AnimusicTests */,
+				53FFA5EE242450B100194B85 /* AnimusicUITests */,
 				53FFA5CB242450B000194B85 /* Products */,
 				0FEF6EA0687EFE1B0C0DBF43 /* Pods */,
 				163FF79F1D8A43E089786B93 /* Frameworks */,
@@ -218,13 +218,13 @@
 			isa = PBXGroup;
 			children = (
 				53FFA5CA242450B000194B85 /* AniMusic.app */,
-				53FFA5E0242450B100194B85 /* iOSTests.xctest */,
-				53FFA5EB242450B100194B85 /* iOSUITests.xctest */,
+				53FFA5E0242450B100194B85 /* AnimusicTests.xctest */,
+				53FFA5EB242450B100194B85 /* AnimusicUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53FFA5CC242450B000194B85 /* iOS */ = {
+		53FFA5CC242450B000194B85 /* Animusic */ = {
 			isa = PBXGroup;
 			children = (
 				53FFA5CD242450B000194B85 /* AppDelegate.swift */,
@@ -240,36 +240,36 @@
 				53FFA5D3242450B000194B85 /* Main.storyboard */,
 				53FFA5D6242450B100194B85 /* Assets.xcassets */,
 				53FFA5D8242450B100194B85 /* LaunchScreen.storyboard */,
-				53FFA5DB242450B100194B85 /* Info.plist */,
 				538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */,
+				53E92D6325411E17008083B2 /* Info.plist */,
 			);
-			path = iOS;
+			path = Animusic;
 			sourceTree = "<group>";
 		};
-		53FFA5E3242450B100194B85 /* iOSTests */ = {
+		53FFA5E3242450B100194B85 /* AnimusicTests */ = {
 			isa = PBXGroup;
 			children = (
-				53FFA5E4242450B100194B85 /* iOSTests.swift */,
+				53FFA5E4242450B100194B85 /* AnimusicTests.swift */,
 				53FFA5E6242450B100194B85 /* Info.plist */,
 			);
-			path = iOSTests;
+			path = AnimusicTests;
 			sourceTree = "<group>";
 		};
-		53FFA5EE242450B100194B85 /* iOSUITests */ = {
+		53FFA5EE242450B100194B85 /* AnimusicUITests */ = {
 			isa = PBXGroup;
 			children = (
-				53FFA5EF242450B100194B85 /* iOSUITests.swift */,
+				53FFA5EF242450B100194B85 /* AnimusicUITests.swift */,
 				53FFA5F1242450B100194B85 /* Info.plist */,
 			);
-			path = iOSUITests;
+			path = AnimusicUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		53FFA5C9242450B000194B85 /* iOS */ = {
+		53FFA5C9242450B000194B85 /* Animusic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53FFA5F4242450B100194B85 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildConfigurationList = 53FFA5F4242450B100194B85 /* Build configuration list for PBXNativeTarget "Animusic" */;
 			buildPhases = (
 				A5C096C2C7A2C4F633407E77 /* [CP] Check Pods Manifest.lock */,
 				53FFA5C6242450B000194B85 /* Sources */,
@@ -282,14 +282,14 @@
 			);
 			dependencies = (
 			);
-			name = iOS;
+			name = Animusic;
 			productName = iOS;
 			productReference = 53FFA5CA242450B000194B85 /* AniMusic.app */;
 			productType = "com.apple.product-type.application";
 		};
-		53FFA5DF242450B100194B85 /* iOSTests */ = {
+		53FFA5DF242450B100194B85 /* AnimusicTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53FFA5F7242450B100194B85 /* Build configuration list for PBXNativeTarget "iOSTests" */;
+			buildConfigurationList = 53FFA5F7242450B100194B85 /* Build configuration list for PBXNativeTarget "AnimusicTests" */;
 			buildPhases = (
 				78B67CBC5D189A7895039FB9 /* [CP] Check Pods Manifest.lock */,
 				53FFA5DC242450B100194B85 /* Sources */,
@@ -302,14 +302,14 @@
 			dependencies = (
 				53FFA5E2242450B100194B85 /* PBXTargetDependency */,
 			);
-			name = iOSTests;
+			name = AnimusicTests;
 			productName = iOSTests;
-			productReference = 53FFA5E0242450B100194B85 /* iOSTests.xctest */;
+			productReference = 53FFA5E0242450B100194B85 /* AnimusicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		53FFA5EA242450B100194B85 /* iOSUITests */ = {
+		53FFA5EA242450B100194B85 /* AnimusicUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53FFA5FA242450B100194B85 /* Build configuration list for PBXNativeTarget "iOSUITests" */;
+			buildConfigurationList = 53FFA5FA242450B100194B85 /* Build configuration list for PBXNativeTarget "AnimusicUITests" */;
 			buildPhases = (
 				E355C676927BA760A8CB5916 /* [CP] Check Pods Manifest.lock */,
 				53FFA5E7242450B100194B85 /* Sources */,
@@ -321,9 +321,9 @@
 			dependencies = (
 				53FFA5ED242450B100194B85 /* PBXTargetDependency */,
 			);
-			name = iOSUITests;
+			name = AnimusicUITests;
 			productName = iOSUITests;
-			productReference = 53FFA5EB242450B100194B85 /* iOSUITests.xctest */;
+			productReference = 53FFA5EB242450B100194B85 /* AnimusicUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -349,7 +349,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 53FFA5C5242450B000194B85 /* Build configuration list for PBXProject "iOS" */;
+			buildConfigurationList = 53FFA5C5242450B000194B85 /* Build configuration list for PBXProject "Animusic" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -362,9 +362,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53FFA5C9242450B000194B85 /* iOS */,
-				53FFA5DF242450B100194B85 /* iOSTests */,
-				53FFA5EA242450B100194B85 /* iOSUITests */,
+				53FFA5C9242450B000194B85 /* Animusic */,
+				53FFA5DF242450B100194B85 /* AnimusicTests */,
+				53FFA5EA242450B100194B85 /* AnimusicUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -522,6 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530C979B25403C9A003C3336 /* ResultsTableController.swift in Sources */,
 				533345202426F2260074C258 /* FirebaseStore.swift in Sources */,
 				534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */,
 				531C9644242DAB9700214FF1 /* RealmSeason.swift in Sources */,
@@ -530,7 +531,6 @@
 				5337E99D253964DA00CCD3E2 /* Realm+.swift in Sources */,
 				53E3DCB2243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift in Sources */,
 				53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */,
-				53AEC762246B868800988000 /* ResultsTableController.swift in Sources */,
 				5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */,
 				53123C4C242A02DA002897E8 /* AnimeSeriesViewModel.swift in Sources */,
 				53E3DCAE243BF465009796A4 /* DisplayAnimeViewController.swift in Sources */,
@@ -547,7 +547,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FFA5E5242450B100194B85 /* iOSTests.swift in Sources */,
+				53FFA5E5242450B100194B85 /* AnimusicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FFA5F0242450B100194B85 /* iOSUITests.swift in Sources */,
+				53FFA5F0242450B100194B85 /* AnimusicUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,12 +564,12 @@
 /* Begin PBXTargetDependency section */
 		53FFA5E2242450B100194B85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53FFA5C9242450B000194B85 /* iOS */;
+			target = 53FFA5C9242450B000194B85 /* Animusic */;
 			targetProxy = 53FFA5E1242450B100194B85 /* PBXContainerItemProxy */;
 		};
 		53FFA5ED242450B100194B85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53FFA5C9242450B000194B85 /* iOS */;
+			target = 53FFA5C9242450B000194B85 /* Animusic */;
 			targetProxy = 53FFA5EC242450B100194B85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -716,7 +716,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.33;
 				DEVELOPMENT_TEAM = E939BBZ6X4;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = Animusic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -737,7 +737,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.33;
 				DEVELOPMENT_TEAM = E939BBZ6X4;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = Animusic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -769,7 +769,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animusic.app/Animusic";
 			};
 			name = Debug;
 		};
@@ -792,7 +792,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animusic.app/Animusic";
 			};
 			name = Release;
 		};
@@ -841,7 +841,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		53FFA5C5242450B000194B85 /* Build configuration list for PBXProject "iOS" */ = {
+		53FFA5C5242450B000194B85 /* Build configuration list for PBXProject "Animusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53FFA5F2242450B100194B85 /* Debug */,
@@ -850,7 +850,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53FFA5F4242450B100194B85 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+		53FFA5F4242450B100194B85 /* Build configuration list for PBXNativeTarget "Animusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53FFA5F5242450B100194B85 /* Debug */,
@@ -859,7 +859,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53FFA5F7242450B100194B85 /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
+		53FFA5F7242450B100194B85 /* Build configuration list for PBXNativeTarget "AnimusicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53FFA5F8242450B100194B85 /* Debug */,
@@ -868,7 +868,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53FFA5FA242450B100194B85 /* Build configuration list for PBXNativeTarget "iOSUITests" */ = {
+		53FFA5FA242450B100194B85 /* Build configuration list for PBXNativeTarget "AnimusicUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53FFA5FB242450B100194B85 /* Debug */,

@@ -6,3 +6,9 @@ scraper/.vscode/launch.json
 scraper/cmd/animusic/animusic2-*.json
 
 scraper/cmd/animusic/.cache/images/
+
+*.DS_Store
+scraper/.cache
+scraper/cmd/animusic/list
+scraper/cmd/animusic/nextSeasonCommand.txt
+animusic2-70683-firebase-adminsdk-44dws-cc5407e931.json
