@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49CEDD3A4AFE64FFAE874E85 /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA192436CD9D54ACD21B486 /* Pods_iOS.framework */; };
-		4BD17C824CAEB14C667B73AF /* Pods_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315808D2830C559B226519E6 /* Pods_iOSUITests.framework */; };
+		013FB2BCB358876BA78A792C /* Pods_Animusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB644DD196B0CDD5BD30496F /* Pods_Animusic.framework */; };
+		4B07C849E90FD8EC31F61161 /* Pods_AnimusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D1F4ECD9A5E4AF51E9CDD3 /* Pods_AnimusicUITests.framework */; };
 		530C979B25403C9A003C3336 /* ResultsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C979A25403C99003C3336 /* ResultsTableController.swift */; };
 		53123C4C242A02DA002897E8 /* AnimeSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */; };
 		531C9644242DAB9700214FF1 /* RealmSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C9643242DAB9700214FF1 /* RealmSeason.swift */; };
@@ -21,6 +21,7 @@
 		535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* RealmAnimeSeries.swift */; };
 		5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75D2435778B00D19B53 /* UIKitExtensions.swift */; };
 		538DB3AE247B9BCB00271438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */; };
+		53C740D325481D0200E6F397 /* SongActionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C740D225481D0200E6F397 /* SongActionPresenter.swift */; };
 		53E3DCAE243BF465009796A4 /* DisplayAnimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCAD243BF465009796A4 /* DisplayAnimeViewController.swift */; };
 		53E3DCB0243BF47F009796A4 /* AnimeSeasonTableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCAF243BF47F009796A4 /* AnimeSeasonTableCellViewModel.swift */; };
 		53E3DCB2243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCB1243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift */; };
@@ -33,7 +34,7 @@
 		53FFA5DA242450B100194B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FFA5D8242450B100194B85 /* LaunchScreen.storyboard */; };
 		53FFA5E5242450B100194B85 /* AnimusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5E4242450B100194B85 /* AnimusicTests.swift */; };
 		53FFA5F0242450B100194B85 /* AnimusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5EF242450B100194B85 /* AnimusicUITests.swift */; };
-		D595484B4DF0D26E9573ADB2 /* Pods_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46FF3A72D27EEB9AD574789 /* Pods_iOSTests.framework */; };
+		6C29707EFDB528FFEFFD77AC /* Pods_AnimusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B685402D7980B0E8AC08569 /* Pods_AnimusicTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +56,7 @@
 
 /* Begin PBXFileReference section */
 		215F0CABE8E1BEEC61226ED8 /* Pods-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-iOSTests/Pods-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		315808D2830C559B226519E6 /* Pods_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EA192436CD9D54ACD21B486 /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D1F4ECD9A5E4AF51E9CDD3 /* Pods_AnimusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		530C979A25403C99003C3336 /* ResultsTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableController.swift; sourceTree = "<group>"; };
 		53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeSeriesViewModel.swift; sourceTree = "<group>"; };
 		531C9643242DAB9700214FF1 /* RealmSeason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSeason.swift; sourceTree = "<group>"; };
@@ -69,6 +69,7 @@
 		535643542424583600C96075 /* RealmAnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAnimeSeries.swift; sourceTree = "<group>"; };
 		5371F75D2435778B00D19B53 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53C740D225481D0200E6F397 /* SongActionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongActionPresenter.swift; sourceTree = "<group>"; };
 		53E3DCAD243BF465009796A4 /* DisplayAnimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAnimeViewController.swift; sourceTree = "<group>"; };
 		53E3DCAF243BF47F009796A4 /* AnimeSeasonTableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonTableCellViewModel.swift; sourceTree = "<group>"; };
 		53E3DCB1243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -87,11 +88,18 @@
 		53FFA5EB242450B100194B85 /* AnimusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FFA5EF242450B100194B85 /* AnimusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimusicUITests.swift; sourceTree = "<group>"; };
 		53FFA5F1242450B100194B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B685402D7980B0E8AC08569 /* Pods_AnimusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DF001CB6A29C17EA5E6B86 /* Pods-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSUITests/Pods-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		806752F908B1672B310E96EF /* Pods-AnimusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimusicTests.debug.xcconfig"; path = "Target Support Files/Pods-AnimusicTests/Pods-AnimusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85F711195F1698DB29C7B853 /* Pods-Animusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animusic.release.xcconfig"; path = "Target Support Files/Pods-Animusic/Pods-Animusic.release.xcconfig"; sourceTree = "<group>"; };
 		8A62C4EA7F4378766D71939B /* Pods-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSUITests/Pods-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9971F88C44A2F5C7703AFAA4 /* Pods-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSTests/Pods-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B46FF3A72D27EEB9AD574789 /* Pods_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FD04C750BB2C6226B02AFA /* Pods-AnimusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimusicTests.release.xcconfig"; path = "Target Support Files/Pods-AnimusicTests/Pods-AnimusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3A139FDA686E01EFFC0D24B /* Pods-Animusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animusic.debug.xcconfig"; path = "Target Support Files/Pods-Animusic/Pods-Animusic.debug.xcconfig"; sourceTree = "<group>"; };
+		BB644DD196B0CDD5BD30496F /* Pods_Animusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD86AFA91F6F4105EFE4FE3C /* Pods-AnimusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-AnimusicUITests/Pods-AnimusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C529D3C014A3D65CEC4830C5 /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.debug.xcconfig"; path = "Target Support Files/Pods-iOS/Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D77D5D040F23C577F1CB05F5 /* Pods-AnimusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimusicUITests.release.xcconfig"; path = "Target Support Files/Pods-AnimusicUITests/Pods-AnimusicUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E9A603FCD950EB78646F63AF /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49CEDD3A4AFE64FFAE874E85 /* Pods_iOS.framework in Frameworks */,
+				013FB2BCB358876BA78A792C /* Pods_Animusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D595484B4DF0D26E9573ADB2 /* Pods_iOSTests.framework in Frameworks */,
+				6C29707EFDB528FFEFFD77AC /* Pods_AnimusicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD17C824CAEB14C667B73AF /* Pods_iOSUITests.framework in Frameworks */,
+				4B07C849E90FD8EC31F61161 /* Pods_AnimusicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +140,12 @@
 				215F0CABE8E1BEEC61226ED8 /* Pods-iOSTests.release.xcconfig */,
 				75DF001CB6A29C17EA5E6B86 /* Pods-iOSUITests.debug.xcconfig */,
 				8A62C4EA7F4378766D71939B /* Pods-iOSUITests.release.xcconfig */,
+				B3A139FDA686E01EFFC0D24B /* Pods-Animusic.debug.xcconfig */,
+				85F711195F1698DB29C7B853 /* Pods-Animusic.release.xcconfig */,
+				806752F908B1672B310E96EF /* Pods-AnimusicTests.debug.xcconfig */,
+				99FD04C750BB2C6226B02AFA /* Pods-AnimusicTests.release.xcconfig */,
+				BD86AFA91F6F4105EFE4FE3C /* Pods-AnimusicUITests.debug.xcconfig */,
+				D77D5D040F23C577F1CB05F5 /* Pods-AnimusicUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -139,9 +153,9 @@
 		163FF79F1D8A43E089786B93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4EA192436CD9D54ACD21B486 /* Pods_iOS.framework */,
-				B46FF3A72D27EEB9AD574789 /* Pods_iOSTests.framework */,
-				315808D2830C559B226519E6 /* Pods_iOSUITests.framework */,
+				BB644DD196B0CDD5BD30496F /* Pods_Animusic.framework */,
+				6B685402D7980B0E8AC08569 /* Pods_AnimusicTests.framework */,
+				26D1F4ECD9A5E4AF51E9CDD3 /* Pods_AnimusicUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,6 +245,7 @@
 				53FFA5CF242450B000194B85 /* SceneDelegate.swift */,
 				534B7B3A2429869A002A3EAC /* Navigator.swift */,
 				5333451F2426F2260074C258 /* FirebaseStore.swift */,
+				53C740D225481D0200E6F397 /* SongActionPresenter.swift */,
 				53B11116243D5A57008980E5 /* DisplayAnime */,
 				5346916C2513092D00A94FE5 /* AnimeSeason */,
 				534B7B42242990A0002A3EAC /* AnimeSeries */,
@@ -404,15 +419,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSTests/Pods-iOSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AnimusicTests/Pods-AnimusicTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOSTests/Pods-iOSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AnimusicTests/Pods-AnimusicTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSTests/Pods-iOSTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimusicTests/Pods-AnimusicTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		53CF7E9224318A410053A904 /* ShellScript */ = {
@@ -447,7 +462,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AnimusicTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -469,7 +484,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Animusic-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -482,15 +497,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS/Pods-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Animusic/Pods-Animusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS/Pods-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Animusic/Pods-Animusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS/Pods-iOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animusic/Pods-Animusic-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E355C676927BA760A8CB5916 /* [CP] Check Pods Manifest.lock */ = {
@@ -508,7 +523,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOSUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AnimusicUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -534,6 +549,7 @@
 				5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */,
 				53123C4C242A02DA002897E8 /* AnimeSeriesViewModel.swift in Sources */,
 				53E3DCAE243BF465009796A4 /* DisplayAnimeViewController.swift in Sources */,
+				53C740D325481D0200E6F397 /* SongActionPresenter.swift in Sources */,
 				53E3DCB0243BF47F009796A4 /* AnimeSeasonTableCellViewModel.swift in Sources */,
 				53F046D9247A020500BAB661 /* AnimeSeasonTableCell.swift in Sources */,
 				53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */,
@@ -710,7 +726,7 @@
 		};
 		53FFA5F5242450B100194B85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C529D3C014A3D65CEC4830C5 /* Pods-iOS.debug.xcconfig */;
+			baseConfigurationReference = B3A139FDA686E01EFFC0D24B /* Pods-Animusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -731,7 +747,7 @@
 		};
 		53FFA5F6242450B100194B85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9A603FCD950EB78646F63AF /* Pods-iOS.release.xcconfig */;
+			baseConfigurationReference = 85F711195F1698DB29C7B853 /* Pods-Animusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -752,7 +768,7 @@
 		};
 		53FFA5F8242450B100194B85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9971F88C44A2F5C7703AFAA4 /* Pods-iOSTests.debug.xcconfig */;
+			baseConfigurationReference = 806752F908B1672B310E96EF /* Pods-AnimusicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -775,7 +791,7 @@
 		};
 		53FFA5F9242450B100194B85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 215F0CABE8E1BEEC61226ED8 /* Pods-iOSTests.release.xcconfig */;
+			baseConfigurationReference = 99FD04C750BB2C6226B02AFA /* Pods-AnimusicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -798,7 +814,7 @@
 		};
 		53FFA5FB242450B100194B85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75DF001CB6A29C17EA5E6B86 /* Pods-iOSUITests.debug.xcconfig */;
+			baseConfigurationReference = BD86AFA91F6F4105EFE4FE3C /* Pods-AnimusicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -819,7 +835,7 @@
 		};
 		53FFA5FC242450B100194B85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A62C4EA7F4378766D71939B /* Pods-iOSUITests.release.xcconfig */;
+			baseConfigurationReference = D77D5D040F23C577F1CB05F5 /* Pods-AnimusicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -14,7 +14,7 @@ import RxCocoa
 import RxDataSources
 import Kingfisher
 
-class AnimeSeriesViewController: UIViewController {
+class AnimeSeriesViewController: UIViewController, SongActionPresenter {
     // MARK: - Properties
     lazy var imageView: UIImageView = {
         var imageView = UIImageView()
@@ -89,7 +89,7 @@ class AnimeSeriesViewController: UIViewController {
             .subscribe(onNext: { item in
                 switch item {
                 case .DefaultSongItem(let song):
-                    self.presentActions(for: song)
+                    self.presentAlertController(vc: self, song: song)
                 }
             })
             .disposed(by: disposeBag)
@@ -137,59 +137,6 @@ class AnimeSeriesViewController: UIViewController {
         NSLayoutConstraint.activate(tableViewConstraints)
     }
 
-    // TODO: Update accessibility for UIAlertController
-    func presentActions(for song: RealmAnimeSong) {
-        let anime = viewModel.anime
-        let titleString = "\(anime.name ?? ""): \(song.name ?? "")"
-        let ac = UIAlertController(title: titleString, message: "", preferredStyle: .actionSheet)
-        if let popoverPresentationController = ac.popoverPresentationController {
-            popoverPresentationController.sourceView = self.view
-            popoverPresentationController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
-        }
-        var supportedSources = ["Spotify"]
-
-        for source in song.sources {
-            if let url = URL(string: String(source.externalUrl)) {
-                ac.addAction(UIAlertAction(title: "Open in \(source.source)", style: .default, handler: { _ in
-                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
-                }))
-
-                supportedSources.removeAll(where: { $0 == source.source })
-            } 
-        }
-        addGooglePlayAction(to: ac, songName: song.name, animeName: anime.name)
-        addYoutubeAction(to: ac, songName: song.name, animeName: anime.name)
-        ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
-        present(ac, animated: true)
-    }
-
-    // add an action that opens link to Google Play
-    func addGooglePlayAction(to ac: UIAlertController, songName: String!, animeName: String!) {
-        guard let songName = songName, let animeName = animeName else { return }
-        let formattedSongName = songName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
-        let formattedAnimeName = animeName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
-        let queryString = formattedSongName + "%20" + formattedAnimeName
-
-        if let url = URL(string: "https://play.google.com/store/search?q=\(queryString)&c=music&hl=en") {
-            ac.addAction(UIAlertAction(title: "Search google play", style: .default, handler: { _ in
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            }))
-        } else { print("could not get url for google play store\n\(queryString))")}
-    }
-
-    func addYoutubeAction(to ac: UIAlertController, songName: String!, animeName: String!) {
-        guard let songName = songName, let animeName = animeName else { return }
-        let formattedSongName = songName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
-        let formattedAnimeName = animeName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
-        let queryString = formattedSongName + "%20" + formattedAnimeName
-        // // MARK: - todo
-        // Get country code
-        if let url = URL(string: "https://www.youtube.com/results?search_query=\(queryString)") {
-            ac.addAction(UIAlertAction(title: "Search Youtube", style: .default, handler: { _ in
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            }))
-        } else { print("could not get url for Youtube\n\(queryString))")}
-    }
 }
 
 extension AnimeSeriesViewController: UITableViewDelegate {

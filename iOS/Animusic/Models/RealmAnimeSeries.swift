@@ -9,7 +9,9 @@
 import Foundation
 import RealmSwift
 
-class RealmAnimeSeries: Object, Decodable {
+protocol SearchResult {}
+
+class RealmAnimeSeries: Object, Decodable, SearchResult {
 
     @objc dynamic var id: String = ""
     @objc dynamic var name: String = ""
@@ -53,7 +55,7 @@ class RealmAnimeSeries: Object, Decodable {
     required init() {}
 }
 
-class RealmAnimeSong: Object, Decodable {
+class RealmAnimeSong: Object, Decodable, SearchResult {
     @objc dynamic var id: String = ""
     @objc dynamic var name: String = ""
     @objc dynamic var nameEnglish: String = ""
@@ -97,8 +99,6 @@ class RealmAnimeSong: Object, Decodable {
     }
 
     required init() {}
-
-
 
     // calculate the value for sorting based on relation and first ranges
     // TODO: Implement RealmAnimes.value() with non-optional values
@@ -154,7 +154,7 @@ class RealmSongSearchResult: Object, Decodable {
     @objc dynamic var URI: String = "" // link to spotify/apple music
     @objc dynamic var name: String = ""
     @objc dynamic var externalUrl: String = ""
-    @objc dynamic var source: String = ""
+    @objc dynamic var type: String = ""
 
     enum CodingKeys: String, CodingKey {
         case relation = "Relation"
@@ -162,7 +162,7 @@ class RealmSongSearchResult: Object, Decodable {
         case URI
         case name = "Name"
         case externalUrl = "ExternalUrl"
-        case source = "Source"
+        case type = "Source"
     }
 
 }

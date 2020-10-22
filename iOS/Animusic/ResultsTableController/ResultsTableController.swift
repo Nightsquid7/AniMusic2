@@ -12,34 +12,30 @@ import RealmSwift
 class ResultsTableController: UITableViewController {
 
     let realm = try! Realm()
-    var filteredAnimes: Results<RealmAnimeSeries>!
+    var searchResults: [SearchResult] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-         self.clearsSelectionOnViewWillAppear = true
-
-        filteredAnimes = realm.objects(RealmAnimeSeries.self)
+        clearsSelectionOnViewWillAppear = true
         tableView.register(ResultTableViewCell.self, forCellReuseIdentifier: "ResultTableViewCell")
     }
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return filteredAnimes.count
+        return searchResults.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "ResultTableViewCell", for: indexPath) as? ResultTableViewCell {
-            cell.configureCell(from: filteredAnimes[indexPath.row])
+            cell.configureCell(from: searchResults[indexPath.row])
             return cell
         }
 
         return UITableViewCell()
     }
 
-}
+}   

@@ -17,7 +17,7 @@ import RxDataSources
  The cells of the table view each contain a collection view,
  The cells of the collection view each contain an anime
 */
-class DiscoverAnimeViewController: UIViewController {
+class DiscoverAnimeViewController: UIViewController, SongActionPresenter {
 
     // MARK: - Properties
     var animeSeasonsTableView = UITableView()
@@ -57,7 +57,7 @@ class DiscoverAnimeViewController: UIViewController {
         searchController = UISearchController(searchResultsController: resultsTableController)
         searchController.searchResultsUpdater = self
         searchController.searchBar.autocapitalizationType = .none
-        searchController.searchBar.placeholder = "Search Animes"
+        searchController.searchBar.placeholder = "Search Animes, Songs, Artists"
         searchController.dimsBackgroundDuringPresentation = false
         searchController.searchBar.delegate = self
     }
@@ -111,14 +111,18 @@ extension DiscoverAnimeViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView === resultsTableController.tableView {
-            let selectedAnime = resultsTableController.filteredAnimes[indexPath.row]
-            self.navigator.show(segue: .animeSeriesViewController(anime: selectedAnime), sender: self)
+            let searchResult = resultsTableController.searchResults[indexPath.row]
+            if let anime = searchResult as? RealmAnimeSeries {
+                self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
+            } else if let song = searchResult as? RealmAnimeSong {
+                presentAlertController(vc: self, song: song)
+            }
         }
     }
 
      func  tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if tableView === resultsTableController.tableView { return 190 }
-        if tableView === self.animeSeasonsTableView { return self.animeSeasonViewHeight }
+        if tableView === self.animeSeasonsTableView { return animeSeasonViewHeight }
         return 0
     }
 
@@ -141,12 +145,22 @@ extension DiscoverAnimeViewController: UISearchBarDelegate {
 // MARK: - UISearchResultsUpdating
 extension DiscoverAnimeViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
-        let searchString = searchController.searchBar.text!
-        let namePredicate = NSPredicate(format: "name CONTAINS[c] %@", searchString)
-        let filteredAnimes = realm.objects(RealmAnimeSeries.self).filter(namePredicate)
+        guard let queryString = searchController.searchBar.text  else { return }
+
+        let byName = NSPredicate(format: "name CONTAINS[c] %@", queryString)
+        let nameEnglishNameAndArtists = "name CONTAINS[c] %@ || nameEnglish CONTAINS[c] %@ || ANY artists.name In %@"
+        let byNamesOrArtistName = NSPredicate(format: nameEnglishNameAndArtists, queryString, queryString, [queryString])
+
+        let matchingAnimes: [SearchResult] = realm.objects(RealmAnimeSeries.self)
+            .filter(byName)
+            .map { $0 }
+        let matchingSongs: [SearchResult] = realm.objects(RealmAnimeSong.self)
+            .filter(byNamesOrArtistName)
+            .map { $0 }
 
         if let resultsController = searchController.searchResultsController as? ResultsTableController {
-            resultsController.filteredAnimes = filteredAnimes
+            let searchResults: [SearchResult] = matchingAnimes + matchingSongs
+            resultsTableController.searchResults = searchResults
             resultsController.tableView.reloadData()
         }
     }
