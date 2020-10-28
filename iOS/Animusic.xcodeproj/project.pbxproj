@@ -27,6 +27,7 @@
 		53E3DCB2243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3DCB1243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift */; };
 		53F046D72479F0DB00BAB661 /* DisplayAnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F046D62479F0DB00BAB661 /* DisplayAnimeViewModel.swift */; };
 		53F046D9247A020500BAB661 /* AnimeSeasonTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F046D8247A020500BAB661 /* AnimeSeasonTableCell.swift */; };
+		53FDC40125490D0000DEE9E7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FDC40025490D0000DEE9E7 /* TabBarController.swift */; };
 		53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5CD242450B000194B85 /* AppDelegate.swift */; };
 		53FFA5D0242450B000194B85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFA5CF242450B000194B85 /* SceneDelegate.swift */; };
 		53FFA5D5242450B000194B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FFA5D3242450B000194B85 /* Main.storyboard */; };
@@ -76,6 +77,7 @@
 		53E92D6325411E17008083B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Info.plist; sourceTree = "<group>"; };
 		53F046D62479F0DB00BAB661 /* DisplayAnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAnimeViewModel.swift; sourceTree = "<group>"; };
 		53F046D8247A020500BAB661 /* AnimeSeasonTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonTableCell.swift; sourceTree = "<group>"; };
+		53FDC40025490D0000DEE9E7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		53FFA5CA242450B000194B85 /* AniMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FFA5CD242450B000194B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53FFA5CF242450B000194B85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				534B7B3A2429869A002A3EAC /* Navigator.swift */,
 				5333451F2426F2260074C258 /* FirebaseStore.swift */,
 				53C740D225481D0200E6F397 /* SongActionPresenter.swift */,
+				53FDC40025490D0000DEE9E7 /* TabBarController.swift */,
 				53B11116243D5A57008980E5 /* DisplayAnime */,
 				5346916C2513092D00A94FE5 /* AnimeSeason */,
 				534B7B42242990A0002A3EAC /* AnimeSeries */,
@@ -545,6 +548,7 @@
 				534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */,
 				5337E99D253964DA00CCD3E2 /* Realm+.swift in Sources */,
 				53E3DCB2243C0139009796A4 /* AnimeSeasonCollectionViewCell.swift in Sources */,
+				53FDC40125490D0000DEE9E7 /* TabBarController.swift in Sources */,
 				53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */,
 				5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */,
 				53123C4C242A02DA002897E8 /* AnimeSeriesViewModel.swift in Sources */,

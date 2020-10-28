@@ -18,19 +18,20 @@ class Navigator {
         case discoverAnimeViewController
         case animeListViewController
         case animeSeriesViewController(anime: RealmAnimeSeries)
-        case animeSongViewController
-        case songPlayerViewController(song: RealmAnimeSong, source: RealmSongSearchResult)
+        case tabBarController
     }
 
     func show(segue: Segue, sender: UIViewController) {
         switch segue {
+        case .tabBarController:
+            show(target: TabBarController.createWith(storyboard: defaultStoryboard), sender: sender)
         case .discoverAnimeViewController:
             show(target: DiscoverAnimeViewController.createWith(storyboard: defaultStoryboard), sender: sender)
         case .animeSeriesViewController(let anime):
             let viewModel = AnimeSeriesViewModel(with: anime)
             show(target: AnimeSeriesViewController.createWith(storyboard: defaultStoryboard, viewModel: viewModel), sender: sender)
         default:
-            print()
+            break
         }
     }
 
