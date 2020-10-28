@@ -58,7 +58,6 @@ class DiscoverAnimeViewController: UIViewController, SongActionPresenter {
         searchController.searchResultsUpdater = self
         searchController.searchBar.autocapitalizationType = .none
         searchController.searchBar.placeholder = "Search Animes, Songs, Artists"
-        searchController.dimsBackgroundDuringPresentation = false
         searchController.searchBar.delegate = self
     }
 
