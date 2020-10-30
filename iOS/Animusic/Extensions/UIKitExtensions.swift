@@ -47,39 +47,8 @@ extension UIImageView {
 // get stack view containing badges for every music source in either song or anime
 // from anime -> Get all sources from all songs
 // If source contains spotify, add a badge
-extension UIStackView {
-    func configureBadgeView(from searchResult: SearchResult) {
-        let sources: [RealmSongSearchResult]!
-        if let anime = searchResult as? RealmAnimeSeries {
-            sources = Array(anime.songs).flatMap { $0.sources }
-        } else if let song = searchResult as? RealmAnimeSong {
-            sources = Array(song.sources)
-        } else { return }
+class BadgeView {
+    var stackView = UIStackView()
 
-        guard sources.count > 0 else {
-            removeAllArrangedSubviews()
-            return }
-
-        self.axis = .horizontal
-        self.distribution = .equalSpacing
-        self.addBadges(from: sources)
-        return
-    }
-
-    private func addBadges(from sources: [RealmSongSearchResult]) {
-        let containsSpotify = sources.filter { $0.type == "Spotify" }.count > 0
-        if containsSpotify {
-            let spotifyBadge = UIImageView(image: UIImage(named: "Spotify_Icon_RGB_Green"))
-            spotifyBadge.contentMode = .scaleAspectFit
-            self.addArrangedSubview(spotifyBadge)
-        }
-
-        return
-    }
-
-    func removeAllArrangedSubviews() {
-        for subview in self.arrangedSubviews {
-            subview.removeFromSuperview()
-        }
-    }
 }
+

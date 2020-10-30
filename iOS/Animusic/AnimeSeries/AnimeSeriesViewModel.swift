@@ -52,4 +52,14 @@ class AnimeSeriesViewModel {
                 items: [.DefaultSongItem(song: song)])
         })
     }
+
+    @objc func setBookmarked() {
+        do {
+            try realm.write {
+                anime.bookmarked = !anime.bookmarked
+            }
+        } catch {
+            print(error)
+        }
+    }
 }

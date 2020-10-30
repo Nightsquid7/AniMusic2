@@ -25,8 +25,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "NavigationController")
 
         guard let rootViewController = window?.rootViewController else { return }
-
-        navigator.show(segue: .tabBarController, sender: rootViewController)
+        // go to first view ->
+        navigator.show(segue: .displayAnimeViewController, sender: rootViewController)
 
     }
 

@@ -26,7 +26,7 @@ extension RealmSeason {
     func titleString() -> String {
         return season + " " + year
     }
-    
+
     func databaseId() -> String {
         return season + "-" + year
     }

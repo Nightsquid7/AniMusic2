@@ -1,10 +1,3 @@
-//
-//  ResultTableViewCell.swift
-//  abseil
-//
-//  Created by Steven Berkowitz on 2020/05/13.
-//
-
 import UIKit
 
 class ResultTableViewCell: UITableViewCell {
@@ -17,6 +10,7 @@ class ResultTableViewCell: UITableViewCell {
     lazy var nameLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 3
+        label.lineBreakMode = .byWordWrapping
         return label
     }()
 
@@ -25,19 +19,16 @@ class ResultTableViewCell: UITableViewCell {
         return label
     }()
 
-    var musicSourcesBadgeView = UIStackView()
 
     func configureCell(from searchResult: SearchResult) {
+        selectionStyle = .none
         animeImage.translatesAutoresizingMaskIntoConstraints = false
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         seasonLabel.translatesAutoresizingMaskIntoConstraints = false
-        musicSourcesBadgeView.translatesAutoresizingMaskIntoConstraints = false
+
         contentView.addSubview(animeImage)
         contentView.addSubview(nameLabel)
         contentView.addSubview(seasonLabel)
-        contentView.addSubview(musicSourcesBadgeView)
-
-        musicSourcesBadgeView.configureBadgeView(from: searchResult)
 
         if let anime = searchResult as? RealmAnimeSeries {
             configureCell(from: anime)
@@ -48,56 +39,53 @@ class ResultTableViewCell: UITableViewCell {
         setConstraints()
     }
 
-    func configureCell(from anime: RealmAnimeSeries) {
+    fileprivate func configureCell(from anime: RealmAnimeSeries) {
         animeImage.setImage(for: anime)
         nameLabel.text = anime.name
         seasonLabel.text = anime.season + " " + anime.year
     }
 
-    func configureCell(from song: RealmAnimeSong) {
+    fileprivate func configureCell(from song: RealmAnimeSong) {
         animeImage.image = UIImage(systemName: "music.note")
         nameLabel.text = song.nameEnglish
-        seasonLabel.text = song.artists.first?.name ?? ""
+        seasonLabel.text = song.artists.first?.name
     }
+
+    let downOffset: CGFloat = 20
+    let upVertical: CGFloat = -20
+    let horizontalOffset: CGFloat = 10
+    let imageHeight: CGFloat = 150
+    let imageWidth: CGFloat = 112
 
     func setConstraints() {
         let animeImageConstraints = [
-            animeImage.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
-            animeImage.heightAnchor.constraint(equalToConstant: 150),
-            animeImage.widthAnchor.constraint(equalToConstant: 112),
-            animeImage.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20)
-        ]
-
-        // Position the labels next to the animeImage,
-        let nameLabelConstraints = [
-            nameLabel.bottomAnchor.constraint(equalTo: seasonLabel.topAnchor, constant: -20),
-            nameLabel.leadingAnchor.constraint(equalTo: animeImage.trailingAnchor, constant: 10),
-            nameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -5)
+            animeImage.topAnchor.constraint(equalTo: contentView.topAnchor, constant: downOffset),
+            animeImage.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: horizontalOffset),
+            animeImage.heightAnchor.constraint(equalToConstant: imageHeight),
+            animeImage.widthAnchor.constraint(equalToConstant: imageWidth),
         ]
 
         let seasonLabelConstraints = [
-            seasonLabel.bottomAnchor.constraint(equalTo: musicSourcesBadgeView.topAnchor, constant: -20),
-            seasonLabel.leadingAnchor.constraint(equalTo: animeImage.trailingAnchor, constant: 10)
+            seasonLabel.bottomAnchor.constraint(equalTo: animeImage.bottomAnchor),
+            seasonLabel.leadingAnchor.constraint(equalTo: animeImage.trailingAnchor, constant: horizontalOffset),
         ]
 
-        let musicSourcesBadgeViewConstraints = [
-            musicSourcesBadgeView.bottomAnchor.constraint(equalTo: animeImage.bottomAnchor),
-            musicSourcesBadgeView.leadingAnchor.constraint(equalTo: animeImage.trailingAnchor, constant: 10),
-            musicSourcesBadgeView.heightAnchor.constraint(equalToConstant: 30),
-            musicSourcesBadgeView.widthAnchor.constraint(equalToConstant: 30)
+        let nameLabelConstraints = [
+            nameLabel.bottomAnchor.constraint(equalTo: seasonLabel.topAnchor, constant: upVertical),
+            nameLabel.leadingAnchor.constraint(equalTo: animeImage.trailingAnchor, constant: horizontalOffset),
+            nameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: horizontalOffset)
+
         ]
 
         NSLayoutConstraint.activate(animeImageConstraints)
-        NSLayoutConstraint.activate(nameLabelConstraints)
         NSLayoutConstraint.activate(seasonLabelConstraints)
-        NSLayoutConstraint.activate(musicSourcesBadgeViewConstraints)
+        NSLayoutConstraint.activate(nameLabelConstraints)
     }
 
     override func prepareForReuse() {
         animeImage.image = UIImage()
         nameLabel.text = ""
         seasonLabel.text = ""
-        musicSourcesBadgeView.removeAllArrangedSubviews()
     }
 
 }

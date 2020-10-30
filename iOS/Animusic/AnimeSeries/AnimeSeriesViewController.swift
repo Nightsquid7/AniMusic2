@@ -34,6 +34,7 @@ class AnimeSeriesViewController: UIViewController, SongActionPresenter {
         let tableView = UITableView()
         return tableView
     }()
+    var bookmarkButton: UIBarButtonItem!
 
     var viewModel: AnimeSeriesViewModel!
     let navigator = Navigator.sharedInstance
@@ -49,13 +50,31 @@ class AnimeSeriesViewController: UIViewController, SongActionPresenter {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = viewModel.anime.name
+        setUpBookmarkButton()
         imageView.setImage(for: viewModel.anime)
-        seasonLabel.text = viewModel.anime.season
+        seasonLabel.text = "\(viewModel.anime.season) \(viewModel.anime.year)"
         formatLabel.text = viewModel.anime.format
         setUpTableView()
         setUpViewModelDataSource()
         setUpTableViewCellSelectedActions()
         setUpConstraints()
+    }
+
+    func setUpBookmarkButton() {
+        bookmarkButton = UIBarButtonItem(image: bookmarkButtonImage(), style: .plain, target: self, action: #selector(bookmarkButtonTapped))
+        navigationItem.rightBarButtonItems = [bookmarkButton]
+    }
+
+    @objc func bookmarkButtonTapped() {
+        viewModel.setBookmarked()
+        bookmarkButton.image = bookmarkButtonImage()
+    }
+
+    func bookmarkButtonImage() -> UIImage {
+        if viewModel.anime.bookmarked {
+            return UIImage(systemName: "bookmark.fill")!
+        }
+        return UIImage(systemName: "bookmark")!
     }
 
     func setUpTableView() {

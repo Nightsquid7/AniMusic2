@@ -8,3 +8,4 @@ disabled_rules:
   - force_try # try! Realm()
   - force_cast # static func createWith()  -> as? ViewController
   - todo
+  - trailing_comma

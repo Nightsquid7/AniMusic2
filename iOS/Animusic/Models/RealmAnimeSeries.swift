@@ -9,9 +9,19 @@
 import Foundation
 import RealmSwift
 
-protocol SearchResult {}
+protocol SearchResult {
+    func sourceCount() -> Int
+    func containsSpotify() -> Bool
+    func containsAppleMusic() -> Bool
+}
 
-class RealmAnimeSeries: Object, Decodable, SearchResult {
+extension SearchResult {
+    func sourceCount() -> Int {
+        return [containsSpotify(), containsAppleMusic()].filter { $0 == true }.count
+    }
+}
+
+class RealmAnimeSeries: Object, Decodable {
 
     @objc dynamic var id: String = ""
     @objc dynamic var name: String = ""
@@ -21,6 +31,7 @@ class RealmAnimeSeries: Object, Decodable, SearchResult {
     @objc dynamic var year: String = ""
     @objc dynamic var titleImageName: String = ""
     var songs = List<RealmAnimeSong>()
+    @objc dynamic var bookmarked: Bool = false
 
     enum CodingKeys: String, CodingKey {
         case id = "Id"
@@ -55,7 +66,17 @@ class RealmAnimeSeries: Object, Decodable, SearchResult {
     required init() {}
 }
 
-class RealmAnimeSong: Object, Decodable, SearchResult {
+extension RealmAnimeSeries: SearchResult {
+    func containsSpotify() -> Bool {
+        return songs.contains(where: {$0.containsSpotify()})
+    }
+    func containsAppleMusic() -> Bool {
+        return songs.contains(where: {$0.containsAppleMusic()})
+    }
+}
+
+class RealmAnimeSong: Object, Decodable {
+
     @objc dynamic var id: String = ""
     @objc dynamic var name: String = ""
     @objc dynamic var nameEnglish: String = ""
@@ -107,6 +128,16 @@ class RealmAnimeSong: Object, Decodable, SearchResult {
     }
 }
 
+
+extension RealmAnimeSong: SearchResult {
+    func containsSpotify() -> Bool {
+        return sources.filter { $0.type == "Spotify" }.count > 0
+    }
+    func containsAppleMusic() -> Bool {
+        return sources.filter { $0.type == "Apple Music"}.count > 0
+    }
+}
+
 enum Relation: String {
     case opening
     case insertSong = "insert song"
@@ -137,15 +168,6 @@ class RealmEpisodeRange: Object, Decodable {
         case start = "Start"
         case end = "End"
     }
-
-    required init(from decoder: Decoder) throws {
-        let values = try decoder.container(keyedBy: CodingKeys.self)
-        start = try values.decode(Int.self, forKey: .start)
-        end = try values.decode(Int.self, forKey: .end)
-    }
-
-    required init() {}
-
 }
 
 class RealmSongSearchResult: Object, Decodable {
@@ -165,6 +187,17 @@ class RealmSongSearchResult: Object, Decodable {
         case type = "Source"
     }
 
+    func containSpotify() -> Bool {
+        return type == "Spotify"
+    }
+    func containsAppleMusic() -> Bool {
+        return  type == "Apple Music"
+    }
+}
+
+enum SearchType: String {
+    case spotify = "Spotify"
+    case appleMusic = "Apple Music"
 }
 
 class RealmArtist: Object, Decodable {

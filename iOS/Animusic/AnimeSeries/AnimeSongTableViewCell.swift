@@ -27,58 +27,52 @@ class AnimeSongTableViewCell: UITableViewCell {
         return label
     }()
 
-    var musicSourcesBadgeView = UIStackView()
+
 
     func configureCell(from song: RealmAnimeSong) {
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         nameEnglishLabel.translatesAutoresizingMaskIntoConstraints = false
         artistLabel.translatesAutoresizingMaskIntoConstraints = false
 
-        musicSourcesBadgeView.configureBadgeView(from: song)
-        musicSourcesBadgeView.translatesAutoresizingMaskIntoConstraints = false
-
         contentView.addSubview(nameLabel)
         contentView.addSubview(nameEnglishLabel)
         contentView.addSubview(artistLabel)
-        contentView.addSubview(musicSourcesBadgeView)
 
-        nameLabel.text =  song.name ?? "No Song name found"
-        nameEnglishLabel.text = song.nameEnglish ?? "No English song name found"
-        // MARK: - todo Display multiple names
-        if song.artists.count > 0 {
-            artistLabel.text = song.artists[0].name ?? "No artist name found"
+
+        nameLabel.text =  song.name
+        nameEnglishLabel.text = song.nameEnglish
+        artistLabel.text = song.artists[0].name
+
+        if song.sourceCount() > 0 {
+            accessoryView = UIImageView(image: UIImage(systemName: "music.note"))
         }
+        
+        // MARK: TODO - rename constraint constants
+        let toTopNeighbor: CGFloat = 20
+        let toBottomNeighbor: CGFloat = 20
+        let toLeadingNeighbor: CGFloat = 20
+        let toTrailingNeighbor: CGFloat = -20
 
         let nameLabelConstraints = [
-            nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
-            nameLabel.bottomAnchor.constraint(equalTo: nameEnglishLabel.topAnchor, constant: -10),
-            nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-            nameLabel.trailingAnchor.constraint(equalTo: musicSourcesBadgeView.leadingAnchor, constant: -5)
-        ]
-
-        let musicSourcesBadgeViewConstraints = [
-            musicSourcesBadgeView.topAnchor.constraint(equalTo: nameLabel.topAnchor),
-            musicSourcesBadgeView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -7),
-            musicSourcesBadgeView.heightAnchor.constraint(equalToConstant: 30),
-            musicSourcesBadgeView.widthAnchor.constraint(equalToConstant: 30)
+            nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: toTopNeighbor),
+            nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: toLeadingNeighbor),
         ]
 
         let nameEnglishLabelConstraints = [
-            nameEnglishLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 10),
-            nameEnglishLabel.bottomAnchor.constraint(equalTo: artistLabel.topAnchor, constant: -10),
-            nameEnglishLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-            nameEnglishLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20)
+            nameEnglishLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: toBottomNeighbor),
+            nameEnglishLabel.bottomAnchor.constraint(equalTo: artistLabel.topAnchor, constant: -toTopNeighbor),
+            nameEnglishLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: toLeadingNeighbor),
+            nameEnglishLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: toTrailingNeighbor)
         ]
 
         let artistLabelConstraints = [
-            artistLabel.topAnchor.constraint(equalTo: nameEnglishLabel.bottomAnchor, constant: 10),
-            artistLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -20),
-            artistLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-            artistLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20)
+            artistLabel.topAnchor.constraint(equalTo: nameEnglishLabel.bottomAnchor, constant: toBottomNeighbor),
+            artistLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -toBottomNeighbor),
+            artistLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: toLeadingNeighbor),
+            artistLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: toTrailingNeighbor)
         ]
 
         NSLayoutConstraint.activate(nameLabelConstraints)
-        NSLayoutConstraint.activate(musicSourcesBadgeViewConstraints)
         NSLayoutConstraint.activate(nameEnglishLabelConstraints)
         NSLayoutConstraint.activate(artistLabelConstraints)
     }
@@ -86,6 +80,5 @@ class AnimeSongTableViewCell: UITableViewCell {
     override func prepareForReuse() {
         nameLabel.text = ""
         nameEnglishLabel.text = ""
-        musicSourcesBadgeView.removeAllArrangedSubviews()
     }
 }

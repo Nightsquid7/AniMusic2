@@ -1,11 +1,3 @@
-//
-//  DiscoverAnimeViewModel.swift
-//  iOS
-//
-//  Created by Steven Berkowitz on 2020/05/24.
-//  Copyright © 2020 nightsquid. All rights reserved.
-//
-
 import RealmSwift
 import RxSwift
 import RxDataSources
@@ -13,45 +5,63 @@ import RxDataSources
 class DisplayAnimeViewModel {
 
     // MARK: - Properties
-    var dataSource: RxTableViewSectionedReloadDataSource<DisplayAnimeSeasonViewSection>?
-    var sections = BehaviorSubject<[DisplayAnimeSeasonViewSection]>(value: [])
+    var dataSource: RxTableViewSectionedReloadDataSource<BookmarkedAnimeViewSection>!
+    var sections = BehaviorSubject<[BookmarkedAnimeViewSection]>(value: [])
 
     let realm = try! Realm()
     let disposeBag = DisposeBag()
-    let store = FirebaseStore.sharedInstance
+
+    var animes: Results<RealmAnimeSeries>
+
+    func showBookmarkedAnimes() {
+        animes = realm
+            .objects(RealmAnimeSeries.self)
+            .filter(NSPredicate(format: "bookmarked = true"))
+
+        sections.onNext( animes.map { BookmarkedAnimeViewSection(items: [$0]) })
+    }
 
     init() {
+        animes = realm
+            .objects(RealmAnimeSeries.self)
+            .filter(NSPredicate(format: "bookmarked = true"))
 
-        let allSeasons = Observable.collection(from: realm.objects(RealmSeason.self))
+        sections.onNext( animes.map { BookmarkedAnimeViewSection(items: [$0]) })
 
-        // wait until all animes are loaded
-        let filteredAnimesObservable = Observable.collection(from: realm.objects(RealmAnimeSeries.self))
-            .take(1)
+        dataSource = RxTableViewSectionedReloadDataSource<BookmarkedAnimeViewSection>(configureCell: { _, tableView, indexPath, item in
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ResultTableViewCell", for: indexPath) as! ResultTableViewCell
+            cell.configureCell(from: item)
+            return cell
+        })
+    }
 
-        // wait until all the animes have been loaded,
-        _ = Observable.combineLatest(filteredAnimesObservable, allSeasons)
-            .map { _, seasons in
-                // Then send each season to a DiscoverAnimeSeasonToSection
-                // -> display in DiscoverAnimeViewController AnimeSeasontableView
-                self.sections.onNext( seasons
-                    .sorted(byKeyPath: "season", ascending: false)
-                    .sorted(byKeyPath: "year", ascending: false)
-                    .map { season in
-                        DisplayAnimeSeasonViewSection(items: [season])
-                })
-            }
-            .subscribe()
-            .disposed(by: disposeBag)
+    func search(for queryString: String) {
+        let name = "name CONTAINS[c] %@"
+        let englishName = "nameEnglish CONTAINS[c] %@"
+        let artistNames = "ANY artists.name In %@"
+        let namesOrArtistNames = name + "||" + englishName + "||" + artistNames
 
+        let byName = NSPredicate(format: name, queryString)
+        let byNamesOrArtistNames = NSPredicate(format: namesOrArtistNames, queryString, queryString, [queryString])
+
+        let matchingAnimes: [SearchResult] = realm.objects(RealmAnimeSeries.self)
+            .filter(byName)
+            .map { $0 }
+        let matchingSongs: [SearchResult] = realm.objects(RealmAnimeSong.self)
+            .filter(byNamesOrArtistNames)
+            .map { $0 }
+        let results = matchingAnimes + matchingSongs
+
+        sections.onNext( results.map {  BookmarkedAnimeViewSection(items: [$0]) })
     }
 }
 
-struct DisplayAnimeSeasonViewSection {
-    var items: [RealmSeason]
+struct BookmarkedAnimeViewSection {
+    var items: [SearchResult]
 }
 
-extension DisplayAnimeSeasonViewSection: SectionModelType {
-    init(original: DisplayAnimeSeasonViewSection, items: [RealmSeason]) {
+extension BookmarkedAnimeViewSection: SectionModelType {
+    init(original: BookmarkedAnimeViewSection, items: [SearchResult]) {
         self = original
         self.items = items
     }

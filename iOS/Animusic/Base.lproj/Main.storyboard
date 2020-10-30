@@ -3,7 +3,7 @@
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,10 +22,10 @@
             </objects>
             <point key="canvasLocation" x="-1714" y="87"/>
         </scene>
-        <!--Item-->
+        <!--Display Anime View Controller-->
         <scene sceneID="0ao-DY-EMz">
             <objects>
-                <viewController storyboardIdentifier="DiscoverAnimeViewController" id="B2i-aH-3Io" customClass="DiscoverAnimeViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DisplayAnimeViewController" id="B2i-aH-3Io" customClass="DisplayAnimeViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PTk-91-6vF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
