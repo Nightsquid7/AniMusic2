@@ -15,6 +15,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/googleapis/gax-go v2.0.2+incompatible // indirect
 	github.com/kennygrant/sanitize v1.2.4 // indirect
+	github.com/minchao/go-apple-music v0.0.0-20200722000250-404383f1da5c
 	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
 	github.com/temoto/robotstxt v1.1.1 // indirect
 	github.com/zmb3/spotify v0.0.0-20200112163645-71a4c67d18db

@@ -7,6 +7,7 @@ import (
 	"animusic/internal/pkg/imagesync"
 	"animusic/internal/pkg/json"
 	"animusic/internal/pkg/spotify"
+	"animusic/internal/pkg/applemusic"
 	"animusic/internal/pkg/types"
 	"flag"
 	"fmt"
@@ -30,6 +31,7 @@ var musicSources []types.MusicSource
 var outputWriters []types.OutputWriter
 var spotifyClientID string
 var spotifyClientSecret string
+var appleMusicToken  string
 var seasonString string
 var season *types.Season
 var useCache bool
@@ -41,6 +43,7 @@ var firebaseSiteName string
 func init() {
 	flag.StringVar(&spotifyClientID, "sid", "", "Client Id for Spotify OAuth2 client")
 	flag.StringVar(&spotifyClientSecret, "ss", "", "Client Secret for Spotify OAuth2 client")
+	flag.StringVar(&appleMusicToken, "amt", "", "JWT token for Apple Music client")
 	flag.StringVar(&seasonString, "s", "", "Season string e.g. Winter 2020. Infers season from current date if not specified")
 	flag.BoolVar(&useCache, "cache", true, "Attempt to load anime data from local cache")
 	flag.StringVar(&firebaseCredPath, "firebaseCredPath", "", "Location of the services.json for Firebase (Enables the scraper to update Firestore database with the parsed data)")
@@ -170,7 +173,12 @@ func initializeMusicSources() {
 		sb.WriteString(" Spotify")
 	}
 
-	//TODO: Initialize Apple Music here
+	if len(appleMusicToken) != 0 {
+		appleMusicClient := animusic_applemusic.NewClient(appleMusicToken)
+		musicSources = append(musicSources, appleMusicClient)
+		sb.WriteString(" Apple Music")
+	}
+
 	fmt.Println(sb.String())
 }
 
@@ -186,11 +194,12 @@ func initializeOutputWriters() {
 			outputWriters = append(outputWriters, imagesync.CreateImageSyncWriter(firebaseCredPath, firebaseStorageBucket, firebaseSiteName))
 			sb.WriteString(" ImageSync")
 		}
-	}
 
-	if len(jsonWritePath) != 0 {
-		outputWriters = append(outputWriters, json.CreateNewJsonWriter(jsonWritePath))
-		sb.WriteString(" Json")
+		if len(jsonWritePath) != 0 {
+			outputWriters = append(outputWriters, json.CreateNewJsonWriter(jsonWritePath))
+			sb.WriteString(" Json")
+		}
 	}
 	fmt.Println(sb.String())
 }
+ 

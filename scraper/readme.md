@@ -16,7 +16,9 @@ Supply the id and secret to the Anime Scraper using the `-sid` and `-ss` switche
 
 ### Enabling Apple Music
 
-TBD
+Apple Music search requires an Apple Developer account. Create a MusicKit key, and use that key to generate a jwt token. [here] (https://help.apple.com/developer-account/#/devce55226740)
+
+Supply the Apple Music token to the Anime Scraper using the `-amt` switch.
 
 ## Configuring Output Writers
 
