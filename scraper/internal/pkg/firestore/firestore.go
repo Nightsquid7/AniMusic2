@@ -35,24 +35,29 @@ func (f *Writer) Output(animeSeries []types.AnimeSeries, season types.Season) {
 		if len(anime.Songs) == 0 {
 			continue
 		}
-
+		
 		ref := firestore.Collection(season.String()).Doc(anime.Id)
-		currentBatch.Create(ref, anime)
+		currentBatch.Set(ref, anime)
 	}
 
-	
-	seasonEntry := types.NewSeasonEntryFromSeasonWithCount(season, len(animeSeries))
-	fmt.Println("Writing season to SeasonsList -> ", seasonEntry)
-	_, err := firestore.Collection("Seasons-List").Doc(season.String()).Set(context.Background(), seasonEntry)
-	
-	if err != nil {
-		fmt.Println("error writing entry to Seasons-List: ", err)
-	}
-	fmt.Println("wrote to Seasons-List")
 	
 
 	for _, batch := range batches {
-		batch.Commit(context.Background())
+		result, err := batch.Commit(context.Background())
+		if err != nil {
+			fmt.Println("err", err)
+			os.Exit(1)
+		}
+
+		seasonEntry := types.NewSeasonEntryFromSeasonWithCount(season, len(animeSeries))
+		_, err = firestore.Collection("Seasons-List").Doc(season.String()).Set(context.Background(), seasonEntry)
+		
+		if err != nil {
+			fmt.Println("error writing entry to Seasons-List: ", err)
+		}
+		fmt.Println("wrote to Seasons-List", seasonEntry)
+		
+		fmt.Println("result: ", result)
 	}
 }
 
