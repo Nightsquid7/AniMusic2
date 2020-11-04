@@ -1,0 +1,4661 @@
+{
+	"13973": {
+		"id": "13973",
+		"name": "Lapis Re:Lights",
+		"titleImageName": "247259.jpg",
+		"ref": "http://anidb.net/anime/13973",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104431",
+				"animeId": "13973",
+				"name": "私たちのSTARTRAIL",
+				"nameEn": "Watashitachi no Startrail",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 7
+					},
+					{
+						"start": 9,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60843",
+						"songId": "104431",
+						"relation": "opening",
+						"name": "ラピスリライツ・スターズ",
+						"nameEn": "Lapis Re:Lights Stars",
+						"ref": "http://anidb.net/creator/60843"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104431"
+			},
+			{
+				"id": "104432",
+				"animeId": "13973",
+				"name": "プラネタリウム",
+				"nameEn": "Planetarium",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 5
+					},
+					{
+						"start": 7,
+						"end": 9
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60841",
+						"songId": "104432",
+						"relation": "ending",
+						"name": "LiGHTs",
+						"nameEn": "Lights",
+						"ref": "http://anidb.net/creator/60841"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104432"
+			},
+			{
+				"id": "104618",
+				"animeId": "13973",
+				"name": "Midnight Sapphire",
+				"nameEn": "Midnight Sapphire",
+				"ranges": [
+					{
+						"start": 6,
+						"end": 6
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "399440",
+						"songId": "104618",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "IV KLORE",
+						"ref": "http://anidb.net/creator/virtual/399440"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104618"
+			},
+			{
+				"id": "104736",
+				"animeId": "13973",
+				"name": "私の名は, 光.",
+				"nameEn": "Watashi no Na wa, Hikari.",
+				"ranges": [
+					{
+						"start": 10,
+						"end": 10
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60841",
+						"songId": "104736",
+						"relation": "ending",
+						"name": "LiGHTs",
+						"nameEn": "Lights",
+						"ref": "http://anidb.net/creator/60841"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104736"
+			},
+			{
+				"id": "104840",
+				"animeId": "13973",
+				"name": "A.R.I.A",
+				"nameEn": "Aria",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60841",
+						"songId": "104840",
+						"relation": "ending",
+						"name": "LiGHTs",
+						"nameEn": "Lights",
+						"ref": "http://anidb.net/creator/60841"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104840"
+			},
+			{
+				"id": "104566",
+				"animeId": "13973",
+				"name": "アオノショウドウ",
+				"nameEn": "Ao no Shoudou",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "398188",
+						"songId": "104566",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "supernova",
+						"ref": "http://anidb.net/creator/virtual/398188"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104566"
+			},
+			{
+				"id": "104568",
+				"animeId": "13973",
+				"name": "からくれ*ナイトフィーバー",
+				"nameEn": "Karakure * Night Fever",
+				"ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "398236",
+						"songId": "104568",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "この花は乙女",
+						"ref": "http://anidb.net/creator/virtual/398236"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104568"
+			},
+			{
+				"id": "104617",
+				"animeId": "13973",
+				"name": "ポジティブ★パラダイス",
+				"nameEn": "Positive Paradise",
+				"ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "399431",
+						"songId": "104617",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Sadistic★Candy",
+						"ref": "http://anidb.net/creator/virtual/399431"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104617"
+			},
+			{
+				"id": "104633",
+				"animeId": "13973",
+				"name": "わがままキャラメリゼ",
+				"nameEn": "Wagamama Caramelize",
+				"ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61825",
+						"songId": "104633",
+						"relation": "insert song",
+						"name": "シュガーポケッツ",
+						"nameEn": "Sugar Pockets",
+						"ref": "http://anidb.net/creator/61825"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104633"
+			},
+			{
+				"id": "104735",
+				"animeId": "13973",
+				"name": "700,000,000,000,000,000,000,000の空で",
+				"nameEn": "700,000,000,000,000,000,000,000 no Sora de",
+				"ranges": [
+					{
+						"start": 8,
+						"end": 8
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60841",
+						"songId": "104735",
+						"relation": "insert song",
+						"name": "LiGHTs",
+						"nameEn": "Lights",
+						"ref": "http://anidb.net/creator/60841"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104735"
+			},
+			{
+				"id": "104826",
+				"animeId": "13973",
+				"name": "Are Many Chance!!!",
+				"nameEn": "Are Many Chance!!!",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "402246",
+						"songId": "104826",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Sadistic★Candy",
+						"ref": "http://anidb.net/creator/virtual/402246"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104826"
+			},
+			{
+				"id": "104831",
+				"animeId": "13973",
+				"name": "シャノワール",
+				"nameEn": "Chat Noir",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61825",
+						"songId": "104831",
+						"relation": "insert song",
+						"name": "シュガーポケッツ",
+						"nameEn": "Sugar Pockets",
+						"ref": "http://anidb.net/creator/61825"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104831"
+			},
+			{
+				"id": "104839",
+				"animeId": "13973",
+				"name": "HYBRID",
+				"nameEn": "Hybrid",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "62224",
+						"songId": "104839",
+						"relation": "insert song",
+						"name": "Ray",
+						"nameEn": "Ray",
+						"ref": "http://anidb.net/creator/62224"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104839"
+			},
+			{
+				"id": "104827",
+				"animeId": "13973",
+				"name": "いのち短し, 繚乱乙女",
+				"nameEn": "Inochi Mijikashi, Ryouran Otome",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "402248",
+						"songId": "104827",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "この花は乙女",
+						"ref": "http://anidb.net/creator/virtual/402248"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104827"
+			},
+			{
+				"id": "104833",
+				"animeId": "13973",
+				"name": "Kinki no Märchen",
+				"nameEn": "Kinki no Marchen",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "402256",
+						"songId": "104833",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "IV KLORE",
+						"ref": "http://anidb.net/creator/virtual/402256"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104833"
+			},
+			{
+				"id": "104836",
+				"animeId": "13973",
+				"name": "RISE",
+				"nameEn": "Rise",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "402260",
+						"songId": "104836",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "supernova",
+						"ref": "http://anidb.net/creator/virtual/402260"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104836"
+			},
+			{
+				"id": "104837",
+				"animeId": "13973",
+				"name": "Your Lights",
+				"nameEn": "Your Lights",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60841",
+						"songId": "104837",
+						"relation": "insert song",
+						"name": "LiGHTs",
+						"nameEn": "Lights",
+						"ref": "http://anidb.net/creator/60841"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104837"
+			}
+		]
+	},
+	"14013": {
+		"id": "14013",
+		"name": "Gekijouban Violet Evergarden",
+		"titleImageName": "245073.jpg",
+		"ref": "http://anidb.net/anime/14013",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "103905",
+				"animeId": "14013",
+				"name": "WILL",
+				"nameEn": "Will",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "39967",
+						"songId": "103905",
+						"relation": "theme song",
+						"name": "TRUE",
+						"nameEn": "True",
+						"ref": "http://anidb.net/creator/39967"
+					}
+				],
+				"relation": "theme song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103905"
+			},
+			{
+				"id": "104966",
+				"animeId": "14013",
+				"name": "未来のひとへ ～Orchestra ver.～",
+				"nameEn": "Mirai no Hito e (Orchestra Ver.)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "39967",
+						"songId": "104966",
+						"relation": "ending",
+						"name": "TRUE",
+						"nameEn": "True",
+						"ref": "http://anidb.net/creator/39967"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104966"
+			},
+			{
+				"id": "104967",
+				"animeId": "14013",
+				"name": "みちしるべ ～Movie Version～",
+				"nameEn": "Michishirube (Movie Version)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "245",
+						"songId": "104967",
+						"relation": "insert song",
+						"name": "茅原実里",
+						"nameEn": "Chihara Minori",
+						"ref": "http://anidb.net/creator/245"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104967"
+			}
+		]
+	},
+	"14537": {
+		"id": "14537",
+		"name": "Umayon",
+		"titleImageName": "248262.jpg",
+		"ref": "http://anidb.net/anime/14537",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104597",
+				"animeId": "14537",
+				"name": "ぴょいっと♪はれるや!",
+				"nameEn": "Pyoitto Hallelujah!",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 4
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "41766",
+						"songId": "104597",
+						"relation": "ending",
+						"name": "鬼頭明里",
+						"nameEn": "Kitou Akari",
+						"ref": "http://anidb.net/creator/41766"
+					},
+					{
+						"id": "29667",
+						"songId": "104597",
+						"relation": "ending",
+						"name": "前田玲奈",
+						"nameEn": "Maeda Rena",
+						"ref": "http://anidb.net/creator/29667"
+					},
+					{
+						"id": "55415",
+						"songId": "104597",
+						"relation": "ending",
+						"name": "佐伯伊織",
+						"nameEn": "Saeki Iori",
+						"ref": "http://anidb.net/creator/55415"
+					},
+					{
+						"id": "33633",
+						"songId": "104597",
+						"relation": "ending",
+						"name": "高橋未奈美",
+						"nameEn": "Takahashi Minami",
+						"ref": "http://anidb.net/creator/33633"
+					},
+					{
+						"id": "42471",
+						"songId": "104597",
+						"relation": "ending",
+						"name": "和氣あず未",
+						"nameEn": "Waki Azumi",
+						"ref": "http://anidb.net/creator/42471"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104597"
+			},
+			{
+				"id": "104598",
+				"animeId": "14537",
+				"name": "Ring Ring ダイアリー",
+				"nameEn": "Ring Ring Diary",
+				"ranges": [
+					{
+						"start": 5,
+						"end": 8
+					}
+				],
+				"classification": "ED2",
+				"artists": [
+					{
+						"id": "34427",
+						"songId": "104598",
+						"relation": "ending",
+						"name": "青木瑠璃子",
+						"nameEn": "Aoki Ruriko",
+						"ref": "http://anidb.net/creator/34427"
+					},
+					{
+						"id": "41848",
+						"songId": "104598",
+						"relation": "ending",
+						"name": "Machico",
+						"nameEn": "Machico",
+						"ref": "http://anidb.net/creator/41848"
+					},
+					{
+						"id": "34361",
+						"songId": "104598",
+						"relation": "ending",
+						"name": "松井恵理子",
+						"nameEn": "Matsui Eriko",
+						"ref": "http://anidb.net/creator/34361"
+					},
+					{
+						"id": "33509",
+						"songId": "104598",
+						"relation": "ending",
+						"name": "田所あずさ",
+						"nameEn": "Tadokoro Azusa",
+						"ref": "http://anidb.net/creator/33509"
+					},
+					{
+						"id": "578",
+						"songId": "104598",
+						"relation": "ending",
+						"name": "高橋さや",
+						"nameEn": "Tatsumi Yuiko",
+						"ref": "http://anidb.net/creator/578"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104598"
+			},
+			{
+				"id": "104759",
+				"animeId": "14537",
+				"name": "逃げ切りっ! Fallin` Love",
+				"nameEn": "Nigekiri! Fallin` Love",
+				"ranges": [
+					{
+						"start": 9,
+						"end": 10
+					}
+				],
+				"classification": "ED3",
+				"artists": [
+					{
+						"id": "53526",
+						"songId": "104759",
+						"relation": "ending",
+						"name": "長谷川育美",
+						"nameEn": "Hasegawa Ikumi",
+						"ref": "http://anidb.net/creator/53526"
+					},
+					{
+						"id": "39199",
+						"songId": "104759",
+						"relation": "ending",
+						"name": "高野麻里佳",
+						"nameEn": "Kouno Marika",
+						"ref": "http://anidb.net/creator/39199"
+					},
+					{
+						"id": "34901",
+						"songId": "104759",
+						"relation": "ending",
+						"name": "Lynn",
+						"nameEn": "Lynn",
+						"ref": "http://anidb.net/creator/34901"
+					},
+					{
+						"id": "51895",
+						"songId": "104759",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Mineuchi Tomomi",
+						"ref": "http://anidb.net/creator/51895"
+					},
+					{
+						"id": "37977",
+						"songId": "104759",
+						"relation": "ending",
+						"name": "大和田仁美",
+						"nameEn": "Oowada Hitomi",
+						"ref": "http://anidb.net/creator/37977"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104759"
+			}
+		]
+	},
+	"14746": {
+		"id": "14746",
+		"name": "Dragon`s Dogma",
+		"titleImageName": "251659.jpg",
+		"ref": "http://anidb.net/anime/14746",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"14764": {
+		"id": "14764",
+		"name": "Yahari Ore no Seishun LoveCome wa Machigatte Iru. Kan",
+		"titleImageName": "248007.jpg",
+		"ref": "http://anidb.net/anime/14764",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104316",
+				"animeId": "14764",
+				"name": "芽ぐみの雨",
+				"nameEn": "Megumi no Ame",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 10
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "29595",
+						"songId": "104316",
+						"relation": "opening",
+						"name": "nagi",
+						"nameEn": "Yanagi Nagi",
+						"ref": "http://anidb.net/creator/29595"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104316"
+			},
+			{
+				"id": "104317",
+				"animeId": "14764",
+				"name": "ダイヤモンドの純度",
+				"nameEn": "Diamond no Jundo",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 3
+					},
+					{
+						"start": 5,
+						"end": 9
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "2296",
+						"songId": "104317",
+						"relation": "ending",
+						"name": "早見沙織",
+						"nameEn": "Hayami Saori",
+						"ref": "http://anidb.net/creator/2296"
+					},
+					{
+						"id": "21312",
+						"songId": "104317",
+						"relation": "ending",
+						"name": "東山奈央",
+						"nameEn": "Touyama Nao",
+						"ref": "http://anidb.net/creator/21312"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104317"
+			},
+			{
+				"id": "104613",
+				"animeId": "14764",
+				"name": "ダイヤモンドの純度~Yui Ballade~",
+				"nameEn": "Diamond no Jundo (Yui Ballade)",
+				"ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "21312",
+						"songId": "104613",
+						"relation": "ending",
+						"name": "東山奈央",
+						"nameEn": "Touyama Nao",
+						"ref": "http://anidb.net/creator/21312"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104613"
+			},
+			{
+				"id": "104790",
+				"animeId": "14764",
+				"name": "ダイヤモンドの純度~Yukino Ballade~",
+				"nameEn": "Diamond no Jundo (Yukino Ballade)",
+				"ranges": [
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "2296",
+						"songId": "104790",
+						"relation": "ending",
+						"name": "早見沙織",
+						"nameEn": "Hayami Saori",
+						"ref": "http://anidb.net/creator/2296"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104790"
+			},
+			{
+				"id": "58208",
+				"animeId": "14764",
+				"name": "ユキトキ",
+				"nameEn": "Yuki Toki",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "29595",
+						"songId": "58208",
+						"relation": "ending",
+						"name": "nagi",
+						"nameEn": "Yanagi Nagi",
+						"ref": "http://anidb.net/creator/29595"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/58208"
+			},
+			{
+				"id": "61058",
+				"animeId": "14764",
+				"name": "Bitter Bitter Sweet",
+				"nameEn": "Bitter Bitter Sweet",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "2296",
+						"songId": "61058",
+						"relation": "insert song",
+						"name": "早見沙織",
+						"nameEn": "Hayami Saori",
+						"ref": "http://anidb.net/creator/2296"
+					},
+					{
+						"id": "21312",
+						"songId": "61058",
+						"relation": "insert song",
+						"name": "東山奈央",
+						"nameEn": "Touyama Nao",
+						"ref": "http://anidb.net/creator/21312"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/61058"
+			}
+		]
+	},
+	"14792": {
+		"id": "14792",
+		"name": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+		"titleImageName": "248254.jpg",
+		"ref": "http://anidb.net/anime/14792",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104213",
+				"animeId": "14792",
+				"name": "Realize",
+				"nameEn": "Realize",
+				"ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "31768",
+						"songId": "104213",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "Suzuki Konomi",
+						"ref": "http://anidb.net/creator/31768"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104213"
+			},
+			{
+				"id": "104213",
+				"animeId": "14792",
+				"name": "Realize",
+				"nameEn": "Realize",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "31768",
+						"songId": "104213",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Suzuki Konomi",
+						"ref": "http://anidb.net/creator/31768"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104213"
+			},
+			{
+				"id": "104214",
+				"animeId": "14792",
+				"name": "Memento",
+				"nameEn": "Memento",
+				"ranges": [
+					{
+						"start": 3,
+						"end": 4
+					},
+					{
+						"start": 6,
+						"end": 7
+					},
+					{
+						"start": 9,
+						"end": 11
+					}
+				],
+				"classification": "ED2",
+				"artists": [
+					{
+						"id": "56849",
+						"songId": "104214",
+						"relation": "ending",
+						"name": "nonoc",
+						"nameEn": "Nonoc",
+						"ref": "http://anidb.net/creator/56849"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104214"
+			}
+		]
+	},
+	"14827": {
+		"id": "14827",
+		"name": "Houkago Teibou Nisshi",
+		"titleImageName": "243858.jpg",
+		"ref": "http://anidb.net/anime/14827",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "103979",
+				"animeId": "14827",
+				"name": "SEA HORIZON",
+				"nameEn": "Sea Horizon",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "1511",
+						"songId": "103979",
+						"relation": "opening",
+						"name": "明坂聡美",
+						"nameEn": "Akesaka Satomi",
+						"ref": "http://anidb.net/creator/1511"
+					},
+					{
+						"id": "56125",
+						"songId": "103979",
+						"relation": "opening",
+						"name": "川井田夏海",
+						"nameEn": "Kawaida Natsumi",
+						"ref": "http://anidb.net/creator/56125"
+					},
+					{
+						"id": "52438",
+						"songId": "103979",
+						"relation": "opening",
+						"name": "篠原侑",
+						"nameEn": "Sasahara Yuu",
+						"ref": "http://anidb.net/creator/52438"
+					},
+					{
+						"id": "43732",
+						"songId": "103979",
+						"relation": "opening",
+						"name": "高尾奏音",
+						"nameEn": "Takao Kanon",
+						"ref": "http://anidb.net/creator/43732"
+					},
+					{
+						"id": "60202",
+						"songId": "103979",
+						"relation": "opening",
+						"name": "海野高校ていぼう部",
+						"nameEn": "Umino Koukou Teibou Bu",
+						"ref": "http://anidb.net/creator/60202"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103979"
+			},
+			{
+				"id": "103978",
+				"animeId": "14827",
+				"name": "釣りの世界へ",
+				"nameEn": "Tsuri no Sekai e",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "1511",
+						"songId": "103978",
+						"relation": "ending",
+						"name": "明坂聡美",
+						"nameEn": "Akesaka Satomi",
+						"ref": "http://anidb.net/creator/1511"
+					},
+					{
+						"id": "56125",
+						"songId": "103978",
+						"relation": "ending",
+						"name": "川井田夏海",
+						"nameEn": "Kawaida Natsumi",
+						"ref": "http://anidb.net/creator/56125"
+					},
+					{
+						"id": "52438",
+						"songId": "103978",
+						"relation": "ending",
+						"name": "篠原侑",
+						"nameEn": "Sasahara Yuu",
+						"ref": "http://anidb.net/creator/52438"
+					},
+					{
+						"id": "43732",
+						"songId": "103978",
+						"relation": "ending",
+						"name": "高尾奏音",
+						"nameEn": "Takao Kanon",
+						"ref": "http://anidb.net/creator/43732"
+					},
+					{
+						"id": "60202",
+						"songId": "103978",
+						"relation": "ending",
+						"name": "海野高校ていぼう部",
+						"nameEn": "Umino Koukou Teibou Bu",
+						"ref": "http://anidb.net/creator/60202"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103978"
+			}
+		]
+	},
+	"14883": {
+		"id": "14883",
+		"name": "Omoi, Omoware, Furi, Furare",
+		"titleImageName": "241936.jpg",
+		"ref": "http://anidb.net/anime/14883",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"14953": {
+		"id": "14953",
+		"name": "Muhyo to Roji no Mahouritsu Soudan Jimusho (2020)",
+		"titleImageName": "244863.jpg",
+		"ref": "http://anidb.net/anime/14953",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104326",
+				"animeId": "14953",
+				"name": "イノチノアカシ",
+				"nameEn": "Inochi no Akashi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "32347",
+						"songId": "104326",
+						"relation": "opening",
+						"name": "伊作梨南",
+						"nameEn": "ZAQ",
+						"ref": "http://anidb.net/creator/32347"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104326"
+			},
+			{
+				"id": "104327",
+				"animeId": "14953",
+				"name": "Proud Days",
+				"nameEn": "Proud Days",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "60262",
+						"songId": "104327",
+						"relation": "ending",
+						"name": "NOW ON AIR",
+						"nameEn": "Now on Air",
+						"ref": "http://anidb.net/creator/60262"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104327"
+			}
+		]
+	},
+	"14984": {
+		"id": "14984",
+		"name": "Eiga Doraemon: Nobita no Shin Kyouryuu",
+		"titleImageName": "249972.jpg",
+		"ref": "http://anidb.net/anime/14984",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"14990": {
+		"id": "14990",
+		"name": "Great Pretender",
+		"titleImageName": "247176.jpg",
+		"ref": "http://anidb.net/anime/14990",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104284",
+				"animeId": "14990",
+				"name": "G.P.",
+				"nameEn": "G.P.",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "40358",
+						"songId": "104284",
+						"relation": "opening",
+						"name": "やまだ豊",
+						"nameEn": "Yamada Yutaka",
+						"ref": "http://anidb.net/creator/40358"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104284"
+			},
+			{
+				"id": "104285",
+				"animeId": "14990",
+				"name": "The Great Pretender",
+				"nameEn": "The Great Pretender",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "21123",
+						"songId": "104285",
+						"relation": "ending",
+						"name": "フレディ・マーキュリー",
+						"nameEn": "Freddie Mercury",
+						"ref": "http://anidb.net/creator/21123"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104285"
+			},
+			{
+				"id": "104563",
+				"animeId": "14990",
+				"name": "Brand New Bang",
+				"nameEn": "Brand New Bang",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 4
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "58853",
+						"songId": "104563",
+						"relation": "insert song",
+						"name": "YVY",
+						"nameEn": "YVY",
+						"ref": "http://anidb.net/creator/58853"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104563"
+			},
+			{
+				"id": "104564",
+				"animeId": "14990",
+				"name": "Wanna Be Free",
+				"nameEn": "Wanna Be Free",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					},
+					{
+						"start": 3,
+						"end": 4
+					},
+					{
+						"start": 6,
+						"end": 7
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "58853",
+						"songId": "104564",
+						"relation": "insert song",
+						"name": "YVY",
+						"nameEn": "YVY",
+						"ref": "http://anidb.net/creator/58853"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104564"
+			},
+			{
+				"id": "104561",
+				"animeId": "14990",
+				"name": "On the Move",
+				"nameEn": "On the Move",
+				"ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "58853",
+						"songId": "104561",
+						"relation": "insert song",
+						"name": "YVY",
+						"nameEn": "YVY",
+						"ref": "http://anidb.net/creator/58853"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104561"
+			},
+			{
+				"id": "104565",
+				"animeId": "14990",
+				"name": "動物の謝肉祭",
+				"nameEn": "Doubutsu no Shanikusai",
+				"ranges": [
+					{
+						"start": 9,
+						"end": 9
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "41108",
+						"songId": "104565",
+						"relation": "insert song",
+						"name": "Charles Camille Saint-Saëns",
+						"nameEn": "Charles Camille Saint-Saens",
+						"ref": "http://anidb.net/creator/41108"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104565"
+			},
+			{
+				"id": "104560",
+				"animeId": "14990",
+				"name": "Our Love",
+				"nameEn": "Our Love",
+				"ranges": [
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "58853",
+						"songId": "104560",
+						"relation": "insert song",
+						"name": "YVY",
+						"nameEn": "YVY",
+						"ref": "http://anidb.net/creator/58853"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104560"
+			},
+			{
+				"id": "104562",
+				"animeId": "14990",
+				"name": "Someday",
+				"nameEn": "Someday",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 14
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "58853",
+						"songId": "104562",
+						"relation": "insert song",
+						"name": "YVY",
+						"nameEn": "YVY",
+						"ref": "http://anidb.net/creator/58853"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104562"
+			}
+		]
+	},
+	"14994": {
+		"id": "14994",
+		"name": "Deca-Dence",
+		"titleImageName": "247378.jpg",
+		"ref": "http://anidb.net/anime/14994",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104306",
+				"animeId": "14994",
+				"name": "Theater of Life",
+				"nameEn": "Theater of Life",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "31768",
+						"songId": "104306",
+						"relation": "opening",
+						"name": "鈴木このみ",
+						"nameEn": "Suzuki Konomi",
+						"ref": "http://anidb.net/creator/31768"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104306"
+			},
+			{
+				"id": "104306",
+				"animeId": "14994",
+				"name": "Theater of Life",
+				"nameEn": "Theater of Life",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "31768",
+						"songId": "104306",
+						"relation": "ending",
+						"name": "鈴木このみ",
+						"nameEn": "Suzuki Konomi",
+						"ref": "http://anidb.net/creator/31768"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104306"
+			},
+			{
+				"id": "104307",
+				"animeId": "14994",
+				"name": "記憶の箱舟",
+				"nameEn": "Kioku no Hakobune",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "49432",
+						"songId": "104307",
+						"relation": "ending",
+						"name": "伊東歌詞太郎",
+						"nameEn": "Itou Kashitarou",
+						"ref": "http://anidb.net/creator/49432"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104307"
+			},
+			{
+				"id": "104306",
+				"animeId": "14994",
+				"name": "Theater of Life",
+				"nameEn": "Theater of Life",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "31768",
+						"songId": "104306",
+						"relation": "insert song",
+						"name": "鈴木このみ",
+						"nameEn": "Suzuki Konomi",
+						"ref": "http://anidb.net/creator/31768"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104306"
+			}
+		]
+	},
+	"15001": {
+		"id": "15001",
+		"name": "Gibiate",
+		"titleImageName": "248781.jpg",
+		"ref": "http://anidb.net/anime/15001",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104497",
+				"animeId": "15001",
+				"name": "GIBIATE",
+				"nameEn": "Gibiate",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "47015",
+						"songId": "104497",
+						"relation": "opening",
+						"name": "SUGIZO",
+						"nameEn": "Sugizo",
+						"ref": "http://anidb.net/creator/47015"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104497"
+			},
+			{
+				"id": "104498",
+				"animeId": "15001",
+				"name": "ENDLESS ~時を超えて~",
+				"nameEn": "Endless: Toki o Koete",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "47015",
+						"songId": "104498",
+						"relation": "ending",
+						"name": "SUGIZO",
+						"nameEn": "Sugizo",
+						"ref": "http://anidb.net/creator/47015"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104498"
+			},
+			{
+				"id": "104497",
+				"animeId": "15001",
+				"name": "GIBIATE",
+				"nameEn": "Gibiate",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "47015",
+						"songId": "104497",
+						"relation": "ending",
+						"name": "SUGIZO",
+						"nameEn": "Sugizo",
+						"ref": "http://anidb.net/creator/47015"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104497"
+			}
+		]
+	},
+	"15002": {
+		"id": "15002",
+		"name": "Koi to Producer: Evol x Love",
+		"titleImageName": "10806.jpeg",
+		"ref": "http://anidb.net/anime/15002",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104328",
+				"animeId": "15002",
+				"name": "鈍色の夜明け",
+				"nameEn": "Nibiiro no Yoake",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "55639",
+						"songId": "104328",
+						"relation": "opening",
+						"name": "三浦祐太朗",
+						"nameEn": "Miura Yuutarou",
+						"ref": "http://anidb.net/creator/55639"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104328"
+			},
+			{
+				"id": "104329",
+				"animeId": "15002",
+				"name": "舞い降りてきた雪",
+				"nameEn": "Maiorite Kita Yuki",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "31768",
+						"songId": "104329",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Suzuki Konomi",
+						"ref": "http://anidb.net/creator/31768"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104329"
+			},
+			{
+				"id": "104846",
+				"animeId": "15002",
+				"name": "恋心シークレット",
+				"nameEn": "Koigokoro Secret",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "174",
+						"songId": "104846",
+						"relation": "insert song",
+						"name": "魁皇楽",
+						"nameEn": "Kakihara Tetsuya",
+						"ref": "http://anidb.net/creator/174"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104846"
+			}
+		]
+	},
+	"15029": {
+		"id": "15029",
+		"name": "Chou Futsuu Toshi Kashiwa Densetsu R",
+		"titleImageName": "236732.jpg",
+		"ref": "http://anidb.net/anime/15029",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104645",
+				"animeId": "15029",
+				"name": "おかしーわ!",
+				"nameEn": "Okashii wa!",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 10
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "401422",
+						"songId": "104645",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "成海ひいな",
+						"ref": "http://anidb.net/creator/virtual/401422"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104645"
+			},
+			{
+				"id": "104775",
+				"animeId": "15029",
+				"name": "ヒメジョオンのささやき",
+				"nameEn": "Himejoon no Sasayaki",
+				"ranges": [
+					{
+						"start": 6,
+						"end": 6
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "401423",
+						"songId": "104775",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "コズミック☆倶楽部",
+						"ref": "http://anidb.net/creator/virtual/401423"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104775"
+			},
+			{
+				"id": "104776",
+				"animeId": "15029",
+				"name": "CHRONO SCAPE",
+				"nameEn": "Chrono Scape",
+				"ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "401426",
+						"songId": "104776",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "ANIME GIRL",
+						"ref": "http://anidb.net/creator/virtual/401426"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104776"
+			},
+			{
+				"id": "104777",
+				"animeId": "15029",
+				"name": "妄想! 房総! 大暴走!",
+				"nameEn": "Mousou! Bousou! Dai Bousou!",
+				"ranges": [
+					{
+						"start": 8,
+						"end": 8
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "401428",
+						"songId": "104777",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "ちょこ",
+						"ref": "http://anidb.net/creator/virtual/401428"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104777"
+			}
+		]
+	},
+	"15034": {
+		"id": "15034",
+		"name": "Aggressive Retsuko (2020)",
+		"titleImageName": "250309.jpg",
+		"ref": "http://anidb.net/anime/15034",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104719",
+				"animeId": "15034",
+				"name": "バズりたい!",
+				"nameEn": "Viral Star",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"classification": "6",
+				"artists": [
+					{
+						"id": "61992",
+						"songId": "104719",
+						"relation": "ending",
+						"name": "OTMGirls",
+						"nameEn": "OTMGirls",
+						"ref": "http://anidb.net/creator/61992"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104719"
+			},
+			{
+				"id": "104767",
+				"animeId": "15034",
+				"name": "アグレッシブガール",
+				"nameEn": "Aggressive Girl",
+				"ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61992",
+						"songId": "104767",
+						"relation": "ending",
+						"name": "OTMGirls",
+						"nameEn": "OTMGirls",
+						"ref": "http://anidb.net/creator/61992"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104767"
+			},
+			{
+				"id": "104766",
+				"animeId": "15034",
+				"name": "ふわふわ",
+				"nameEn": "Fuwa Fuwa",
+				"ranges": [
+					{
+						"start": 10,
+						"end": 10
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61992",
+						"songId": "104766",
+						"relation": "ending",
+						"name": "OTMGirls",
+						"nameEn": "OTMGirls",
+						"ref": "http://anidb.net/creator/61992"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104766"
+			},
+			{
+				"id": "104719",
+				"animeId": "15034",
+				"name": "バズりたい!",
+				"nameEn": "Viral Star",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 3
+					}
+				],
+				"classification": "9",
+				"artists": [
+					{
+						"id": "61992",
+						"songId": "104719",
+						"relation": "insert song",
+						"name": "OTMGirls",
+						"nameEn": "OTMGirls",
+						"ref": "http://anidb.net/creator/61992"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104719"
+			},
+			{
+				"id": "104766",
+				"animeId": "15034",
+				"name": "ふわふわ",
+				"nameEn": "Fuwa Fuwa",
+				"ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61992",
+						"songId": "104766",
+						"relation": "insert song",
+						"name": "OTMGirls",
+						"nameEn": "OTMGirls",
+						"ref": "http://anidb.net/creator/61992"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104766"
+			},
+			{
+				"id": "104767",
+				"animeId": "15034",
+				"name": "アグレッシブガール",
+				"nameEn": "Aggressive Girl",
+				"ranges": [
+					{
+						"start": 5,
+						"end": 6
+					},
+					{
+						"start": 8,
+						"end": 10
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61992",
+						"songId": "104767",
+						"relation": "insert song",
+						"name": "OTMGirls",
+						"nameEn": "OTMGirls",
+						"ref": "http://anidb.net/creator/61992"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104767"
+			}
+		]
+	},
+	"15060": {
+		"id": "15060",
+		"name": "Eiga Crayon Shin-chan: Gekitotsu! Rakugaki Kingdom to Hobo Yonin no Yuusha",
+		"titleImageName": "241271.jpg",
+		"ref": "http://anidb.net/anime/15060",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15100": {
+		"id": "15100",
+		"name": "Date a Bullet",
+		"titleImageName": "245156.jpg",
+		"ref": "http://anidb.net/anime/15100",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104470",
+				"animeId": "15100",
+				"name": "Infermata",
+				"nameEn": "Infermata",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "23325",
+						"songId": "104470",
+						"relation": "opening",
+						"name": "坂部剛",
+						"nameEn": "Sakabe Gou",
+						"ref": "http://anidb.net/creator/23325"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104470"
+			},
+			{
+				"id": "104471",
+				"animeId": "15100",
+				"name": "Only wish",
+				"nameEn": "Only Wish",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "61141",
+						"songId": "104471",
+						"relation": "ending",
+						"name": "Luiza",
+						"nameEn": "Luiza",
+						"ref": "http://anidb.net/creator/61141"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104471"
+			},
+			{
+				"id": "105148",
+				"animeId": "15100",
+				"name": "Precious",
+				"nameEn": "Precious",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "403622",
+						"songId": "105148",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "RinamooN",
+						"ref": "http://anidb.net/creator/virtual/403622"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/105148"
+			}
+		]
+	},
+	"15102": {
+		"id": "15102",
+		"name": "Eiga Given",
+		"titleImageName": "244440.jpg",
+		"ref": "http://anidb.net/anime/15102",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15107": {
+		"id": "15107",
+		"name": "Peter Grill to Kenja no Jikan",
+		"titleImageName": "245285.jpg",
+		"ref": "http://anidb.net/anime/15107",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104308",
+				"animeId": "15107",
+				"name": "つらぬいて憂鬱",
+				"nameEn": "Tsuranuite Yuuutsu",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "60711",
+						"songId": "104308",
+						"relation": "opening",
+						"name": "ニノミヤユイ",
+						"nameEn": "Ninomiya Yui",
+						"ref": "http://anidb.net/creator/60711"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104308"
+			},
+			{
+				"id": "104309",
+				"animeId": "15107",
+				"name": "ヨリドコロ",
+				"nameEn": "Yoridokoro",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "43401",
+						"songId": "104309",
+						"relation": "ending",
+						"name": "Hilcrhyme",
+						"nameEn": "Hilcrhyme",
+						"ref": "http://anidb.net/creator/43401"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104309"
+			},
+			{
+				"id": "104310",
+				"animeId": "15107",
+				"name": "Ti amo",
+				"nameEn": "Ti Amo",
+				"ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60713",
+						"songId": "104310",
+						"relation": "insert song",
+						"name": "雅絢恵",
+						"nameEn": "Miyabi Ayae",
+						"ref": "http://anidb.net/creator/60713"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104310"
+			}
+		]
+	},
+	"15131": {
+		"id": "15131",
+		"name": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei Shite Shison-tachi no Gakkou e Kayou",
+		"titleImageName": "247925.jpg",
+		"ref": "http://anidb.net/anime/15131",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104313",
+				"animeId": "15131",
+				"name": "正解不正解",
+				"nameEn": "Seikai Fuseikai",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 3
+					},
+					{
+						"start": 5,
+						"end": 12
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "48198",
+						"songId": "104313",
+						"relation": "opening",
+						"name": "Lyu:Lyu",
+						"nameEn": "Civilian",
+						"ref": "http://anidb.net/creator/48198"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104313"
+			},
+			{
+				"id": "104619",
+				"animeId": "15131",
+				"name": "正解不正解 feat.アノス・ヴォルディゴード",
+				"nameEn": "Seikai Fuseikai feat. Anos Voldigoad",
+				"ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"classification": "13",
+				"artists": [
+					{
+						"id": "644",
+						"songId": "104619",
+						"relation": "opening",
+						"name": "Ta_2",
+						"nameEn": "Suzuki Tatsuhisa",
+						"ref": "http://anidb.net/creator/644"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104619"
+			},
+			{
+				"id": "104313",
+				"animeId": "15131",
+				"name": "正解不正解",
+				"nameEn": "Seikai Fuseikai",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "48198",
+						"songId": "104313",
+						"relation": "ending",
+						"name": "Lyu:Lyu",
+						"nameEn": "Civilian",
+						"ref": "http://anidb.net/creator/48198"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104313"
+			},
+			{
+				"id": "104314",
+				"animeId": "15131",
+				"name": "ハミダシモノ",
+				"nameEn": "Hamidashimono",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 13
+					}
+				],
+				"classification": "ED2",
+				"artists": [
+					{
+						"id": "51124",
+						"songId": "104314",
+						"relation": "ending",
+						"name": "楠木ともり",
+						"nameEn": "Kusunoki Tomori",
+						"ref": "http://anidb.net/creator/51124"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104314"
+			},
+			{
+				"id": "104637",
+				"animeId": "15131",
+				"name": "アノス様応援歌合唱曲第二番~ああ, 気高きアノス様の御剣を賜りて~",
+				"nameEn": "Anos-sama Ouenka Gasshoukyoku Dai Ni Ban: Aa, Kedakaki Anos-sama no Oken o Tamawarite",
+				"ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "46674",
+						"songId": "104637",
+						"relation": "insert song",
+						"name": "雨宮夕夏",
+						"nameEn": "Amemiya Yuuka",
+						"ref": "http://anidb.net/creator/46674"
+					},
+					{
+						"id": "44228",
+						"songId": "104637",
+						"relation": "insert song",
+						"name": "朝日奈丸佳",
+						"nameEn": "Asahina Madoka",
+						"ref": "http://anidb.net/creator/44228"
+					},
+					{
+						"id": "16763",
+						"songId": "104637",
+						"relation": "insert song",
+						"name": "石原夏織",
+						"nameEn": "Ishihara Kaori",
+						"ref": "http://anidb.net/creator/16763"
+					},
+					{
+						"id": "51895",
+						"songId": "104637",
+						"relation": "insert song",
+						"name": "嶺内ともみ",
+						"nameEn": "Mineuchi Tomomi",
+						"ref": "http://anidb.net/creator/51895"
+					},
+					{
+						"id": "4432",
+						"songId": "104637",
+						"relation": "insert song",
+						"name": "宮本侑芽",
+						"nameEn": "Miyamoto Yume",
+						"ref": "http://anidb.net/creator/4432"
+					},
+					{
+						"id": "46495",
+						"songId": "104637",
+						"relation": "insert song",
+						"name": "大野柚布子",
+						"nameEn": "Oono Yuuko",
+						"ref": "http://anidb.net/creator/46495"
+					},
+					{
+						"id": "33578",
+						"songId": "104637",
+						"relation": "insert song",
+						"name": "白石晴香",
+						"nameEn": "Shiraishi Haruka",
+						"ref": "http://anidb.net/creator/33578"
+					},
+					{
+						"id": "55692",
+						"songId": "104637",
+						"relation": "insert song",
+						"name": "鈴代紗弓",
+						"nameEn": "Suzushiro Sayumi",
+						"ref": "http://anidb.net/creator/55692"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104637"
+			},
+			{
+				"id": "104820",
+				"animeId": "15131",
+				"name": "アノス様応援歌合唱曲第三番~絶・魔王~",
+				"nameEn": "Anos-sama Ouenka Gasshoukyoku Dai San Ban: Zetsu Maou",
+				"ranges": [
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "46674",
+						"songId": "104820",
+						"relation": "insert song",
+						"name": "雨宮夕夏",
+						"nameEn": "Amemiya Yuuka",
+						"ref": "http://anidb.net/creator/46674"
+					},
+					{
+						"id": "44228",
+						"songId": "104820",
+						"relation": "insert song",
+						"name": "朝日奈丸佳",
+						"nameEn": "Asahina Madoka",
+						"ref": "http://anidb.net/creator/44228"
+					},
+					{
+						"id": "16763",
+						"songId": "104820",
+						"relation": "insert song",
+						"name": "石原夏織",
+						"nameEn": "Ishihara Kaori",
+						"ref": "http://anidb.net/creator/16763"
+					},
+					{
+						"id": "51895",
+						"songId": "104820",
+						"relation": "insert song",
+						"name": "嶺内ともみ",
+						"nameEn": "Mineuchi Tomomi",
+						"ref": "http://anidb.net/creator/51895"
+					},
+					{
+						"id": "4432",
+						"songId": "104820",
+						"relation": "insert song",
+						"name": "宮本侑芽",
+						"nameEn": "Miyamoto Yume",
+						"ref": "http://anidb.net/creator/4432"
+					},
+					{
+						"id": "46495",
+						"songId": "104820",
+						"relation": "insert song",
+						"name": "大野柚布子",
+						"nameEn": "Oono Yuuko",
+						"ref": "http://anidb.net/creator/46495"
+					},
+					{
+						"id": "33578",
+						"songId": "104820",
+						"relation": "insert song",
+						"name": "白石晴香",
+						"nameEn": "Shiraishi Haruka",
+						"ref": "http://anidb.net/creator/33578"
+					},
+					{
+						"id": "55692",
+						"songId": "104820",
+						"relation": "insert song",
+						"name": "鈴代紗弓",
+						"nameEn": "Suzushiro Sayumi",
+						"ref": "http://anidb.net/creator/55692"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104820"
+			},
+			{
+				"id": "104821",
+				"animeId": "15131",
+				"name": "アノス様応援歌合唱曲第四番~世界が愛に満ちるように~",
+				"nameEn": "Anos-sama Ouenka Gasshoukyoku Dai Yon Ban: Sekai ga Ai ni Michiru You ni",
+				"ranges": [
+					{
+						"start": 13,
+						"end": 13
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "46674",
+						"songId": "104821",
+						"relation": "insert song",
+						"name": "雨宮夕夏",
+						"nameEn": "Amemiya Yuuka",
+						"ref": "http://anidb.net/creator/46674"
+					},
+					{
+						"id": "44228",
+						"songId": "104821",
+						"relation": "insert song",
+						"name": "朝日奈丸佳",
+						"nameEn": "Asahina Madoka",
+						"ref": "http://anidb.net/creator/44228"
+					},
+					{
+						"id": "16763",
+						"songId": "104821",
+						"relation": "insert song",
+						"name": "石原夏織",
+						"nameEn": "Ishihara Kaori",
+						"ref": "http://anidb.net/creator/16763"
+					},
+					{
+						"id": "51895",
+						"songId": "104821",
+						"relation": "insert song",
+						"name": "嶺内ともみ",
+						"nameEn": "Mineuchi Tomomi",
+						"ref": "http://anidb.net/creator/51895"
+					},
+					{
+						"id": "4432",
+						"songId": "104821",
+						"relation": "insert song",
+						"name": "宮本侑芽",
+						"nameEn": "Miyamoto Yume",
+						"ref": "http://anidb.net/creator/4432"
+					},
+					{
+						"id": "46495",
+						"songId": "104821",
+						"relation": "insert song",
+						"name": "大野柚布子",
+						"nameEn": "Oono Yuuko",
+						"ref": "http://anidb.net/creator/46495"
+					},
+					{
+						"id": "33578",
+						"songId": "104821",
+						"relation": "insert song",
+						"name": "白石晴香",
+						"nameEn": "Shiraishi Haruka",
+						"ref": "http://anidb.net/creator/33578"
+					},
+					{
+						"id": "55692",
+						"songId": "104821",
+						"relation": "insert song",
+						"name": "鈴代紗弓",
+						"nameEn": "Suzushiro Sayumi",
+						"ref": "http://anidb.net/creator/55692"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104821"
+			}
+		]
+	},
+	"15138": {
+		"id": "15138",
+		"name": "Nihon Chinbotsu 2020",
+		"titleImageName": "246977.jpg",
+		"ref": "http://anidb.net/anime/15138",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104465",
+				"animeId": "15138",
+				"name": "a life",
+				"nameEn": "A Life",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 10
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "17179",
+						"songId": "104465",
+						"relation": "opening",
+						"name": "大貫妙子",
+						"nameEn": "Oonuki Taeko",
+						"ref": "http://anidb.net/creator/17179"
+					},
+					{
+						"id": "6809",
+						"songId": "104465",
+						"relation": "opening",
+						"name": "坂本龍一",
+						"nameEn": "Sakamoto Ryuuichi",
+						"ref": "http://anidb.net/creator/6809"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104465"
+			},
+			{
+				"id": "104466",
+				"animeId": "15138",
+				"name": "景色",
+				"nameEn": "Keshiki",
+				"ranges": [
+					{
+						"start": 10,
+						"end": 10
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61097",
+						"songId": "104466",
+						"relation": "ending",
+						"name": "花譜",
+						"nameEn": "Kafu",
+						"ref": "http://anidb.net/creator/61097"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104466"
+			}
+		]
+	},
+	"15143": {
+		"id": "15143",
+		"name": "No Guns Life (2020)",
+		"titleImageName": "242323.jpg",
+		"ref": "http://anidb.net/anime/15143",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104467",
+				"animeId": "15143",
+				"name": "Chaos Drifters",
+				"nameEn": "Chaos Drifters",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "44433",
+						"songId": "104467",
+						"relation": "opening",
+						"name": "Jean-Ken Johnny",
+						"nameEn": "Jean-Ken Johnny",
+						"ref": "http://anidb.net/creator/44433"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104467"
+			},
+			{
+				"id": "104468",
+				"animeId": "15143",
+				"name": "new world",
+				"nameEn": "New World",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "61131",
+						"songId": "104468",
+						"relation": "ending",
+						"name": "THIS IS JAPAN",
+						"nameEn": "This Is Japan",
+						"ref": "http://anidb.net/creator/61131"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104468"
+			}
+		]
+	},
+	"15145": {
+		"id": "15145",
+		"name": "Appare Ranman!",
+		"titleImageName": "244412.jpg",
+		"ref": "http://anidb.net/anime/15145",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "103987",
+				"animeId": "15145",
+				"name": "I got it!",
+				"nameEn": "I Got It!",
+				"ranges": null,
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "47050",
+						"songId": "103987",
+						"relation": "opening",
+						"name": "Mia REGINA",
+						"nameEn": "Mia Regina",
+						"ref": "http://anidb.net/creator/47050"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103987"
+			},
+			{
+				"id": "103988",
+				"animeId": "15145",
+				"name": "I`m Nobody",
+				"nameEn": "I`m Nobody",
+				"ranges": null,
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "143",
+						"songId": "103988",
+						"relation": "ending",
+						"name": "森久保祥太郎",
+						"nameEn": "Morikubo Shoutarou",
+						"ref": "http://anidb.net/creator/143"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103988"
+			}
+		]
+	},
+	"15146": {
+		"id": "15146",
+		"name": "Sword Art Online: Alicization - War of Underworld (2020)",
+		"titleImageName": "242518.jpg",
+		"ref": "http://anidb.net/anime/15146",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104473",
+				"animeId": "15146",
+				"name": "ANIMA",
+				"nameEn": "Anima",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 10
+					}
+				],
+				"classification": "OP1a-OP1c",
+				"artists": [
+					{
+						"id": "55480",
+						"songId": "104473",
+						"relation": "opening",
+						"name": "ReoNa",
+						"nameEn": "Reona",
+						"ref": "http://anidb.net/creator/55480"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104473"
+			},
+			{
+				"id": "104475",
+				"animeId": "15146",
+				"name": "I will...",
+				"nameEn": "I Will...",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 10
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "27942",
+						"songId": "104475",
+						"relation": "ending",
+						"name": "Eir",
+						"nameEn": "Aoi Eir",
+						"ref": "http://anidb.net/creator/27942"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104475"
+			},
+			{
+				"id": "104473",
+				"animeId": "15146",
+				"name": "ANIMA",
+				"nameEn": "Anima",
+				"ranges": [
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"classification": "ED2",
+				"artists": [
+					{
+						"id": "55480",
+						"songId": "104473",
+						"relation": "ending",
+						"name": "ReoNa",
+						"nameEn": "Reona",
+						"ref": "http://anidb.net/creator/55480"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104473"
+			},
+			{
+				"id": "92075",
+				"animeId": "15146",
+				"name": "longing",
+				"nameEn": "Longing",
+				"ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "33251",
+						"songId": "92075",
+						"relation": "insert song",
+						"name": "神田沙也加",
+						"nameEn": "Kanda Sayaka",
+						"ref": "http://anidb.net/creator/33251"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/92075"
+			}
+		]
+	},
+	"15235": {
+		"id": "15235",
+		"name": "Umibe no Etranger",
+		"titleImageName": "251039.jpg",
+		"ref": "http://anidb.net/anime/15235",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15241": {
+		"id": "15241",
+		"name": "Dokyuu Hentai HxEros",
+		"titleImageName": "247991.jpg",
+		"ref": "http://anidb.net/anime/15241",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104292",
+				"animeId": "15241",
+				"name": "Wake Up H×ERO!",
+				"nameEn": "Wake Up HxEro!",
+				"ranges": null,
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "60837",
+						"songId": "104292",
+						"relation": "opening",
+						"name": "HXEROS SYNDROMES",
+						"nameEn": "HxEros Syndromes",
+						"ref": "http://anidb.net/creator/60837"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104292"
+			},
+			{
+				"id": "104292",
+				"animeId": "15241",
+				"name": "Wake Up H×ERO!",
+				"nameEn": "Wake Up HxEro!",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60837",
+						"songId": "104292",
+						"relation": "ending",
+						"name": "HXEROS SYNDROMES",
+						"nameEn": "HxEros Syndromes",
+						"ref": "http://anidb.net/creator/60837"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104292"
+			},
+			{
+				"id": "104291",
+				"animeId": "15241",
+				"name": "lost emotion",
+				"nameEn": "Lost Emotion",
+				"ranges": null,
+				"classification": "ED2",
+				"artists": [
+					{
+						"id": "32939",
+						"songId": "104291",
+						"relation": "ending",
+						"name": "加隈亜衣",
+						"nameEn": "Kakuma Ai",
+						"ref": "http://anidb.net/creator/32939"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104291"
+			}
+		]
+	},
+	"15254": {
+		"id": "15254",
+		"name": "Shoujo Kageki Revue Starlight: Rondo Rondo Rondo",
+		"titleImageName": "246279.jpg",
+		"ref": "http://anidb.net/anime/15254",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104578",
+				"animeId": "15254",
+				"name": "再生讃美曲(movie ver.)",
+				"nameEn": "Saisei Sanbikyoku (movie ver.)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "55681",
+						"songId": "104578",
+						"relation": "theme song",
+						"name": "スタァライト九九組",
+						"nameEn": "Starlight Kukugumi",
+						"ref": "http://anidb.net/creator/55681"
+					}
+				],
+				"relation": "theme song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104578"
+			}
+		]
+	},
+	"15266": {
+		"id": "15266",
+		"name": "Monster Musume no Oisha-san",
+		"titleImageName": "245193.jpg",
+		"ref": "http://anidb.net/anime/15266",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104311",
+				"animeId": "15266",
+				"name": "カンパネラ響く空で",
+				"nameEn": "Campanella Hibiku Sora de",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60718",
+						"songId": "104311",
+						"relation": "opening",
+						"name": "ARCANA PROJECT",
+						"nameEn": "Arcana Project",
+						"ref": "http://anidb.net/creator/60718"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104311"
+			},
+			{
+				"id": "104312",
+				"animeId": "15266",
+				"name": "やさしさの名前",
+				"nameEn": "Yasashisa no Namae",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "41296",
+						"songId": "104312",
+						"relation": "ending",
+						"name": "鈴木愛奈",
+						"nameEn": "Suzuki Aina",
+						"ref": "http://anidb.net/creator/41296"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104312"
+			},
+			{
+				"id": "104569",
+				"animeId": "15266",
+				"name": "Water flows down passages",
+				"nameEn": "Water Flows Down Passages",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61569",
+						"songId": "104569",
+						"relation": "insert song",
+						"name": "Shaylee",
+						"nameEn": "Shaylee",
+						"ref": "http://anidb.net/creator/61569"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104569"
+			}
+		]
+	},
+	"15299": {
+		"id": "15299",
+		"name": "Kanojo, Okarishimasu",
+		"titleImageName": "247715.jpg",
+		"ref": "http://anidb.net/anime/15299",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104318",
+				"animeId": "15299",
+				"name": "センチメートル",
+				"nameEn": "Centimeter",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "49268",
+						"songId": "104318",
+						"relation": "opening",
+						"name": "the peggies",
+						"nameEn": "The Peggies",
+						"ref": "http://anidb.net/creator/49268"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104318"
+			},
+			{
+				"id": "104319",
+				"animeId": "15299",
+				"name": "告白バンジージャンプ",
+				"nameEn": "Kokuhaku Bungee Jump",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "54093",
+						"songId": "104319",
+						"relation": "opening",
+						"name": "halca",
+						"nameEn": "Halca",
+						"ref": "http://anidb.net/creator/54093"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104319"
+			},
+			{
+				"id": "104318",
+				"animeId": "15299",
+				"name": "センチメートル",
+				"nameEn": "Centimeter",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "12",
+				"artists": [
+					{
+						"id": "49268",
+						"songId": "104318",
+						"relation": "ending",
+						"name": "the peggies",
+						"nameEn": "The Peggies",
+						"ref": "http://anidb.net/creator/49268"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104318"
+			},
+			{
+				"id": "104319",
+				"animeId": "15299",
+				"name": "告白バンジージャンプ",
+				"nameEn": "Kokuhaku Bungee Jump",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 6
+					},
+					{
+						"start": 8,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "54093",
+						"songId": "104319",
+						"relation": "ending",
+						"name": "halca",
+						"nameEn": "Halca",
+						"ref": "http://anidb.net/creator/54093"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104319"
+			},
+			{
+				"id": "104848",
+				"animeId": "15299",
+				"name": "FIRST DROP",
+				"nameEn": "First Drop",
+				"ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "54093",
+						"songId": "104848",
+						"relation": "ending",
+						"name": "halca",
+						"nameEn": "Halca",
+						"ref": "http://anidb.net/creator/54093"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104848"
+			},
+			{
+				"id": "104852",
+				"animeId": "15299",
+				"name": "君を通して",
+				"nameEn": "Kimi wo Tooshite",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "34626",
+						"songId": "104852",
+						"relation": "insert song",
+						"name": "雨宮天",
+						"nameEn": "Amamiya Sora",
+						"ref": "http://anidb.net/creator/34626"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104852"
+			}
+		]
+	},
+	"15310": {
+		"id": "15310",
+		"name": "Eiga Oshiri Tantei: Tentou Mushi Iseki no Nazo",
+		"titleImageName": "248917.jpg",
+		"ref": "http://anidb.net/anime/15310",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15319": {
+		"id": "15319",
+		"name": "Shokugeki no Souma: Gou no Sara",
+		"titleImageName": "244734.jpg",
+		"ref": "http://anidb.net/anime/15319",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "103998",
+				"animeId": "15319",
+				"name": "ラストチャプター",
+				"nameEn": "Last Chapter",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 2
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "24688",
+						"songId": "103998",
+						"relation": "opening",
+						"name": "nano.RIPE",
+						"nameEn": "Nano.Ripe",
+						"ref": "http://anidb.net/creator/24688"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103998"
+			},
+			{
+				"id": "103999",
+				"animeId": "15319",
+				"name": "Crossing Road",
+				"nameEn": "Crossing Road",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "10333",
+						"songId": "103999",
+						"relation": "ending",
+						"name": "渕上舞",
+						"nameEn": "Fuchigami Mai",
+						"ref": "http://anidb.net/creator/10333"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103999"
+			},
+			{
+				"id": "103998",
+				"animeId": "15319",
+				"name": "ラストチャプター",
+				"nameEn": "Last Chapter",
+				"ranges": [
+					{
+						"start": 13,
+						"end": 13
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "24688",
+						"songId": "103998",
+						"relation": "ending",
+						"name": "nano.RIPE",
+						"nameEn": "Nano.Ripe",
+						"ref": "http://anidb.net/creator/24688"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103998"
+			},
+			{
+				"id": "88513",
+				"animeId": "15319",
+				"name": "スノードロップ",
+				"nameEn": "Snow Drop",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "24688",
+						"songId": "88513",
+						"relation": "insert song",
+						"name": "nano.RIPE",
+						"nameEn": "Nano.Ripe",
+						"ref": "http://anidb.net/creator/24688"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/88513"
+			}
+		]
+	},
+	"15329": {
+		"id": "15329",
+		"name": "Ore o Suki na no wa Omae dake ka yo: Oretachi no Game Set",
+		"titleImageName": "245162.jpg",
+		"ref": "http://anidb.net/anime/15329",
+		"format": "OVA",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "102818",
+				"animeId": "15329",
+				"name": "パパパ",
+				"nameEn": "Papapa",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "44275",
+						"songId": "102818",
+						"relation": "opening",
+						"name": "斉藤朱夏",
+						"nameEn": "Saitou Shuka",
+						"ref": "http://anidb.net/creator/44275"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/102818"
+			},
+			{
+				"id": "102819",
+				"animeId": "15329",
+				"name": "ハナコトバ",
+				"nameEn": "Hana Kotoba",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "2903",
+						"songId": "102819",
+						"relation": "ending",
+						"name": "三澤紗千香",
+						"nameEn": "Misawa Sachika",
+						"ref": "http://anidb.net/creator/2903"
+					},
+					{
+						"id": "33578",
+						"songId": "102819",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Shiraishi Haruka",
+						"ref": "http://anidb.net/creator/33578"
+					},
+					{
+						"id": "5",
+						"songId": "102819",
+						"relation": "ending",
+						"name": "戸松遥",
+						"nameEn": "Tomatsu Haruka",
+						"ref": "http://anidb.net/creator/5"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/102819"
+			}
+		]
+	},
+	"15335": {
+		"id": "15335",
+		"name": "En`en no Shouboutai Ni no Shou",
+		"titleImageName": "247665.jpg",
+		"ref": "http://anidb.net/anime/15335",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104169",
+				"animeId": "15335",
+				"name": "SPARK-AGAIN",
+				"nameEn": "Spark-Again",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 13
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "27356",
+						"songId": "104169",
+						"relation": "opening",
+						"name": "aimerrhythm",
+						"nameEn": "Aimer",
+						"ref": "http://anidb.net/creator/27356"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104169"
+			},
+			{
+				"id": "104977",
+				"animeId": "15335",
+				"name": "Torch of Liberty",
+				"nameEn": "Torch of Liberty",
+				"ranges": null,
+				"classification": "OP2",
+				"artists": [
+					{
+						"id": "41080",
+						"songId": "104977",
+						"relation": "opening",
+						"name": "KANA-BOON",
+						"nameEn": "Kana-Boon",
+						"ref": "http://anidb.net/creator/41080"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104977"
+			},
+			{
+				"id": "104429",
+				"animeId": "15335",
+				"name": "ID",
+				"nameEn": "ID",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 13
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "57475",
+						"songId": "104429",
+						"relation": "ending",
+						"name": "サイダーガール",
+						"nameEn": "Cider Girl",
+						"ref": "http://anidb.net/creator/57475"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104429"
+			},
+			{
+				"id": "105144",
+				"animeId": "15335",
+				"name": "ディザイア",
+				"nameEn": "Desire",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "58804",
+						"songId": "105144",
+						"relation": "ending",
+						"name": "PELICAN FANCLUB",
+						"nameEn": "Pelican Fanclub",
+						"ref": "http://anidb.net/creator/58804"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/105144"
+			}
+		]
+	},
+	"15364": {
+		"id": "15364",
+		"name": "Fugou Keiji - Balance:Unlimited",
+		"titleImageName": "245112.jpg",
+		"ref": "http://anidb.net/anime/15364",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104015",
+				"animeId": "15364",
+				"name": "NAVIGATOR",
+				"nameEn": "Navigator",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60285",
+						"songId": "104015",
+						"relation": "opening",
+						"name": "SixTONES",
+						"nameEn": "SixTones",
+						"ref": "http://anidb.net/creator/60285"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104015"
+			},
+			{
+				"id": "103986",
+				"animeId": "15364",
+				"name": "Welcome My Friend",
+				"nameEn": "Welcome My Friend",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 11
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "28002",
+						"songId": "103986",
+						"relation": "ending",
+						"name": "OKAMOTO`S",
+						"nameEn": "Okamoto`s",
+						"ref": "http://anidb.net/creator/28002"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103986"
+			},
+			{
+				"id": "105004",
+				"animeId": "15364",
+				"name": "富・豪・刑・事!",
+				"nameEn": "Fu Gou Kei Ji!",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "40702",
+						"songId": "105004",
+						"relation": "insert song",
+						"name": "ハセガワダイスケ",
+						"nameEn": "Hasegawa Daisuke",
+						"ref": "http://anidb.net/creator/40702"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/105004"
+			},
+			{
+				"id": "104602",
+				"animeId": "15364",
+				"name": "フェスティバル・ナイト",
+				"nameEn": "Festival Night",
+				"ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61749",
+						"songId": "104602",
+						"relation": "insert song",
+						"name": "横恋慕スターライツ",
+						"nameEn": "Yokorenbo Star Lights",
+						"ref": "http://anidb.net/creator/61749"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104602"
+			}
+		]
+	},
+	"15368": {
+		"id": "15368",
+		"name": "Battle Spirits: Kakumei no Galette",
+		"titleImageName": "251186.jpg",
+		"ref": "http://anidb.net/anime/15368",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104621",
+				"animeId": "15368",
+				"name": "BREAK THE CHAIN",
+				"nameEn": "Break the Chain",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "5056",
+						"songId": "104621",
+						"relation": "theme song",
+						"name": "玉置成実",
+						"nameEn": "Tamaki Nami",
+						"ref": "http://anidb.net/creator/5056"
+					}
+				],
+				"relation": "theme song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104621"
+			}
+		]
+	},
+	"15378": {
+		"id": "15378",
+		"name": "Kouya no Kotobuki Hikoutai Kanzenhan",
+		"titleImageName": "250148.jpg",
+		"ref": "http://anidb.net/anime/15378",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15382": {
+		"id": "15382",
+		"name": "Uzaki-chan wa Asobitai!",
+		"titleImageName": "247207.jpg",
+		"ref": "http://anidb.net/anime/15382",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104315",
+				"animeId": "15382",
+				"name": "なだめスかし Negotiation",
+				"nameEn": "Nadamesukashi Negotiation",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "39367",
+						"songId": "104315",
+						"relation": "opening",
+						"name": "鹿乃",
+						"nameEn": "Kano",
+						"ref": "http://anidb.net/creator/39367"
+					},
+					{
+						"id": "37280",
+						"songId": "104315",
+						"relation": "opening",
+						"name": "大空直美",
+						"nameEn": "Oozora Naomi",
+						"ref": "http://anidb.net/creator/37280"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104315"
+			},
+			{
+				"id": "104472",
+				"animeId": "15382",
+				"name": "ココロノック",
+				"nameEn": "Kokoro Knock",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "61184",
+						"songId": "104472",
+						"relation": "ending",
+						"name": "YuNi",
+						"nameEn": "YuNi",
+						"ref": "http://anidb.net/creator/61184"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104472"
+			}
+		]
+	},
+	"15408": {
+		"id": "15408",
+		"name": "The God of High School",
+		"titleImageName": "248466.jpg",
+		"ref": "http://anidb.net/anime/15408",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104445",
+				"animeId": "15408",
+				"name": "Contradiction",
+				"nameEn": "Contradiction",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "45605",
+						"songId": "104445",
+						"relation": "opening",
+						"name": "KSUKE",
+						"nameEn": "Ksuke",
+						"ref": "http://anidb.net/creator/45605"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104445"
+			},
+			{
+				"id": "104446",
+				"animeId": "15408",
+				"name": "WIN",
+				"nameEn": "Win",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "60973",
+						"songId": "104446",
+						"relation": "ending",
+						"name": "CIX",
+						"nameEn": "CIX",
+						"ref": "http://anidb.net/creator/60973"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104446"
+			}
+		]
+	},
+	"15419": {
+		"id": "15419",
+		"name": "Obake Zukan",
+		"titleImageName": "244755.jpg",
+		"ref": "http://anidb.net/anime/15419",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104567",
+				"animeId": "15419",
+				"name": "おばけずかんのうた ~いつでも どこでも~",
+				"nameEn": "Obake Zukan no Uta: Itsudemo Dokodemo",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "18",
+						"songId": "104567",
+						"relation": "opening",
+						"name": "水樹奈々",
+						"nameEn": "Mizuki Nana",
+						"ref": "http://anidb.net/creator/18"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104567"
+			}
+		]
+	},
+	"15424": {
+		"id": "15424",
+		"name": "Eiga Fushigi Dagashiya: Zenitendou - Tsuri Taiyaki",
+		"titleImageName": "244806.jpg",
+		"ref": "http://anidb.net/anime/15424",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15425": {
+		"id": "15425",
+		"name": "Fan Ren Xiu Xian Chuan",
+		"titleImageName": "250878.jpg",
+		"ref": "http://anidb.net/anime/15425",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15447": {
+		"id": "15447",
+		"name": "Kyojin-zoku no Hanayome",
+		"titleImageName": "247604.jpg",
+		"ref": "http://anidb.net/anime/15447",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104612",
+				"animeId": "15447",
+				"name": "世界の中心で愛を叫んだものたち",
+				"nameEn": "Sekai no Chuushin de Ai o Sakenda Mono-tachi",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 9
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "39076",
+						"songId": "104612",
+						"relation": "ending",
+						"name": "伊東健人",
+						"nameEn": "Itou Kento",
+						"ref": "http://anidb.net/creator/39076"
+					},
+					{
+						"id": "3155",
+						"songId": "104612",
+						"relation": "ending",
+						"name": "小野友樹",
+						"nameEn": "Ono Yuuki",
+						"ref": "http://anidb.net/creator/3155"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104612"
+			}
+		]
+	},
+	"15460": {
+		"id": "15460",
+		"name": "\"Hataraku Saibou!!\" Saikyou no Teki, Futatabi. Karada no Naka wa \"Chou\" Oosawagi!",
+		"titleImageName": "249203.jpg",
+		"ref": "http://anidb.net/anime/15460",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104430",
+				"animeId": "15460",
+				"name": "GO!GO!細胞フェスタ",
+				"nameEn": "Go! Go! Saibou Festa",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "176",
+						"songId": "104430",
+						"relation": "theme song",
+						"name": "Ханадзава Кана",
+						"nameEn": "Hanazawa Kana",
+						"ref": "http://anidb.net/creator/176"
+					},
+					{
+						"id": "240",
+						"songId": "104430",
+						"relation": "theme song",
+						"name": "井之上喜久子",
+						"nameEn": "Inoue Kikuko",
+						"ref": "http://anidb.net/creator/240"
+					},
+					{
+						"id": "38670",
+						"songId": "104430",
+						"relation": "theme song",
+						"name": "小林裕介",
+						"nameEn": "Kobayashi Yuusuke",
+						"ref": "http://anidb.net/creator/38670"
+					},
+					{
+						"id": "612",
+						"songId": "104430",
+						"relation": "theme song",
+						"name": "前野智昭",
+						"nameEn": "Maeno Tomoaki",
+						"ref": "http://anidb.net/creator/612"
+					},
+					{
+						"id": "250",
+						"songId": "104430",
+						"relation": "theme song",
+						"name": "中本伸輔",
+						"nameEn": "Ono Daisuke",
+						"ref": "http://anidb.net/creator/250"
+					},
+					{
+						"id": "38546",
+						"songId": "104430",
+						"relation": "theme song",
+						"name": "吉田有里",
+						"nameEn": "Yoshida Yuuri",
+						"ref": "http://anidb.net/creator/38546"
+					}
+				],
+				"relation": "theme song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104430"
+			}
+		]
+	},
+	"15486": {
+		"id": "15486",
+		"name": "Get Up! Get Live! #Geragera",
+		"titleImageName": "248077.jpg",
+		"ref": "http://anidb.net/anime/15486",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104779",
+				"animeId": "15486",
+				"name": "GET UP! GET LIVE!",
+				"nameEn": "Get Up! Get Live!",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 10
+					}
+				],
+				"classification": "ED1a-ED1c",
+				"artists": [
+					{
+						"id": "33062",
+						"songId": "104779",
+						"relation": "ending",
+						"name": "細野洋平",
+						"nameEn": "Azakami Youhei",
+						"ref": "http://anidb.net/creator/33062"
+					},
+					{
+						"id": "31313",
+						"songId": "104779",
+						"relation": "ending",
+						"name": "花江夏樹",
+						"nameEn": "Hanae Natsuki",
+						"ref": "http://anidb.net/creator/31313"
+					},
+					{
+						"id": "34296",
+						"songId": "104779",
+						"relation": "ending",
+						"name": "石川界人",
+						"nameEn": "Ishikawa Kaito",
+						"ref": "http://anidb.net/creator/34296"
+					},
+					{
+						"id": "43746",
+						"songId": "104779",
+						"relation": "ending",
+						"name": "熊谷健太郎",
+						"nameEn": "Kumagai Kentarou",
+						"ref": "http://anidb.net/creator/43746"
+					},
+					{
+						"id": "32912",
+						"songId": "104779",
+						"relation": "ending",
+						"name": "西山宏太朗",
+						"nameEn": "Nishiyama Koutarou",
+						"ref": "http://anidb.net/creator/32912"
+					},
+					{
+						"id": "303",
+						"songId": "104779",
+						"relation": "ending",
+						"name": "T.Toyonaga",
+						"nameEn": "Toyonaga Toshiyuki",
+						"ref": "http://anidb.net/creator/303"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104779"
+			}
+		]
+	},
+	"15497": {
+		"id": "15497",
+		"name": "Kabukichou Sherlock (2020)",
+		"titleImageName": "222035.jpg",
+		"ref": "http://anidb.net/anime/15497",
+		"format": "OVA",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "103133",
+				"animeId": "15497",
+				"name": "CAPTURE",
+				"nameEn": "Capture",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "58908",
+						"songId": "103133",
+						"relation": "opening",
+						"name": "EGO-WRAPPIN`",
+						"nameEn": "Ego-Wrappin`",
+						"ref": "http://anidb.net/creator/58908"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103133"
+			},
+			{
+				"id": "104499",
+				"animeId": "15497",
+				"name": "パレード",
+				"nameEn": "Parade",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "46436",
+						"songId": "104499",
+						"relation": "ending",
+						"name": "石崎ひゅーい",
+						"nameEn": "Ishizaki Huwie",
+						"ref": "http://anidb.net/creator/46436"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104499"
+			}
+		]
+	},
+	"15507": {
+		"id": "15507",
+		"name": "Jintai no Survival!",
+		"titleImageName": "248942.jpg",
+		"ref": "http://anidb.net/anime/15507",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15570": {
+		"id": "15570",
+		"name": "Kyoshin to Hyouka no Shiro",
+		"titleImageName": "247699.jpg",
+		"ref": "http://anidb.net/anime/15570",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15581": {
+		"id": "15581",
+		"name": "Taeko no Nichijou (2020)",
+		"titleImageName": "247882.jpg",
+		"ref": "http://anidb.net/anime/15581",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15582": {
+		"id": "15582",
+		"name": "Shingeki no Kyojin: Chronicle",
+		"titleImageName": "247884.jpg",
+		"ref": "http://anidb.net/anime/15582",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104577",
+				"animeId": "15582",
+				"name": "AOT2013-2019",
+				"nameEn": "AOT2013-2019",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "398557",
+						"songId": "104577",
+						"relation": "theme song",
+						"name": "",
+						"nameEn": "Eliana",
+						"ref": "http://anidb.net/creator/virtual/398557"
+					},
+					{
+						"id": "398556",
+						"songId": "104577",
+						"relation": "theme song",
+						"name": "",
+						"nameEn": "Laco",
+						"ref": "http://anidb.net/creator/virtual/398556"
+					}
+				],
+				"relation": "theme song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104577"
+			}
+		]
+	},
+	"15600": {
+		"id": "15600",
+		"name": "Ani ni Tsukeru Kusuri wa Nai! 4",
+		"titleImageName": "253328.jpg",
+		"ref": "http://anidb.net/anime/15600",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15603": {
+		"id": "15603",
+		"name": "Ninja Collection",
+		"titleImageName": "248538.jpg",
+		"ref": "http://anidb.net/anime/15603",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104654",
+				"animeId": "15603",
+				"name": "忍び足でウンザウンザを踊る",
+				"nameEn": "Shinobiashi de Unzaunza o Odoru",
+				"ranges": null,
+				"classification": "",
+				"artists": null,
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104654"
+			}
+		]
+	},
+	"15608": {
+		"id": "15608",
+		"name": "Fushigi Dagashiya: Zenitendou",
+		"titleImageName": "248733.jpg",
+		"ref": "http://anidb.net/anime/15608",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104570",
+				"animeId": "15608",
+				"name": "奇想天外ふしぎをどうぞ",
+				"nameEn": "Kisoutengai Fushigi o Douzo",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "57581",
+						"songId": "104570",
+						"relation": "opening",
+						"name": "野田愛実",
+						"nameEn": "Noda Emi",
+						"ref": "http://anidb.net/creator/57581"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104570"
+			},
+			{
+				"id": "104571",
+				"animeId": "15608",
+				"name": "はにゃ○満点, 銭天堂.",
+				"nameEn": "Hanya Maru Manten, Zenitendou.",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "46165",
+						"songId": "104571",
+						"relation": "ending",
+						"name": "kocho",
+						"nameEn": "Kocho",
+						"ref": "http://anidb.net/creator/46165"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104571"
+			}
+		]
+	},
+	"15614": {
+		"id": "15614",
+		"name": "Nu Wushen de Canzhuo II",
+		"titleImageName": "250162.jpg",
+		"ref": "http://anidb.net/anime/15614",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15615": {
+		"id": "15615",
+		"name": "Tian Bao Fuyao Lu",
+		"titleImageName": "250160.jpg",
+		"ref": "http://anidb.net/anime/15615",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15617": {
+		"id": "15617",
+		"name": "Modao Zushi Q",
+		"titleImageName": "250985.jpg",
+		"ref": "http://anidb.net/anime/15617",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15623": {
+		"id": "15623",
+		"name": "Lalalacoco (2020)",
+		"titleImageName": "252952.jpg",
+		"ref": "http://anidb.net/anime/15623",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15624": {
+		"id": "15624",
+		"name": "Pittanko!! Nekozakana (2020)",
+		"titleImageName": "252953.jpg",
+		"ref": "http://anidb.net/anime/15624",
+		"format": "TV Series",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15637": {
+		"id": "15637",
+		"name": "Xpice",
+		"titleImageName": "250060.jpg",
+		"ref": "http://anidb.net/anime/15637",
+		"format": "Music Video",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104496",
+				"animeId": "15637",
+				"name": "SPICE",
+				"nameEn": "Spice",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "10394",
+						"songId": "104496",
+						"relation": "insert song",
+						"name": "SCANDAL",
+						"nameEn": "Scandal",
+						"ref": "http://anidb.net/creator/10394"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104496"
+			}
+		]
+	},
+	"15642": {
+		"id": "15642",
+		"name": "Kamen Rider Zero-One: Short Anime - Everyone`s Daily Life",
+		"titleImageName": "250280.jpg",
+		"ref": "http://anidb.net/anime/15642",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15663": {
+		"id": "15663",
+		"name": "Wu Shan Wu Xing",
+		"titleImageName": "250735.jpg",
+		"ref": "http://anidb.net/anime/15663",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15664": {
+		"id": "15664",
+		"name": "Shi Zhi Ge: Hua Yu Yan De Kuangxiang Shi",
+		"titleImageName": "250877.jpg",
+		"ref": "http://anidb.net/anime/15664",
+		"format": "Unknown",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15671": {
+		"id": "15671",
+		"name": "Yuan Long",
+		"titleImageName": "250984.jpg",
+		"ref": "http://anidb.net/anime/15671",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15672": {
+		"id": "15672",
+		"name": "Boku no Hero Academia: Ikinokore! Kesshi no Survival Kunren",
+		"titleImageName": "250953.jpg",
+		"ref": "http://anidb.net/anime/15672",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "103946",
+				"animeId": "15672",
+				"name": "スターマーカー",
+				"nameEn": "Star Marker",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 2
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "41080",
+						"songId": "103946",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "Kana-Boon",
+						"ref": "http://anidb.net/creator/41080"
+					}
+				],
+				"relation": "opening",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103946"
+			},
+			{
+				"id": "103945",
+				"animeId": "15672",
+				"name": "Shout Baby",
+				"nameEn": "Shout Baby",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 2
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "60175",
+						"songId": "103945",
+						"relation": "ending",
+						"name": "緑黄色社会",
+						"nameEn": "Ryokuoushoku Shakai",
+						"ref": "http://anidb.net/creator/60175"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/103945"
+			}
+		]
+	},
+	"15674": {
+		"id": "15674",
+		"name": "Ling Long: Incarnation Xia Ban Ji",
+		"titleImageName": "250987.jpg",
+		"ref": "http://anidb.net/anime/15674",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15681": {
+		"id": "15681",
+		"name": "You Yao",
+		"titleImageName": "251090.jpg",
+		"ref": "http://anidb.net/anime/15681",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15683": {
+		"id": "15683",
+		"name": "Min Diao Ju Yi Wen Lu",
+		"titleImageName": "251092.jpg",
+		"ref": "http://anidb.net/anime/15683",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15684": {
+		"id": "15684",
+		"name": "Miao Xian Sheng",
+		"titleImageName": "251097.jpg",
+		"ref": "http://anidb.net/anime/15684",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15685": {
+		"id": "15685",
+		"name": "Dawang Bu Gaoxing 2",
+		"titleImageName": "251128.jpg",
+		"ref": "http://anidb.net/anime/15685",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15686": {
+		"id": "15686",
+		"name": "Lie Yang Tiandao I",
+		"titleImageName": "251133.jpg",
+		"ref": "http://anidb.net/anime/15686",
+		"format": "Movie",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15687": {
+		"id": "15687",
+		"name": "Wu Dong Qiankun 2nd Season",
+		"titleImageName": "251132.jpg",
+		"ref": "http://anidb.net/anime/15687",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15693": {
+		"id": "15693",
+		"name": "Yi Nian Yong Heng",
+		"titleImageName": "251380.jpg",
+		"ref": "http://anidb.net/anime/15693",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15694": {
+		"id": "15694",
+		"name": "Dahua: Shaonian You",
+		"titleImageName": "251436.jpg",
+		"ref": "http://anidb.net/anime/15694",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15695": {
+		"id": "15695",
+		"name": "Jing: Shuang Cheng",
+		"titleImageName": "251437.jpg",
+		"ref": "http://anidb.net/anime/15695",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15701": {
+		"id": "15701",
+		"name": "Benghuai 3: Zuiren Wange",
+		"titleImageName": "251763.jpg",
+		"ref": "http://anidb.net/anime/15701",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15710": {
+		"id": "15710",
+		"name": "Sakura Kakumei: Hana Saku Otome-tachi",
+		"titleImageName": "251908.jpg",
+		"ref": "http://anidb.net/anime/15710",
+		"format": "Web",
+		"season": "Summer",
+		"year": "2020",
+		"songs": [
+			{
+				"id": "104717",
+				"animeId": "15710",
+				"name": "SAKURA HIKARU Revolution",
+				"nameEn": "Sakura Hikaru Revolution",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "400455",
+						"songId": "104717",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "帝国華撃団",
+						"ref": "http://anidb.net/creator/virtual/400455"
+					}
+				],
+				"relation": "ending",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104717"
+			},
+			{
+				"id": "104718",
+				"animeId": "15710",
+				"name": "Wonderful Future",
+				"nameEn": "Wonderful Future",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "400456",
+						"songId": "104718",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "大帝國華撃団 B.L.A.C.K.",
+						"ref": "http://anidb.net/creator/virtual/400456"
+					}
+				],
+				"relation": "insert song",
+				"year": "2020",
+				"ref": "http://anidb.net/song/104718"
+			}
+		]
+	},
+	"15725": {
+		"id": "15725",
+		"name": "Sakugasaku",
+		"titleImageName": "10838.jpeg",
+		"ref": "http://anidb.net/anime/15725",
+		"format": "Music Video",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	},
+	"15745": {
+		"id": "15745",
+		"name": "Planetarium Pocket Monsters: Aurora kara no Message",
+		"titleImageName": "252530.jpg",
+		"ref": "http://anidb.net/anime/15745",
+		"format": "Other",
+		"season": "Summer",
+		"year": "2020",
+		"songs": null
+	}
+}

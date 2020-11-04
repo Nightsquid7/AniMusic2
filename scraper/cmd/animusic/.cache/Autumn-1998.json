@@ -1,0 +1,5840 @@
+{
+	"10040": {
+		"id": "10040",
+		"name": "Kuzuryuugawa to Shounen",
+		"titleImageName": "143737.jpg",
+		"ref": "http://anidb.net/anime/10040",
+		"format": "Unknown",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"1229": {
+		"id": "1229",
+		"name": "Kujira no Chouyaku",
+		"titleImageName": "49947.jpg",
+		"ref": "http://anidb.net/anime/1229",
+		"format": "Movie",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "30666",
+				"animeId": "1229",
+				"name": "ウォーター・ピープルの歌",
+				"nameEn": "Wataer People no Uta",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "36644",
+						"songId": "30666",
+						"relation": "insert song",
+						"name": "原マスミ",
+						"nameEn": "Hara Masumi",
+						"ref": "http://anidb.net/creator/36644"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/30666"
+			}
+		]
+	},
+	"12786": {
+		"id": "12786",
+		"name": "Bokura Machi Bouzu!",
+		"titleImageName": "197661.jpg",
+		"ref": "http://anidb.net/anime/12786",
+		"format": "Music Video",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"12787": {
+		"id": "12787",
+		"name": "Instant Music",
+		"titleImageName": "197662.jpg",
+		"ref": "http://anidb.net/anime/12787",
+		"format": "Music Video",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"12894": {
+		"id": "12894",
+		"name": "Hamster Sam",
+		"titleImageName": "198862.jpg",
+		"ref": "http://anidb.net/anime/12894",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"134": {
+		"id": "134",
+		"name": "Saint Luminous Jogakuin",
+		"titleImageName": "2068.jpg",
+		"ref": "http://anidb.net/anime/134",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "6700",
+				"animeId": "134",
+				"name": "ルミナス\"消失と謎のテーマ\"Ver.1",
+				"nameEn": "Luminous \"Shoushitsu to Nazo no Theme\" (Ver. 1)",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 13
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "2485",
+						"songId": "6700",
+						"relation": "opening",
+						"name": "片倉三起也",
+						"nameEn": "Katakura Mikiya",
+						"ref": "http://anidb.net/creator/2485"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6700"
+			},
+			{
+				"id": "6701",
+				"animeId": "134",
+				"name": "LABYRINTH",
+				"nameEn": "Labyrinth",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "2484",
+						"songId": "6701",
+						"relation": "ending",
+						"name": "ALI PROJECT",
+						"nameEn": "Ali Project",
+						"ref": "http://anidb.net/creator/2484"
+					},
+					{
+						"id": "2484",
+						"songId": "6701",
+						"relation": "ending",
+						"name": "ALI PROJECT",
+						"nameEn": "Ali Project",
+						"ref": "http://anidb.net/creator/2484"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6701"
+			},
+			{
+				"id": "6701",
+				"animeId": "134",
+				"name": "LABYRINTH",
+				"nameEn": "Labyrinth (instrumental version)",
+				"ranges": [
+					{
+						"start": 13,
+						"end": 13
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "2484",
+						"songId": "6701",
+						"relation": "ending",
+						"name": "ALI PROJECT",
+						"nameEn": "Ali Project",
+						"ref": "http://anidb.net/creator/2484"
+					},
+					{
+						"id": "2484",
+						"songId": "6701",
+						"relation": "ending",
+						"name": "ALI PROJECT",
+						"nameEn": "Ali Project",
+						"ref": "http://anidb.net/creator/2484"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6701"
+			},
+			{
+				"id": "6703",
+				"animeId": "134",
+				"name": "ちょっとだけ水色",
+				"nameEn": "Chotto Dake wa Mizuiro",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "2138",
+						"songId": "6703",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Iizuka Mayumi",
+						"ref": "http://anidb.net/creator/2138"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6703"
+			},
+			{
+				"id": "6706",
+				"animeId": "134",
+				"name": "Missing heart",
+				"nameEn": "Missing Heart",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "2360",
+						"songId": "6706",
+						"relation": "insert song",
+						"name": "宮原永海",
+						"nameEn": "Miyahara Nami",
+						"ref": "http://anidb.net/creator/2360"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6706"
+			},
+			{
+				"id": "6702",
+				"animeId": "134",
+				"name": "Smile your sorrow away",
+				"nameEn": "Smile Your Sorrow Away",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "3294",
+						"songId": "6702",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Mizuno Manabi",
+						"ref": "http://anidb.net/creator/3294"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6702"
+			},
+			{
+				"id": "6704",
+				"animeId": "134",
+				"name": "To-bi-ra",
+				"nameEn": "To-bi-ra",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "82",
+						"songId": "6704",
+						"relation": "insert song",
+						"name": "子宮悦孤",
+						"nameEn": "Asakawa Yuu",
+						"ref": "http://anidb.net/creator/82"
+					},
+					{
+						"id": "61",
+						"songId": "6704",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Horie Yui",
+						"ref": "http://anidb.net/creator/61"
+					},
+					{
+						"id": "2138",
+						"songId": "6704",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Iizuka Mayumi",
+						"ref": "http://anidb.net/creator/2138"
+					},
+					{
+						"id": "490",
+						"songId": "6704",
+						"relation": "insert song",
+						"name": "菊池志穂",
+						"nameEn": "Kikuchi Shiho",
+						"ref": "http://anidb.net/creator/490"
+					},
+					{
+						"id": "2360",
+						"songId": "6704",
+						"relation": "insert song",
+						"name": "宮原永海",
+						"nameEn": "Miyahara Nami",
+						"ref": "http://anidb.net/creator/2360"
+					},
+					{
+						"id": "3294",
+						"songId": "6704",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Mizuno Manabi",
+						"ref": "http://anidb.net/creator/3294"
+					},
+					{
+						"id": "16799",
+						"songId": "6704",
+						"relation": "insert song",
+						"name": "手塚ちはる",
+						"nameEn": "Tezuka Chiharu",
+						"ref": "http://anidb.net/creator/16799"
+					},
+					{
+						"id": "43540",
+						"songId": "6704",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "田村宏美",
+						"ref": "http://anidb.net/creator/virtual/43540"
+					},
+					{
+						"id": "43541",
+						"songId": "6704",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "鈴木奈央",
+						"ref": "http://anidb.net/creator/virtual/43541"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6704"
+			},
+			{
+				"id": "6705",
+				"animeId": "134",
+				"name": "トライアングル",
+				"nameEn": "Triangle",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "43376",
+						"songId": "6705",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "マーメイド",
+						"ref": "http://anidb.net/creator/virtual/43376"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6705"
+			}
+		]
+	},
+	"142": {
+		"id": "142",
+		"name": "Yume de Aetara",
+		"titleImageName": "5050.jpg",
+		"ref": "http://anidb.net/anime/142",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "6777",
+				"animeId": "142",
+				"name": "風のような君でいて",
+				"nameEn": "Kaze no You na Kimi de Ite",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "38015",
+						"songId": "6777",
+						"relation": "ending",
+						"name": "HaLo",
+						"nameEn": "Halo",
+						"ref": "http://anidb.net/creator/38015"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6777"
+			},
+			{
+				"id": "6778",
+				"animeId": "142",
+				"name": "心の翼",
+				"nameEn": "Kokoro no Tsubasa",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "38015",
+						"songId": "6778",
+						"relation": "insert song",
+						"name": "HaLo",
+						"nameEn": "Halo",
+						"ref": "http://anidb.net/creator/38015"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6778"
+			}
+		]
+	},
+	"1439": {
+		"id": "1439",
+		"name": "Master Keaton",
+		"titleImageName": "57968.jpg",
+		"ref": "http://anidb.net/anime/1439",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "31717",
+				"animeId": "1439",
+				"name": "Railtown",
+				"nameEn": "Railtown",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "2318",
+						"songId": "31717",
+						"relation": "opening",
+						"name": "蓜島邦明",
+						"nameEn": "Haishima Kuniaki",
+						"ref": "http://anidb.net/creator/2318"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/31717"
+			},
+			{
+				"id": "31718",
+				"animeId": "1439",
+				"name": "eternal wind",
+				"nameEn": "Eternal Wind",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "19479",
+						"songId": "31718",
+						"relation": "ending",
+						"name": "Blue",
+						"nameEn": "Blue",
+						"ref": "http://anidb.net/creator/19479"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/31718"
+			},
+			{
+				"id": "31720",
+				"animeId": "1439",
+				"name": "EVER",
+				"nameEn": "Ever",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "19479",
+						"songId": "31720",
+						"relation": "ending",
+						"name": "Blue",
+						"nameEn": "Blue",
+						"ref": "http://anidb.net/creator/19479"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/31720"
+			},
+			{
+				"id": "31722",
+				"animeId": "1439",
+				"name": "from beginning",
+				"nameEn": "From Beginning",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "2318",
+						"songId": "31722",
+						"relation": "ending",
+						"name": "蓜島邦明",
+						"nameEn": "Haishima Kuniaki",
+						"ref": "http://anidb.net/creator/2318"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/31722"
+			},
+			{
+				"id": "31719",
+				"animeId": "1439",
+				"name": "ためいき",
+				"nameEn": "Tameiki",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "47430",
+						"songId": "31719",
+						"relation": "ending",
+						"name": "KneuKlid Romance",
+						"nameEn": "Kneuklid Romance",
+						"ref": "http://anidb.net/creator/47430"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/31719"
+			},
+			{
+				"id": "31721",
+				"animeId": "1439",
+				"name": "月と君と僕の関係",
+				"nameEn": "Tsuki to Kimi to Boku no Kankei",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "47430",
+						"songId": "31721",
+						"relation": "ending",
+						"name": "KneuKlid Romance",
+						"nameEn": "Kneuklid Romance",
+						"ref": "http://anidb.net/creator/47430"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/31721"
+			}
+		]
+	},
+	"1644": {
+		"id": "1644",
+		"name": "Kaiketsu Jouki Tanteidan",
+		"titleImageName": "11166.jpg",
+		"ref": "http://anidb.net/anime/1644",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "33359",
+				"animeId": "1644",
+				"name": "君, 微笑んだ夜",
+				"nameEn": "Kimi, Hohoenda Yoru",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "20132",
+						"songId": "33359",
+						"relation": "opening",
+						"name": "elika",
+						"nameEn": "Elika",
+						"ref": "http://anidb.net/creator/20132"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33359"
+			},
+			{
+				"id": "33361",
+				"animeId": "1644",
+				"name": "オアシス",
+				"nameEn": "Oasis",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "20132",
+						"songId": "33361",
+						"relation": "ending",
+						"name": "elika",
+						"nameEn": "Elika",
+						"ref": "http://anidb.net/creator/20132"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33361"
+			},
+			{
+				"id": "33360",
+				"animeId": "1644",
+				"name": "臆病emotion",
+				"nameEn": "Okubyou Emotion",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "20132",
+						"songId": "33360",
+						"relation": "ending",
+						"name": "elika",
+						"nameEn": "Elika",
+						"ref": "http://anidb.net/creator/20132"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33360"
+			},
+			{
+				"id": "33362",
+				"animeId": "1644",
+				"name": "Amazing Grace",
+				"nameEn": "Amazing Grace",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "20132",
+						"songId": "33362",
+						"relation": "insert song",
+						"name": "elika",
+						"nameEn": "Elika",
+						"ref": "http://anidb.net/creator/20132"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33362"
+			},
+			{
+				"id": "33368",
+				"animeId": "1644",
+				"name": "Brave Shine~強力テーマ~",
+				"nameEn": "Brave Shine: Kyouryoku Theme",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "76345",
+						"songId": "33368",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Reiko.Slick",
+						"ref": "http://anidb.net/creator/virtual/76345"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33368"
+			},
+			{
+				"id": "33363",
+				"animeId": "1644",
+				"name": "影と光を追って~鳴滝テーマ~",
+				"nameEn": "Kage to Hikari o Otte: Narutaki Theme",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "76360",
+						"songId": "33363",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "madoka",
+						"ref": "http://anidb.net/creator/virtual/76360"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33363"
+			},
+			{
+				"id": "33364",
+				"animeId": "1644",
+				"name": "この胸にときめきを",
+				"nameEn": "Kono Mune ni Tokimeki o",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "20132",
+						"songId": "33364",
+						"relation": "insert song",
+						"name": "elika",
+						"nameEn": "Elika",
+						"ref": "http://anidb.net/creator/20132"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33364"
+			},
+			{
+				"id": "33369",
+				"animeId": "1644",
+				"name": "Memories",
+				"nameEn": "Memories",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "20132",
+						"songId": "33369",
+						"relation": "insert song",
+						"name": "elika",
+						"nameEn": "Elika",
+						"ref": "http://anidb.net/creator/20132"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33369"
+			},
+			{
+				"id": "33367",
+				"animeId": "1644",
+				"name": "No No Boy~鈴々テーマ~",
+				"nameEn": "No No Boy: Linlin Theme",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "20132",
+						"songId": "33367",
+						"relation": "insert song",
+						"name": "elika",
+						"nameEn": "Elika",
+						"ref": "http://anidb.net/creator/20132"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33367"
+			},
+			{
+				"id": "33365",
+				"animeId": "1644",
+				"name": "So Blue -青い果実-",
+				"nameEn": "So Blue: Aoi Kajitsu",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "76354",
+						"songId": "33365",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Reiko.Slick",
+						"ref": "http://anidb.net/creator/virtual/76354"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33365"
+			},
+			{
+				"id": "33366",
+				"animeId": "1644",
+				"name": "たからもののまいにち",
+				"nameEn": "Takaramono no Mainichi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "76351",
+						"songId": "33366",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "madoka",
+						"ref": "http://anidb.net/creator/virtual/76351"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/33366"
+			}
+		]
+	},
+	"168": {
+		"id": "168",
+		"name": "Kashou no Tsuki: Aki Kyougen",
+		"titleImageName": "3053.jpg",
+		"ref": "http://anidb.net/anime/168",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"1743": {
+		"id": "1743",
+		"name": "Super Doll Licca-chan",
+		"titleImageName": "165634.jpg",
+		"ref": "http://anidb.net/anime/1743",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "34545",
+				"animeId": "1743",
+				"name": "「ねっ」",
+				"nameEn": "\"Ne\"",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "21099",
+						"songId": "34545",
+						"relation": "opening",
+						"name": "Rooky",
+						"nameEn": "Rooky",
+						"ref": "http://anidb.net/creator/21099"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/34545"
+			},
+			{
+				"id": "34546",
+				"animeId": "1743",
+				"name": "アシタノキミ",
+				"nameEn": "Ashita no Kimi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "419",
+						"songId": "34546",
+						"relation": "opening",
+						"name": "桜井智",
+						"nameEn": "Sakurai Tomo",
+						"ref": "http://anidb.net/creator/419"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/34546"
+			},
+			{
+				"id": "34547",
+				"animeId": "1743",
+				"name": "「ねっ」(Cutey Techno Mix)",
+				"nameEn": "\"Ne\" (Cutey Techno Mix)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "21099",
+						"songId": "34547",
+						"relation": "ending",
+						"name": "Rooky",
+						"nameEn": "Rooky",
+						"ref": "http://anidb.net/creator/21099"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/34547"
+			},
+			{
+				"id": "34549",
+				"animeId": "1743",
+				"name": "LOVEウォーズ大作戦",
+				"nameEn": "Love Wars Daisakusen",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "21099",
+						"songId": "34549",
+						"relation": "ending",
+						"name": "Rooky",
+						"nameEn": "Rooky",
+						"ref": "http://anidb.net/creator/21099"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/34549"
+			},
+			{
+				"id": "34550",
+				"animeId": "1743",
+				"name": "その夢は何色?",
+				"nameEn": "Sono Yume wa Nanshoku?",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "419",
+						"songId": "34550",
+						"relation": "ending",
+						"name": "桜井智",
+						"nameEn": "Sakurai Tomo",
+						"ref": "http://anidb.net/creator/419"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/34550"
+			},
+			{
+				"id": "34548",
+				"animeId": "1743",
+				"name": "わぁお!",
+				"nameEn": "Wow!",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "21099",
+						"songId": "34548",
+						"relation": "ending",
+						"name": "Rooky",
+						"nameEn": "Rooky",
+						"ref": "http://anidb.net/creator/21099"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/34548"
+			},
+			{
+				"id": "34551",
+				"animeId": "1743",
+				"name": "Destiny",
+				"nameEn": "Destiny",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "419",
+						"songId": "34551",
+						"relation": "insert song",
+						"name": "桜井智",
+						"nameEn": "Sakurai Tomo",
+						"ref": "http://anidb.net/creator/419"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/34551"
+			},
+			{
+				"id": "79106",
+				"animeId": "1743",
+				"name": "KIRA KIRA~友達のテーマ~",
+				"nameEn": "Kirakira: Tomodachi no Theme",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "28563",
+						"songId": "79106",
+						"relation": "image song",
+						"name": "河野由佳",
+						"nameEn": "Kouno Yuka",
+						"ref": "http://anidb.net/creator/28563"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/79106"
+			},
+			{
+				"id": "79105",
+				"animeId": "1743",
+				"name": "Le Present",
+				"nameEn": "Le Present",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "251964",
+						"songId": "79105",
+						"relation": "image song",
+						"name": "",
+						"nameEn": "白木由美",
+						"ref": "http://anidb.net/creator/virtual/251964"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/79105"
+			},
+			{
+				"id": "79108",
+				"animeId": "1743",
+				"name": "m.a.j.y.o",
+				"nameEn": "Majyo",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "50450",
+						"songId": "79108",
+						"relation": "image song",
+						"name": "大木理紗",
+						"nameEn": "Ooki Lisa",
+						"ref": "http://anidb.net/creator/50450"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/79108"
+			},
+			{
+				"id": "79163",
+				"animeId": "1743",
+				"name": "夏の絵本",
+				"nameEn": "Natsu no Ehon",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "419",
+						"songId": "79163",
+						"relation": "image song",
+						"name": "桜井智",
+						"nameEn": "Sakurai Tomo",
+						"ref": "http://anidb.net/creator/419"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/79163"
+			},
+			{
+				"id": "79104",
+				"animeId": "1743",
+				"name": "ROMANTIC",
+				"nameEn": "Romantic",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "28563",
+						"songId": "79104",
+						"relation": "image song",
+						"name": "河野由佳",
+						"nameEn": "Kouno Yuka",
+						"ref": "http://anidb.net/creator/28563"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/79104"
+			},
+			{
+				"id": "79107",
+				"animeId": "1743",
+				"name": "SKIP KIDS",
+				"nameEn": "Skip Kids",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "8784",
+						"songId": "79107",
+						"relation": "image song",
+						"name": "森の木児童合唱団",
+						"nameEn": "Mori no Ki Jidou Gasshou Dan",
+						"ref": "http://anidb.net/creator/8784"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/79107"
+			},
+			{
+				"id": "79109",
+				"animeId": "1743",
+				"name": "わぁお! (SUPER REMIX)",
+				"nameEn": "Waaa! (Super Remix)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "21099",
+						"songId": "79109",
+						"relation": "image song",
+						"name": "Rooky",
+						"nameEn": "Rooky",
+						"ref": "http://anidb.net/creator/21099"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/79109"
+			}
+		]
+	},
+	"190": {
+		"id": "190",
+		"name": "Generator Gawl",
+		"titleImageName": "222103.jpg",
+		"ref": "http://anidb.net/anime/190",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "7011",
+				"animeId": "190",
+				"name": "I WANT OUT",
+				"nameEn": "I Want Out",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 12
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "14689",
+						"songId": "7011",
+						"relation": "opening",
+						"name": "佐賀優喜",
+						"nameEn": "Saga Yuuki",
+						"ref": "http://anidb.net/creator/14689"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7011"
+			},
+			{
+				"id": "7012",
+				"animeId": "190",
+				"name": "これを恋と云えましょうか-ガウルバージョン-",
+				"nameEn": "Kore o Koi to Iemashouka (Gawl Version)",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 11
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "44579",
+						"songId": "7012",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "ヨシンバ",
+						"ref": "http://anidb.net/creator/virtual/44579"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7012"
+			},
+			{
+				"id": "7011",
+				"animeId": "190",
+				"name": "I WANT OUT",
+				"nameEn": "I Want Out",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "14689",
+						"songId": "7011",
+						"relation": "ending",
+						"name": "佐賀優喜",
+						"nameEn": "Saga Yuuki",
+						"ref": "http://anidb.net/creator/14689"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7011"
+			},
+			{
+				"id": "7013",
+				"animeId": "190",
+				"name": "雨のバラード",
+				"nameEn": "Ame no Ballade",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "38033",
+						"songId": "7013",
+						"relation": "insert song",
+						"name": "湯原昌幸",
+						"nameEn": "Yuhara Masayuki",
+						"ref": "http://anidb.net/creator/38033"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7013"
+			}
+		]
+	},
+	"199": {
+		"id": "199",
+		"name": "Kareshi Kanojo no Jijou",
+		"titleImageName": "133471.jpg",
+		"ref": "http://anidb.net/anime/199",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "291",
+				"animeId": "199",
+				"name": "天使のゆびきり",
+				"nameEn": "Tenshi no Yubikiri",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 26
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "13585",
+						"songId": "291",
+						"relation": "opening",
+						"name": "福田舞",
+						"nameEn": "Fukuda Mai",
+						"ref": "http://anidb.net/creator/13585"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/291"
+			},
+			{
+				"id": "7052",
+				"animeId": "199",
+				"name": "夢の中へ(Yukino Version)",
+				"nameEn": "Yume no Naka e (Yukino Version)",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "7052",
+						"relation": "ending",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7052"
+			},
+			{
+				"id": "312",
+				"animeId": "199",
+				"name": "夢の中へ",
+				"nameEn": "Yume no Naka e",
+				"ranges": [
+					{
+						"start": 2,
+						"end": 11
+					},
+					{
+						"start": 14,
+						"end": 15
+					},
+					{
+						"start": 17,
+						"end": 24
+					}
+				],
+				"classification": "26",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "312",
+						"relation": "ending",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "444",
+						"songId": "312",
+						"relation": "ending",
+						"name": "紫原遥",
+						"nameEn": "Suzuki Chihiro",
+						"ref": "http://anidb.net/creator/444"
+					},
+					{
+						"id": "348",
+						"songId": "312",
+						"relation": "ending",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "444",
+						"songId": "312",
+						"relation": "ending",
+						"name": "紫原遥",
+						"nameEn": "Suzuki Chihiro",
+						"ref": "http://anidb.net/creator/444"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/312"
+			},
+			{
+				"id": "312",
+				"animeId": "199",
+				"name": "夢の中へ",
+				"nameEn": "Yume no Naka e (instrumental version)",
+				"ranges": [
+					{
+						"start": 12,
+						"end": 13
+					}
+				],
+				"classification": "16",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "312",
+						"relation": "ending",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "444",
+						"songId": "312",
+						"relation": "ending",
+						"name": "紫原遥",
+						"nameEn": "Suzuki Chihiro",
+						"ref": "http://anidb.net/creator/444"
+					},
+					{
+						"id": "348",
+						"songId": "312",
+						"relation": "ending",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "444",
+						"songId": "312",
+						"relation": "ending",
+						"name": "紫原遥",
+						"nameEn": "Suzuki Chihiro",
+						"ref": "http://anidb.net/creator/444"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/312"
+			},
+			{
+				"id": "7053",
+				"animeId": "199",
+				"name": "風邪ひいた夜",
+				"nameEn": "Kaze Hiita Yoru",
+				"ranges": [
+					{
+						"start": 25,
+						"end": 25
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "487",
+						"songId": "7053",
+						"relation": "ending",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "7053",
+						"relation": "ending",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7053"
+			},
+			{
+				"id": "7054",
+				"animeId": "199",
+				"name": "S・O・S",
+				"nameEn": "SOS",
+				"ranges": [
+					{
+						"start": 6,
+						"end": 6
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "487",
+						"songId": "7054",
+						"relation": "insert song",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "7054",
+						"relation": "insert song",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7054"
+			},
+			{
+				"id": "7055",
+				"animeId": "199",
+				"name": "君がずっと離れない",
+				"nameEn": "Kimi ga Zutto Hanarenai",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "43929",
+						"songId": "7055",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "三輪明日美",
+						"ref": "http://anidb.net/creator/virtual/43929"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7055"
+			},
+			{
+				"id": "7056",
+				"animeId": "199",
+				"name": "妖怪人間ベム",
+				"nameEn": "Youkai Ningen Bem",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "311",
+						"songId": "7056",
+						"relation": "insert song",
+						"name": "千葉紗子",
+						"nameEn": "Chiba Saeko",
+						"ref": "http://anidb.net/creator/311"
+					},
+					{
+						"id": "348",
+						"songId": "7056",
+						"relation": "insert song",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "80",
+						"songId": "7056",
+						"relation": "insert song",
+						"name": "福井裕佳梨",
+						"nameEn": "Fukui Yukari",
+						"ref": "http://anidb.net/creator/80"
+					},
+					{
+						"id": "43083",
+						"songId": "7056",
+						"relation": "insert song",
+						"name": "本谷有希子",
+						"nameEn": "Motoya Yukiko",
+						"ref": "http://anidb.net/creator/43083"
+					},
+					{
+						"id": "140",
+						"songId": "7056",
+						"relation": "insert song",
+						"name": "野田順子",
+						"nameEn": "Noda Junko",
+						"ref": "http://anidb.net/creator/140"
+					},
+					{
+						"id": "485",
+						"songId": "7056",
+						"relation": "insert song",
+						"name": "新谷真弓",
+						"nameEn": "Shintani Mayumi",
+						"ref": "http://anidb.net/creator/485"
+					},
+					{
+						"id": "43084",
+						"songId": "7056",
+						"relation": "insert song",
+						"name": "ゆきのん`ズ",
+						"nameEn": "Yukinon`s",
+						"ref": "http://anidb.net/creator/43084"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7056"
+			},
+			{
+				"id": "32319",
+				"animeId": "199",
+				"name": "あなたがいてよかった",
+				"nameEn": "Anata ga Ite Yokatta",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "32319",
+						"relation": "image song",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32319"
+			},
+			{
+				"id": "32316",
+				"animeId": "199",
+				"name": "ありのまま be my love",
+				"nameEn": "Ari no Mama Be My Love",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "32316",
+						"relation": "image song",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "487",
+						"songId": "32316",
+						"relation": "image song",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "32316",
+						"relation": "image song",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32316"
+			},
+			{
+				"id": "32314",
+				"animeId": "199",
+				"name": "ブラボー!",
+				"nameEn": "Bravo!",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "487",
+						"songId": "32314",
+						"relation": "image song",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "32314",
+						"relation": "image song",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32314"
+			},
+			{
+				"id": "32311",
+				"animeId": "199",
+				"name": "Fun²",
+				"nameEn": "Fun^2",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "13585",
+						"songId": "32311",
+						"relation": "image song",
+						"name": "福田舞",
+						"nameEn": "Fukuda Mai",
+						"ref": "http://anidb.net/creator/13585"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32311"
+			},
+			{
+				"id": "32313",
+				"animeId": "199",
+				"name": "恋, してます.",
+				"nameEn": "Koi, Shitemasu.",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "32313",
+						"relation": "image song",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "487",
+						"songId": "32313",
+						"relation": "image song",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "32313",
+						"relation": "image song",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32313"
+			},
+			{
+				"id": "32318",
+				"animeId": "199",
+				"name": "Love is a many-splendored thing",
+				"nameEn": "Love is a Many-Splendored Thing",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "32318",
+						"relation": "image song",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32318"
+			},
+			{
+				"id": "32312",
+				"animeId": "199",
+				"name": "Passion DE Love",
+				"nameEn": "Passion de Love",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "32312",
+						"relation": "image song",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "487",
+						"songId": "32312",
+						"relation": "image song",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "32312",
+						"relation": "image song",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32312"
+			},
+			{
+				"id": "32317",
+				"animeId": "199",
+				"name": "S・O・S(Acoustic Version)",
+				"nameEn": "SOS (Acoustic Version)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "487",
+						"songId": "32317",
+						"relation": "image song",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "32317",
+						"relation": "image song",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32317"
+			},
+			{
+				"id": "32320",
+				"animeId": "199",
+				"name": "seek!",
+				"nameEn": "Seek!",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "32320",
+						"relation": "image song",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "487",
+						"songId": "32320",
+						"relation": "image song",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "32320",
+						"relation": "image song",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32320"
+			},
+			{
+				"id": "32321",
+				"animeId": "199",
+				"name": "Setsu・Getsu・Ka",
+				"nameEn": "Setsu Getsu Ka",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "32321",
+						"relation": "image song",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "487",
+						"songId": "32321",
+						"relation": "image song",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "32321",
+						"relation": "image song",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32321"
+			},
+			{
+				"id": "32315",
+				"animeId": "199",
+				"name": "Style",
+				"nameEn": "Style",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "348",
+						"songId": "32315",
+						"relation": "image song",
+						"name": "榎本温子",
+						"nameEn": "Enomoto Atsuko",
+						"ref": "http://anidb.net/creator/348"
+					},
+					{
+						"id": "487",
+						"songId": "32315",
+						"relation": "image song",
+						"name": "渡邉由紀",
+						"nameEn": "Watanabe Yuki",
+						"ref": "http://anidb.net/creator/487"
+					},
+					{
+						"id": "86",
+						"songId": "32315",
+						"relation": "image song",
+						"name": "山本麻里安",
+						"nameEn": "Yamamoto Maria",
+						"ref": "http://anidb.net/creator/86"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32315"
+			}
+		]
+	},
+	"2108": {
+		"id": "2108",
+		"name": "Chousoku Spinner",
+		"titleImageName": "213240.jpg",
+		"ref": "http://anidb.net/anime/2108",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "27292",
+				"animeId": "2108",
+				"name": "SOMEDAY LET`S GO TOGETHER",
+				"nameEn": "Someday Let`s Go Together",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 14
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "47631",
+						"songId": "27292",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "rub.down",
+						"ref": "http://anidb.net/creator/virtual/47631"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/27292"
+			},
+			{
+				"id": "27291",
+				"animeId": "2108",
+				"name": "LOOP \u0026 LOOP",
+				"nameEn": "Loop \u0026 Loop",
+				"ranges": [
+					{
+						"start": 15,
+						"end": 22
+					}
+				],
+				"classification": "OP2",
+				"artists": [
+					{
+						"id": "143",
+						"songId": "27291",
+						"relation": "opening",
+						"name": "森久保祥太郎",
+						"nameEn": "Morikubo Shoutarou",
+						"ref": "http://anidb.net/creator/143"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/27291"
+			},
+			{
+				"id": "27290",
+				"animeId": "2108",
+				"name": "Future",
+				"nameEn": "Future",
+				"ranges": null,
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "47549",
+						"songId": "27290",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "なかじまちあき",
+						"ref": "http://anidb.net/creator/virtual/47549"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/27290"
+			}
+		]
+	},
+	"2240": {
+		"id": "2240",
+		"name": "Hanasaka Tenshi Tenten-kun",
+		"titleImageName": "3196.jpg",
+		"ref": "http://anidb.net/anime/2240",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "37452",
+				"animeId": "2240",
+				"name": "クラスで一番スゴイやつ",
+				"nameEn": "Class de Ichiban Sugoi Yatsu",
+				"ranges": null,
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "88917",
+						"songId": "37452",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "ブラブラブラボーズ",
+						"ref": "http://anidb.net/creator/virtual/88917"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37452"
+			},
+			{
+				"id": "37453",
+				"animeId": "2240",
+				"name": "tu-la-la",
+				"nameEn": "Tu-La-La",
+				"ranges": null,
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "6843",
+						"songId": "37453",
+						"relation": "ending",
+						"name": "雲子",
+						"nameEn": "Izumikawa Sora",
+						"ref": "http://anidb.net/creator/6843"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37453"
+			},
+			{
+				"id": "37454",
+				"animeId": "2240",
+				"name": "ドタバタギャグの日曜日",
+				"nameEn": "Dotabata Gag no Nichiyoubi",
+				"ranges": null,
+				"classification": "ED2",
+				"artists": [
+					{
+						"id": "38037",
+						"songId": "37454",
+						"relation": "ending",
+						"name": "チェキッ娘",
+						"nameEn": "Checkicco",
+						"ref": "http://anidb.net/creator/38037"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37454"
+			}
+		]
+	},
+	"240": {
+		"id": "240",
+		"name": "Gasaraki",
+		"titleImageName": "148680.jpg",
+		"ref": "http://anidb.net/anime/240",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "1641",
+				"animeId": "240",
+				"name": "MESSAGE #9",
+				"nameEn": "Message #9",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 14
+					}
+				],
+				"classification": "17",
+				"artists": [
+					{
+						"id": "3901",
+						"songId": "1641",
+						"relation": "opening",
+						"name": "種ともこ",
+						"nameEn": "Tane Tomoko",
+						"ref": "http://anidb.net/creator/3901"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/1641"
+			},
+			{
+				"id": "1642",
+				"animeId": "240",
+				"name": "REMIX OF MESSAGE #9:type M",
+				"nameEn": "Remix of Message #9: Type M",
+				"ranges": [
+					{
+						"start": 15,
+						"end": 16
+					},
+					{
+						"start": 18,
+						"end": 24
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "3901",
+						"songId": "1642",
+						"relation": "opening",
+						"name": "種ともこ",
+						"nameEn": "Tane Tomoko",
+						"ref": "http://anidb.net/creator/3901"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/1642"
+			},
+			{
+				"id": "1640",
+				"animeId": "240",
+				"name": "LOVE SONG",
+				"nameEn": "Love Song",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 25
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "3901",
+						"songId": "1640",
+						"relation": "ending",
+						"name": "種ともこ",
+						"nameEn": "Tane Tomoko",
+						"ref": "http://anidb.net/creator/3901"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/1640"
+			},
+			{
+				"id": "7377",
+				"animeId": "240",
+				"name": "Vanity",
+				"nameEn": "Vanity",
+				"ranges": [
+					{
+						"start": 15,
+						"end": 16
+					}
+				],
+				"classification": "19",
+				"artists": [
+					{
+						"id": "43589",
+						"songId": "7377",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "SEEMA",
+						"ref": "http://anidb.net/creator/virtual/43589"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7377"
+			},
+			{
+				"id": "73530",
+				"animeId": "240",
+				"name": "鞠--mari",
+				"nameEn": "Mari",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "243316",
+						"songId": "73530",
+						"relation": "image song",
+						"name": "",
+						"nameEn": "石原康志",
+						"ref": "http://anidb.net/creator/virtual/243316"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/73530"
+			},
+			{
+				"id": "73517",
+				"animeId": "240",
+				"name": "弥--mi",
+				"nameEn": "Mi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "243315",
+						"songId": "73517",
+						"relation": "image song",
+						"name": "",
+						"nameEn": "石原康志",
+						"ref": "http://anidb.net/creator/virtual/243315"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/73517"
+			},
+			{
+				"id": "1643",
+				"animeId": "240",
+				"name": "REMIX OF MESSAGE #9:type H",
+				"nameEn": "Remix of Message #9: Type H",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "3901",
+						"songId": "1643",
+						"relation": "image song",
+						"name": "種ともこ",
+						"nameEn": "Tane Tomoko",
+						"ref": "http://anidb.net/creator/3901"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/1643"
+			}
+		]
+	},
+	"2492": {
+		"id": "2492",
+		"name": "Twinbee Paradise",
+		"titleImageName": "238605.jpg",
+		"ref": "http://anidb.net/anime/2492",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "38804",
+				"animeId": "2492",
+				"name": "Twin memories",
+				"nameEn": "Twin Memories",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "1662",
+						"songId": "38804",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "Kouda Mariko",
+						"ref": "http://anidb.net/creator/1662"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/38804"
+			},
+			{
+				"id": "38805",
+				"animeId": "2492",
+				"name": "太陽で行こう",
+				"nameEn": "Taiyou de Ikou",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "1662",
+						"songId": "38805",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Kouda Mariko",
+						"ref": "http://anidb.net/creator/1662"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/38805"
+			}
+		]
+	},
+	"2735": {
+		"id": "2735",
+		"name": "Glass no Kamen: Sen no Kamen o Motsu Shoujo",
+		"titleImageName": "65375.jpg",
+		"ref": "http://anidb.net/anime/2735",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "40465",
+				"animeId": "2735",
+				"name": "光になりたい",
+				"nameEn": "Hikari ni Naritai",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "110837",
+						"songId": "40465",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "星乃真帆",
+						"ref": "http://anidb.net/creator/virtual/110837"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/40465"
+			},
+			{
+				"id": "40466",
+				"animeId": "2735",
+				"name": "ずっと君のそばにいる",
+				"nameEn": "Zutto Kimi no Soba ni Iru",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "110834",
+						"songId": "40466",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "浪岡将彦",
+						"ref": "http://anidb.net/creator/virtual/110834"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/40466"
+			}
+		]
+	},
+	"2758": {
+		"id": "2758",
+		"name": "4-Day Weekend",
+		"titleImageName": "3764.jpg",
+		"ref": "http://anidb.net/anime/2758",
+		"format": "Music Video",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "89481",
+				"animeId": "2758",
+				"name": "4-Day Weekend",
+				"nameEn": "4-Day Weekend",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "47293",
+						"songId": "89481",
+						"relation": "theme song",
+						"name": "The Bluetones",
+						"nameEn": "The Bluetones",
+						"ref": "http://anidb.net/creator/47293"
+					}
+				],
+				"relation": "theme song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/89481"
+			}
+		]
+	},
+	"2978": {
+		"id": "2978",
+		"name": "Eiga Beast Wars Second Chou Seimeitai Transformers Lio Convoy Kiki Ippatsu!",
+		"titleImageName": "36235.jpg",
+		"ref": "http://anidb.net/anime/2978",
+		"format": "Movie",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "9613",
+				"animeId": "2978",
+				"name": "SPACE DREAMER~遥かなるビーストウォーズ~",
+				"nameEn": "Space Dreamer: Haruka Naru Beast Wars",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "8788",
+						"songId": "9613",
+						"relation": "opening",
+						"name": "COA",
+						"nameEn": "COA",
+						"ref": "http://anidb.net/creator/8788"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9613"
+			},
+			{
+				"id": "9614",
+				"animeId": "2978",
+				"name": "MY SHOOTING STAR",
+				"nameEn": "My Shooting Star",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "8788",
+						"songId": "9614",
+						"relation": "ending",
+						"name": "COA",
+						"nameEn": "COA",
+						"ref": "http://anidb.net/creator/8788"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9614"
+			}
+		]
+	},
+	"3059": {
+		"id": "3059",
+		"name": "Touch: Miss Lonely Yesterday - Arekara, Kimi wa",
+		"titleImageName": "204637.jpg",
+		"ref": "http://anidb.net/anime/3059",
+		"format": "TV Special",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "41779",
+				"animeId": "3059",
+				"name": "タッチ(フライデーナイト・バージョン)",
+				"nameEn": "Touch (Friday Night Version)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "116584",
+						"songId": "41779",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "Quick-Times",
+						"ref": "http://anidb.net/creator/virtual/116584"
+					},
+					{
+						"id": "116583",
+						"songId": "41779",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "沢井なつ美",
+						"ref": "http://anidb.net/creator/virtual/116583"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/41779"
+			},
+			{
+				"id": "41780",
+				"animeId": "3059",
+				"name": "Hi Hi High",
+				"nameEn": "Hi Hi High",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "12586",
+						"songId": "41780",
+						"relation": "ending",
+						"name": "熊谷幸子",
+						"nameEn": "Kumagai Sachiko",
+						"ref": "http://anidb.net/creator/12586"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/41780"
+			},
+			{
+				"id": "41781",
+				"animeId": "3059",
+				"name": "あれから, 君は...",
+				"nameEn": "Arekara, Kimi wa...",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "4130",
+						"songId": "41781",
+						"relation": "insert song",
+						"name": "芹澤廣明",
+						"nameEn": "Serizawa Hiroaki",
+						"ref": "http://anidb.net/creator/4130"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/41781"
+			},
+			{
+				"id": "41782",
+				"animeId": "3059",
+				"name": "Song For You",
+				"nameEn": "Song For You",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "12586",
+						"songId": "41782",
+						"relation": "insert song",
+						"name": "熊谷幸子",
+						"nameEn": "Kumagai Sachiko",
+						"ref": "http://anidb.net/creator/12586"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/41782"
+			}
+		]
+	},
+	"3286": {
+		"id": "3286",
+		"name": "Kasei Ryodan Dnasights Four-Nine",
+		"titleImageName": "247172.jpg",
+		"ref": "http://anidb.net/anime/3286",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "42926",
+				"animeId": "3286",
+				"name": "RA・SE・N",
+				"nameEn": "Rasen",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "187",
+						"songId": "42926",
+						"relation": "ending",
+						"name": "em:ou",
+						"nameEn": "Ogata Megumi",
+						"ref": "http://anidb.net/creator/187"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/42926"
+			}
+		]
+	},
+	"3297": {
+		"id": "3297",
+		"name": "Let`s Nupu Nupu",
+		"titleImageName": "132615.jpg",
+		"ref": "http://anidb.net/anime/3297",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "39005",
+				"animeId": "3297",
+				"name": "Maybe true",
+				"nameEn": "Maybe True",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "22962",
+						"songId": "39005",
+						"relation": "opening",
+						"name": "FANATIC◇CRISIS",
+						"nameEn": "Fanatic Crisis",
+						"ref": "http://anidb.net/creator/22962"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/39005"
+			},
+			{
+				"id": "39006",
+				"animeId": "3297",
+				"name": "Twister",
+				"nameEn": "Twister",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 16
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "22964",
+						"songId": "39006",
+						"relation": "insert song",
+						"name": "Jack\u0026Betty",
+						"nameEn": "Jack \u0026 Betty",
+						"ref": "http://anidb.net/creator/22964"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/39006"
+			}
+		]
+	},
+	"3338": {
+		"id": "3338",
+		"name": "Dinozone",
+		"titleImageName": "10058.jpeg",
+		"ref": "http://anidb.net/anime/3338",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"3396": {
+		"id": "3396",
+		"name": "Jikuu Tantei Genshi-kun",
+		"titleImageName": "76741.jpg",
+		"ref": "http://anidb.net/anime/3396",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "43390",
+				"animeId": "3396",
+				"name": "パワーなきもち",
+				"nameEn": "Power na Kimochi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "24760",
+						"songId": "43390",
+						"relation": "opening",
+						"name": "朝倉ゆかり",
+						"nameEn": "Asakura Yukari",
+						"ref": "http://anidb.net/creator/24760"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/43390"
+			},
+			{
+				"id": "43393",
+				"animeId": "3396",
+				"name": "僕のシルシ",
+				"nameEn": "Boku no Shirushi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "125161",
+						"songId": "43393",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "中川顕一",
+						"ref": "http://anidb.net/creator/virtual/125161"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/43393"
+			},
+			{
+				"id": "43394",
+				"animeId": "3396",
+				"name": "時空の彼方へ",
+				"nameEn": "Jikuu no Kanata e",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "18",
+						"songId": "43394",
+						"relation": "ending",
+						"name": "水樹奈々",
+						"nameEn": "Mizuki Nana",
+						"ref": "http://anidb.net/creator/18"
+					},
+					{
+						"id": "20184",
+						"songId": "43394",
+						"relation": "ending",
+						"name": "森田樹優",
+						"nameEn": "Morita Chiaki",
+						"ref": "http://anidb.net/creator/20184"
+					},
+					{
+						"id": "551",
+						"songId": "43394",
+						"relation": "ending",
+						"name": "西村ちなみ",
+						"nameEn": "Nishimura Chinami",
+						"ref": "http://anidb.net/creator/551"
+					},
+					{
+						"id": "32",
+						"songId": "43394",
+						"relation": "ending",
+						"name": "立木文彦",
+						"nameEn": "Tachiki Fumihiko",
+						"ref": "http://anidb.net/creator/32"
+					},
+					{
+						"id": "23531",
+						"songId": "43394",
+						"relation": "ending",
+						"name": "ゆきじ",
+						"nameEn": "Yukiji",
+						"ref": "http://anidb.net/creator/23531"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/43394"
+			},
+			{
+				"id": "43392",
+				"animeId": "3396",
+				"name": "きらきら",
+				"nameEn": "Kirakira",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "3294",
+						"songId": "43392",
+						"relation": "ending",
+						"name": "水野愛日",
+						"nameEn": "Mizuno Manabi",
+						"ref": "http://anidb.net/creator/3294"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/43392"
+			},
+			{
+				"id": "43391",
+				"animeId": "3396",
+				"name": "もしも...",
+				"nameEn": "Moshimo...",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "2138",
+						"songId": "43391",
+						"relation": "ending",
+						"name": "飯塚雅弓",
+						"nameEn": "Iizuka Mayumi",
+						"ref": "http://anidb.net/creator/2138"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/43391"
+			}
+		]
+	},
+	"345": {
+		"id": "345",
+		"name": "Bubblegum Crisis Tokyo 2040",
+		"titleImageName": "226324.jpg",
+		"ref": "http://anidb.net/anime/345",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "7916",
+				"animeId": "345",
+				"name": "y`know",
+				"nameEn": "Y`know",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "7916",
+						"relation": "opening",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7916"
+			},
+			{
+				"id": "7917",
+				"animeId": "345",
+				"name": "Waiting for YOU",
+				"nameEn": "Waiting For You",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "7917",
+						"relation": "ending",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/7917"
+			},
+			{
+				"id": "8335",
+				"animeId": "345",
+				"name": "雨",
+				"nameEn": "Ame",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "8335",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8335"
+			},
+			{
+				"id": "8330",
+				"animeId": "345",
+				"name": "Blue confusion",
+				"nameEn": "Blue Confusion",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "8330",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8330"
+			},
+			{
+				"id": "47151",
+				"animeId": "345",
+				"name": "Blue confusion(featuring YUU ASAKAWA)",
+				"nameEn": "Blue Confusion (featuring Yuu Asakawa)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "82",
+						"songId": "47151",
+						"relation": "image song",
+						"name": "",
+						"nameEn": "Asakawa Yuu",
+						"ref": "http://anidb.net/creator/82"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/47151"
+			},
+			{
+				"id": "8329",
+				"animeId": "345",
+				"name": "bug list",
+				"nameEn": "Bug List",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "8329",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8329"
+			},
+			{
+				"id": "47152",
+				"animeId": "345",
+				"name": "bug list(take2)",
+				"nameEn": "Bug List (Take2)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "47152",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/47152"
+			},
+			{
+				"id": "8333",
+				"animeId": "345",
+				"name": "ぶっきらぼうな愛に溺れたい",
+				"nameEn": "Bukkirabou na Ai ni Oboretai",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "8333",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8333"
+			},
+			{
+				"id": "8331",
+				"animeId": "345",
+				"name": "冬の破片(かけら)",
+				"nameEn": "Fuyu no Hahen (Kakera)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "8331",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8331"
+			},
+			{
+				"id": "8332",
+				"animeId": "345",
+				"name": "イデア",
+				"nameEn": "Idea",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "8332",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8332"
+			},
+			{
+				"id": "47154",
+				"animeId": "345",
+				"name": "journey",
+				"nameEn": "Journey",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "47154",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/47154"
+			},
+			{
+				"id": "47145",
+				"animeId": "345",
+				"name": "今夜はハリケーン(featuring YUU ASAKAWA)",
+				"nameEn": "Konya wa Hurricane (featuring Yuu Asakawa)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "82",
+						"songId": "47145",
+						"relation": "image song",
+						"name": "",
+						"nameEn": "Asakawa Yuu",
+						"ref": "http://anidb.net/creator/82"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/47145"
+			},
+			{
+				"id": "8328",
+				"animeId": "345",
+				"name": "トンネルのなかの惑星",
+				"nameEn": "Tunnel no Naka no Wakusei",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "8328",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8328"
+			},
+			{
+				"id": "47147",
+				"animeId": "345",
+				"name": "トンネルのなかの惑星(ANOTHER MIX)",
+				"nameEn": "Tunnel no Naka no Wakusei (Another Mix)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "7386",
+						"songId": "47147",
+						"relation": "image song",
+						"name": "須藤あきら",
+						"nameEn": "Sudou Akira",
+						"ref": "http://anidb.net/creator/7386"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/47147"
+			},
+			{
+				"id": "47149",
+				"animeId": "345",
+				"name": "Waiting for YOU(featuring RIO NATSUKI)",
+				"nameEn": "Waiting for You (featuring Rio Natsuki)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "1917",
+						"songId": "47149",
+						"relation": "image song",
+						"name": "夏樹リオ",
+						"nameEn": "Natsuki Rio",
+						"ref": "http://anidb.net/creator/1917"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/47149"
+			},
+			{
+				"id": "47123",
+				"animeId": "345",
+				"name": "Punk it up",
+				"nameEn": "Punk it Up",
+				"ranges": null,
+				"classification": "",
+				"artists": null,
+				"relation": "background music",
+				"year": "1998",
+				"ref": "http://anidb.net/song/47123"
+			},
+			{
+				"id": "47157",
+				"animeId": "345",
+				"name": "TIME",
+				"nameEn": "Time",
+				"ranges": null,
+				"classification": "",
+				"artists": null,
+				"relation": "background music",
+				"year": "1998",
+				"ref": "http://anidb.net/song/47157"
+			}
+		]
+	},
+	"361": {
+		"id": "361",
+		"name": "Ao no 6 Gou",
+		"titleImageName": "58680.jpg",
+		"ref": "http://anidb.net/anime/361",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "8015",
+				"animeId": "361",
+				"name": "青の覚醒",
+				"nameEn": "Ao no Kakusei",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "49650",
+						"songId": "8015",
+						"relation": "opening",
+						"name": "THE THRILL",
+						"nameEn": "The Thrill",
+						"ref": "http://anidb.net/creator/49650"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8015"
+			},
+			{
+				"id": "8016",
+				"animeId": "361",
+				"name": "みなそこに眠れ",
+				"nameEn": "Minasoko ni Nemure",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "49651",
+						"songId": "8016",
+						"relation": "ending",
+						"name": "Yukarie",
+						"nameEn": "Yukarie",
+						"ref": "http://anidb.net/creator/49651"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8016"
+			}
+		]
+	},
+	"363": {
+		"id": "363",
+		"name": "Slayers Excellent",
+		"titleImageName": "246359.jpg",
+		"ref": "http://anidb.net/anime/363",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "8019",
+				"animeId": "363",
+				"name": "Never die",
+				"nameEn": "Never Die",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 3
+					}
+				],
+				"classification": "ED1a-ED1c",
+				"artists": [
+					{
+						"id": "1768",
+						"songId": "8019",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Okui Masami",
+						"ref": "http://anidb.net/creator/1768"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8019"
+			}
+		]
+	},
+	"394": {
+		"id": "394",
+		"name": "Saber Marionette J to X",
+		"titleImageName": "152800.jpg",
+		"ref": "http://anidb.net/anime/394",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "8363",
+				"animeId": "394",
+				"name": "Proof of Myself",
+				"nameEn": "Proof of Myself",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "13",
+						"songId": "8363",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "Hayashibara Megumi",
+						"ref": "http://anidb.net/creator/13"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8363"
+			},
+			{
+				"id": "8367",
+				"animeId": "394",
+				"name": "いっしょに",
+				"nameEn": "Issho ni",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "13",
+						"songId": "8367",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Hayashibara Megumi",
+						"ref": "http://anidb.net/creator/13"
+					},
+					{
+						"id": "692",
+						"songId": "8367",
+						"relation": "ending",
+						"name": "平松晶子",
+						"nameEn": "Hiramatsu Akiko",
+						"ref": "http://anidb.net/creator/692"
+					},
+					{
+						"id": "437",
+						"songId": "8367",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Shiratori Yuri",
+						"ref": "http://anidb.net/creator/437"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8367"
+			},
+			{
+				"id": "8365",
+				"animeId": "394",
+				"name": "風と空を越えて",
+				"nameEn": "Kaze to Sora o Koete",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "362",
+						"songId": "8365",
+						"relation": "ending",
+						"name": "杉沢結花",
+						"nameEn": "Imai Yuka",
+						"ref": "http://anidb.net/creator/362"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8365"
+			},
+			{
+				"id": "8364",
+				"animeId": "394",
+				"name": "Lively Motion",
+				"nameEn": "Lively Motion",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "13",
+						"songId": "8364",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Hayashibara Megumi",
+						"ref": "http://anidb.net/creator/13"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8364"
+			},
+			{
+				"id": "8366",
+				"animeId": "394",
+				"name": "叫び",
+				"nameEn": "Sakebi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "19697",
+						"songId": "8366",
+						"relation": "ending",
+						"name": "PAROME",
+						"nameEn": "Parome",
+						"ref": "http://anidb.net/creator/19697"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8366"
+			},
+			{
+				"id": "8370",
+				"animeId": "394",
+				"name": "Everything is Love",
+				"nameEn": "Everything is Love",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "437",
+						"songId": "8370",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Shiratori Yuri",
+						"ref": "http://anidb.net/creator/437"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8370"
+			},
+			{
+				"id": "8369",
+				"animeId": "394",
+				"name": "いよかん",
+				"nameEn": "Iyokan",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "139",
+						"songId": "8369",
+						"relation": "insert song",
+						"name": "十文字隼人",
+						"nameEn": "Koyasu Takehito",
+						"ref": "http://anidb.net/creator/139"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8369"
+			},
+			{
+				"id": "8372",
+				"animeId": "394",
+				"name": "冗談じゃないよ!",
+				"nameEn": "Joudan ja Nai yo!",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "692",
+						"songId": "8372",
+						"relation": "insert song",
+						"name": "平松晶子",
+						"nameEn": "Hiramatsu Akiko",
+						"ref": "http://anidb.net/creator/692"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8372"
+			},
+			{
+				"id": "8368",
+				"animeId": "394",
+				"name": "十六夜(La la la Ver.)",
+				"nameEn": "Juuroku Yoru (La La La Ver.)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "6448",
+						"songId": "8368",
+						"relation": "insert song",
+						"name": "岩本正樹",
+						"nameEn": "Iwamoto Masaki",
+						"ref": "http://anidb.net/creator/6448"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8368"
+			},
+			{
+				"id": "8371",
+				"animeId": "394",
+				"name": "栗ひろい",
+				"nameEn": "Ritsu Hiroi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "139",
+						"songId": "8371",
+						"relation": "insert song",
+						"name": "十文字隼人",
+						"nameEn": "Koyasu Takehito",
+						"ref": "http://anidb.net/creator/139"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8371"
+			},
+			{
+				"id": "8373",
+				"animeId": "394",
+				"name": "生命線のマリア",
+				"nameEn": "Seimeisen no Maria",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "57504",
+						"songId": "8373",
+						"relation": "insert song",
+						"name": "KAZCO",
+						"nameEn": "Hamano Kazuko",
+						"ref": "http://anidb.net/creator/57504"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8373"
+			},
+			{
+				"id": "8374",
+				"animeId": "394",
+				"name": "千日手",
+				"nameEn": "Sennichite",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "139",
+						"songId": "8374",
+						"relation": "insert song",
+						"name": "十文字隼人",
+						"nameEn": "Koyasu Takehito",
+						"ref": "http://anidb.net/creator/139"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8374"
+			},
+			{
+				"id": "8375",
+				"animeId": "394",
+				"name": "約束の地",
+				"nameEn": "Yakusoku no Chi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "1768",
+						"songId": "8375",
+						"relation": "insert song",
+						"name": "MASAMI",
+						"nameEn": "Okui Masami",
+						"ref": "http://anidb.net/creator/1768"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8375"
+			},
+			{
+				"id": "8376",
+				"animeId": "394",
+				"name": "ゆめ みつけた",
+				"nameEn": "Yume Mitsuketa",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "13",
+						"songId": "8376",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Hayashibara Megumi",
+						"ref": "http://anidb.net/creator/13"
+					},
+					{
+						"id": "556",
+						"songId": "8376",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "Koorogi Satomi",
+						"ref": "http://anidb.net/creator/556"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8376"
+			},
+			{
+				"id": "97283",
+				"animeId": "394",
+				"name": "get the Mind",
+				"nameEn": "Get the Mind",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "20942",
+						"songId": "97283",
+						"relation": "image song",
+						"name": "松村かすみ",
+						"nameEn": "Matsumura Kasumi",
+						"ref": "http://anidb.net/creator/20942"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/97283"
+			},
+			{
+				"id": "97281",
+				"animeId": "394",
+				"name": "ココロヒトツアレバ",
+				"nameEn": "Kokoro Hitotsu Areba",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "254",
+						"songId": "97281",
+						"relation": "image song",
+						"name": "粗忽屋東品川店",
+						"nameEn": "Yamaguchi Kappei",
+						"ref": "http://anidb.net/creator/254"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/97281"
+			},
+			{
+				"id": "97282",
+				"animeId": "394",
+				"name": "これからの私に...",
+				"nameEn": "Kore kara no Watashi ni...",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "240",
+						"songId": "97282",
+						"relation": "image song",
+						"name": "井之上喜久子",
+						"nameEn": "Inoue Kikuko",
+						"ref": "http://anidb.net/creator/240"
+					},
+					{
+						"id": "1870",
+						"songId": "97282",
+						"relation": "image song",
+						"name": "水谷優子",
+						"nameEn": "Mizutani Yuuko",
+						"ref": "http://anidb.net/creator/1870"
+					},
+					{
+						"id": "685",
+						"songId": "97282",
+						"relation": "image song",
+						"name": "高乃麗",
+						"nameEn": "Takano Urara",
+						"ref": "http://anidb.net/creator/685"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/97282"
+			},
+			{
+				"id": "97280",
+				"animeId": "394",
+				"name": "乱舞",
+				"nameEn": "Ranbu",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "190",
+						"songId": "97280",
+						"relation": "image song",
+						"name": "郷野三郎",
+						"nameEn": "Tobita Nobuo",
+						"ref": "http://anidb.net/creator/190"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/97280"
+			},
+			{
+				"id": "97284",
+				"animeId": "394",
+				"name": "ゆめ みつけた (Lalala Ver.)",
+				"nameEn": "Yume Mitsuketa (Lalala Ver.)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "6748",
+						"songId": "97284",
+						"relation": "image song",
+						"name": "添田啓二",
+						"nameEn": "Soeda Keiji",
+						"ref": "http://anidb.net/creator/6748"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/97284"
+			}
+		]
+	},
+	"3954": {
+		"id": "3954",
+		"name": "Yoi Ko",
+		"titleImageName": "5488.jpg",
+		"ref": "http://anidb.net/anime/3954",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "23332",
+				"animeId": "3954",
+				"name": "茜色の想い",
+				"nameEn": "Akaneiro no Omoi",
+				"ranges": null,
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "46679",
+						"songId": "23332",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "ユリアーナ・シャノー",
+						"ref": "http://anidb.net/creator/virtual/46679"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/23332"
+			},
+			{
+				"id": "23333",
+				"animeId": "3954",
+				"name": "(トモダチ)(コイビト) ≦ (ともだち・恋人・それ以上)",
+				"nameEn": "(Tomodachi) (Koibito) \u0026lt;= (Tomodachi * Koibito * Soreijou)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "46716",
+						"songId": "23333",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "石川実穂",
+						"ref": "http://anidb.net/creator/virtual/46716"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/23333"
+			}
+		]
+	},
+	"3975": {
+		"id": "3975",
+		"name": "Spectral Force",
+		"titleImageName": "5522.jpg",
+		"ref": "http://anidb.net/anime/3975",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "48327",
+				"animeId": "3975",
+				"name": "12時ちょうどのメッセージ",
+				"nameEn": "12 Ji Choudo no Message",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "157139",
+						"songId": "48327",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "川崎洋子",
+						"ref": "http://anidb.net/creator/virtual/157139"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/48327"
+			}
+		]
+	},
+	"3989": {
+		"id": "3989",
+		"name": "Totsugeki! Pappara-tai",
+		"titleImageName": "5561.jpg",
+		"ref": "http://anidb.net/anime/3989",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "49355",
+				"animeId": "3989",
+				"name": "ギザギザ MAKE A MOTION",
+				"nameEn": "Gizagiza Make a Motion",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "161825",
+						"songId": "49355",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "Misty",
+						"ref": "http://anidb.net/creator/virtual/161825"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/49355"
+			},
+			{
+				"id": "49357",
+				"animeId": "3989",
+				"name": "Wanna Wanna",
+				"nameEn": "Wanna Wanna",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "161826",
+						"songId": "49357",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Misty",
+						"ref": "http://anidb.net/creator/virtual/161826"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/49357"
+			},
+			{
+				"id": "49356",
+				"animeId": "3989",
+				"name": "ギザギザ MAKE A MOTION",
+				"nameEn": "Gizagiza Make a Motion",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "3914",
+						"songId": "49356",
+						"relation": "insert song",
+						"name": "菊地祥子",
+						"nameEn": "Kikuchi Shouko",
+						"ref": "http://anidb.net/creator/3914"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/49356"
+			}
+		]
+	},
+	"410": {
+		"id": "410",
+		"name": "Kurogane Communication",
+		"titleImageName": "209766.jpg",
+		"ref": "http://anidb.net/anime/410",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "8566",
+				"animeId": "410",
+				"name": "my best friend",
+				"nameEn": "My Best Friend",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "61",
+						"songId": "8566",
+						"relation": "opening",
+						"name": "堀江由衣",
+						"nameEn": "Horie Yui",
+						"ref": "http://anidb.net/creator/61"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8566"
+			},
+			{
+				"id": "8567",
+				"animeId": "410",
+				"name": "Dear mama",
+				"nameEn": "Dear Mama",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "61",
+						"songId": "8567",
+						"relation": "ending",
+						"name": "堀江由衣",
+						"nameEn": "Horie Yui",
+						"ref": "http://anidb.net/creator/61"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/8567"
+			},
+			{
+				"id": "69964",
+				"animeId": "410",
+				"name": "brand-new コミュニケイション",
+				"nameEn": "Brand-new Communication",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "61",
+						"songId": "69964",
+						"relation": "image song",
+						"name": "堀江由衣",
+						"nameEn": "Horie Yui",
+						"ref": "http://anidb.net/creator/61"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/69964"
+			},
+			{
+				"id": "69966",
+				"animeId": "410",
+				"name": "花柄のワンピース",
+				"nameEn": "Hanagara no One Piece",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "61",
+						"songId": "69966",
+						"relation": "image song",
+						"name": "堀江由衣",
+						"nameEn": "Horie Yui",
+						"ref": "http://anidb.net/creator/61"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/69966"
+			},
+			{
+				"id": "69965",
+				"animeId": "410",
+				"name": "ゆびきり",
+				"nameEn": "Yubikiri",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "61",
+						"songId": "69965",
+						"relation": "image song",
+						"name": "堀江由衣",
+						"nameEn": "Horie Yui",
+						"ref": "http://anidb.net/creator/61"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/69965"
+			}
+		]
+	},
+	"4648": {
+		"id": "4648",
+		"name": "Only You: Viva! Cabaret Club",
+		"titleImageName": "238191.jpg",
+		"ref": "http://anidb.net/anime/4648",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"4649": {
+		"id": "4649",
+		"name": "Ojarumaru",
+		"titleImageName": "11201.jpg",
+		"ref": "http://anidb.net/anime/4649",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "37168",
+				"animeId": "4649",
+				"name": "詠人",
+				"nameEn": "Utabito",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 900
+					}
+				],
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "36082",
+						"songId": "37168",
+						"relation": "opening",
+						"name": "北島三郎",
+						"nameEn": "Kitajima Saburou",
+						"ref": "http://anidb.net/creator/36082"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37168"
+			},
+			{
+				"id": "37169",
+				"animeId": "4649",
+				"name": "夢人",
+				"nameEn": "Yumebito",
+				"ranges": [
+					{
+						"start": 900,
+						"end": 1348
+					}
+				],
+				"classification": "OP2",
+				"artists": [
+					{
+						"id": "36082",
+						"songId": "37169",
+						"relation": "opening",
+						"name": "北島三郎",
+						"nameEn": "Kitajima Saburou",
+						"ref": "http://anidb.net/creator/36082"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37169"
+			},
+			{
+				"id": "37170",
+				"animeId": "4649",
+				"name": "プリン賛歌",
+				"nameEn": "Purin Sanka",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 90
+					}
+				],
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "34298",
+						"songId": "37170",
+						"relation": "ending",
+						"name": "SUS4",
+						"nameEn": "Sus4",
+						"ref": "http://anidb.net/creator/34298"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37170"
+			},
+			{
+				"id": "37171",
+				"animeId": "4649",
+				"name": "プリンでおじゃる",
+				"nameEn": "Purin de Ojaru",
+				"ranges": [
+					{
+						"start": 91,
+						"end": 180
+					}
+				],
+				"classification": "ED2",
+				"artists": [
+					{
+						"id": "3382",
+						"songId": "37171",
+						"relation": "ending",
+						"name": "渕崎ゆり子",
+						"nameEn": "Fuchizaki Yuriko",
+						"ref": "http://anidb.net/creator/3382"
+					},
+					{
+						"id": "5994",
+						"songId": "37171",
+						"relation": "ending",
+						"name": "岩坪理江",
+						"nameEn": "Iwatsubo Rie",
+						"ref": "http://anidb.net/creator/5994"
+					},
+					{
+						"id": "4037",
+						"songId": "37171",
+						"relation": "ending",
+						"name": "小西寛子",
+						"nameEn": "Konishi Hiroko",
+						"ref": "http://anidb.net/creator/4037"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37171"
+			},
+			{
+				"id": "37172",
+				"animeId": "4649",
+				"name": "まったり音頭",
+				"nameEn": "Mattari Ondo",
+				"ranges": [
+					{
+						"start": 180,
+						"end": 180
+					}
+				],
+				"classification": "ED3",
+				"artists": [
+					{
+						"id": "3382",
+						"songId": "37172",
+						"relation": "ending",
+						"name": "渕崎ゆり子",
+						"nameEn": "Fuchizaki Yuriko",
+						"ref": "http://anidb.net/creator/3382"
+					},
+					{
+						"id": "5994",
+						"songId": "37172",
+						"relation": "ending",
+						"name": "岩坪理江",
+						"nameEn": "Iwatsubo Rie",
+						"ref": "http://anidb.net/creator/5994"
+					},
+					{
+						"id": "4037",
+						"songId": "37172",
+						"relation": "ending",
+						"name": "小西寛子",
+						"nameEn": "Konishi Hiroko",
+						"ref": "http://anidb.net/creator/4037"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37172"
+			},
+			{
+				"id": "37173",
+				"animeId": "4649",
+				"name": "子鬼トリオのテーマ",
+				"nameEn": "Kooni Trio no Theme",
+				"ranges": [
+					{
+						"start": 181,
+						"end": 270
+					}
+				],
+				"classification": "ED4",
+				"artists": [
+					{
+						"id": "2062",
+						"songId": "37173",
+						"relation": "ending",
+						"name": "一条和矢",
+						"nameEn": "Ichijou Kazuya",
+						"ref": "http://anidb.net/creator/2062"
+					},
+					{
+						"id": "186",
+						"songId": "37173",
+						"relation": "ending",
+						"name": "南央美",
+						"nameEn": "Minami Omi",
+						"ref": "http://anidb.net/creator/186"
+					},
+					{
+						"id": "3002",
+						"songId": "37173",
+						"relation": "ending",
+						"name": "うえだゆうじ",
+						"nameEn": "Ueda Yuuji",
+						"ref": "http://anidb.net/creator/3002"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37173"
+			},
+			{
+				"id": "37183",
+				"animeId": "4649",
+				"name": "恋をいたしましょう",
+				"nameEn": "Koi o Itashimashou",
+				"ranges": [
+					{
+						"start": 271,
+						"end": 360
+					}
+				],
+				"classification": "ED5",
+				"artists": [
+					{
+						"id": "5994",
+						"songId": "37183",
+						"relation": "ending",
+						"name": "岩坪理江",
+						"nameEn": "Iwatsubo Rie",
+						"ref": "http://anidb.net/creator/5994"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37183"
+			},
+			{
+				"id": "37174",
+				"animeId": "4649",
+				"name": "あっちむいてホイでおじゃる",
+				"nameEn": "Acchi Muite Hoi de Ojaru",
+				"ranges": [
+					{
+						"start": 361,
+						"end": 450
+					}
+				],
+				"classification": "ED6",
+				"artists": [
+					{
+						"id": "3382",
+						"songId": "37174",
+						"relation": "ending",
+						"name": "渕崎ゆり子",
+						"nameEn": "Fuchizaki Yuriko",
+						"ref": "http://anidb.net/creator/3382"
+					},
+					{
+						"id": "2062",
+						"songId": "37174",
+						"relation": "ending",
+						"name": "一条和矢",
+						"nameEn": "Ichijou Kazuya",
+						"ref": "http://anidb.net/creator/2062"
+					},
+					{
+						"id": "5994",
+						"songId": "37174",
+						"relation": "ending",
+						"name": "岩坪理江",
+						"nameEn": "Iwatsubo Rie",
+						"ref": "http://anidb.net/creator/5994"
+					},
+					{
+						"id": "186",
+						"songId": "37174",
+						"relation": "ending",
+						"name": "南央美",
+						"nameEn": "Minami Omi",
+						"ref": "http://anidb.net/creator/186"
+					},
+					{
+						"id": "551",
+						"songId": "37174",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Nishimura Chinami",
+						"ref": "http://anidb.net/creator/551"
+					},
+					{
+						"id": "3002",
+						"songId": "37174",
+						"relation": "ending",
+						"name": "うえだゆうじ",
+						"nameEn": "Ueda Yuuji",
+						"ref": "http://anidb.net/creator/3002"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37174"
+			},
+			{
+				"id": "37175",
+				"animeId": "4649",
+				"name": "この町いつも~貧ちゃんのうた~",
+				"nameEn": "Kono Machi Itsumo: Hin-chan no Uta",
+				"ranges": [
+					{
+						"start": 451,
+						"end": 540
+					}
+				],
+				"classification": "ED7",
+				"artists": [
+					{
+						"id": "397",
+						"songId": "37175",
+						"relation": "ending",
+						"name": "齋藤彩夏",
+						"nameEn": "Saitou Ayaka",
+						"ref": "http://anidb.net/creator/397"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37175"
+			},
+			{
+				"id": "37176",
+				"animeId": "4649",
+				"name": "われら月光町ちっちゃいものクラブ",
+				"nameEn": "Warera Gekkou Machi Chicchaimono Club",
+				"ranges": [
+					{
+						"start": 541,
+						"end": 630
+					}
+				],
+				"classification": "ED8",
+				"artists": [
+					{
+						"id": "5994",
+						"songId": "37176",
+						"relation": "ending",
+						"name": "岩坪理江",
+						"nameEn": "Iwatsubo Rie",
+						"ref": "http://anidb.net/creator/5994"
+					},
+					{
+						"id": "556",
+						"songId": "37176",
+						"relation": "ending",
+						"name": "仲木里江",
+						"nameEn": "Koorogi Satomi",
+						"ref": "http://anidb.net/creator/556"
+					},
+					{
+						"id": "272",
+						"songId": "37176",
+						"relation": "ending",
+						"name": "内藤玲",
+						"nameEn": "Naitou Ryou",
+						"ref": "http://anidb.net/creator/272"
+					},
+					{
+						"id": "551",
+						"songId": "37176",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Nishimura Chinami",
+						"ref": "http://anidb.net/creator/551"
+					},
+					{
+						"id": "397",
+						"songId": "37176",
+						"relation": "ending",
+						"name": "齋藤彩夏",
+						"nameEn": "Saitou Ayaka",
+						"ref": "http://anidb.net/creator/397"
+					},
+					{
+						"id": "88283",
+						"songId": "37176",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "ちっちゃいものクラブ合唱団",
+						"ref": "http://anidb.net/creator/virtual/88283"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37176"
+			},
+			{
+				"id": "37177",
+				"animeId": "4649",
+				"name": "月光町のうた",
+				"nameEn": "Gekkou Machi no Uta",
+				"ranges": [
+					{
+						"start": 631,
+						"end": 720
+					}
+				],
+				"classification": "ED9",
+				"artists": [
+					{
+						"id": "551",
+						"songId": "37177",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Nishimura Chinami",
+						"ref": "http://anidb.net/creator/551"
+					},
+					{
+						"id": "3002",
+						"songId": "37177",
+						"relation": "ending",
+						"name": "うえだゆうじ",
+						"nameEn": "Ueda Yuuji",
+						"ref": "http://anidb.net/creator/3002"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37177"
+			},
+			{
+				"id": "37178",
+				"animeId": "4649",
+				"name": "電ボのブンブン節",
+				"nameEn": "Denbo no Bunbun Fushi",
+				"ranges": [
+					{
+						"start": 721,
+						"end": 810
+					}
+				],
+				"classification": "ED10",
+				"artists": [
+					{
+						"id": "3382",
+						"songId": "37178",
+						"relation": "ending",
+						"name": "渕崎ゆり子",
+						"nameEn": "Fuchizaki Yuriko",
+						"ref": "http://anidb.net/creator/3382"
+					},
+					{
+						"id": "551",
+						"songId": "37178",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Nishimura Chinami",
+						"ref": "http://anidb.net/creator/551"
+					},
+					{
+						"id": "6922",
+						"songId": "37178",
+						"relation": "ending",
+						"name": "佐藤なる美",
+						"nameEn": "Satou Narumi",
+						"ref": "http://anidb.net/creator/6922"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37178"
+			},
+			{
+				"id": "37179",
+				"animeId": "4649",
+				"name": "さんきゅっきゅダンシング",
+				"nameEn": "Thank Youkkyu Dancing",
+				"ranges": [
+					{
+						"start": 811,
+						"end": 900
+					}
+				],
+				"classification": "ED11",
+				"artists": [
+					{
+						"id": "88281",
+						"songId": "37179",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Natsumi",
+						"ref": "http://anidb.net/creator/virtual/88281"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37179"
+			},
+			{
+				"id": "37180",
+				"animeId": "4649",
+				"name": "ぼくらの世界",
+				"nameEn": "Bokura no Sekai",
+				"ranges": [
+					{
+						"start": 901,
+						"end": 990
+					}
+				],
+				"classification": "ED12",
+				"artists": [
+					{
+						"id": "38069",
+						"songId": "37180",
+						"relation": "ending",
+						"name": "水町レイコ",
+						"nameEn": "Mizumachi Reiko",
+						"ref": "http://anidb.net/creator/38069"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37180"
+			},
+			{
+				"id": "37181",
+				"animeId": "4649",
+				"name": "おじゃる丸狂騒曲",
+				"nameEn": "Ojarumaru Kyousou Kyoku",
+				"ranges": [
+					{
+						"start": 991,
+						"end": 1080
+					}
+				],
+				"classification": "ED13",
+				"artists": [
+					{
+						"id": "15659",
+						"songId": "37181",
+						"relation": "ending",
+						"name": "森公美子",
+						"nameEn": "Mori Kumiko",
+						"ref": "http://anidb.net/creator/15659"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37181"
+			},
+			{
+				"id": "37182",
+				"animeId": "4649",
+				"name": "かたつむり",
+				"nameEn": "Katatsumuri",
+				"ranges": [
+					{
+						"start": 1081,
+						"end": 1170
+					}
+				],
+				"classification": "ED14",
+				"artists": [
+					{
+						"id": "88274",
+						"songId": "37182",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "おぐまなみ",
+						"ref": "http://anidb.net/creator/virtual/88274"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/37182"
+			},
+			{
+				"id": "51193",
+				"animeId": "4649",
+				"name": "初恋は実らない",
+				"nameEn": "Hatsukoi wa Minoranai",
+				"ranges": [
+					{
+						"start": 1171,
+						"end": 1258
+					}
+				],
+				"classification": "ED15",
+				"artists": [
+					{
+						"id": "178024",
+						"songId": "51193",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "おじゃる丸シスターズ",
+						"ref": "http://anidb.net/creator/virtual/178024"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/51193"
+			},
+			{
+				"id": "51194",
+				"animeId": "4649",
+				"name": "マロのさんぽ",
+				"nameEn": "Maro no Sanpo",
+				"ranges": [
+					{
+						"start": 1259,
+						"end": 1348
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "38031",
+						"songId": "51194",
+						"relation": "ending",
+						"name": "ショピン",
+						"nameEn": "Chopiiin",
+						"ref": "http://anidb.net/creator/38031"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/51194"
+			},
+			{
+				"id": "81547",
+				"animeId": "4649",
+				"name": "マロのさんぽ(おじゃる丸バージョン)",
+				"nameEn": "Maro no Sanpo (Ojarumaru Version)",
+				"ranges": [
+					{
+						"start": 1349,
+						"end": 1418
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "3382",
+						"songId": "81547",
+						"relation": "ending",
+						"name": "渕崎ゆり子",
+						"nameEn": "Fuchizaki Yuriko",
+						"ref": "http://anidb.net/creator/3382"
+					},
+					{
+						"id": "551",
+						"songId": "81547",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Nishimura Chinami",
+						"ref": "http://anidb.net/creator/551"
+					},
+					{
+						"id": "6922",
+						"songId": "81547",
+						"relation": "ending",
+						"name": "佐藤なる美",
+						"nameEn": "Satou Narumi",
+						"ref": "http://anidb.net/creator/6922"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/81547"
+			},
+			{
+				"id": "81548",
+				"animeId": "4649",
+				"name": "Da!Da!!Da!!!",
+				"nameEn": "Da! Da!! Da!!!",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "43033",
+						"songId": "81548",
+						"relation": "ending",
+						"name": "THE COLLECTORS",
+						"nameEn": "The Collectors",
+						"ref": "http://anidb.net/creator/43033"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/81548"
+			},
+			{
+				"id": "81549",
+				"animeId": "4649",
+				"name": "わからん",
+				"nameEn": "Wakaran",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "61476",
+						"songId": "81549",
+						"relation": "ending",
+						"name": "在日ファンク",
+						"nameEn": "Zainichi Funk",
+						"ref": "http://anidb.net/creator/61476"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/81549"
+			},
+			{
+				"id": "54668",
+				"animeId": "4649",
+				"name": "私, サビレてます",
+				"nameEn": "Watashi, Sabiretemasu",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "397",
+						"songId": "54668",
+						"relation": "insert song",
+						"name": "齋藤彩夏",
+						"nameEn": "Saitou Ayaka",
+						"ref": "http://anidb.net/creator/397"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/54668"
+			}
+		]
+	},
+	"4655": {
+		"id": "4655",
+		"name": "Dokkiri Doctor",
+		"titleImageName": "88647.jpg",
+		"ref": "http://anidb.net/anime/4655",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "32977",
+				"animeId": "4655",
+				"name": "ねない ねない ねない",
+				"nameEn": "Nenai Nenai Nenai",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 26
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "45008",
+						"songId": "32977",
+						"relation": "opening",
+						"name": "ザ・カスタネッツ",
+						"nameEn": "The Castanets",
+						"ref": "http://anidb.net/creator/45008"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32977"
+			},
+			{
+				"id": "32979",
+				"animeId": "4655",
+				"name": "I wish",
+				"nameEn": "I Wish",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 19
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "73535",
+						"songId": "32979",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "electric combat",
+						"ref": "http://anidb.net/creator/virtual/73535"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32979"
+			},
+			{
+				"id": "32978",
+				"animeId": "4655",
+				"name": "Make it somehow",
+				"nameEn": "Make it Somehow",
+				"ranges": [
+					{
+						"start": 20,
+						"end": 26
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "38173",
+						"songId": "32978",
+						"relation": "ending",
+						"name": "LUKA",
+						"nameEn": "Luka",
+						"ref": "http://anidb.net/creator/38173"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/32978"
+			}
+		]
+	},
+	"4663": {
+		"id": "4663",
+		"name": "Yoshimoto Muchikko Monogatari",
+		"titleImageName": "144789.jpg",
+		"ref": "http://anidb.net/anime/4663",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "55085",
+				"animeId": "4663",
+				"name": "MOTHER",
+				"nameEn": "Mother",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "6621",
+						"songId": "55085",
+						"relation": "opening",
+						"name": "Puffy AmiYumi",
+						"nameEn": "Puffy",
+						"ref": "http://anidb.net/creator/6621"
+					},
+					{
+						"id": "9349",
+						"songId": "55085",
+						"relation": "opening",
+						"name": "山田花子",
+						"nameEn": "Yamada Hanako",
+						"ref": "http://anidb.net/creator/9349"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/55085"
+			},
+			{
+				"id": "55084",
+				"animeId": "4663",
+				"name": "ムチムチロケンロー!!",
+				"nameEn": "Muchimuchi Rock`n`Roll!!",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "4099",
+						"songId": "55084",
+						"relation": "opening",
+						"name": "ローリー寺西",
+						"nameEn": "Rolly",
+						"ref": "http://anidb.net/creator/4099"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/55084"
+			},
+			{
+				"id": "55084",
+				"animeId": "4663",
+				"name": "ムチムチロケンロー!!",
+				"nameEn": "Muchimuchi Rock`n`Roll!!",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "4099",
+						"songId": "55084",
+						"relation": "ending",
+						"name": "ローリー寺西",
+						"nameEn": "Rolly",
+						"ref": "http://anidb.net/creator/4099"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/55084"
+			}
+		]
+	},
+	"4822": {
+		"id": "4822",
+		"name": "Starlight Scramble Ren`ai Kouhosei",
+		"titleImageName": "11495.jpg",
+		"ref": "http://anidb.net/anime/4822",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "59171",
+				"animeId": "4822",
+				"name": "Dream it -あなたにめぐり会いたい-",
+				"nameEn": "Dream it: Anata ni Meguriaitai",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "12",
+						"songId": "59171",
+						"relation": "opening",
+						"name": "川澄綾子",
+						"nameEn": "Kawasumi Ayako",
+						"ref": "http://anidb.net/creator/12"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/59171"
+			},
+			{
+				"id": "59172",
+				"animeId": "4822",
+				"name": "Love One`s Home",
+				"nameEn": "Love One`s Home",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "12",
+						"songId": "59172",
+						"relation": "ending",
+						"name": "川澄綾子",
+						"nameEn": "Kawasumi Ayako",
+						"ref": "http://anidb.net/creator/12"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/59172"
+			},
+			{
+				"id": "59173",
+				"animeId": "4822",
+				"name": "Love One`s Home(Starlight version)",
+				"nameEn": "Love One`s Home (Starlight Version)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "2138",
+						"songId": "59173",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Iizuka Mayumi",
+						"ref": "http://anidb.net/creator/2138"
+					},
+					{
+						"id": "12",
+						"songId": "59173",
+						"relation": "ending",
+						"name": "川澄綾子",
+						"nameEn": "Kawasumi Ayako",
+						"ref": "http://anidb.net/creator/12"
+					},
+					{
+						"id": "188",
+						"songId": "59173",
+						"relation": "ending",
+						"name": "木村亜希子",
+						"nameEn": "Kimura Akiko",
+						"ref": "http://anidb.net/creator/188"
+					},
+					{
+						"id": "396",
+						"songId": "59173",
+						"relation": "ending",
+						"name": "中川亜紀子",
+						"nameEn": "Nakagawa Akiko",
+						"ref": "http://anidb.net/creator/396"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/59173"
+			}
+		]
+	},
+	"538": {
+		"id": "538",
+		"name": "Majutsushi Orphen",
+		"titleImageName": "154149.jpg",
+		"ref": "http://anidb.net/anime/538",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "9226",
+				"animeId": "538",
+				"name": "愛 Just on my Love",
+				"nameEn": "Ai Just On My Love",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "8299",
+						"songId": "9226",
+						"relation": "opening",
+						"name": "シャ乱Q",
+						"nameEn": "Sharam Q",
+						"ref": "http://anidb.net/creator/8299"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9226"
+			},
+			{
+				"id": "9227",
+				"animeId": "538",
+				"name": "君は魔術士?",
+				"nameEn": "Kimi wa Majutsushi?",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "8299",
+						"songId": "9227",
+						"relation": "opening",
+						"name": "シャ乱Q",
+						"nameEn": "Sharam Q",
+						"ref": "http://anidb.net/creator/8299"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9227"
+			},
+			{
+				"id": "9229",
+				"animeId": "538",
+				"name": "どうしよう",
+				"nameEn": "Doushiyou",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "44937",
+						"songId": "9229",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "由香",
+						"ref": "http://anidb.net/creator/virtual/44937"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9229"
+			},
+			{
+				"id": "9228",
+				"animeId": "538",
+				"name": "ラストキッス",
+				"nameEn": "Last Kiss",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "20991",
+						"songId": "9228",
+						"relation": "ending",
+						"name": "タンポポ",
+						"nameEn": "Tanpopo",
+						"ref": "http://anidb.net/creator/20991"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9228"
+			}
+		]
+	},
+	"610": {
+		"id": "610",
+		"name": "Bannou Bunka Nekomusume Dash!",
+		"titleImageName": "2197.jpg",
+		"ref": "http://anidb.net/anime/610",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "9454",
+				"animeId": "610",
+				"name": "A HOUSE CAT",
+				"nameEn": "A House Cat",
+				"ranges": null,
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "13",
+						"songId": "9454",
+						"relation": "opening",
+						"name": "MEGUMI",
+						"nameEn": "Hayashibara Megumi",
+						"ref": "http://anidb.net/creator/13"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9454"
+			},
+			{
+				"id": "9476",
+				"animeId": "610",
+				"name": "幸せは小さなつみかさね",
+				"nameEn": "Shiawase wa Chiisana Tsumikasane",
+				"ranges": null,
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "13",
+						"songId": "9476",
+						"relation": "ending",
+						"name": "MEGUMI",
+						"nameEn": "Hayashibara Megumi",
+						"ref": "http://anidb.net/creator/13"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9476"
+			}
+		]
+	},
+	"651": {
+		"id": "651",
+		"name": "Popolocrois Monogatari",
+		"titleImageName": "1900.jpg",
+		"ref": "http://anidb.net/anime/651",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "9797",
+				"animeId": "651",
+				"name": "夏気球",
+				"nameEn": "Natsu Kikyuu",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "22476",
+						"songId": "9797",
+						"relation": "opening",
+						"name": "大塚利恵",
+						"nameEn": "Ootsuka Rie",
+						"ref": "http://anidb.net/creator/22476"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9797"
+			},
+			{
+				"id": "9798",
+				"animeId": "651",
+				"name": "風の魔法",
+				"nameEn": "Kaze no Mahou",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "8805",
+						"songId": "9798",
+						"relation": "ending",
+						"name": "大藤史",
+						"nameEn": "Ootou Fumi",
+						"ref": "http://anidb.net/creator/8805"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9798"
+			},
+			{
+				"id": "9799",
+				"animeId": "651",
+				"name": "風の魔法≪ヒュウ ヴァージョン≫",
+				"nameEn": "Kaze no Mahou (Hyu Version)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "4428",
+						"songId": "9799",
+						"relation": "ending",
+						"name": "宮島依里",
+						"nameEn": "Miyajima Eri",
+						"ref": "http://anidb.net/creator/4428"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9799"
+			},
+			{
+				"id": "9800",
+				"animeId": "651",
+				"name": "風の魔法(アコースティック・ヴァージョン)",
+				"nameEn": "Kaze no Mahou (Acoustic Version)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "8805",
+						"songId": "9800",
+						"relation": "insert song",
+						"name": "大藤史",
+						"nameEn": "Ootou Fumi",
+						"ref": "http://anidb.net/creator/8805"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9800"
+			},
+			{
+				"id": "9801",
+				"animeId": "651",
+				"name": "君がいてくれる",
+				"nameEn": "Kimi ga Ite Kureru",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "588",
+						"songId": "9801",
+						"relation": "insert song",
+						"name": "篠崎双葉",
+						"nameEn": "Orikasa Ai",
+						"ref": "http://anidb.net/creator/588"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9801"
+			},
+			{
+				"id": "9805",
+				"animeId": "651",
+				"name": "リボン",
+				"nameEn": "Ribbon",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "437",
+						"songId": "9805",
+						"relation": "insert song",
+						"name": "白鳥由里",
+						"nameEn": "Shiratori Yuri",
+						"ref": "http://anidb.net/creator/437"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9805"
+			},
+			{
+				"id": "9803",
+				"animeId": "651",
+				"name": "シークレット・カーニバル",
+				"nameEn": "Secret Carnival",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "8806",
+						"songId": "9803",
+						"relation": "insert song",
+						"name": "鮎沢すみ絵",
+						"nameEn": "Ayuzawa Sumie",
+						"ref": "http://anidb.net/creator/8806"
+					},
+					{
+						"id": "32540",
+						"songId": "9803",
+						"relation": "insert song",
+						"name": "北村岳子",
+						"nameEn": "Kitamura Takako",
+						"ref": "http://anidb.net/creator/32540"
+					},
+					{
+						"id": "5294",
+						"songId": "9803",
+						"relation": "insert song",
+						"name": "篠原あけみ",
+						"nameEn": "Shinohara Akemi",
+						"ref": "http://anidb.net/creator/5294"
+					},
+					{
+						"id": "3231",
+						"songId": "9803",
+						"relation": "insert song",
+						"name": "菅原淳一",
+						"nameEn": "Sugawara Jun`ichi",
+						"ref": "http://anidb.net/creator/3231"
+					},
+					{
+						"id": "374",
+						"songId": "9803",
+						"relation": "insert song",
+						"name": "Prof.紫龍",
+						"nameEn": "Yamazaki Takumi",
+						"ref": "http://anidb.net/creator/374"
+					},
+					{
+						"id": "45640",
+						"songId": "9803",
+						"relation": "insert song",
+						"name": "",
+						"nameEn": "山本由利恵",
+						"ref": "http://anidb.net/creator/virtual/45640"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9803"
+			},
+			{
+				"id": "9804",
+				"animeId": "651",
+				"name": "空を見上げて",
+				"nameEn": "Sora no Miagete",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "19170",
+						"songId": "9804",
+						"relation": "insert song",
+						"name": "堂ノ脇恭子",
+						"nameEn": "Dounowaki Kyouko",
+						"ref": "http://anidb.net/creator/19170"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9804"
+			},
+			{
+				"id": "9802",
+				"animeId": "651",
+				"name": "THE 男のロマン",
+				"nameEn": "The Otoko no Roman",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "36066",
+						"songId": "9802",
+						"relation": "insert song",
+						"name": "古田新太",
+						"nameEn": "Furuta Arata",
+						"ref": "http://anidb.net/creator/36066"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9802"
+			},
+			{
+				"id": "9806",
+				"animeId": "651",
+				"name": "わたしぼっち",
+				"nameEn": "Watashibocchi",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "4428",
+						"songId": "9806",
+						"relation": "insert song",
+						"name": "宮島依里",
+						"nameEn": "Miyajima Eri",
+						"ref": "http://anidb.net/creator/4428"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/9806"
+			}
+		]
+	},
+	"72": {
+		"id": "72",
+		"name": "Eat-Man `98",
+		"titleImageName": "224387.jpg",
+		"ref": "http://anidb.net/anime/72",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "6439",
+				"animeId": "72",
+				"name": "バーニング・ブルー",
+				"nameEn": "Burning Blue",
+				"ranges": null,
+				"classification": "OP1",
+				"artists": [
+					{
+						"id": "27950",
+						"songId": "6439",
+						"relation": "opening",
+						"name": "MAGIC",
+						"nameEn": "Magic",
+						"ref": "http://anidb.net/creator/27950"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6439"
+			},
+			{
+				"id": "6438",
+				"animeId": "72",
+				"name": "旅人",
+				"nameEn": "Tabibito",
+				"ranges": null,
+				"classification": "ED1",
+				"artists": [
+					{
+						"id": "27950",
+						"songId": "6438",
+						"relation": "ending",
+						"name": "MAGIC",
+						"nameEn": "Magic",
+						"ref": "http://anidb.net/creator/27950"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6438"
+			},
+			{
+				"id": "6437",
+				"animeId": "72",
+				"name": "BLACK CATS -Japanese Version-",
+				"nameEn": "Black Cats (Japanese Version)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "27948",
+						"songId": "6437",
+						"relation": "insert song",
+						"name": "BLACK CATS",
+						"nameEn": "Black Cats",
+						"ref": "http://anidb.net/creator/27948"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6437"
+			},
+			{
+				"id": "6436",
+				"animeId": "72",
+				"name": "BLACK CATS -English Version-",
+				"nameEn": "Black Cats (English Version)",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "27948",
+						"songId": "6436",
+						"relation": "image song",
+						"name": "BLACK CATS",
+						"nameEn": "Black Cats",
+						"ref": "http://anidb.net/creator/27948"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/6436"
+			}
+		]
+	},
+	"749": {
+		"id": "749",
+		"name": "Devilman Lady",
+		"titleImageName": "10461.jpg",
+		"ref": "http://anidb.net/anime/749",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "10261",
+				"animeId": "749",
+				"name": "デビルマンレディーメインテーマ",
+				"nameEn": "Devilman Lady Main Theme",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "4767",
+						"songId": "10261",
+						"relation": "opening",
+						"name": "東京混声合唱団",
+						"nameEn": "Tokyo Konsei Gasshoudan",
+						"ref": "http://anidb.net/creator/4767"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/10261"
+			},
+			{
+				"id": "10260",
+				"animeId": "749",
+				"name": "REBIRTH~女神転生~",
+				"nameEn": "Rebirth: Megami Tensei",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 17
+					},
+					{
+						"start": 25,
+						"end": 26
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "350",
+						"songId": "10260",
+						"relation": "ending",
+						"name": "田村ゆかり",
+						"nameEn": "Tamura Yukari",
+						"ref": "http://anidb.net/creator/350"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/10260"
+			},
+			{
+				"id": "10259",
+				"animeId": "749",
+				"name": "Lose Heart",
+				"nameEn": "Lose Heart",
+				"ranges": [
+					{
+						"start": 18,
+						"end": 24
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "6845",
+						"songId": "10259",
+						"relation": "ending",
+						"name": "LEGOLGEL",
+						"nameEn": "Legolgel",
+						"ref": "http://anidb.net/creator/6845"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/10259"
+			},
+			{
+				"id": "53309",
+				"animeId": "749",
+				"name": "那由多の夢",
+				"nameEn": "Nayuta no Yume",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "2068",
+						"songId": "53309",
+						"relation": "image song",
+						"name": "岩男潤子",
+						"nameEn": "Iwao Junko",
+						"ref": "http://anidb.net/creator/2068"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/53309"
+			},
+			{
+				"id": "53307",
+				"animeId": "749",
+				"name": "REBIRTH~静寂からの余想~",
+				"nameEn": "Rebirth: Seijaku kara no Yosou",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "350",
+						"songId": "53307",
+						"relation": "image song",
+						"name": "田村ゆかり",
+						"nameEn": "Tamura Yukari",
+						"ref": "http://anidb.net/creator/350"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/53307"
+			},
+			{
+				"id": "53308",
+				"animeId": "749",
+				"name": "刹那の夢",
+				"nameEn": "Setsuna no Yume",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "2068",
+						"songId": "53308",
+						"relation": "image song",
+						"name": "岩男潤子",
+						"nameEn": "Iwao Junko",
+						"ref": "http://anidb.net/creator/2068"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/53308"
+			}
+		]
+	},
+	"7862": {
+		"id": "7862",
+		"name": "Hello Kitty no Hajimete no Christmas Cake",
+		"titleImageName": "52716.jpg",
+		"ref": "http://anidb.net/anime/7862",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"7863": {
+		"id": "7863",
+		"name": "Minna no Tanoshii Natsuyasumi",
+		"titleImageName": "52716.jpg",
+		"ref": "http://anidb.net/anime/7863",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"9059": {
+		"id": "9059",
+		"name": "Bokutachi no Peace River",
+		"titleImageName": "248758.jpg",
+		"ref": "http://anidb.net/anime/9059",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": null
+	},
+	"922": {
+		"id": "922",
+		"name": "Mamotte Shugogetten!",
+		"titleImageName": "237970.jpg",
+		"ref": "http://anidb.net/anime/922",
+		"format": "TV Series",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "27201",
+				"animeId": "922",
+				"name": "さぁ",
+				"nameEn": "Saa",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 22
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "9435",
+						"songId": "27201",
+						"relation": "opening",
+						"name": "surface",
+						"nameEn": "Surface",
+						"ref": "http://anidb.net/creator/9435"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/27201"
+			},
+			{
+				"id": "29106",
+				"animeId": "922",
+				"name": "I JUST FEEL SO LOVE AGAIN~そばにいるだけで~",
+				"nameEn": "I Just Feel so Love Again: Soba ni Iru Dake de",
+				"ranges": [
+					{
+						"start": 1,
+						"end": 22
+					}
+				],
+				"classification": "",
+				"artists": [
+					{
+						"id": "37944",
+						"songId": "29106",
+						"relation": "ending",
+						"name": "sweet velvet",
+						"nameEn": "Sweet Velvet",
+						"ref": "http://anidb.net/creator/37944"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/29106"
+			},
+			{
+				"id": "29107",
+				"animeId": "922",
+				"name": "負けないで",
+				"nameEn": "Makenaide",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "1662",
+						"songId": "29107",
+						"relation": "insert song",
+						"name": "國府田マリ子",
+						"nameEn": "Kouda Mariko",
+						"ref": "http://anidb.net/creator/1662"
+					}
+				],
+				"relation": "insert song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/29107"
+			},
+			{
+				"id": "29109",
+				"animeId": "922",
+				"name": "ハッピーエンドは終わらない",
+				"nameEn": "Happy End wa Owaranai",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "336",
+						"songId": "29109",
+						"relation": "image song",
+						"name": "阪口大助",
+						"nameEn": "Sakaguchi Daisuke",
+						"ref": "http://anidb.net/creator/336"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/29109"
+			},
+			{
+				"id": "29108",
+				"animeId": "922",
+				"name": "Shining Moon",
+				"nameEn": "Shining Moon",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "1662",
+						"songId": "29108",
+						"relation": "image song",
+						"name": "國府田マリ子",
+						"nameEn": "Kouda Mariko",
+						"ref": "http://anidb.net/creator/1662"
+					}
+				],
+				"relation": "image song",
+				"year": "1998",
+				"ref": "http://anidb.net/song/29108"
+			}
+		]
+	},
+	"9415": {
+		"id": "9415",
+		"name": "Efficus: Kono Omoi o Kimi ni...",
+		"titleImageName": "213540.jpg",
+		"ref": "http://anidb.net/anime/9415",
+		"format": "OVA",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "69487",
+				"animeId": "9415",
+				"name": "Let`s try hard",
+				"nameEn": "Let`s Try Hard",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "239343",
+						"songId": "69487",
+						"relation": "opening",
+						"name": "",
+						"nameEn": "qbe",
+						"ref": "http://anidb.net/creator/virtual/239343"
+					}
+				],
+				"relation": "opening",
+				"year": "1998",
+				"ref": "http://anidb.net/song/69487"
+			},
+			{
+				"id": "69488",
+				"animeId": "9415",
+				"name": "ヤスラギの唄",
+				"nameEn": "Yasuragi no Uta",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "239342",
+						"songId": "69488",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "qbe",
+						"ref": "http://anidb.net/creator/virtual/239342"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/69488"
+			}
+		]
+	},
+	"9869": {
+		"id": "9869",
+		"name": "Visitor",
+		"titleImageName": "247039.jpg",
+		"ref": "http://anidb.net/anime/9869",
+		"format": "TV Special",
+		"season": "Autumn",
+		"year": "1998",
+		"songs": [
+			{
+				"id": "71447",
+				"animeId": "9869",
+				"name": "Stairway to the Sun",
+				"nameEn": "Stairway to the Sun",
+				"ranges": null,
+				"classification": "",
+				"artists": [
+					{
+						"id": "241479",
+						"songId": "71447",
+						"relation": "ending",
+						"name": "",
+						"nameEn": "Groovy Boyfriend",
+						"ref": "http://anidb.net/creator/virtual/241479"
+					}
+				],
+				"relation": "ending",
+				"year": "1998",
+				"ref": "http://anidb.net/song/71447"
+			}
+		]
+	}
+}
