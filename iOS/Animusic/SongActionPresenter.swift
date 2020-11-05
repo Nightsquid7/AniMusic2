@@ -1,10 +1,6 @@
-//
-//  SongActionPresenter.swift
-//  
-//
-//  Created by Steven Berkowitz on 2020/10/22.
-//
 import UIKit
+import WebKit
+import MediaPlayer
 
 protocol SongActionPresenter {}
 
@@ -12,34 +8,51 @@ extension SongActionPresenter {
     func presentAlertController(vc: UIViewController, song: RealmAnimeSong) {
         let titleString = song.name
         let ac = UIAlertController(title: titleString, message: "", preferredStyle: .actionSheet)
-        if let popoverPresentationController = ac.popoverPresentationController {
-            popoverPresentationController.sourceView = vc.view
-            popoverPresentationController.sourceRect = CGRect(x: vc.view.bounds.midX, y: vc.view.bounds.midY, width: 0, height: 0)
+        if let iPadPopoverPC = ac.popoverPresentationController {
+            iPadPopoverPC.sourceView = vc.view
+            iPadPopoverPC.sourceRect = CGRect(x: vc.view.bounds.midX, y: vc.view.bounds.midY, width: 0, height: 0)
         }
 
-        for sourceType in ["Spotify", "Youtube", "Google Play"] {
+        for sourceType in SourceType.allCases {
             addAction(for: sourceType, ac: ac, song: song)
         }
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         vc.present(ac, animated: true)
     }
 
-    fileprivate func addAction(for sourceType: String, ac: UIAlertController, song: RealmAnimeSong) {
+    fileprivate func addAction(for sourceType: SourceType, ac: UIAlertController, song: RealmAnimeSong) {
         var actionTitle = "Search"
         let formattedSongName = song.nameEnglish.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
         var url: URL?
 
+        let player = MPMusicPlayerController.applicationQueuePlayer
         switch sourceType {
-        case "Spotify":
+        case .spotify:
             if let spotifySource = song.sources.first(where: { $0.type == "Spotify"}) {
                 actionTitle = "Open in"
                 url = URL(string: spotifySource.externalUrl)
             } else {
                 url = URL(string: "https://open.spotify.com/search/\(formattedSongName))")
             }
-        case "Youtube":
+        case .appleMusic:
+            if let appleMusicSource =  song.sources.first(where: { $0.type == "AppleMusic"}) {
+                actionTitle = "Open in"
+                let queue = MPMusicPlayerStoreQueueDescriptor(storeIDs: [appleMusicSource.songId])
+                player.setQueue(with: ["1485858696"])
+                player.prepareToPlay()
+                player.stop()
+                ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
+                    player.play()
+                }))
+
+                return
+            } else {
+                actionTitle = "Something is wrong"
+                url = URL(string: "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            }
+        case .youTube:
             url = URL(string: "https://www.youtube.com/results?search_query=\(formattedSongName)")
-        case "Google Play":
+        case .GoogleMusic:
             url = URL(string: "https://play.google.com/store/search?q=\(formattedSongName)&c=music&hl=en")
         default:
             return

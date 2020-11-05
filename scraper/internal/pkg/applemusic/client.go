@@ -74,10 +74,11 @@ func (s *AppleMusicMusicSource) SearchSong(song types.ScrapedSongData) (types.So
 		fmt.Println("\nsong name we are searching for ", song.Name)
 		fmt.Println("attributes.Name ", attributes.Name)
 		fmt.Println("attributes.artist ", attributes.ArtistName)
+		fmt.Println("track.Id", track.Id)
 		s.SuccessfulHits++
 		return types.SongSearchResult{
 			SongId:      song.Id,
-			URI:         track.Href,
+			URI:         track.Id,
 			Name:        attributes.Name,
 			Source:      "AppleMusic",
 			Relation:    song.Relation,

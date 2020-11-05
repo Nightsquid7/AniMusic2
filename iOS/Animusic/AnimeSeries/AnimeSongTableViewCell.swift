@@ -27,8 +27,6 @@ class AnimeSongTableViewCell: UITableViewCell {
         return label
     }()
 
-
-
     func configureCell(from song: RealmAnimeSong) {
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         nameEnglishLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -38,7 +36,6 @@ class AnimeSongTableViewCell: UITableViewCell {
         contentView.addSubview(nameEnglishLabel)
         contentView.addSubview(artistLabel)
 
-
         nameLabel.text =  song.name
         nameEnglishLabel.text = song.nameEnglish
         artistLabel.text = song.artists[0].name
@@ -46,7 +43,7 @@ class AnimeSongTableViewCell: UITableViewCell {
         if song.sourceCount() > 0 {
             accessoryView = UIImageView(image: UIImage(systemName: "music.note"))
         }
-        
+
         // MARK: TODO - rename constraint constants
         let toTopNeighbor: CGFloat = 20
         let toBottomNeighbor: CGFloat = 20

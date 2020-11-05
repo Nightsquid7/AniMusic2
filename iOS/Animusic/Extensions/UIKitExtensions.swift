@@ -42,13 +42,3 @@ extension UIImageView {
         self.kf.setImage(with: url, options: [])
     }
 }
-
-// MARK: UIStackView
-// get stack view containing badges for every music source in either song or anime
-// from anime -> Get all sources from all songs
-// If source contains spotify, add a badge
-class BadgeView {
-    var stackView = UIStackView()
-
-}
-

@@ -42,7 +42,7 @@ class FirebaseStore {
         // search firebase for all Animes in each season colllection,
         let seasonsToDownload = Observable.combineLatest(locallyStoredSeasons, seasonsInFirebase)
             .map { locallyStoredSeasons, seasonsInFirebase  -> [RealmSeason] in
-                
+
                 let localSeasonNames = locallyStoredSeasons.map { $0.titleString() }
                 return seasonsInFirebase.compactMap { seasonInFirebase in
                     if localSeasonNames.contains(seasonInFirebase.titleString()) {

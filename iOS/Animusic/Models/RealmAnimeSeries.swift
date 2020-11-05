@@ -128,13 +128,12 @@ class RealmAnimeSong: Object, Decodable {
     }
 }
 
-
 extension RealmAnimeSong: SearchResult {
     func containsSpotify() -> Bool {
         return sources.filter { $0.type == "Spotify" }.count > 0
     }
     func containsAppleMusic() -> Bool {
-        return sources.filter { $0.type == "Apple Music"}.count > 0
+        return sources.filter { $0.type == "AppleMusic"}.count > 0
     }
 }
 
@@ -195,9 +194,11 @@ class RealmSongSearchResult: Object, Decodable {
     }
 }
 
-enum SearchType: String {
+enum SourceType: String, CaseIterable {
     case spotify = "Spotify"
-    case appleMusic = "Apple Music"
+    case appleMusic = "AppleMusic"
+    case youTube = "Youtube"
+    case GoogleMusic = "GoogleMusic"
 }
 
 class RealmArtist: Object, Decodable {

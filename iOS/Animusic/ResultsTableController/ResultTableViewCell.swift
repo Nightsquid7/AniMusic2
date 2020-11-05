@@ -19,7 +19,6 @@ class ResultTableViewCell: UITableViewCell {
         return label
     }()
 
-
     func configureCell(from searchResult: SearchResult) {
         selectionStyle = .none
         animeImage.translatesAutoresizingMaskIntoConstraints = false

@@ -58,5 +58,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Play anime music using the system player</string>
 </dict>
 </plist>
