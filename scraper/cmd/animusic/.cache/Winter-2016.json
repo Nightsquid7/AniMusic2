@@ -1,0 +1,8556 @@
+{
+	"10867": {
+		"Id": "10867",
+		"Name": "Durarara!!x2 Ketsu",
+		"TitleImageName": "179359.jpg",
+		"AniDbUri": "http://anidb.net/anime/10867",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"104347-ending": {
+				"Id": "104347",
+				"Name": "C\"LR\"OWN",
+				"NameEn": "C Lr Own",
+				"Ranges": [],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "303",
+						"Name": "T.Toyonaga",
+						"NameEn": "Toyonaga Toshiyuki"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "104347",
+						"URI": "1454642556",
+						"Name": "CROWN",
+						"ExternalUrl": "https://music.apple.com/jp/album/crown/1454642551?i=1454642556",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83936-opening": {
+				"Id": "83936",
+				"Name": "Steppin` Out",
+				"NameEn": "Steppin` Out",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "4228",
+						"Name": "FLOW",
+						"NameEn": "Flow"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83936",
+						"URI": "1536090669",
+						"Name": "Steppin' Out",
+						"ExternalUrl": "https://music.apple.com/jp/album/steppin-out/1536090467?i=1536090669",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83936",
+						"URI": "spotify:track:2nV8jdhlPZbF5idbTv8cJX",
+						"Name": "Steppin' out",
+						"ExternalUrl": "https://open.spotify.com/track/2nV8jdhlPZbF5idbTv8cJX",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83938-ending": {
+				"Id": "83938",
+				"Name": "ジョーカーに宜しく",
+				"NameEn": "Joker ni Yoroshiku",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "44455",
+						"Name": "PENGUIN RESEARCH",
+						"NameEn": "Penguin Research"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83938",
+						"URI": "1068744330",
+						"Name": "ジョーカーに宜しく",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AB%E3%83%BC%E3%81%AB%E5%AE%9C%E3%81%97%E3%81%8F/1068744321?i=1068744330",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83938",
+						"URI": "spotify:track:3sbFCbPnSh2v23jWkS1JgE",
+						"Name": "Joker Ni Yoroshiku",
+						"ExternalUrl": "https://open.spotify.com/track/3sbFCbPnSh2v23jWkS1JgE",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"10934": {
+		"Id": "10934",
+		"Name": "Ao no Kanata no Four Rhythm",
+		"TitleImageName": "179819.jpg",
+		"AniDbUri": "http://anidb.net/anime/10934",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83932-ending": {
+				"Id": "83932",
+				"Name": "Contrail~軌跡~",
+				"NameEn": "Contrail: Kiseki",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "709",
+						"Name": "川田まみ",
+						"NameEn": "Kawada Mami"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83932",
+						"URI": "1072289775",
+						"Name": "Contrail ~軌跡~",
+						"ExternalUrl": "https://music.apple.com/jp/album/contrail-%E8%BB%8C%E8%B7%A1/1072289774?i=1072289775",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83932",
+						"URI": "spotify:track:12legvxzDT4wc6yJomW1IM",
+						"Name": "Contrail ~軌跡~",
+						"ExternalUrl": "https://open.spotify.com/track/12legvxzDT4wc6yJomW1IM",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83932-opening": {
+				"Id": "83932",
+				"Name": "Contrail~軌跡~",
+				"NameEn": "Contrail: Kiseki",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "709",
+						"Name": "川田まみ",
+						"NameEn": "Kawada Mami"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83932",
+						"URI": "1072289775",
+						"Name": "Contrail ~軌跡~",
+						"ExternalUrl": "https://music.apple.com/jp/album/contrail-%E8%BB%8C%E8%B7%A1/1072289774?i=1072289775",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83932",
+						"URI": "spotify:track:12legvxzDT4wc6yJomW1IM",
+						"Name": "Contrail ~軌跡~",
+						"ExternalUrl": "https://open.spotify.com/track/12legvxzDT4wc6yJomW1IM",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83933-ending": {
+				"Id": "83933",
+				"Name": "a-gain",
+				"NameEn": "A-gain",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "ED2a-ED2b",
+				"Artists": [
+					{
+						"Id": "30269",
+						"Name": "Ray",
+						"NameEn": "Ray"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83933",
+						"URI": "822080619",
+						"Name": "That Feeling Again (feat. Charles Guilbeau, Raywood Baudoin, Ray Allemand, Gene Romero, Mike Leger \u0026 Nel Nelson)",
+						"ExternalUrl": "https://music.apple.com/jp/album/that-feeling-again-feat-charles-guilbeau-raywood-baudoin/822080457?i=822080619",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83933",
+						"URI": "spotify:track:72aSg3zQ3PX1v8JNRhJgAP",
+						"Name": "a-gain",
+						"ExternalUrl": "https://open.spotify.com/track/72aSg3zQ3PX1v8JNRhJgAP",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84964-ending": {
+				"Id": "84964",
+				"Name": "君といた空",
+				"NameEn": "Kimi to Ita Sora",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "30269",
+						"Name": "Ray",
+						"NameEn": "Ray"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "84964",
+						"URI": "1080576834",
+						"Name": "君といた空",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%A8%E3%81%84%E3%81%9F%E7%A9%BA/1080576830?i=1080576834",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "84964",
+						"URI": "spotify:track:0iAAlKeVBtNGQyDbe1ENOk",
+						"Name": "君といた空",
+						"ExternalUrl": "https://open.spotify.com/track/0iAAlKeVBtNGQyDbe1ENOk",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86688-insert song": {
+				"Id": "86688",
+				"Name": "Wings of Courage~空を超えて~",
+				"NameEn": "Wings of Courage: Sora o Koete",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "709",
+						"Name": "川田まみ",
+						"NameEn": "Kawada Mami"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"87958-background music": {
+				"Id": "87958",
+				"Name": "彼女達のコントレイル",
+				"NameEn": "Kanojo-tachi no Contrail",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": null,
+				"Relation": "background music",
+				"Sources": {}
+			},
+			"87986-background music": {
+				"Id": "87986",
+				"Name": "蒼の彼方",
+				"NameEn": "Ao no Kanata",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": null,
+				"Relation": "background music",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "background music",
+						"SongId": "87986",
+						"URI": "1463492081",
+						"Name": "蒼の彼方へ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E8%92%BC%E3%81%AE%E5%BD%BC%E6%96%B9%E3%81%B8/1463491999?i=1463492081",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"10960": {
+		"Id": "10960",
+		"Name": "Shouwa Genroku Rakugo Shinjuu (2016)",
+		"TitleImageName": "179568.jpg",
+		"AniDbUri": "http://anidb.net/anime/10960",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83944-opening": {
+				"Id": "83944",
+				"Name": "薄ら氷心中",
+				"NameEn": "Usurahi Shinjuu",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					},
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "13",
+						"Name": "MEGUMI",
+						"NameEn": "Hayashibara Megumi"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83944",
+						"URI": "1385325649",
+						"Name": "薄ら氷心中",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E8%96%84%E3%82%89%E6%B0%B7%E5%BF%83%E4%B8%AD/1385324836?i=1385325649",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83944",
+						"URI": "spotify:track:1DxOabtnI3W4ouECc6AdyT",
+						"Name": "薄ら氷心中",
+						"ExternalUrl": "https://open.spotify.com/track/1DxOabtnI3W4ouECc6AdyT",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84117-ending": {
+				"Id": "84117",
+				"Name": "かは, たれどき",
+				"NameEn": "Kawa, Taredoki",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "43174",
+						"Name": "澁江夏奈",
+						"NameEn": "Shibue Kana"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"11020": {
+		"Id": "11020",
+		"Name": "Kurage no Shokudou",
+		"TitleImageName": "187019.jpg",
+		"AniDbUri": "http://anidb.net/anime/11020",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"88155-ending": {
+				"Id": "88155",
+				"Name": "潮騒",
+				"NameEn": "Shiosai",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "40747",
+						"Name": "カスタマイZ",
+						"NameEn": "CustomiZ"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "88155",
+						"URI": "576273295",
+						"Name": "潮騒",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%BD%AE%E9%A8%92/576273266?i=576273295",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11073": {
+		"Id": "11073",
+		"Name": "Momokuri",
+		"TitleImageName": "187582.jpg",
+		"AniDbUri": "http://anidb.net/anime/11073",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83948-theme song": {
+				"Id": "83948",
+				"Name": "やわらかくって優しい時間",
+				"NameEn": "Yawarakakutte Yasashii Jikan",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32939",
+						"Name": "加隈亜衣",
+						"NameEn": "Kakuma Ai"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {}
+			},
+			"87564-background music": {
+				"Id": "87564",
+				"Name": "さいしょのフォトグラフ~ももくんのテーマ~",
+				"NameEn": "Saisho no Photograph: Momo-kun no Theme",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": null,
+				"Relation": "background music",
+				"Sources": {}
+			},
+			"89295-opening": {
+				"Id": "89295",
+				"Name": "大好きだよ大好きだよ 生まれてきてありがとう",
+				"NameEn": "Daisuki Da yo Daisuki Da yo Umarete Kite Arigatou",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32939",
+						"Name": "加隈亜衣",
+						"NameEn": "Kakuma Ai"
+					},
+					{
+						"Id": "390",
+						"Name": "岡本信彦",
+						"NameEn": "Okamoto Nobuhiko"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"89296-ending": {
+				"Id": "89296",
+				"Name": "ETERNALエクスプローラー",
+				"NameEn": "Eternal Explorer",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "47050",
+						"Name": "Mia REGINA",
+						"NameEn": "Mia Regina"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "89296",
+						"URI": "1508102076",
+						"Name": "ETERNALエクスプローラー",
+						"ExternalUrl": "https://music.apple.com/jp/album/eternal%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC/1508101592?i=1508102076",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "89296",
+						"URI": "spotify:track:0h0hon0kgbnMDsuRzvTkLB",
+						"Name": "ETERNALエクスプローラー",
+						"ExternalUrl": "https://open.spotify.com/track/0h0hon0kgbnMDsuRzvTkLB",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"92016-image song": {
+				"Id": "92016",
+				"Name": "ちょっとずつ, きみに",
+				"NameEn": "Chotto Zutsu, Kimi ni",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "390",
+						"Name": "岡本信彦",
+						"NameEn": "Okamoto Nobuhiko"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"92017-image song": {
+				"Id": "92017",
+				"Name": "アイ・ドン・ノウ",
+				"NameEn": "I Don`t Know",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32939",
+						"Name": "加隈亜衣",
+						"NameEn": "Kakuma Ai"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"92018-image song": {
+				"Id": "92018",
+				"Name": "とーく・らいく・しんぎんぐ",
+				"NameEn": "Talk Like Singing",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32939",
+						"Name": "加隈亜衣",
+						"NameEn": "Kakuma Ai"
+					},
+					{
+						"Id": "29667",
+						"Name": "前田玲奈",
+						"NameEn": "Maeda Rena"
+					},
+					{
+						"Id": "23597",
+						"Name": "仲谷明香",
+						"NameEn": "Nakaya Sayaka"
+					},
+					{
+						"Id": "37280",
+						"Name": "大空直美",
+						"NameEn": "Oozora Naomi"
+					},
+					{
+						"Id": "40295",
+						"Name": "竹下礼奈",
+						"NameEn": "Takeshita Reina"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			}
+		}
+	},
+	"11197": {
+		"Id": "11197",
+		"Name": "Gekijouban Selector Destructed WIXOSS",
+		"TitleImageName": "175527.jpg",
+		"AniDbUri": "http://anidb.net/anime/11197",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"89397-ending": {
+				"Id": "89397",
+				"Name": "Love your enemies",
+				"NameEn": "Love Your Enemies",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "12572",
+						"Name": "分島花音",
+						"NameEn": "Wakeshima Kanon"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "89397",
+						"URI": "1082261137",
+						"Name": "Love your enemies",
+						"ExternalUrl": "https://music.apple.com/jp/album/love-your-enemies/1082261126?i=1082261137",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "89397",
+						"URI": "spotify:track:3rrsHQ2FyjXdxYZRVWKARh",
+						"Name": "Love Your Enemies",
+						"ExternalUrl": "https://open.spotify.com/track/3rrsHQ2FyjXdxYZRVWKARh",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"89398-insert song": {
+				"Id": "89398",
+				"Name": "Ever After",
+				"NameEn": "Ever After",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "39292",
+						"Name": "Cyua",
+						"NameEn": "Cyua"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	"11203": {
+		"Id": "11203",
+		"Name": "Ansatsu Kyoushitsu (2016)",
+		"TitleImageName": "180377.jpg",
+		"AniDbUri": "http://anidb.net/anime/11203",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83913-opening": {
+				"Id": "83913",
+				"Name": "QUESTION",
+				"NameEn": "Question",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1a-OP1b",
+				"Artists": [
+					{
+						"Id": "41577",
+						"Name": "3年E組うた担",
+						"NameEn": "3 Nen E Gumi Utatan"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83913",
+						"URI": "1082993319",
+						"Name": "QUESTION",
+						"ExternalUrl": "https://music.apple.com/jp/album/question/1082993317?i=1082993319",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83914-ending": {
+				"Id": "83914",
+				"Name": "欠けた月",
+				"NameEn": "Kaketa Tsuki",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "44454",
+						"Name": "宮脇詩音",
+						"NameEn": "Miyawaki Shion"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83914",
+						"URI": "1069213103",
+						"Name": "欠けた月",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%AC%A0%E3%81%91%E3%81%9F%E6%9C%88/1069213102?i=1069213103",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83914",
+						"URI": "spotify:track:3rDEsykwMMiQ8c2ZSA9lso",
+						"Name": "欠けた月",
+						"ExternalUrl": "https://open.spotify.com/track/3rDEsykwMMiQ8c2ZSA9lso",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86066-opening": {
+				"Id": "86066",
+				"Name": "バイバイ YESTERDAY",
+				"NameEn": "Byebye Yesterday",
+				"Ranges": [
+					{
+						"start": 15,
+						"end": 15
+					},
+					{
+						"start": 17,
+						"end": 17
+					}
+				],
+				"Classification": "OP2",
+				"Artists": [
+					{
+						"Id": "41577",
+						"Name": "3年E組うた担",
+						"NameEn": "3 Nen E Gumi Utatan"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "86066",
+						"URI": "1112836624",
+						"Name": "バイバイ YESTERDAY",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%90%E3%82%A4%E3%83%90%E3%82%A4-yesterday/1112836613?i=1112836624",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "86066",
+						"URI": "spotify:track:66lF1QWtLZXJofJ3x388RV",
+						"Name": "バイバイ YESTERDAY",
+						"ExternalUrl": "https://open.spotify.com/track/66lF1QWtLZXJofJ3x388RV",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86067-ending": {
+				"Id": "86067",
+				"Name": "また君に会える日",
+				"NameEn": "Mata Kimi ni Aeru Hi",
+				"Ranges": [
+					{
+						"start": 15,
+						"end": 15
+					}
+				],
+				"Classification": "ED2a-ED2b",
+				"Artists": [
+					{
+						"Id": "44454",
+						"Name": "宮脇詩音",
+						"NameEn": "Miyawaki Shion"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "86067",
+						"URI": "1098475108",
+						"Name": "また君に会える日",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%BE%E3%81%9F%E5%90%9B%E3%81%AB%E4%BC%9A%E3%81%88%E3%82%8B%E6%97%A5/1098475028?i=1098475108",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "86067",
+						"URI": "spotify:track:6RDiHPPTbQJamUI9gyb6iV",
+						"Name": "また君に会える日",
+						"ExternalUrl": "https://open.spotify.com/track/6RDiHPPTbQJamUI9gyb6iV",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"88719-insert song": {
+				"Id": "88719",
+				"Name": "月光",
+				"NameEn": "Gekkou",
+				"Ranges": [
+					{
+						"start": 16,
+						"end": 16
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44454",
+						"Name": "宮脇詩音",
+						"NameEn": "Miyawaki Shion"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "88719",
+						"URI": "1445312609",
+						"Name": "月光",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%9C%88%E5%85%89/1445312602?i=1445312609",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "88719",
+						"URI": "spotify:track:1ooeKZlmf9fSa1V9l92JYg",
+						"Name": "月光",
+						"ExternalUrl": "https://open.spotify.com/track/1ooeKZlmf9fSa1V9l92JYg",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"88720-insert song": {
+				"Id": "88720",
+				"Name": "旅立ちのうた",
+				"NameEn": "Tabidachi no Uta",
+				"Ranges": [
+					{
+						"start": 24,
+						"end": 24
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "292184",
+						"Name": "",
+						"NameEn": "3年E組"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "88720",
+						"URI": "1155321924",
+						"Name": "旅立ちのうた",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%97%85%E7%AB%8B%E3%81%A1%E3%81%AE%E3%81%86%E3%81%9F/1155321907?i=1155321924",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88721-insert song": {
+				"Id": "88721",
+				"Name": "卒業証書",
+				"NameEn": "Sotsugyoushousho",
+				"Ranges": [
+					{
+						"start": 25,
+						"end": 25
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44454",
+						"Name": "宮脇詩音",
+						"NameEn": "Miyawaki Shion"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "88721",
+						"URI": "1155322192",
+						"Name": "卒業証書",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%8D%92%E6%A5%AD%E8%A8%BC%E6%9B%B8/1155322188?i=1155322192",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "88721",
+						"URI": "spotify:track:2IbsFcA4QHMFoL3lJlPY9l",
+						"Name": "卒業証書",
+						"ExternalUrl": "https://open.spotify.com/track/2IbsFcA4QHMFoL3lJlPY9l",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11233": {
+		"Id": "11233",
+		"Name": "Saijaku Muhai no Bahamut",
+		"TitleImageName": "178401.jpg",
+		"AniDbUri": "http://anidb.net/anime/11233",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83908-opening": {
+				"Id": "83908",
+				"Name": "飛竜の騎士",
+				"NameEn": "Hiryuu no Kishi",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "39967",
+						"Name": "TRUE",
+						"NameEn": "True"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83908",
+						"URI": "1473914126",
+						"Name": "飛竜の騎士",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E9%A3%9B%E7%AB%9C%E3%81%AE%E9%A8%8E%E5%A3%AB/1473913825?i=1473914126",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83908",
+						"URI": "spotify:track:5IgHqIlUHUs7ehWcD5Bxca",
+						"Name": "飛竜の騎士",
+						"ExternalUrl": "https://open.spotify.com/track/5IgHqIlUHUs7ehWcD5Bxca",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83911-ending": {
+				"Id": "83911",
+				"Name": "ライムツリー",
+				"NameEn": "Lime Tree",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "24688",
+						"Name": "nano.RIPE",
+						"NameEn": "Nano.Ripe"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83911",
+						"URI": "1485536508",
+						"Name": "ライムツリー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%A9%E3%82%A4%E3%83%A0%E3%83%84%E3%83%AA%E3%83%BC/1485536507?i=1485536508",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83911",
+						"URI": "spotify:track:2z0IFE3f6ihvDNntc25Hck",
+						"Name": "ライムツリー",
+						"ExternalUrl": "https://open.spotify.com/track/2z0IFE3f6ihvDNntc25Hck",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"89811-image song": {
+				"Id": "89811",
+				"Name": "Unbalance Gravity",
+				"NameEn": "Unbalance Gravity",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "34901",
+						"Name": "Lynn",
+						"NameEn": "Lynn"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"89812-image song": {
+				"Id": "89812",
+				"Name": "NEVER LOCK AGAIN",
+				"NameEn": "Never Lock Again",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "12783",
+						"Name": "藤井ゆきよ",
+						"NameEn": "Fujii Yukiyo"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"89813-image song": {
+				"Id": "89813",
+				"Name": "Lack of Communication",
+				"NameEn": "Lack of Communication",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32750",
+						"Name": "",
+						"NameEn": "Taneda Risa"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "89813",
+						"URI": "301643483",
+						"Name": "Lack of Communication",
+						"ExternalUrl": "https://music.apple.com/jp/album/lack-of-communication/301643462?i=301643483",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "image song",
+						"SongId": "89813",
+						"URI": "spotify:track:4mpFoEa2yKyuBMlRpfq3tb",
+						"Name": "Lack of Communication",
+						"ExternalUrl": "https://open.spotify.com/track/4mpFoEa2yKyuBMlRpfq3tb",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11255": {
+		"Id": "11255",
+		"Name": "Schwarzesmarken",
+		"TitleImageName": "180172.jpg",
+		"AniDbUri": "http://anidb.net/anime/11255",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"104289-insert song": {
+				"Id": "104289",
+				"Name": "Blackened Pride",
+				"NameEn": "Blackened Pride",
+				"Ranges": [
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "39819",
+						"Name": "Evan Call",
+						"NameEn": "Evan Call"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "104289",
+						"URI": "1174243443",
+						"Name": "Blackened Pride",
+						"ExternalUrl": "https://music.apple.com/jp/album/blackened-pride/1174243178?i=1174243443",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "104289",
+						"URI": "spotify:track:4ZfFgKXBGCQESCLKccMYen",
+						"Name": "Blackened Pride - Violin",
+						"ExternalUrl": "https://open.spotify.com/track/4ZfFgKXBGCQESCLKccMYen",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83850-opening": {
+				"Id": "83850",
+				"Name": "white forces",
+				"NameEn": "White Forces",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "11163",
+						"Name": "fripSide NAO project",
+						"NameEn": "FripSide"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83850",
+						"URI": "1078817477",
+						"Name": "white forces",
+						"ExternalUrl": "https://music.apple.com/jp/album/white-forces/1078817472?i=1078817477",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83850",
+						"URI": "spotify:track:3bm08b0UGr7nmqSFtcve8t",
+						"Name": "white forces",
+						"ExternalUrl": "https://open.spotify.com/track/3bm08b0UGr7nmqSFtcve8t",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83851-ending": {
+				"Id": "83851",
+				"Name": "哀しみが時代を駆ける",
+				"NameEn": "Kanashimi ga Jidai o Kakeru",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					},
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "44458",
+						"Name": "Zähre",
+						"NameEn": "Zahre"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83851",
+						"URI": "1082981638",
+						"Name": "哀しみが時代を駆ける",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%93%80%E3%81%97%E3%81%BF%E3%81%8C%E6%99%82%E4%BB%A3%E3%82%92%E9%A7%86%E3%81%91%E3%82%8B/1082981633?i=1082981638",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83851",
+						"URI": "spotify:track:3q97jMwYQAsUH9njxLC36q",
+						"Name": "哀しみが時代を駆ける",
+						"ExternalUrl": "https://open.spotify.com/track/3q97jMwYQAsUH9njxLC36q",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11261": {
+		"Id": "11261",
+		"Name": "Kono Subarashii Sekai ni Shukufuku o!",
+		"TitleImageName": "221774.jpg",
+		"AniDbUri": "http://anidb.net/anime/11261",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83928-ending": {
+				"Id": "83928",
+				"Name": "fantastic dreamer",
+				"NameEn": "Fantastic Dreamer",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "41848",
+						"Name": "Machico",
+						"NameEn": "Machico"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83928",
+						"URI": "1077263357",
+						"Name": "fantastic dreamer",
+						"ExternalUrl": "https://music.apple.com/jp/album/fantastic-dreamer/1077263353?i=1077263357",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83928",
+						"URI": "spotify:track:3BIhcWQV2hGRoEXdLL3Fzw",
+						"Name": "fantastic dreamer",
+						"ExternalUrl": "https://open.spotify.com/track/3BIhcWQV2hGRoEXdLL3Fzw",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83928-insert song": {
+				"Id": "83928",
+				"Name": "fantastic dreamer",
+				"NameEn": "Fantastic Dreamer",
+				"Ranges": [
+					{
+						"start": 10,
+						"end": 10
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "41848",
+						"Name": "Machico",
+						"NameEn": "Machico"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "83928",
+						"URI": "1077263357",
+						"Name": "fantastic dreamer",
+						"ExternalUrl": "https://music.apple.com/jp/album/fantastic-dreamer/1077263353?i=1077263357",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "83928",
+						"URI": "spotify:track:3BIhcWQV2hGRoEXdLL3Fzw",
+						"Name": "fantastic dreamer",
+						"ExternalUrl": "https://open.spotify.com/track/3BIhcWQV2hGRoEXdLL3Fzw",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83928-opening": {
+				"Id": "83928",
+				"Name": "fantastic dreamer",
+				"NameEn": "Fantastic Dreamer",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "41848",
+						"Name": "Machico",
+						"NameEn": "Machico"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83928",
+						"URI": "1077263357",
+						"Name": "fantastic dreamer",
+						"ExternalUrl": "https://music.apple.com/jp/album/fantastic-dreamer/1077263353?i=1077263357",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83928",
+						"URI": "spotify:track:3BIhcWQV2hGRoEXdLL3Fzw",
+						"Name": "fantastic dreamer",
+						"ExternalUrl": "https://open.spotify.com/track/3BIhcWQV2hGRoEXdLL3Fzw",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83930-ending": {
+				"Id": "83930",
+				"Name": "ちいさな冒険者",
+				"NameEn": "Chiisana Boukensha",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "34626",
+						"Name": "雨宮天",
+						"NameEn": "Amamiya Sora"
+					},
+					{
+						"Id": "20497",
+						"Name": "",
+						"NameEn": "Kayano Ai"
+					},
+					{
+						"Id": "38380",
+						"Name": "高橋李依",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83930",
+						"URI": "1077263545",
+						"Name": "ちいさな冒険者",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%A1%E3%81%84%E3%81%95%E3%81%AA%E5%86%92%E9%99%BA%E8%80%85/1077263356?i=1077263545",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83930",
+						"URI": "spotify:track:38T9cv25uHKKS9XrvXU7g1",
+						"Name": "ちいさな冒険者",
+						"ExternalUrl": "https://open.spotify.com/track/38T9cv25uHKKS9XrvXU7g1",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"85378-image song": {
+				"Id": "85378",
+				"Name": "Right☆eye",
+				"NameEn": "Right Eye",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38380",
+						"Name": "高橋李依",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "85378",
+						"URI": "1086982199",
+						"Name": "Right☆eye",
+						"ExternalUrl": "https://music.apple.com/jp/album/right-eye/1086981782?i=1086982199",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"85379-image song": {
+				"Id": "85379",
+				"Name": "水色イルミネーション",
+				"NameEn": "Mizuiro Ilumination",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "34626",
+						"Name": "雨宮天",
+						"NameEn": "Amamiya Sora"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "85379",
+						"URI": "1086982203",
+						"Name": "水色イルミネーション",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%B0%B4%E8%89%B2%E3%82%A4%E3%83%AB%E3%83%9F%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/1086981782?i=1086982203",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"85380-image song": {
+				"Id": "85380",
+				"Name": "Do M",
+				"NameEn": "Do M",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "20497",
+						"Name": "",
+						"NameEn": "Kayano Ai"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "85380",
+						"URI": "559720321",
+						"Name": "I'm Gonna Move in With Her (feat. Yoon Do Hyun)",
+						"ExternalUrl": "https://music.apple.com/jp/album/im-gonna-move-in-with-her-feat-yoon-do-hyun/559720319?i=559720321",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"85381-image song": {
+				"Id": "85381",
+				"Name": "ハローグッバイ",
+				"NameEn": "Hello Good-Bye",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "10951",
+						"Name": "原紗友里",
+						"NameEn": "Hara Sayuri"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "85381",
+						"URI": "570010435",
+						"Name": "ハローグッバイ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AD%E3%83%BC%E3%82%B0%E3%83%83%E3%83%90%E3%82%A4/570010304?i=570010435",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"85382-image song": {
+				"Id": "85382",
+				"Name": "ろくでもないBLUES",
+				"NameEn": "Roku de mo Nai",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "4821",
+						"Name": "櫻井真人",
+						"NameEn": "Fukushima Jun"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "85382",
+						"URI": "1086982206",
+						"Name": "ろくでもないBLUES",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%8D%E3%81%8F%E3%81%A7%E3%82%82%E3%81%AA%E3%81%84blues/1086981782?i=1086982206",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11266": {
+		"Id": "11266",
+		"Name": "Divine Gate",
+		"TitleImageName": "180294.jpg",
+		"AniDbUri": "http://anidb.net/anime/11266",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83925-ending": {
+				"Id": "83925",
+				"Name": "ワンミーツハー",
+				"NameEn": "One Me Two Hearts",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44452",
+						"Name": "ヒトリエ",
+						"NameEn": "Hitorie"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83925",
+						"URI": "1074182742",
+						"Name": "ワンミーツハー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%AF%E3%83%B3%E3%83%9F%E3%83%BC%E3%83%84%E3%83%8F%E3%83%BC/1074182645?i=1074182742",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83925",
+						"URI": "spotify:track:0RW6N38M55E9otzFNaZfDa",
+						"Name": "ワンミーツハー",
+						"ExternalUrl": "https://open.spotify.com/track/0RW6N38M55E9otzFNaZfDa",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83925-opening": {
+				"Id": "83925",
+				"Name": "ワンミーツハー",
+				"NameEn": "One Me Two Hearts",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "44452",
+						"Name": "ヒトリエ",
+						"NameEn": "Hitorie"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83925",
+						"URI": "1074182742",
+						"Name": "ワンミーツハー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%AF%E3%83%B3%E3%83%9F%E3%83%BC%E3%83%84%E3%83%8F%E3%83%BC/1074182645?i=1074182742",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83925",
+						"URI": "spotify:track:0RW6N38M55E9otzFNaZfDa",
+						"Name": "ワンミーツハー",
+						"ExternalUrl": "https://open.spotify.com/track/0RW6N38M55E9otzFNaZfDa",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83926-ending": {
+				"Id": "83926",
+				"Name": "CONTRAST",
+				"NameEn": "Contrast",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "21469",
+						"Name": "vistlip",
+						"NameEn": "Vistlip"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83926",
+						"URI": "spotify:track:7gVvkXR0xcDBy4YkagsuWN",
+						"Name": "CONTRAST",
+						"ExternalUrl": "https://open.spotify.com/track/7gVvkXR0xcDBy4YkagsuWN",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11270": {
+		"Id": "11270",
+		"Name": "Haruchika: Haruta to Chika wa Seishun Suru",
+		"TitleImageName": "180032.jpg",
+		"AniDbUri": "http://anidb.net/anime/11270",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83898-ending": {
+				"Id": "83898",
+				"Name": "虹を編めたら",
+				"NameEn": "Niji o Ametara",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "34372",
+						"Name": "fhána",
+						"NameEn": "Fhana"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83898",
+						"URI": "1522677468",
+						"Name": "虹を編めたら",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E8%99%B9%E3%82%92%E7%B7%A8%E3%82%81%E3%81%9F%E3%82%89/1522677465?i=1522677468",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83898-opening": {
+				"Id": "83898",
+				"Name": "虹を編めたら",
+				"NameEn": "Niji o Ametara",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1a-OP1e",
+				"Artists": [
+					{
+						"Id": "34372",
+						"Name": "fhána",
+						"NameEn": "Fhana"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83898",
+						"URI": "1522677468",
+						"Name": "虹を編めたら",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E8%99%B9%E3%82%92%E7%B7%A8%E3%82%81%E3%81%9F%E3%82%89/1522677465?i=1522677468",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83899-ending": {
+				"Id": "83899",
+				"Name": "空想トライアングル",
+				"NameEn": "Kuusou Triangle",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "32272",
+						"Name": "ChouCho",
+						"NameEn": "ChouCho"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83899",
+						"URI": "1501621370",
+						"Name": "空想トライアングル",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%A9%BA%E6%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB/1501621369?i=1501621370",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83899",
+						"URI": "spotify:track:2aZsQpLneag7DxnZbnFCmN",
+						"Name": "空想トライアングル",
+						"ExternalUrl": "https://open.spotify.com/track/2aZsQpLneag7DxnZbnFCmN",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86184-ending": {
+				"Id": "86184",
+				"Name": "晴れの日に",
+				"NameEn": "Hare no Hi ni",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2019",
+						"Name": "浜口史郎",
+						"NameEn": "Hamaguchi Shirou"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "86184",
+						"URI": "667779090",
+						"Name": "晴れた日に・・・",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%99%B4%E3%82%8C%E3%81%9F%E6%97%A5%E3%81%AB/667779054?i=667779090",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88282-image song": {
+				"Id": "88282",
+				"Name": "Non Stop, On My score!",
+				"NameEn": "Non Stop, On My Score!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "34234",
+						"Name": "ブリドカット・セーラ・恵美",
+						"NameEn": "Bridcutt Sarah Emi"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88283-image song": {
+				"Id": "88283",
+				"Name": "青春譜パズル",
+				"NameEn": "Seishun Fu Puzzle",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "35415",
+						"Name": "千菅春香",
+						"NameEn": "Chisuga Haruka"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88284-image song": {
+				"Id": "88284",
+				"Name": "Especially Call",
+				"NameEn": "Especially Call",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "21733",
+						"Name": "瀬戸麻沙美",
+						"NameEn": "Seto Asami"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88285-image song": {
+				"Id": "88285",
+				"Name": "Paint your sky",
+				"NameEn": "Paint Your Sky",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38814",
+						"Name": "山田悠希",
+						"NameEn": "Yamada Yuki"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88286-image song": {
+				"Id": "88286",
+				"Name": "オレンジ",
+				"NameEn": "Orange",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "42135",
+						"Name": "宮島えみ",
+						"NameEn": "Miyajima Emi"
+					},
+					{
+						"Id": "1679",
+						"Name": "小見川千明",
+						"NameEn": "Omigawa Chiaki"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "88286",
+						"URI": "1445127544",
+						"Name": "オレンジ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8/1445127539?i=1445127544",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88287-image song": {
+				"Id": "88287",
+				"Name": "Mr. Intelligent boy",
+				"NameEn": "Mr. Intelligent Boy",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "36680",
+						"Name": "斉藤壮馬",
+						"NameEn": "Saitou Souma"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88288-image song": {
+				"Id": "88288",
+				"Name": "NORMAL LEADER`s ABILITY",
+				"NameEn": "Normal Leader`s Ability",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "37882",
+						"Name": "山下誠一郎",
+						"NameEn": "Yamashita Seiichirou"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88289-image song": {
+				"Id": "88289",
+				"Name": "ENJOY GATHERING!",
+				"NameEn": "Enjoy Gathering!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "10776",
+						"Name": "光秀",
+						"NameEn": "Shimazaki Nobunaga"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88290-image song": {
+				"Id": "88290",
+				"Name": "名前の無い明日",
+				"NameEn": "Namae no Nai Asu",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "390",
+						"Name": "",
+						"NameEn": "Okamoto Nobuhiko"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88291-image song": {
+				"Id": "88291",
+				"Name": "Cantabile",
+				"NameEn": "Cantabile",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "31313",
+						"Name": "花江夏樹",
+						"NameEn": "Hanae Natsuki"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			}
+		}
+	},
+	"11286": {
+		"Id": "11286",
+		"Name": "Futsuu no Joshikousei ga [Locodol] Yattemita. (2015)",
+		"TitleImageName": "179252.jpg",
+		"AniDbUri": "http://anidb.net/anime/11286",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83865-opening": {
+				"Id": "83865",
+				"Name": "レインボーバトン",
+				"NameEn": "Rainbow Baton",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "37283",
+						"Name": "伊藤美来",
+						"NameEn": "Itou Miku"
+					},
+					{
+						"Id": "2903",
+						"Name": "三澤紗千香",
+						"NameEn": "Misawa Sachika"
+					},
+					{
+						"Id": "41267",
+						"Name": "流川ガールズ",
+						"NameEn": "Nagarekawa Girls"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"83866-ending": {
+				"Id": "83866",
+				"Name": "聖なる夜に",
+				"NameEn": "Seinaru Yoru ni",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "37283",
+						"Name": "伊藤美来",
+						"NameEn": "Itou Miku"
+					},
+					{
+						"Id": "21013",
+						"Name": "水瀬いのり",
+						"NameEn": "Minase Inori"
+					},
+					{
+						"Id": "2903",
+						"Name": "三澤紗千香",
+						"NameEn": "Misawa Sachika"
+					},
+					{
+						"Id": "20576",
+						"Name": "吉岡麻耶",
+						"NameEn": "Yoshioka Maya"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83866",
+						"URI": "540345781",
+						"Name": "聖なる夜に",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E8%81%96%E3%81%AA%E3%82%8B%E5%A4%9C%E3%81%AB/540345341?i=540345781",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83866",
+						"URI": "spotify:track:5QEME8DfsHjR9YDff4aHft",
+						"Name": "聖なる夜に祈ること",
+						"ExternalUrl": "https://open.spotify.com/track/5QEME8DfsHjR9YDff4aHft",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83867-insert song": {
+				"Id": "83867",
+				"Name": "ミス・マーメイド -The Myth Mermaid-",
+				"NameEn": "Miss Mermaid: The Myth Mermaid",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "278179",
+						"Name": "",
+						"NameEn": "AWA²GiRLS"
+					},
+					{
+						"Id": "4715",
+						"Name": "塚本由美",
+						"NameEn": "Imai Asami"
+					},
+					{
+						"Id": "16804",
+						"Name": "黒沢ともよ",
+						"NameEn": "Kurosawa Tomoyo"
+					},
+					{
+						"Id": "22170",
+						"Name": "新田恵海",
+						"NameEn": "Nitta Emi"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	"11292": {
+		"Id": "11292",
+		"Name": "Boku dake ga Inai Machi",
+		"TitleImageName": "221244.jpg",
+		"AniDbUri": "http://anidb.net/anime/11292",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83918-ending": {
+				"Id": "83918",
+				"Name": "それは小さな光のような",
+				"NameEn": "Sore wa Chiisana Hikari no You na",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "S2",
+				"Artists": [
+					{
+						"Id": "43351",
+						"Name": "さユり",
+						"NameEn": "Sayuri"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83918",
+						"URI": "1091050689",
+						"Name": "Sore wa Chiisana Hikari no You Na (Music Box)",
+						"ExternalUrl": "https://music.apple.com/jp/album/sore-wa-chiisana-hikari-no-you-na-music-box/1091050672?i=1091050689",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83918",
+						"URI": "spotify:track:1QyANXGmdmMdRZCAhbrblY",
+						"Name": "それは小さな光のような",
+						"ExternalUrl": "https://open.spotify.com/track/1QyANXGmdmMdRZCAhbrblY",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84085-ending": {
+				"Id": "84085",
+				"Name": "Re:Re:",
+				"NameEn": "Re:Re:",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "6562",
+						"Name": "ASIAN KUNG-FU GENERATION",
+						"NameEn": "Asian Kung-Fu Generation"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "84085",
+						"URI": "570082365",
+						"Name": "Re:Re:",
+						"ExternalUrl": "https://music.apple.com/jp/album/re-re/570082351?i=570082365",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "84085",
+						"URI": "spotify:track:7gehOKSGfZgjIJSxiyE8oD",
+						"Name": "Re: Re:",
+						"ExternalUrl": "https://open.spotify.com/track/7gehOKSGfZgjIJSxiyE8oD",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84085-opening": {
+				"Id": "84085",
+				"Name": "Re:Re:",
+				"NameEn": "Re:Re:",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1a-OP1c",
+				"Artists": [
+					{
+						"Id": "6562",
+						"Name": "ASIAN KUNG-FU GENERATION",
+						"NameEn": "Asian Kung-Fu Generation"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "84085",
+						"URI": "570082365",
+						"Name": "Re:Re:",
+						"ExternalUrl": "https://music.apple.com/jp/album/re-re/570082351?i=570082365",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "84085",
+						"URI": "spotify:track:7gehOKSGfZgjIJSxiyE8oD",
+						"Name": "Re: Re:",
+						"ExternalUrl": "https://open.spotify.com/track/7gehOKSGfZgjIJSxiyE8oD",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"85657-background music": {
+				"Id": "85657",
+				"Name": "only I am missing",
+				"NameEn": "Only I am Missing",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "704",
+						"Name": "Fion",
+						"NameEn": "Kajiura Yuki"
+					}
+				],
+				"Relation": "background music",
+				"Sources": {}
+			}
+		}
+	},
+	"11322": {
+		"Id": "11322",
+		"Name": "Ojisan to Marshmallow",
+		"TitleImageName": "228833.jpg",
+		"AniDbUri": "http://anidb.net/anime/11322",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"84115-ending": {
+				"Id": "84115",
+				"Name": "メッセージ",
+				"NameEn": "Message",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "401",
+						"Name": "喜多村英梨",
+						"NameEn": "Kitamura Eri"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "84115",
+						"URI": "spotify:track:51XNO5WVWGeNmoqRmZvRS4",
+						"Name": "ラブメッセージ",
+						"ExternalUrl": "https://open.spotify.com/track/51XNO5WVWGeNmoqRmZvRS4",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84116-ending": {
+				"Id": "84116",
+				"Name": "ラビリンス",
+				"NameEn": "Labyrinth",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "401",
+						"Name": "喜多村英梨",
+						"NameEn": "Kitamura Eri"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "84116",
+						"URI": "1226343422",
+						"Name": "ラビリンス",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%A9%E3%83%93%E3%83%AA%E3%83%B3%E3%82%B9/1226343415?i=1226343422",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86211-ending": {
+				"Id": "86211",
+				"Name": "yell",
+				"NameEn": "Yell",
+				"Ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"Classification": "ED3",
+				"Artists": [
+					{
+						"Id": "10853",
+						"Name": "木下鈴奈",
+						"NameEn": "Kinoshita Suzuna"
+					},
+					{
+						"Id": "43391",
+						"Name": "田口香織",
+						"NameEn": "Taguchi Kaori"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "86211",
+						"URI": "570079982",
+						"Name": "YELL",
+						"ExternalUrl": "https://music.apple.com/jp/album/yell/570079939?i=570079982",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86217-ending": {
+				"Id": "86217",
+				"Name": "あの時見た鳥は今",
+				"NameEn": "Ano Toki Mita Tori wa Ima",
+				"Ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"Classification": "ED4",
+				"Artists": [
+					{
+						"Id": "176",
+						"Name": "",
+						"NameEn": "Hanazawa Kana"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"86218-ending": {
+				"Id": "86218",
+				"Name": "元気田堂社歌",
+				"NameEn": "Genki Tadou Shaka",
+				"Ranges": [
+					{
+						"start": 8,
+						"end": 8
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "43510",
+						"Name": "shusei",
+						"NameEn": "Shusei"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"86219-ending": {
+				"Id": "86219",
+				"Name": "私はアイドル...デガス",
+				"NameEn": "Watashi wa Idol... Degasu",
+				"Ranges": [
+					{
+						"start": 9,
+						"end": 9
+					}
+				],
+				"Classification": "ED6",
+				"Artists": [
+					{
+						"Id": "176",
+						"Name": "",
+						"NameEn": "Hanazawa Kana"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"88853-ending": {
+				"Id": "88853",
+				"Name": "marshmallow factory",
+				"NameEn": "Marshmallow Factory",
+				"Ranges": [],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "32911",
+						"Name": "古木のぞみ",
+						"NameEn": "Furuki Nozomi"
+					},
+					{
+						"Id": "44709",
+						"Name": "吉富睦",
+						"NameEn": "Yoshitomi Chika"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"11345": {
+		"Id": "11345",
+		"Name": "Dimension W",
+		"TitleImageName": "221579.jpg",
+		"AniDbUri": "http://anidb.net/anime/11345",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83946-ending": {
+				"Id": "83946",
+				"Name": "Genesis",
+				"NameEn": "Genesis",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38705",
+						"Name": "STEREO DIVE FOUNDATION",
+						"NameEn": "Stereo Dive Foundation"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83946",
+						"URI": "1483168897",
+						"Name": "Genesis",
+						"ExternalUrl": "https://music.apple.com/jp/album/genesis/1483168895?i=1483168897",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83946",
+						"URI": "spotify:track:7yjLgRdvQUDeV8LZwl1Q76",
+						"Name": "Genesis",
+						"ExternalUrl": "https://open.spotify.com/track/7yjLgRdvQUDeV8LZwl1Q76",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83946-opening": {
+				"Id": "83946",
+				"Name": "Genesis",
+				"NameEn": "Genesis",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "S6",
+				"Artists": [
+					{
+						"Id": "38705",
+						"Name": "STEREO DIVE FOUNDATION",
+						"NameEn": "Stereo Dive Foundation"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83946",
+						"URI": "1483168897",
+						"Name": "Genesis",
+						"ExternalUrl": "https://music.apple.com/jp/album/genesis/1483168895?i=1483168897",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83946",
+						"URI": "spotify:track:7yjLgRdvQUDeV8LZwl1Q76",
+						"Name": "Genesis",
+						"ExternalUrl": "https://open.spotify.com/track/7yjLgRdvQUDeV8LZwl1Q76",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83947-ending": {
+				"Id": "83947",
+				"Name": "Contrast",
+				"NameEn": "Contrast",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "S6",
+				"Artists": [
+					{
+						"Id": "42079",
+						"Name": "Fo`xTails",
+						"NameEn": "Fo`xTails"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83947",
+						"URI": "904099287",
+						"Name": "contrast",
+						"ExternalUrl": "https://music.apple.com/jp/album/contrast/904099270?i=904099287",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11348": {
+		"Id": "11348",
+		"Name": "Akagami no Shirayuki-hime (2016)",
+		"TitleImageName": "179790.jpg",
+		"AniDbUri": "http://anidb.net/anime/11348",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"81626-ending": {
+				"Id": "81626",
+				"Name": "",
+				"NameEn": "Yasashii Kibou",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2296",
+						"Name": "",
+						"NameEn": "Hayami Saori"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "81626",
+						"URI": "1456063418",
+						"Name": "ARTIST",
+						"ExternalUrl": "https://music.apple.com/jp/album/artist/1456062834?i=1456063418",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83949-opening": {
+				"Id": "83949",
+				"Name": "その声が地図になる",
+				"NameEn": "Sono Koe ga Chizu ni Naru",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "2296",
+						"Name": "",
+						"NameEn": "Hayami Saori"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83949",
+						"URI": "1080995063",
+						"Name": "その声が地図になる",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%9D%E3%81%AE%E5%A3%B0%E3%81%8C%E5%9C%B0%E5%9B%B3%E3%81%AB%E3%81%AA%E3%82%8B/1080995060?i=1080995063",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83950-ending": {
+				"Id": "83950",
+				"Name": "ページ~君と綴る物語~",
+				"NameEn": "Page: Kimi to Tsuzuru Monogatari",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "33738",
+						"Name": "",
+						"NameEn": "Eyelis"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83950",
+						"URI": "1080986579",
+						"Name": "ページ~君と綴る物語~",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%9A%E3%83%BC%E3%82%B8-%E5%90%9B%E3%81%A8%E7%B6%B4%E3%82%8B%E7%89%A9%E8%AA%9E/1080986578?i=1080986579",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11353": {
+		"Id": "11353",
+		"Name": "Eiga Doraemon: Shin Nobita no Nippon Tanjou",
+		"TitleImageName": "183722.jpg",
+		"AniDbUri": "http://anidb.net/anime/11353",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"101912-ending": {
+				"Id": "101912",
+				"Name": "空へ",
+				"NameEn": "Sora e",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "4068",
+						"Name": "山崎将義",
+						"NameEn": "Yamazaki Masayoshi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "101912",
+						"URI": "1385292375",
+						"Name": "空へ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%A9%BA%E3%81%B8/1385292151?i=1385292375",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"37669-opening": {
+				"Id": "37669",
+				"Name": "夢をかなえてドラえもん",
+				"NameEn": "Yume o Kanaete Doraemon",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "16764",
+						"Name": "mao",
+						"NameEn": "Mao"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "37669",
+						"URI": "938553963",
+						"Name": "夢をかなえてドラえもん",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%A4%A2%E3%82%92%E3%81%8B%E3%81%AA%E3%81%88%E3%81%A6%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93/938546901?i=938553963",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11365": {
+		"Id": "11365",
+		"Name": "Phantasy Star Online 2 the Animation",
+		"TitleImageName": "179815.jpg",
+		"AniDbUri": "http://anidb.net/anime/11365",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83912-opening": {
+				"Id": "83912",
+				"Name": "絶世スターゲイト",
+				"NameEn": "Zessei Stargate",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "29613",
+						"Name": "蒼井翔太",
+						"NameEn": "Aoi Shouta"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83912",
+						"URI": "1080907800",
+						"Name": "絶世スターゲイト",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%B5%B6%E4%B8%96%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B2%E3%82%A4%E3%83%88/1080907793?i=1080907800",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"84084-ending": {
+				"Id": "84084",
+				"Name": "レアドロ☆KOI☆こい! ワンモア!",
+				"NameEn": "Readoro Koi Koi! One More!",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "36368",
+						"Name": "M・A・O",
+						"NameEn": "Mao"
+					},
+					{
+						"Id": "34407",
+						"Name": "諏訪彩花",
+						"NameEn": "Suwa Ayaka"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"11385": {
+		"Id": "11385",
+		"Name": "Kuusen Madoushi Kouhosei no Kyoukan: Lecty no, Ikimonogatari",
+		"TitleImageName": "176598.jpg",
+		"AniDbUri": "http://anidb.net/anime/11385",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"78983-opening": {
+				"Id": "78983",
+				"Name": "D.O.B.",
+				"NameEn": "D.O.B.",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "28506",
+						"Name": "野水いおり",
+						"NameEn": "Nomizu Iori"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"80891-ending": {
+				"Id": "80891",
+				"Name": "ハレルヤ",
+				"NameEn": "Hallelujah",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "39654",
+						"Name": "la la larks",
+						"NameEn": "La La Larks"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "80891",
+						"URI": "1498402906",
+						"Name": "ハレルヤ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%AB%E3%83%A4/1498402904?i=1498402906",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "80891",
+						"URI": "spotify:track:5LGbECMdGKTP3yAvjVpvde",
+						"Name": "ハレルヤ",
+						"ExternalUrl": "https://open.spotify.com/track/5LGbECMdGKTP3yAvjVpvde",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11487": {
+		"Id": "11487",
+		"Name": "Niji-iro Days",
+		"TitleImageName": "184089.jpg",
+		"AniDbUri": "http://anidb.net/anime/11487",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83921-opening": {
+				"Id": "83921",
+				"Name": "ベストフレンド",
+				"NameEn": "Best Friend",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "19982",
+						"Name": "ソナーポケット",
+						"NameEn": "Sonar Pocket"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83921",
+						"URI": "spotify:track:0qWiKZcRGiz43LjqVvkStk",
+						"Name": "ベストフレンド",
+						"ExternalUrl": "https://open.spotify.com/track/0qWiKZcRGiz43LjqVvkStk",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83923-ending": {
+				"Id": "83923",
+				"Name": "Rainbow Days!",
+				"NameEn": "Rainbow Days!",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "2575",
+						"Name": "江口拓也",
+						"NameEn": "Eguchi Takuya"
+					},
+					{
+						"Id": "20249",
+						"Name": "松岡禎丞",
+						"NameEn": "Matsuoka Yoshitsugu"
+					},
+					{
+						"Id": "10776",
+						"Name": "",
+						"NameEn": "Shimazaki Nobunaga"
+					},
+					{
+						"Id": "2588",
+						"Name": "内山昂輝",
+						"NameEn": "Uchiyama Kouki"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83923",
+						"URI": "1509513328",
+						"Name": "Artist of Rainbow",
+						"ExternalUrl": "https://music.apple.com/jp/album/artist-of-rainbow/1509513316?i=1509513328",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83923",
+						"URI": "spotify:track:3dJYhnff1WuQ8iTdRbKkIJ",
+						"Name": "Rainbow Days!",
+						"ExternalUrl": "https://open.spotify.com/track/3dJYhnff1WuQ8iTdRbKkIJ",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86244-ending": {
+				"Id": "86244",
+				"Name": "アーチ",
+				"NameEn": "Arch",
+				"Ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "20249",
+						"Name": "松岡禎丞",
+						"NameEn": "Matsuoka Yoshitsugu"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "86244",
+						"URI": "630450489",
+						"Name": "アーチ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%83%BC%E3%83%81/630450355?i=630450489",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86267-ending": {
+				"Id": "86267",
+				"Name": "I wanna be your knight",
+				"NameEn": "I Wanna Be Your Knight",
+				"Ranges": [
+					{
+						"start": 9,
+						"end": 9
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2575",
+						"Name": "江口拓也",
+						"NameEn": "Eguchi Takuya"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "86267",
+						"URI": "spotify:track:2Tty6Y8REi8QZu3IIqsvJY",
+						"Name": "I wanna be your knight",
+						"ExternalUrl": "https://open.spotify.com/track/2Tty6Y8REi8QZu3IIqsvJY",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86685-image song": {
+				"Id": "86685",
+				"Name": "Emotion",
+				"NameEn": "Emotion",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2575",
+						"Name": "江口拓也",
+						"NameEn": "Eguchi Takuya"
+					},
+					{
+						"Id": "20249",
+						"Name": "松岡禎丞",
+						"NameEn": "Matsuoka Yoshitsugu"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "86685",
+						"URI": "989380546",
+						"Name": "Emotions",
+						"ExternalUrl": "https://music.apple.com/jp/album/emotions/989380334?i=989380546",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88221-opening": {
+				"Id": "88221",
+				"Name": "ONE-SIDED LOVE",
+				"NameEn": "One-Sided Love",
+				"Ranges": [
+					{
+						"start": 13,
+						"end": 13
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "19982",
+						"Name": "ソナーポケット",
+						"NameEn": "Sonar Pocket"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "88221",
+						"URI": "1105810671",
+						"Name": "ONE-SIDED LOVE",
+						"ExternalUrl": "https://music.apple.com/jp/album/one-sided-love/1105810640?i=1105810671",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88225-ending": {
+				"Id": "88225",
+				"Name": "Catch me if you can!",
+				"NameEn": "Catch Me If You Can!",
+				"Ranges": [
+					{
+						"start": 13,
+						"end": 13
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "10776",
+						"Name": "",
+						"NameEn": "Shimazaki Nobunaga"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "88225",
+						"URI": "501162940",
+						"Name": "Catch Me if You Can (feat. J. Vito \u0026 Nic Goose)",
+						"ExternalUrl": "https://music.apple.com/jp/album/catch-me-if-you-can-feat-j-vito-nic-goose/501162817?i=501162940",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88226-ending": {
+				"Id": "88226",
+				"Name": "そばにいるから",
+				"NameEn": "Soba ni Iru kara",
+				"Ranges": [
+					{
+						"start": 17,
+						"end": 17
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2588",
+						"Name": "内山昂輝",
+						"NameEn": "Uchiyama Kouki"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "88226",
+						"URI": "1354286799",
+						"Name": "そばにいるから",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%9D%E3%81%B0%E3%81%AB%E3%81%84%E3%82%8B%E3%81%8B%E3%82%89/1354286776?i=1354286799",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "88226",
+						"URI": "spotify:track:50SyKVoPYDr3r9KqwOpzlt",
+						"Name": "そばにいるから",
+						"ExternalUrl": "https://open.spotify.com/track/50SyKVoPYDr3r9KqwOpzlt",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"88227-ending": {
+				"Id": "88227",
+				"Name": "ハレルヤ!Shinin`Days",
+				"NameEn": "Hallelujah! Shinin` Days",
+				"Ranges": [
+					{
+						"start": 21,
+						"end": 21
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2575",
+						"Name": "江口拓也",
+						"NameEn": "Eguchi Takuya"
+					},
+					{
+						"Id": "20249",
+						"Name": "松岡禎丞",
+						"NameEn": "Matsuoka Yoshitsugu"
+					},
+					{
+						"Id": "10776",
+						"Name": "",
+						"NameEn": "Shimazaki Nobunaga"
+					},
+					{
+						"Id": "2588",
+						"Name": "内山昂輝",
+						"NameEn": "Uchiyama Kouki"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "88227",
+						"URI": "1118813794",
+						"Name": "ハレルヤ!Shinin' Days",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%8F%E3%83%AC%E3%83%AB%E3%83%A4-shinin-days/1118813790?i=1118813794",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "88227",
+						"URI": "spotify:track:1wKKOhDgg5pWGXGRQeMxL2",
+						"Name": "ハレルヤ!Shinin’Days",
+						"ExternalUrl": "https://open.spotify.com/track/1wKKOhDgg5pWGXGRQeMxL2",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11500": {
+		"Id": "11500",
+		"Name": "Musaigen no Phantom World",
+		"TitleImageName": "240268.jpg",
+		"AniDbUri": "http://anidb.net/anime/11500",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83896-opening": {
+				"Id": "83896",
+				"Name": "Naked Dive",
+				"NameEn": "Naked Dive",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "39664",
+						"Name": "SCREEN mode",
+						"NameEn": "Screen Mode"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83896",
+						"URI": "1487436461",
+						"Name": "Naked Dive",
+						"ExternalUrl": "https://music.apple.com/jp/album/naked-dive/1487436457?i=1487436461",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83896",
+						"URI": "spotify:track:3JopOMJGnkksMKzLhCS7EX",
+						"Name": "Naked Dive",
+						"ExternalUrl": "https://open.spotify.com/track/3JopOMJGnkksMKzLhCS7EX",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83897-ending": {
+				"Id": "83897",
+				"Name": "純真Always",
+				"NameEn": "Junshin Always",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "33509",
+						"Name": "田所あずさ",
+						"NameEn": "Tadokoro Azusa"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83897",
+						"URI": "1487436681",
+						"Name": "純真Always",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%B4%94%E7%9C%9Falways/1487436678?i=1487436681",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83897",
+						"URI": "spotify:track:6OAVWClRCrwTSdu803uw0X",
+						"Name": "純真Always",
+						"ExternalUrl": "https://open.spotify.com/track/6OAVWClRCrwTSdu803uw0X",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"87395-image song": {
+				"Id": "87395",
+				"Name": "LADY GO PUNCH!",
+				"NameEn": "Lady Go Punch!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "28602",
+						"Name": "上坂すみれ",
+						"NameEn": "Uesaka Sumire"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"87396-image song": {
+				"Id": "87396",
+				"Name": "HEART-FULL HAPPY",
+				"NameEn": "Heart-Full Happy",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2296",
+						"Name": "",
+						"NameEn": "Hayami Saori"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"87397-image song": {
+				"Id": "87397",
+				"Name": "SING ALONeG",
+				"NameEn": "Sing Aloneg",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "22366",
+						"Name": "内田真礼",
+						"NameEn": "Uchida Maaya"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"87398-image song": {
+				"Id": "87398",
+				"Name": "マジカル・ルルルール!",
+				"NameEn": "Magical Rururuuru!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "33509",
+						"Name": "田所あずさ",
+						"NameEn": "Tadokoro Azusa"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"87399-image song": {
+				"Id": "87399",
+				"Name": "KUMARCHxKUMARCH",
+				"NameEn": "KumarchxKumarch",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "20806",
+						"Name": "久野美咲",
+						"NameEn": "Kuno Misaki"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			}
+		}
+	},
+	"11515": {
+		"Id": "11515",
+		"Name": "Norn 9: Norn + Nonetto",
+		"TitleImageName": "239894.jpg",
+		"AniDbUri": "http://anidb.net/anime/11515",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83906-opening": {
+				"Id": "83906",
+				"Name": "カザキリ",
+				"NameEn": "Kazakiri",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "29595",
+						"Name": "nagi",
+						"NameEn": "Yanagi Nagi"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83906",
+						"URI": "1082281408",
+						"Name": "カザキリ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%AB%E3%82%B6%E3%82%AD%E3%83%AA/1082281407?i=1082281408",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83906",
+						"URI": "spotify:track:1xG2Ox9lBASGEPe0sFV3UY",
+						"Name": "カザキリ",
+						"ExternalUrl": "https://open.spotify.com/track/1xG2Ox9lBASGEPe0sFV3UY",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83907-ending": {
+				"Id": "83907",
+				"Name": "ゼロトケイ",
+				"NameEn": "Zero Tokei",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "9119",
+						"Name": "織田かおり",
+						"NameEn": "Oda Kaori"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83907",
+						"URI": "1108287971",
+						"Name": "ゼロトケイ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%BC%E3%83%AD%E3%83%88%E3%82%B1%E3%82%A4/1108287681?i=1108287971",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86701-insert song": {
+				"Id": "86701",
+				"Name": "眠りの国",
+				"NameEn": "Nemuri no Kuni",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "29595",
+						"Name": "nagi",
+						"NameEn": "Yanagi Nagi"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "86701",
+						"URI": "1145797272",
+						"Name": "眠りの国",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%9C%A0%E3%82%8A%E3%81%AE%E5%9B%BD/1145795638?i=1145797272",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"87226-ending": {
+				"Id": "87226",
+				"Name": "Vid en Horisont",
+				"NameEn": "Vid en Horisont",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "49410",
+						"Name": "Maria Andersson",
+						"NameEn": "Maria Andersson"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "87226",
+						"URI": "1145796445",
+						"Name": "Vid en Horisont",
+						"ExternalUrl": "https://music.apple.com/jp/album/vid-en-horisont/1145795638?i=1145796445",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"87226-insert song": {
+				"Id": "87226",
+				"Name": "Vid en Horisont",
+				"NameEn": "Vid en Horisont",
+				"Ranges": [
+					{
+						"start": 10,
+						"end": 10
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "49410",
+						"Name": "Maria Andersson",
+						"NameEn": "Maria Andersson"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "87226",
+						"URI": "1145796445",
+						"Name": "Vid en Horisont",
+						"ExternalUrl": "https://music.apple.com/jp/album/vid-en-horisont/1145795638?i=1145796445",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11524": {
+		"Id": "11524",
+		"Name": "Akagami no Shirayuki-hime: Nandemonai Takaramono, Kono Page",
+		"TitleImageName": "181778.jpg",
+		"AniDbUri": "http://anidb.net/anime/11524",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"81626-opening": {
+				"Id": "81626",
+				"Name": "やさしい希望",
+				"NameEn": "Yasashii Kibou",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2296",
+						"Name": "早見沙織",
+						"NameEn": "Hayami Saori"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "81626",
+						"URI": "1110011835",
+						"Name": "やさしい希望",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%84%E3%81%95%E3%81%97%E3%81%84%E5%B8%8C%E6%9C%9B/1110011825?i=1110011835",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"82757-ending": {
+				"Id": "82757",
+				"Name": "銀世界",
+				"NameEn": "Ginsekai",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "33738",
+						"Name": "eyelis",
+						"NameEn": "Eyelis"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "82757",
+						"URI": "1028949956",
+						"Name": "銀世界",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E9%8A%80%E4%B8%96%E7%95%8C/1028949948?i=1028949956",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11527": {
+		"Id": "11527",
+		"Name": "Gekijouban Tantei Opera Milky Holmes: Gyakushuu no Milky Holmes",
+		"TitleImageName": "179518.jpg",
+		"AniDbUri": "http://anidb.net/anime/11527",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"82976-theme song": {
+				"Id": "82976",
+				"Name": "激情! ミルキィ大作戦",
+				"NameEn": "Gekijou! Milky Daisakusen",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "23319",
+						"Name": "ミルキィホームズ",
+						"NameEn": "Milky Holmes"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "theme song",
+						"SongId": "82976",
+						"URI": "1103752557",
+						"Name": "激情!ミルキィ大作戦",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%BF%80%E6%83%85-%E3%83%9F%E3%83%AB%E3%82%AD%E3%82%A3%E5%A4%A7%E4%BD%9C%E6%88%A6/1103752501?i=1103752557",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "theme song",
+						"SongId": "82976",
+						"URI": "spotify:track:0L5uqr83KpnnvhfzBYjPJ5",
+						"Name": "激情!ミルキィ大作戦",
+						"ExternalUrl": "https://open.spotify.com/track/0L5uqr83KpnnvhfzBYjPJ5",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11547": {
+		"Id": "11547",
+		"Name": "Sekkou Boys",
+		"TitleImageName": "179104.jpg",
+		"AniDbUri": "http://anidb.net/anime/11547",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83945-ending": {
+				"Id": "83945",
+				"Name": "星空ランデブー",
+				"NameEn": "Hoshizora Rendezvous",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "14",
+						"Name": "福山潤",
+						"NameEn": "Fukuyama Jun"
+					},
+					{
+						"Id": "250",
+						"Name": "中本伸輔",
+						"NameEn": "Ono Daisuke"
+					},
+					{
+						"Id": "45",
+						"Name": "鉄仮面",
+						"NameEn": "Sugita Tomokazu"
+					},
+					{
+						"Id": "1680",
+						"Name": "立花慎之介",
+						"NameEn": "Tachibana Shinnosuke"
+					},
+					{
+						"Id": "278441",
+						"Name": "",
+						"NameEn": "石膏ボーイズ"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83945",
+						"URI": "1082604683",
+						"Name": "星空ランデブー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%98%9F%E7%A9%BA%E3%83%A9%E3%83%B3%E3%83%87%E3%83%96%E3%83%BC/1082604622?i=1082604683",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11551": {
+		"Id": "11551",
+		"Name": "Nisekoi: (2016)",
+		"TitleImageName": "178750.jpg",
+		"AniDbUri": "http://anidb.net/anime/11551",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"80899-opening": {
+				"Id": "80899",
+				"Name": "Rally Go Round",
+				"NameEn": "Rally Go Round",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "17439",
+						"Name": "LiSA",
+						"NameEn": "Lisa"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "80899",
+						"URI": "993116694",
+						"Name": "Rally Go Round",
+						"ExternalUrl": "https://music.apple.com/jp/album/rally-go-round/993116693?i=993116694",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "80899",
+						"URI": "spotify:track:2AjzusLPuAD6o3nZNG75zy",
+						"Name": "Rally Go Round",
+						"ExternalUrl": "https://open.spotify.com/track/2AjzusLPuAD6o3nZNG75zy",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"81314-ending": {
+				"Id": "81314",
+				"Name": "曖昧ヘルツ",
+				"NameEn": "Aimai Hertz",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "479",
+						"Name": "阿澄佳奈",
+						"NameEn": "Asumi Kana"
+					},
+					{
+						"Id": "176",
+						"Name": "Ханадзава Кана",
+						"NameEn": "Hanazawa Kana"
+					},
+					{
+						"Id": "16085",
+						"Name": "小松未可子",
+						"NameEn": "Komatsu Mikako"
+					},
+					{
+						"Id": "21312",
+						"Name": "東山奈央",
+						"NameEn": "Touyama Nao"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "81314",
+						"URI": "1143992598",
+						"Name": "Hz(ヘルツ)",
+						"ExternalUrl": "https://music.apple.com/jp/album/hz-%E3%83%98%E3%83%AB%E3%83%84/1143992407?i=1143992598",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"82170-opening": {
+				"Id": "82170",
+				"Name": "マジカル☆スタイリング",
+				"NameEn": "Magical Styling",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "176",
+						"Name": "Ханадзава Кана",
+						"NameEn": "Hanazawa Kana"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"82262-ending": {
+				"Id": "82262",
+				"Name": "クレヨンカバー",
+				"NameEn": "Crayon Cover",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "176",
+						"Name": "Ханадзава Кана",
+						"NameEn": "Hanazawa Kana"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"11552": {
+		"Id": "11552",
+		"Name": "Prince of Stride: Alternative",
+		"TitleImageName": "179519.jpg",
+		"AniDbUri": "http://anidb.net/anime/11552",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83900-opening": {
+				"Id": "83900",
+				"Name": "STRIDER`S HIGH",
+				"NameEn": "Strider`s High",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "44415",
+						"Name": "OxT",
+						"NameEn": "OxT"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"83901-ending": {
+				"Id": "83901",
+				"Name": "Be My Steady",
+				"NameEn": "Be My Steady",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					},
+					{
+						"start": 9,
+						"end": 9
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "45312",
+						"Name": "ギャラクシー・スタンダード",
+						"NameEn": "Galaxy Standard"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83901",
+						"URI": "1472903049",
+						"Name": "Be My Steady",
+						"ExternalUrl": "https://music.apple.com/jp/album/be-my-steady/1472903044?i=1472903049",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"89909-image song": {
+				"Id": "89909",
+				"Name": "Brilliant Gray",
+				"NameEn": "Brilliant Gray",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2225",
+						"Name": "木村良平",
+						"NameEn": "Kimura Ryouhei"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"89910-image song": {
+				"Id": "89910",
+				"Name": "Blue Flame",
+				"NameEn": "Blue Flame",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "390",
+						"Name": "",
+						"NameEn": "Okamoto Nobuhiko"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "89910",
+						"URI": "78483104",
+						"Name": "Tune In and Breathe",
+						"ExternalUrl": "https://music.apple.com/jp/album/tune-in-and-breathe/78483174?i=78483104",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"89911-image song": {
+				"Id": "89911",
+				"Name": "To be continued!!",
+				"NameEn": "To Be Continued!!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "176",
+						"Name": "",
+						"NameEn": "Hanazawa Kana"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"Spotify": {
+						"Relation": "image song",
+						"SongId": "89911",
+						"URI": "spotify:track:4iQz1P9aPfJoY4Vbc6roLY",
+						"Name": "To Be Continued",
+						"ExternalUrl": "https://open.spotify.com/track/4iQz1P9aPfJoY4Vbc6roLY",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11577": {
+		"Id": "11577",
+		"Name": "Ajin (2016)",
+		"TitleImageName": "180783.jpg",
+		"AniDbUri": "http://anidb.net/anime/11577",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"82970-opening": {
+				"Id": "82970",
+				"Name": "夜は眠れるかい?",
+				"NameEn": "Yoru wa Nemurerukai?",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "39586",
+						"Name": "flumpool",
+						"NameEn": "Flumpool"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "82970",
+						"URI": "1275438310",
+						"Name": "夜は眠れるかい?",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%A4%9C%E3%81%AF%E7%9C%A0%E3%82%8C%E3%82%8B%E3%81%8B%E3%81%84/1275438007?i=1275438310",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "82970",
+						"URI": "spotify:track:57zNLdfimYnWFXbkgWRRlq",
+						"Name": "Yoru Wa Nemurerukai?",
+						"ExternalUrl": "https://open.spotify.com/track/57zNLdfimYnWFXbkgWRRlq",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83935-ending": {
+				"Id": "83935",
+				"Name": "HOW CLOSE YOU ARE",
+				"NameEn": "How Close You Are",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "255",
+						"Name": "宮野真守",
+						"NameEn": "Miyano Mamoru"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83935",
+						"URI": "spotify:track:4HayFtYb2VOZI1smKbiYfp",
+						"Name": "HOW CLOSE YOU ARE",
+						"ExternalUrl": "https://open.spotify.com/track/4HayFtYb2VOZI1smKbiYfp",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"85678-background music": {
+				"Id": "85678",
+				"Name": "AJIN MAIN THEME",
+				"NameEn": "Ajin Main Theme",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": null,
+				"Relation": "background music",
+				"Sources": {}
+			}
+		}
+	},
+	"11595": {
+		"Id": "11595",
+		"Name": "Ooya-san wa Shishunki!",
+		"TitleImageName": "221964.jpg",
+		"AniDbUri": "http://anidb.net/anime/11595",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83939-opening": {
+				"Id": "83939",
+				"Name": "Shining Sky",
+				"NameEn": "Shining Sky",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1a-OP1c",
+				"Artists": [
+					{
+						"Id": "42433",
+						"Name": "every♥ing!",
+						"NameEn": "Everying!"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83939",
+						"URI": "1078538579",
+						"Name": "Shining Sky",
+						"ExternalUrl": "https://music.apple.com/jp/album/shining-sky/1078538577?i=1078538579",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11600": {
+		"Id": "11600",
+		"Name": "Sushi Police",
+		"TitleImageName": "177510.jpg",
+		"AniDbUri": "http://anidb.net/anime/11600",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"84344-ending": {
+				"Id": "84344",
+				"Name": "I Don`t Understand You",
+				"NameEn": "I Don`t Understand You",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44875",
+						"Name": "OK Go",
+						"NameEn": "OK Go"
+					},
+					{
+						"Id": "41280",
+						"Name": "Perfume",
+						"NameEn": "Perfume"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "84344",
+						"URI": "1057793952",
+						"Name": "Dead or in Jail",
+						"ExternalUrl": "https://music.apple.com/jp/album/dead-or-in-jail/1057793316?i=1057793952",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "84344",
+						"URI": "spotify:track:0vekurNYcOkG0lVuZhGHIA",
+						"Name": "I Don't Understand You",
+						"ExternalUrl": "https://open.spotify.com/track/0vekurNYcOkG0lVuZhGHIA",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11601": {
+		"Id": "11601",
+		"Name": "Dagashi Kashi",
+		"TitleImageName": "225156.jpg",
+		"AniDbUri": "http://anidb.net/anime/11601",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83920-opening": {
+				"Id": "83920",
+				"Name": "Checkmate!?",
+				"NameEn": "Checkmate!?",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1a-OP1c",
+				"Artists": [
+					{
+						"Id": "43381",
+						"Name": "MICHI",
+						"NameEn": "Michi"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83920",
+						"URI": "1074617730",
+						"Name": "Checkmate!?",
+						"ExternalUrl": "https://music.apple.com/jp/album/checkmate/1074617625?i=1074617730",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83920",
+						"URI": "spotify:track:0Ryj3Eow372P03dgeZcd1Y",
+						"Name": "Checkmate!?",
+						"ExternalUrl": "https://open.spotify.com/track/0Ryj3Eow372P03dgeZcd1Y",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83922-ending": {
+				"Id": "83922",
+				"Name": "Hey!カロリーQueen",
+				"NameEn": "Hey! Calorie Queen",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1a-ED1c",
+				"Artists": [
+					{
+						"Id": "590",
+						"Name": "竹達彩奈",
+						"NameEn": "Taketatsu Ayana"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83922",
+						"URI": "1074620501",
+						"Name": "Hey!カロリーQueen",
+						"ExternalUrl": "https://music.apple.com/jp/album/hey-%E3%82%AB%E3%83%AD%E3%83%AA%E3%83%BCqueen/1074619973?i=1074620501",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83922",
+						"URI": "spotify:track:3izBEDCUBTzl67nIq2owgX",
+						"Name": "Hey! Calorie Queen",
+						"ExternalUrl": "https://open.spotify.com/track/3izBEDCUBTzl67nIq2owgX",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11602": {
+		"Id": "11602",
+		"Name": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri (2016)",
+		"TitleImageName": "239895.jpg",
+		"AniDbUri": "http://anidb.net/anime/11602",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83940-ending": {
+				"Id": "83940",
+				"Name": "GATE II~世界を超えて~",
+				"NameEn": "Gate II: Sekai o Koete",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38573",
+						"Name": "岸田教団\u0026The明星ロケッツ",
+						"NameEn": "Kishida Kyoudan \u0026 The Akeboshi Rockets"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"83940-opening": {
+				"Id": "83940",
+				"Name": "GATE II~世界を超えて~",
+				"NameEn": "Gate II: Sekai o Koete",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "38573",
+						"Name": "岸田教団\u0026The明星ロケッツ",
+						"NameEn": "Kishida Kyoudan \u0026 The Akeboshi Rockets"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"83942-ending": {
+				"Id": "83942",
+				"Name": "いつだってコミュニケーション",
+				"NameEn": "Itsudatte Communication",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "12266",
+						"Name": "金元寿子",
+						"NameEn": "Kanemoto Hisako"
+					},
+					{
+						"Id": "32750",
+						"Name": "種田梨沙",
+						"NameEn": "Taneda Risa"
+					},
+					{
+						"Id": "21312",
+						"Name": "",
+						"NameEn": "Touyama Nao"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83942",
+						"URI": "1077266533",
+						"Name": "いつだってコミュニケーション",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%84%E3%81%A4%E3%81%A0%E3%81%A3%E3%81%A6%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/1077266132?i=1077266533",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"85999-image song": {
+				"Id": "85999",
+				"Name": "静寂のロマンテュカ",
+				"NameEn": "Shijima no Romantuka",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "12266",
+						"Name": "金元寿子",
+						"NameEn": "Kanemoto Hisako"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"86001-image song": {
+				"Id": "86001",
+				"Name": "セツナクテ論理",
+				"NameEn": "Setsunakute Lonely",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "21312",
+						"Name": "",
+						"NameEn": "Touyama Nao"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"86003-image song": {
+				"Id": "86003",
+				"Name": "Lovemaker",
+				"NameEn": "Lovemaker",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32750",
+						"Name": "種田梨沙",
+						"NameEn": "Taneda Risa"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"86005-image song": {
+				"Id": "86005",
+				"Name": "生きるとは呼吸することではない, 愛すること",
+				"NameEn": "Ikiru to wa Kokyuu Suru Koto de wa Nai, Ai Suru Koto",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "12266",
+						"Name": "金元寿子",
+						"NameEn": "Kanemoto Hisako"
+					},
+					{
+						"Id": "32750",
+						"Name": "種田梨沙",
+						"NameEn": "Taneda Risa"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "86005",
+						"URI": "1086525199",
+						"Name": "生きるとは呼吸することではない、愛すること",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%94%9F%E3%81%8D%E3%82%8B%E3%81%A8%E3%81%AF%E5%91%BC%E5%90%B8%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84-%E6%84%9B%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8/1086525059?i=1086525199",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86006-image song": {
+				"Id": "86006",
+				"Name": "言の葉, 心の羽",
+				"NameEn": "Kotonoha, Kokoro no Hane",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "12266",
+						"Name": "金元寿子",
+						"NameEn": "Kanemoto Hisako"
+					},
+					{
+						"Id": "21312",
+						"Name": "",
+						"NameEn": "Touyama Nao"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "86006",
+						"URI": "1086525202",
+						"Name": "言の葉、心の羽",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E8%A8%80%E3%81%AE%E8%91%89-%E5%BF%83%E3%81%AE%E7%BE%BD/1086525059?i=1086525202",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86007-image song": {
+				"Id": "86007",
+				"Name": "or DESIRE",
+				"NameEn": "Or Desire",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32750",
+						"Name": "種田梨沙",
+						"NameEn": "Taneda Risa"
+					},
+					{
+						"Id": "21312",
+						"Name": "",
+						"NameEn": "Touyama Nao"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "86007",
+						"URI": "500935855",
+						"Name": "Desire",
+						"ExternalUrl": "https://music.apple.com/jp/album/desire/500935787?i=500935855",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86008-image song": {
+				"Id": "86008",
+				"Name": "BODY Prayer",
+				"NameEn": "Body Prayer",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "1799",
+						"Name": "日笠陽子",
+						"NameEn": "Hikasa Youko"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "86008",
+						"URI": "1086525204",
+						"Name": "BODY Prayer",
+						"ExternalUrl": "https://music.apple.com/jp/album/body-prayer/1086525059?i=1086525204",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86009-image song": {
+				"Id": "86009",
+				"Name": "ピンクパールをひとつぶ",
+				"NameEn": "Pink Pearl o Hitotsubu",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "430",
+						"Name": "日高里菜",
+						"NameEn": "Hidaka Rina"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "86009",
+						"URI": "1086525208",
+						"Name": "ピンクパールをひとつぶ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%94%E3%83%B3%E3%82%AF%E3%83%91%E3%83%BC%E3%83%AB%E3%82%92%E3%81%B2%E3%81%A8%E3%81%A4%E3%81%B6/1086525059?i=1086525208",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86010-image song": {
+				"Id": "86010",
+				"Name": "誓いの薔薇",
+				"NameEn": "Chikai no Bara",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "45329",
+						"Name": "薔薇騎士団団歌",
+						"NameEn": "Bara Kishidandan Uta"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "86010",
+						"URI": "1086525212",
+						"Name": "誓いの薔薇",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E8%AA%93%E3%81%84%E3%81%AE%E8%96%94%E8%96%87/1086525059?i=1086525212",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86011-image song": {
+				"Id": "86011",
+				"Name": "今日が晴れならそれでヨイ!?",
+				"NameEn": "Kyou ga Hare Nara Sore de Yoi!?",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "12266",
+						"Name": "金元寿子",
+						"NameEn": "Kanemoto Hisako"
+					},
+					{
+						"Id": "200",
+						"Name": "諏訪部順一",
+						"NameEn": "Suwabe Jun`ichi"
+					},
+					{
+						"Id": "32750",
+						"Name": "種田梨沙",
+						"NameEn": "Taneda Risa"
+					},
+					{
+						"Id": "21312",
+						"Name": "",
+						"NameEn": "Touyama Nao"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "86011",
+						"URI": "1086525228",
+						"Name": "今日が晴れならそれでヨイ!?",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E4%BB%8A%E6%97%A5%E3%81%8C%E6%99%B4%E3%82%8C%E3%81%AA%E3%82%89%E3%81%9D%E3%82%8C%E3%81%A7%E3%83%A8%E3%82%A4/1086525059?i=1086525228",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11682": {
+		"Id": "11682",
+		"Name": "King of Prism by Pretty Rhythm",
+		"TitleImageName": "178252.jpg",
+		"AniDbUri": "http://anidb.net/anime/11682",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"43106-insert song": {
+				"Id": "43106",
+				"Name": "1/1000永遠の美学",
+				"NameEn": "1/1000 Eien no Bigaku",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "41218",
+						"Name": "Callings",
+						"NameEn": "Callings"
+					},
+					{
+						"Id": "367",
+						"Name": "KENN",
+						"NameEn": "Kenn"
+					},
+					{
+						"Id": "616",
+						"Name": "大石恵三",
+						"NameEn": "Kondou Takashi"
+					},
+					{
+						"Id": "390",
+						"Name": "",
+						"NameEn": "Okamoto Nobuhiko"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "43106",
+						"URI": "448298694",
+						"Name": "1/1000永遠の美学",
+						"ExternalUrl": "https://music.apple.com/jp/album/1-1000%E6%B0%B8%E9%81%A0%E3%81%AE%E7%BE%8E%E5%AD%A6/448298690?i=448298694",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"66119-insert song": {
+				"Id": "66119",
+				"Name": "pride",
+				"NameEn": "Pride",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "612",
+						"Name": "前野智昭",
+						"NameEn": "Maeno Tomoaki"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "66119",
+						"URI": "1444147019",
+						"Name": "pride",
+						"ExternalUrl": "https://music.apple.com/jp/album/pride/1444147003?i=1444147019",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "66119",
+						"URI": "spotify:track:5TM2irWM6YOTI3FrWQ8kkp",
+						"Name": "サマースカイ・モノローグ",
+						"ExternalUrl": "https://open.spotify.com/track/5TM2irWM6YOTI3FrWQ8kkp",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"66125-insert song": {
+				"Id": "66125",
+				"Name": "FREEDOM",
+				"NameEn": "Freedom",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "23805",
+						"Name": "増田俊樹",
+						"NameEn": "Masuda Toshiki"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"66134-opening": {
+				"Id": "66134",
+				"Name": "athletic core",
+				"NameEn": "Athletic Core",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "174",
+						"Name": "魁皇楽",
+						"NameEn": "Kakihara Tetsuya"
+					},
+					{
+						"Id": "612",
+						"Name": "前野智昭",
+						"NameEn": "Maeno Tomoaki"
+					},
+					{
+						"Id": "23805",
+						"Name": "増田俊樹",
+						"NameEn": "Masuda Toshiki"
+					},
+					{
+						"Id": "41180",
+						"Name": "Over The Rainbow",
+						"NameEn": "Over The Rainbow"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "66134",
+						"URI": "910434857",
+						"Name": "athletic core",
+						"ExternalUrl": "https://music.apple.com/jp/album/athletic-core/910434843?i=910434857",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"93448-insert song": {
+				"Id": "93448",
+				"Name": "pride -Louis ver.-",
+				"NameEn": "Pride (Louis Ver.)",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "29613",
+						"Name": "",
+						"NameEn": "Aoi Shouta"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "93448",
+						"URI": "1103141260",
+						"Name": "pride -Louis ver.-",
+						"ExternalUrl": "https://music.apple.com/jp/album/pride-louis-ver/1103141241?i=1103141260",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "93448",
+						"URI": "spotify:track:0T5gxB2z7jcoPUe51OvqaA",
+						"Name": "pride - Louis ver.",
+						"ExternalUrl": "https://open.spotify.com/track/0T5gxB2z7jcoPUe51OvqaA",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"93450-ending": {
+				"Id": "93450",
+				"Name": "ドラマチックLOVE",
+				"NameEn": "Dramatic Love",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "26645",
+						"Name": "畠中祐",
+						"NameEn": "Hatanaka Tasuku"
+					},
+					{
+						"Id": "44173",
+						"Name": "五十嵐雅",
+						"NameEn": "Igarashi Masashi"
+					},
+					{
+						"Id": "41905",
+						"Name": "永塚拓馬",
+						"NameEn": "Nagatsuka Takuma"
+					},
+					{
+						"Id": "36680",
+						"Name": "",
+						"NameEn": "Saitou Souma"
+					},
+					{
+						"Id": "29947",
+						"Name": "寺島惇太",
+						"NameEn": "Terashima Junta"
+					},
+					{
+						"Id": "38579",
+						"Name": "内田雄馬",
+						"NameEn": "Uchida Yuuma"
+					},
+					{
+						"Id": "38431",
+						"Name": "八代拓",
+						"NameEn": "Yashiro Taku"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "93450",
+						"URI": "1103141250",
+						"Name": "ドラマチックLOVE",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%89%E3%83%A9%E3%83%9E%E3%83%81%E3%83%83%E3%82%AFlove/1103141241?i=1103141250",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "93450",
+						"URI": "spotify:track:2qcwrOP23CGCCp77DKV9we",
+						"Name": "ドラマチックLOVE",
+						"ExternalUrl": "https://open.spotify.com/track/2qcwrOP23CGCCp77DKV9we",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"93451-insert song": {
+				"Id": "93451",
+				"Name": "EZ DO DANCE -K.O.P. REMIX-",
+				"NameEn": "Ez Do Dance (K.O.P. Remix)",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "23805",
+						"Name": "増田俊樹",
+						"NameEn": "Masuda Toshiki"
+					},
+					{
+						"Id": "42164",
+						"Name": "武内駿輔",
+						"NameEn": "Takeuchi Shunsuke"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "93451",
+						"URI": "1103141256",
+						"Name": "EZ DO DANCE -K.O.P. REMIX-",
+						"ExternalUrl": "https://music.apple.com/jp/album/ez-do-dance-k-o-p-remix/1103141241?i=1103141256",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "93451",
+						"URI": "spotify:track:3X1UBU1Luoq8YOeD8AxgpM",
+						"Name": "EZ DO DANCE - K.O.P. REMIX",
+						"ExternalUrl": "https://open.spotify.com/track/3X1UBU1Luoq8YOeD8AxgpM",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"93452-insert song": {
+				"Id": "93452",
+				"Name": "Over the Sunshine! -Shin with Over The Rainbow ver.-",
+				"NameEn": "Over the Sunshine! (Shin with Over the Rainbow Ver.)",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "29947",
+						"Name": "寺島惇太",
+						"NameEn": "Terashima Junta"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "93452",
+						"URI": "1103141414",
+						"Name": "Over the Sunshine! -Shin with Over The Rainbow ver.-",
+						"ExternalUrl": "https://music.apple.com/jp/album/over-the-sunshine-shin-with-over-the-rainbow-ver/1103141241?i=1103141414",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "93452",
+						"URI": "spotify:track:7JynS93jFvvFBsg8YUhyUl",
+						"Name": "Over the Sunshine! - Shin with Over The Rainbow ver.",
+						"ExternalUrl": "https://open.spotify.com/track/7JynS93jFvvFBsg8YUhyUl",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"93453-insert song": {
+				"Id": "93453",
+				"Name": "Flavor",
+				"NameEn": "Flavor",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "41180",
+						"Name": "Over The Rainbow",
+						"NameEn": "Over The Rainbow"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "93453",
+						"URI": "spotify:track:7nKQ5WAcjnG48knyLuo8gO",
+						"Name": "Red Flavor",
+						"ExternalUrl": "https://open.spotify.com/track/7nKQ5WAcjnG48knyLuo8gO",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"93454-insert song": {
+				"Id": "93454",
+				"Name": "BOY MEETS GIRL -non dialog ver.-",
+				"NameEn": "Boy Meets Girl (Non Dialog Ver.)",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "41180",
+						"Name": "Over The Rainbow",
+						"NameEn": "Over The Rainbow"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	"11690": {
+		"Id": "11690",
+		"Name": "Active Raid: Kidou Kyoushuushitsu Dai Hachi Gakari",
+		"TitleImageName": "228841.jpg",
+		"AniDbUri": "http://anidb.net/anime/11690",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83902-opening": {
+				"Id": "83902",
+				"Name": "Golden Life",
+				"NameEn": "Golden Life",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1a-OP1g",
+				"Artists": [
+					{
+						"Id": "4799",
+						"Name": "akino",
+						"NameEn": "Akino"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83902",
+						"URI": "1073051817",
+						"Name": "Golden Life",
+						"ExternalUrl": "https://music.apple.com/jp/album/golden-life/1073051816?i=1073051817",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83902",
+						"URI": "spotify:track:545lTPoi9WCJ8R922uTPZH",
+						"Name": "Golden Life",
+						"ExternalUrl": "https://open.spotify.com/track/545lTPoi9WCJ8R922uTPZH",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83904-ending": {
+				"Id": "83904",
+				"Name": "透明な夜空",
+				"NameEn": "Toumei na Yozora",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1a-ED1f",
+				"Artists": [
+					{
+						"Id": "38613",
+						"Name": "相坂優歌",
+						"NameEn": "Aisaka Yuuka"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83904",
+						"URI": "1335450805",
+						"Name": "透明な夜空",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E9%80%8F%E6%98%8E%E3%81%AA%E5%A4%9C%E7%A9%BA/1335450794?i=1335450805",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83904",
+						"URI": "spotify:track:14JONhR5blJroTitOR8E6Q",
+						"Name": "透明な夜空",
+						"ExternalUrl": "https://open.spotify.com/track/14JONhR5blJroTitOR8E6Q",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"87033-insert song": {
+				"Id": "87033",
+				"Name": "ミナクル☆ラッキー",
+				"NameEn": "Minakuru Lucky",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "39007",
+						"Name": "小澤亜李",
+						"NameEn": "Ozawa Ari"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "87033",
+						"URI": "1091197882",
+						"Name": "ミナクル☆ラッキー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%9F%E3%83%8A%E3%82%AF%E3%83%AB-%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC/1091197704?i=1091197882",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "87033",
+						"URI": "spotify:track:3fZqANgNVMZb5Zkd4VILye",
+						"Name": "ミナクル☆ラッキー",
+						"ExternalUrl": "https://open.spotify.com/track/3fZqANgNVMZb5Zkd4VILye",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11691": {
+		"Id": "11691",
+		"Name": "Mahou Shoujo Nante Mou Ii Desu kara.",
+		"TitleImageName": "179317.jpg",
+		"AniDbUri": "http://anidb.net/anime/11691",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83937-opening": {
+				"Id": "83937",
+				"Name": "夢色トリドリパレード♬",
+				"NameEn": "Yume-iro Toridori Parade",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "42165",
+						"Name": "アース・スタードリーム",
+						"NameEn": "Earth Star Dream"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83937",
+						"URI": "1082269088",
+						"Name": "夢色トリドリパレード♫",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%A4%A2%E8%89%B2%E3%83%88%E3%83%AA%E3%83%89%E3%83%AA%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89/1082269087?i=1082269088",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11712": {
+		"Id": "11712",
+		"Name": "Hai to Gensou no Grimgar",
+		"TitleImageName": "225144.jpg",
+		"AniDbUri": "http://anidb.net/anime/11712",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83903-ending": {
+				"Id": "83903",
+				"Name": "Knew day",
+				"NameEn": "Knew Day",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83903",
+						"URI": "1077270917",
+						"Name": "Knew day",
+						"ExternalUrl": "https://music.apple.com/jp/album/knew-day/1077270915?i=1077270917",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83903",
+						"URI": "spotify:track:0kJ6AB4myHgn4DvZctmbMr",
+						"Name": "Knew day",
+						"ExternalUrl": "https://open.spotify.com/track/0kJ6AB4myHgn4DvZctmbMr",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83903-opening": {
+				"Id": "83903",
+				"Name": "Knew day",
+				"NameEn": "Knew Day",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					},
+					{
+						"start": 6,
+						"end": 6
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83903",
+						"URI": "1077270917",
+						"Name": "Knew day",
+						"ExternalUrl": "https://music.apple.com/jp/album/knew-day/1077270915?i=1077270917",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83903",
+						"URI": "spotify:track:0kJ6AB4myHgn4DvZctmbMr",
+						"Name": "Knew day",
+						"ExternalUrl": "https://open.spotify.com/track/0kJ6AB4myHgn4DvZctmbMr",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83905-ending": {
+				"Id": "83905",
+				"Name": "Harvest",
+				"NameEn": "Harvest",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					},
+					{
+						"start": 9,
+						"end": 9
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83905",
+						"URI": "1077270358",
+						"Name": "Harvest",
+						"ExternalUrl": "https://music.apple.com/jp/album/harvest/1077270355?i=1077270358",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83905",
+						"URI": "spotify:track:6KOi28b98YkZNMgFkb4QO3",
+						"Name": "Harvest",
+						"ExternalUrl": "https://open.spotify.com/track/6KOi28b98YkZNMgFkb4QO3",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84112-insert song": {
+				"Id": "84112",
+				"Name": "Head Wind",
+				"NameEn": "Head Wind",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44451",
+						"Name": "AIJ",
+						"NameEn": "Aij"
+					},
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "84112",
+						"URI": "spotify:track:5vzAxTjKrpsYoqiOIeI9LH",
+						"Name": "Head Wind",
+						"ExternalUrl": "https://open.spotify.com/track/5vzAxTjKrpsYoqiOIeI9LH",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84139-insert song": {
+				"Id": "84139",
+				"Name": "Brave Storm",
+				"NameEn": "Brave Storm",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44451",
+						"Name": "AIJ",
+						"NameEn": "Aij"
+					},
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "84139",
+						"URI": "1111535913",
+						"Name": "Brave Storm",
+						"ExternalUrl": "https://music.apple.com/jp/album/brave-storm/1111535567?i=1111535913",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "84139",
+						"URI": "spotify:track:26S1UKqJWF1Bzb8BfYxtyx",
+						"Name": "Brave Storm",
+						"ExternalUrl": "https://open.spotify.com/track/26S1UKqJWF1Bzb8BfYxtyx",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84140-insert song": {
+				"Id": "84140",
+				"Name": "seeds",
+				"NameEn": "Seeds",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					},
+					{
+						"Id": "32239",
+						"Name": "NIKIIE",
+						"NameEn": "Nikiie"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "84140",
+						"URI": "1111535916",
+						"Name": "seeds",
+						"ExternalUrl": "https://music.apple.com/jp/album/seeds/1111535567?i=1111535916",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "84140",
+						"URI": "spotify:track:4E4fl935Nw18lhiHTDQDpa",
+						"Name": "seeds",
+						"ExternalUrl": "https://open.spotify.com/track/4E4fl935Nw18lhiHTDQDpa",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"85383-image song": {
+				"Id": "85383",
+				"Name": "わんだあらんど♪",
+				"NameEn": "Wonderland",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "16085",
+						"Name": "",
+						"NameEn": "Komatsu Mikako"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "85383",
+						"URI": "726965343",
+						"Name": "ワンダーランドと羊の歌",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E3%81%A8%E7%BE%8A%E3%81%AE%E6%AD%8C/726965009?i=726965343",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"85384-image song": {
+				"Id": "85384",
+				"Name": "おっきめどりいむ",
+				"NameEn": "Okkime Dream",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "16085",
+						"Name": "",
+						"NameEn": "Komatsu Mikako"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"85385-image song": {
+				"Id": "85385",
+				"Name": "ひだまりの約束",
+				"NameEn": "Hidamari no Yakusoku",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "28437",
+						"Name": "照井春佳",
+						"NameEn": "Terui Haruka"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "85385",
+						"URI": "1445016747",
+						"Name": "ひまわりの約束",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%B2%E3%81%BE%E3%82%8F%E3%82%8A%E3%81%AE%E7%B4%84%E6%9D%9F/1445016737?i=1445016747",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"85386-image song": {
+				"Id": "85386",
+				"Name": "chouchou-magie",
+				"NameEn": "Chouchou-Magie",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "28437",
+						"Name": "照井春佳",
+						"NameEn": "Terui Haruka"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"85387-image song": {
+				"Id": "85387",
+				"Name": "Trusting",
+				"NameEn": "Trusting",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "10759",
+						"Name": "安済知佳",
+						"NameEn": "Anzai Chika"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "85387",
+						"URI": "668131483",
+						"Name": "Trusting",
+						"ExternalUrl": "https://music.apple.com/jp/album/trusting/668131404?i=668131483",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "image song",
+						"SongId": "85387",
+						"URI": "spotify:track:52TZ9qjMPqW1E06tawQPcz",
+						"Name": "Trusting",
+						"ExternalUrl": "https://open.spotify.com/track/52TZ9qjMPqW1E06tawQPcz",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"85388-image song": {
+				"Id": "85388",
+				"Name": "Memories",
+				"NameEn": "Memories",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "10759",
+						"Name": "安済知佳",
+						"NameEn": "Anzai Chika"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "85388",
+						"URI": "1479600902",
+						"Name": "Memories",
+						"ExternalUrl": "https://music.apple.com/jp/album/memories/1479600900?i=1479600902",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"86012-insert song": {
+				"Id": "86012",
+				"Name": "Stand on the Ground",
+				"NameEn": "Stand on the Ground",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "86012",
+						"URI": "708517322",
+						"Name": "Slow Train (feat. Cate Le Bon)",
+						"ExternalUrl": "https://music.apple.com/jp/album/slow-train-feat-cate-le-bon/708517249?i=708517322",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "86012",
+						"URI": "spotify:track:0byndWDDQ3OoF1YWKBhPB4",
+						"Name": "Stand on the Ground",
+						"ExternalUrl": "https://open.spotify.com/track/0byndWDDQ3OoF1YWKBhPB4",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86013-insert song": {
+				"Id": "86013",
+				"Name": "Nutrient",
+				"NameEn": "Nutrient",
+				"Ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "86013",
+						"URI": "1111535964",
+						"Name": "Nutrient",
+						"ExternalUrl": "https://music.apple.com/jp/album/nutrient/1111535567?i=1111535964",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "86013",
+						"URI": "spotify:track:0Vm5FtgXGeOGIOCAW6BWCS",
+						"Name": "Nutrient",
+						"ExternalUrl": "https://open.spotify.com/track/0Vm5FtgXGeOGIOCAW6BWCS",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86014-insert song": {
+				"Id": "86014",
+				"Name": "rainy tone",
+				"NameEn": "Rainy Tone",
+				"Ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "86014",
+						"URI": "1111535939",
+						"Name": "rainy tone",
+						"ExternalUrl": "https://music.apple.com/jp/album/rainy-tone/1111535567?i=1111535939",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "86014",
+						"URI": "spotify:track:0eqgeTBGj1AldP4j3yqeuN",
+						"Name": "rainy tone",
+						"ExternalUrl": "https://open.spotify.com/track/0eqgeTBGj1AldP4j3yqeuN",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86015-insert song": {
+				"Id": "86015",
+				"Name": "Growing",
+				"NameEn": "Growing",
+				"Ranges": [
+					{
+						"start": 8,
+						"end": 8
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "86015",
+						"URI": "979790423",
+						"Name": "Growing",
+						"ExternalUrl": "https://music.apple.com/jp/album/growing/979790422?i=979790423",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "86015",
+						"URI": "spotify:track:10f0KGUMLfx65j85wW5BlI",
+						"Name": "Growing",
+						"ExternalUrl": "https://open.spotify.com/track/10f0KGUMLfx65j85wW5BlI",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86016-insert song": {
+				"Id": "86016",
+				"Name": "sun will rise",
+				"NameEn": "Sun Will Rise",
+				"Ranges": [
+					{
+						"start": 9,
+						"end": 9
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "86016",
+						"URI": "1111535973",
+						"Name": "sun will rise",
+						"ExternalUrl": "https://music.apple.com/jp/album/sun-will-rise/1111535567?i=1111535973",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "86016",
+						"URI": "spotify:track:6Q2tdkE2WWLyqtAK6RBtVh",
+						"Name": "sun will rise",
+						"ExternalUrl": "https://open.spotify.com/track/6Q2tdkE2WWLyqtAK6RBtVh",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86017-insert song": {
+				"Id": "86017",
+				"Name": "Swelling of Buds",
+				"NameEn": "Swelling of Buds",
+				"Ranges": [
+					{
+						"start": 9,
+						"end": 9
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "86017",
+						"URI": "1111535975",
+						"Name": "Swelling of Buds",
+						"ExternalUrl": "https://music.apple.com/jp/album/swelling-of-buds/1111535567?i=1111535975",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "86017",
+						"URI": "spotify:track:0dDTaJS0ovmb6Y6RIpzmSY",
+						"Name": "Swelling of Buds",
+						"ExternalUrl": "https://open.spotify.com/track/0dDTaJS0ovmb6Y6RIpzmSY",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86703-insert song": {
+				"Id": "86703",
+				"Name": "Sudden Storm",
+				"NameEn": "Sudden Storm",
+				"Ranges": [
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "86703",
+						"URI": "1111536014",
+						"Name": "Sudden Storm",
+						"ExternalUrl": "https://music.apple.com/jp/album/sudden-storm/1111535567?i=1111536014",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "86703",
+						"URI": "spotify:track:3ffyix3J22zx3h3SfRtlr2",
+						"Name": "Sudden Storm",
+						"ExternalUrl": "https://open.spotify.com/track/3ffyix3J22zx3h3SfRtlr2",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"86704-ending": {
+				"Id": "86704",
+				"Name": "Cultivate",
+				"NameEn": "Cultivate",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44449",
+						"Name": "(K)NoW_NAME",
+						"NameEn": "Know Name"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "86704",
+						"URI": "1111536026",
+						"Name": "Cultivate",
+						"ExternalUrl": "https://music.apple.com/jp/album/cultivate/1111535567?i=1111536026",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "86704",
+						"URI": "spotify:track:5Hu1N7iBqMt9ig24RWsbkg",
+						"Name": "Cultivate",
+						"ExternalUrl": "https://open.spotify.com/track/5Hu1N7iBqMt9ig24RWsbkg",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"88248-ending": {
+				"Id": "88248",
+				"Name": "Harvest (Shihoru ver.)",
+				"NameEn": "Harvest (Shihoru Ver.)",
+				"Ranges": [
+					{
+						"start": 8,
+						"end": 8
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "28437",
+						"Name": "照井春佳",
+						"NameEn": "Terui Haruka"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "88248",
+						"URI": "1111535968",
+						"Name": "Harvest(Shihoru ver.)",
+						"ExternalUrl": "https://music.apple.com/jp/album/harvest-shihoru-ver/1111535567?i=1111535968",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "88248",
+						"URI": "spotify:track:72IvHWzN9wiHQcZKIjNURE",
+						"Name": "Harvest - Shihoru ver.",
+						"ExternalUrl": "https://open.spotify.com/track/72IvHWzN9wiHQcZKIjNURE",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11713": {
+		"Id": "11713",
+		"Name": "Gekijouban Last Exile: Gin`yoku no Fam - Over the Wishes",
+		"TitleImageName": "224022.jpg",
+		"AniDbUri": "http://anidb.net/anime/11713",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"46551-theme song": {
+				"Id": "46551",
+				"Name": "Buddy",
+				"NameEn": "Buddy",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "227",
+						"Name": "坂本真綾",
+						"NameEn": "Sakamoto Maaya"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {}
+			}
+		}
+	},
+	"11721": {
+		"Id": "11721",
+		"Name": "Nurse Witch Komugi-chan R",
+		"TitleImageName": "178682.jpg",
+		"AniDbUri": "http://anidb.net/anime/11721",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83924-opening": {
+				"Id": "83924",
+				"Name": "Ready Go!!",
+				"NameEn": "Ready Go!!",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "44112",
+						"Name": "小市眞琴",
+						"NameEn": "Koichi Makoto"
+					},
+					{
+						"Id": "45039",
+						"Name": "まじかる☆あ~る",
+						"NameEn": "Magical Aru"
+					},
+					{
+						"Id": "44113",
+						"Name": "巴奎依",
+						"NameEn": "Tomoe Kei"
+					},
+					{
+						"Id": "37227",
+						"Name": "山崎エリイ",
+						"NameEn": "Yamazaki Erii"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83924",
+						"URI": "583838503",
+						"Name": "Ready Go!",
+						"ExternalUrl": "https://music.apple.com/jp/album/ready-go/583838447?i=583838503",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83927-ending": {
+				"Id": "83927",
+				"Name": "雨と涙と乙女とたい焼き",
+				"NameEn": "Ame to Namida to Otome to Taiyaki",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "34930",
+						"Name": "乙女新党",
+						"NameEn": "Otome Shintou"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83927",
+						"URI": "1084640144",
+						"Name": "雨と涙と乙女とたい焼き",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E9%9B%A8%E3%81%A8%E6%B6%99%E3%81%A8%E4%B9%99%E5%A5%B3%E3%81%A8%E3%81%9F%E3%81%84%E7%84%BC%E3%81%8D/1084640141?i=1084640144",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83927",
+						"URI": "spotify:track:4dAgzVM9zQQmOBRe54HuCA",
+						"Name": "雨と涙と乙女とたい焼き",
+						"ExternalUrl": "https://open.spotify.com/track/4dAgzVM9zQQmOBRe54HuCA",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84122-insert song": {
+				"Id": "84122",
+				"Name": "恋のナースコール ~ココロとココロを繋いでる魔法~",
+				"NameEn": "Koi no Nurse Call: Kokoro to Kokoro o Tsunaideru Mahou",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44113",
+						"Name": "巴奎依",
+						"NameEn": "Tomoe Kei"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"84123-insert song": {
+				"Id": "84123",
+				"Name": "愛情ファーマシー",
+				"NameEn": "Aijou Pharmacy",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44113",
+						"Name": "巴奎依",
+						"NameEn": "Tomoe Kei"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"84124-insert song": {
+				"Id": "84124",
+				"Name": "Break your chains",
+				"NameEn": "Break Your Chains",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44113",
+						"Name": "巴奎依",
+						"NameEn": "Tomoe Kei"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "84124",
+						"URI": "spotify:track:0LnUUhwIN6nPTzlMoorG7G",
+						"Name": "Break Your Chains",
+						"ExternalUrl": "https://open.spotify.com/track/0LnUUhwIN6nPTzlMoorG7G",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"85215-image song": {
+				"Id": "85215",
+				"Name": "Starlight Start",
+				"NameEn": "Starlight Start",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44112",
+						"Name": "小市眞琴",
+						"NameEn": "Koichi Makoto"
+					},
+					{
+						"Id": "45039",
+						"Name": "まじかる☆あ~る",
+						"NameEn": "Magical Aru"
+					},
+					{
+						"Id": "44113",
+						"Name": "巴奎依",
+						"NameEn": "Tomoe Kei"
+					},
+					{
+						"Id": "37227",
+						"Name": "山崎エリイ",
+						"NameEn": "Yamazaki Erii"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"85514-insert song": {
+				"Id": "85514",
+				"Name": "Be Free!",
+				"NameEn": "Be Free!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "37227",
+						"Name": "山崎エリイ",
+						"NameEn": "Yamazaki Erii"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"85515-insert song": {
+				"Id": "85515",
+				"Name": "イロヅクネガイ",
+				"NameEn": "Irozuku Negai",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44112",
+						"Name": "小市眞琴",
+						"NameEn": "Koichi Makoto"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"85516-image song": {
+				"Id": "85516",
+				"Name": "AGAIN!",
+				"NameEn": "Again!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "10130",
+						"Name": "内匠靖明",
+						"NameEn": "Takumi Yasuaki"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"85517-insert song": {
+				"Id": "85517",
+				"Name": "Fly by my side",
+				"NameEn": "Fly by My Side",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "182",
+						"Name": "三咲里奈",
+						"NameEn": "Itou Shizuka"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"85518-image song": {
+				"Id": "85518",
+				"Name": "ナンバーワンお姫様",
+				"NameEn": "Number One Ohime-sama",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "327",
+						"Name": "桃井はるこ",
+						"NameEn": "Momoi Haruko"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"85519-image song": {
+				"Id": "85519",
+				"Name": "ときめきドリーマー",
+				"NameEn": "Tokimeki Dreamer",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "23965",
+						"Name": "佐武宇綺",
+						"NameEn": "Satake Uki"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			}
+		}
+	},
+	"11729": {
+		"Id": "11729",
+		"Name": "Eiga PriPara: Minna no Akogare - Let`s Go PriParis",
+		"TitleImageName": "180413.jpg",
+		"AniDbUri": "http://anidb.net/anime/11729",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"88088-opening": {
+				"Id": "88088",
+				"Name": "あなたがプリパラに来るのを, あたし待ってる.",
+				"NameEn": "Anata ga PriPara ni Kuru no o, Atashi Matteru.",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38966",
+						"Name": "himi",
+						"NameEn": "Akaneya Himika"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"88089-ending": {
+				"Id": "88089",
+				"Name": "チキンLINE",
+				"NameEn": "Chikin Line",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "30243",
+						"Name": "SKE48",
+						"NameEn": "SKE48"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "88089",
+						"URI": "1093696842",
+						"Name": "チキンLINE",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%81%E3%82%AD%E3%83%B3line/1093696682?i=1093696842",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88097-insert song": {
+				"Id": "88097",
+				"Name": "オールアイドル組曲 プリシャス♪",
+				"NameEn": "All Idle Kumikyoku PriShas",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "18198",
+						"Name": "赤﨑千夏",
+						"NameEn": "Akasaki Chinatsu"
+					},
+					{
+						"Id": "47796",
+						"Name": "アロマゲドン",
+						"NameEn": "Aromageddon"
+					},
+					{
+						"Id": "47793",
+						"Name": "Dressing Pafé",
+						"NameEn": "Dressing Pafe"
+					},
+					{
+						"Id": "359",
+						"Name": "真田アサミ",
+						"NameEn": "Sanada Asami"
+					},
+					{
+						"Id": "34768",
+						"Name": "佐藤あずさ",
+						"NameEn": "Satou Azusa"
+					},
+					{
+						"Id": "47795",
+						"Name": "SoLaMi♡SMILE",
+						"NameEn": "Solami Smile"
+					},
+					{
+						"Id": "34984",
+						"Name": "上田麗奈",
+						"NameEn": "Ueda Reina"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"88098-insert song": {
+				"Id": "88098",
+				"Name": "コノウタトマレイヒ",
+				"NameEn": "Kono Uta to Mareihi",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "34768",
+						"Name": "佐藤あずさ",
+						"NameEn": "Satou Azusa"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "88098",
+						"URI": "1121912402",
+						"Name": "コノウタトマレイヒ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%B3%E3%83%8E%E3%82%A6%E3%82%BF%E3%83%88%E3%83%9E%E3%83%AC%E3%82%A4%E3%83%92/1121911806?i=1121912402",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88099-insert song": {
+				"Id": "88099",
+				"Name": "Just My Chance Call",
+				"NameEn": "Just My Chance Call",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "18198",
+						"Name": "赤﨑千夏",
+						"NameEn": "Akasaki Chinatsu"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"88100-insert song": {
+				"Id": "88100",
+				"Name": "でび\u0026えん☆Reversible-Ring",
+				"NameEn": "Debi \u0026 En: Reversible Ring",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "47796",
+						"Name": "アロマゲドン",
+						"NameEn": "Aromageddon"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "88100",
+						"URI": "1121912392",
+						"Name": "でび\u0026えん☆Reversible-Ring",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%A7%E3%81%B3-%E3%81%88%E3%82%93-reversible-ring/1121911806?i=1121912392",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88101-insert song": {
+				"Id": "88101",
+				"Name": "トライアングル・スター",
+				"NameEn": "Triangle Star",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "47795",
+						"Name": "SoLaMi♡SMILE",
+						"NameEn": "Solami Smile"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "88101",
+						"URI": "1276965818",
+						"Name": "トライアングル・スター",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB-%E3%82%B9%E3%82%BF%E3%83%BC/1276965816?i=1276965818",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88102-insert song": {
+				"Id": "88102",
+				"Name": "ドリームパレード",
+				"NameEn": "Dream Parade",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "47793",
+						"Name": "Dressing Pafé",
+						"NameEn": "Dressing Pafe"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "88102",
+						"URI": "1011644048",
+						"Name": "ドリームパレード",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89/1011644047?i=1011644048",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "88102",
+						"URI": "spotify:track:4cSsR6UCjgCVxp0OWSApCf",
+						"Name": "ドリームパレード",
+						"ExternalUrl": "https://open.spotify.com/track/4cSsR6UCjgCVxp0OWSApCf",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"88103-insert song": {
+				"Id": "88103",
+				"Name": "純・アモーレ・愛",
+				"NameEn": "Jun Amore Ai",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "180",
+						"Name": "佐藤まこと",
+						"NameEn": "Saiga Mitsuki"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "88103",
+						"URI": "1121912447",
+						"Name": "純・アモーレ・愛",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%B4%94-%E3%82%A2%E3%83%A2%E3%83%BC%E3%83%AC-%E6%84%9B/1121911806?i=1121912447",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11748": {
+		"Id": "11748",
+		"Name": "Yami Shibai 3",
+		"TitleImageName": "179075.jpg",
+		"AniDbUri": "http://anidb.net/anime/11748",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"91493-ending": {
+				"Id": "91493",
+				"Name": "なぁ? なぁ? なぁ?",
+				"NameEn": "Na? Na? Na?",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "57645",
+						"Name": "The Mirraz",
+						"NameEn": "The Mirraz"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "91493",
+						"URI": "spotify:track:3T7FoicSSeBffBnaCde6zs",
+						"Name": "なぁ?なぁ?なぁ?",
+						"ExternalUrl": "https://open.spotify.com/track/3T7FoicSSeBffBnaCde6zs",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11756": {
+		"Id": "11756",
+		"Name": "Oshiete! Galko-chan",
+		"TitleImageName": "180818.jpg",
+		"AniDbUri": "http://anidb.net/anime/11756",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83934-opening": {
+				"Id": "83934",
+				"Name": "YPMA☆GIRLS",
+				"NameEn": "YPMA Girls",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1a-OP1k",
+				"Artists": [
+					{
+						"Id": "33633",
+						"Name": "高橋未奈美",
+						"NameEn": "Takahashi Minami"
+					},
+					{
+						"Id": "43492",
+						"Name": "富田美憂",
+						"NameEn": "Tomita Miyu"
+					},
+					{
+						"Id": "42471",
+						"Name": "和氣あず未",
+						"NameEn": "Waki Azumi"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"88023-image song": {
+				"Id": "88023",
+				"Name": "GAL-Get All Lucky!-",
+				"NameEn": "GAL: Get All Lucky!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "42471",
+						"Name": "和氣あず未",
+						"NameEn": "Waki Azumi"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88024-image song": {
+				"Id": "88024",
+				"Name": "OTK-Output The Knowledge-",
+				"NameEn": "OTK: Output the Knowledge",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "43492",
+						"Name": "富田美憂",
+						"NameEn": "Tomita Miyu"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"88025-image song": {
+				"Id": "88025",
+				"Name": "OJO-Ordinary JK Opportunity-",
+				"NameEn": "OJO: Orginary JK Opportunity",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "33633",
+						"Name": "高橋未奈美",
+						"NameEn": "Takahashi Minami"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			}
+		}
+	},
+	"11761": {
+		"Id": "11761",
+		"Name": "Bubuki Buranki",
+		"TitleImageName": "180293.jpg",
+		"AniDbUri": "http://anidb.net/anime/11761",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83915-ending": {
+				"Id": "83915",
+				"Name": "Beat your Heart",
+				"NameEn": "Beat Your Heart",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "31768",
+						"Name": "鈴木このみ",
+						"NameEn": "Suzuki Konomi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"83915-opening": {
+				"Id": "83915",
+				"Name": "Beat your Heart",
+				"NameEn": "Beat Your Heart",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "31768",
+						"Name": "鈴木このみ",
+						"NameEn": "Suzuki Konomi"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"83916-ending": {
+				"Id": "83916",
+				"Name": "ANGER/ANGER",
+				"NameEn": "Anger / Anger",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "43389",
+						"Name": "MYTH\u0026ROID",
+						"NameEn": "Myth \u0026 Roid"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83916",
+						"URI": "spotify:track:1Xv7wEC2UsydXmXXb00TCc",
+						"Name": "ANGER/ANGER",
+						"ExternalUrl": "https://open.spotify.com/track/1Xv7wEC2UsydXmXXb00TCc",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11780": {
+		"Id": "11780",
+		"Name": "Luck and Logic",
+		"TitleImageName": "228447.jpg",
+		"AniDbUri": "http://anidb.net/anime/11780",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83917-ending": {
+				"Id": "83917",
+				"Name": "STORY",
+				"NameEn": "Story",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "4755",
+						"Name": "小野賢章",
+						"NameEn": "Ono Kenshou"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83917",
+						"URI": "1446739203",
+						"Name": "Story",
+						"ExternalUrl": "https://music.apple.com/jp/album/story/1446739199?i=1446739203",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83917-opening": {
+				"Id": "83917",
+				"Name": "STORY",
+				"NameEn": "Story",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "4755",
+						"Name": "小野賢章",
+						"NameEn": "Ono Kenshou"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83917",
+						"URI": "1446739203",
+						"Name": "Story",
+						"ExternalUrl": "https://music.apple.com/jp/album/story/1446739199?i=1446739203",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83919-ending": {
+				"Id": "83919",
+				"Name": "盟約の彼方",
+				"NameEn": "Meiyaku no Kanata",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "22170",
+						"Name": "",
+						"NameEn": "Nitta Emi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83919",
+						"URI": "1078918518",
+						"Name": "盟約の彼方",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%9B%9F%E7%B4%84%E3%81%AE%E5%BD%BC%E6%96%B9/1078918503?i=1078918518",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83919",
+						"URI": "spotify:track:7dbNAF2VFBrAhYEhYc50IO",
+						"Name": "盟約の彼方",
+						"ExternalUrl": "https://open.spotify.com/track/7dbNAF2VFBrAhYEhYc50IO",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"92682-image song": {
+				"Id": "92682",
+				"Name": "My dearest Hero",
+				"NameEn": "My Dearest Hero",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "20497",
+						"Name": "茅野愛衣",
+						"NameEn": "Kayano Ai"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			}
+		}
+	},
+	"11792": {
+		"Id": "11792",
+		"Name": "Kono Danshi, Mahou ga Oshigoto Desu.",
+		"TitleImageName": "179818.jpg",
+		"AniDbUri": "http://anidb.net/anime/11792",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"92835-opening": {
+				"Id": "92835",
+				"Name": "汝の言霊",
+				"NameEn": "Kimi no Kotoba",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "29613",
+						"Name": "",
+						"NameEn": "Aoi Shouta"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "92835",
+						"URI": "1113556003",
+						"Name": "汝の言霊",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%B1%9D%E3%81%AE%E8%A8%80%E9%9C%8A/1113555734?i=1113556003",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11794": {
+		"Id": "11794",
+		"Name": "Mahou Tsukai Precure!",
+		"TitleImageName": "182266.jpg",
+		"AniDbUri": "http://anidb.net/anime/11794",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"84038-opening": {
+				"Id": "84038",
+				"Name": "Dokkin♢魔法つかいプリキュア!",
+				"NameEn": "Dokkin Mahoutsukai Precure!",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "42354",
+						"Name": "北川理恵",
+						"NameEn": "Kitagawa Rie"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "84038",
+						"URI": "spotify:track:4bPxf7nl5WFin5tinBIdqX",
+						"Name": "Dokkin◇魔法つかいプリキュア!",
+						"ExternalUrl": "https://open.spotify.com/track/4bPxf7nl5WFin5tinBIdqX",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84039-ending": {
+				"Id": "84039",
+				"Name": "CURE UP↑RA♡PA☆PA!~ほほえみになる魔法~",
+				"NameEn": "Cure Up Ra Pa Pa! Hohoemi ni Naru Mahou",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "61",
+						"Name": "",
+						"NameEn": "Horie Yui"
+					},
+					{
+						"Id": "38380",
+						"Name": "",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "84039",
+						"URI": "1213306594",
+						"Name": "CURE UP↑RA♡PA☆PA!〜ほほえみになる魔法〜",
+						"ExternalUrl": "https://music.apple.com/jp/album/cure-up-ra-pa-pa-%E3%81%BB%E3%81%BB%E3%81%88%E3%81%BF%E3%81%AB%E3%81%AA%E3%82%8B%E9%AD%94%E6%B3%95/1213306257?i=1213306594",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "84039",
+						"URI": "spotify:track:4gJFjy1gfEa0GDGeyTT1TQ",
+						"Name": "CURE UP↑RA♡PA☆PA!~ほほえみになる魔法~",
+						"ExternalUrl": "https://open.spotify.com/track/4gJFjy1gfEa0GDGeyTT1TQ",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"88942-opening": {
+				"Id": "88942",
+				"Name": "Dokkin♢魔法つかいプリキュア! Part2",
+				"NameEn": "Dokkin Mahoutsukai Precure! Part 2",
+				"Ranges": [
+					{
+						"start": 22,
+						"end": 22
+					}
+				],
+				"Classification": "OP2",
+				"Artists": [
+					{
+						"Id": "42354",
+						"Name": "北川理恵",
+						"NameEn": "Kitagawa Rie"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "88942",
+						"URI": "spotify:track:3Bg6aclS60XdpolF7gNNSw",
+						"Name": "Dokkin◇魔法つかいプリキュア!Part2",
+						"ExternalUrl": "https://open.spotify.com/track/3Bg6aclS60XdpolF7gNNSw",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"88943-ending": {
+				"Id": "88943",
+				"Name": "魔法アラ・ドーモ!",
+				"NameEn": "Mahou a La Domo!",
+				"Ranges": [
+					{
+						"start": 22,
+						"end": 22
+					},
+					{
+						"start": 40,
+						"end": 40
+					}
+				],
+				"Classification": "ED2a-ED2g",
+				"Artists": [
+					{
+						"Id": "2296",
+						"Name": "",
+						"NameEn": "Hayami Saori"
+					},
+					{
+						"Id": "61",
+						"Name": "",
+						"NameEn": "Horie Yui"
+					},
+					{
+						"Id": "38380",
+						"Name": "",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "88943",
+						"URI": "1213306395",
+						"Name": "魔法アラ・ドーモ!",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E9%AD%94%E6%B3%95%E3%82%A2%E3%83%A9-%E3%83%89%E3%83%BC%E3%83%A2/1213306257?i=1213306395",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "88943",
+						"URI": "spotify:track:7ombYxgjRORjr2PcOXMMB3",
+						"Name": "魔法アラ・ドーモ!",
+						"ExternalUrl": "https://open.spotify.com/track/7ombYxgjRORjr2PcOXMMB3",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"90633-ending": {
+				"Id": "90633",
+				"Name": "正しい魔法の使い方",
+				"NameEn": "Tadashii Mahou no Tsukaikata",
+				"Ranges": [
+					{
+						"start": 38,
+						"end": 38
+					}
+				],
+				"Classification": "ED3",
+				"Artists": [
+					{
+						"Id": "32475",
+						"Name": "渡辺麻友",
+						"NameEn": "Watanabe Mayu"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "90633",
+						"URI": "1319076551",
+						"Name": "正しい魔法の使い方",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%AD%A3%E3%81%97%E3%81%84%E9%AD%94%E6%B3%95%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/1319076030?i=1319076551",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"90634-insert song": {
+				"Id": "90634",
+				"Name": "プリキュア音頭 ~スマイルWink~",
+				"NameEn": "Precure Ondo: Smile Wink",
+				"Ranges": [
+					{
+						"start": 29,
+						"end": 29
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "4114",
+						"Name": "五條真由美",
+						"NameEn": "Gojou Mayumi"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"90635-insert song": {
+				"Id": "90635",
+				"Name": "プリキュア☆彡ハロウィンカーニバル!",
+				"NameEn": "Precure Halloween Carnival! (instrumental version)",
+				"Ranges": [
+					{
+						"start": 39,
+						"end": 39
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "42354",
+						"Name": "北川理恵",
+						"NameEn": "Kitagawa Rie"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"91147-image song": {
+				"Id": "91147",
+				"Name": "ハッピーバースデーLOVE",
+				"NameEn": "Happy Birthday Love",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "4114",
+						"Name": "五條真由美",
+						"NameEn": "Gojou Mayumi"
+					},
+					{
+						"Id": "10757",
+						"Name": "宮本佳那子",
+						"NameEn": "Miyamoto Kanako"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"91149-insert song": {
+				"Id": "91149",
+				"Name": "Precure Holy Night",
+				"NameEn": "Precure Holy Night (instrumental version)",
+				"Ranges": [
+					{
+						"start": 46,
+						"end": 46
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "12652",
+						"Name": "Youca",
+						"NameEn": "Uchiyae Yuuka"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"91162-insert song": {
+				"Id": "91162",
+				"Name": "ふたつのねがい",
+				"NameEn": "Futatsu no Negai",
+				"Ranges": [
+					{
+						"start": 49,
+						"end": 49
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "397",
+						"Name": "齋藤彩夏",
+						"NameEn": "Saitou Ayaka"
+					},
+					{
+						"Id": "38380",
+						"Name": "",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "91162",
+						"URI": "1168580473",
+						"Name": "ふたつのねがい",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%B5%E3%81%9F%E3%81%A4%E3%81%AE%E3%81%AD%E3%81%8C%E3%81%84/1168580274?i=1168580473",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "91162",
+						"URI": "spotify:track:4VaYA0KQfc3ZpFrV4zstrJ",
+						"Name": "ふたつのねがい",
+						"ExternalUrl": "https://open.spotify.com/track/4VaYA0KQfc3ZpFrV4zstrJ",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"91176-image song": {
+				"Id": "91176",
+				"Name": "ドリーム☆アーチ",
+				"NameEn": "Dream Arch",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2296",
+						"Name": "",
+						"NameEn": "Hayami Saori"
+					},
+					{
+						"Id": "61",
+						"Name": "",
+						"NameEn": "Horie Yui"
+					},
+					{
+						"Id": "38380",
+						"Name": "",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"91178-image song": {
+				"Id": "91178",
+				"Name": "はなまるの方程式",
+				"NameEn": "Hanamaru no Houteishiki",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38380",
+						"Name": "",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "91178",
+						"URI": "1213306396",
+						"Name": "はなまるの方程式",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%AF%E3%81%AA%E3%81%BE%E3%82%8B%E3%81%AE%E6%96%B9%E7%A8%8B%E5%BC%8F/1213306257?i=1213306396",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "image song",
+						"SongId": "91178",
+						"URI": "spotify:track:5ZUHPXIGZmpYJInvhXCBhN",
+						"Name": "はなまるの方程式",
+						"ExternalUrl": "https://open.spotify.com/track/5ZUHPXIGZmpYJInvhXCBhN",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"91180-image song": {
+				"Id": "91180",
+				"Name": "オレンジア",
+				"NameEn": "Orengea",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "61",
+						"Name": "",
+						"NameEn": "Horie Yui"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "91180",
+						"URI": "1213306431",
+						"Name": "オレンジア",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8%E3%82%A2/1213306257?i=1213306431",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "image song",
+						"SongId": "91180",
+						"URI": "spotify:track:5b6hLuANAIPdGTK4urovok",
+						"Name": "オレンジア",
+						"ExternalUrl": "https://open.spotify.com/track/5b6hLuANAIPdGTK4urovok",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"91182-image song": {
+				"Id": "91182",
+				"Name": "そらいろ",
+				"NameEn": "Sorairo",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2296",
+						"Name": "",
+						"NameEn": "Hayami Saori"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "91182",
+						"URI": "550954305",
+						"Name": "ソライロ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%BD%E3%83%A9%E3%82%A4%E3%83%AD/550954215?i=550954305",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"91184-image song": {
+				"Id": "91184",
+				"Name": "キラメキふたつ星",
+				"NameEn": "Kirameki Futatsuboshi",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "61",
+						"Name": "",
+						"NameEn": "Horie Yui"
+					},
+					{
+						"Id": "38380",
+						"Name": "",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "image song",
+						"SongId": "91184",
+						"URI": "1213306585",
+						"Name": "キラメキふたつ星",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%AD%E3%83%A9%E3%83%A1%E3%82%AD%E3%81%B5%E3%81%9F%E3%81%A4%E6%98%9F/1213306257?i=1213306585",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "image song",
+						"SongId": "91184",
+						"URI": "spotify:track:3cK1xINkUgf5E4L4k0iSLY",
+						"Name": "キラメキふたつ星",
+						"ExternalUrl": "https://open.spotify.com/track/3cK1xINkUgf5E4L4k0iSLY",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"91755-insert song": {
+				"Id": "91755",
+				"Name": "キラリ☆100カラットの奇跡",
+				"NameEn": "Kirari 100 Carat no Kiseki",
+				"Ranges": [
+					{
+						"start": 49,
+						"end": 49
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "61",
+						"Name": "",
+						"NameEn": "Horie Yui"
+					},
+					{
+						"Id": "38380",
+						"Name": "",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "91755",
+						"URI": "1213306422",
+						"Name": "キラリ☆100カラットの奇跡",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%AD%E3%83%A9%E3%83%AA-100%E3%82%AB%E3%83%A9%E3%83%83%E3%83%88%E3%81%AE%E5%A5%87%E8%B7%A1/1213306257?i=1213306422",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "91755",
+						"URI": "spotify:track:0VZNZpesa64C4nhYxhvMW4",
+						"Name": "キラリ☆100カラットの奇跡",
+						"ExternalUrl": "https://open.spotify.com/track/0VZNZpesa64C4nhYxhvMW4",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11797": {
+		"Id": "11797",
+		"Name": "Eiga Precure All Stars: Minna de Utau - Kiseki no Mahou!",
+		"TitleImageName": "179974.jpg",
+		"AniDbUri": "http://anidb.net/anime/11797",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"102509-ending": {
+				"Id": "102509",
+				"Name": "みんながいるから☆プリキュアオールスターズ",
+				"NameEn": "Minna ga Iru kara: Precure All Stars",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "371659",
+						"Name": "",
+						"NameEn": "プリキュアオールスターズ"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "102509",
+						"URI": "spotify:track:3QgJp9Q0xyygozB43F9mPR",
+						"Name": "みんながいるから☆プリキュアオールスターズ",
+						"ExternalUrl": "https://open.spotify.com/track/3QgJp9Q0xyygozB43F9mPR",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"102510-insert song": {
+				"Id": "102510",
+				"Name": "考えてみて",
+				"NameEn": "Kangaete Mite",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "61",
+						"Name": "",
+						"NameEn": "Horie Yui"
+					},
+					{
+						"Id": "28404",
+						"Name": "新妻聖子",
+						"NameEn": "Niizuma Seiko"
+					},
+					{
+						"Id": "38380",
+						"Name": "",
+						"NameEn": "Takahashi Rie"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "102510",
+						"URI": "spotify:track:1seKIXkEawrcH6VhdzgDhN",
+						"Name": "考えてみて",
+						"ExternalUrl": "https://open.spotify.com/track/1seKIXkEawrcH6VhdzgDhN",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"102511-insert song": {
+				"Id": "102511",
+				"Name": "魔女の子守歌~歌は魔法",
+				"NameEn": "Majou no Komori Uta: Uta wa Mahou",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "28404",
+						"Name": "新妻聖子",
+						"NameEn": "Niizuma Seiko"
+					},
+					{
+						"Id": "371733",
+						"Name": "",
+						"NameEn": "プリキュアオールスターズ"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "102511",
+						"URI": "spotify:track:1Ryg9kbz13bBukNFvGax7B",
+						"Name": "魔女の子守歌~歌は魔法",
+						"ExternalUrl": "https://open.spotify.com/track/1Ryg9kbz13bBukNFvGax7B",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"11805": {
+		"Id": "11805",
+		"Name": "Prison School: Mad Wax",
+		"TitleImageName": "181475.jpg",
+		"AniDbUri": "http://anidb.net/anime/11805",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"82154-opening": {
+				"Id": "82154",
+				"Name": "愛のプリズン",
+				"NameEn": "Ai no Prison",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "224",
+						"Name": "神谷浩史",
+						"NameEn": "Kamiya Hiroshi"
+					},
+					{
+						"Id": "45026",
+						"Name": "監獄男子",
+						"NameEn": "Kangoku Danshi"
+					},
+					{
+						"Id": "179",
+						"Name": "神永レオ",
+						"NameEn": "Konishi Katsuyuki"
+					},
+					{
+						"Id": "265",
+						"Name": "浪川大輔",
+						"NameEn": "Namikawa Daisuke"
+					},
+					{
+						"Id": "1692",
+						"Name": "興津和幸",
+						"NameEn": "Okitsu Kazuyuki"
+					},
+					{
+						"Id": "191",
+						"Name": "瀧川大輔",
+						"NameEn": "Suzumura Ken`ichi"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"82155-ending": {
+				"Id": "82155",
+				"Name": "罪深き俺たちの賛歌",
+				"NameEn": "Tsumibukaki Oretachi no Sanka",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "224",
+						"Name": "神谷浩史",
+						"NameEn": "Kamiya Hiroshi"
+					},
+					{
+						"Id": "45026",
+						"Name": "監獄男子",
+						"NameEn": "Kangoku Danshi"
+					},
+					{
+						"Id": "179",
+						"Name": "神永レオ",
+						"NameEn": "Konishi Katsuyuki"
+					},
+					{
+						"Id": "265",
+						"Name": "浪川大輔",
+						"NameEn": "Namikawa Daisuke"
+					},
+					{
+						"Id": "1692",
+						"Name": "興津和幸",
+						"NameEn": "Okitsu Kazuyuki"
+					},
+					{
+						"Id": "191",
+						"Name": "瀧川大輔",
+						"NameEn": "Suzumura Ken`ichi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"11815": {
+		"Id": "11815",
+		"Name": "Koukaku no Pandora: Ghost Urn",
+		"TitleImageName": "233268.jpg",
+		"AniDbUri": "http://anidb.net/anime/11815",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83929-opening": {
+				"Id": "83929",
+				"Name": "hopeness",
+				"NameEn": "Hopeness",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "32347",
+						"Name": "伊作梨南",
+						"NameEn": "ZAQ"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83929",
+						"URI": "1484034252",
+						"Name": "hopeness",
+						"ExternalUrl": "https://music.apple.com/jp/album/hopeness/1484034251?i=1484034252",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83929",
+						"URI": "spotify:track:6Lv6b9KayORC9DT835Sg5Q",
+						"Name": "hopeness",
+						"ExternalUrl": "https://open.spotify.com/track/6Lv6b9KayORC9DT835Sg5Q",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83931-ending": {
+				"Id": "83931",
+				"Name": "LoSe±CoNtRoL",
+				"NameEn": "Lose Control",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1a-ED1k",
+				"Artists": [
+					{
+						"Id": "34880",
+						"Name": "福沙奈恵",
+						"NameEn": "Fuku Sanae"
+					},
+					{
+						"Id": "17069",
+						"Name": "沼倉愛美",
+						"NameEn": "Numakura Manami"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"85366-image song": {
+				"Id": "85366",
+				"Name": "Uniform Resource Name",
+				"NameEn": "Uniform Resource Name",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32020",
+						"Name": "村川梨衣",
+						"NameEn": "Murakawa Rie"
+					},
+					{
+						"Id": "2798",
+						"Name": "沖佳苗",
+						"NameEn": "Oki Kanae"
+					},
+					{
+						"Id": "29353",
+						"Name": "山崎はるか",
+						"NameEn": "Yamazaki Haruka"
+					}
+				],
+				"Relation": "image song",
+				"Sources": {}
+			},
+			"86209-insert song": {
+				"Id": "86209",
+				"Name": "EX-librist",
+				"NameEn": "EX-librist",
+				"Ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "9098",
+						"Name": "TECHNOBOYS PULCRAFT GREEN-FUND",
+						"NameEn": "Technoboys Pulcraft Green-Fund"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"94022-insert song": {
+				"Id": "94022",
+				"Name": "ex-ist/entia",
+				"NameEn": "Ex-ist/entia",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "9098",
+						"Name": "TECHNOBOYS PULCRAFT GREEN-FUND",
+						"NameEn": "Technoboys Pulcraft Green-Fund"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "94022",
+						"URI": "1438876438",
+						"Name": "Existentia",
+						"ExternalUrl": "https://music.apple.com/jp/album/existentia/1438876437?i=1438876438",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11827": {
+		"Id": "11827",
+		"Name": "Koyomimonogatari",
+		"TitleImageName": "236036.jpg",
+		"AniDbUri": "http://anidb.net/anime/11827",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"11627-opening": {
+				"Id": "11627",
+				"Name": "ambivalent world",
+				"NameEn": "Ambivalent World",
+				"Ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38",
+						"Name": "沢城みゆき",
+						"NameEn": "Sawashiro Miyuki"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "11627",
+						"URI": "1439391475",
+						"Name": "ambivalent world",
+						"ExternalUrl": "https://music.apple.com/jp/album/ambivalent-world/1439391472?i=1439391475",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"18557-opening": {
+				"Id": "18557",
+				"Name": "恋愛サーキュレーション",
+				"NameEn": "Ren`ai Circulation",
+				"Ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "176",
+						"Name": "",
+						"NameEn": "Hanazawa Kana"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "18557",
+						"URI": "1439391682",
+						"Name": "恋愛サーキュレーション",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%81%8B%E6%84%9B%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/1439391677?i=1439391682",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"49948-opening": {
+				"Id": "49948",
+				"Name": "marshmallow justice",
+				"NameEn": "Marshmallow Justice",
+				"Ranges": [
+					{
+						"start": 6,
+						"end": 6
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "401",
+						"Name": "",
+						"NameEn": "Kitamura Eri"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "49948",
+						"URI": "1439391148",
+						"Name": "marshmallow justice",
+						"ExternalUrl": "https://music.apple.com/jp/album/marshmallow-justice/1439391146?i=1439391148",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"50916-opening": {
+				"Id": "50916",
+				"Name": "白金ディスコ",
+				"NameEn": "Platinum Disco",
+				"Ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "516",
+						"Name": "井口裕香",
+						"NameEn": "Iguchi Yuka"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "50916",
+						"URI": "1439391481",
+						"Name": "白金ディスコ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%99%BD%E9%87%91%E3%83%87%E3%82%A3%E3%82%B9%E3%82%B3/1439391472?i=1439391481",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"57366-opening": {
+				"Id": "57366",
+				"Name": "perfect slumbers",
+				"NameEn": "Perfect Slumbers",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "61",
+						"Name": "堀江由衣",
+						"NameEn": "Horie Yui"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "57366",
+						"URI": "1439391483",
+						"Name": "perfect slumbers",
+						"ExternalUrl": "https://music.apple.com/jp/album/perfect-slumbers/1439391472?i=1439391483",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"6107-opening": {
+				"Id": "6107",
+				"Name": "staple stable",
+				"NameEn": "Staple Stable",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "305",
+						"Name": "斎藤千和",
+						"NameEn": "Saitou Chiwa"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "6107",
+						"URI": "1439391473",
+						"Name": "staple stable",
+						"ExternalUrl": "https://music.apple.com/jp/album/staple-stable/1439391472?i=1439391473",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"7569-opening": {
+				"Id": "7569",
+				"Name": "帰り道",
+				"NameEn": "Kaerimichi",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "641",
+						"Name": "加藤英美里",
+						"NameEn": "Katou Emiri"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"79553-opening": {
+				"Id": "79553",
+				"Name": "オレンジミント",
+				"NameEn": "Orange Mint",
+				"Ranges": [
+					{
+						"start": 10,
+						"end": 10
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2296",
+						"Name": "",
+						"NameEn": "Hayami Saori"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "79553",
+						"URI": "1439391737",
+						"Name": "オレンジミント",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%9F%E3%83%B3%E3%83%88/1439391736?i=1439391737",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83165-opening": {
+				"Id": "83165",
+				"Name": "decent black",
+				"NameEn": "Decent Black",
+				"Ranges": [
+					{
+						"start": 8,
+						"end": 8
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "591",
+						"Name": "上原ともみ",
+						"NameEn": "Mizuhashi Kaori"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83165",
+						"URI": "1439392151",
+						"Name": "decent black",
+						"ExternalUrl": "https://music.apple.com/jp/album/decent-black/1439391850?i=1439392151",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"83623-opening": {
+				"Id": "83623",
+				"Name": "mein schatz",
+				"NameEn": "Mein Schatz",
+				"Ranges": [
+					{
+						"start": 9,
+						"end": 9
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "4226",
+						"Name": "meg rock",
+						"NameEn": "Meg Rock"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "83623",
+						"URI": "1460086914",
+						"Name": "mein schatz",
+						"ExternalUrl": "https://music.apple.com/jp/album/mein-schatz/1460086908?i=1460086914",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "83623",
+						"URI": "spotify:track:6D7jKrf3qwVNaeSknESu59",
+						"Name": "Mein Schatz",
+						"ExternalUrl": "https://open.spotify.com/track/6D7jKrf3qwVNaeSknESu59",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"84393-ending": {
+				"Id": "84393",
+				"Name": "whiz",
+				"NameEn": "Whiz",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "42469",
+						"Name": "TrySail",
+						"NameEn": "TrySail"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "84393",
+						"URI": "1460087042",
+						"Name": "whiz",
+						"ExternalUrl": "https://music.apple.com/jp/album/whiz/1460086908?i=1460087042",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"11834": {
+		"Id": "11834",
+		"Name": "Rilu Rilu Fairilu: Yousei no Door",
+		"TitleImageName": "180777.jpg",
+		"AniDbUri": "http://anidb.net/anime/11834",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"84687-opening": {
+				"Id": "84687",
+				"Name": "Brand New Days",
+				"NameEn": "Brand New Days",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "44840",
+						"Name": "Apink",
+						"NameEn": "Apink"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "84687",
+						"URI": "1282931189",
+						"Name": "Brand New Days",
+						"ExternalUrl": "https://music.apple.com/jp/album/brand-new-days/1282931176?i=1282931189",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"84688-ending": {
+				"Id": "84688",
+				"Name": "key of life",
+				"NameEn": "Key of Life",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "44842",
+						"Name": "Shiggy Jr.",
+						"NameEn": "Shiggy Jr."
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "84688",
+						"URI": "260418549",
+						"Name": "Key of Life",
+						"ExternalUrl": "https://music.apple.com/jp/album/key-of-life/260417860?i=260418549",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"88945-ending": {
+				"Id": "88945",
+				"Name": "ケラケラあっちむいてホイ!",
+				"NameEn": "Kerakera Acchimuite Hoi!",
+				"Ranges": [
+					{
+						"start": 16,
+						"end": 16
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "45600",
+						"Name": "ケラケラ",
+						"NameEn": "Kerakera"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "88945",
+						"URI": "1444275765",
+						"Name": "ケラケラあっちむいてホイ!",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%B1%E3%83%A9%E3%82%B1%E3%83%A9%E3%81%82%E3%81%A3%E3%81%A1%E3%82%80%E3%81%84%E3%81%A6%E3%83%9B%E3%82%A4/1444275616?i=1444275765",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"89370-ending": {
+				"Id": "89370",
+				"Name": "りるりるわんだふるがーる!",
+				"NameEn": "Rilu Rilu Wanda Furu Girl",
+				"Ranges": [
+					{
+						"start": 34,
+						"end": 34
+					}
+				],
+				"Classification": "ED3",
+				"Artists": [
+					{
+						"Id": "47188",
+						"Name": "フラワーフェアリルズ",
+						"NameEn": "Flower Fairilus"
+					},
+					{
+						"Id": "38634",
+						"Name": "花守ゆみり",
+						"NameEn": "Hanamori Yumiri"
+					},
+					{
+						"Id": "430",
+						"Name": "",
+						"NameEn": "Hidaka Rina"
+					},
+					{
+						"Id": "22169",
+						"Name": "楠田亜衣奈",
+						"NameEn": "Kusuda Aina"
+					},
+					{
+						"Id": "1614",
+						"Name": "内田彩",
+						"NameEn": "Uchida Aya"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "89370",
+						"URI": "1176523780",
+						"Name": "りるりるわんだふるがーる!",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%8A%E3%82%8B%E3%82%8A%E3%82%8B%E3%82%8F%E3%82%93%E3%81%A0%E3%81%B5%E3%82%8B%E3%81%8C%E3%83%BC%E3%82%8B/1176523664?i=1176523780",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"89371-insert song": {
+				"Id": "89371",
+				"Name": "夢のとびら ~届けリルリルフェアリル~",
+				"NameEn": "Yume no Tobira: Todoke Rilu Rilu Fairilu",
+				"Ranges": [
+					{
+						"start": 30,
+						"end": 30
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38634",
+						"Name": "花守ゆみり",
+						"NameEn": "Hanamori Yumiri"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	"11839": {
+		"Id": "11839",
+		"Name": "Lupin Sansei: Italian Game",
+		"TitleImageName": "181305.jpg",
+		"AniDbUri": "http://anidb.net/anime/11839",
+		"Format": "TV Special",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"104417-insert song": {
+				"Id": "104417",
+				"Name": "メランコリー・ベイビー",
+				"NameEn": "Melancholy Baby",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "56271",
+						"Name": "佐々木詩織",
+						"NameEn": "Sasaki Shiori"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"83150-opening": {
+				"Id": "83150",
+				"Name": "THEME FROM LUPIN III 2015",
+				"NameEn": "Theme from Lupin III 2015",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "4479",
+						"Name": "大野雄二",
+						"NameEn": "Oono Yuuji"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	"11874": {
+		"Id": "11874",
+		"Name": "Kanojo to Kanojo no Neko: Everything Flows",
+		"TitleImageName": "181320.jpg",
+		"AniDbUri": "http://anidb.net/anime/11874",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"85332-opening": {
+				"Id": "85332",
+				"Name": "硝子の瞳",
+				"NameEn": "Glass no Hitomi",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "176",
+						"Name": "",
+						"NameEn": "Hanazawa Kana"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "85332",
+						"URI": "1186600145",
+						"Name": "硝子の瞳",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%A1%9D%E5%AD%90%E3%81%AE%E7%9E%B3/1186599922?i=1186600145",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"85333-ending": {
+				"Id": "85333",
+				"Name": "ソナタ",
+				"NameEn": "Sonata",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "27339",
+						"Name": "クラムボン",
+						"NameEn": "Clammbon"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"11890": {
+		"Id": "11890",
+		"Name": "Shinmai Maou no Testament Burst (2016)",
+		"TitleImageName": "226471.jpg",
+		"AniDbUri": "http://anidb.net/anime/11890",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"83213-ending": {
+				"Id": "83213",
+				"Name": "Temperature",
+				"NameEn": "Temperature",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "52020",
+						"Name": "Dual Flare",
+						"NameEn": "Dual Flare"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "83213",
+						"URI": "128034418",
+						"Name": "Temperature",
+						"ExternalUrl": "https://music.apple.com/jp/album/temperature/128034616?i=128034418",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "83213",
+						"URI": "spotify:track:5q0Jnb3iI7KQGnrsLmpDeT",
+						"Name": "Temperature",
+						"ExternalUrl": "https://open.spotify.com/track/5q0Jnb3iI7KQGnrsLmpDeT",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"83828-opening": {
+				"Id": "83828",
+				"Name": "Over The Testament Ver. 5",
+				"NameEn": "Over the Testament Ver. 5",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "52343",
+						"Name": "Metamorphose",
+						"NameEn": "Metamorphose"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {}
+			}
+		}
+	},
+	"11937": {
+		"Id": "11937",
+		"Name": "Mirai e no Tegami: Kono Michi no Tochuu kara",
+		"TitleImageName": "183014.jpg",
+		"AniDbUri": "http://anidb.net/anime/11937",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"92209-theme song": {
+				"Id": "92209",
+				"Name": "雲のかなた",
+				"NameEn": "Kumo no Kanata",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "307141",
+						"Name": "",
+						"NameEn": "日本大学東北高等学校合唱部"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "theme song",
+						"SongId": "92209",
+						"URI": "569972757",
+						"Name": "雲の彼方に",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E9%9B%B2%E3%81%AE%E5%BD%BC%E6%96%B9%E3%81%AB/569972736?i=569972757",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"12331": {
+		"Id": "12331",
+		"Name": "Soulworker: Your Destiny Awaits",
+		"TitleImageName": "190070.jpg",
+		"AniDbUri": "http://anidb.net/anime/12331",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"88959-ending": {
+				"Id": "88959",
+				"Name": "Burning Soul",
+				"NameEn": "Burning Soul",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38895",
+						"Name": "GARNiDELiA",
+						"NameEn": "Garnidelia"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "88959",
+						"URI": "1097689853",
+						"Name": "Burning Soul",
+						"ExternalUrl": "https://music.apple.com/jp/album/burning-soul/1097689658?i=1097689853",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"12338": {
+		"Id": "12338",
+		"Name": "Hifuu Katsudou Kiroku: The Sealed Esoteric History",
+		"TitleImageName": "190213.jpg",
+		"AniDbUri": "http://anidb.net/anime/12338",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"89675-opening": {
+				"Id": "89675",
+				"Name": "決別の旅",
+				"NameEn": "Ketsubetsu no Tabi",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": null,
+				"Relation": "opening",
+				"Sources": {}
+			},
+			"89676-ending": {
+				"Id": "89676",
+				"Name": "千年幻想郷 ~ History of the Moon",
+				"NameEn": "Sennen Gensoukyou: History of the Moon",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": null,
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"89677-ending": {
+				"Id": "89677",
+				"Name": "星空の花束",
+				"NameEn": "Hoshizora no Hanabata",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": null,
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"13375": {
+		"Id": "13375",
+		"Name": "Hane (2016)",
+		"TitleImageName": "205896.jpg",
+		"AniDbUri": "http://anidb.net/anime/13375",
+		"Format": "Music Video",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"87198-theme song": {
+				"Id": "87198",
+				"Name": "羽",
+				"NameEn": "Hane",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "4053",
+						"Name": "稲葉浩志",
+						"NameEn": "Inaba Koushi"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "theme song",
+						"SongId": "87198",
+						"URI": "820185228",
+						"Name": "羽1/2",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%BE%BD1-2/820185143?i=820185228",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"8357": {
+		"Id": "8357",
+		"Name": "Kizumonogatari",
+		"TitleImageName": "235832.jpg",
+		"AniDbUri": "http://anidb.net/anime/8357",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2016",
+		"Songs": {
+			"93795-ending": {
+				"Id": "93795",
+				"Name": "étoile et toi",
+				"NameEn": "Etoile et Toi",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "317617",
+						"Name": "",
+						"NameEn": "クレモンティーヌ"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "93795",
+						"URI": "1439391822",
+						"Name": "etoile et toi",
+						"ExternalUrl": "https://music.apple.com/jp/album/etoile-et-toi/1439391821?i=1439391822",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"93796-ending": {
+				"Id": "93796",
+				"Name": "étoile et toi [édition le blanc]",
+				"NameEn": "Etoile et Toi (Edition le Blanc)",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "317622",
+						"Name": "",
+						"NameEn": "Ainhoa"
+					},
+					{
+						"Id": "317623",
+						"Name": "",
+						"NameEn": "Clémentine"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "93796",
+						"URI": "1460087044",
+						"Name": "etoile et toi [edition le blanc]",
+						"ExternalUrl": "https://music.apple.com/jp/album/etoile-et-toi-edition-le-blanc/1460086908?i=1460087044",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	}
+}

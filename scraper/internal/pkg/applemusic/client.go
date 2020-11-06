@@ -4,11 +4,14 @@ import (
 	"animusic/internal/pkg/types"
 	"context"
 	"fmt"
-	
+
+	"github.com/agnivade/levenshtein"
 	"github.com/minchao/go-apple-music"
 )
-
-var appleMusicToken string = ""
+const (
+	maximumStringDistance = 5  
+)
+// var appleMusicToken string = ""
 
 type AppleMusicMusicSource struct {
 	AttemptedSearches int
@@ -75,15 +78,27 @@ func (s *AppleMusicMusicSource) SearchSong(song types.ScrapedSongData) (types.So
 		fmt.Println("attributes.Name ", attributes.Name)
 		fmt.Println("attributes.artist ", attributes.ArtistName)
 		fmt.Println("track.Id", track.Id)
-		s.SuccessfulHits++
-		return types.SongSearchResult{
-			SongId:      song.Id,
-			URI:         track.Id,
-			Name:        attributes.Name,
-			Source:      "AppleMusic",
-			Relation:    song.Relation,
-			ExternalUrl: attributes.URL,
-		}, nil
+		if i < len(searchOptions)-2 {
+			s.SuccessfulHits++
+			return types.SongSearchResult{
+				SongId:      song.Id,
+				URI:         track.Id,
+				Name:        attributes.Name,
+				Source:      "AppleMusic",
+				Relation:    song.Relation,
+				ExternalUrl: attributes.URL,
+			}, nil
+		} else if distance := levenshtein.ComputeDistance(song.Name, attributes.Name); distance < maximumStringDistance  {
+			s.SuccessfulHits++
+			return types.SongSearchResult{
+				SongId:      song.Id,
+				URI:         track.Id,
+				Name:        attributes.Name,
+				Source:      "AppleMusic",
+				Relation:    song.Relation,
+				ExternalUrl: attributes.URL,
+			}, nil
+		}
 	}
 
 	if len(song.Artists) > 0 {

@@ -22,14 +22,16 @@ type SeasonEntry struct {
 	Count  string
 	Season string
 	Year   string
+	Time   time.Time
 }
 
-func NewSeasonEntryFromSeasonWithCount(season Season, count int) SeasonEntry {
+func NewSeasonEntryFromSeasonWithCount(season Season, count int, time time.Time) SeasonEntry {
 
 	seasonEntry := SeasonEntry{
 		Count:  strconv.Itoa(count),
 		Season: season.Name,
 		Year:   season.Year,
+		Time:   time,
 	}
 	
 	return seasonEntry

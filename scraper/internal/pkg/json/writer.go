@@ -17,10 +17,13 @@ func (w *Writer) Output(animeSeries []types.AnimeSeries, season types.Season) {
 	for _, anime := range animeSeries {
 		buf[anime.Id] = anime
 	}
-
+	
 	fmt.Fprintln(os.Stdout, "Writing output to: ", w.writePath)
 	json, _ := json.MarshalIndent(buf, "", "\t")
-	ioutil.WriteFile(w.writePath, json, 0700)
+	err := ioutil.WriteFile(w.writePath, json, 0700)
+	if err != nil {
+		fmt.Println("found err while tryingToWriteFile", err)
+	}
 }
 
 func CreateNewJsonWriter(writePath string) *Writer {

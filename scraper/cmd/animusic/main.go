@@ -35,6 +35,7 @@ var appleMusicToken  string
 var seasonString string
 var season *types.Season
 var useCache bool
+var readFromFirebase bool
 var firebaseCredPath string
 var jsonWritePath string
 var firebaseStorageBucket string
@@ -46,6 +47,7 @@ func init() {
 	flag.StringVar(&appleMusicToken, "amt", "", "JWT token for Apple Music client")
 	flag.StringVar(&seasonString, "s", "", "Season string e.g. Winter 2020. Infers season from current date if not specified")
 	flag.BoolVar(&useCache, "cache", true, "Attempt to load anime data from local cache")
+	flag.BoolVar(&readFromFirebase, "readFromFirebase", false, "Attempt to load anime data from firebase")
 	flag.StringVar(&firebaseCredPath, "firebaseCredPath", "", "Location of the services.json for Firebase (Enables the scraper to update Firestore database with the parsed data)")
 	flag.StringVar(&jsonWritePath, "writePath", "", "Output path for the json file")
 	flag.StringVar(&firebaseStorageBucket, "sb", "", "Storage bucket for Firebase storage (If provided together with firebase credentials and site name, the scraper will sync scraped images to fire base)")
@@ -75,9 +77,16 @@ func main() {
 
 	cache.InitCache(season, useCache)
 
-	//Initialize all anime data sources
-	a := anidb.NewAniDbScraper(*season)
-	animeSources = append(animeSources, a)
+	if readFromFirebase {
+		f := firestore.NewFirestoreScraper(*season, firebaseCredPath)
+		animeSources = append(animeSources, f)
+	}  else {
+		//Initialize all anime data sources
+		a := anidb.NewAniDbScraper(*season)
+		animeSources = append(animeSources, a)
+	}
+
+	
 
 	result := scrape()
 

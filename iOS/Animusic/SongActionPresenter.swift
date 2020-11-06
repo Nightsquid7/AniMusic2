@@ -37,10 +37,9 @@ extension SongActionPresenter {
         case .appleMusic:
             if let appleMusicSource =  song.sources.first(where: { $0.type == "AppleMusic"}) {
                 actionTitle = "Open in"
-                let queue = MPMusicPlayerStoreQueueDescriptor(storeIDs: [appleMusicSource.songId])
-                player.setQueue(with: ["1485858696"])
+
+                player.setQueue(with: [appleMusicSource.URI])
                 player.prepareToPlay()
-                player.stop()
                 ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
                     player.play()
                 }))

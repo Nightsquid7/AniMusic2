@@ -23,7 +23,7 @@ import RealmSwift
         FirebaseApp.configure()
         let store = FirebaseStore.sharedInstance
         store.updateLocalRealm()
-
+//        store.removeDefaultRealm()
         return true
     }
 

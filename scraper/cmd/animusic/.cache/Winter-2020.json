@@ -1,0 +1,5114 @@
+{
+	"13037": {
+		"Id": "13037",
+		"Name": "Hatena Illusion",
+		"TitleImageName": "242033.jpg",
+		"AniDbUri": "http://anidb.net/anime/13037",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103581-opening": {
+				"Id": "103581",
+				"Name": "Magic Words",
+				"NameEn": "Magic Words",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59513",
+						"Name": "Liyuu",
+						"NameEn": "Liyuu"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103581",
+						"URI": "1494453389",
+						"Name": "Magic Words",
+						"ExternalUrl": "https://music.apple.com/jp/album/magic-words/1494453388?i=1494453389",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103581",
+						"URI": "spotify:track:02hWOQqzYArJaG9gwagGEA",
+						"Name": "Magic Words",
+						"ExternalUrl": "https://open.spotify.com/track/02hWOQqzYArJaG9gwagGEA",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103582-ending": {
+				"Id": "103582",
+				"Name": "ヒカリイロの歌",
+				"NameEn": "Hikari-iro no Uta",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "41296",
+						"Name": "鈴木愛奈",
+						"NameEn": "Suzuki Aina"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103582",
+						"URI": "1494453783",
+						"Name": "ヒカリイロの歌",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%92%E3%82%AB%E3%83%AA%E3%82%A4%E3%83%AD%E3%81%AE%E6%AD%8C/1494453780?i=1494453783",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103582",
+						"URI": "spotify:track:1wGtjIVbAXPC7z4IFWQE4D",
+						"Name": "ヒカリイロの歌",
+						"ExternalUrl": "https://open.spotify.com/track/1wGtjIVbAXPC7z4IFWQE4D",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"13299": {
+		"Id": "13299",
+		"Name": "22/7",
+		"TitleImageName": "241644.jpg",
+		"AniDbUri": "http://anidb.net/anime/13299",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103179-insert song": {
+				"Id": "103179",
+				"Name": "シャンプーの匂いがした",
+				"NameEn": "Shampoo no Nioi ga Shita",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59008",
+						"Name": "22/7",
+						"NameEn": "22/7"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103179",
+						"URI": "1364381436",
+						"Name": "シャンプーの匂いがした",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%B7%E3%83%A3%E3%83%B3%E3%83%97%E3%83%BC%E3%81%AE%E5%8C%82%E3%81%84%E3%81%8C%E3%81%97%E3%81%9F/1364381433?i=1364381436",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103184-insert song": {
+				"Id": "103184",
+				"Name": "僕は存在していなかった",
+				"NameEn": "Boku wa Sonzai Shiteinakatta",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59008",
+						"Name": "22/7",
+						"NameEn": "22/7"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103184",
+						"URI": "1278794898",
+						"Name": "僕は存在していなかった",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%83%95%E3%81%AF%E5%AD%98%E5%9C%A8%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/1278794894?i=1278794898",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103401-opening": {
+				"Id": "103401",
+				"Name": "ムズイ",
+				"NameEn": "Muzui",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "59008",
+						"Name": "22/7",
+						"NameEn": "22/7"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103401",
+						"URI": "1493754069",
+						"Name": "ムズイ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%A0%E3%82%BA%E3%82%A4/1493754068?i=1493754069",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103401",
+						"URI": "spotify:track:0oKtzV2cpRSByVRMmMayRU",
+						"Name": "ムズイ",
+						"ExternalUrl": "https://open.spotify.com/track/0oKtzV2cpRSByVRMmMayRU",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103402-ending": {
+				"Id": "103402",
+				"Name": "空のエメラルド",
+				"NameEn": "Sora no Emerald",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "59008",
+						"Name": "22/7",
+						"NameEn": "22/7"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103402",
+						"URI": "1493754071",
+						"Name": "空のエメラルド",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%A9%BA%E3%81%AE%E3%82%A8%E3%83%A1%E3%83%A9%E3%83%AB%E3%83%89/1493754070?i=1493754071",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103402",
+						"URI": "spotify:track:6t3YmpApu6HDxIAkOvjiRn",
+						"Name": "空のエメラルド",
+						"ExternalUrl": "https://open.spotify.com/track/6t3YmpApu6HDxIAkOvjiRn",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103579-insert song": {
+				"Id": "103579",
+				"Name": "理解者",
+				"NameEn": "Rikaisha",
+				"Ranges": [
+					{
+						"start": 8,
+						"end": 8
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59008",
+						"Name": "22/7",
+						"NameEn": "22/7"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103579",
+						"URI": "1423521675",
+						"Name": "理解者",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%90%86%E8%A7%A3%E8%80%85/1423521189?i=1423521675",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103735-ending": {
+				"Id": "103735",
+				"Name": "One of them",
+				"NameEn": "One of Them",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "59039",
+						"Name": "西條和",
+						"NameEn": "Saijou Nagomi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"103743-ending": {
+				"Id": "103743",
+				"Name": "生きることに楽になりたい",
+				"NameEn": "Ikiru Koto ni Raku ni Naritai",
+				"Ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"Classification": "ED3",
+				"Artists": [
+					{
+						"Id": "57406",
+						"Name": "天城サリー",
+						"NameEn": "Amaki Sally"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"103758-ending": {
+				"Id": "103758",
+				"Name": "夢の船",
+				"NameEn": "Yume no Fune",
+				"Ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"Classification": "ED4",
+				"Artists": [
+					{
+						"Id": "59038",
+						"Name": "倉岡水巴",
+						"NameEn": "Kuraoka Mizuha"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"103766-ending": {
+				"Id": "103766",
+				"Name": "優等生じゃつまらない",
+				"NameEn": "Yuutousei Jatsu Maranai",
+				"Ranges": [
+					{
+						"start": 6,
+						"end": 6
+					}
+				],
+				"Classification": "ED5",
+				"Artists": [
+					{
+						"Id": "59037",
+						"Name": "帆風千春",
+						"NameEn": "Hokaze Chiharu"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"103804-ending": {
+				"Id": "103804",
+				"Name": "人生はワルツ",
+				"NameEn": "Jinsei wa Waltz",
+				"Ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"Classification": "ED6",
+				"Artists": [
+					{
+						"Id": "59036",
+						"Name": "海乃るり",
+						"NameEn": "Umino Ruri"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"103805-insert song": {
+				"Id": "103805",
+				"Name": "恋するフォーチュンクッキー",
+				"NameEn": "Koisuru Fortune Cookie",
+				"Ranges": [
+					{
+						"start": 7,
+						"end": 7
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "4528",
+						"Name": "高井良斉",
+						"NameEn": "Akimoto Yasushi"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103805",
+						"URI": "793576434",
+						"Name": "恋するフォーチュンクッキー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%81%8B%E3%81%99%E3%82%8B%E3%83%95%E3%82%A9%E3%83%BC%E3%83%81%E3%83%A5%E3%83%B3%E3%82%AF%E3%83%83%E3%82%AD%E3%83%BC/793576423?i=793576434",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103871-ending": {
+				"Id": "103871",
+				"Name": "感情無用論",
+				"NameEn": "Kanjou Muyouron",
+				"Ranges": [
+					{
+						"start": 8,
+						"end": 8
+					}
+				],
+				"Classification": "ED7",
+				"Artists": [
+					{
+						"Id": "59035",
+						"Name": "白沢かなえ",
+						"NameEn": "Shirosawa Kanae"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"103888-ending": {
+				"Id": "103888",
+				"Name": "Moonlight",
+				"NameEn": "Moonlight",
+				"Ranges": [
+					{
+						"start": 9,
+						"end": 9
+					}
+				],
+				"Classification": "ED8",
+				"Artists": [
+					{
+						"Id": "59034",
+						"Name": "宮瀬玲奈",
+						"NameEn": "Miyase Reina"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103888",
+						"URI": "1359293315",
+						"Name": "Moonlight",
+						"ExternalUrl": "https://music.apple.com/jp/album/moonlight/1359292515?i=1359293315",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103888",
+						"URI": "spotify:track:34QqRRQrVDhLiWHhUVJtbr",
+						"Name": "Moonlight",
+						"ExternalUrl": "https://open.spotify.com/track/34QqRRQrVDhLiWHhUVJtbr",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103901-ending": {
+				"Id": "103901",
+				"Name": "孤独は嫌いじゃない",
+				"NameEn": "Kodoku wa Kirai Janai",
+				"Ranges": [
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"Classification": "ED9",
+				"Artists": [
+					{
+						"Id": "59709",
+						"Name": "河瀬詩",
+						"NameEn": "Kawase Uta"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"13612": {
+		"Id": "13612",
+		"Name": "Gekijouban Made in Abyss: Fukaki Tamashii no Reimei",
+		"TitleImageName": "235843.jpg",
+		"AniDbUri": "http://anidb.net/anime/13612",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103705-ending": {
+				"Id": "103705",
+				"Name": "Forever Lost",
+				"NameEn": "Forever Lost",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "43389",
+						"Name": "MYTH\u0026ROID",
+						"NameEn": "Myth \u0026 Roid"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103705",
+						"URI": "spotify:track:0KB8lRa7AfmWX72pv5UnkO",
+						"Name": "FOREVER LOST",
+						"ExternalUrl": "https://open.spotify.com/track/0KB8lRa7AfmWX72pv5UnkO",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103731-insert song": {
+				"Id": "103731",
+				"Name": "Tozo Hanoline",
+				"NameEn": "Tozo Hanoline",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "383068",
+						"Name": "",
+						"NameEn": "Úyanga Bold"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "103731",
+						"URI": "spotify:track:2OiBlwklUfT71nzrWnJKEG",
+						"Name": "Tozo Hanoline",
+						"ExternalUrl": "https://open.spotify.com/track/2OiBlwklUfT71nzrWnJKEG",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"13826": {
+		"Id": "13826",
+		"Name": "Plunderer",
+		"TitleImageName": "241329.jpg",
+		"AniDbUri": "http://anidb.net/anime/13826",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103194-ending": {
+				"Id": "103194",
+				"Name": "Plunderer",
+				"NameEn": "Plunderer",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "37283",
+						"Name": "伊藤美来",
+						"NameEn": "Itou Miku"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103194",
+						"URI": "1497262873",
+						"Name": "Plunderer",
+						"ExternalUrl": "https://music.apple.com/jp/album/plunderer/1497262872?i=1497262873",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103194",
+						"URI": "spotify:track:6USbDvEPJWYen3neAnaDOn",
+						"Name": "Plunderer",
+						"ExternalUrl": "https://open.spotify.com/track/6USbDvEPJWYen3neAnaDOn",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103194-opening": {
+				"Id": "103194",
+				"Name": "Plunderer",
+				"NameEn": "Plunderer",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "37283",
+						"Name": "伊藤美来",
+						"NameEn": "Itou Miku"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103194",
+						"URI": "1497262873",
+						"Name": "Plunderer",
+						"ExternalUrl": "https://music.apple.com/jp/album/plunderer/1497262872?i=1497262873",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103194",
+						"URI": "spotify:track:6USbDvEPJWYen3neAnaDOn",
+						"Name": "Plunderer",
+						"ExternalUrl": "https://open.spotify.com/track/6USbDvEPJWYen3neAnaDOn",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103195-ending": {
+				"Id": "103195",
+				"Name": "Countless days",
+				"NameEn": "Countless Days",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38921",
+						"Name": "本泉莉奈",
+						"NameEn": "Hon`izumi Rina"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103195",
+						"URI": "1497262265",
+						"Name": "Countless days",
+						"ExternalUrl": "https://music.apple.com/jp/album/countless-days/1497262264?i=1497262265",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103896-opening": {
+				"Id": "103896",
+				"Name": "孤高の光 Lonely dark",
+				"NameEn": "Kokou no Hikari: Lonely Dark",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "37283",
+						"Name": "伊藤美来",
+						"NameEn": "Itou Miku"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103896",
+						"URI": "1517761602",
+						"Name": "孤高の光 Lonely dark",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%AD%A4%E9%AB%98%E3%81%AE%E5%85%89-lonely-dark/1517761601?i=1517761602",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103896",
+						"URI": "spotify:track:4qBIAvSRNNjyxRCR61dKAD",
+						"Name": "孤高の光 Lonely dark",
+						"ExternalUrl": "https://open.spotify.com/track/4qBIAvSRNNjyxRCR61dKAD",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103897-ending": {
+				"Id": "103897",
+				"Name": "Reason of Life",
+				"NameEn": "Reason of Life",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38921",
+						"Name": "本泉莉奈",
+						"NameEn": "Hon`izumi Rina"
+					},
+					{
+						"Id": "182",
+						"Name": "三咲里奈",
+						"NameEn": "Itou Shizuka"
+					},
+					{
+						"Id": "39007",
+						"Name": "小澤亜李",
+						"NameEn": "Ozawa Ari"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103897",
+						"URI": "1517763155",
+						"Name": "Reason of Life",
+						"ExternalUrl": "https://music.apple.com/jp/album/reason-of-life/1517763151?i=1517763155",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"13947": {
+		"Id": "13947",
+		"Name": "Pet",
+		"TitleImageName": "236920.jpg",
+		"AniDbUri": "http://anidb.net/anime/13947",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103502-opening": {
+				"Id": "103502",
+				"Name": "蝶の飛ぶ水槽",
+				"NameEn": "Chou no Tobu Suisou",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "40066",
+						"Name": "北嶋徹",
+						"NameEn": "TK"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103502",
+						"URI": "1491265651",
+						"Name": "蝶の飛ぶ水槽",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E8%9D%B6%E3%81%AE%E9%A3%9B%E3%81%B6%E6%B0%B4%E6%A7%BD/1491265650?i=1491265651",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103502",
+						"URI": "spotify:track:4APQjzIHUbWOmbk8LLzqCI",
+						"Name": "蝶の飛ぶ水槽",
+						"ExternalUrl": "https://open.spotify.com/track/4APQjzIHUbWOmbk8LLzqCI",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103503-ending": {
+				"Id": "103503",
+				"Name": "image _____",
+				"NameEn": "Image _____",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "58134",
+						"Name": "眩暈SIREN",
+						"NameEn": "Memai Siren"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103503",
+						"URI": "spotify:track:0wjjidpGs77xOxhmttGzI8",
+						"Name": "image _____",
+						"ExternalUrl": "https://open.spotify.com/track/0wjjidpGs77xOxhmttGzI8",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"13964": {
+		"Id": "13964",
+		"Name": "Majutsushi Orphen Hagure Tabi",
+		"TitleImageName": "242101.jpg",
+		"AniDbUri": "http://anidb.net/anime/13964",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103576-opening": {
+				"Id": "103576",
+				"Name": "Calling U",
+				"NameEn": "Calling U",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59509",
+						"Name": "buzz★Vibes",
+						"NameEn": "Buzz Vibes"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103576",
+						"URI": "1496291871",
+						"Name": "Calling U",
+						"ExternalUrl": "https://music.apple.com/jp/album/calling-u/1496291869?i=1496291871",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103576",
+						"URI": "spotify:track:3WhevwE1bjZJYjY5PaB3H4",
+						"Name": "Calling U",
+						"ExternalUrl": "https://open.spotify.com/track/3WhevwE1bjZJYjY5PaB3H4",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103577-ending": {
+				"Id": "103577",
+				"Name": "予測不能Days",
+				"NameEn": "Yosokufunou Days",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "10333",
+						"Name": "渕上舞",
+						"NameEn": "Fuchigami Mai"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103577",
+						"URI": "1496309433",
+						"Name": "予測不能Days",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E4%BA%88%E6%B8%AC%E4%B8%8D%E8%83%BDdays/1496309431?i=1496309433",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103577",
+						"URI": "spotify:track:7b0PLo2P8Y6hbi2eFhnYvC",
+						"Name": "予測不能Days",
+						"ExternalUrl": "https://open.spotify.com/track/7b0PLo2P8Y6hbi2eFhnYvC",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14061": {
+		"Id": "14061",
+		"Name": "Gekijouban Shirobako",
+		"TitleImageName": "243789.jpg",
+		"AniDbUri": "http://anidb.net/anime/14061",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103676-theme song": {
+				"Id": "103676",
+				"Name": "星をあつめて",
+				"NameEn": "Hoshi o Mitsumete",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "34372",
+						"Name": "fhána",
+						"NameEn": "Fhana"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "theme song",
+						"SongId": "103676",
+						"URI": "1498575540",
+						"Name": "星をあつめて",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%98%9F%E3%82%92%E3%81%82%E3%81%A4%E3%82%81%E3%81%A6/1498575539?i=1498575540",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"14071": {
+		"Id": "14071",
+		"Name": "Bokura no Nanokakan Sensou",
+		"TitleImageName": "240494.jpg",
+		"AniDbUri": "http://anidb.net/anime/14071",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103190-theme song": {
+				"Id": "103190",
+				"Name": "決戦前夜",
+				"NameEn": "Kessen Zen`ya",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59072",
+						"Name": "Sano ibuki",
+						"NameEn": "Sano Ibuki"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "theme song",
+						"SongId": "103190",
+						"URI": "1477439621",
+						"Name": "決戦前夜",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%B1%BA%E6%88%A6%E5%89%8D%E5%A4%9C/1477439455?i=1477439621",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "theme song",
+						"SongId": "103190",
+						"URI": "spotify:track:051LHGQ2oUyMmA71niRas2",
+						"Name": "決戦前夜",
+						"ExternalUrl": "https://open.spotify.com/track/051LHGQ2oUyMmA71niRas2",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103191-theme song": {
+				"Id": "103191",
+				"Name": "おまじない",
+				"NameEn": "Omajinai",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59072",
+						"Name": "Sano ibuki",
+						"NameEn": "Sano Ibuki"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "theme song",
+						"SongId": "103191",
+						"URI": "1529992631",
+						"Name": "おまじない",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%8A%E3%81%BE%E3%81%98%E3%81%AA%E3%81%84/1529992630?i=1529992631",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "theme song",
+						"SongId": "103191",
+						"URI": "spotify:track:4NTD1olGHGirhmGq8C4GC8",
+						"Name": "おまじない",
+						"ExternalUrl": "https://open.spotify.com/track/4NTD1olGHGirhmGq8C4GC8",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103192-theme song": {
+				"Id": "103192",
+				"Name": "スピリット",
+				"NameEn": "Spirit",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59072",
+						"Name": "Sano ibuki",
+						"NameEn": "Sano Ibuki"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "theme song",
+						"SongId": "103192",
+						"URI": "1498021787",
+						"Name": "決戦スピリット",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%B1%BA%E6%88%A6%E3%82%B9%E3%83%94%E3%83%AA%E3%83%83%E3%83%88/1498021786?i=1498021787",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "theme song",
+						"SongId": "103192",
+						"URI": "spotify:track:1HHOkD7fuNCBnImFrlDRVi",
+						"Name": "決戦スピリット",
+						"ExternalUrl": "https://open.spotify.com/track/1HHOkD7fuNCBnImFrlDRVi",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14087": {
+		"Id": "14087",
+		"Name": "Oshi ga Budoukan Itte Kuretara Shinu",
+		"TitleImageName": "241580.jpg",
+		"AniDbUri": "http://anidb.net/anime/14087",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103394-opening": {
+				"Id": "103394",
+				"Name": "Clover wish",
+				"NameEn": "Clover Wish",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59367",
+						"Name": "ChamJam",
+						"NameEn": "ChamJam"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103394",
+						"URI": "1491878150",
+						"Name": "Clover wish",
+						"ExternalUrl": "https://music.apple.com/jp/album/clover-wish/1491878144?i=1491878150",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103394",
+						"URI": "spotify:track:3fsdVbeb3UFshqY9F8Pxn9",
+						"Name": "Clover Wish",
+						"ExternalUrl": "https://open.spotify.com/track/3fsdVbeb3UFshqY9F8Pxn9",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103395-ending": {
+				"Id": "103395",
+				"Name": "♡桃色片想い♡",
+				"NameEn": "Momoiro Kataomoi",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "57243",
+						"Name": "ファイルーズあい",
+						"NameEn": "Fairouz Ai"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103395",
+						"URI": "1484425235",
+						"Name": "♡桃色片想い♡",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%A1%83%E8%89%B2%E7%89%87%E6%83%B3%E3%81%84/1484425225?i=1484425235",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103647-insert song": {
+				"Id": "103647",
+				"Name": "ずっと ChamJam",
+				"NameEn": "Zutto ChamJam",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					},
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "11",
+				"Artists": [
+					{
+						"Id": "59367",
+						"Name": "ChamJam",
+						"NameEn": "ChamJam"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103647",
+						"URI": "1496710483",
+						"Name": "ずっと ChamJam",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%9A%E3%81%A3%E3%81%A8-chamjam/1496710482?i=1496710483",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "103647",
+						"URI": "spotify:track:0j0LSk1a7IyzMYG70HDqDi",
+						"Name": "Zutto Cham Jam",
+						"ExternalUrl": "https://open.spotify.com/track/0j0LSk1a7IyzMYG70HDqDi",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103908-insert song": {
+				"Id": "103908",
+				"Name": "ほっと♡サマーホリデー",
+				"NameEn": "Hotto Summer Holiday",
+				"Ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"Classification": "10",
+				"Artists": [
+					{
+						"Id": "59367",
+						"Name": "ChamJam",
+						"NameEn": "ChamJam"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103908",
+						"URI": "1496710486",
+						"Name": "ほっと♡サマーホリデー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%BB%E3%81%A3%E3%81%A8-%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%9B%E3%83%AA%E3%83%87%E3%83%BC/1496710482?i=1496710486",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "103908",
+						"URI": "spotify:track:3XIDqlKBHKjLUEO5sPvTzE",
+						"Name": "Hotto Summer Holiday",
+						"ExternalUrl": "https://open.spotify.com/track/3XIDqlKBHKjLUEO5sPvTzE",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103909-insert song": {
+				"Id": "103909",
+				"Name": "ぎゅっとHUGみ~",
+				"NameEn": "Gyutto Hug Me",
+				"Ranges": [
+					{
+						"start": 6,
+						"end": 6
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "387409",
+						"Name": "",
+						"NameEn": "☆MELTY☆"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"103910-insert song": {
+				"Id": "103910",
+				"Name": "私たちが武道館にいったら",
+				"NameEn": "Watashitachi ga Budoukan ni Ittara",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59367",
+						"Name": "ChamJam",
+						"NameEn": "ChamJam"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103910",
+						"URI": "1503466065",
+						"Name": "私たちが武道館にいったら",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%A7%81%E3%81%9F%E3%81%A1%E3%81%8C%E6%AD%A6%E9%81%93%E9%A4%A8%E3%81%AB%E3%81%84%E3%81%A3%E3%81%9F%E3%82%89/1503465804?i=1503466065",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103911-insert song": {
+				"Id": "103911",
+				"Name": "wonder☆motion",
+				"NameEn": "Wonder Motion",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "60076",
+						"Name": "めいぷる♡どーる",
+						"NameEn": "Maple Doll"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103911",
+						"URI": "1503461837",
+						"Name": "wonder☆motion",
+						"ExternalUrl": "https://music.apple.com/jp/album/wonder-motion/1503461833?i=1503461837",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "103911",
+						"URI": "spotify:track:2SEwxyHbt2TLltf3RyBzHv",
+						"Name": "Wonder☆Motion",
+						"ExternalUrl": "https://open.spotify.com/track/2SEwxyHbt2TLltf3RyBzHv",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14292": {
+		"Id": "14292",
+		"Name": "ARP Backstage Pass",
+		"TitleImageName": "240874.jpg",
+		"AniDbUri": "http://anidb.net/anime/14292",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103658-opening": {
+				"Id": "103658",
+				"Name": "Burn it up",
+				"NameEn": "Burn It Up",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59730",
+						"Name": "ARP",
+						"NameEn": "ARP"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103658",
+						"URI": "1274479750",
+						"Name": "Burn It Up",
+						"ExternalUrl": "https://music.apple.com/jp/album/burn-it-up/1274479724?i=1274479750",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103658",
+						"URI": "spotify:track:5MArrkmNEt9CDc1Y34e9mi",
+						"Name": "Burn it up",
+						"ExternalUrl": "https://open.spotify.com/track/5MArrkmNEt9CDc1Y34e9mi",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103659-ending": {
+				"Id": "103659",
+				"Name": "CelebrateGoodTime",
+				"NameEn": "Celebrate Good Time",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59730",
+						"Name": "ARP",
+						"NameEn": "ARP"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103659",
+						"URI": "1492030988",
+						"Name": "Celebrate Good Time",
+						"ExternalUrl": "https://music.apple.com/jp/album/celebrate-good-time/1492030772?i=1492030988",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103659",
+						"URI": "spotify:track:66s6N8HrG5NkP9rfWb1YJX",
+						"Name": "Celebrate Good Time",
+						"ExternalUrl": "https://open.spotify.com/track/66s6N8HrG5NkP9rfWb1YJX",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103660-insert song": {
+				"Id": "103660",
+				"Name": "The Show Must Go On",
+				"NameEn": "The Show Must Go On",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59730",
+						"Name": "ARP",
+						"NameEn": "ARP"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103660",
+						"URI": "1435375504",
+						"Name": "The Show Must Go On",
+						"ExternalUrl": "https://music.apple.com/jp/album/the-show-must-go-on/1435374593?i=1435375504",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103661-insert song": {
+				"Id": "103661",
+				"Name": "The World Is Mine",
+				"NameEn": "The World Is Mine",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59731",
+						"Name": "SHINJI",
+						"NameEn": "Shinji"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103661",
+						"URI": "1474991862",
+						"Name": "The World Is Mine",
+						"ExternalUrl": "https://music.apple.com/jp/album/the-world-is-mine/1474991843?i=1474991862",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "103661",
+						"URI": "spotify:track:20IC593kOne8lCMtC3oAAw",
+						"Name": "The World Is Mine",
+						"ExternalUrl": "https://open.spotify.com/track/20IC593kOne8lCMtC3oAAw",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103662-insert song": {
+				"Id": "103662",
+				"Name": "THE KISS",
+				"NameEn": "The Kiss",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "382189",
+						"Name": "",
+						"NameEn": "REBEL CROSS"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103662",
+						"URI": "267753675",
+						"Name": "ママがサンタにキッスした",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%9E%E3%83%9E%E3%81%8C%E3%82%B5%E3%83%B3%E3%82%BF%E3%81%AB%E3%82%AD%E3%83%83%E3%82%B9%E3%81%97%E3%81%9F/267753146?i=267753675",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103663-insert song": {
+				"Id": "103663",
+				"Name": "Logical Dreamer",
+				"NameEn": "Logical Dreamer",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59734",
+						"Name": "LEÓN",
+						"NameEn": "Leon"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103663",
+						"URI": "1216100066",
+						"Name": "Logical Dreamer",
+						"ExternalUrl": "https://music.apple.com/jp/album/logical-dreamer/1216100012?i=1216100066",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "103663",
+						"URI": "spotify:track:7wUgzsGChjLjBUJYqhUEYE",
+						"Name": "Logical Dreamer",
+						"ExternalUrl": "https://open.spotify.com/track/7wUgzsGChjLjBUJYqhUEYE",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103664-insert song": {
+				"Id": "103664",
+				"Name": "Black Sapphire",
+				"NameEn": "Black Sapphire",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "382191",
+						"Name": "",
+						"NameEn": "CROSS BONE"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "103664",
+						"URI": "spotify:track:0W79j8gnoHIGjhSj3h5N6K",
+						"Name": "BlacK Sapphire",
+						"ExternalUrl": "https://open.spotify.com/track/0W79j8gnoHIGjhSj3h5N6K",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14360": {
+		"Id": "14360",
+		"Name": "Magia Record: Mahou Shoujo Madoka Magica Gaiden",
+		"TitleImageName": "238105.jpg",
+		"AniDbUri": "http://anidb.net/anime/14360",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103193-ending": {
+				"Id": "103193",
+				"Name": "ごまかし",
+				"NameEn": "Gomakashi",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "42469",
+						"Name": "TrySail",
+						"NameEn": "TrySail"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103193",
+						"URI": "1500513002",
+						"Name": "ごまかし",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%94%E3%81%BE%E3%81%8B%E3%81%97/1500513001?i=1500513002",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103193",
+						"URI": "spotify:track:5NGm26oocMTusxp4nqNKx2",
+						"Name": "ごまかし",
+						"ExternalUrl": "https://open.spotify.com/track/5NGm26oocMTusxp4nqNKx2",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103193-opening": {
+				"Id": "103193",
+				"Name": "ごまかし",
+				"NameEn": "Gomakashi",
+				"Ranges": [],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "42469",
+						"Name": "TrySail",
+						"NameEn": "TrySail"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103193",
+						"URI": "1500513002",
+						"Name": "ごまかし",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%94%E3%81%BE%E3%81%8B%E3%81%97/1500513001?i=1500513002",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103193",
+						"URI": "spotify:track:5NGm26oocMTusxp4nqNKx2",
+						"Name": "ごまかし",
+						"ExternalUrl": "https://open.spotify.com/track/5NGm26oocMTusxp4nqNKx2",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103400-ending": {
+				"Id": "103400",
+				"Name": "アリシア",
+				"NameEn": "Alicia",
+				"Ranges": [],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "22052",
+						"Name": "ClariS",
+						"NameEn": "ClariS"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103400",
+						"URI": "1499591175",
+						"Name": "アリシア",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%A2%E3%83%AA%E3%82%B7%E3%82%A2/1499591174?i=1499591175",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103400",
+						"URI": "spotify:track:1ZxpS7wg5iT0VgOI83n8cZ",
+						"Name": "アリシア",
+						"ExternalUrl": "https://open.spotify.com/track/1ZxpS7wg5iT0VgOI83n8cZ",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103637-insert song": {
+				"Id": "103637",
+				"Name": "ウワサ数え唄",
+				"NameEn": "Uwasa Kazoe Uta",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "641",
+						"Name": "加藤英美里",
+						"NameEn": "Katou Emiri"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"103738-insert song": {
+				"Id": "103738",
+				"Name": "国宝ハイエンド",
+				"NameEn": "Kokuhou High End",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "41848",
+						"Name": "Machico",
+						"NameEn": "Machico"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	"14393": {
+		"Id": "14393",
+		"Name": "Boku no Tonari ni Ankoku Hakaishin ga Imasu.",
+		"TitleImageName": "239680.jpg",
+		"AniDbUri": "http://anidb.net/anime/14393",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103305-ending": {
+				"Id": "103305",
+				"Name": "FREEDOMでムダに無敵!!",
+				"NameEn": "Freedom de Muda ni Muteki!!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "39751",
+						"Name": "A応P",
+						"NameEn": "AOP"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103305",
+						"URI": "1492901798",
+						"Name": "FREEDOMでムダに無敵!!",
+						"ExternalUrl": "https://music.apple.com/jp/album/freedom%E3%81%A7%E3%83%A0%E3%83%80%E3%81%AB%E7%84%A1%E6%95%B5/1492901796?i=1492901798",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103305",
+						"URI": "spotify:track:445H2fSTKxU9aA0IssymA5",
+						"Name": "FREEDOM DE MUDA NI MUTEKI",
+						"ExternalUrl": "https://open.spotify.com/track/445H2fSTKxU9aA0IssymA5",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103648-opening": {
+				"Id": "103648",
+				"Name": "Take mo` Chance",
+				"NameEn": "Take Mo` Chance",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59713",
+						"Name": "all at once",
+						"NameEn": "All at Once"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103648",
+						"URI": "1507747477",
+						"Name": "Take mo’ Chance",
+						"ExternalUrl": "https://music.apple.com/jp/album/take-mo-chance/1507747414?i=1507747477",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103648",
+						"URI": "spotify:track:4H3wFEqxpE5uVLhMV5A50J",
+						"Name": "Take mo’ Chance",
+						"ExternalUrl": "https://open.spotify.com/track/4H3wFEqxpE5uVLhMV5A50J",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14439": {
+		"Id": "14439",
+		"Name": "Heya Camp",
+		"TitleImageName": "241237.jpg",
+		"AniDbUri": "http://anidb.net/anime/14439",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103306-ending": {
+				"Id": "103306",
+				"Name": "The Sunshower",
+				"NameEn": "The Sunshower",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "46908",
+						"Name": "亜咲花",
+						"NameEn": "Asaka"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103306",
+						"URI": "1494258060",
+						"Name": "The Sunshower",
+						"ExternalUrl": "https://music.apple.com/jp/album/the-sunshower/1494258058?i=1494258060",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103306",
+						"URI": "spotify:track:5dUqiRVKpNOkpRi8YtdQEc",
+						"Name": "The Sunshower - TV SIZE",
+						"ExternalUrl": "https://open.spotify.com/track/5dUqiRVKpNOkpRi8YtdQEc",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14441": {
+		"Id": "14441",
+		"Name": "Toaru Kagaku no Railgun T",
+		"TitleImageName": "238853.jpg",
+		"AniDbUri": "http://anidb.net/anime/14441",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103281-ending": {
+				"Id": "103281",
+				"Name": "nameless story",
+				"NameEn": "Nameless Story",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38573",
+						"Name": "岸田教団\u0026The明星ロケッツ",
+						"NameEn": "Kishida Kyoudan \u0026 The Akeboshi Rockets"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103281",
+						"URI": "1477276852",
+						"Name": "Nameless Story",
+						"ExternalUrl": "https://music.apple.com/jp/album/nameless-story/1477276851?i=1477276852",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103281",
+						"URI": "spotify:track:1XfLeMPPmMoCrXPvj3Pe2Z",
+						"Name": "Nameless Story",
+						"ExternalUrl": "https://open.spotify.com/track/1XfLeMPPmMoCrXPvj3Pe2Z",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103593-ending": {
+				"Id": "103593",
+				"Name": "final phase",
+				"NameEn": "Final Phase",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "11163",
+						"Name": "fripSide NAO project",
+						"NameEn": "FripSide"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103593",
+						"URI": "1496738756",
+						"Name": "final phase",
+						"ExternalUrl": "https://music.apple.com/jp/album/final-phase/1496738755?i=1496738756",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103593",
+						"URI": "spotify:track:1KD5irnBs8gPsnBKVrTG9P",
+						"Name": "final phase",
+						"ExternalUrl": "https://open.spotify.com/track/1KD5irnBs8gPsnBKVrTG9P",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103593-opening": {
+				"Id": "103593",
+				"Name": "final phase",
+				"NameEn": "Final Phase",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "11163",
+						"Name": "fripSide NAO project",
+						"NameEn": "FripSide"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103593",
+						"URI": "1496738756",
+						"Name": "final phase",
+						"ExternalUrl": "https://music.apple.com/jp/album/final-phase/1496738755?i=1496738756",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103593",
+						"URI": "spotify:track:1KD5irnBs8gPsnBKVrTG9P",
+						"Name": "final phase",
+						"ExternalUrl": "https://open.spotify.com/track/1KD5irnBs8gPsnBKVrTG9P",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14476": {
+		"Id": "14476",
+		"Name": "Darwin`s Game",
+		"TitleImageName": "241574.jpg",
+		"AniDbUri": "http://anidb.net/anime/14476",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103326-ending": {
+				"Id": "103326",
+				"Name": "Alive",
+				"NameEn": "Alive",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "40688",
+						"Name": "綾野ましろ",
+						"NameEn": "Ayano Mashiro"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103326",
+						"URI": "spotify:track:3a3t1kcWLkIhKDwLsnunLD",
+						"Name": "Alive",
+						"ExternalUrl": "https://open.spotify.com/track/3a3t1kcWLkIhKDwLsnunLD",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103326-insert song": {
+				"Id": "103326",
+				"Name": "Alive",
+				"NameEn": "Alive",
+				"Ranges": [
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "40688",
+						"Name": "綾野ましろ",
+						"NameEn": "Ayano Mashiro"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "103326",
+						"URI": "spotify:track:3a3t1kcWLkIhKDwLsnunLD",
+						"Name": "Alive",
+						"ExternalUrl": "https://open.spotify.com/track/3a3t1kcWLkIhKDwLsnunLD",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103356-ending": {
+				"Id": "103356",
+				"Name": "CHAIN",
+				"NameEn": "Chain",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "11",
+				"Artists": [
+					{
+						"Id": "51860",
+						"Name": "ASCA",
+						"NameEn": "Asca"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103356",
+						"URI": "1498703447",
+						"Name": "CHAIN",
+						"ExternalUrl": "https://music.apple.com/jp/album/chain/1498703446?i=1498703447",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103356",
+						"URI": "spotify:track:5tjmwi258GR4yUED4DgHtW",
+						"Name": "CHAIN",
+						"ExternalUrl": "https://open.spotify.com/track/5tjmwi258GR4yUED4DgHtW",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103356-opening": {
+				"Id": "103356",
+				"Name": "CHAIN",
+				"NameEn": "Chain",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "S1",
+				"Artists": [
+					{
+						"Id": "51860",
+						"Name": "ASCA",
+						"NameEn": "Asca"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103356",
+						"URI": "1498703447",
+						"Name": "CHAIN",
+						"ExternalUrl": "https://music.apple.com/jp/album/chain/1498703446?i=1498703447",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103356",
+						"URI": "spotify:track:5tjmwi258GR4yUED4DgHtW",
+						"Name": "CHAIN",
+						"ExternalUrl": "https://open.spotify.com/track/5tjmwi258GR4yUED4DgHtW",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14479": {
+		"Id": "14479",
+		"Name": "Mushikago no Cagaster",
+		"TitleImageName": "243754.jpg",
+		"AniDbUri": "http://anidb.net/anime/14479",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103665-opening": {
+				"Id": "103665",
+				"Name": "Be ZERO",
+				"NameEn": "Be Zero",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "43401",
+						"Name": "Hilcrhyme",
+						"NameEn": "Hilcrhyme"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103665",
+						"URI": "1496070396",
+						"Name": "Be ZERO",
+						"ExternalUrl": "https://music.apple.com/jp/album/be-zero/1496070145?i=1496070396",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103665",
+						"URI": "spotify:track:0C6lWHnX5RZ1gaGqvesjq2",
+						"Name": "Be ZERO",
+						"ExternalUrl": "https://open.spotify.com/track/0C6lWHnX5RZ1gaGqvesjq2",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103666-ending": {
+				"Id": "103666",
+				"Name": "臆病な狼 2019",
+				"NameEn": "Okubyou na Ookami 2019",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "43401",
+						"Name": "Hilcrhyme",
+						"NameEn": "Hilcrhyme"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103666",
+						"URI": "1496070397",
+						"Name": "臆病な狼 2019",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E8%87%86%E7%97%85%E3%81%AA%E7%8B%BC-2019/1496070145?i=1496070397",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103666",
+						"URI": "spotify:track:1EpYPGZAYI7lITDQEt9El6",
+						"Name": "臆病な狼 - 2019",
+						"ExternalUrl": "https://open.spotify.com/track/1EpYPGZAYI7lITDQEt9El6",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14483": {
+		"Id": "14483",
+		"Name": "Dorohedoro",
+		"TitleImageName": "239533.jpg",
+		"AniDbUri": "http://anidb.net/anime/14483",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103649-opening": {
+				"Id": "103649",
+				"Name": "Welcome トゥ 混沌",
+				"NameEn": "Welcome to Chaos",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "44450",
+						"Name": "立花綾香",
+						"NameEn": "Tachibana Ayaka"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103649",
+						"URI": "1497089269",
+						"Name": "Welcome トゥ 混沌",
+						"ExternalUrl": "https://music.apple.com/jp/album/welcome-%E3%83%88%E3%82%A5-%E6%B7%B7%E6%B2%8C/1497089268?i=1497089269",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103649",
+						"URI": "spotify:track:5WFyER9XL7zcDkaj7CuYmv",
+						"Name": "Welcome トゥ 混沌",
+						"ExternalUrl": "https://open.spotify.com/track/5WFyER9XL7zcDkaj7CuYmv",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103650-ending": {
+				"Id": "103650",
+				"Name": "Who am I?",
+				"NameEn": "Who Am I?",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "7",
+				"Artists": [
+					{
+						"Id": "32239",
+						"Name": "NIKIIE",
+						"NameEn": "Nikiie"
+					},
+					{
+						"Id": "44450",
+						"Name": "立花綾香",
+						"NameEn": "Tachibana Ayaka"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103650",
+						"URI": "spotify:track:1KKTKUFmFLZmEhbUyj47jN",
+						"Name": "Who Am I",
+						"ExternalUrl": "https://open.spotify.com/track/1KKTKUFmFLZmEhbUyj47jN",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103807-ending": {
+				"Id": "103807",
+				"Name": "Night SURFING",
+				"NameEn": "Night SURFING",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44450",
+						"Name": "立花綾香",
+						"NameEn": "Tachibana Ayaka"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103807",
+						"URI": "1501652178",
+						"Name": "Night SURFING",
+						"ExternalUrl": "https://music.apple.com/jp/album/night-surfing/1501652175?i=1501652178",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103807",
+						"URI": "spotify:track:6YJVj1I19EcMUePKgXXc8C",
+						"Name": "Night SURFING",
+						"ExternalUrl": "https://open.spotify.com/track/6YJVj1I19EcMUePKgXXc8C",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103808-ending": {
+				"Id": "103808",
+				"Name": "D.D.D.D",
+				"NameEn": "D.D.D.D",
+				"Ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32239",
+						"Name": "NIKIIE",
+						"NameEn": "Nikiie"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103808",
+						"URI": "1501652179",
+						"Name": "D.D.D.D.",
+						"ExternalUrl": "https://music.apple.com/jp/album/d-d-d-d/1501652175?i=1501652179",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"14523": {
+		"Id": "14523",
+		"Name": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
+		"TitleImageName": "242404.jpg",
+		"AniDbUri": "http://anidb.net/anime/14523",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103614-ending": {
+				"Id": "103614",
+				"Name": "究極アンバランス!",
+				"NameEn": "Kyuukyoku Imbalance!",
+				"Ranges": [
+					{
+						"start": 12,
+						"end": 12
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "50519",
+						"Name": "純情のアフィリア",
+						"NameEn": "Junjou no Afilia"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103614",
+						"URI": "1499916802",
+						"Name": "究極アンバランス!",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%A9%B6%E6%A5%B5%E3%82%A2%E3%83%B3%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9/1499916791?i=1499916802",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103614-opening": {
+				"Id": "103614",
+				"Name": "究極アンバランス!",
+				"NameEn": "Kyuukyoku Imbalance!",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "50519",
+						"Name": "純情のアフィリア",
+						"NameEn": "Junjou no Afilia"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103614",
+						"URI": "1499916802",
+						"Name": "究極アンバランス!",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%A9%B6%E6%A5%B5%E3%82%A2%E3%83%B3%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9/1499916791?i=1499916802",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103615-ending": {
+				"Id": "103615",
+				"Name": "Play the world",
+				"NameEn": "Play the World",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "45198",
+						"Name": "佐々木李子",
+						"NameEn": "Sasaki Riko"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103615",
+						"URI": "spotify:track:2UKdZk3SdoYHgkv0SBX1zx",
+						"Name": "Play the world",
+						"ExternalUrl": "https://open.spotify.com/track/2UKdZk3SdoYHgkv0SBX1zx",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103737-insert song": {
+				"Id": "103737",
+				"Name": "Good Night",
+				"NameEn": "Good Night",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					},
+					{
+						"start": 5,
+						"end": 5
+					},
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"Classification": "9",
+				"Artists": [
+					{
+						"Id": "45198",
+						"Name": "佐々木李子",
+						"NameEn": "Sasaki Riko"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103737",
+						"URI": "1159580809",
+						"Name": "good night",
+						"ExternalUrl": "https://music.apple.com/jp/album/good-night/1159580645?i=1159580809",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "insert song",
+						"SongId": "103737",
+						"URI": "spotify:track:3Dq4pDCXojxjCQ4vLc7Xym",
+						"Name": "Good Night",
+						"ExternalUrl": "https://open.spotify.com/track/3Dq4pDCXojxjCQ4vLc7Xym",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14552": {
+		"Id": "14552",
+		"Name": "Haikyuu!! To the Top",
+		"TitleImageName": "242336.jpg",
+		"AniDbUri": "http://anidb.net/anime/14552",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103324-opening": {
+				"Id": "103324",
+				"Name": "PHOENIX",
+				"NameEn": "Phoenix",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44477",
+						"Name": "BURNOUT SYNDROMES",
+						"NameEn": "Burnout Syndromes"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103324",
+						"URI": "1492850275",
+						"Name": "PHOENIX",
+						"ExternalUrl": "https://music.apple.com/jp/album/phoenix/1492850274?i=1492850275",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103324",
+						"URI": "spotify:track:3oTaHMklchPDDekuw1lfIw",
+						"Name": "Phoenix",
+						"ExternalUrl": "https://open.spotify.com/track/3oTaHMklchPDDekuw1lfIw",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103325-ending": {
+				"Id": "103325",
+				"Name": "決戦スピリット",
+				"NameEn": "Kessen Spirit",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "40759",
+						"Name": "CHiCO",
+						"NameEn": "Chico"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103325",
+						"URI": "1498021787",
+						"Name": "決戦スピリット",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%B1%BA%E6%88%A6%E3%82%B9%E3%83%94%E3%83%AA%E3%83%83%E3%83%88/1498021786?i=1498021787",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103325",
+						"URI": "spotify:track:1HHOkD7fuNCBnImFrlDRVi",
+						"Name": "決戦スピリット",
+						"ExternalUrl": "https://open.spotify.com/track/1HHOkD7fuNCBnImFrlDRVi",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14564": {
+		"Id": "14564",
+		"Name": "Infinite Dendrogram",
+		"TitleImageName": "239861.jpg",
+		"AniDbUri": "http://anidb.net/anime/14564",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103585-opening": {
+				"Id": "103585",
+				"Name": "Unbreakable",
+				"NameEn": "Unbreakable",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "1625",
+						"Name": "八武崎碧",
+						"NameEn": "Yuuki Aoi"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103585",
+						"URI": "1119428197",
+						"Name": "Unbreakable",
+						"ExternalUrl": "https://music.apple.com/jp/album/unbreakable/1119427949?i=1119428197",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103586-ending": {
+				"Id": "103586",
+				"Name": "Reverb",
+				"NameEn": "Reverb",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "1614",
+						"Name": "内田彩",
+						"NameEn": "Uchida Aya"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103586",
+						"URI": "260513805",
+						"Name": "Reverb",
+						"ExternalUrl": "https://music.apple.com/jp/album/reverb/260513802?i=260513805",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103586",
+						"URI": "spotify:track:1WkwcJ36zgQOuq8oYbtldj",
+						"Name": "Reverb",
+						"ExternalUrl": "https://open.spotify.com/track/1WkwcJ36zgQOuq8oYbtldj",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14570": {
+		"Id": "14570",
+		"Name": "Nekopara (2020)",
+		"TitleImageName": "242917.jpg",
+		"AniDbUri": "http://anidb.net/anime/14570",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103397-opening": {
+				"Id": "103397",
+				"Name": "Shiny Happy Days",
+				"NameEn": "Shiny Happy Days",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "37283",
+						"Name": "",
+						"NameEn": "Itou Miku"
+					},
+					{
+						"Id": "10410",
+						"Name": "井澤詩織",
+						"NameEn": "Izawa Shiori"
+					},
+					{
+						"Id": "44831",
+						"Name": "水谷麻鈴",
+						"NameEn": "Mizutani Marin"
+					},
+					{
+						"Id": "41845",
+						"Name": "のぐちゆり",
+						"NameEn": "Noguchi Yuri"
+					},
+					{
+						"Id": "55415",
+						"Name": "",
+						"NameEn": "Saeki Iori"
+					},
+					{
+						"Id": "43394",
+						"Name": "八木侑紀",
+						"NameEn": "Yagi Yuki"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103397",
+						"URI": "1498060042",
+						"Name": "Shiny Happy Days",
+						"ExternalUrl": "https://music.apple.com/jp/album/shiny-happy-days/1498060035?i=1498060042",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103397",
+						"URI": "spotify:track:5EwXiLazd1wAR5AAgc9Vla",
+						"Name": "Shiny Happy Days",
+						"ExternalUrl": "https://open.spotify.com/track/5EwXiLazd1wAR5AAgc9Vla",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103398-ending": {
+				"Id": "103398",
+				"Name": "陽だまりの香り",
+				"NameEn": "Hidamari no Kaori",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "55415",
+						"Name": "",
+						"NameEn": "Saeki Iori"
+					},
+					{
+						"Id": "43394",
+						"Name": "八木侑紀",
+						"NameEn": "Yagi Yuki"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103398",
+						"URI": "1498065312",
+						"Name": "陽だまりの香り",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E9%99%BD%E3%81%A0%E3%81%BE%E3%82%8A%E3%81%AE%E9%A6%99%E3%82%8A/1498065308?i=1498065312",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103398",
+						"URI": "spotify:track:14NSDE62o0Jh3OOEoy7QDG",
+						"Name": "陽だまりの香り",
+						"ExternalUrl": "https://open.spotify.com/track/14NSDE62o0Jh3OOEoy7QDG",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14590": {
+		"Id": "14590",
+		"Name": "Rikei ga Koi ni Ochita no de Shoumei Shite Mita.",
+		"TitleImageName": "241359.jpg",
+		"AniDbUri": "http://anidb.net/anime/14590",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103347-opening": {
+				"Id": "103347",
+				"Name": "PARADOX",
+				"NameEn": "Paradox",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "34626",
+						"Name": "雨宮天",
+						"NameEn": "Amamiya Sora"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103347",
+						"URI": "spotify:track:0E4TgYJZ0QEscHOrw3guEh",
+						"Name": "PARADOX",
+						"ExternalUrl": "https://open.spotify.com/track/0E4TgYJZ0QEscHOrw3guEh",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103618-ending": {
+				"Id": "103618",
+				"Name": "チューリングラブ",
+				"NameEn": "Turing Love",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "54982",
+						"Name": "ナナヲアカリ",
+						"NameEn": "Nanao Akari"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103618",
+						"URI": "spotify:track:0vwppKoq3J9mEPX055dpYy",
+						"Name": "チューリングラブ",
+						"ExternalUrl": "https://open.spotify.com/track/0vwppKoq3J9mEPX055dpYy",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14602": {
+		"Id": "14602",
+		"Name": "Kyokou Suiri",
+		"TitleImageName": "241405.jpg",
+		"AniDbUri": "http://anidb.net/anime/14602",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103196-opening": {
+				"Id": "103196",
+				"Name": "モノノケ・イン・ザ・フィクション",
+				"NameEn": "Mononoke in the Fiction",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "59073",
+						"Name": "嘘とカメレオン",
+						"NameEn": "Uso to Chameleon"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103196",
+						"URI": "1491452369",
+						"Name": "モノノケ・イン・ザ・フィクション",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%A2%E3%83%8E%E3%83%8E%E3%82%B1-%E3%82%A4%E3%83%B3-%E3%82%B6-%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/1491452368?i=1491452369",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103357-ending": {
+				"Id": "103357",
+				"Name": "LAST DANCE",
+				"NameEn": "Last Dance",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "255",
+						"Name": "宮野真守",
+						"NameEn": "Miyano Mamoru"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103357",
+						"URI": "1185415188",
+						"Name": "LAST DANCE",
+						"ExternalUrl": "https://music.apple.com/jp/album/last-dance/1185414982?i=1185415188",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103357",
+						"URI": "spotify:track:4J5tESA67i2yeXcD3qev9i",
+						"Name": "LAST DANCE",
+						"ExternalUrl": "https://open.spotify.com/track/4J5tESA67i2yeXcD3qev9i",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103912-insert song": {
+				"Id": "103912",
+				"Name": "火炎放射器とわたし",
+				"NameEn": "Kaenhoushaki to Watashi",
+				"Ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "28602",
+						"Name": "上坂すみれ",
+						"NameEn": "Uesaka Sumire"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	"14655": {
+		"Id": "14655",
+		"Name": "A3! Season Spring \u0026 Summer",
+		"TitleImageName": "237502.jpg",
+		"AniDbUri": "http://anidb.net/anime/14655",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103289-opening": {
+				"Id": "103289",
+				"Name": "Act! Addict! Actors!",
+				"NameEn": "Act! Addict! Actors!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59217",
+						"Name": "A3ders!",
+						"NameEn": "A3ders!"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103289",
+						"URI": "1495950663",
+						"Name": "Act! Addict! Actors!",
+						"ExternalUrl": "https://music.apple.com/jp/album/act-addict-actors/1495950662?i=1495950663",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103289",
+						"URI": "spotify:track:3G1aqXYwXjIxkcsXzTGAJZ",
+						"Name": "Act! Addict! Actors!",
+						"ExternalUrl": "https://open.spotify.com/track/3G1aqXYwXjIxkcsXzTGAJZ",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14707": {
+		"Id": "14707",
+		"Name": "Koi Suru Asteroid",
+		"TitleImageName": "240421.jpg",
+		"AniDbUri": "http://anidb.net/anime/14707",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103378-opening": {
+				"Id": "103378",
+				"Name": "歩いていこう!",
+				"NameEn": "Aruite Ikou!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "21312",
+						"Name": "東山奈央",
+						"NameEn": "Touyama Nao"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103378",
+						"URI": "570012757",
+						"Name": "歩いていこう",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%AD%A9%E3%81%84%E3%81%A6%E3%81%84%E3%81%93%E3%81%86/570012755?i=570012757",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103378",
+						"URI": "spotify:track:5iR0qKILvxtRPdkKCNTkJ0",
+						"Name": "歩いていこう!",
+						"ExternalUrl": "https://open.spotify.com/track/5iR0qKILvxtRPdkKCNTkJ0",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103379-ending": {
+				"Id": "103379",
+				"Name": "夜空",
+				"NameEn": "Yozora",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "44135",
+						"Name": "鈴木みのり",
+						"NameEn": "Suzuki Minori"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"103739-ending": {
+				"Id": "103739",
+				"Name": "あの星の向こうに",
+				"NameEn": "Ano Hoshi no Mukou ni",
+				"Ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "43558",
+						"Name": "高柳知葉",
+						"NameEn": "Takayanagi Tomoyo"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103739",
+						"URI": "spotify:track:6r4QNPa2CshXEY671uq4nD",
+						"Name": "あの星の向こうに",
+						"ExternalUrl": "https://open.spotify.com/track/6r4QNPa2CshXEY671uq4nD",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14722": {
+		"Id": "14722",
+		"Name": "Breakers",
+		"TitleImageName": "241956.jpg",
+		"AniDbUri": "http://anidb.net/anime/14722",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103543-theme song": {
+				"Id": "103543",
+				"Name": "SUPER HERO",
+				"NameEn": "Super Hero",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59452",
+						"Name": "BugLug",
+						"NameEn": "BugLug"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "theme song",
+						"SongId": "103543",
+						"URI": "1497737816",
+						"Name": "SUPER HERO",
+						"ExternalUrl": "https://music.apple.com/jp/album/super-hero/1497737809?i=1497737816",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "theme song",
+						"SongId": "103543",
+						"URI": "spotify:track:5x1wtjVFNt3c5azwm40Br7",
+						"Name": "SUPER HERO",
+						"ExternalUrl": "https://open.spotify.com/track/5x1wtjVFNt3c5azwm40Br7",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14754": {
+		"Id": "14754",
+		"Name": "Eiga Youkai Watch Jam: Youkai Gakuen Y - Neko wa Hero ni Nareru ka",
+		"TitleImageName": "241228.jpg",
+		"AniDbUri": "http://anidb.net/anime/14754",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103317-theme song": {
+				"Id": "103317",
+				"Name": "メテオ",
+				"NameEn": "Meteo",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59295",
+						"Name": "ピンク・レディー",
+						"NameEn": "Pink Lady"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {}
+			},
+			"103318-opening": {
+				"Id": "103318",
+				"Name": "Y学園へ行こう 学園ドタバタ編",
+				"NameEn": "Y Gakuen e Ikou: Gakuen Dotabata Hen",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59297",
+						"Name": "莉犬",
+						"NameEn": "Riinu"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103318",
+						"URI": "1489406918",
+						"Name": "Y学園へ行こう 学園ドタバタ編",
+						"ExternalUrl": "https://music.apple.com/jp/album/y%E5%AD%A6%E5%9C%92%E3%81%B8%E8%A1%8C%E3%81%93%E3%81%86-%E5%AD%A6%E5%9C%92%E3%83%89%E3%82%BF%E3%83%90%E3%82%BF%E7%B7%A8/1489406580?i=1489406918",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"14755": {
+		"Id": "14755",
+		"Name": "Kuutei Dragons",
+		"TitleImageName": "239430.jpg",
+		"AniDbUri": "http://anidb.net/anime/14755",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103121-ending": {
+				"Id": "103121",
+				"Name": "絶対零度",
+				"NameEn": "Zettai Reido",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38852",
+						"Name": "赤い公園",
+						"NameEn": "Akai Kouen"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103121",
+						"URI": "1494995430",
+						"Name": "絶対零度",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%B5%B6%E5%AF%BE%E9%9B%B6%E5%BA%A6/1494995429?i=1494995430",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103121",
+						"URI": "spotify:track:6aQOZNi3Y3L08SBx9JHlwf",
+						"Name": "絶対零度",
+						"ExternalUrl": "https://open.spotify.com/track/6aQOZNi3Y3L08SBx9JHlwf",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103651-opening": {
+				"Id": "103651",
+				"Name": "群青",
+				"NameEn": "Gunjou",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59718",
+						"Name": "神山羊",
+						"NameEn": "Kamiyama You"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103651",
+						"URI": "1528119630",
+						"Name": "群青",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%BE%A4%E9%9D%92/1528119626?i=1528119630",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103651",
+						"URI": "spotify:track:0T4AitQuq8IJhWBWuZwkFA",
+						"Name": "群青",
+						"ExternalUrl": "https://open.spotify.com/track/0T4AitQuq8IJhWBWuZwkFA",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14757": {
+		"Id": "14757",
+		"Name": "Jibaku Shounen Hanako-kun",
+		"TitleImageName": "240900.jpg",
+		"AniDbUri": "http://anidb.net/anime/14757",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103610-opening": {
+				"Id": "103610",
+				"Name": "No.7",
+				"NameEn": "No.7",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59540",
+						"Name": "地縛少年バンド",
+						"NameEn": "Jibaku Shounen Band"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103610",
+						"URI": "1497641249",
+						"Name": "No.7",
+						"ExternalUrl": "https://music.apple.com/jp/album/no-7/1497641248?i=1497641249",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103611-ending": {
+				"Id": "103611",
+				"Name": "Tiny Light",
+				"NameEn": "Tiny Light",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "41766",
+						"Name": "鬼頭明里",
+						"NameEn": "Kitou Akari"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103611",
+						"URI": "1491721055",
+						"Name": "Tiny Light",
+						"ExternalUrl": "https://music.apple.com/jp/album/tiny-light/1491721053?i=1491721055",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103611",
+						"URI": "spotify:track:3nMWM6o4pD6lAkDRPdcqvh",
+						"Name": "Tiny Light",
+						"ExternalUrl": "https://open.spotify.com/track/3nMWM6o4pD6lAkDRPdcqvh",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14785": {
+		"Id": "14785",
+		"Name": "Somali to Mori no Kamisama",
+		"TitleImageName": "237686.jpg",
+		"AniDbUri": "http://anidb.net/anime/14785",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"102588-ending": {
+				"Id": "102588",
+				"Name": "ココロソマリ",
+				"NameEn": "Kokoro Somali",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "21013",
+						"Name": "水瀬いのり",
+						"NameEn": "Minase Inori"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "102588",
+						"URI": "1494875710",
+						"Name": "ココロソマリ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%B3%E3%82%B3%E3%83%AD%E3%82%BD%E3%83%9E%E3%83%AA/1494875709?i=1494875710",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"102589-opening": {
+				"Id": "102589",
+				"Name": "ありがとうはこっちの言葉",
+				"NameEn": "Arigatou wa Kocchi no Kotoba",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59065",
+						"Name": "森山直太朗",
+						"NameEn": "Moriyama Naotarou"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "102589",
+						"URI": "1499916714",
+						"Name": "ありがとうはこっちの言葉",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%AF%E3%81%93%E3%81%A3%E3%81%A1%E3%81%AE%E8%A8%80%E8%91%89/1499916697?i=1499916714",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"14788": {
+		"Id": "14788",
+		"Name": "Number 24",
+		"TitleImageName": "236858.jpg",
+		"AniDbUri": "http://anidb.net/anime/14788",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103291-opening": {
+				"Id": "103291",
+				"Name": "SET!",
+				"NameEn": "Set!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "49726",
+						"Name": "小林正典",
+						"NameEn": "Kobayashi Masanori"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103291",
+						"URI": "1533049776",
+						"Name": "SET",
+						"ExternalUrl": "https://music.apple.com/jp/album/set/1533049443?i=1533049776",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103292-ending": {
+				"Id": "103292",
+				"Name": "君といるなら",
+				"NameEn": "Kimi to Iru Nara",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "23529",
+						"Name": "河西健吾",
+						"NameEn": "Kawanishi Kengo"
+					},
+					{
+						"Id": "48554",
+						"Name": "鈴木崚汰",
+						"NameEn": "Suzuki Ryouta"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103292",
+						"URI": "1448662524",
+						"Name": "君がいるなら",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%90%9B%E3%81%8C%E3%81%84%E3%82%8B%E3%81%AA%E3%82%89/1448662523?i=1448662524",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103293-ending": {
+				"Id": "103293",
+				"Name": "COMICAL TRY!!",
+				"NameEn": "Comical Try!!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "23529",
+						"Name": "河西健吾",
+						"NameEn": "Kawanishi Kengo"
+					},
+					{
+						"Id": "10906",
+						"Name": "柳田淳一",
+						"NameEn": "Yanagita Jun`ichi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"103294-ending": {
+				"Id": "103294",
+				"Name": "Every Fight",
+				"NameEn": "Every Fight",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "23529",
+						"Name": "河西健吾",
+						"NameEn": "Kawanishi Kengo"
+					},
+					{
+						"Id": "40910",
+						"Name": "小松昌平",
+						"NameEn": "Komatsu Shouhei"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"14839": {
+		"Id": "14839",
+		"Name": "Baja no Studio: Baja no Mita Umi",
+		"TitleImageName": "235977.jpg",
+		"AniDbUri": "http://anidb.net/anime/14839",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103874-ending": {
+				"Id": "103874",
+				"Name": "てとてとて",
+				"NameEn": "Te to Te to Te",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "386066",
+						"Name": "",
+						"NameEn": "阿部寿代"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103874",
+						"URI": "1444851002",
+						"Name": "JUST STAND UP! (feat. Mariah, Beyoncé, メアリー・J. ブライジ, リアーナ, ファーギー, シェリル・クロウ, メリッサ・エスリッジ, ナターシャ・ベディングフィールド, マイリー・サイラス, レオナ・ルイス, キャリー・アンダーウッド, キーシャ・コール, リアン・ライムス, アシャンティ \u0026 シアラ)",
+						"ExternalUrl": "https://music.apple.com/jp/album/just-stand-up-feat-mariah-beyonc%C3%A9-%E3%83%A1%E3%82%A2%E3%83%AA%E3%83%BC-j-%E3%83%96%E3%83%A9%E3%82%A4%E3%82%B8-%E3%83%AA%E3%82%A2%E3%83%BC%E3%83%8A/1444850996?i=1444851002",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"14907": {
+		"Id": "14907",
+		"Name": "Eizouken ni wa Te o Dasuna!",
+		"TitleImageName": "241521.jpg",
+		"AniDbUri": "http://anidb.net/anime/14907",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103358-opening": {
+				"Id": "103358",
+				"Name": "Easy Breezy",
+				"NameEn": "Easy Breezy",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "59339",
+						"Name": "chelmico",
+						"NameEn": "Chelmico"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103358",
+						"URI": "1491369450",
+						"Name": "Easy Breezy",
+						"ExternalUrl": "https://music.apple.com/jp/album/easy-breezy/1491368911?i=1491369450",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103358",
+						"URI": "spotify:track:5Zjge6yCThuBMdnJdOBp9A",
+						"Name": "Easy Breezy",
+						"ExternalUrl": "https://open.spotify.com/track/5Zjge6yCThuBMdnJdOBp9A",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103359-ending": {
+				"Id": "103359",
+				"Name": "名前のない青",
+				"NameEn": "Namae no Nai Ao",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "48316",
+						"Name": "神様, 僕は気づいてしまった",
+						"NameEn": "Kamisama, Boku wa Kizuite Shimatta"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103359",
+						"URI": "1490840449",
+						"Name": "名前のない青",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%90%8D%E5%89%8D%E3%81%AE%E3%81%AA%E3%81%84%E9%9D%92/1490840445?i=1490840449",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103359",
+						"URI": "spotify:track:0xSKobz5d2E8oIkwTumwkZ",
+						"Name": "名前のない青",
+						"ExternalUrl": "https://open.spotify.com/track/0xSKobz5d2E8oIkwTumwkZ",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14952": {
+		"Id": "14952",
+		"Name": "Uchi Tama?! Uchi no Tama Shirimasenka?",
+		"TitleImageName": "238597.jpg",
+		"AniDbUri": "http://anidb.net/anime/14952",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103288-opening": {
+				"Id": "103288",
+				"Name": "フレンズ",
+				"NameEn": "Friends",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "40777",
+						"Name": "wacci",
+						"NameEn": "Wacci"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103288",
+						"URI": "575523920",
+						"Name": "フレンズ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA/575523788?i=575523920",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103288",
+						"URI": "spotify:track:6rE3he0KTKndAsox4UAfST",
+						"Name": "フレンズ",
+						"ExternalUrl": "https://open.spotify.com/track/6rE3he0KTKndAsox4UAfST",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103616-ending": {
+				"Id": "103616",
+				"Name": "ひだまりを探して",
+				"NameEn": "Hidamari o Sagashite",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "36680",
+						"Name": "斉藤壮馬",
+						"NameEn": "Saitou Souma"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"14957": {
+		"Id": "14957",
+		"Name": "Yatogame-chan Kansatsu Nikki Nisatsume",
+		"TitleImageName": "241236.jpg",
+		"AniDbUri": "http://anidb.net/anime/14957",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103640-ending": {
+				"Id": "103640",
+				"Name": "イマジナリー・ラブ",
+				"NameEn": "Imaginary Love",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "48139",
+						"Name": "+α/あるふぁきゅん.",
+						"NameEn": "+ Alpha / Alfakyun."
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103640",
+						"URI": "1497106620",
+						"Name": "イマジナリー・ラブ",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%A4%E3%83%9E%E3%82%B8%E3%83%8A%E3%83%AA%E3%83%BC-%E3%83%A9%E3%83%96/1497106616?i=1497106620",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"14964": {
+		"Id": "14964",
+		"Name": "Isekai Quartet 2",
+		"TitleImageName": "239201.jpg",
+		"AniDbUri": "http://anidb.net/anime/14964",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103667-ending": {
+				"Id": "103667",
+				"Name": "異世界ショータイム",
+				"NameEn": "Isekai Showtime",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "12",
+				"Artists": [
+					{
+						"Id": "4821",
+						"Name": "櫻井真人",
+						"NameEn": "Fukushima Jun"
+					},
+					{
+						"Id": "315",
+						"Name": "十利須我里",
+						"NameEn": "Hino Satoshi"
+					},
+					{
+						"Id": "38670",
+						"Name": "",
+						"NameEn": "Kobayashi Yuusuke"
+					},
+					{
+						"Id": "1625",
+						"Name": "",
+						"NameEn": "Yuuki Aoi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103667",
+						"URI": "1490235605",
+						"Name": "暁ショータイム!",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%9A%81%E3%82%B7%E3%83%A7%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0/1490235270?i=1490235605",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103667",
+						"URI": "spotify:track:0smY1ENi3nGBgXgWR48c9E",
+						"Name": "ISEKAI SHOWTIME",
+						"ExternalUrl": "https://open.spotify.com/track/0smY1ENi3nGBgXgWR48c9E",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103667-opening": {
+				"Id": "103667",
+				"Name": "異世界ショータイム",
+				"NameEn": "Isekai Showtime",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "4821",
+						"Name": "櫻井真人",
+						"NameEn": "Fukushima Jun"
+					},
+					{
+						"Id": "315",
+						"Name": "十利須我里",
+						"NameEn": "Hino Satoshi"
+					},
+					{
+						"Id": "38670",
+						"Name": "",
+						"NameEn": "Kobayashi Yuusuke"
+					},
+					{
+						"Id": "1625",
+						"Name": "",
+						"NameEn": "Yuuki Aoi"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103667",
+						"URI": "1490235605",
+						"Name": "暁ショータイム!",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%9A%81%E3%82%B7%E3%83%A7%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0/1490235270?i=1490235605",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103667",
+						"URI": "spotify:track:0smY1ENi3nGBgXgWR48c9E",
+						"Name": "ISEKAI SHOWTIME",
+						"ExternalUrl": "https://open.spotify.com/track/0smY1ENi3nGBgXgWR48c9E",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103668-ending": {
+				"Id": "103668",
+				"Name": "ポンコツ! 異世界シアター",
+				"NameEn": "Ponkotsu! Isekai Theater",
+				"Ranges": [
+					{
+						"start": 2,
+						"end": 2
+					},
+					{
+						"start": 6,
+						"end": 6
+					}
+				],
+				"Classification": "ED2",
+				"Artists": [
+					{
+						"Id": "2296",
+						"Name": "早見沙織",
+						"NameEn": "Hayami Saori"
+					},
+					{
+						"Id": "21013",
+						"Name": "",
+						"NameEn": "Minase Inori"
+					},
+					{
+						"Id": "38380",
+						"Name": "高橋李依",
+						"NameEn": "Takahashi Rie"
+					},
+					{
+						"Id": "28602",
+						"Name": "",
+						"NameEn": "Uesaka Sumire"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103668",
+						"URI": "spotify:track:1PsgKqFBL3ahyLOrW1cHlm",
+						"Name": "PONKOTSU ISEKAI THEATER",
+						"ExternalUrl": "https://open.spotify.com/track/1PsgKqFBL3ahyLOrW1cHlm",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103760-ending": {
+				"Id": "103760",
+				"Name": "sweet pass",
+				"NameEn": "Sweet Pass",
+				"Ranges": [
+					{
+						"start": 5,
+						"end": 5
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "56309",
+						"Name": "安月名莉子",
+						"NameEn": "Azuna Riko"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103760",
+						"URI": "spotify:track:3NwTStE5hzUSknib4VPIkx",
+						"Name": "Sweet Hall",
+						"ExternalUrl": "https://open.spotify.com/track/3NwTStE5hzUSknib4VPIkx",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14969": {
+		"Id": "14969",
+		"Name": "Ishuzoku Reviewers",
+		"TitleImageName": "240604.jpg",
+		"AniDbUri": "http://anidb.net/anime/14969",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103597-opening": {
+				"Id": "103597",
+				"Name": "イこうぜ☆パラダイス",
+				"NameEn": "Ikouze Paradise",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "38670",
+						"Name": "小林裕介",
+						"NameEn": "Kobayashi Yuusuke"
+					},
+					{
+						"Id": "400",
+						"Name": "須賀紀哉",
+						"NameEn": "Majima Junji"
+					},
+					{
+						"Id": "43492",
+						"Name": "富田美憂",
+						"NameEn": "Tomita Miyu"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103597",
+						"URI": "spotify:track:6PWTHFbYE9wSaQojr7umQ5",
+						"Name": "IKOUZE PARADISE",
+						"ExternalUrl": "https://open.spotify.com/track/6PWTHFbYE9wSaQojr7umQ5",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103598-ending": {
+				"Id": "103598",
+				"Name": "ハナビラ音頭",
+				"NameEn": "Hanabira Ondo",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "38670",
+						"Name": "小林裕介",
+						"NameEn": "Kobayashi Yuusuke"
+					},
+					{
+						"Id": "400",
+						"Name": "須賀紀哉",
+						"NameEn": "Majima Junji"
+					},
+					{
+						"Id": "43492",
+						"Name": "富田美憂",
+						"NameEn": "Tomita Miyu"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103598",
+						"URI": "spotify:track:5egyrKJojzzslM3yiazvwl",
+						"Name": "HANABIRA ONDO",
+						"ExternalUrl": "https://open.spotify.com/track/5egyrKJojzzslM3yiazvwl",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"14987": {
+		"Id": "14987",
+		"Name": "Id:Invaded",
+		"TitleImageName": "243721.jpg",
+		"AniDbUri": "http://anidb.net/anime/14987",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103504-ending": {
+				"Id": "103504",
+				"Name": "ミスターフィクサー",
+				"NameEn": "Mister Fixer",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "58302",
+						"Name": "Sou",
+						"NameEn": "Sou"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103504",
+						"URI": "1491298429",
+						"Name": "ミスターフィクサー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B5%E3%83%BC/1491298425?i=1491298429",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103504",
+						"URI": "spotify:track:3Sa8nfES4XtU6K83YWm5G6",
+						"Name": "ミスターフィクサー",
+						"ExternalUrl": "https://open.spotify.com/track/3Sa8nfES4XtU6K83YWm5G6",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103504-opening": {
+				"Id": "103504",
+				"Name": "ミスターフィクサー",
+				"NameEn": "Mister Fixer",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "58302",
+						"Name": "Sou",
+						"NameEn": "Sou"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103504",
+						"URI": "1491298429",
+						"Name": "ミスターフィクサー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B5%E3%83%BC/1491298425?i=1491298429",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103504",
+						"URI": "spotify:track:3Sa8nfES4XtU6K83YWm5G6",
+						"Name": "ミスターフィクサー",
+						"ExternalUrl": "https://open.spotify.com/track/3Sa8nfES4XtU6K83YWm5G6",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103505-ending": {
+				"Id": "103505",
+				"Name": "Other Side",
+				"NameEn": "Other Side",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "52193",
+						"Name": "MIYAVI",
+						"NameEn": "Miyavi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103505",
+						"URI": "1469847798",
+						"Name": "Other Side",
+						"ExternalUrl": "https://music.apple.com/jp/album/other-side/1469847786?i=1469847798",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103655-insert song": {
+				"Id": "103655",
+				"Name": "UP",
+				"NameEn": "Up",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "52193",
+						"Name": "MIYAVI",
+						"NameEn": "Miyavi"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			},
+			"103672-insert song": {
+				"Id": "103672",
+				"Name": "Samurai 45",
+				"NameEn": "Samurai 45",
+				"Ranges": [
+					{
+						"start": 4,
+						"end": 4
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "52193",
+						"Name": "MIYAVI",
+						"NameEn": "Miyavi"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103672",
+						"URI": "1469847801",
+						"Name": "Samurai 45",
+						"ExternalUrl": "https://music.apple.com/jp/album/samurai-45/1469847786?i=1469847801",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"15014": {
+		"Id": "15014",
+		"Name": "Rebirth",
+		"TitleImageName": "241573.jpg",
+		"AniDbUri": "http://anidb.net/anime/15014",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103466-theme song": {
+				"Id": "103466",
+				"Name": "Reバース GO!",
+				"NameEn": "Rebirth Go!",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59437",
+						"Name": "葉月ひまり",
+						"NameEn": "Hazuki Himari"
+					},
+					{
+						"Id": "50012",
+						"Name": "岩田陽葵",
+						"NameEn": "Iwata Haruki"
+					},
+					{
+						"Id": "50015",
+						"Name": "小山百代",
+						"NameEn": "Koyama Momoyo"
+					},
+					{
+						"Id": "59438",
+						"Name": "三村遙佳",
+						"NameEn": "Mimura Haruka"
+					},
+					{
+						"Id": "57157",
+						"Name": "成海瑠奈",
+						"NameEn": "Narumi Runa"
+					},
+					{
+						"Id": "44217",
+						"Name": "西本りみ",
+						"NameEn": "Nishimoto Rimi"
+					},
+					{
+						"Id": "59436",
+						"Name": "HARUCA",
+						"NameEn": "Nishio Yuuka"
+					},
+					{
+						"Id": "46175",
+						"Name": "大塚紗英",
+						"NameEn": "Ootsuka Sae"
+					},
+					{
+						"Id": "44218",
+						"Name": "尾崎由香",
+						"NameEn": "Ozaki Yuka"
+					},
+					{
+						"Id": "55415",
+						"Name": "佐伯伊織",
+						"NameEn": "Saeki Iori"
+					},
+					{
+						"Id": "56725",
+						"Name": "進藤あまね",
+						"NameEn": "Shindou Amane"
+					},
+					{
+						"Id": "56126",
+						"Name": "遠野ひかる",
+						"NameEn": "Toono Hikaru"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {}
+			}
+		}
+	},
+	"15016": {
+		"Id": "15016",
+		"Name": "Oda Shinamon Nobunaga",
+		"TitleImageName": "241803.jpg",
+		"AniDbUri": "http://anidb.net/anime/15016",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103451-opening": {
+				"Id": "103451",
+				"Name": "Sunny Sunny Girl◎",
+				"NameEn": "Sunny Sunny Girl",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "56356",
+						"Name": "熊田茜音",
+						"NameEn": "Kumada Akane"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103451",
+						"URI": "1495143000",
+						"Name": "Sunny Sunny Girl◎",
+						"ExternalUrl": "https://music.apple.com/jp/album/sunny-sunny-girl/1495142998?i=1495143000",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103451",
+						"URI": "spotify:track:5ilNkGeVY3Vot1dFgMMA9U",
+						"Name": "Sunny Sunny Girl◎",
+						"ExternalUrl": "https://open.spotify.com/track/5ilNkGeVY3Vot1dFgMMA9U",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103617-ending": {
+				"Id": "103617",
+				"Name": "犬生は一度きり",
+				"NameEn": "Inu-sei wa Ichido Kiri",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "2583",
+						"Name": "古川登志夫",
+						"NameEn": "Furukawa Toshio"
+					},
+					{
+						"Id": "343",
+						"Name": "玄田哲章",
+						"NameEn": "Genda Tesshou"
+					},
+					{
+						"Id": "2037",
+						"Name": "堀内賢雄",
+						"NameEn": "Horiuchi Ken`yuu"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103617",
+						"URI": "1498054964",
+						"Name": "犬生は一度きり",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%8A%AC%E7%94%9F%E3%81%AF%E4%B8%80%E5%BA%A6%E3%81%8D%E3%82%8A/1498054956?i=1498054964",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103617",
+						"URI": "spotify:track:0g2BT7GnEiJs5VOZ4m2gRm",
+						"Name": "犬生は一度きり",
+						"ExternalUrl": "https://open.spotify.com/track/0g2BT7GnEiJs5VOZ4m2gRm",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"15038": {
+		"Id": "15038",
+		"Name": "Housekishou Richard-shi no Nazo Kantei",
+		"TitleImageName": "240792.jpg",
+		"AniDbUri": "http://anidb.net/anime/15038",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103744-opening": {
+				"Id": "103744",
+				"Name": "宝石の生まれるとき",
+				"NameEn": "Houseki no Umareru Toki",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "29595",
+						"Name": "nagi",
+						"NameEn": "Yanagi Nagi"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103744",
+						"URI": "1498066609",
+						"Name": "宝石の生まれるとき",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%AE%9D%E7%9F%B3%E3%81%AE%E7%94%9F%E3%81%BE%E3%82%8C%E3%82%8B%E3%81%A8%E3%81%8D/1498066607?i=1498066609",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103745-ending": {
+				"Id": "103745",
+				"Name": "Only for you",
+				"NameEn": "Only For You",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59805",
+						"Name": "Da-iCE",
+						"NameEn": "Da-ice"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103745",
+						"URI": "1488720104",
+						"Name": "Only for you",
+						"ExternalUrl": "https://music.apple.com/jp/album/only-for-you/1488719635?i=1488720104",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"15055": {
+		"Id": "15055",
+		"Name": "Sekaiichi Hatsukoi: Proposal Hen",
+		"TitleImageName": "242302.jpg",
+		"AniDbUri": "http://anidb.net/anime/15055",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103596-theme song": {
+				"Id": "103596",
+				"Name": "未来もキミの手の中で",
+				"NameEn": "Mirai mo Kimi no Te no Naka de",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "10430",
+						"Name": "喜多修平",
+						"NameEn": "Kita Shuuhei"
+					}
+				],
+				"Relation": "theme song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "theme song",
+						"SongId": "103596",
+						"URI": "1498401555",
+						"Name": "未来もキミの手の中で",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%9C%AA%E6%9D%A5%E3%82%82%E3%82%AD%E3%83%9F%E3%81%AE%E6%89%8B%E3%81%AE%E4%B8%AD%E3%81%A7/1498401554?i=1498401555",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "theme song",
+						"SongId": "103596",
+						"URI": "spotify:track:3E96s8uPFhiWjwuDJaOvXL",
+						"Name": "未来もキミの手の中で",
+						"ExternalUrl": "https://open.spotify.com/track/3E96s8uPFhiWjwuDJaOvXL",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"15064": {
+		"Id": "15064",
+		"Name": "Gekijouban Kyochuu Rettou",
+		"TitleImageName": "240446.jpg",
+		"AniDbUri": "http://anidb.net/anime/15064",
+		"Format": "Movie",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103188-ending": {
+				"Id": "103188",
+				"Name": "Stellar",
+				"NameEn": "Stellar",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "47170",
+						"Name": "東城陽奏",
+						"NameEn": "Toujou Haruka"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"15096": {
+		"Id": "15096",
+		"Name": "Runway de Waratte",
+		"TitleImageName": "241422.jpg",
+		"AniDbUri": "http://anidb.net/anime/15096",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103183-ending": {
+				"Id": "103183",
+				"Name": "LION",
+				"NameEn": "Lion",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59058",
+						"Name": "坂口有望",
+						"NameEn": "Sakaguchi Ami"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103183",
+						"URI": "1484903003",
+						"Name": "LION",
+						"ExternalUrl": "https://music.apple.com/jp/album/lion/1484902998?i=1484903003",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103183",
+						"URI": "spotify:track:01R81aZ0CVLJXEz8ak8H5e",
+						"Name": "LION",
+						"ExternalUrl": "https://open.spotify.com/track/01R81aZ0CVLJXEz8ak8H5e",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103183-opening": {
+				"Id": "103183",
+				"Name": "LION",
+				"NameEn": "Lion",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59058",
+						"Name": "坂口有望",
+						"NameEn": "Sakaguchi Ami"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103183",
+						"URI": "1484903003",
+						"Name": "LION",
+						"ExternalUrl": "https://music.apple.com/jp/album/lion/1484902998?i=1484903003",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103183",
+						"URI": "spotify:track:01R81aZ0CVLJXEz8ak8H5e",
+						"Name": "LION",
+						"ExternalUrl": "https://open.spotify.com/track/01R81aZ0CVLJXEz8ak8H5e",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103327-ending": {
+				"Id": "103327",
+				"Name": "Ray of Light",
+				"NameEn": "Ray of Light",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59753",
+						"Name": "ジェジュン",
+						"NameEn": "Jaejoong"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			}
+		}
+	},
+	"15121": {
+		"Id": "15121",
+		"Name": "Murenase! Seton Gakuen",
+		"TitleImageName": "241781.jpg",
+		"AniDbUri": "http://anidb.net/anime/15121",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103638-opening": {
+				"Id": "103638",
+				"Name": "学園壮観Zoo",
+				"NameEn": "Gakuen Soukan Zoo",
+				"Ranges": [],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "39260",
+						"Name": "石谷春貴",
+						"NameEn": "Ishiya Haruki"
+					},
+					{
+						"Id": "42138",
+						"Name": "木野日菜",
+						"NameEn": "Kino Hina"
+					},
+					{
+						"Id": "48852",
+						"Name": "小原好美",
+						"NameEn": "Kohara Konomi"
+					},
+					{
+						"Id": "20806",
+						"Name": "久野美咲",
+						"NameEn": "Kuno Misaki"
+					},
+					{
+						"Id": "4432",
+						"Name": "宮本侑芽",
+						"NameEn": "Miyamoto Yume"
+					},
+					{
+						"Id": "21805",
+						"Name": "徳井青空",
+						"NameEn": "Tokui Sora"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103638",
+						"URI": "1498763867",
+						"Name": "学園壮観Zoo",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E5%AD%A6%E5%9C%92%E5%A3%AE%E8%A6%B3zoo/1498763866?i=1498763867",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103639-ending": {
+				"Id": "103639",
+				"Name": "オオカミブルース",
+				"NameEn": "Ookami Blues",
+				"Ranges": [],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "42138",
+						"Name": "木野日菜",
+						"NameEn": "Kino Hina"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103639",
+						"URI": "1498763881",
+						"Name": "オオカミブルース",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%AA%E3%82%AA%E3%82%AB%E3%83%9F%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9/1498763866?i=1498763881",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"15130": {
+		"Id": "15130",
+		"Name": "Strike the Blood: Kieta Seisou Hen",
+		"TitleImageName": "239228.jpg",
+		"AniDbUri": "http://anidb.net/anime/15130",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103085-opening": {
+				"Id": "103085",
+				"Name": "暁のカレイドブラッド",
+				"NameEn": "Akatsuki no Kaleido Blood",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "38573",
+						"Name": "",
+						"NameEn": "Kishida Kyoudan \u0026 The Akeboshi Rockets"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103085",
+						"URI": "1490555701",
+						"Name": "暁のカレイドブラッド",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E6%9A%81%E3%81%AE%E3%82%AB%E3%83%AC%E3%82%A4%E3%83%89%E3%83%96%E3%83%A9%E3%83%83%E3%83%89/1490555698?i=1490555701",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103086-ending": {
+				"Id": "103086",
+				"Name": "Dear My Hero",
+				"NameEn": "Dear My Hero",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "32750",
+						"Name": "種田梨沙",
+						"NameEn": "Taneda Risa"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103086",
+						"URI": "1443278482",
+						"Name": "Dear My Hero",
+						"ExternalUrl": "https://music.apple.com/jp/album/dear-my-hero/1443277795?i=1443278482",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"15231": {
+		"Id": "15231",
+		"Name": "Healin` Good Precure",
+		"TitleImageName": "242439.jpg",
+		"AniDbUri": "http://anidb.net/anime/15231",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103747-opening": {
+				"Id": "103747",
+				"Name": "ヒーリングっど♥プリキュア Touch!!",
+				"NameEn": "Healin` Good Precure Touch!!",
+				"Ranges": [],
+				"Classification": "OP1",
+				"Artists": [
+					{
+						"Id": "42354",
+						"Name": "北川理恵",
+						"NameEn": "Kitagawa Rie"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103747",
+						"URI": "1500528543",
+						"Name": "ヒーリングっど♥プリキュア Touch!!",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%92%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A3%E3%81%A9-%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2-touch/1500528542?i=1500528543",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "103747",
+						"URI": "spotify:track:5hdV3SdDnisJEd7rEhUZyD",
+						"Name": "ヒーリングっど♥プリキュア Touch!!",
+						"ExternalUrl": "https://open.spotify.com/track/5hdV3SdDnisJEd7rEhUZyD",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"103748-ending": {
+				"Id": "103748",
+				"Name": "ミラクルっと♥Link Ring!",
+				"NameEn": "Miracle-to Link Ring!",
+				"Ranges": [],
+				"Classification": "ED1",
+				"Artists": [
+					{
+						"Id": "41848",
+						"Name": "",
+						"NameEn": "Machico"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103748",
+						"URI": "1500528544",
+						"Name": "ミラクルっと♥Link Ring!",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%81%A3%E3%81%A8-link-ring/1500528542?i=1500528544",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "ending",
+						"SongId": "103748",
+						"URI": "spotify:track:7oTZJP8WeEdfrDDeR7bJWU",
+						"Name": "ミラクルっと♥Link Ring!",
+						"ExternalUrl": "https://open.spotify.com/track/7oTZJP8WeEdfrDDeR7bJWU",
+						"Source": "Spotify"
+					}
+				}
+			}
+		}
+	},
+	"15272": {
+		"Id": "15272",
+		"Name": "Natsunagu!",
+		"TitleImageName": "241330.jpg",
+		"AniDbUri": "http://anidb.net/anime/15272",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103759-ending": {
+				"Id": "103759",
+				"Name": "Camellia",
+				"NameEn": "Camellia",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					},
+					{
+						"start": 4,
+						"end": 4
+					},
+					{
+						"start": 10,
+						"end": 10
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59841",
+						"Name": "Rio",
+						"NameEn": "Rio"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103759",
+						"URI": "1498169668",
+						"Name": "Camellia",
+						"ExternalUrl": "https://music.apple.com/jp/album/camellia/1498169613?i=1498169668",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103900-ending": {
+				"Id": "103900",
+				"Name": "オカエリナサイが聞こえる町",
+				"NameEn": "Okaerinasai ga Kikoeru Machi",
+				"Ranges": [
+					{
+						"start": 3,
+						"end": 3
+					}
+				],
+				"Classification": "9",
+				"Artists": [
+					{
+						"Id": "44999",
+						"Name": "樋口了一",
+						"NameEn": "Higuchi Ryouichi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {}
+			},
+			"103902-insert song": {
+				"Id": "103902",
+				"Name": "DAYS ~Acoustic Ver~",
+				"NameEn": "Days (Acoustic Ver)",
+				"Ranges": [
+					{
+						"start": 11,
+						"end": 11
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59841",
+						"Name": "Rio",
+						"NameEn": "Rio"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {}
+			}
+		}
+	},
+	"15281": {
+		"Id": "15281",
+		"Name": "Show by Rock!! Mashumairesh!!",
+		"TitleImageName": "241468.jpg",
+		"AniDbUri": "http://anidb.net/anime/15281",
+		"Format": "TV Series",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103600-opening": {
+				"Id": "103600",
+				"Name": "ヒロメネス",
+				"NameEn": "Hiromenes",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59532",
+						"Name": "Mashumairesh!!",
+						"NameEn": "Mashumairesh!!"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "103600",
+						"URI": "1495952923",
+						"Name": "ヒロメネス",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%92%E3%83%AD%E3%83%A1%E3%83%8D%E3%82%B9/1495952919?i=1495952923",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103601-ending": {
+				"Id": "103601",
+				"Name": "キミのラプソディー",
+				"NameEn": "Kimi no Rhapsody",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59532",
+						"Name": "Mashumairesh!!",
+						"NameEn": "Mashumairesh!!"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103601",
+						"URI": "1495952928",
+						"Name": "キミのラプソディー",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%AD%E3%83%9F%E3%81%AE%E3%83%A9%E3%83%97%E3%82%BD%E3%83%87%E3%82%A3%E3%83%BC/1495952919?i=1495952928",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103602-insert song": {
+				"Id": "103602",
+				"Name": "エールアンドレスポンス",
+				"NameEn": "Yell and Response",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59532",
+						"Name": "Mashumairesh!!",
+						"NameEn": "Mashumairesh!!"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103602",
+						"URI": "1503468644",
+						"Name": "エールアンドレスポンス",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%A8%E3%83%BC%E3%83%AB%E3%82%A2%E3%83%B3%E3%83%89%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B9/1503468643?i=1503468644",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103603-insert song": {
+				"Id": "103603",
+				"Name": "移動手段はバイクです",
+				"NameEn": "Idou Shudan wa Bike Desu",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59533",
+						"Name": "DOKONJOFINGER",
+						"NameEn": "Dokonjofinger"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103603",
+						"URI": "1500705805",
+						"Name": "移動手段はバイクです",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%A7%BB%E5%8B%95%E6%89%8B%E6%AE%B5%E3%81%AF%E3%83%90%E3%82%A4%E3%82%AF%E3%81%A7%E3%81%99/1500705804?i=1500705805",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103604-insert song": {
+				"Id": "103604",
+				"Name": "カバンには鉄板です",
+				"NameEn": "Kaban ni wa Teppan Desu",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59533",
+						"Name": "DOKONJOFINGER",
+						"NameEn": "Dokonjofinger"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103604",
+						"URI": "1500705807",
+						"Name": "カバンには鉄板です",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%82%AB%E3%83%90%E3%83%B3%E3%81%AB%E3%81%AF%E9%89%84%E6%9D%BF%E3%81%A7%E3%81%99/1500705804?i=1500705807",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103605-insert song": {
+				"Id": "103605",
+				"Name": "Parallelism Crown",
+				"NameEn": "Parallelism Crown",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59534",
+						"Name": "REIJINGSIGNAL",
+						"NameEn": "Reijingsignal"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103605",
+						"URI": "1499303674",
+						"Name": "Parallelism Crown",
+						"ExternalUrl": "https://music.apple.com/jp/album/parallelism-crown/1499303673?i=1499303674",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103606-insert song": {
+				"Id": "103606",
+				"Name": "ネオンテトラの空",
+				"NameEn": "Neon Tetra no Sora",
+				"Ranges": [],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "59534",
+						"Name": "REIJINGSIGNAL",
+						"NameEn": "Reijingsignal"
+					}
+				],
+				"Relation": "insert song",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "insert song",
+						"SongId": "103606",
+						"URI": "1499303675",
+						"Name": "ネオンテトラの空",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E3%83%8D%E3%82%AA%E3%83%B3%E3%83%86%E3%83%88%E3%83%A9%E3%81%AE%E7%A9%BA/1499303673?i=1499303675",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"15300": {
+		"Id": "15300",
+		"Name": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan o Erande Iraremasen - Eustachius no Shitamachi Sennyuu Daisakusen / Corinna-sama no Otaku Houmon",
+		"TitleImageName": "245597.jpg",
+		"AniDbUri": "http://anidb.net/anime/15300",
+		"Format": "OVA",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"102797-opening": {
+				"Id": "102797",
+				"Name": "真っ白",
+				"NameEn": "Masshiro",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "O1",
+				"Artists": [
+					{
+						"Id": "9036",
+						"Name": "諸星すみれ",
+						"NameEn": "Morohoshi Sumire"
+					}
+				],
+				"Relation": "opening",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "opening",
+						"SongId": "102797",
+						"URI": "1534682690",
+						"Name": "真っ白",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E7%9C%9F%E3%81%A3%E7%99%BD/1534682685?i=1534682690",
+						"Source": "AppleMusic"
+					},
+					"Spotify": {
+						"Relation": "opening",
+						"SongId": "102797",
+						"URI": "spotify:track:1m0RfmsLgUUf0AB1zyObXc",
+						"Name": "真っ白",
+						"ExternalUrl": "https://open.spotify.com/track/1m0RfmsLgUUf0AB1zyObXc",
+						"Source": "Spotify"
+					}
+				}
+			},
+			"102798-ending": {
+				"Id": "102798",
+				"Name": "髪飾りの天使",
+				"NameEn": "Kamikazari no Tenshi",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "O2",
+				"Artists": [
+					{
+						"Id": "423",
+						"Name": "中島愛",
+						"NameEn": "Nakajima Megumi"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "102798",
+						"URI": "1484291491",
+						"Name": "髪飾りの天使",
+						"ExternalUrl": "https://music.apple.com/jp/album/%E9%AB%AA%E9%A3%BE%E3%82%8A%E3%81%AE%E5%A4%A9%E4%BD%BF/1484291490?i=1484291491",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	},
+	"15346": {
+		"Id": "15346",
+		"Name": "Kidou Senshi Gundam G40",
+		"TitleImageName": "242721.jpg",
+		"AniDbUri": "http://anidb.net/anime/15346",
+		"Format": "Web",
+		"Season": "Winter",
+		"Year": "2020",
+		"Songs": {
+			"103673-ending": {
+				"Id": "103673",
+				"Name": "TO THE SKY",
+				"NameEn": "To the Sky",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "382842",
+						"Name": "",
+						"NameEn": "FANTASTICS from EXILE TRIBE"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103673",
+						"URI": "364372525",
+						"Name": "The Essential Party Mix: Saturday Night, Cha Cha Slide (Slide Out The Door Remix), Spirit In The Sky, (Is This The Way To) Amarillo, I'm Gonna Be (500 Miles)",
+						"ExternalUrl": "https://music.apple.com/jp/album/essential-party-mix-saturday-night-cha-cha-slide-slide/364371916?i=364372525",
+						"Source": "AppleMusic"
+					}
+				}
+			},
+			"103674-ending": {
+				"Id": "103674",
+				"Name": "SHOW YOU THE WAY",
+				"NameEn": "Show You the Way",
+				"Ranges": [
+					{
+						"start": 1,
+						"end": 1
+					}
+				],
+				"Classification": "",
+				"Artists": [
+					{
+						"Id": "58801",
+						"Name": "THE RAMPAGE",
+						"NameEn": "The Rampage"
+					}
+				],
+				"Relation": "ending",
+				"Sources": {
+					"AppleMusic": {
+						"Relation": "ending",
+						"SongId": "103674",
+						"URI": "1440814363",
+						"Name": "Rhyme Or Reason",
+						"ExternalUrl": "https://music.apple.com/jp/album/rhyme-or-reason/1440814247?i=1440814363",
+						"Source": "AppleMusic"
+					}
+				}
+			}
+		}
+	}
+}

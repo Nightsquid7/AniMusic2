@@ -31,26 +31,24 @@ class FirebaseStore {
         realm = try? Realm(configuration: config)
     }
 
-    // Downloads/save seasons from the database that have not been saved locally
     public func updateLocalRealm() {
-        let locallyStoredSeasons = Observable.collection(from: realm.objects(RealmSeason.self)).take(1)
+        let realmSeasons = Observable.collection(from: realm.objects(RealmSeason.self))
+            .take(1)
 
-        let seasonsInFirebase = getSeasonsListFromFireStore()
+        let firebaseSeasons = getSeasonsListFromFireStore()
             .asObservable()
             .share()
 
-        // search firebase for all Animes in each season colllection,
-        let seasonsToDownload = Observable.combineLatest(locallyStoredSeasons, seasonsInFirebase)
-            .map { locallyStoredSeasons, seasonsInFirebase  -> [RealmSeason] in
+        let seasonsToDownload = Observable.combineLatest(realmSeasons, firebaseSeasons)
+            .map { realmSeasons, firebaseSeasons  -> [RealmSeason] in
 
-                let localSeasonNames = locallyStoredSeasons.map { $0.titleString() }
-                return seasonsInFirebase.compactMap { seasonInFirebase in
-                    if localSeasonNames.contains(seasonInFirebase.titleString()) {
+                let realmSeasonNames = realmSeasons.map { $0.titleString() }
+                return firebaseSeasons.compactMap { seasonInFirebase in
+                    if realmSeasonNames.contains(seasonInFirebase.titleString()) {
                         return nil
                     }
-                    print("newSeason \(seasonInFirebase.titleString())")
+                    print("downloading new season \(seasonInFirebase.titleString())")
                     return seasonInFirebase
-
                 }
             }
             .flatMap { seasons  in
@@ -96,8 +94,13 @@ class FirebaseStore {
                 guard let documents = querySnapshot?.documents else { return }
                 var seasons = [RealmSeason]()
                 for document in documents {
-                    let seasonData = try? JSONSerialization.data(withJSONObject: document.data(), options: [])
+                    var data = document.data()
+                    let timestamp = data.removeValue(forKey: "Time")
+                                        let seasonData = try? JSONSerialization.data(withJSONObject: data, options: [])
                     if let season = try? JSONDecoder().decode(RealmSeason.self, from: seasonData!) {
+                        if let timestamp = timestamp as? Timestamp {
+                            season.timeUpdated = TimeInterval(timestamp.seconds)
+                        }
                         seasons.append(season)
                     } else {
                         print("\nCouldn't get season from: \(document.data())\n")
@@ -135,7 +138,7 @@ class FirebaseStore {
                         print("\nerror getAnime: ", error)
                     }
                 }
-                print("resultAnimes.count", resultAnimes.count)
+                print(season.databaseId(), resultAnimes.count)
                 single(.success(resultAnimes))
                 return
             }
