@@ -29,22 +29,22 @@ class ResultTableViewCell: UITableViewCell {
         contentView.addSubview(nameLabel)
         contentView.addSubview(seasonLabel)
 
-        if let anime = searchResult as? RealmAnimeSeries {
+        if let anime = searchResult as? AnimeSeries {
             configureCell(from: anime)
-        } else if let song = searchResult as? RealmAnimeSong {
+        } else if let song = searchResult as? AnimeSong {
             configureCell(from: song)
         }
 
         setConstraints()
     }
 
-    fileprivate func configureCell(from anime: RealmAnimeSeries) {
+    fileprivate func configureCell(from anime: AnimeSeries) {
         animeImage.setImage(for: anime)
         nameLabel.text = anime.name
         seasonLabel.text = anime.season + " " + anime.year
     }
 
-    fileprivate func configureCell(from song: RealmAnimeSong) {
+    fileprivate func configureCell(from song: AnimeSong) {
         animeImage.image = UIImage(systemName: "music.note")
         nameLabel.text = song.nameEnglish
         seasonLabel.text = song.artists.first?.name

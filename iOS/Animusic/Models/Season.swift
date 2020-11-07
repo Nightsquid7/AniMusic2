@@ -8,7 +8,7 @@
 import Foundation
 import RealmSwift
 
-class RealmSeason: Object, Codable {
+class Season: Object, Codable {
     // MARK: - Properties
     @objc dynamic var season: String = ""
     @objc dynamic var year: String = ""
@@ -24,7 +24,7 @@ class RealmSeason: Object, Codable {
 
 }
 
-extension RealmSeason {
+extension Season {
     func titleString() -> String {
         return season + " " + year
     }

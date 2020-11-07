@@ -11,11 +11,11 @@ class DisplayAnimeViewModel {
     let realm = try! Realm()
     let disposeBag = DisposeBag()
 
-    var animes: Results<RealmAnimeSeries>
+    var animes: Results<AnimeSeries>
 
     func showBookmarkedAnimes() {
         animes = realm
-            .objects(RealmAnimeSeries.self)
+            .objects(AnimeSeries.self)
             .filter(NSPredicate(format: "bookmarked = true"))
 
         sections.onNext( animes.map { BookmarkedAnimeViewSection(items: [$0]) })
@@ -23,7 +23,7 @@ class DisplayAnimeViewModel {
 
     init() {
         animes = realm
-            .objects(RealmAnimeSeries.self)
+            .objects(AnimeSeries.self)
             .filter(NSPredicate(format: "bookmarked = true"))
 
         sections.onNext( animes.map { BookmarkedAnimeViewSection(items: [$0]) })
@@ -44,10 +44,10 @@ class DisplayAnimeViewModel {
         let byName = NSPredicate(format: name, queryString)
         let byNamesOrArtistNames = NSPredicate(format: namesOrArtistNames, queryString, queryString, [queryString])
 
-        let matchingAnimes: [SearchResult] = realm.objects(RealmAnimeSeries.self)
+        let matchingAnimes: [SearchResult] = realm.objects(AnimeSeries.self)
             .filter(byName)
             .map { $0 }
-        let matchingSongs: [SearchResult] = realm.objects(RealmAnimeSong.self)
+        let matchingSongs: [SearchResult] = realm.objects(AnimeSong.self)
             .filter(byNamesOrArtistNames)
             .map { $0 }
         let results = matchingAnimes + matchingSongs

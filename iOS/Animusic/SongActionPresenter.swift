@@ -5,7 +5,7 @@ import MediaPlayer
 protocol SongActionPresenter {}
 
 extension SongActionPresenter {
-    func presentAlertController(vc: UIViewController, song: RealmAnimeSong) {
+    func presentAlertController(vc: UIViewController, song: AnimeSong) {
         let titleString = song.name
         let ac = UIAlertController(title: titleString, message: "", preferredStyle: .actionSheet)
         if let iPadPopoverPC = ac.popoverPresentationController {
@@ -20,7 +20,7 @@ extension SongActionPresenter {
         vc.present(ac, animated: true)
     }
 
-    fileprivate func addAction(for sourceType: SourceType, ac: UIAlertController, song: RealmAnimeSong) {
+    fileprivate func addAction(for sourceType: SourceType, ac: UIAlertController, song: AnimeSong) {
         var actionTitle = "Search"
         let formattedSongName = song.nameEnglish.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
         var url: URL?

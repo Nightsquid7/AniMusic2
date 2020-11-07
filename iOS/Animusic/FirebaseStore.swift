@@ -21,7 +21,7 @@ class FirebaseStore {
     let disposeBag = DisposeBag()
 
     enum FirebaseError: Error {
-        case couldNotGetAnime(season: RealmSeason, error: Error)
+        case couldNotGetAnime(season: Season, error: Error)
         case couldNotGetSeason(_ error: Error)
     }
 
@@ -32,19 +32,19 @@ class FirebaseStore {
     }
 
     public func updateLocalRealm() {
-        let realmSeasons = Observable.collection(from: realm.objects(RealmSeason.self))
+        let savedSeasons = Observable.collection(from: realm.objects(Season.self))
             .take(1)
 
         let firebaseSeasons = getSeasonsListFromFireStore()
             .asObservable()
             .share()
 
-        let seasonsToDownload = Observable.combineLatest(realmSeasons, firebaseSeasons)
-            .map { realmSeasons, firebaseSeasons  -> [RealmSeason] in
+        let seasonsToDownload = Observable.combineLatest(savedSeasons, firebaseSeasons)
+            .map { savedSeasons, firebaseSeasons  -> [Season] in
 
-                let realmSeasonNames = realmSeasons.map { $0.titleString() }
+                let savedSeasonNames = savedSeasons.map { $0.titleString() }
                 return firebaseSeasons.compactMap { seasonInFirebase in
-                    if realmSeasonNames.contains(seasonInFirebase.titleString()) {
+                    if savedSeasonNames.contains(seasonInFirebase.titleString()) {
                         return nil
                     }
                     print("downloading new season \(seasonInFirebase.titleString())")
@@ -83,8 +83,8 @@ class FirebaseStore {
     }
 
     // get the list of seasons of animes stored in firebase
-    private func getSeasonsListFromFireStore() -> Single<[RealmSeason]> {
-        return Single<[RealmSeason]>.create { single in
+    private func getSeasonsListFromFireStore() -> Single<[Season]> {
+        return Single<[Season]>.create { single in
             let seasonRef = self.db.collection("Seasons-List")
             seasonRef.getDocuments { (querySnapshot, error) in
                 if let error = error {
@@ -92,12 +92,12 @@ class FirebaseStore {
                     return
                 }
                 guard let documents = querySnapshot?.documents else { return }
-                var seasons = [RealmSeason]()
+                var seasons = [Season]()
                 for document in documents {
                     var data = document.data()
                     let timestamp = data.removeValue(forKey: "Time")
                                         let seasonData = try? JSONSerialization.data(withJSONObject: data, options: [])
-                    if let season = try? JSONDecoder().decode(RealmSeason.self, from: seasonData!) {
+                    if let season = try? JSONDecoder().decode(Season.self, from: seasonData!) {
                         if let timestamp = timestamp as? Timestamp {
                             season.timeUpdated = TimeInterval(timestamp.seconds)
                         }
@@ -113,8 +113,8 @@ class FirebaseStore {
     }
 
     // get all anime from the given season
-    private func getAnime(from season: RealmSeason) -> Single<[RealmAnimeSeries]> {
-        return Single<[RealmAnimeSeries]>.create { single in
+    private func getAnime(from season: Season) -> Single<[AnimeSeries]> {
+        return Single<[AnimeSeries]>.create { single in
             print("Getting all anime from: \(season.databaseId())")
             let animeRef = self.db.collection(season.databaseId())
             animeRef.getDocuments { (querySnapshot, error) in
@@ -128,11 +128,11 @@ class FirebaseStore {
                     return
                 }
 
-                var resultAnimes = [RealmAnimeSeries]()
+                var resultAnimes = [AnimeSeries]()
                 for document in documents {
                     do {
                         let animeData = try JSONSerialization.data(withJSONObject: document.data(), options: [])
-                        let anime = try JSONDecoder().decode(RealmAnimeSeries.self, from: animeData)
+                        let anime = try JSONDecoder().decode(AnimeSeries.self, from: animeData)
                         resultAnimes.append(anime)
                     } catch {
                         print("\nerror getAnime: ", error)

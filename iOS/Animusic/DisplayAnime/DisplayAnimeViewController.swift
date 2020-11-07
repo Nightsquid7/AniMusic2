@@ -74,7 +74,7 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
 
         tableView.rx.modelSelected(SearchResult.self)
             .subscribe(onNext: { searchResult in
-                if let anime = searchResult as? RealmAnimeSeries {
+                if let anime = searchResult as? AnimeSeries {
                     self.navigator.show(segue: .animeSeriesViewController(anime: anime), sender: self)
                 }
             })

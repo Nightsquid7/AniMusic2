@@ -15,7 +15,7 @@ struct AnimeSongViewSection {
     var items: [SectionItem]
 
     enum SectionItem {
-        case DefaultSongItem(song: RealmAnimeSong)
+        case DefaultSongItem(song: AnimeSong)
     }
 }
 
@@ -31,11 +31,11 @@ extension AnimeSongViewSection: SectionModelType {
 class AnimeSeriesViewModel {
 
     let realm = try! Realm()
-    let anime: RealmAnimeSeries
+    let anime: AnimeSeries
 
     let sections = BehaviorSubject<[AnimeSongViewSection]>(value: [])
 
-    init(with anime: RealmAnimeSeries) {
+    init(with anime: AnimeSeries) {
         self.anime = anime
 
         sections.onNext( anime.songs.map { song in

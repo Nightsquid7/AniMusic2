@@ -27,7 +27,7 @@ class AnimeSongTableViewCell: UITableViewCell {
         return label
     }()
 
-    func configureCell(from song: RealmAnimeSong) {
+    func configureCell(from song: AnimeSong) {
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         nameEnglishLabel.translatesAutoresizingMaskIntoConstraints = false
         artistLabel.translatesAutoresizingMaskIntoConstraints = false

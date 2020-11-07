@@ -21,7 +21,7 @@ extension SearchResult {
     }
 }
 
-class RealmAnimeSeries: Object, Decodable {
+class AnimeSeries: Object, Decodable {
 
     @objc dynamic var id: String = ""
     @objc dynamic var name: String = ""
@@ -30,7 +30,7 @@ class RealmAnimeSeries: Object, Decodable {
     @objc dynamic var season: String = ""
     @objc dynamic var year: String = ""
     @objc dynamic var titleImageName: String = ""
-    var songs = List<RealmAnimeSong>()
+    var songs = List<AnimeSong>()
     @objc dynamic var bookmarked: Bool = false
 
     enum CodingKeys: String, CodingKey {
@@ -58,7 +58,7 @@ class RealmAnimeSeries: Object, Decodable {
         titleImageName = try values.decode(String.self, forKey: .titleImageName)
 
         let nestedValues = try decoder.container(keyedBy: AdditionalCodingKeys.self)
-        if let nestedSongs = try? nestedValues.decode([String: RealmAnimeSong].self, forKey: .songsDict) {
+        if let nestedSongs = try? nestedValues.decode([String: AnimeSong].self, forKey: .songsDict) {
             songs = List(array: nestedSongs.map { $0.value })
         }
     }
@@ -66,7 +66,7 @@ class RealmAnimeSeries: Object, Decodable {
     required init() {}
 }
 
-extension RealmAnimeSeries: SearchResult {
+extension AnimeSeries: SearchResult {
     func containsSpotify() -> Bool {
         return songs.contains(where: {$0.containsSpotify()})
     }
@@ -75,16 +75,16 @@ extension RealmAnimeSeries: SearchResult {
     }
 }
 
-class RealmAnimeSong: Object, Decodable {
+class AnimeSong: Object, Decodable {
 
     @objc dynamic var id: String = ""
     @objc dynamic var name: String = ""
     @objc dynamic var nameEnglish: String = ""
     @objc dynamic var classification: String = ""
     @objc dynamic var relation: String = ""
-    var artists = List<RealmArtist>()
-    var ranges = List<RealmEpisodeRange>()
-    var sources = List<RealmSongSearchResult>()
+    var artists = List<Artist>()
+    var ranges = List<EpisodeRange>()
+    var sources = List<SongSearchResult>()
 
     enum CodingKeys: String, CodingKey {
         case id = "Id"
@@ -108,13 +108,13 @@ class RealmAnimeSong: Object, Decodable {
         classification = try values.decode(String.self, forKey: .classification)
         relation = try values.decode(String.self, forKey: .relation)
 
-        artists = try values.decode(List<RealmArtist>.self, forKey: .artists)
+        artists = try values.decode(List<Artist>.self, forKey: .artists)
         let nestedValues = try decoder.container(keyedBy: NestedCodingKeys.self)
-        if let nestedRanges = try? nestedValues.decode([RealmEpisodeRange].self, forKey: .ranges) {
+        if let nestedRanges = try? nestedValues.decode([EpisodeRange].self, forKey: .ranges) {
             ranges = List(array: nestedRanges.map { $0 })
         }
 
-        if let nestedSources = try? nestedValues.decode([String: RealmSongSearchResult].self, forKey: .sources) {
+        if let nestedSources = try? nestedValues.decode([String: SongSearchResult].self, forKey: .sources) {
             sources = List(array: nestedSources.map { $0.value })
         }
     }
@@ -122,13 +122,13 @@ class RealmAnimeSong: Object, Decodable {
     required init() {}
 
     // calculate the value for sorting based on relation and first ranges
-    // TODO: Implement RealmAnimes.value() with non-optional values
+    // TODO: Implement Animes.value() with non-optional values
     func value() -> Int {
         return 7
     }
 }
 
-extension RealmAnimeSong: SearchResult {
+extension AnimeSong: SearchResult {
     func containsSpotify() -> Bool {
         return sources.filter { $0.type == "Spotify" }.count > 0
     }
@@ -152,14 +152,14 @@ enum Relation: String {
     }
 }
 
-extension RealmAnimeSong: Comparable {
-    static func < (lhs: RealmAnimeSong, rhs: RealmAnimeSong) -> Bool {
+extension AnimeSong: Comparable {
+    static func < (lhs: AnimeSong, rhs: AnimeSong) -> Bool {
         return lhs.value() < rhs.value()
     }
 
 }
 
-class RealmEpisodeRange: Object, Decodable {
+class EpisodeRange: Object, Decodable {
     var start: Int = 0
     var end: Int = 0
 
@@ -169,7 +169,7 @@ class RealmEpisodeRange: Object, Decodable {
     }
 }
 
-class RealmSongSearchResult: Object, Decodable {
+class SongSearchResult: Object, Decodable {
     @objc dynamic var relation: String = ""
     @objc dynamic var songId: String = ""
     @objc dynamic var URI: String = "" // link to spotify/apple music
@@ -201,7 +201,7 @@ enum SourceType: String, CaseIterable {
     case GoogleMusic = "GoogleMusic"
 }
 
-class RealmArtist: Object, Decodable {
+class Artist: Object, Decodable {
     @objc dynamic var id: String = ""
     @objc dynamic var name: String = ""
     @objc dynamic var nameEnglish: String = ""

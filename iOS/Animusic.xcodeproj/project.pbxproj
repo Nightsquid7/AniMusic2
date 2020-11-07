@@ -10,14 +10,14 @@
 		013FB2BCB358876BA78A792C /* Pods_Animusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB644DD196B0CDD5BD30496F /* Pods_Animusic.framework */; };
 		4B07C849E90FD8EC31F61161 /* Pods_AnimusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D1F4ECD9A5E4AF51E9CDD3 /* Pods_AnimusicUITests.framework */; };
 		53123C4C242A02DA002897E8 /* AnimeSeriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */; };
-		531C9644242DAB9700214FF1 /* RealmSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C9643242DAB9700214FF1 /* RealmSeason.swift */; };
+		531C9644242DAB9700214FF1 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531C9643242DAB9700214FF1 /* Season.swift */; };
 		532B863C243059CB00924B40 /* AnimeSongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532B863B243059CB00924B40 /* AnimeSongTableViewCell.swift */; };
 		533345202426F2260074C258 /* FirebaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333451F2426F2260074C258 /* FirebaseStore.swift */; };
 		5337E99D253964DA00CCD3E2 /* Realm+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5337E99C253964DA00CCD3E2 /* Realm+.swift */; };
 		534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B7B3A2429869A002A3EAC /* Navigator.swift */; };
 		534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B7B47242990FC002A3EAC /* AnimeSeriesViewController.swift */; };
 		534C844E246BB03900CCE8DF /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C844D246BB03900CCE8DF /* ResultTableViewCell.swift */; };
-		535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* RealmAnimeSeries.swift */; };
+		535643552424583600C96075 /* AnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* AnimeSeries.swift */; };
 		5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75D2435778B00D19B53 /* UIKitExtensions.swift */; };
 		538DB3AE247B9BCB00271438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */; };
 		53C740D325481D0200E6F397 /* SongActionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C740D225481D0200E6F397 /* SongActionPresenter.swift */; };
@@ -54,14 +54,14 @@
 		215F0CABE8E1BEEC61226ED8 /* Pods-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-iOSTests/Pods-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		26D1F4ECD9A5E4AF51E9CDD3 /* Pods_AnimusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53123C4B242A02DA002897E8 /* AnimeSeriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeSeriesViewModel.swift; sourceTree = "<group>"; };
-		531C9643242DAB9700214FF1 /* RealmSeason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSeason.swift; sourceTree = "<group>"; };
+		531C9643242DAB9700214FF1 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
 		532B863B243059CB00924B40 /* AnimeSongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSongTableViewCell.swift; sourceTree = "<group>"; };
 		5333451F2426F2260074C258 /* FirebaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStore.swift; sourceTree = "<group>"; };
 		5337E99C253964DA00CCD3E2 /* Realm+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+.swift"; sourceTree = "<group>"; };
 		534B7B3A2429869A002A3EAC /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		534B7B47242990FC002A3EAC /* AnimeSeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeriesViewController.swift; sourceTree = "<group>"; };
 		534C844D246BB03900CCE8DF /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
-		535643542424583600C96075 /* RealmAnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmAnimeSeries.swift; sourceTree = "<group>"; };
+		535643542424583600C96075 /* AnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeries.swift; sourceTree = "<group>"; };
 		5371F75D2435778B00D19B53 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		53C740D225481D0200E6F397 /* SongActionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongActionPresenter.swift; sourceTree = "<group>"; };
@@ -164,8 +164,8 @@
 		534B7B3D24298ECB002A3EAC /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				531C9643242DAB9700214FF1 /* RealmSeason.swift */,
-				535643542424583600C96075 /* RealmAnimeSeries.swift */,
+				531C9643242DAB9700214FF1 /* Season.swift */,
+				535643542424583600C96075 /* AnimeSeries.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -519,8 +519,8 @@
 			files = (
 				533345202426F2260074C258 /* FirebaseStore.swift in Sources */,
 				534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */,
-				531C9644242DAB9700214FF1 /* RealmSeason.swift in Sources */,
-				535643552424583600C96075 /* RealmAnimeSeries.swift in Sources */,
+				531C9644242DAB9700214FF1 /* Season.swift in Sources */,
+				535643552424583600C96075 /* AnimeSeries.swift in Sources */,
 				534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */,
 				5337E99D253964DA00CCD3E2 /* Realm+.swift in Sources */,
 				53FFA5CE242450B000194B85 /* AppDelegate.swift in Sources */,

@@ -36,7 +36,7 @@ extension UITableView {
 
 // MARK: UIImage
 extension UIImageView {
-    func setImage(for anime: RealmAnimeSeries) {
+    func setImage(for anime: AnimeSeries) {
         let imageName = anime.titleImageName
         let url = URL(string: "https://animusic2-70683.firebaseapp.com/\(imageName)")
         self.kf.setImage(with: url, options: [])

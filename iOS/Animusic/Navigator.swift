@@ -16,7 +16,7 @@ class Navigator {
 
     enum Segue {
         case displayAnimeViewController
-        case animeSeriesViewController(anime: RealmAnimeSeries)
+        case animeSeriesViewController(anime: AnimeSeries)
     }
 
     func show(segue: Segue, sender: UIViewController) {
