@@ -1,3 +1,4 @@
+import Foundation
 import UIKit
 import RxSwift
 import RxCocoa
@@ -27,6 +28,9 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
         setUptableView()
         setUpConstraints()
         setUpViewModelDataSource()
+        if shouldDisplayEmptyBookmarksMessage() {
+            displayEmptyBookmarksMessage()
+        }
     }
 
     func setUpNavigationController() {
@@ -75,6 +79,7 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
                 }
             })
             .disposed(by: disposeBag)
+
     }
 
     func setUpConstraints() {
@@ -86,6 +91,18 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
             tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 10)
         ]
         NSLayoutConstraint.activate(tableViewConstraints)
+    }
+
+    func shouldDisplayEmptyBookmarksMessage() -> Bool {
+        return UserDefaults.standard.bool(forKey: "displayEmptyBookmarksMessage") == false
+    }
+
+    func displayEmptyBookmarksMessage() {
+        let ac = UIAlertController(title: "No bookmarked animes yet", message: "Animes you bookmark will be saved here", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { _ in
+            UserDefaults.standard.setValue(true, forKey: "displayEmptyBookmarksMessage")
+        }))
+        present(ac, animated: true)
     }
 
 }
