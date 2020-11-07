@@ -201,6 +201,12 @@ enum SourceType: String, CaseIterable {
     case GoogleMusic = "GoogleMusic"
 }
 
+extension SourceType {
+    static func allCasesToString() -> [String] {
+        return SourceType.allCases.map { $0.rawValue }
+    }
+    
+}
 class Artist: Object, Decodable {
     @objc dynamic var id: String = ""
     @objc dynamic var name: String = ""

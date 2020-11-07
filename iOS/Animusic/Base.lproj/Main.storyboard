@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="-1714" y="87"/>
         </scene>
-        <!--Display Anime View Controller-->
+        <!--Item-->
         <scene sceneID="0ao-DY-EMz">
             <objects>
                 <viewController storyboardIdentifier="DisplayAnimeViewController" id="B2i-aH-3Io" customClass="DisplayAnimeViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,29 +49,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="B2i-aH-3Io" kind="relationship" relationship="viewControllers" id="M2u-Lo-4Sa"/>
+                        <segue destination="SZg-wd-Dqe" kind="relationship" relationship="viewControllers" id="rB6-Y5-FTX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rR4-kU-N4J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1654" y="869"/>
-        </scene>
-        <!--Results Table Controller-->
-        <scene sceneID="qec-g7-oAk">
-            <objects>
-                <tableViewController storyboardIdentifier="ResultsTableController" id="PI4-8f-ixg" customClass="ResultsTableController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="vHe-ZG-FKe">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <connections>
-                            <outlet property="dataSource" destination="PI4-8f-ixg" id="Yyh-jD-R2p"/>
-                            <outlet property="delegate" destination="PI4-8f-ixg" id="QIY-uB-bPr"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="36X-IS-FAA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-868" y="868.9655172413793"/>
+            <point key="canvasLocation" x="-1714" y="869"/>
         </scene>
         <!--Anime Series View Controller-->
         <scene sceneID="S1q-oD-XUn">
@@ -87,6 +70,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X2B-rQ-WNH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="14" y="86"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="c95-zT-Mk6">
+            <objects>
+                <viewController id="SZg-wd-Dqe" customClass="UserPreferencesViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aUl-MU-p4b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4mv-vi-zZJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="piq-yJ-B7P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhy-4X-oSk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-868" y="869"/>
         </scene>
     </scenes>
     <resources>
