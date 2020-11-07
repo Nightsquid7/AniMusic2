@@ -4,6 +4,7 @@ scraper/.vscode/launch.json
 animusic2-*.json
 
 scraper/cmd/animusic/.cache/images/
+scraper/cmd/animusic/.cache/buffer/
 scraper/cmd/animusic/list
 scraper/cmd/animusic/nextSeasonCommand.txt
 
