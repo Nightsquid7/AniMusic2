@@ -15,12 +15,15 @@ class Navigator {
     static let sharedInstance = Navigator()
 
     enum Segue {
+        case tabBarController
         case displayAnimeViewController
         case animeSeriesViewController(anime: AnimeSeries)
     }
 
     func show(segue: Segue, sender: UIViewController) {
         switch segue {
+        case .tabBarController:
+            show(target: TabBarController.createWith(storyboard: defaultStoryboard), sender: sender)
         case .displayAnimeViewController:
             show(target: DisplayAnimeViewController.createWith(storyboard: defaultStoryboard), sender: sender)
         case .animeSeriesViewController(let anime):

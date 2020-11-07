@@ -16,6 +16,7 @@ extension SongActionPresenter {
         for sourceType in SourceType.allCases {
             addAction(for: sourceType, ac: ac, song: song)
         }
+
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         vc.present(ac, animated: true)
     }

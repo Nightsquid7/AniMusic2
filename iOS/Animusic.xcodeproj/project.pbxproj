@@ -17,6 +17,7 @@
 		534B7B3B2429869A002A3EAC /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B7B3A2429869A002A3EAC /* Navigator.swift */; };
 		534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B7B47242990FC002A3EAC /* AnimeSeriesViewController.swift */; };
 		534C844E246BB03900CCE8DF /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534C844D246BB03900CCE8DF /* ResultTableViewCell.swift */; };
+		534D757F255687A600278DB2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D757E255687A600278DB2 /* TabBarController.swift */; };
 		535643552424583600C96075 /* AnimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535643542424583600C96075 /* AnimeSeries.swift */; };
 		5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75D2435778B00D19B53 /* UIKitExtensions.swift */; };
 		538DB3AE247B9BCB00271438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */; };
@@ -61,6 +62,7 @@
 		534B7B3A2429869A002A3EAC /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		534B7B47242990FC002A3EAC /* AnimeSeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeriesViewController.swift; sourceTree = "<group>"; };
 		534C844D246BB03900CCE8DF /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		534D757E255687A600278DB2 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		535643542424583600C96075 /* AnimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeries.swift; sourceTree = "<group>"; };
 		5371F75D2435778B00D19B53 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				534B7B3A2429869A002A3EAC /* Navigator.swift */,
 				5333451F2426F2260074C258 /* FirebaseStore.swift */,
 				53C740D225481D0200E6F397 /* SongActionPresenter.swift */,
+				534D757E255687A600278DB2 /* TabBarController.swift */,
 				53B11116243D5A57008980E5 /* DisplayAnime */,
 				534B7B42242990A0002A3EAC /* AnimeSeries */,
 				534C844F246BB1C300CCE8DF /* ResultsTableController */,
@@ -518,6 +521,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				533345202426F2260074C258 /* FirebaseStore.swift in Sources */,
+				534D757F255687A600278DB2 /* TabBarController.swift in Sources */,
 				534B7B48242990FC002A3EAC /* AnimeSeriesViewController.swift in Sources */,
 				531C9644242DAB9700214FF1 /* Season.swift in Sources */,
 				535643552424583600C96075 /* AnimeSeries.swift in Sources */,

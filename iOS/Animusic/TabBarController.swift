@@ -23,9 +23,9 @@ class TabBarController: UITabBarController, UISearchBarDelegate {
 
 extension TabBarController {
     func setNavigationItemSearchController() {
-        if let discoverAnimeVC = selectedViewController as? DiscoverAnimeViewController {
+        if let displayAnimeViewController = selectedViewController as? DisplayAnimeViewController {
             navigationItem.searchController =
-                discoverAnimeVC.searchController
+                displayAnimeViewController.searchController
             self.navigationItem.hidesSearchBarWhenScrolling = false
         }
     }
