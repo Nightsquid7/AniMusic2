@@ -52,7 +52,7 @@ class AnimeSongTableViewCell: UITableViewCell {
 
         let nameLabelConstraints = [
             nameLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: toTopNeighbor),
-            nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: toLeadingNeighbor),
+            nameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: toLeadingNeighbor)
         ]
 
         let nameEnglishLabelConstraints = [

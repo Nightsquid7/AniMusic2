@@ -61,12 +61,12 @@ class ResultTableViewCell: UITableViewCell {
             animeImage.topAnchor.constraint(equalTo: contentView.topAnchor, constant: downOffset),
             animeImage.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: horizontalOffset),
             animeImage.heightAnchor.constraint(equalToConstant: imageHeight),
-            animeImage.widthAnchor.constraint(equalToConstant: imageWidth),
+            animeImage.widthAnchor.constraint(equalToConstant: imageWidth)
         ]
 
         let seasonLabelConstraints = [
             seasonLabel.bottomAnchor.constraint(equalTo: animeImage.bottomAnchor),
-            seasonLabel.leadingAnchor.constraint(equalTo: animeImage.trailingAnchor, constant: horizontalOffset),
+            seasonLabel.leadingAnchor.constraint(equalTo: animeImage.trailingAnchor, constant: horizontalOffset)
         ]
 
         let nameLabelConstraints = [

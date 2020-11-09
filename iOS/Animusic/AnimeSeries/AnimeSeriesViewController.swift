@@ -83,22 +83,8 @@ class AnimeSeriesViewController: UIViewController, SongActionPresenter {
     }
 
     func setUpViewModelDataSource() {
-        let dataSource = RxTableViewSectionedReloadDataSource<AnimeSongViewSection>(configureCell: { _, tableView, indexPath, item in
-            // configure different cells based on item type
-            switch item {
-            case .DefaultSongItem(let song):
-                let cell: AnimeSongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
-                cell.configureCell(from: song)
-                return cell
-            }
-        })
-
-        dataSource.titleForHeaderInSection = { dataSource, index in
-            return dataSource.sectionModels[index].header
-        }
-
         viewModel.sections
-            .bind(to: tableView.rx.items(dataSource: dataSource))
+            .bind(to: tableView.rx.items(dataSource: viewModel.dataSource))
             .disposed(by: disposeBag)
     }
 

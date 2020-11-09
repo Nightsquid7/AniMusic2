@@ -16,6 +16,7 @@ import RealmSwift
     var window: UIWindow?
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
     let navigator = Navigator()
+    let realmStore = RealmStore()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -24,6 +25,7 @@ import RealmSwift
         let store = FirebaseStore.sharedInstance
         store.updateLocalRealm()
 //        store.removeDefaultRealm()
+        realmStore.initUser()
         return true
     }
 

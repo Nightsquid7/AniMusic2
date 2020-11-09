@@ -32,6 +32,7 @@ class AnimeSeriesViewModel {
 
     let realm = try! Realm()
     let anime: AnimeSeries
+    let dataSource: RxTableViewSectionedReloadDataSource<AnimeSongViewSection>!
 
     let sections = BehaviorSubject<[AnimeSongViewSection]>(value: [])
 
@@ -51,6 +52,20 @@ class AnimeSeriesViewModel {
             return AnimeSongViewSection(header: song.relation,
                 items: [.DefaultSongItem(song: song)])
         })
+
+        dataSource = RxTableViewSectionedReloadDataSource<AnimeSongViewSection>(configureCell: { _, tableView, indexPath, item in
+            // configure different cells based on item type
+            switch item {
+            case .DefaultSongItem(let song):
+                let cell: AnimeSongTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
+                cell.configureCell(from: song)
+                return cell
+            }
+        })
+
+        dataSource.titleForHeaderInSection = { dataSource, index in
+            return dataSource.sectionModels[index].header
+        }
     }
 
     @objc func setBookmarked() {

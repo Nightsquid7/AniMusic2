@@ -16,3 +16,9 @@ extension List {
         }
     }
 }
+
+extension List where Element == String {
+    func asSourceTypes() -> [SourceType] {
+        return self.compactMap { SourceType(rawValue: $0) }
+    }
+}
