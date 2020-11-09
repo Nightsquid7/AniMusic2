@@ -59,7 +59,7 @@ class AnimeSeries: Object, Decodable {
 
         let nestedValues = try decoder.container(keyedBy: AdditionalCodingKeys.self)
         if let nestedSongs = try? nestedValues.decode([String: AnimeSong].self, forKey: .songsDict) {
-            songs = List(array: nestedSongs.map { $0.value })
+            songs = List(array: nestedSongs.map { $0.value } )
         }
     }
 
@@ -120,12 +120,6 @@ class AnimeSong: Object, Decodable {
     }
 
     required init() {}
-
-    // calculate the value for sorting based on relation and first ranges
-    // TODO: Implement Animes.value() with non-optional values
-    func value() -> Int {
-        return 7
-    }
 }
 
 extension AnimeSong: SearchResult {
@@ -134,6 +128,17 @@ extension AnimeSong: SearchResult {
     }
     func containsAppleMusic() -> Bool {
         return sources.filter { $0.type == "AppleMusic"}.count > 0
+    }
+}
+extension AnimeSong: Comparable {
+    static func < (lhs: AnimeSong, rhs: AnimeSong) -> Bool {
+        return lhs.value() < rhs.value()
+    }
+
+    func value() -> Int {
+        let earliestRange = ranges.sorted().first?.start ?? 0
+        let relationValue = Relation(rawValue: relation)?.value ?? 0
+        return earliestRange + relationValue
     }
 }
 
@@ -152,13 +157,6 @@ enum Relation: String {
     }
 }
 
-extension AnimeSong: Comparable {
-    static func < (lhs: AnimeSong, rhs: AnimeSong) -> Bool {
-        return lhs.value() < rhs.value()
-    }
-
-}
-
 class EpisodeRange: Object, Decodable {
     var start: Int = 0
     var end: Int = 0
@@ -167,6 +165,13 @@ class EpisodeRange: Object, Decodable {
         case start = "Start"
         case end = "End"
     }
+}
+extension EpisodeRange: Comparable {
+    static func < (lhs: EpisodeRange, rhs: EpisodeRange) -> Bool {
+        return lhs.start > rhs.start
+    }
+    
+    
 }
 
 class SongSearchResult: Object, Decodable {

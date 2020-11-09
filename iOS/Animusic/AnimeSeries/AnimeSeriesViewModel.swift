@@ -42,10 +42,8 @@ class AnimeSeriesViewModel {
         sections.onNext( anime.songs.map { song in
             // TODO: Add ranges to AnimeSeriesViewModel
             if song.ranges.count > 0 {
-                let earliest = song.ranges.map {$0.start}.min() ?? 0
-                let latest = song.ranges.map { $0.end }.max() ?? 0
-
-                return AnimeSongViewSection(header: "\(song.relation) ep \(earliest) - ep \(latest)",
+                var header = song.relation
+                return AnimeSongViewSection(header: header,
                     items: [.DefaultSongItem(song: song)])
             }
 
