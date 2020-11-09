@@ -195,15 +195,34 @@ class SongSearchResult: Object, Decodable {
 }
 
 enum SourceType: String, CaseIterable {
-    case spotify = "Spotify"
     case appleMusic = "AppleMusic"
+    case spotify = "Spotify"
     case youTube = "Youtube"
-    case GoogleMusic = "GoogleMusic"
+    case googleMusic = "GoogleMusic"
 }
 
 extension SourceType {
     static func allCasesToString() -> [String] {
         return SourceType.allCases.map { $0.rawValue }
+    }
+}
+
+extension SourceType: Comparable {
+    static func < (lhs: SourceType, rhs: SourceType) -> Bool {
+        return lhs.value() < rhs.value()
+    }
+    
+    func value() -> Int {
+        switch self {
+        case .appleMusic:
+            return 1
+        case .spotify:
+            return 2
+        case .youTube:
+            return 3
+        case .googleMusic:
+            return 4
+        }
     }
 }
 class Artist: Object, Decodable {

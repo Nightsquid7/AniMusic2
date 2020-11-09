@@ -2,6 +2,7 @@ import RealmSwift
 
 class RealmStore {
     let realm: Realm!
+    static let sharedInstance = RealmStore()
 
     init() {
         var config = Realm.Configuration()
@@ -21,5 +22,9 @@ class RealmStore {
                 print(error)
             }
         }
+    }
+    
+    func user() -> User? {
+        return realm.objects(User.self).first
     }
 }

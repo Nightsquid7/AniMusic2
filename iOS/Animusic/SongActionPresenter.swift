@@ -12,8 +12,10 @@ extension SongActionPresenter {
             iPadPopoverPC.sourceView = vc.view
             iPadPopoverPC.sourceRect = CGRect(x: vc.view.bounds.midX, y: vc.view.bounds.midY, width: 0, height: 0)
         }
+        let realmStore = RealmStore.sharedInstance
+        guard let user = realmStore.user()  else { return }
 
-        for sourceType in SourceType.allCases {
+        for sourceType in user.sources() {
             addAction(for: sourceType, ac: ac, song: song)
         }
 
@@ -33,29 +35,24 @@ extension SongActionPresenter {
                 actionTitle = "Open in"
                 url = URL(string: spotifySource.externalUrl)
             } else {
-                url = URL(string: "https://open.spotify.com/search/\(formattedSongName))")
+                return
             }
         case .appleMusic:
             if let appleMusicSource =  song.sources.first(where: { $0.type == "AppleMusic"}) {
                 actionTitle = "Open in"
-
                 player.setQueue(with: [appleMusicSource.URI])
-                player.prepareToPlay()
                 ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
                     player.play()
                 }))
 
                 return
-            } else {
-                actionTitle = "Something is wrong"
-                url = URL(string: "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
             }
+            return
         case .youTube:
             url = URL(string: "https://www.youtube.com/results?search_query=\(formattedSongName)")
-        case .GoogleMusic:
+        case .googleMusic:
             url = URL(string: "https://play.google.com/store/search?q=\(formattedSongName)&c=music&hl=en")
-        default:
-            return
+        
         }
 
         if let url = url {

@@ -16,7 +16,7 @@ import RealmSwift
     var window: UIWindow?
     let storyboard = UIStoryboard(name: "Main", bundle: nil)
     let navigator = Navigator()
-    let realmStore = RealmStore()
+    let realmStore = RealmStore.sharedInstance
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

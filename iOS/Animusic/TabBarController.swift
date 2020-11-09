@@ -8,7 +8,8 @@ class TabBarController: UITabBarController, UISearchBarDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tabBar.items![0].title = "Bookmarks"
+        tabBar.items![1].title = "Preferences"
     }
 
     override func viewWillAppear(_ animated: Bool) {

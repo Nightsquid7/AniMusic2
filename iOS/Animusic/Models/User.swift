@@ -1,7 +1,7 @@
 import RealmSwift
 
 class User: Object {
-     var preferredSources = List<String>()
+     private var preferredSources = List<String>()
 
     required init() {
         preferredSources = List(array: SourceType.allCasesToString())
@@ -9,6 +9,12 @@ class User: Object {
 }
 
 extension User {
+    func sources() -> [SourceType] {
+        return preferredSources
+            .asSourceTypes()
+            .sorted()
+    }
+
     func toggleSourceType(_ sourceType: SourceType) {
         if contains(sourceType) {
             let index = preferredSources.index(of: sourceType.rawValue)!
