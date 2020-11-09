@@ -11,10 +11,8 @@ class DisplayAnimeViewModel {
     let realm = try! Realm()
     let disposeBag = DisposeBag()
 
-    var animes: Results<AnimeSeries>
-
     func showBookmarkedAnimes() {
-        animes = realm
+        let animes = realm
             .objects(AnimeSeries.self)
             .filter(NSPredicate(format: "bookmarked = true"))
 
@@ -22,11 +20,14 @@ class DisplayAnimeViewModel {
     }
 
     init() {
-        animes = realm
-            .objects(AnimeSeries.self)
-            .filter(NSPredicate(format: "bookmarked = true"))
-
-        sections.onNext( animes.map { BookmarkedAnimeViewSection(items: [$0]) })
+        _ = Observable
+                  .collection(from: realm
+                                .objects(AnimeSeries.self)
+                                .filter(NSPredicate(format: "bookmarked = true")))
+            .subscribe(onNext: { bookmarkedAnimes in
+                self.sections.onNext( bookmarkedAnimes.map { BookmarkedAnimeViewSection(items: [$0]) })
+            })
+            .disposed(by: disposeBag)
 
         dataSource = RxTableViewSectionedReloadDataSource<BookmarkedAnimeViewSection>(configureCell: { _, tableView, indexPath, item in
             let cell = tableView.dequeueReusableCell(withIdentifier: "ResultTableViewCell", for: indexPath) as! ResultTableViewCell

@@ -52,7 +52,7 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
 
         _ = searchController.searchBar.rx.text
             .orEmpty
-            .filter { $0.count == 0}
+            .filter { $0.count == 0 }
             .subscribe(onNext: { _ in
                 self.viewModel.showBookmarkedAnimes()
             })
