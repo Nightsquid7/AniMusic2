@@ -18,6 +18,7 @@ class Navigator {
         case tabBarController
         case displayAnimeViewController
         case animeSeriesViewController(anime: AnimeSeries)
+        case webViewViewController(url: URL)
     }
 
     func show(segue: Segue, sender: UIViewController) {
@@ -29,6 +30,8 @@ class Navigator {
         case .animeSeriesViewController(let anime):
             let viewModel = AnimeSeriesViewModel(with: anime)
             show(target: AnimeSeriesViewController.createWith(storyboard: defaultStoryboard, viewModel: viewModel), sender: sender)
+        case .webViewViewController(let url):
+            show(target: WebViewViewController.createWith(storyboard: defaultStoryboard, url: url), sender: sender)
         }
     }
 

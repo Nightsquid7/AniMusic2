@@ -59,7 +59,7 @@ class AnimeSeries: Object, Decodable {
 
         let nestedValues = try decoder.container(keyedBy: AdditionalCodingKeys.self)
         if let nestedSongs = try? nestedValues.decode([String: AnimeSong].self, forKey: .songsDict) {
-            songs = List(array: nestedSongs.map { $0.value } )
+            songs = List(array: nestedSongs.map { $0.value })
         }
     }
 
@@ -141,6 +141,12 @@ extension AnimeSong: Comparable {
         return earliestRange + relationValue
     }
 }
+extension AnimeSong {
+    func description() -> String {
+        let artistName = artists.first?.nameEnglish ?? ""
+        return nameEnglish + artistName
+    }
+}
 
 enum Relation: String {
     case opening
@@ -170,8 +176,7 @@ extension EpisodeRange: Comparable {
     static func < (lhs: EpisodeRange, rhs: EpisodeRange) -> Bool {
         return lhs.start > rhs.start
     }
-    
-    
+
 }
 
 class SongSearchResult: Object, Decodable {
@@ -203,7 +208,6 @@ enum SourceType: String, CaseIterable {
     case appleMusic = "AppleMusic"
     case spotify = "Spotify"
     case youTube = "Youtube"
-    case googleMusic = "GoogleMusic"
 }
 
 extension SourceType {
@@ -216,7 +220,7 @@ extension SourceType: Comparable {
     static func < (lhs: SourceType, rhs: SourceType) -> Bool {
         return lhs.value() < rhs.value()
     }
-    
+
     func value() -> Int {
         switch self {
         case .appleMusic:
@@ -225,8 +229,6 @@ extension SourceType: Comparable {
             return 2
         case .youTube:
             return 3
-        case .googleMusic:
-            return 4
         }
     }
 }

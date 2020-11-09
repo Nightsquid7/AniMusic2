@@ -11,6 +11,7 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
     var tableView = UITableView()
     var viewModel = DisplayAnimeViewModel()
     var searchController = UISearchController()
+    let progressView = UIActivityIndicatorView()
 
     let navigator = Navigator.sharedInstance
     let realm = try! Realm()
@@ -31,6 +32,24 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
         if shouldDisplayEmptyBookmarksMessage() {
             displayEmptyBookmarksMessage()
         }
+
+        view.addSubview(progressView)
+        progressView.hidesWhenStopped = true
+        progressView.translatesAutoresizingMaskIntoConstraints = false
+        progressView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        progressView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+
+        viewModel.isLoading
+            .bind(to: progressView.rx.isAnimating)
+            .disposed(by: disposeBag)
+
+        viewModel.isLoading
+            .bind(to: tableView.rx.isHidden)
+            .disposed(by: disposeBag)
+
+        viewModel.isReady
+            .bind(to: searchController.searchBar.rx.isUserInteractionEnabled)
+            .disposed(by: disposeBag)
     }
 
     func setUpNavigationController() {
@@ -44,7 +63,7 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
 
         _ = searchController.searchBar.rx.text
             .orEmpty
-            .debounce(.milliseconds(150), scheduler: MainScheduler.instance)
+            .debounce(.milliseconds(350), scheduler: MainScheduler.instance)
             .filter { $0.count > 0 }
             .subscribe(onNext: { string in
                 self.viewModel.search(for: string)
@@ -56,6 +75,12 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
             .subscribe(onNext: { _ in
                 self.viewModel.showBookmarkedAnimes()
             })
+
+        _ = searchController.rx.didDismiss
+            .subscribe(onNext: {
+                self.viewModel.showBookmarkedAnimes()
+            })
+            .disposed(by: disposeBag)
 
         self.navigationItem.searchController = searchController
         self.navigationItem.hidesSearchBarWhenScrolling = false

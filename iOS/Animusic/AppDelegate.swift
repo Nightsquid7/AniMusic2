@@ -20,11 +20,9 @@ import RealmSwift
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        print("initializing app delegate")
         FirebaseApp.configure()
         let store = FirebaseStore.sharedInstance
         store.updateLocalRealm()
-//        store.removeDefaultRealm()
         realmStore.initUser()
         return true
     }

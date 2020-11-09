@@ -2,7 +2,9 @@ import UIKit
 import WebKit
 import MediaPlayer
 
-protocol SongActionPresenter {}
+protocol SongActionPresenter where Self: UIViewController {
+    var navigator: Navigator { get }
+}
 
 extension SongActionPresenter {
     func presentAlertController(vc: UIViewController, song: AnimeSong) {
@@ -25,7 +27,7 @@ extension SongActionPresenter {
 
     fileprivate func addAction(for sourceType: SourceType, ac: UIAlertController, song: AnimeSong) {
         var actionTitle = "Search"
-        let formattedSongName = song.nameEnglish.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        let formattedSongName = song.description().addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
         var url: URL?
 
         let player = MPMusicPlayerController.applicationQueuePlayer
@@ -34,8 +36,11 @@ extension SongActionPresenter {
             if let spotifySource = song.sources.first(where: { $0.type == "Spotify"}) {
                 actionTitle = "Open in"
                 url = URL(string: spotifySource.externalUrl)
-            } else {
-                return
+                if let url = url {
+                    ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
+                        UIApplication.shared.open(url)
+                    }))
+                }
             }
         case .appleMusic:
             if let appleMusicSource =  song.sources.first(where: { $0.type == "AppleMusic"}) {
@@ -44,21 +49,16 @@ extension SongActionPresenter {
                 ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
                     player.play()
                 }))
-
                 return
             }
-            return
         case .youTube:
             url = URL(string: "https://www.youtube.com/results?search_query=\(formattedSongName)")
-        case .googleMusic:
-            url = URL(string: "https://play.google.com/store/search?q=\(formattedSongName)&c=music&hl=en")
-        
+            if let url = url {
+                ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
+                    self.navigator.show(segue: .webViewViewController(url: url), sender: self)
+                }))
+            }
         }
 
-        if let url = url {
-            ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            }))
-        }
     }
 }

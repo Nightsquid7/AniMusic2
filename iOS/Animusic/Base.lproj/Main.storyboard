@@ -87,6 +87,21 @@
             </objects>
             <point key="canvasLocation" x="-868" y="869"/>
         </scene>
+        <!--Web View View Controller-->
+        <scene sceneID="no9-Ki-CTg">
+            <objects>
+                <viewController storyboardIdentifier="WebViewViewController" id="gzF-9s-g5N" customClass="WebViewViewController" customModule="AniMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5O5-UM-BjC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="CHZ-a3-0Dk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q5S-OT-tEh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14" y="869"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

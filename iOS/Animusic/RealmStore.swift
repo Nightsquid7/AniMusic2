@@ -23,7 +23,7 @@ class RealmStore {
             }
         }
     }
-    
+
     func user() -> User? {
         return realm.objects(User.self).first
     }
