@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1200"
+   LastUpgradeVersion = "0900"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "53FFA5C9242450B000194B85"
-               BuildableName = "AniMusic.app"
-               BlueprintName = "Animusic"
-               ReferencedContainer = "container:Animusic.xcodeproj">
+               BlueprintIdentifier = "B33BAF561F51F8D90001A751"
+               BuildableName = "FastlaneRunner"
+               BlueprintName = "FastlaneRunner"
+               ReferencedContainer = "container:FastlaneSwiftRunner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,37 +27,16 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B33BAF561F51F8D90001A751"
+            BuildableName = "FastlaneRunner"
+            BlueprintName = "FastlaneRunner"
+            ReferencedContainer = "container:FastlaneSwiftRunner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "53FFA5DF242450B100194B85"
-               BuildableName = "AnimusicTests.xctest"
-               BlueprintName = "AnimusicTests"
-               ReferencedContainer = "container:Animusic.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "53FFA5EA242450B100194B85"
-               BuildableName = "AnimusicUITests.xctest"
-               BlueprintName = "AnimusicUITests"
-               ReferencedContainer = "container:Animusic.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "538A4EB7255921E800BD617C"
-               BuildableName = "AniMusicUITestsFastlane.xctest"
-               BlueprintName = "AniMusicUITestsFastlane"
-               ReferencedContainer = "container:Animusic.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -74,12 +53,22 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "53FFA5C9242450B000194B85"
-            BuildableName = "AniMusic.app"
-            BlueprintName = "Animusic"
-            ReferencedContainer = "container:Animusic.xcodeproj">
+            BlueprintIdentifier = "B33BAF561F51F8D90001A751"
+            BuildableName = "FastlaneRunner"
+            BlueprintName = "FastlaneRunner"
+            ReferencedContainer = "container:FastlaneSwiftRunner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "lane testLane"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "logMode verbose"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -91,10 +80,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "53FFA5C9242450B000194B85"
-            BuildableName = "AniMusic.app"
-            BlueprintName = "Animusic"
-            ReferencedContainer = "container:Animusic.xcodeproj">
+            BlueprintIdentifier = "B33BAF561F51F8D90001A751"
+            BuildableName = "FastlaneRunner"
+            BlueprintName = "FastlaneRunner"
+            ReferencedContainer = "container:FastlaneSwiftRunner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
