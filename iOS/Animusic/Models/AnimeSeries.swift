@@ -206,7 +206,7 @@ class SongSearchResult: Object, Decodable {
 
 enum SourceType: String, CaseIterable {
     case appleMusic = "AppleMusic"
-    case spotify = "Spotify"
+//    case spotify = "Spotify"
     case youTube = "Youtube"
 }
 
@@ -225,8 +225,8 @@ extension SourceType: Comparable {
         switch self {
         case .appleMusic:
             return 1
-        case .spotify:
-            return 2
+//        case .spotify:
+//            return 2
         case .youTube:
             return 3
         }

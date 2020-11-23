@@ -32,16 +32,16 @@ extension SongActionPresenter {
 
         let player = MPMusicPlayerController.applicationQueuePlayer
         switch sourceType {
-        case .spotify:
-            if let spotifySource = song.sources.first(where: { $0.type == "Spotify"}) {
-                actionTitle = "Open in"
-                url = URL(string: spotifySource.externalUrl)
-                if let url = url {
-                    ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
-                        UIApplication.shared.open(url)
-                    }))
-                }
-            }
+//        case .spotify:
+//            if let spotifySource = song.sources.first(where: { $0.type == "Spotify"}) {
+//                actionTitle = "Open in"
+//                url = URL(string: spotifySource.externalUrl)
+//                if let url = url {
+//                    ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
+//                        UIApplication.shared.open(url)
+//                    }))
+//                }
+//            }
         case .appleMusic:
             if let appleMusicSource =  song.sources.first(where: { $0.type == "AppleMusic"}) {
                 actionTitle = "Open in"
