@@ -12,6 +12,6 @@ class Fastfile: LaneFile {
 	func screenshotsLane() {
 	desc("Generate new localized screenshots")
 		captureScreenshots(workspace: "Animusic.xcworkspace", scheme: "iOS")
-		uploadToAppStore(username: "stevenaaronberkowitz@gmail.com", app: "animusic", skipBinaryUpload: true, skipMetadata: true)
+		uploadToAppStore(username: "stevenaaronberkowitz@gmail.com", skipBinaryUpload: true, skipMetadata: true,app: "animusic")
 	}
 }

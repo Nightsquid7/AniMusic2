@@ -2,6 +2,7 @@ excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Pods
   - iOSTests
   - iOSUITests
+  - fastlane
 disabled_rules: 
   - line_length
   - identifier_name
