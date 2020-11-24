@@ -51,13 +51,13 @@ extension SongActionPresenter {
                 }))
                 return
             }
-        case .youTube:
-            url = URL(string: "https://www.youtube.com/results?search_query=\(formattedSongName)")
-            if let url = url {
-                ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
-                    self.navigator.show(segue: .webViewViewController(url: url), sender: self)
-                }))
-            }
+//        case .youTube:
+//            url = URL(string: "https://www.youtube.com/results?search_query=\(formattedSongName)")
+//            if let url = url {
+//                ac.addAction(UIAlertAction(title: "\(actionTitle) \(sourceType)", style: .default, handler: { _ in
+//                    self.navigator.show(segue: .webViewViewController(url: url), sender: self)
+//                }))
+//            }
         }
 
     }

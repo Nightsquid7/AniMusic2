@@ -8,7 +8,7 @@ class Snapshotfile: SnapshotfileProtocol {
        "iPhone 5",
        "iPad Pro (12.9-inch)",
        "iPad Pro (9.7-inch)",
-       "Apple TV 1080p"
+    //    "Apple TV 1080p"
        ]
     }
 
@@ -31,7 +31,7 @@ class Snapshotfile: SnapshotfileProtocol {
 
     // Choose which project/workspace to use
     // var project: String? { return "./Project.xcodeproj" }
-    // var workspace: String? { return "./Project.xcworkspace" }
+    var workspace: String? { return "./Project.xcworkspace" }
 
     // Arguments to pass to the app on launch. See https://docs.fastlane.tools/actions/snapshot/#launch-arguments
     // var launchArguments: [String] { return ["-favColor red"] }

@@ -50,6 +50,8 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
         viewModel.isReady
             .bind(to: searchController.searchBar.rx.isUserInteractionEnabled)
             .disposed(by: disposeBag)
+        
+        
     }
 
     func setUpNavigationController() {

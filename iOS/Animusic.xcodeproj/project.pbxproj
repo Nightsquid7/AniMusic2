@@ -26,8 +26,6 @@
 		536130232558BBCC009B4BC0 /* SourceTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536130222558BBCB009B4BC0 /* SourceTypeTableViewCell.swift */; };
 		5361304B2558C7C8009B4BC0 /* RealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5361304A2558C7C8009B4BC0 /* RealmStore.swift */; };
 		5371F75E2435778B00D19B53 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5371F75D2435778B00D19B53 /* UIKitExtensions.swift */; };
-		538A4E9E25591E0700BD617C /* UITesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538A4E9D25591E0700BD617C /* UITesting.swift */; };
-		538A4EA925591E8B00BD617C /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538A4EA825591E8B00BD617C /* SnapshotHelper.swift */; };
 		538A4EBB255921E800BD617C /* AniMusicUITestsFastlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538A4EBA255921E800BD617C /* AniMusicUITestsFastlane.swift */; };
 		538A4EC9255921FF00BD617C /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538A4EC8255921FF00BD617C /* SnapshotHelper.swift */; };
 		538DB3AE247B9BCB00271438 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 538DB3AD247B9BCB00271438 /* GoogleService-Info.plist */; };
@@ -90,9 +88,6 @@
 		5371F75D2435778B00D19B53 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		538A4E8725591D4C00BD617C /* AniMusic-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AniMusic-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		538A4E9B25591E0700BD617C /* UITesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITesting.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		538A4E9D25591E0700BD617C /* UITesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITesting.swift; sourceTree = "<group>"; };
-		538A4E9F25591E0700BD617C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		538A4EA825591E8B00BD617C /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		538A4EB8255921E800BD617C /* AniMusicUITestsFastlane.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniMusicUITestsFastlane.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		538A4EBA255921E800BD617C /* AniMusicUITestsFastlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniMusicUITestsFastlane.swift; sourceTree = "<group>"; };
 		538A4EBC255921E800BD617C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -255,16 +250,6 @@
 			path = UserPreferences;
 			sourceTree = "<group>";
 		};
-		538A4E9C25591E0700BD617C /* UITesting */ = {
-			isa = PBXGroup;
-			children = (
-				538A4EA825591E8B00BD617C /* SnapshotHelper.swift */,
-				538A4E9D25591E0700BD617C /* UITesting.swift */,
-				538A4E9F25591E0700BD617C /* Info.plist */,
-			);
-			path = UITesting;
-			sourceTree = "<group>";
-		};
 		538A4EB9255921E800BD617C /* AniMusicUITestsFastlane */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,7 +275,6 @@
 				53FFA5CC242450B000194B85 /* Animusic */,
 				53FFA5E3242450B100194B85 /* AnimusicTests */,
 				53FFA5EE242450B100194B85 /* AnimusicUITests */,
-				538A4E9C25591E0700BD617C /* UITesting */,
 				538A4EB9255921E800BD617C /* AniMusicUITestsFastlane */,
 				53FFA5CB242450B000194B85 /* Products */,
 				0FEF6EA0687EFE1B0C0DBF43 /* Pods */,
@@ -705,8 +689,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				538A4E9E25591E0700BD617C /* UITesting.swift in Sources */,
-				538A4EA925591E8B00BD617C /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1050,7 +1032,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.62;
+				CURRENT_PROJECT_VERSION = 1.63;
 				DEVELOPMENT_TEAM = E939BBZ6X4;
 				INFOPLIST_FILE = Animusic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1071,7 +1053,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.62;
+				CURRENT_PROJECT_VERSION = 1.63;
 				DEVELOPMENT_TEAM = E939BBZ6X4;
 				INFOPLIST_FILE = Animusic/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
