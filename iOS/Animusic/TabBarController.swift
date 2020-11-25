@@ -8,8 +8,8 @@ class TabBarController: UITabBarController, UISearchBarDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tabBar.items![0].title = "Bookmarks"
-        tabBar.items![1].title = "Preferences"
+        tabBar.items![0].title = NSLocalizedString("Bookmarks", comment: "tab bar button title")
+        tabBar.items![1].title = NSLocalizedString( "Preferences", comment: "tab button title")
     }
 
     override func viewWillAppear(_ animated: Bool) {

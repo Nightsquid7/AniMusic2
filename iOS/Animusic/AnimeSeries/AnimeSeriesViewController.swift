@@ -52,8 +52,8 @@ class AnimeSeriesViewController: UIViewController, SongActionPresenter {
         navigationItem.title = viewModel.anime.name
         setUpBookmarkButton()
         imageView.setImage(for: viewModel.anime)
-        seasonLabel.text = "\(viewModel.anime.season) \(viewModel.anime.year)"
-        formatLabel.text = viewModel.anime.format
+        seasonLabel.text = viewModel.anime.seasonLabel()
+        formatLabel.text = NSLocalizedString(viewModel.anime.format, comment: "")
         setUpTableView()
         setUpViewModelDataSource()
         setUpTableViewCellSelectedActions()

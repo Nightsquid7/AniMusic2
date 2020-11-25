@@ -61,7 +61,7 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
     func setUpNavigationItem() {
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.searchBar.autocapitalizationType = .none
-        searchController.searchBar.placeholder = "Search Animes, Songs, Artists"
+        searchController.searchBar.placeholder = NSLocalizedString("SearchAnime", comment: "search by anime name/song name")
 
         _ = searchController.searchBar.rx.text
             .orEmpty

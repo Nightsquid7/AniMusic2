@@ -42,12 +42,12 @@ class AnimeSeriesViewModel {
         sections.onNext( anime.songs.map { song in
             // TODO: Add ranges to AnimeSeriesViewModel
             if song.ranges.count > 0 {
-                var header = song.relation
-                return AnimeSongViewSection(header: header,
+                
+                return AnimeSongViewSection(header: song.localizedRelation(),
                     items: [.DefaultSongItem(song: song)])
             }
 
-            return AnimeSongViewSection(header: song.relation,
+            return AnimeSongViewSection(header: song.localizedRelation(),
                 items: [.DefaultSongItem(song: song)])
         })
 

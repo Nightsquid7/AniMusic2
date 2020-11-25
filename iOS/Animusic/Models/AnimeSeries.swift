@@ -1,11 +1,3 @@
-//
-//  AnimeSeries.swift
-//  iOS
-//
-//  Created by Steven Berkowitz on R 2/03/20.
-//  Copyright © Reiwa 2 nightsquid. All rights reserved.
-//
-
 import Foundation
 import RealmSwift
 
@@ -17,7 +9,7 @@ protocol SearchResult {
 
 extension SearchResult {
     func sourceCount() -> Int {
-        return [containsSpotify(), containsAppleMusic()].filter { $0 == true }.count
+        return [/*containsSpotify(),*/ containsAppleMusic()].filter { $0 == true }.count
     }
 }
 
@@ -75,6 +67,11 @@ extension AnimeSeries: SearchResult {
     }
 }
 
+extension AnimeSeries {
+    func seasonLabel() -> String {
+        return NSLocalizedString(season, comment: "") + " \(year)"
+    }
+}
 class AnimeSong: Object, Decodable {
 
     @objc dynamic var id: String = ""
@@ -126,10 +123,12 @@ extension AnimeSong: SearchResult {
     func containsSpotify() -> Bool {
         return sources.filter { $0.type == "Spotify" }.count > 0
     }
+    
     func containsAppleMusic() -> Bool {
         return sources.filter { $0.type == "AppleMusic"}.count > 0
     }
 }
+
 extension AnimeSong: Comparable {
     static func < (lhs: AnimeSong, rhs: AnimeSong) -> Bool {
         return lhs.value() < rhs.value()
@@ -141,10 +140,15 @@ extension AnimeSong: Comparable {
         return earliestRange + relationValue
     }
 }
+
 extension AnimeSong {
     func description() -> String {
         let artistName = artists.first?.nameEnglish ?? ""
         return nameEnglish + artistName
+    }
+    
+    func localizedRelation() -> String {
+        return NSLocalizedString(relation, comment: "")
     }
 }
 
