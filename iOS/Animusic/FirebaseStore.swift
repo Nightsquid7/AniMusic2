@@ -19,7 +19,11 @@ class FirebaseStore {
     static let sharedInstance = FirebaseStore()
     let db = Firestore.firestore()
     let disposeBag = DisposeBag()
-
+    // used to flag when downloading anime is finished
+    var numberOfAnimeInFirebase: Int = .max
+    var numberOfSeasonsInFirebase = BehaviorSubject<Int>(value: 0)
+    var numberOfSeasonsDownloaded = BehaviorSubject<Int>(value: 0)
+    
     enum FirebaseError: Error {
         case couldNotGetAnime(season: Season, error: Error)
         case couldNotGetSeason(_ error: Error)
@@ -31,14 +35,28 @@ class FirebaseStore {
         realm = try? Realm(configuration: config)
     }
 
+    var firebaseSeasons: Observable<[Season]>!
+    var downloadedSeasons: Observable<[AnimeSeries]>!
+    
     public func updateLocalRealm() {
         let savedSeasons = Observable.collection(from: realm.objects(Season.self))
             .take(1)
 
-        let firebaseSeasons = getSeasonsListFromFireStore()
+        firebaseSeasons = getSeasonsListFromFireStore()
             .asObservable()
             .share()
 
+        // sum all counts of anime from firebase
+        firebaseSeasons
+            .subscribe(onNext: { seasons in
+                self.numberOfSeasonsInFirebase.onNext(seasons.count)
+                
+                self.numberOfAnimeInFirebase = seasons
+                    .map { $0.animeCount() }
+                    .reduce(0, +)
+            })
+            .disposed(by: disposeBag)
+        
         let seasonsToDownload = Observable.combineLatest(savedSeasons, firebaseSeasons)
             .map { savedSeasons, firebaseSeasons  -> [Season] in
 
@@ -61,14 +79,21 @@ class FirebaseStore {
             .subscribe(realm.rx.add())
             .disposed(by: disposeBag)
 
-        let downloadedAnimes = seasonsToDownload
+        downloadedSeasons = seasonsToDownload
             .flatMap { season in
-                self.getAnime(from: season)
+               self.getAnime(from: season)
             }
+            .share()
 
         // save animes to Realm
-        downloadedAnimes
+        downloadedSeasons
             .subscribe(realm.rx.add())
+            .disposed(by: disposeBag)
+        
+        downloadedSeasons
+            .subscribe(onNext: { season in
+                self.numberOfSeasonsDownloaded.onNext(try! self.numberOfSeasonsDownloaded.value() + 1)
+            })
             .disposed(by: disposeBag)
     }
 

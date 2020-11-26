@@ -11,7 +11,10 @@ class DisplayAnimeViewModel {
     var isLoading  = BehaviorSubject<Bool>(value: true)
     var isReady  = BehaviorSubject<Bool>(value: false)
 
-    let realm = try! Realm()
+    var seasonCount = BehaviorSubject<String>(value: "")
+    
+    let firebaseStore = FirebaseStore.sharedInstance
+    let realm: Realm
     let disposeBag = DisposeBag()
 
     func showBookmarkedAnimes() {
@@ -21,14 +24,31 @@ class DisplayAnimeViewModel {
 
         sections.onNext( animes.map { BookmarkedAnimeViewSection(items: [$0]) })
     }
+    
+    func showProgressString() -> Observable<String> {
+        return Observable<String>.create { observable in
+            let numberOfFirebaseSeasons = self.firebaseStore.firebaseSeasons
+                .map { $0.count }
+            _ = Observable.combineLatest(numberOfFirebaseSeasons, self.firebaseStore.numberOfSeasonsDownloaded)
+                .map { firebaseSeasons, downloadedSeasons in
+                    observable.onNext("Downloading \(downloadedSeasons) of \(firebaseSeasons) seasons")
+                }
+                .subscribe()
+                .disposed(by: self.disposeBag)
+
+            return Disposables.create()
+        }
+    }
 
     init() {
+        realm = firebaseStore.realm
 
         _ = Observable
             .collection(from: realm
                             .objects(AnimeSeries.self))
             .asObservable()
-            .filter { $0.count  > 4000}
+            // MARK: todo -> why is there a discrepancy between the number of saved anime and anime in firebase?
+            .filter { $0.count >= 4000 }
             .subscribe(onNext: { _ in
                 self.isLoading.onNext(false)
                 self.isReady.onNext(true)

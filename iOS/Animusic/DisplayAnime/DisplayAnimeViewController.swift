@@ -12,6 +12,7 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
     var viewModel = DisplayAnimeViewModel()
     var searchController = UISearchController()
     let progressView = UIActivityIndicatorView()
+    let progressLabel = UILabel()
 
     let navigator = Navigator.sharedInstance
     let realm = try! Realm()
@@ -51,7 +52,24 @@ class DisplayAnimeViewController: UIViewController, SongActionPresenter {
             .bind(to: searchController.searchBar.rx.isUserInteractionEnabled)
             .disposed(by: disposeBag)
         
+        view.addSubview(progressLabel)
+        progressLabel.frame = CGRect(x: 0,
+                                     y: view.bounds.midY,
+                                     width: view.frame.width,
+                                     height: 70)
         
+        progressLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true
+        progressLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 0).isActive = true
+        progressLabel.textAlignment = .center
+        
+        viewModel.showProgressString()
+            .bind(to: progressLabel.rx.text)
+            .disposed(by: disposeBag)
+        
+        viewModel.isReady
+            .bind(to: progressLabel.rx.isHidden)
+            .disposed(by: disposeBag)
+
     }
 
     func setUpNavigationController() {

@@ -32,4 +32,11 @@ extension Season {
     func databaseId() -> String {
         return season + "-" + year
     }
+    
+    func animeCount() -> Int {
+        guard let count = Int(count)  else {
+            return 0
+        }
+        return count
+    }
 }
